@@ -2,410 +2,245 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FLOW ARCHITECT — Hamza Gul</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>Trading Monitor — Hamza</title>
 <style>
-  :root {
-    --bg: #050709;
-    --bg2: #0a0d12;
-    --bg3: #0f1318;
-    --border: #1a2030;
-    --accent: #00e5a0;
-    --accent2: #ff4560;
-    --accent3: #f0a500;
-    --text: #c8d4e8;
-    --text2: #5a6a80;
-    --text3: #8a9ab0;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Syne', sans-serif;
-    overflow-x: hidden;
-    cursor: crosshair;
-  }
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: 
-      linear-gradient(rgba(0,229,160,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,229,160,0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
-  body::after {
-    content: '';
-    position: fixed;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(0,229,160,0.3), transparent);
-    animation: scan 8s linear infinite;
-    pointer-events: none;
-    z-index: 1;
-  }
-  @keyframes scan { 0% { top: -2px; } 100% { top: 100%; } }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0c0f; color:#d0d8e4; font-family:'Courier New',monospace; overflow:hidden; }
 
-  header {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    border-bottom: 1px solid var(--border);
-    background: rgba(5,7,9,0.95);
-    backdrop-filter: blur(20px);
-  }
-  .logo { display: flex; align-items: center; gap: 12px; }
-  .logo-icon {
-    width: 36px; height: 36px;
-    border: 1px solid var(--accent);
-    display: flex; align-items: center; justify-content: center;
-    position: relative;
-  }
-  .logo-icon::before {
-    content: ''; position: absolute; inset: 4px;
-    background: var(--accent); opacity: 0.2;
-  }
-  .logo-icon svg { width: 18px; height: 18px; stroke: var(--accent); fill: none; stroke-width: 2; }
-  .logo-text { font-size: 13px; font-weight: 700; letter-spacing: 4px; color: var(--accent); text-transform: uppercase; }
-  .logo-sub { font-family: 'Space Mono', monospace; font-size: 9px; color: var(--text2); letter-spacing: 2px; margin-top: 2px; }
+.header {
+  background:#13161b; border-bottom:1px solid #222830;
+  padding:10px 20px; display:flex; align-items:center; gap:16px;
+  height:46px;
+}
+.logo { color:#00d4aa; font-weight:bold; font-size:14px; letter-spacing:2px; }
+.status { display:flex; align-items:center; gap:6px; font-size:11px; }
+.dot { width:8px; height:8px; border-radius:50%; background:#00e676; animation:pulse 1.5s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.spacer { flex:1; }
+.time { font-size:11px; color:#5a6478; }
+.countdown {
+  font-size:11px; color:#ffa502;
+  padding:3px 10px; border:1px solid #ffa502;
+  border-radius:4px;
+}
 
-  nav { display: flex; gap: 4px; }
-  .nav-btn {
-    padding: 8px 16px;
-    font-family: 'Space Mono', monospace;
-    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
-    color: var(--text2); background: transparent; border: 1px solid transparent;
-    cursor: crosshair; transition: all 0.2s;
-  }
-  .nav-btn:hover, .nav-btn.active {
-    color: var(--accent); border-color: var(--accent); background: rgba(0,229,160,0.05);
-  }
+.main { display:flex; height:calc(100vh - 46px); }
 
-  .status-bar { display: flex; align-items: center; gap: 16px; font-family: 'Space Mono', monospace; font-size: 10px; }
-  .status-dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; animation: pulse 2s infinite; }
-  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+/* SOL — CHART */
+.chart-panel {
+  flex:1;
+  display:flex; align-items:center; justify-content:center;
+  padding:10px;
+  border-right:1px solid #222830;
+  overflow:hidden;
+}
+.chart-panel img {
+  max-width:100%; max-height:100%;
+  border-radius:6px; border:1px solid #222830;
+  object-fit:contain;
+}
+.loading { text-align:center; color:#5a6478; }
+.loading .icon { font-size:48px; margin-bottom:16px; }
 
-  .ticker {
-    position: relative; z-index: 5;
-    border-bottom: 1px solid var(--border);
-    padding: 10px 0; overflow: hidden;
-    background: var(--bg2);
-  }
-  .ticker-track { display: flex; gap: 40px; animation: ticker 25s linear infinite; white-space: nowrap; }
-  @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-  .ticker-item { font-family: 'Space Mono', monospace; font-size: 10px; color: var(--text2); letter-spacing: 2px; flex-shrink: 0; }
-  .ticker-item span { color: var(--accent); }
-  .ticker-item .red { color: var(--accent2); }
+/* SAĞ — ANALİZ */
+.analysis-panel {
+  width:320px; min-width:280px;
+  background:#0d0f13;
+  display:flex; flex-direction:column;
+  overflow:hidden;
+}
+.analysis-header {
+  padding:12px 16px; border-bottom:1px solid #222830;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.analysis-title { font-size:11px; letter-spacing:2px; color:#00d4aa; font-weight:bold; }
+.analysis-time { font-size:10px; color:#2a3040; }
 
-  .hero {
-    position: relative; z-index: 5;
-    padding: 60px 40px 40px;
-    display: grid; grid-template-columns: 1fr 1.2fr;
-    gap: 40px; align-items: center;
-    max-width: 1400px; margin: 0 auto;
-  }
-  .hero-left h1 { font-size: clamp(48px, 6vw, 80px); font-weight: 800; line-height: 0.9; letter-spacing: -2px; margin-bottom: 24px; }
-  .hero-left h1 .line1 { color: var(--text); }
-  .hero-left h1 .line2 { color: transparent; -webkit-text-stroke: 1px var(--accent); }
-  .hero-left h1 .line3 { color: var(--accent); }
-  .hero-desc {
-    font-family: 'Space Mono', monospace; font-size: 10px; line-height: 2;
-    color: var(--text2); letter-spacing: 1px; max-width: 400px; margin-bottom: 32px;
-    border-left: 2px solid var(--accent); padding-left: 16px;
-  }
-  .hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
-  .stat { background: var(--bg2); padding: 16px; text-align: center; }
-  .stat-val { font-size: 28px; font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 4px; }
-  .stat-val.red { color: var(--accent2); }
-  .stat-val.gold { color: var(--accent3); }
-  .stat-label { font-family: 'Space Mono', monospace; font-size: 8px; color: var(--text2); letter-spacing: 2px; text-transform: uppercase; }
+.analysis-body { flex:1; overflow-y:auto; padding:14px; }
+.analysis-body::-webkit-scrollbar { width:4px; }
+.analysis-body::-webkit-scrollbar-thumb { background:#222830; border-radius:2px; }
 
-  .chart-container { position: relative; background: var(--bg2); border: 1px solid var(--border); overflow: hidden; }
-  .chart-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--border); font-family: 'Space Mono', monospace; font-size: 10px; }
-  .chart-title { color: var(--accent); letter-spacing: 2px; }
-  .chart-img { width: 100%; height: 280px; object-fit: cover; display: block; opacity: 0.9; }
-  .chart-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, var(--bg2)); }
+.bias-block { text-align:center; padding:14px; border-radius:6px; margin-bottom:12px; border:1px solid transparent; }
+.bias-block.bearish { background:rgba(255,71,87,0.08); border-color:rgba(255,71,87,0.25); }
+.bias-block.bullish { background:rgba(0,230,118,0.08); border-color:rgba(0,230,118,0.25); }
+.bias-block.neutral { background:rgba(255,165,2,0.08); border-color:rgba(255,165,2,0.25); }
+.bias-label { font-size:10px; letter-spacing:2px; color:#5a6478; margin-bottom:6px; }
+.bias-value { font-size:22px; font-weight:bold; letter-spacing:1px; }
+.bias-block.bearish .bias-value { color:#ff4757; }
+.bias-block.bullish .bias-value { color:#00e676; }
+.bias-block.neutral .bias-value { color:#ffa502; }
 
-  .sections {
-    position: relative; z-index: 5;
-    max-width: 1400px; margin: 0 auto;
-    padding: 0 40px 40px;
-    display: grid; grid-template-columns: repeat(3, 1fr);
-    gap: 1px; background: var(--border); border: 1px solid var(--border);
-  }
-  .section { background: var(--bg2); padding: 32px; position: relative; overflow: hidden; transition: background 0.3s; }
-  .section:hover { background: var(--bg3); }
-  .section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; }
-  .section.scalping::before { background: var(--accent2); }
-  .section.swing::before { background: var(--accent); }
-  .section.analysis::before { background: var(--accent3); }
-  .section-tag { font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-  .section.scalping .section-tag { color: var(--accent2); }
-  .section.swing .section-tag { color: var(--accent); }
-  .section.analysis .section-tag { color: var(--accent3); }
-  .section-tag::before { content: ''; width: 20px; height: 1px; }
-  .section.scalping .section-tag::before { background: var(--accent2); }
-  .section.swing .section-tag::before { background: var(--accent); }
-  .section.analysis .section-tag::before { background: var(--accent3); }
-  .section h2 { font-size: 28px; font-weight: 800; margin-bottom: 16px; letter-spacing: -1px; }
-  .section.scalping h2 { color: var(--accent2); }
-  .section.swing h2 { color: var(--accent); }
-  .section.analysis h2 { color: var(--accent3); }
-  .section p { font-family: 'Space Mono', monospace; font-size: 10px; line-height: 2; color: var(--text2); margin-bottom: 24px; }
-  .section-rules { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-  .section-rules li { font-family: 'Space Mono', monospace; font-size: 9px; color: var(--text3); letter-spacing: 1px; display: flex; align-items: flex-start; gap: 8px; }
-  .section-rules li::before { content: '→'; font-size: 10px; flex-shrink: 0; }
-  .section.scalping .section-rules li::before { color: var(--accent2); }
-  .section.swing .section-rules li::before { color: var(--accent); }
-  .section.analysis .section-rules li::before { color: var(--accent3); }
+.card { background:#13161b; border:1px solid #222830; border-radius:6px; padding:12px; margin-bottom:12px; }
+.card-title { font-size:10px; letter-spacing:2px; color:#5a6478; margin-bottom:10px; }
+.row { display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid #1a1e26; font-size:12px; }
+.row:last-child { border-bottom:none; }
+.row-key { color:#5a6478; }
+.row-val { font-weight:bold; }
+.vah { color:#ff4757; } .vpoc { color:#ffa502; } .val { color:#00e676; }
+.neg { color:#ff4757; } .pos { color:#00e676; }
 
-  .live-feed { position: relative; z-index: 5; max-width: 1400px; margin: 0 auto; padding: 0 40px 40px; }
-  .feed-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; font-family: 'Space Mono', monospace; font-size: 10px; color: var(--text2); letter-spacing: 2px; }
-  .live-badge { background: var(--accent2); color: white; font-size: 8px; padding: 2px 8px; letter-spacing: 2px; animation: blink 1s infinite; }
-  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-  .feed-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); }
-  .feed-chart { background: var(--bg2); overflow: hidden; position: relative; }
-  .feed-chart img { width: 100%; height: 380px; object-fit: cover; opacity: 0.9; transition: opacity 0.5s; }
-  .feed-chart img:hover { opacity: 1; }
-  .feed-chart-label { position: absolute; top: 12px; left: 12px; font-family: 'Space Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: 2px; background: rgba(5,7,9,0.8); padding: 4px 8px; }
-  .feed-analysis { background: var(--bg2); padding: 24px; display: flex; flex-direction: column; gap: 16px; }
-  .analysis-header { font-family: 'Space Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: 2px; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
-  .analysis-item { display: flex; flex-direction: column; gap: 4px; }
-  .analysis-label { font-family: 'Space Mono', monospace; font-size: 8px; color: var(--text2); letter-spacing: 2px; }
-  .analysis-value { font-size: 13px; font-weight: 700; }
-  .analysis-value.bullish { color: var(--accent); }
-  .analysis-value.bearish { color: var(--accent2); }
-  .analysis-value.neutral { color: var(--accent3); }
+.should-block { border-radius:6px; padding:12px; margin-bottom:12px; border:1px solid transparent; }
+.should-block.yes { background:rgba(0,230,118,0.06); border-color:rgba(0,230,118,0.2); }
+.should-block.no  { background:rgba(255,71,87,0.06);  border-color:rgba(255,71,87,0.2); }
+.should-block.wait{ background:rgba(255,165,2,0.06);  border-color:rgba(255,165,2,0.2); }
+.should-label { font-size:10px; letter-spacing:2px; color:#5a6478; margin-bottom:6px; }
+.should-value { font-size:14px; font-weight:bold; }
+.should-block.yes .should-value { color:#00e676; }
+.should-block.no  .should-value { color:#ff4757; }
+.should-block.wait .should-value { color:#ffa502; }
+.should-reason { font-size:11px; color:#5a6478; margin-top:6px; line-height:1.5; }
 
-  footer {
-    position: relative; z-index: 5;
-    border-top: 1px solid var(--border);
-    padding: 20px 40px;
-    display: flex; align-items: center; justify-content: space-between;
-    font-family: 'Space Mono', monospace; font-size: 9px; color: var(--text2); letter-spacing: 2px;
-  }
+.notes-text { font-size:11px; color:#8090a8; line-height:1.7; }
 
-  @media (max-width: 900px) {
-    .hero { grid-template-columns: 1fr; padding: 40px 20px; }
-    .sections { grid-template-columns: 1fr; padding: 0 20px 40px; }
-    .feed-grid { grid-template-columns: 1fr; }
-    header { padding: 16px 20px; }
-    nav { display: none; }
-    .live-feed { padding: 0 20px 40px; }
-    footer { padding: 16px 20px; flex-direction: column; gap: 8px; text-align: center; }
-  }
+.empty-analysis { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; text-align:center; color:#2a3040; gap:10px; }
+.empty-analysis .icon { font-size:36px; }
+.empty-analysis p { font-size:12px; line-height:1.6; }
+
+.timestamp { position:fixed; bottom:8px; left:10px; font-size:10px; color:#2a3040; background:rgba(10,12,15,0.8); padding:3px 8px; border-radius:4px; }
+
+@media(max-width:700px) {
+  body { overflow:auto; }
+  .main { flex-direction:column; height:auto; }
+  .chart-panel { height:60vw; border-right:none; border-bottom:1px solid #222830; }
+  .analysis-panel { width:100%; }
+}
 </style>
 </head>
 <body>
 
-<header>
-  <div class="logo">
-    <div class="logo-icon">
-      <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-    </div>
-    <div>
-      <div class="logo-text">Flow Architect</div>
-      <div class="logo-sub">ORDER FLOW TRADING SYSTEM</div>
-    </div>
+<div class="header">
+  <div class="logo">▸ FLOW MONITOR</div>
+  <div class="status">
+    <div class="dot" id="statusDot"></div>
+    <span id="statusText">Bağlanıyor...</span>
   </div>
-  <nav>
-    <button class="nav-btn active">Scalping</button>
-    <button class="nav-btn">Swing</button>
-    <button class="nav-btn">Analiz</button>
-    <button class="nav-btn">Canlı</button>
-  </nav>
-  <div class="status-bar">
-    <div class="status-dot"></div>
-    <span style="color: var(--accent)">CANLI</span>
-    <span id="clock">--:--:--</span>
-  </div>
-</header>
-
-<div class="ticker">
-  <div class="ticker-track">
-    <span class="ticker-item">MNQ6 <span>26.842,50</span></span>
-    <span class="ticker-item">NQ1! <span>26.840,25</span></span>
-    <span class="ticker-item">BTC/USDT <span>93.420</span></span>
-    <span class="ticker-item">vPOC <span>26.823,50</span></span>
-    <span class="ticker-item">VAH <span>26.878,25</span></span>
-    <span class="ticker-item">VAL <span>26.795,25</span></span>
-    <span class="ticker-item">Session Delta <span class="red">-14K</span></span>
-    <span class="ticker-item">CVD <span class="red">NEGATİF</span></span>
-    <span class="ticker-item">BIAS <span class="red">SHORT ↓</span></span>
-    <span class="ticker-item">MNQ6 <span>26.842,50</span></span>
-    <span class="ticker-item">NQ1! <span>26.840,25</span></span>
-    <span class="ticker-item">BTC/USDT <span>93.420</span></span>
-    <span class="ticker-item">vPOC <span>26.823,50</span></span>
-    <span class="ticker-item">VAH <span>26.878,25</span></span>
-    <span class="ticker-item">VAL <span>26.795,25</span></span>
-    <span class="ticker-item">Session Delta <span class="red">-14K</span></span>
-    <span class="ticker-item">CVD <span class="red">NEGATİF</span></span>
-    <span class="ticker-item">BIAS <span class="red">SHORT ↓</span></span>
-  </div>
+  <div class="spacer"></div>
+  <div class="time" id="currentTime">--:--:--</div>
+  <div class="countdown" id="countdown">⟳ 30s</div>
 </div>
 
-<div class="hero">
-  <div class="hero-left">
-    <h1>
-      <div class="line1">FLOW</div>
-      <div class="line2">ARCHI</div>
-      <div class="line3">TECT</div>
-    </h1>
-    <p class="hero-desc">
-      Kurumları takip et. Alıcı mı yorgun, satıcı mı devrede?
-      DOM vaat eder, Volume ispat eder.
-      vPOC yer değişimi, VAH rejection, CVD divergence.
-      Axia metodolojisi ile piyasayı oku.
-    </p>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-val">8.62</div>
-        <div class="stat-label">Short PF</div>
-      </div>
-      <div class="stat">
-        <div class="stat-val gold">%78</div>
-        <div class="stat-label">Win Rate</div>
-      </div>
-      <div class="stat">
-        <div class="stat-val red">0.01</div>
-        <div class="stat-label">Long PF</div>
-      </div>
+<div class="main">
+  <div class="chart-panel">
+    <div class="loading" id="loading">
+      <div class="icon">📊</div>
+      <p style="font-size:14px">Ekran bekleniyor...</p>
+      <p style="margin-top:8px;font-size:12px;color:#2a3040">trading_upload.py çalışıyor olmalı</p>
     </div>
+    <img id="chartImg" style="display:none" alt="ATAS Chart">
   </div>
 
-  <div class="chart-container">
-    <div class="chart-header">
-      <span class="chart-title">ATAS — CANLI EKRAN</span>
-      <span style="font-family:'Space Mono',monospace;font-size:10px;color:var(--text2)" id="updateTime">güncelleniyor...</span>
+  <div class="analysis-panel">
+    <div class="analysis-header">
+      <div class="analysis-title">CLAUDE ANALİZİ</div>
+      <div class="analysis-time" id="analysisTime">—</div>
     </div>
-    <img class="chart-img" id="heroChart"
-         src="https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/live.jpg"
-         alt="Canlı ATAS Ekranı">
-    <div class="chart-overlay"></div>
-  </div>
-</div>
-
-<div class="sections">
-  <div class="section scalping">
-    <div class="section-tag">01 — Scalping</div>
-    <h2>SCALP</h2>
-    <p>DOM absorpsiyonu, footprint imbalance, anlık delta değişimi ile hızlı giriş çıkış. Context olmadan footprint geçersiz.</p>
-    <ul class="section-rules">
-      <li>DOM'da büyük emirler absorbe mu oluyor?</li>
-      <li>Footprint'te imbalance var mı?</li>
-      <li>CVD anlık yön veriyor mu?</li>
-      <li>Max stop: 20T — asla 90T değil</li>
-      <li>Günde max 3 işlem</li>
-    </ul>
-  </div>
-  <div class="section swing">
-    <div class="section-tag">02 — Swing</div>
-    <h2>SWING</h2>
-    <p>VAH rejection, vPOC yer değişimi, 1h/4h yapısal analiz. Senin gerçek edge'in burada. Profit Factor 8.62 konuşuyor.</p>
-    <ul class="section-rules">
-      <li>VAH'ta gerçek satıcı mı, spoof mu?</li>
-      <li>vPOC aşağı mı kayıyor?</li>
-      <li>Session Delta negatif mi?</li>
-      <li>Limit emir bırak, ekrana bakma</li>
-      <li>Günde max 2 işlem</li>
-    </ul>
-  </div>
-  <div class="section analysis">
-    <div class="section-tag">03 — Analiz</div>
-    <h2>ANALİZ</h2>
-    <p>Multi-timeframe okuma. 5m → 1h → 4h → 1D. Macro + Order Flow birleşimi. Should Trade testi her zaman önce.</p>
-    <ul class="section-rules">
-      <li>Piyasa ne yapmalı? Yapıyor mu?</li>
-      <li>vPOC migration yönü nedir?</li>
-      <li>CHoCH / BOS konfirmasyonu var mı?</li>
-      <li>CVD divergence var mı?</li>
-      <li>Yoksa bekle — bu da bir karardır</li>
-    </ul>
-  </div>
-</div>
-
-<div class="live-feed">
-  <div class="feed-header">
-    <span class="live-badge">● CANLI</span>
-    <span>ATAS EKRAN YAYINI — Her 30 saniyede güncellenir</span>
-  </div>
-  <div class="feed-grid">
-    <div class="feed-chart">
-      <img id="feedChart"
-           src="https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/live.jpg"
-           alt="Canlı Ekran">
-      <div class="feed-chart-label">ATAS LIVE — MNQ6@CME</div>
-    </div>
-    <div class="feed-analysis">
-      <div class="analysis-header">// GÜNLÜK OKUMA</div>
-      <div class="analysis-item">
-        <div class="analysis-label">GENEL BIAS</div>
-        <div class="analysis-value bearish" id="bias">BEARISH ↓</div>
-      </div>
-      <div class="analysis-item">
-        <div class="analysis-label">CVD DURUMU</div>
-        <div class="analysis-value bearish">NEGATİF — Satıcılar Aktif</div>
-      </div>
-      <div class="analysis-item">
-        <div class="analysis-label">KRİTİK SEVİYELER</div>
-        <div class="analysis-value neutral">VAH: 26.878 | vPOC: 26.823</div>
-      </div>
-      <div class="analysis-item">
-        <div class="analysis-label">SESSION DELTA</div>
-        <div class="analysis-value bearish">-14K Kümülatif</div>
-      </div>
-      <div class="analysis-item">
-        <div class="analysis-label">SHOULD TRADE?</div>
-        <div class="analysis-value bullish">VAH REJECTİON → EVET</div>
-      </div>
-      <div class="analysis-item">
-        <div class="analysis-label">HEDEF</div>
-        <div class="analysis-value neutral">vPOC 26.823 → VAL 26.795</div>
+    <div class="analysis-body" id="analysisBody">
+      <div class="empty-analysis">
+        <div class="icon">🤖</div>
+        <p>Analiz bekleniyor...<br><br>analysis.json<br>push edilince görünür</p>
       </div>
     </div>
   </div>
 </div>
 
-<footer>
-  <span>FLOW ARCHITECT © 2026 — HAMZA GUL</span>
-  <span>DOM VAAT EDER, VOLUME İSPAT EDER</span>
-  <span>STOCKHOLM, İSVEÇ</span>
-</footer>
+<div class="timestamp" id="lastUpdate">Son güncelleme: —</div>
 
 <script>
-  // Clock
-  setInterval(() => {
-    document.getElementById('clock').textContent = new Date().toLocaleTimeString('tr-TR');
-  }, 1000);
+const IMG_URL      = 'https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/live.jpg';
+const ANALYSIS_URL = 'https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/analysis.json';
 
-  // Auto refresh charts every 30 seconds
-  function refreshCharts() {
-    const t = Date.now();
-    const url = `https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/live.jpg?t=${t}`;
-    document.getElementById('heroChart').src = url;
-    document.getElementById('feedChart').src = url;
-    document.getElementById('updateTime').textContent = 
-      new Date().toLocaleTimeString('tr-TR') + ' güncellendi';
-  }
+let imgCd = 30, analysisCd = 60;
 
-  setInterval(refreshCharts, 30000);
-  refreshCharts();
+setInterval(() => {
+  document.getElementById('currentTime').textContent = new Date().toLocaleTimeString('tr-TR');
+}, 1000);
 
-  // Nav buttons
-  document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-    });
-  });
+setInterval(() => {
+  imgCd--;
+  if (imgCd <= 0) { imgCd = 30; loadChart(); }
+  document.getElementById('countdown').textContent = `⟳ ${imgCd}s`;
+  analysisCd--;
+  if (analysisCd <= 0) { analysisCd = 60; loadAnalysis(); }
+}, 1000);
+
+function loadChart() {
+  const img = document.getElementById('chartImg');
+  const url = IMG_URL + '?t=' + Date.now();
+  const t = new Image();
+  t.onload = () => {
+    img.src = url;
+    img.style.display = 'block';
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('statusText').textContent = 'Canlı';
+    document.getElementById('statusDot').style.background = '#00e676';
+    document.getElementById('lastUpdate').textContent = 'Son güncelleme: ' + new Date().toLocaleTimeString('tr-TR');
+  };
+  t.onerror = () => {
+    document.getElementById('statusText').textContent = 'Bekleniyor...';
+    document.getElementById('statusDot').style.background = '#ffa502';
+  };
+  t.src = url;
+}
+
+async function loadAnalysis() {
+  try {
+    const res = await fetch(ANALYSIS_URL + '?t=' + Date.now());
+    if (!res.ok) return;
+    renderAnalysis(await res.json());
+  } catch(e) {}
+}
+
+function renderAnalysis(d) {
+  const biasClass = d.bias === 'BEARISH' ? 'bearish' : d.bias === 'BULLISH' ? 'bullish' : 'neutral';
+  const biasArrow = d.bias === 'BEARISH' ? '↓ BEARISH' : d.bias === 'BULLISH' ? '↑ BULLISH' : '→ NEUTRAL';
+  const shouldClass = d.should_trade === 'EVET' ? 'yes' : d.should_trade === 'HAYIR' ? 'no' : 'wait';
+  const deltaClass = (d.delta?.session || '').startsWith('-') ? 'neg' : 'pos';
+  const cvdClass = d.delta?.cvd === 'NEGATİF' ? 'neg' : 'pos';
+
+  document.getElementById('analysisTime').textContent = d.timestamp || '—';
+  document.getElementById('analysisBody').innerHTML = `
+    <div class="bias-block ${biasClass}">
+      <div class="bias-label">GENEL BIAS</div>
+      <div class="bias-value">${biasArrow}</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">KRİTİK SEVİYELER</div>
+      <div class="row"><span class="row-key">VAH</span><span class="row-val vah">${d.levels?.vah||'—'}</span></div>
+      <div class="row"><span class="row-key">vPOC</span><span class="row-val vpoc">${d.levels?.vpoc||'—'}</span></div>
+      <div class="row"><span class="row-key">VAL</span><span class="row-val val">${d.levels?.val||'—'}</span></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">DELTA & CVD</div>
+      <div class="row"><span class="row-key">Session Delta</span><span class="row-val ${deltaClass}">${d.delta?.session||'—'}</span></div>
+      <div class="row"><span class="row-key">CVD</span><span class="row-val ${cvdClass}">${d.delta?.cvd||'—'}</span></div>
+      <div class="row"><span class="row-key">Absorpsiyon</span><span class="row-val">${d.delta?.absorption||'—'}</span></div>
+    </div>
+
+    <div class="should-block ${shouldClass}">
+      <div class="should-label">SHOULD TRADE?</div>
+      <div class="should-value">${d.should_trade||'—'}</div>
+      <div class="should-reason">${d.should_reason||''}</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">ANALİZ</div>
+      <div class="notes-text">${d.notes||'—'}</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">HEDEF</div>
+      <div class="row"><span class="row-key">Giriş</span><span class="row-val">${d.targets?.entry||'—'}</span></div>
+      <div class="row"><span class="row-key">TP1</span><span class="row-val">${d.targets?.tp1||'—'}</span></div>
+      <div class="row"><span class="row-key">TP2</span><span class="row-val">${d.targets?.tp2||'—'}</span></div>
+      <div class="row"><span class="row-key">Stop</span><span class="row-val">${d.targets?.stop||'—'}</span></div>
+    </div>
+  `;
+}
+
+loadChart();
+loadAnalysis();
 </script>
 </body>
 </html>
