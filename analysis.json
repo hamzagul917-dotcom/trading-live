@@ -1,23 +1,23 @@
 {
-  "timestamp": "14:32",
+  "timestamp": "15:40",
   "bias": "BEARISH",
   "levels": {
-    "vah": "26.878",
-    "vpoc": "26.823",
-    "val": "26.795"
+    "vah": "27.442",
+    "vpoc": "27.419",
+    "val": "27.381"
   },
   "delta": {
-    "session": "-14K",
+    "session": "-3K",
     "cvd": "NEGATİF",
-    "absorption": "VAH'ta satıcı"
+    "absorption": "VAL altında satıcı baskısı, absorpsiyon yok"
   },
   "should_trade": "EVET",
-  "should_reason": "VAH rejection + CVD divergence konfirme. vPOC aşağı kayıyor.",
-  "notes": "Piyasa VAH altında kapanmaya devam ediyor. Alıcılar VAH'ı geri alamadı. Session delta negatif seyrediyor. vPOC migration aşağı yönlü.",
+  "should_reason": "VAL kırıldı, CVD negatif, BOS aşağı konfirme, session delta negatif.",
+  "notes": "4H yapısı bearish, BOS aşağı oluştu. VAL 27.381 kırıldı ve fiyat altında kapanıyor. Session delta gün boyunca pozitiften negatife döndü — alıcılar yoruldu. DOM'da gerçek satıcı baskısı mevcut.",
   "targets": {
-    "entry": "26.878 VAH rejection",
-    "tp1": "26.823 vPOC",
-    "tp2": "26.795 VAL",
-    "stop": "26.898 VAH üzeri"
+    "entry": "27.381 VAL retest short",
+    "tp1": "27.350",
+    "tp2": "27.300",
+    "stop": "27.445 VAH üzeri"
   }
 }
