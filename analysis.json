@@ -1,0 +1,23 @@
+{
+  "timestamp": "14:32",
+  "bias": "BEARISH",
+  "levels": {
+    "vah": "26.878",
+    "vpoc": "26.823",
+    "val": "26.795"
+  },
+  "delta": {
+    "session": "-14K",
+    "cvd": "NEGATİF",
+    "absorption": "VAH'ta satıcı"
+  },
+  "should_trade": "EVET",
+  "should_reason": "VAH rejection + CVD divergence konfirme. vPOC aşağı kayıyor.",
+  "notes": "Piyasa VAH altında kapanmaya devam ediyor. Alıcılar VAH'ı geri alamadı. Session delta negatif seyrediyor. vPOC migration aşağı yönlü.",
+  "targets": {
+    "entry": "26.878 VAH rejection",
+    "tp1": "26.823 vPOC",
+    "tp2": "26.795 VAL",
+    "stop": "26.898 VAH üzeri"
+  }
+}
