@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-11T22:51:47Z",
+  "timestamp": "2026-05-11T22:51:51Z",
   "symbol": "NQ",
   "price": 29453.00,
   "total_bid": 19,
@@ -26,7 +26,7 @@
     {"price": 29649.50, "volume": 2},
     {"price": 29562.75, "volume": 4},
     {"price": 29530.00, "volume": 6},
-    {"price": 29528.00, "volume": 1},
-    {"price": 29527.75, "volume": 1}
+    {"price": 29528.50, "volume": 1},
+    {"price": 29528.25, "volume": 1}
   ]
 }
