@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AxiaFlow DOM — Axia Futures</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #080c10;
+    --bg2: #0d1117;
+    --bg3: #141a22;
+    --border: #1e2a38;
+    --ask: #ff3d5a;
+    --bid: #00e676;
+    --neutral: #4fc3f7;
+    --warn: #ff9800;
+    --text: #cdd9e5;
+    --dim: #4a5568;
+    --accent: #00bcd4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 48px 1fr 220px;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ── */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+  }
+  .logo { font-size: 18px; font-weight: 700; letter-spacing: 3px; color: var(--accent); }
+  .logo span { color: var(--dim); font-weight: 400; }
+  .status-bar { display: flex; gap: 20px; align-items: center; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--dim); }
+  .dot.live { background: var(--bid); box-shadow: 0 0 8px var(--bid); animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+  .stat { font-size: 13px; }
+  .stat .label { color: var(--dim); font-size: 11px; }
+  .stat .val { font-weight: 700; }
+  .val.pos { color: var(--bid); }
+  .val.neg { color: var(--ask); }
+  .val.neu { color: var(--neutral); }
+
+  /* ── MAIN ── */
+  main {
+    display: grid;
+    grid-template-columns: 280px 1fr 320px;
+    gap: 0;
+    overflow: hidden;
+  }
+
+  /* ── DOM PANEL ── */
+  .dom-panel {
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .panel-title {
+    padding: 10px 14px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--dim);
+    border-bottom: 1px solid var(--border);
+    font-family: 'Share Tech Mono', monospace;
+  }
+  .dom-list {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .dom-row {
+    display: grid;
+    grid-template-columns: 90px 1fr 70px;
+    align-items: center;
+    padding: 3px 10px;
+    gap: 6px;
+    transition: background .15s;
+    position: relative;
+  }
+  .dom-row:hover { background: var(--bg3); }
+  .dom-row.ask .price { color: var(--ask); }
+  .dom-row.bid .price { color: var(--bid); }
+  .dom-row.spread { background: var(--bg3); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .price { font-family: 'Share Tech Mono', monospace; font-size: 13px; font-weight: 600; }
+  .vol-bar-wrap { position: relative; height: 18px; }
+  .vol-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 2px;
+    transition: width .2s ease;
+  }
+  .ask .vol-bar { background: rgba(255,61,90,.25); right: 0; }
+  .bid .vol-bar { background: rgba(0,230,118,.2); left: 0; }
+  .vol-text { font-family: 'Share Tech Mono', monospace; font-size: 11px; color: var(--dim); text-align: right; }
+  .big-order { color: var(--warn) !important; font-weight: 700; }
+  .dom-row.big-ask { background: rgba(255,61,90,.08); }
+  .dom-row.big-bid { background: rgba(0,230,118,.06); }
+
+  /* ── CENTER CHART AREA ── */
+  .center {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 16px;
+    gap: 12px;
+  }
+  .price-display {
+    text-align: center;
+    padding: 16px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .current-price {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .price-change { font-size: 13px; color: var(--dim); margin-top: 4px; }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .metric-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+  }
+  .metric-card .m-label { font-size: 10px; letter-spacing: 2px; color: var(--dim); margin-bottom: 6px; }
+  .metric-card .m-val { font-family: 'Share Tech Mono', monospace; font-size: 22px; font-weight: 700; }
+
+  .imbalance-section {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px;
+    flex: 1;
+  }
+  .imb-title { font-size: 11px; letter-spacing: 2px; color: var(--dim); margin-bottom: 12px; }
+  .imb-bar-wrap { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .imb-label { font-size: 12px; width: 40px; }
+  .imb-track { flex: 1; height: 8px; background: var(--bg3); border-radius: 4px; overflow: hidden; }
+  .imb-fill { height: 100%; border-radius: 4px; transition: width .3s ease; }
+  .imb-fill.ask { background: var(--ask); }
+  .imb-fill.bid { background: var(--bid); }
+  .imb-pct { font-family: 'Share Tech Mono', monospace; font-size: 12px; width: 40px; text-align: right; }
+
+  .axia-signals {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .signal-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 13px;
+  }
+  .signal-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  /* ── CLAUDE PANEL ── */
+  .claude-panel {
+    background: var(--bg2);
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .claude-header {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .claude-title { font-size: 11px; letter-spacing: 2px; color: var(--dim); font-family: 'Share Tech Mono', monospace; }
+  .analyze-btn {
+    padding: 5px 14px;
+    background: var(--accent);
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: opacity .2s;
+  }
+  .analyze-btn:hover { opacity: .8; }
+  .analyze-btn:disabled { opacity: .4; cursor: not-allowed; }
+
+  .claude-output {
+    flex: 1;
+    overflow-y: auto;
+    padding: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .verdict-box {
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .verdict-box.long { background: rgba(0,230,118,.15); color: var(--bid); border: 1px solid rgba(0,230,118,.3); }
+  .verdict-box.short { background: rgba(255,61,90,.15); color: var(--ask); border: 1px solid rgba(255,61,90,.3); }
+  .verdict-box.wait { background: rgba(79,195,247,.1); color: var(--neutral); border: 1px solid rgba(79,195,247,.2); }
+
+  .analysis-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text);
+    white-space: pre-wrap;
+  }
+
+  .confidence-bar {
+    margin: 12px 0;
+    padding: 10px;
+    background: var(--bg3);
+    border-radius: 4px;
+  }
+  .conf-label { font-size: 11px; color: var(--dim); margin-bottom: 6px; letter-spacing: 1px; }
+  .conf-track { height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden; }
+  .conf-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width .5s ease; }
+
+  .entry-levels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .level-card { background: var(--bg3); border-radius: 3px; padding: 8px; text-align: center; }
+  .level-card .l-label { font-size: 10px; color: var(--dim); letter-spacing: 1px; }
+  .level-card .l-val { font-family: 'Share Tech Mono', monospace; font-size: 14px; font-weight: 700; margin-top: 3px; }
+  .level-card.entry .l-val { color: var(--accent); }
+  .level-card.stop .l-val { color: var(--ask); }
+  .level-card.target .l-val { color: var(--bid); }
+
+  .thinking { color: var(--dim); font-size: 12px; font-family: 'Share Tech Mono', monospace; animation: blink .8s infinite; }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+
+  /* ── BOTTOM LOG ── */
+  .log-panel {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .log-header { padding: 6px 14px; font-size: 10px; letter-spacing: 2px; color: var(--dim); border-bottom: 1px solid var(--border); font-family: 'Share Tech Mono', monospace; }
+  .log-list { flex: 1; overflow-y: auto; padding: 6px 14px; scrollbar-width: thin; }
+  .log-entry { font-family: 'Share Tech Mono', monospace; font-size: 11px; padding: 2px 0; display: flex; gap: 10px; }
+  .log-time { color: var(--dim); }
+  .log-msg.info { color: var(--neutral); }
+  .log-msg.warn { color: var(--warn); }
+  .log-msg.ok   { color: var(--bid); }
+  .log-msg.err  { color: var(--ask); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">AXIA<span>FLOW</span> DOM</div>
+  <div class="status-bar">
+    <div class="dot" id="connDot"></div>
+    <div class="stat"><div class="label">PRICE</div><div class="val neu" id="hPrice">—</div></div>
+    <div class="stat"><div class="label">SESSION Δ</div><div class="val" id="hSession">—</div></div>
+    <div class="stat"><div class="label">CVD</div><div class="val" id="hCvd">—</div></div>
+    <div class="stat"><div class="label">BAĞLANTI</div><div class="val" id="hConn" style="color:var(--dim)">KESİK</div></div>
+  </div>
+</header>
+
+<main>
+  <!-- DOM PANEL -->
+  <div class="dom-panel">
+    <div class="panel-title">ORDER BOOK — TOP 10</div>
+    <div class="dom-list" id="askList"></div>
+    <div class="dom-row spread">
+      <div class="price" id="spreadPrice" style="color:var(--accent)">—</div>
+      <div></div>
+      <div class="vol-text" style="color:var(--dim); font-size:10px;">SPREAD</div>
+    </div>
+    <div class="dom-list" id="bidList"></div>
+  </div>
+
+  <!-- CENTER -->
+  <div class="center">
+    <div class="price-display">
+      <div class="current-price" id="mainPrice">—</div>
+      <div class="price-change" id="priceChange">BAĞLANTI BEKLENİYOR...</div>
+    </div>
+
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="m-label">ASK VOL</div>
+        <div class="m-val" id="totalAsk" style="color:var(--ask)">—</div>
+      </div>
+      <div class="metric-card">
+        <div class="m-label">BID VOL</div>
+        <div class="m-val" id="totalBid" style="color:var(--bid)">—</div>
+      </div>
+      <div class="metric-card">
+        <div class="m-label">ORAN</div>
+        <div class="m-val" id="ratio">—</div>
+      </div>
+    </div>
+
+    <div class="imbalance-section">
+      <div class="imb-title">DOM İMBALANCE — AXIA ABSORPTION ANALİZİ</div>
+      <div class="imb-bar-wrap">
+        <div class="imb-label" style="color:var(--ask)">ASK</div>
+        <div class="imb-track"><div class="imb-fill ask" id="askBar" style="width:50%"></div></div>
+        <div class="imb-pct" id="askPct" style="color:var(--ask)">50%</div>
+      </div>
+      <div class="imb-bar-wrap">
+        <div class="imb-label" style="color:var(--bid)">BID</div>
+        <div class="imb-track"><div class="imb-fill bid" id="bidBar" style="width:50%"></div></div>
+        <div class="imb-pct" id="bidPct" style="color:var(--bid)">50%</div>
+      </div>
+    </div>
+
+    <div class="axia-signals" id="signalBox">
+      <div class="imb-title">AXIA SİNYALLERİ</div>
+      <div id="signalList"><div style="color:var(--dim); font-size:12px;">Veri bekleniyor...</div></div>
+    </div>
+  </div>
+
+  <!-- CLAUDE PANEL -->
+  <div class="claude-panel">
+    <div class="claude-header">
+      <div class="claude-title">CLAUDE — AXIA ANALİZ</div>
+      <button class="analyze-btn" id="analyzeBtn" onclick="runAnalysis()">ANALİZ ET</button>
+    </div>
+    <div class="claude-output" id="claudeOutput">
+      <div style="color:var(--dim); font-size:12px; line-height:1.8;">
+        DOM verisini ATAS'tan alınca<br>
+        "ANALİZ ET" butonuna bas.<br><br>
+        Claude Axia metodolojisine göre:<br>
+        • DOM imbalance okuyacak<br>
+        • Bid/Ask erime analizi yapacak<br>
+        • LONG / SHORT / BEKLE verecek<br>
+        • Giriş / Stop / Hedef hesaplayacak<br>
+        • Güven skoru verecek
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="log-panel">
+  <div class="log-header">EVENT LOG</div>
+  <div class="log-list" id="logList"></div>
+</div>
+
+<script>
+const WS_URL = 'ws://localhost:8765';
+const ANTHROPIC_KEY = ''; // Boş bırak — tarayıcıdan güvenli değil, proxy kullanacağız
+
+let ws = null;
+let lastData = null;
+let domHistory = [];
+let reconnectTimer = null;
+
+// ── LOG ──────────────────────────────────────────────────────────────────────
+function log(msg, type = 'info') {
+  const list = document.getElementById('logList');
+  const el = document.createElement('div');
+  el.className = 'log-entry';
+  const now = new Date().toLocaleTimeString('tr-TR', {hour12:false});
+  el.innerHTML = `<span class="log-time">${now}</span><span class="log-msg ${type}">${msg}</span>`;
+  list.appendChild(el);
+  list.scrollTop = list.scrollHeight;
+  if (list.children.length > 100) list.removeChild(list.firstChild);
+}
+
+// ── WEBSOCKET ─────────────────────────────────────────────────────────────────
+function connect() {
+  ws = new WebSocket(WS_URL);
+
+  ws.onopen = () => {
+    document.getElementById('connDot').classList.add('live');
+    document.getElementById('hConn').textContent = 'CANLI';
+    document.getElementById('hConn').style.color = 'var(--bid)';
+    log('ATAS bağlantısı kuruldu', 'ok');
+  };
+
+  ws.onmessage = (e) => {
+    try {
+      const d = JSON.parse(e.data);
+      if (d.type === 'dom') {
+        lastData = d;
+        domHistory.push({ time: Date.now(), asks: d.asks, bids: d.bids });
+        if (domHistory.length > 30) domHistory.shift();
+        updateUI(d);
+      }
+    } catch {}
+  };
+
+  ws.onclose = () => {
+    document.getElementById('connDot').classList.remove('live');
+    document.getElementById('hConn').textContent = 'KESİK';
+    document.getElementById('hConn').style.color = 'var(--dim)';
+    log('Bağlantı kesildi — yeniden bağlanıyor...', 'warn');
+    reconnectTimer = setTimeout(connect, 3000);
+  };
+
+  ws.onerror = () => {
+    log('Bağlantı hatası — ATAS\'ın açık olduğundan emin ol', 'err');
+  };
+}
+
+// ── UI UPDATE ─────────────────────────────────────────────────────────────────
+function fmt(n) { return Number(n).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}); }
+function fmtVol(v) {
+  if (v >= 1000) return (v/1000).toFixed(1) + 'K';
+  return Math.round(v).toString();
+}
+
+function updateUI(d) {
+  // Header
+  document.getElementById('hPrice').textContent = fmt(d.price);
+  const sd = d.session;
+  const sdEl = document.getElementById('hSession');
+  sdEl.textContent = (sd >= 0 ? '+' : '') + fmtVol(sd);
+  sdEl.className = 'val ' + (sd > 0 ? 'pos' : sd < 0 ? 'neg' : 'neu');
+
+  const cvd = d.cvd;
+  const cvdEl = document.getElementById('hCvd');
+  cvdEl.textContent = (cvd >= 0 ? '+' : '') + fmtVol(cvd);
+  cvdEl.className = 'val ' + (cvd > 0 ? 'pos' : cvd < 0 ? 'neg' : 'neu');
+
+  // Main price
+  document.getElementById('mainPrice').textContent = fmt(d.price);
+  document.getElementById('mainPrice').style.color =
+    cvd > 0 ? 'var(--bid)' : cvd < 0 ? 'var(--ask)' : 'var(--text)';
+  document.getElementById('priceChange').textContent =
+    `Session Δ: ${(sd>=0?'+':'')}${fmtVol(sd)}  |  CVD: ${(cvd>=0?'+':'')}${fmtVol(cvd)}  |  ${d.time}`;
+
+  // DOM Lists
+  const asks = [...(d.asks||[])].sort((a,b) => a.price - b.price).slice(0,10);
+  const bids = [...(d.bids||[])].sort((a,b) => b.price - a.price).slice(0,10);
+
+  const maxVol = Math.max(...asks.map(a=>a.vol), ...bids.map(b=>b.vol), 1);
+  const avgVol = (asks.reduce((s,a)=>s+a.vol,0) + bids.reduce((s,b)=>s+b.vol,0)) /
+                 Math.max(asks.length + bids.length, 1);
+  const bigThreshold = avgVol * 3;
+
+  function renderRows(list, items, side) {
+    list.innerHTML = items.map(item => {
+      const pct = Math.round((item.vol / maxVol) * 100);
+      const isBig = item.vol >= bigThreshold;
+      return `<div class="dom-row ${side} ${isBig ? 'big-'+side : ''}">
+        <div class="price ${isBig ? 'big-order' : ''}">${fmt(item.price)}</div>
+        <div class="vol-bar-wrap">
+          <div class="vol-bar" style="width:${pct}%"></div>
+        </div>
+        <div class="vol-text ${isBig ? 'big-order' : ''}">${fmtVol(item.vol)}${isBig?' 🔴':''}</div>
+      </div>`;
+    }).join('');
+  }
+
+  renderRows(document.getElementById('askList'), [...asks].reverse(), 'ask');
+  renderRows(document.getElementById('bidList'), bids, 'bid');
+
+  // Spread
+  if (asks.length && bids.length) {
+    const spread = asks[0].price - bids[0].price;
+    document.getElementById('spreadPrice').textContent =
+      `${fmt(asks[0].price)} / ${fmt(bids[0].price)}  [${fmt(spread)}]`;
+  }
+
+  // Totals
+  const totalAsk = asks.reduce((s,a)=>s+a.vol,0);
+  const totalBid = bids.reduce((s,b)=>s+b.vol,0);
+  document.getElementById('totalAsk').textContent = fmtVol(totalAsk);
+  document.getElementById('totalBid').textContent = fmtVol(totalBid);
+
+  const ratio = totalAsk > 0 ? (totalBid / totalAsk) : 1;
+  const ratioEl = document.getElementById('ratio');
+  ratioEl.textContent = ratio.toFixed(2) + 'x';
+  ratioEl.style.color = ratio > 1.2 ? 'var(--bid)' : ratio < 0.8 ? 'var(--ask)' : 'var(--text)';
+
+  // Imbalance bars
+  const total = totalAsk + totalBid || 1;
+  const askPct = Math.round(totalAsk / total * 100);
+  const bidPct = 100 - askPct;
+  document.getElementById('askBar').style.width = askPct + '%';
+  document.getElementById('bidBar').style.width = bidPct + '%';
+  document.getElementById('askPct').textContent = askPct + '%';
+  document.getElementById('bidPct').textContent = bidPct + '%';
+
+  // Axia signals
+  updateSignals(d, asks, bids, totalAsk, totalBid, bigThreshold);
+}
+
+function updateSignals(d, asks, bids, totalAsk, totalBid, bigThreshold) {
+  const signals = [];
+  const sd = d.session;
+  const cvd = d.cvd;
+
+  if (sd > 5000) signals.push({color:'var(--bid)', text:'Session Delta pozitif — Long bias'});
+  else if (sd < -5000) signals.push({color:'var(--ask)', text:'Session Delta negatif — Short bias'});
+  else signals.push({color:'var(--dim)', text:'Session Delta nötr — Bekle'});
+
+  if (cvd > 0) signals.push({color:'var(--bid)', text:'CVD pozitif — Alıcılar hakim'});
+  else signals.push({color:'var(--ask)', text:'CVD negatif — Satıcılar hakim'});
+
+  const bigAsks = asks.filter(a=>a.vol>=bigThreshold);
+  const bigBids = bids.filter(b=>b.vol>=bigThreshold);
+  if (bigBids.length > bigAsks.length)
+    signals.push({color:'var(--bid)', text:`${bigBids.length} büyük BID duvarı — Destek güçlü`});
+  if (bigAsks.length > bigBids.length)
+    signals.push({color:'var(--ask)', text:`${bigAsks.length} büyük ASK duvarı — Direnç güçlü`});
+
+  const ratio = totalAsk > 0 ? totalBid / totalAsk : 1;
+  if (ratio > 1.5) signals.push({color:'var(--bid)', text:`BID/ASK oran ${ratio.toFixed(1)}x — Absorption Bull`});
+  if (ratio < 0.65) signals.push({color:'var(--ask)', text:`BID/ASK oran ${ratio.toFixed(1)}x — Absorption Bear`});
+
+  document.getElementById('signalList').innerHTML = signals.map(s =>
+    `<div class="signal-row">
+      <div class="signal-dot" style="background:${s.color}"></div>
+      <div style="font-size:12px">${s.text}</div>
+    </div>`
+  ).join('');
+}
+
+// ── CLAUDE ANALİZ ─────────────────────────────────────────────────────────────
+async function runAnalysis() {
+  if (!lastData) { log('Önce ATAS bağlantısı kur', 'err'); return; }
+
+  const btn = document.getElementById('analyzeBtn');
+  btn.disabled = true;
+  btn.textContent = 'ANALİZ...';
+
+  const out = document.getElementById('claudeOutput');
+  out.innerHTML = '<div class="thinking">Claude düşünüyor...</div>';
+
+  const d = lastData;
+  const asks = [...(d.asks||[])].sort((a,b)=>a.price-b.price).slice(0,10);
+  const bids = [...(d.bids||[])].sort((a,b)=>b.price-a.price).slice(0,10);
+  const totalAsk = asks.reduce((s,a)=>s+a.vol,0);
+  const totalBid = bids.reduce((s,b)=>s+b.vol,0);
+  const ratio = totalAsk > 0 ? totalBid/totalAsk : 1;
+
+  const prompt = `Sen Axia Futures metodolojisine göre çalışan bir order flow analist asistanısın.
+
+CANLI PIYASA VERİSİ (${d.time}):
+- Fiyat: ${fmt(d.price)}
+- Session Delta: ${d.session > 0 ? '+' : ''}${Math.round(d.session)}
+- CVD: ${d.cvd > 0 ? '+' : ''}${Math.round(d.cvd)}
+
+DOM — ASK (Satıcılar, yukarıdan aşağı):
+${asks.map(a=>`  ${fmt(a.price)} → Vol: ${Math.round(a.vol)}`).join('\n')}
+
+DOM — BID (Alıcılar, yukarıdan aşağı):
+${bids.map(b=>`  ${fmt(b.price)} → Vol: ${Math.round(b.vol)}`).join('\n')}
+
+TOPLAM: ASK=${Math.round(totalAsk)}, BID=${Math.round(totalBid)}, ORAN=${ratio.toFixed(2)}x
+
+Axia Futures metodolojisine göre şunları analiz et:
+1. DOM imbalance — bid stack mi, ask stack mi güçlü?
+2. Büyük pasif emirler — absorption mu, spoof mu?
+3. Session Delta + CVD uyumu
+4. Should Trade testi
+
+SONUÇ olarak şunu ver:
+KARAR: [LONG / SHORT / BEKLE]
+GİRİŞ: [fiyat]
+STOP: [fiyat]
+HEDEF: [fiyat]
+GÜVEN: [1-10]
+AÇIKLAMA: [2-3 cümle Axia metodolojisi açısından]`;
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_KEY,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 500,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+
+    const json = await resp.json();
+    const text = json.content?.[0]?.text || 'Yanıt alınamadı';
+    renderAnalysis(text, d);
+    log('Claude analizi tamamlandı', 'ok');
+  } catch(e) {
+    // API anahtarı olmadan demo mod
+    renderDemoAnalysis(d, asks, bids, totalAsk, totalBid, ratio);
+    log('Demo mod — API anahtarı gerekmez', 'warn');
+  }
+
+  btn.disabled = false;
+  btn.textContent = 'ANALİZ ET';
+}
+
+function renderAnalysis(text, d) {
+  const out = document.getElementById('claudeOutput');
+  const isLong = text.includes('LONG');
+  const isShort = text.includes('SHORT');
+  const verdict = isLong ? 'LONG' : isShort ? 'SHORT' : 'BEKLE';
+  const cls = isLong ? 'long' : isShort ? 'short' : 'wait';
+
+  const confMatch = text.match(/GÜVEN[:\s]+(\d+)/i);
+  const conf = confMatch ? parseInt(confMatch[1]) * 10 : 50;
+
+  out.innerHTML = `
+    <div class="verdict-box ${cls}">${verdict}</div>
+    <div class="confidence-bar">
+      <div class="conf-label">GÜVEN SKORU</div>
+      <div class="conf-track"><div class="conf-fill" style="width:${conf}%"></div></div>
+    </div>
+    <div class="analysis-text">${text}</div>`;
+}
+
+function renderDemoAnalysis(d, asks, bids, totalAsk, totalBid, ratio) {
+  const out = document.getElementById('claudeOutput');
+  const sd = d.session;
+  const cvd = d.cvd;
+
+  let verdict, cls, conf, entry, stop, target, explain;
+
+  if (sd > 3000 && cvd > 0 && ratio > 1.2) {
+    verdict = 'LONG'; cls = 'long'; conf = 70;
+    entry = fmt(d.price);
+    stop = fmt(bids[bids.length-1]?.price || d.price - 50);
+    target = fmt(asks[asks.length-1]?.price || d.price + 100);
+    explain = `Session Delta +${Math.round(sd)} pozitif, CVD yükseliyor. BID/ASK oran ${ratio.toFixed(1)}x — alıcılar dominan. DOM'da bid stack güçlü, absorption sinyali mevcut.`;
+  } else if (sd < -3000 && cvd < 0 && ratio < 0.8) {
+    verdict = 'SHORT'; cls = 'short'; conf = 70;
+    entry = fmt(d.price);
+    stop = fmt(asks[asks.length-1]?.price || d.price + 50);
+    target = fmt(bids[bids.length-1]?.price || d.price - 100);
+    explain = `Session Delta ${Math.round(sd)} negatif, CVD düşüyor. BID/ASK oran ${ratio.toFixed(1)}x — satıcılar dominan. DOM'da ask stack baskılıyor.`;
+  } else {
+    verdict = 'BEKLE'; cls = 'wait'; conf = 40;
+    entry = '—'; stop = '—'; target = '—';
+    explain = `Session Delta nötr (${Math.round(sd)}), CVD ve DOM imbalance net sinyal vermiyor. Axia: "If in doubt, stay out." Yön netleşene kadar bekle.`;
+  }
+
+  out.innerHTML = `
+    <div class="verdict-box ${cls}">${verdict}</div>
+    <div class="confidence-bar">
+      <div class="conf-label">GÜVEN SKORU — ${conf}/100</div>
+      <div class="conf-track"><div class="conf-fill" style="width:${conf}%"></div></div>
+    </div>
+    <div class="entry-levels">
+      <div class="level-card entry"><div class="l-label">GİRİŞ</div><div class="l-val">${entry}</div></div>
+      <div class="level-card stop"><div class="l-label">STOP</div><div class="l-val">${stop}</div></div>
+      <div class="level-card target"><div class="l-label">HEDEF</div><div class="l-val">${target}</div></div>
+    </div>
+    <div class="analysis-text" style="margin-top:12px">${explain}</div>`;
+}
+
+// ── BAŞLAT ────────────────────────────────────────────────────────────────────
+log('AxiaFlow DOM başlatıldı', 'info');
+log(`ATAS websocket: ${WS_URL}`, 'info');
+connect();
+</script>
+</body>
+</html>
