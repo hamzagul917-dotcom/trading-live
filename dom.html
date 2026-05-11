@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AxiaFlow · Smart DOM</title>
+<style>
+  :root {
+    --bg:       #0a0c0f;
+    --panel:    #111318;
+    --border:   #1e2230;
+    --ask:      #c0392b;
+    --ask-dim:  #7b241c;
+    --bid:      #27ae60;
+    --bid-dim:  #1a6b3c;
+    --text:     #dde3f0;
+    --muted:    #5a6278;
+    --accent:   #3d7eff;
+    --gold:     #f0c040;
+    --spread:   #8b7cf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 13px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 12px;
+  }
+
+  header {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .brand { font-size: 15px; font-weight: 700; letter-spacing: 1px; color: var(--accent); }
+  .brand span { color: var(--muted); font-weight: 400; font-size: 11px; margin-left: 6px; }
+
+  #clock { color: var(--muted); font-size: 11px; }
+
+  /* ── Özet Kartı ── */
+  .summary {
+    width: 100%;
+    max-width: 500px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+  }
+
+  .stat { display: flex; flex-direction: column; align-items: center; }
+  .stat-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+  .stat-value { font-size: 18px; font-weight: 700; }
+  .stat-value.price  { color: var(--gold); }
+  .stat-value.up     { color: var(--bid); }
+  .stat-value.down   { color: var(--ask); }
+
+  /* ── Oran Çubuğu ── */
+  .ratio-bar {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 14px;
+  }
+
+  .ratio-track {
+    width: 100%;
+    height: 6px;
+    background: var(--ask);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .ratio-fill {
+    height: 100%;
+    background: var(--bid);
+    border-radius: 3px;
+    transition: width 0.5s ease;
+  }
+
+  .ratio-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .ratio-labels .bid-pct { color: var(--bid); font-weight: 700; }
+  .ratio-labels .ask-pct { color: var(--ask); font-weight: 700; }
+
+  /* ── DOM Tablosu ── */
+  .dom-wrapper {
+    width: 100%;
+    max-width: 500px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  tbody tr { position: relative; }
+
+  tbody td {
+    padding: 5px 12px;
+    font-variant-numeric: tabular-nums;
+    font-size: 13px;
+  }
+
+  /* Volume bar arka plan */
+  .row-bar {
+    position: absolute;
+    top: 0; bottom: 0;
+    opacity: 0.18;
+    transition: width 0.3s ease;
+  }
+
+  /* ASK satırları */
+  tr.ask-row td { color: var(--ask); }
+  tr.ask-row .row-bar { background: var(--ask); right: 0; }
+
+  /* BID satırları */
+  tr.bid-row td { color: var(--bid); }
+  tr.bid-row .row-bar { background: var(--bid); left: 0; }
+
+  /* Spread satırı */
+  tr.spread-row td {
+    text-align: center;
+    color: var(--spread);
+    font-size: 11px;
+    background: #16182a;
+    padding: 3px;
+    letter-spacing: 1px;
+  }
+
+  /* En büyük seviye vurgusu */
+  tr.big-level td { font-weight: 700; }
+  tr.big-level td:first-child::before {
+    content: "◆ ";
+    font-size: 9px;
+  }
+
+  td.vol-cell { text-align: right; }
+  td.price-cell { text-align: center; }
+
+  /* ── Durum Çubuğu ── */
+  .status-bar {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--muted);
+    margin-right: 5px;
+  }
+  .dot.live { background: var(--bid); animation: pulse 1.5s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.3; }
+  }
+
+  #error-msg {
+    display: none;
+    color: var(--ask);
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">AxiaFlow <span>SMART DOM</span></div>
+  <div id="clock">--:--:--</div>
+</header>
+
+<!-- Özet -->
+<div class="summary">
+  <div class="stat">
+    <div class="stat-label">Fiyat</div>
+    <div class="stat-value price" id="price">—</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Toplam Bid</div>
+    <div class="stat-value up" id="total-bid">—</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Toplam Ask</div>
+    <div class="stat-value down" id="total-ask">—</div>
+  </div>
+</div>
+
+<!-- Oran çubuğu -->
+<div class="ratio-bar">
+  <div class="ratio-track">
+    <div class="ratio-fill" id="ratio-fill" style="width:50%"></div>
+  </div>
+  <div class="ratio-labels">
+    <span class="bid-pct" id="bid-pct">BID 50%</span>
+    <span id="symbol-label">—</span>
+    <span class="ask-pct" id="ask-pct">ASK 50%</span>
+  </div>
+</div>
+
+<!-- DOM Tablosu -->
+<div class="dom-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left">Volume</th>
+        <th>Fiyat</th>
+        <th style="text-align:right">Volume</th>
+      </tr>
+    </thead>
+    <tbody id="dom-body">
+      <tr><td colspan="3" style="text-align:center;padding:30px;color:var(--muted)">
+        DOM verisi bekleniyor…
+      </td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="status-bar">
+  <div><span class="dot" id="status-dot"></span><span id="status-text">Bağlantı bekleniyor</span></div>
+  <div id="last-update">—</div>
+</div>
+
+<div id="error-msg">⚠ Veri alınamıyor — ATAS indicator ve dom_push.py çalışıyor mu?</div>
+
+<script>
+const DOM_URL = 'https://raw.githubusercontent.com/hamzagul917-dotcom/trading-live/main/dom_live.json';
+const REFRESH_MS = 2000;   // 2 saniyede bir güncelle
+
+let maxVolume = 1;          // Oran çubuğu için
+
+// ── Saat ───────────────────────────────────────────────
+function updateClock() {
+  document.getElementById('clock').textContent =
+    new Date().toLocaleTimeString('en-GB', { hour12: false });
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ── Sayı formatla ──────────────────────────────────────
+function fmt(n) {
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+  return n.toString();
+}
+
+// ── DOM çek ve render et ───────────────────────────────
+async function fetchDom() {
+  try {
+    const res = await fetch(DOM_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+
+    const data = await res.json();
+    renderDom(data);
+    document.getElementById('error-msg').style.display = 'none';
+
+  } catch (e) {
+    document.getElementById('status-dot').className = 'dot';
+    document.getElementById('status-text').textContent = 'Veri alınamıyor';
+    document.getElementById('error-msg').style.display = 'block';
+  }
+}
+
+function renderDom(data) {
+  // Özet
+  document.getElementById('price').textContent = data.price.toFixed(2);
+  document.getElementById('total-bid').textContent = fmt(data.total_bid);
+  document.getElementById('total-ask').textContent = fmt(data.total_ask);
+  document.getElementById('symbol-label').textContent = data.symbol || '—';
+
+  // Oran
+  const bidPct = Math.round(data.ratio);
+  const askPct = 100 - bidPct;
+  document.getElementById('ratio-fill').style.width = bidPct + '%';
+  document.getElementById('bid-pct').textContent = 'BID ' + bidPct + '%';
+  document.getElementById('ask-pct').textContent = 'ASK ' + askPct + '%';
+
+  // Maks hacim hesapla (bar genişliği için)
+  const allVols = [...data.asks, ...data.bids].map(l => l.volume);
+  maxVolume = Math.max(...allVols, 1);
+
+  // Asks → en düşük fiyat üstte (ters sıra)
+  const asksReversed = [...data.asks].reverse();
+
+  // Spread hesapla
+  const bestAsk = data.asks[0]?.price;
+  const bestBid = data.bids[0]?.price;
+  const spread  = bestAsk && bestBid ? (bestAsk - bestBid).toFixed(2) : '—';
+
+  // DOM tablosunu oluştur
+  const tbody = document.getElementById('dom-body');
+  let html = '';
+
+  // Ask satırları
+  asksReversed.forEach(level => {
+    const pct = Math.round((level.volume / maxVolume) * 100);
+    const isBig = level.volume === Math.max(...data.asks.map(l => l.volume));
+    html += `
+      <tr class="ask-row${isBig ? ' big-level' : ''}">
+        <td></td>
+        <td class="price-cell">${level.price.toFixed(2)}</td>
+        <td class="vol-cell">${fmt(level.volume)}
+          <div class="row-bar" style="width:${pct}%"></div>
+        </td>
+      </tr>`;
+  });
+
+  // Spread
+  html += `
+    <tr class="spread-row">
+      <td colspan="3">── SPREAD ${spread} ──</td>
+    </tr>`;
+
+  // Bid satırları
+  data.bids.forEach(level => {
+    const pct = Math.round((level.volume / maxVolume) * 100);
+    const isBig = level.volume === Math.max(...data.bids.map(l => l.volume));
+    html += `
+      <tr class="bid-row${isBig ? ' big-level' : ''}">
+        <td class="vol-cell">${fmt(level.volume)}
+          <div class="row-bar" style="width:${pct}%"></div>
+        </td>
+        <td class="price-cell">${level.price.toFixed(2)}</td>
+        <td></td>
+      </tr>`;
+  });
+
+  tbody.innerHTML = html;
+
+  // Durum
+  const ts = new Date(data.timestamp);
+  document.getElementById('status-dot').className = 'dot live';
+  document.getElementById('status-text').textContent = 'Canlı';
+  document.getElementById('last-update').textContent =
+    'Son: ' + ts.toLocaleTimeString('en-GB', { hour12: false });
+}
+
+// ── Başlat ─────────────────────────────────────────────
+fetchDom();
+setInterval(fetchDom, REFRESH_MS);
+</script>
+</body>
+</html>
