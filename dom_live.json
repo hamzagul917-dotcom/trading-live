@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-05-11T22:50:34Z",
+  "timestamp": "2026-05-11T22:50:39Z",
   "symbol": "NQ",
-  "price": 29451.00,
-  "total_bid": 15,
+  "price": 29452.25,
+  "total_bid": 16,
   "total_ask": 94,
-  "ratio": 13.8,
+  "ratio": 14.5,
   "asks": [
     {"price": 29000.00, "volume": 83},
     {"price": 29028.00, "volume": 1},
@@ -25,8 +25,8 @@
     {"price": 29693.50, "volume": 1},
     {"price": 29641.00, "volume": 1},
     {"price": 29640.25, "volume": 1},
+    {"price": 29576.25, "volume": 2},
     {"price": 29530.00, "volume": 6},
-    {"price": 29527.75, "volume": 1},
-    {"price": 29527.50, "volume": 1}
+    {"price": 29528.00, "volume": 1}
   ]
 }
