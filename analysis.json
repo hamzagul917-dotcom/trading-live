@@ -1,23 +1,17 @@
 {
-  "timestamp": "15:40",
-  "bias": "BEARISH",
-  "levels": {
-    "vah": "27.442",
-    "vpoc": "27.419",
-    "val": "27.381"
-  },
-  "delta": {
-    "session": "-3K",
-    "cvd": "NEGATİF",
-    "absorption": "VAL altında satıcı baskısı, absorpsiyon yok"
-  },
+  "bias": "BULLISH",
+  "signal": "LONG",
+  "confidence": "ORTA",
+  "setup_type": "TEXTBOOK",
+  "entry": "71400.0",
+  "tp1": "71420.0",
+  "tp2": "71450.0",
+  "stop": "71360.0",
+  "key_level": "71400.0",
+  "absorption": "71400.0 seviyesinde 31 adet satis emri gelmesine ragmen Bid duvarinin fiyati absorbe ederek dusmesini engellemesi.",
+  "dom_observation": "71410.0-71430.0 araliginda yogun Ask duvarlari (129, 137, 129 kontrat) direnci gosterirken, 71370.0 ve altinda (71370.0: 44, 71300.0: 77 kontrat) guclu Bid duvarlari destek olusturuyor.",
+  "reason": "71400.0 seviyesindeki guclu bid absorbsiyonu fiyatin dususunu engellemistir ve alt seviyelerdeki bid duvarlari ek destek saglayarak alicilarin gucunu teyit etmektedir.",
   "should_trade": "EVET",
-  "should_reason": "VAL kırıldı, CVD negatif, BOS aşağı konfirme, session delta negatif.",
-  "notes": "4H yapısı bearish, BOS aşağı oluştu. VAL 27.381 kırıldı ve fiyat altında kapanıyor. Session delta gün boyunca pozitiften negatife döndü — alıcılar yoruldu. DOM'da gerçek satıcı baskısı mevcut.",
-  "targets": {
-    "entry": "27.381 VAL retest short",
-    "tp1": "27.350",
-    "tp2": "27.300",
-    "stop": "27.445 VAH üzeri"
-  }
+  "should_reason": "Fiyat, 31 satis emrine ragmen 71400.0 seviyesinde dusmeyerek alici absorbsiyonunu net bir sekilde gosteriyor, bu da Axia Futures metedolojisine gore bir alim firsatidir.",
+  "timestamp": "01:20:44"
 }
