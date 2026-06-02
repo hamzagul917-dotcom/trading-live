@@ -1,17 +1,17 @@
 {
-  "bias": "BULLISH",
+  "bias": "NEUTRAL",
   "signal": "LONG",
   "confidence": "YUKSEK",
-  "setup_type": "TEXTBOOK",
-  "entry": "71390.0",
-  "tp1": "71410.0",
+  "setup_type": "NUANCE",
+  "entry": "71340.0",
+  "tp1": "71380.0",
   "tp2": "71420.0",
-  "stop": "71379.0",
-  "key_level": "71390.0",
-  "absorption": "BID absorption at 71390.0 (2 Sells vs 1787 Bid)",
-  "dom_observation": "Buyuk stacked bid duvari 71390 (1787) ve 71380 (1318) seviyelerinde, minimal satiş ile tutunuyor.",
-  "reason": "Güçlü bid absorption ve CVD ayrışması (fiyat düşerken CVD yatay/hafif yukarı) ile desteklenen temel uzun sinyal.",
+  "stop": "71240.0",
+  "key_level": "71260.0",
+  "absorption": "BID absorption observed from 71330.0 down to 71260.0",
+  "dom_observation": "Saticilarin agresifligine ragmen, DOM'da 71330.0-71260.0 araliginda tekrar tekrar buyuk alimlar (Buys kolonu) ve buyuk bid duvarlari gozlemleniyor.",
+  "reason": "Genel bearish baglama ragmen, fiyat dusmeye devam ederken guclu BID absorption saticilarin tukendigini ve alicilarin seviyeyi savundugunu gosteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın 71390 seviyesindeki güçlü bid duvarında açık absorpsiyon göstermesi, yüksek olasılıklı bir geri sıçrama potansiyeli sunuyor.",
-  "timestamp": "01:57:46"
+  "should_reason": "Fiyat belirgin bir dusus yasadi ancak order flow, bu dusus momentumunun alicilar tarafindan absorbe edildigini ve kisa vadede bir geri cekilme veya terse donme potansiyeli oldugunu net bir sekilde gosteriyor.",
+  "timestamp": "02:06:10"
 }
