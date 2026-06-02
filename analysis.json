@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "YUKSEK",
+  "confidence": "ORTA",
   "setup_type": "NUANCE",
-  "entry": "67820.0",
-  "tp1": "67800.0",
-  "tp2": "67750.0",
-  "stop": "67855.0",
-  "key_level": "67830.0 - 67840.0",
-  "absorption": "67830.0 ve 67840.0 seviyelerinde belirgin ASK absorption gözlemlenmektedir. Büyük market alımları (75 ve 78) bu seviyelere gelirken, limit ask emirleri artış göstermekte (+9 ve +7), fiyatın yukarı hareket etmesini engellemektedir.",
-  "dom_observation": "67830.0 seviyesinden itibaren yukarı doğru büyük bir stacked ask duvari oluşumu var. Özellikle 67830.0 ve 67840.0 seviyelerinde ask emirleri artarken, bu seviyelere gelen yoğun alımlar fiyatı yukarı taşıyamıyor.",
-  "reason": "Fiyat, 67830.0-67840.0 seviyelerinde güçlü ASK absorption ile karşılaşıyor; alıcılar agresif olsa da satıcılar limit emirlerini artırarak fiyatın yükselmesini engelliyor. Bu durum, yukarı yönlü momentumun tükendiğini ve potansiyel bir düşüşün başlayabileceğini gösteriyor.",
+  "entry": "67680.0",
+  "tp1": "67570.0",
+  "tp2": "YOK",
+  "stop": "67710.0",
+  "key_level": "67680.0 (vPOC)",
+  "absorption": "YOK",
+  "dom_observation": "Fiyat 67680 seviyesinde, 2 satış ve 0 alış emri mevcut. 67670 seviyesinde 9 satış ve 0 alış emri var. 67570 seviyesinde belirgin bir yığılmış bid duvarı (74 bid) ve 67790 seviyesinde belirgin bir yığılmış ask duvarı (89 ask) bulunuyor.",
+  "reason": "Genel CVD ve Delta göstergeleri düşüş eğiliminde olup güçlü bir ayı momentumu sergilemektedir. Fiyatın mevcut vPOC seviyesinde (67680) alım gücünün tükenmesi (0 alış emri) ve satış baskısının devam etmesi, fiyatın aşağı yönlü hareketine devam edebileceğini göstermektedir.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, önemli alım baskısına rağmen yukarı hareket etmesi gerekirken, aktif satıcı absorpsiyonu nedeniyle hareket edemiyor. Bu, Axia Futures metodolojisine göre net bir SHORT sinyalidir.",
-  "timestamp": "23:40:27"
+  "should_reason": "Ayı momentumu, order flow ile kritik bir seviyede (vPOC) alım devamlılığının olmamasıyla uyumlu olduğundan, aşağı yönlü bir hareket beklentisi mevcuttur.",
+  "timestamp": "23:44:58"
 }
