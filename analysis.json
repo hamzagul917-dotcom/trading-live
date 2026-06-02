@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "YUKSEK",
-  "setup_type": "TEXTBOOK",
-  "entry": "71250.0",
-  "tp1": "71200.0",
-  "tp2": "71170.0",
+  "confidence": "ORTA",
+  "setup_type": "NUANCE",
+  "entry": "71220.0",
+  "tp1": "71150.0",
+  "tp2": "71100.0",
   "stop": "71275.0",
-  "key_level": "71250.0",
-  "absorption": "ASK absorption at 71250.0",
-  "dom_observation": "71250 fiyat seviyesinde Ask hanesi 0 ve 'Chg' -14 olmasına rağmen fiyat yukarı hareket etmiyor, bu da alıcıların emilen satış baskısıyla karşılaştığını gösteriyor. Altında daha fazla satış gözleniyor.",
-  "reason": "71250 seviyesinde net bir ASK absorption sinyali var; alıcılar agresif gelse de fiyat yükselmiyor. Bu durum, genel negatif CVD ve delta ile birleşince güçlü bir satış sinyali oluşturuyor.",
+  "key_level": "71226.4 (VAL)",
+  "absorption": "71220.0 seviyesinde 6 market alımına rağmen fiyatın yukarı gitmemesi, alım gücünün absorbe edildiğini/zayıf olduğunu gösteriyor.",
+  "dom_observation": "71270.0 (472 ask) ve 71290.0 (305 ask) seviyelerinde güçlü stacked ask duvarları bulunuyor. Mevcut fiyatta (71220.0) bidler zayıf (18 bid).",
+  "reason": "Güçlü negatif CVD ve Delta, fiyatın VAL altında seyretmesi ve üstte önemli ask duvarlarının direnç oluşturması sebebiyle aşağı yönlü hareket bekleniyor; alıcı gücü zayıf. Alımların absorbe edildiği gözlemleniyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın 71250'den aşağı hareket etmesi bekleniyor, çünkü alıcıların baskısı satıcılar tarafından emiliyor ve fiyatın yükselmesi engelleniyor, bu da genel düşüş trendiyle uyumlu.",
-  "timestamp": "02:15:42"
+  "should_reason": "Piyasanın genel yönü ve momentumu aşağıyı işaret ediyor, VAL seviyesi direnç olarak çalışmalı ve fiyatın aşağı yönlü hareketine devam etmesi bekleniyor.",
+  "timestamp": "02:19:29"
 }
