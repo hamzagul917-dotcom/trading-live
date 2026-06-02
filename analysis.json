@@ -1,17 +1,17 @@
 {
-  "bias": "NEUTRAL",
-  "signal": "LONG",
+  "bias": "BEARISH",
+  "signal": "SHORT",
   "confidence": "ORTA",
   "setup_type": "NUANCE",
-  "entry": "70100.0",
-  "tp1": "70120.0",
-  "tp2": "70150.0",
-  "stop": "70080.0",
+  "entry": "70099.0",
+  "tp1": "70050.0",
+  "tp2": "69950.0",
+  "stop": "70115.0",
   "key_level": "70100.0",
-  "absorption": "BID absorption at 70100.0",
-  "dom_observation": "70100.0 seviyesinde 30 birimlik bid duvari 7 satışı absorbe etti, 70110.0 seviyesindeki ask emirlerinde -36 azalma gozlendi.",
-  "reason": "70100.0 seviyesinde satıcıların alıcılar tarafından absorbe edildiği gorülüyor. Ayrıca 70110.0 seviyesindeki direncin azaldığı, potansiyel bir yukarı hareket için yol açtığı gorülüyor.",
+  "absorption": "Negatif CVD genel alım emri absorbe edildiğini gösteriyor; 70110.0 seviyesindeki Ask değişimi (-36) ve fiyatın yükselmemesi satış absorpsiyonuna işaret ediyor.",
+  "dom_observation": "70100.0 seviyesinde 30 sözleşmelik güçlü bir bid duvarı var, ancak bu seviye satıcılar tarafından test ediliyor (70100.0'da 7 satış emri ve 70110.0'da 7 satış emri).",
+  "reason": "Oturum Deltası'nın sürekli negatif olması (-4K) güçlü bir satış baskısı olduğunu gösteriyor ve fiyat 70100.0'daki bid duvarına rağmen yükselmekte zorlanıyor, bu da olası bir kırılmaya işaret ediyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın 70100.0 gibi kritik bir seviyede bid absorbe etmesi ve hemen üzerindeki dirençte ask likiditesinin azalması, kısa vadeli bir yükseliş hareketi için net bir order flow setup'ı sunmaktadır.",
-  "timestamp": "09:57:11"
+  "should_reason": "Güçlü negatif Kümülatif Hacim Deltası tarafından kanıtlanan önemli satış baskısı altında olan fiyatın mevcut bid desteğinden daha aşağı kırması bekleniyor.",
+  "timestamp": "10:00:44"
 }
