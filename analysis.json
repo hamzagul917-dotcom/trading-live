@@ -4,14 +4,14 @@
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
   "entry": "71150.0",
-  "tp1": "71200.0",
-  "tp2": "71260.0",
-  "stop": "71129.0",
+  "tp1": "71220.0",
+  "tp2": "71280.0",
+  "stop": "71110.0",
   "key_level": "71150.0",
-  "absorption": "BID absorption at 71150.0 and 71160.0",
-  "dom_observation": "Massive stacked bid walls at 71150.0 (1640 lots) and 71160.0 (1367 lots) are strongly defending the price, showing persistent buyer presence.",
-  "reason": "Price is showing strong bid absorption at a key support level (around VAL) with large stacked bids. Recent positive deltas suggest a shift in immediate selling pressure.",
+  "absorption": "BID absorption at 71150-71160 and 71130",
+  "dom_observation": "Buyuk stacked bid duvari (1640 lots at 71150, 1367 lots at 71160) ve bid back gozlemlendi.",
+  "reason": "Price VAL ve kritik destekte guclu bid absorption ve buyuk stacked bid duvarlari gosteriyor. CVD dusen fiyata ragmen yukseliyor, bu da bullish reversal isareti.",
   "should_trade": "EVET",
-  "should_reason": "The confluence of strong bid absorption, significant stacked bids, and positive delta shift after a price decline presents a high-probability reversal setup from a potential support zone.",
-  "timestamp": "02:47:43"
+  "should_reason": "Fiyat, DOM'da gorulen buyuk bid duvari ve footprint uzerindeki VAL seviyesinde tepki vermesi beklenen kritik bir noktada.",
+  "timestamp": "03:03:05"
 }
