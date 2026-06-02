@@ -7,11 +7,11 @@
   "tp1": "YOK",
   "tp2": "YOK",
   "stop": "YOK",
-  "key_level": "67400-67450 (destek), 67570-67610 (direnç)",
-  "absorption": "67480 ve altındaki seviyelerde bid absorpsiyonu gözlemleniyor, satıcılar geliyor ancak fiyat düşmüyor.",
-  "dom_observation": "67400-67450 aralığında güçlü yığılmış bid duvarı ve 67570-67610 aralığında güçlü yığılmış ask duvarı mevcut.",
-  "reason": "Fiyat yerel destek seviyesinde bid absorpsiyonu gösterse de, genel piyasa yapısı (VAL altında) ve CVD'nin yükselişi desteklememesi nedeniyle net bir yön sinyali bulunmamaktadır. Üstte güçlü bir ask duvarı da yükselişi sınırlayabilir.",
+  "key_level": "67610 (Bid Duvarı) / 67700 (Ask Duvarı)",
+  "absorption": "YOK",
+  "dom_observation": "67610 seviyesinde büyük bir bid duvarı (320) ve 67700 seviyesinde büyük bir ask duvarı (121) mevcut. Mevcut fiyat olan 67660'ta bidlerde azalma (-2) ve asklerde artış (+6) gözlemleniyor.",
+  "reason": "Fiyat, belirgin bir destek (stacked bid) ve direnç (stacked ask) duvarı arasında konsolide oluyor. Mevcut fiyatta net bir absorpsiyon sinyali veya güçlü bir yönelim bulunmamaktadır.",
   "should_trade": "HAYIR",
-  "should_reason": "Çelişkili sinyaller ve yüksek belirsizlik nedeniyle net bir Axia setup'ı oluşmamıştır. Fiyat güçlü destek ve direnç duvarları arasında sıkışmış durumda.",
-  "timestamp": "23:17:00"
+  "should_reason": "Fiyat, belirgin bir destek ve direnç duvarı arasında sıkışmış durumda ve mevcut fiyatta net bir absorpsiyon sinyali veya güçlü bir yönelim bulunmamaktadır. Mikro DOM'daki bid çekilmesi ve ask eklenmesi kısa vadeli zayıflık gösterirken, 15 dakikalık delta pozitifliği çelişki yaratmaktadır.",
+  "timestamp": "23:23:55"
 }
