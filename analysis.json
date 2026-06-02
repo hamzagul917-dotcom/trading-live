@@ -1,17 +1,17 @@
 {
-  "bias": "NEUTRAL",
+  "bias": "BULLISH",
   "signal": "LONG",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "71140.0",
-  "tp1": "71180.0",
-  "tp2": "71220.0",
-  "stop": "71119.0",
-  "key_level": "71150.0",
-  "absorption": "BID absorption at 71140.0-71150.0",
-  "dom_observation": "71150.0 seviyesinde 1640, 71160.0 seviyesinde 1367 lotluk büyük yığılmış bid duvarları var. 71140.0 seviyesinde gerçekleştirilen alımlar (623) satımlardan (420) daha fazla.",
-  "reason": "Güçlü bir düşüş sonrası 71140-71150 seviyelerinde büyük bid duvarlarıyla desteklenen belirgin bir bid absorption gözlemleniyor. Bu, satıcıların absorbe edildiğini ve alıcıların devreye girdiğini gösteriyor.",
+  "entry": "71135.0",
+  "tp1": "71170.0",
+  "tp2": "71200.0",
+  "stop": "71109.0",
+  "key_level": "71150.0 - 71130.0",
+  "absorption": "BID absorption: 71150.0 ve 71130.0 seviyelerinde çok büyük bid duvarları satışları absorbe ediyor, son barda pozitif delta gözlemlendi.",
+  "dom_observation": "71150.0'da 1640, 71160.0'da 1367 ve 71130.0'da 1231 lotluk güçlü stacked bid duvarları mevcut. Bu seviyelerden alıcılar piyasaya giriyor.",
+  "reason": "Fiyat, DOM'da açıkça görülen çok büyük bid duvarlarına çarparak potansiyel destek buluyor. Bu seviyelerde alıcıların satışları absorbe ettiği ve bir sıçrama başlatabileceği düşünülüyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, önemli bir destek seviyesinde (yığılmış bidler ve yerel vPOC yakınlığı) belirgin bid absorption ile karşılaştı. Bu seviyenin tutunması ve buradan bir sıçrama yapması beklenir.",
-  "timestamp": "02:28:55"
+  "should_reason": "Fiyat, belirgin ve güçlü bir destek seviyesine (stacked bid duvarları) ulaştı ve bu seviyeden hareket etmesi bekleniyor; absorption işaretleri bu hareketi destekliyor.",
+  "timestamp": "02:37:11"
 }
