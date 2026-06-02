@@ -1,17 +1,17 @@
 {
   "bias": "NEUTRAL",
   "signal": "BEKLE",
-  "confidence": "YUKSEK",
+  "confidence": "DUSUK",
   "setup_type": "YOK",
   "entry": "YOK",
   "tp1": "YOK",
   "tp2": "YOK",
   "stop": "YOK",
-  "key_level": "VAL (yaklaşık 67000), vPOC (yaklaşık 68000)",
-  "absorption": "YOK",
-  "dom_observation": "Smart DOM verileri eksik olduğu için gözlem yapılamamaktadır.",
-  "reason": "Smart DOM verileri eksik olduğu için order flow analizi yapılamamaktadır. Fiyat konsolidasyon içinde ve genel session delta negatif.",
+  "key_level": "67400-67450 (destek), 67570-67610 (direnç)",
+  "absorption": "67480 ve altındaki seviyelerde bid absorpsiyonu gözlemleniyor, satıcılar geliyor ancak fiyat düşmüyor.",
+  "dom_observation": "67400-67450 aralığında güçlü yığılmış bid duvarı ve 67570-67610 aralığında güçlü yığılmış ask duvarı mevcut.",
+  "reason": "Fiyat yerel destek seviyesinde bid absorpsiyonu gösterse de, genel piyasa yapısı (VAL altında) ve CVD'nin yükselişi desteklememesi nedeniyle net bir yön sinyali bulunmamaktadır. Üstte güçlü bir ask duvarı da yükselişi sınırlayabilir.",
   "should_trade": "HAYIR",
-  "should_reason": "Smart DOM verileri olmadan Axia Futures metodolojisine göre net bir setup teyit edilemez.",
-  "timestamp": "23:09:25"
+  "should_reason": "Çelişkili sinyaller ve yüksek belirsizlik nedeniyle net bir Axia setup'ı oluşmamıştır. Fiyat güçlü destek ve direnç duvarları arasında sıkışmış durumda.",
+  "timestamp": "23:17:00"
 }
