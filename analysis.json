@@ -1,17 +1,17 @@
 {
-  "bias": "BULLISH",
-  "signal": "LONG",
+  "bias": "NEUTRAL",
+  "signal": "BEKLE",
   "confidence": "YUKSEK",
-  "setup_type": "TEXTBOOK",
+  "setup_type": "YOK",
   "entry": "YOK",
   "tp1": "YOK",
   "tp2": "YOK",
   "stop": "YOK",
-  "key_level": "30665 (vPOC)",
-  "absorption": "Bid absorption at 30665.",
-  "dom_observation": "Buyuk bid duvari (738) ve alim aktivitesi.",
-  "reason": "Sustained buying pressure ve pozitif delta. Fiyat yukari hareket ediyor.",
-  "should_trade": "EVET",
-  "should_reason": "Guclu alim baskisi ve momentum.",
-  "timestamp": "17:19:46"
+  "key_level": "VAL (yaklaşık 67000), vPOC (yaklaşık 68000)",
+  "absorption": "YOK",
+  "dom_observation": "Smart DOM verileri eksik olduğu için gözlem yapılamamaktadır.",
+  "reason": "Smart DOM verileri eksik olduğu için order flow analizi yapılamamaktadır. Fiyat konsolidasyon içinde ve genel session delta negatif.",
+  "should_trade": "HAYIR",
+  "should_reason": "Smart DOM verileri olmadan Axia Futures metodolojisine göre net bir setup teyit edilemez.",
+  "timestamp": "23:09:25"
 }
