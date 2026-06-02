@@ -1,17 +1,17 @@
 {
-  "bias": "BULLISH",
-  "signal": "LONG",
+  "bias": "BEARISH",
+  "signal": "SHORT",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "67570.0",
-  "tp1": "67600.0",
-  "tp2": "67650.0",
+  "entry": "67430.0",
+  "tp1": "67370.0",
+  "tp2": "67320.0",
   "stop": "67540.0",
-  "key_level": "67560.0",
-  "absorption": "67560 ve 67550 seviyelerinde yoğun satışlara rağmen fiyatın düşmemesi ve bidlerin yenilenmesi (28 ve 38 sells) güçlü BID absorption olduğunu gösteriyor.",
-  "dom_observation": "67570'den 67530'a kadar bid duvarları mevcut. 67580 seviyesindeki ask miktarında -12'lik bir düşüş var. 67600-67620 arasında bir ask duvarı oluşuyor.",
-  "reason": "Fiyat, 67560-67550 seviyelerinde güçlü bid absorption gösterdi ve CVD'de bullish divergence ile pozitif delta momentumu oluştu. Alıcılar bu seviyeyi savunuyor ve yukarı yönlü hareket potansiyeli yüksek.",
+  "key_level": "67430.0 (current absorption zone), 67520.0 (ask wall)",
+  "absorption": "67430.0 seviyesinde 64 adet alım emri ask tarafına geldi ve ask boyutu 8 azaldı, ancak fiyat yükselmedi. Bu, alıcıların agresif olmasına rağmen satıcıların bu alımları absorbe ettiğini ve fiyatın yukarı hareketini engellediğini gösteriyor.",
+  "dom_observation": "67430.0'da güçlü alım (64 buys) olmasına rağmen fiyatın sabit kalması ve ask boyutunun azalması. 67520.0'da 36 adetlik önemli bir ask duvarı bulunuyor. Aşağıda 67370.0 (36), 67340.0 (33) ve 67320.0 (36) seviyelerinde güçlü bid duvarları var.",
+  "reason": "Genel piyasa CVD ve delta ile güçlü bir düşüş trendinde. Mevcut fiyatta (67430.0) alıcıların agresif alımları satıcılar tarafından absorbe ediliyor ve fiyat yukarı hareket edemiyor, bu da alıcı gücünün tükendiğini gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Axia Futures metodolojisine göre birden fazla LONG sinyal kriteri (absorption, bid back, CVD divergence, pozitif delta) net bir şekilde hizalanmıştır.",
-  "timestamp": "23:52:55"
+  "should_reason": "Alıcılar fiyatı yukarı itmeye çalışıyor ancak başarılı olamıyor, bu da satıcıların piyasa kontrolünü sürdürdüğünü ve düşüş trendinin devam etmesi gerektiğini gösteriyor.",
+  "timestamp": "00:04:15"
 }
