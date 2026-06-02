@@ -1,17 +1,17 @@
 {
   "bias": "BULLISH",
   "signal": "LONG",
-  "confidence": "YUKSEK",
+  "confidence": "ORTA",
   "setup_type": "TEXTBOOK",
-  "entry": "71150.0",
-  "tp1": "71220.0",
-  "tp2": "71280.0",
-  "stop": "71110.0",
-  "key_level": "71150.0",
-  "absorption": "BID absorption at 71150-71160 and 71130",
-  "dom_observation": "Buyuk stacked bid duvari (1640 lots at 71150, 1367 lots at 71160) ve bid back gozlemlendi.",
-  "reason": "Price VAL ve kritik destekte guclu bid absorption ve buyuk stacked bid duvarlari gosteriyor. CVD dusen fiyata ragmen yukseliyor, bu da bullish reversal isareti.",
+  "entry": "70790.0",
+  "tp1": "70810.0",
+  "tp2": "70830.0",
+  "stop": "70759.0",
+  "key_level": "70790.0 (Absorption) / 70760.0 (VAL)",
+  "absorption": "BID absorption at 70790.0-70780.0",
+  "dom_observation": "70790.0'da güçlü bid wall (72 kontrat, +72 Chg) ve 70800.0'da ask chg (-46) ile azalan satış baskısı",
+  "reason": "Fiyat VAL'e yakın seviyede güçlü bid absorption ve bid back göstererek düşüş sonrası potansiyel bir yükseliş sinyali veriyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, DOM'da gorulen buyuk bid duvari ve footprint uzerindeki VAL seviyesinde tepki vermesi beklenen kritik bir noktada.",
-  "timestamp": "03:03:05"
+  "should_reason": "Fiyat VAL gibi kritik bir destek seviyesinde alıcılar tarafından absorbe ediliyor ve DOM'da güçlü bid back oluşuyor, bu da yukarı yönlü bir hareket beklentisi yaratıyor.",
+  "timestamp": "04:04:54"
 }
