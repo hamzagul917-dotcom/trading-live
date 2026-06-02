@@ -1,17 +1,17 @@
 {
   "bias": "NEUTRAL",
   "signal": "LONG",
-  "confidence": "YUKSEK",
+  "confidence": "ORTA",
   "setup_type": "NUANCE",
-  "entry": "71340.0",
-  "tp1": "71380.0",
-  "tp2": "71420.0",
-  "stop": "71240.0",
+  "entry": "71270.0",
+  "tp1": "71300.0",
+  "tp2": "71350.0",
+  "stop": "71249.0",
   "key_level": "71260.0",
-  "absorption": "BID absorption observed from 71330.0 down to 71260.0",
-  "dom_observation": "Saticilarin agresifligine ragmen, DOM'da 71330.0-71260.0 araliginda tekrar tekrar buyuk alimlar (Buys kolonu) ve buyuk bid duvarlari gozlemleniyor.",
-  "reason": "Genel bearish baglama ragmen, fiyat dusmeye devam ederken guclu BID absorption saticilarin tukendigini ve alicilarin seviyeyi savundugunu gosteriyor.",
+  "absorption": "BID absorption at 71260.0-71270.0",
+  "dom_observation": "Massive stacked bid wall (1037) at 71260.0 and (915) at 71250.0 indicating strong institutional buying interest.",
+  "reason": "Market is at a strong demand zone with significant bid absorption at 71260-71270, likely leading to a short-term bounce. Despite falling CVD, immediate order flow confirms buyers defending this level.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat belirgin bir dusus yasadi ancak order flow, bu dusus momentumunun alicilar tarafindan absorbe edildigini ve kisa vadede bir geri cekilme veya terse donme potansiyeli oldugunu net bir sekilde gosteriyor.",
-  "timestamp": "02:06:10"
+  "should_reason": "Price is reacting to a massive bid wall and showing absorption, suggesting a high probability of a bounce from this key support level.",
+  "timestamp": "02:09:27"
 }
