@@ -1,17 +1,17 @@
 {
   "bias": "NEUTRAL",
   "signal": "BEKLE",
-  "confidence": "ORTA",
+  "confidence": "DUSUK",
   "setup_type": "YOK",
   "entry": "YOK",
   "tp1": "YOK",
   "tp2": "YOK",
   "stop": "YOK",
-  "key_level": "65080.0 (VAL)",
-  "absorption": "65090.0 seviyesinde alıcılar ask'ı zorluyor ancak fiyat yükselmiyor (ask absorption). VAL seviyesinde (65080.0) satıcılar bid'i zorluyor ancak fiyat düşmüyor (bid absorption).",
-  "dom_observation": "Fiyat VAL seviyesinde konsolide oluyor. 65090.0 seviyesinde 21 alım olmasına rağmen fiyat yukarı hareket etmiyor. Bid tarafında 65080.0'da 7, 65070.0'da 14 satış olmasına rağmen fiyat tutunuyor. Alt seviyelerde (65030.0, 64970.0) daha büyük bid duvarları mevcut.",
-  "reason": "Fiyat VAL seviyesinde sıkışmış durumda ve hem alıcı hem de satıcı tarafında absorption belirtileri var. Genel CVD negatif olsa da, VAL seviyesindeki belirsizlik net bir yön sinyali vermiyor.",
+  "key_level": "65000.0 (VAL), 65048.0 (vPOC), 65100.0 (Stacked Ask)",
+  "absorption": "65040-65050 seviyelerinde satıcılar bid'lere agresif bir şekilde vuruyor (11 sells at 65040, 10 sells at 65050), ancak fiyat yukarı yönlü güçlü bir tepki vermiyor. Bu, alıcıların zayıflığını gösteriyor ancak net bir düşüş onayı da yok.",
+  "dom_observation": "64930.0 (104 bid) ve 65000.0 (33 bid) seviyelerinde güçlü bid duvarları mevcut. 65100.0-65150.0 seviyelerinde ise güçlü ask duvarları direnç oluşturuyor. Anlık olarak 65040-65050 seviyelerinde satış baskısı gözlemleniyor.",
+  "reason": "Piyasa genel olarak ayı eğiliminde olsa da (negatif Session Delta, CVD), anlık fiyat seviyesinde (65040-65050) net bir yön sinyali bulunmamaktadır. Güçlü bid ve ask duvarları arasında sıkışmış durumda, net bir Axia setup'ı oluşmamıştır.",
   "should_trade": "HAYIR",
-  "should_reason": "Piyasa kritik bir destek seviyesinde (VAL) ve order flow sinyalleri karışık. Net bir Axia setup'ı oluşana kadar beklemek daha güvenli ve disiplinli bir yaklaşımdır.",
-  "timestamp": "00:31:12"
+  "should_reason": "Fiyatın mevcut seviyeden net bir şekilde hareket etmesi için yeterli order flow onayı veya setup hizalanması bulunmamaktadır. Hem alıcılar hem de satıcılar arasında belirsizlik hakimdir.",
+  "timestamp": "00:44:27"
 }
