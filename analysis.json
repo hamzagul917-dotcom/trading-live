@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "ORTA",
+  "confidence": "YUKSEK",
   "setup_type": "NUANCE",
-  "entry": "63880.0",
-  "tp1": "63800.0",
-  "tp2": "63650.0",
-  "stop": "64010.0",
-  "key_level": "64000.0 (VAH)",
-  "absorption": "Fiyat 64000 (VAH) seviyesindeki güçlü ask duvarı tarafından absorbe edildi ve bu seviyenin altında konsolide oluyor.",
-  "dom_observation": "63880 seviyesinde 4 satışa karşı 1 alım var, bu da anlık satış baskısını gösteriyor. Ask tarafında -4 değişimi mevcut.",
-  "reason": "Fiyat VAH (64000) seviyesini reddederek aşağı yönlü hareket ediyor. Negatif CVD ve delta, satıcıların kontrolünde olduğunu gösteriyor.",
+  "entry": 63490.0,
+  "tp1": 63400.0,
+  "tp2": 63350.0,
+  "stop": 63520.0,
+  "key_level": "63500.0",
+  "absorption": "YOK",
+  "dom_observation": "63500.0 seviyesinde 1470 kontratlık büyük bir bid duvarı mevcut, ancak fiyat şu anda 63490.0 seviyesinde işlem görüyor, bu da bu desteğin kırıldığını gösteriyor.",
+  "reason": "Genel düşüş trendi (negatif CVD, negatif Delta ve aşağı yönlü vPOC göçü) ile 63500.0'daki önemli bid duvarının destek olarak tutunamaması birleşerek fiyatın daha da düşeceğine işaret ediyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın VAH altında konsolide olması ve negatif momentumun devam etmesi, aşağı yönlü hareketin beklendiğini gösteriyor.",
-  "timestamp": "09:51:33"
+  "should_reason": "63500.0 bid duvarının destek olarak başarısız olması, güçlü düşüş momentumu göstergeleriyle birleştiğinde, daha fazla düşüş için yüksek bir olasılık sunuyor.",
+  "timestamp": "10:03:52"
 }
