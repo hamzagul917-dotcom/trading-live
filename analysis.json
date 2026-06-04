@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "YUKSEK",
+  "confidence": "ORTA",
   "setup_type": "TEXTBOOK",
-  "entry": "63660.0",
-  "tp1": "63620.0",
-  "tp2": "63560.0",
-  "stop": "63690.0",
-  "key_level": "63670.0",
-  "absorption": "63670.0 seviyesinde 15 alım emri olmasına rağmen fiyatın düşmesiyle ASK absorption gözlemlendi, bu da satıcıların gücünü gösteriyor.",
-  "dom_observation": "63700.0 üzerinde büyük stacked ask duvarları (özellikle 63760.0'da 46 ask) direnç oluştururken, 63640.0 ve 63600.0 seviyelerinde bid yığılmaları potansiyel destek olarak duruyor.",
-  "reason": "Genel piyasa yapısı düşen CVD ve negatif delta ile ayı eğiliminde. 63670.0'daki alıcıların absorbe edilmesi ve fiyatın VAL altında seyretmesi satıcı kontrolünü pekiştiriyor.",
+  "entry": "63845.0",
+  "tp1": "63820.0",
+  "tp2": "63780.0",
+  "stop": "63865.0",
+  "key_level": "63850.0",
+  "absorption": "63850.0 seviyesinde 1758 lotluk büyük bir ask duvarı ve bu seviyede yoğun satış (26 sells, 3 buys) gözlemleniyor, bu da alıcıların absorbe edildiğini gösteriyor.",
+  "dom_observation": "63850.0'da çok büyük bir ask duvarı (1758) ve 63810.0-63830.0 arasında stacked bid duvarları mevcut. Fiyat bu iki duvar arasında sıkışmış durumda.",
+  "reason": "63850.0 seviyesindeki güçlü ask absorption ve büyük ask duvarı, alım gücünün tükendiğini ve satıcıların bu seviyeyi savunduğunu gösteriyor. Fiyat vPOC altında ve son delta değerleri negatif eğilimli.",
   "should_trade": "EVET",
-  "should_reason": "Piyasa genel olarak düşüş eğiliminde olup, CVD ve Delta negatif seyrediyor. 63670.0 seviyesindeki alım gücünün satıcılar tarafından absorbe edilmesi ve fiyatın VAL altında kalması, net bir kısa pozisyon sinyali veriyor.",
-  "timestamp": "21:11:20"
+  "should_reason": "Fiyatın 63850.0 seviyesindeki güçlü ask absorption nedeniyle aşağı yönlü hareket etmesi beklenir. Bu seviyeden yukarı hareket etmemesi, setup'ın geçerliliğini artırır.",
+  "timestamp": "21:39:41"
 }
