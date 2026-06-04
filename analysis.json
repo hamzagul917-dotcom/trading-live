@@ -7,11 +7,11 @@
   "tp1": "63150.0",
   "tp2": "63050.0",
   "stop": "63360.0",
-  "key_level": "63210.0 - 63300.0 (Ask Duvarı), 63470.0 (vPOC)",
-  "absorption": "Fiyatın 63210.0 seviyesinden başlayan devasa ask duvarına doğru yükselmesi durumunda güçlü ASK absorption bekleniyor.",
-  "dom_observation": "63210.0 seviyesinden başlayarak yukarı doğru uzanan (63300.0+ seviyelerine kadar) devasa ve stacked ask duvarı mevcut, bu da güçlü bir direnç oluşturuyor.",
-  "reason": "Fiyat vPOC (63470.0) altında seyrediyor ve hemen üzerinde güçlü bir ask duvarı ile karşılaşıyor. CVD düşüşte ve delta negatif, bu da ayı momentumunu destekliyor.",
+  "key_level": "63380.0 (Ask Duvarı)",
+  "absorption": "YOK",
+  "dom_observation": "Fiyatın üzerinde 63300.0'dan başlayarak 63390.0'a kadar güçlü bir ask duvarı (özellikle 63380.0 ve 63390.0'da büyük emirler) direnç oluşturuyor.",
+  "reason": "Fiyat vPOC ve VAL altında seyrediyor, CVD ve delta negatif momentumu gösteriyor. Fiyatın hemen üzerinde güçlü bir ask duvarı direnç oluşturuyor.",
   "should_trade": "EVET",
-  "should_reason": "Tüm Axia Futures kısa sinyal kriterleri (vPOC altında fiyat, büyük stacked ask duvarı, düşen CVD ve negatif delta) güçlü bir şekilde hizalanmış durumda.",
-  "timestamp": "20:10:51"
+  "should_reason": "Birden fazla Axia Futures kuralı (vPOC/VAL altı, negatif CVD/delta, güçlü ask duvarı) SHORT sinyalini destekliyor.",
+  "timestamp": "20:13:21"
 }
