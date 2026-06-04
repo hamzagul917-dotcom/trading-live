@@ -8,10 +8,10 @@
   "tp2": 62980.0,
   "stop": 63310.0,
   "key_level": "63300.0",
-  "absorption": "63300.0 seviyesindeki güçlü ask duvarı tarafından alıcılar absorbe edildi.",
-  "dom_observation": "63300.0 üzerinde büyük yığılmış ask duvarları direnç oluşturuyor; 63000.0 seviyesinde önemli bid duvarı var.",
-  "reason": "Fiyat, 63300.0 seviyesindeki güçlü ask duvarı tarafından absorbe edildikten sonra düşüşe geçti. Negatif CVD ve delta, güçlü ayı momentumunun devam ettiğini gösteriyor.",
+  "absorption": "63300.0 seviyesinde güçlü ask absorption yaşandı ve fiyat bu seviyenin altına düştü.",
+  "dom_observation": "63300.0 seviyesinden başlayarak yukarıda büyük yığılmış ask duvarları (733, 928, 670 lot) güçlü direnç oluşturuyor.",
+  "reason": "Fiyat, 63300.0 seviyesindeki güçlü ask absorption sonrası düşüşe geçti ve bu seviye üzerinde büyük ask duvarları ile dirençle karşılaşıyor. Negatif CVD ve delta, bearish momentumun devam ettiğini gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Net bir ayı setup'ı mevcut olup, tüm order flow göstergeleri düşüşün devamını desteklemektedir.",
-  "timestamp": "22:28:04"
+  "should_reason": "Tüm order flow göstergeleri (CVD, Delta, DOM'daki ask duvarları) ve fiyat hareketi, güçlü bir bearish devam sinyali veriyor ve fiyatın daha da düşmesi bekleniyor.",
+  "timestamp": "22:30:30"
 }
