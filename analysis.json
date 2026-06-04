@@ -7,11 +7,11 @@
   "tp1": "63350.0",
   "tp2": "63300.0",
   "stop": "63550.0",
-  "key_level": "63520.0 (Ask Duvarı), 63335.4 (vPOC)",
-  "absorption": "Mevcut fiyat seviyelerinde (63450-63470) ask absorption gozlemleniyor, alicilarin yukselisi absorbe edildigi icin fiyat dusuyor.",
-  "dom_observation": "63520.0 seviyesinde buyuk bir stacked ask duvari (1118 lot) bulunuyor. Fiyat 63450.0 seviyesinde -17 Chg ile dusus gosteriyor, saticilarin aktif oldugunu belirtiyor.",
-  "reason": "CVD ve Delta surekli negatif seyrederek guclu bir ayi piyasasi momentumunu gosteriyor. DOM'daki buyuk ask duvarlari ve mevcut seviyelerdeki satici baskisi dususun devamini destekliyor.",
+  "key_level": "63550.0 (Stop seviyesi ve önceki vPOC bölgesi)",
+  "absorption": "Genel olarak, alıcılar piyasaya girse de fiyatın yukarı yönlü hareket edememesi ve CVD'nin sürekli düşmesi, satıcıların alıcıları absorbe ettiğini gösteriyor.",
+  "dom_observation": "DOM'da 63600-63610 seviyelerinde belirgin ask kümeleri (direnç) bulunurken, bid tarafında güçlü bir destek duvarı gözlenmiyor. Mevcut fiyatta (63415.8) belirgin bir alım gücü yok.",
+  "reason": "CVD ve Delta sürekli negatif seyrederek güçlü bir ayı piyasası momentumunu gösteriyor. Fiyat, önceki vPOC'un altında işlem görüyor ve alıcı gücü tükenmiş durumda.",
   "should_trade": "EVET",
-  "should_reason": "Tum order flow gostergeleri (CVD, Delta, DOM) guclu bir bearish momentum ve direnci isaret ediyor, bu da dususun devam etmesi gerektigini gosteriyor.",
-  "timestamp": "22:15:37"
+  "should_reason": "Güçlü bearish momentum (CVD ve Delta) ve fiyatın kritik direnç seviyelerinin altında olması, short pozisyon için yüksek olasılıklı bir devam sinyali sunuyor.",
+  "timestamp": "22:18:06"
 }
