@@ -7,11 +7,11 @@
   "tp1": "63900.0",
   "tp2": "63800.0",
   "stop": "64070.0",
-  "key_level": "VAH (64000-64050)",
-  "absorption": "VAH seviyesinde alıcıların gücü tükeniyor ve agresif satış baskısı (negatif delta/CVD düşüşü) ile ask absorption gözlemleniyor.",
-  "dom_observation": "63900.0 seviyesinde büyük bir bid duvarı (350) potansiyel destek olarak duruyor. Mevcut fiyatın üzerinde ask tarafı nispeten daha ağır.",
-  "reason": "Fiyat VAH direnç seviyesinde işlem görürken, CVD sürekli olarak düşüyor, bu da alım gücünün absorbe edildiğini ve satıcıların kontrolü ele aldığını gösteriyor.",
+  "key_level": "VAH (64020.0 - 64030.0)",
+  "absorption": "VAH seviyesinde ASK absorption gözlemleniyor; alıcılar piyasaya girse de fiyat yukarı hareket edemiyor ve CVD düşüyor.",
+  "dom_observation": "DOM'da VAH seviyesinde belirgin bir ask duvarı olmasa da, önceki alım emirlerinin (Buys sütunu) fiyatı yukarı taşıyamaması ve CVD'nin düşmesi alıcıların emildiğini gösteriyor.",
+  "reason": "Fiyat VAH direnç seviyesinde işlem görürken, CVD sürekli olarak düşüyor, bu da alım gücünün tükendiğini ve ayıların kontrolü ele aldığını gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "CVD'nin VAH seviyesinde düşmesi, textbook bir bearish reversal sinyalidir ve yüksek olasılıklı bir short setup sunar.",
-  "timestamp": "17:30:05"
+  "should_reason": "Tüm Axia Futures kriterleri (VAH direnci, CVD düşüşü, alıcı emiliminin kanıtları) güçlü bir SHORT sinyalini destekliyor.",
+  "timestamp": "17:34:21"
 }
