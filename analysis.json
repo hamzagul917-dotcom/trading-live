@@ -4,14 +4,14 @@
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
   "entry": "63500.0",
-  "tp1": "63450.0",
-  "tp2": "63350.0",
+  "tp1": "63350.0",
+  "tp2": "63250.0",
   "stop": "63610.0",
-  "key_level": "63600.0 (vPOC)",
-  "absorption": "ASK absorption at vPOC (63600.0) where price attempted to rise with positive delta but was rejected.",
-  "dom_observation": "Büyük stacked ask duvarları 63510.0 (1156) ve 63560.0 (1215) seviyelerinde güçlü direnç oluşturuyor.",
-  "reason": "Fiyat vPOC (63600.0) seviyesinde güçlü bir şekilde reddedildi ve ask absorption gözlemlendi. Negatif delta ve düşen CVD, bearish momentumun devam ettiğini gösteriyor.",
+  "key_level": "63600.0",
+  "absorption": "vPOC (63600.0) seviyesinde güçlü ask absorption gözlemlendi, alıcılar satıcılar tarafından absorbe edildi ve fiyat düşüşe geçti.",
+  "dom_observation": "63600.0 üzerinde büyük stacked ask duvarları direnci teyit ediyor. Mevcut fiyatta (63391.1) ve hemen üzerinde gerçekleşen işlemler, satıcıların alıcılardan daha agresif olduğunu gösteriyor.",
+  "reason": "Fiyat vPOC (63600.0) seviyesinden güçlü bir şekilde reddedildi ve ask absorption ile bearish order flow onayı alındı. CVD'deki negatif sapma ve ardından gelen güçlü negatif delta, düşüş momentumunu destekliyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın vPOC'tan reddedilmesi ve order flow'un bearish yönü desteklemesi, short pozisyon için net bir sinyal sunuyor.",
-  "timestamp": "22:45:44"
+  "should_reason": "Fiyat, beklenen şekilde kritik vPOC seviyesinden hareket etti ve tüm Axia Futures short kriterleri hizalandı, bu da yüksek olasılıklı bir setup sunuyor.",
+  "timestamp": "22:48:16"
 }
