@@ -1,17 +1,17 @@
 {
   "bias": "BULLISH",
   "signal": "LONG",
-  "confidence": "YUKSEK",
+  "confidence": "ORTA",
   "setup_type": "TEXTBOOK",
-  "entry": 62514.0,
-  "tp1": 62600.0,
-  "tp2": "YOK",
-  "stop": 62450.0,
-  "key_level": "VAL (62500-62550)",
-  "absorption": "Fiyat VAL seviyesinde ve altında güçlü alıcı absorbsiyonu gösterdi, negatif deltalara rağmen fiyatın düşmesini engelledi ve ardından pozitif delta ile yükselişe geçti.",
-  "dom_observation": "YOK",
-  "reason": "VAL seviyesinde güçlü alıcı absorbsiyonu ve ardından pozitif delta ile CVD'nin yükselişe geçmesi, fiyatın yukarı yönlü hareketini destekliyor.",
+  "entry": 62211.9,
+  "tp1": 62550,
+  "tp2": 63000,
+  "stop": 61950,
+  "key_level": "VAL (62100-62200)",
+  "absorption": "VAL seviyesinde güçlü alıcı absorbsiyonu gözlemlendi; negatif delta sonrası pozitif delta (419) ve fiyatın düşüşe devam etmemesi.",
+  "dom_observation": "DOM görünmüyor, bu nedenle canlı emir defteri gözlemi yapılamadı.",
+  "reason": "Fiyat VAL seviyesinde güçlü alıcı absorbsiyonu gösteriyor ve CVD ile delta göstergelerinde boğa sinyalleri mevcut. Bu, potansiyel bir geri dönüş sinyalidir.",
   "should_trade": "EVET",
-  "should_reason": "Axia Futures kurallarına göre, VAL seviyesinde gerçekleşen alıcı absorbsiyonu, CVD'nin düşüşten yükselişe geçmesi ve güçlü pozitif delta momentumu, net bir LONG setup'ı sunmaktadır.",
-  "timestamp": "13:05:37"
+  "should_reason": "VAL seviyesinde alıcı absorbsiyonu ve CVD ile delta göstergelerinde boğa sinyalleri mevcut. Bu seviyeden yukarı yönlü bir hareket beklenir.",
+  "timestamp": "13:15:21"
 }
