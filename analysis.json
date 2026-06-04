@@ -7,11 +7,11 @@
   "tp1": "63600.0",
   "tp2": "63700.0",
   "stop": "63380.0",
-  "key_level": "63550.0 (VAL), 63510.0-63500.0 (Bid Duvarları)",
-  "absorption": "Fiyat VAL seviyesinde tutunuyor. DOM'da 63510.0 ve 63500.0 seviyelerinde devasa bid duvarları (1299 ve 2038 lot) mevcut. Piyasa satışları bu seviyelere gelse de fiyat düşmüyor, bu da güçlü alıcı absorpsiyonunu gösteriyor.",
-  "dom_observation": "63510.0 ve 63500.0 seviyelerinde çok büyük stacked bid duvarları var. Bu seviyelerdeki bidler, piyasa satışlarına rağmen yerinde duruyor. Üst seviyelerde belirgin bir ask duvarı yok.",
-  "reason": "Fiyat VAL seviyesinde güçlü bid absorpsiyonu ve devasa bid duvarları ile karşılaşıyor. Bu durum, satıcıların gücünün tükendiğini ve alıcıların kontrolü ele aldığını gösteriyor.",
+  "key_level": "VAL (63550.0-63500.0)",
+  "absorption": "Fiyat VAL seviyesine düşerken güçlü bid absorption gözlemleniyor; satıcılar geliyor ancak fiyat düşmüyor, alıcılar baskıyı absorbe ediyor.",
+  "dom_observation": "63510.0'da 1299 lot ve 63500.0'da 2038 lot ile devasa yığılmış bid duvarları mevcut, bu da güçlü bir destek seviyesi oluşturuyor.",
+  "reason": "Fiyat VAL seviyesinde güçlü bid absorption gösteriyor ve DOM'da devasa yığılmış bid duvarları ile destekleniyor. Negatif delta sonrası fiyatın düşmemesi alıcıların gücünü teyit ediyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, Axia Futures metodolojisine göre önemli bir destek seviyesi olan VAL'de güçlü alıcı tepkisi ve absorpsiyon gösteriyor. Bu, yukarı yönlü bir hareket için yüksek olasılıklı bir kurulumdur.",
-  "timestamp": "11:48:43"
+  "should_reason": "Fiyat kritik VAL seviyesinde güçlü alıcı absorpsiyonu ve DOM'daki büyük bid duvarları ile destekleniyor, bu da düşüşün durduğunu ve potansiyel bir yükselişin başlayabileceğini gösteriyor.",
+  "timestamp": "11:53:00"
 }
