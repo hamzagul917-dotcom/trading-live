@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "YUKSEK",
+  "confidence": "HIGH",
   "setup_type": "TEXTBOOK",
-  "entry": 63150.0,
-  "tp1": 63000.0,
-  "tp2": 62980.0,
-  "stop": 63310.0,
-  "key_level": "63300.0",
-  "absorption": "63300.0 seviyesinde güçlü ask absorption yaşandı ve fiyat bu seviyenin altına düştü.",
-  "dom_observation": "63300.0 seviyesinden başlayarak yukarıda büyük yığılmış ask duvarları (733, 928, 670 lot) güçlü direnç oluşturuyor.",
-  "reason": "Fiyat, 63300.0 seviyesindeki güçlü ask absorption sonrası düşüşe geçti ve bu seviye üzerinde büyük ask duvarları ile dirençle karşılaşıyor. Negatif CVD ve delta, bearish momentumun devam ettiğini gösteriyor.",
+  "entry": 63470.0,
+  "tp1": 63450.0,
+  "tp2": 63300.0,
+  "stop": 63510.0,
+  "key_level": "63470.0 (current minor support), 63550.0 (major ask wall)",
+  "absorption": "Minor bid absorption at 63470.0 (16 bids vs 7 sells) is present but not strong enough to reverse the dominant bearish trend. Aggressive selling was observed at 63480.0 (9 sells vs 1 buy).",
+  "dom_observation": "Significant stacked ask walls above 63500, particularly at 63550 (27 asks) and 63590 (58 asks), indicate strong resistance. A bid wall is present at 63450 (40 bids).",
+  "reason": "Strong bearish momentum is evident from consistently negative CVD and Delta. Price is facing significant resistance from stacked ask orders above, suggesting further downside is likely.",
   "should_trade": "EVET",
-  "should_reason": "Tüm order flow göstergeleri (CVD, Delta, DOM'daki ask duvarları) ve fiyat hareketi, güçlü bir bearish devam sinyali veriyor ve fiyatın daha da düşmesi bekleniyor.",
-  "timestamp": "22:30:30"
+  "should_reason": "The market exhibits clear bearish order flow with falling CVD, negative delta, and strong ask-side resistance, indicating a high probability for price continuation downwards.",
+  "timestamp": "22:33:12"
 }
