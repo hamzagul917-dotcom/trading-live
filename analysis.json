@@ -3,15 +3,15 @@
   "signal": "LONG",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": 63560.0,
+  "entry": 63550.0,
   "tp1": 63600.0,
   "tp2": 63700.0,
   "stop": 63380.0,
-  "key_level": "63500.0 - 63510.0 (VAL ve bid duvarları)",
-  "absorption": "Fiyat VAL seviyesinde güçlü bid absorption gösteriyor; satıcılar geliyor ancak fiyat düşmüyor, alıcılar agresif satışları absorbe ediyor.",
-  "dom_observation": "63510.0'da 1299, 63500.0'da 2038 lotluk devasa bid duvarları mevcut. 63550.0 seviyesinde bidlerde +1 değişim var.",
-  "reason": "Fiyat VAL seviyesinde güçlü bid absorption ve DOM'da devasa bid duvarları ile karşılaşıyor. Negatif delta sonrası alıcılar devreye giriyor ve CVD'de potansiyel bir dönüş sinyali var.",
+  "key_level": "63500.0",
+  "absorption": "Fiyat VAL bölgesinde (63500-63520) güçlü bid absorpsiyonu ile karşılaştı; özellikle 63530'da 25 alıcı 6 satıcıyı ve 63500'de 28 alıcı 3 satıcıyı absorbe etti, bu da fiyatın düşmesini engelledi.",
+  "dom_observation": "63510 (1299), 63500 (2038) ve 63490 (1227) seviyelerinde devasa yığılmış bid duvarları, güçlü destek ve alıcı ilgisini gösteriyor. Satış sonrası bidler hızla geri dönüyor ve yeni satış teklifleri zayıf.",
+  "reason": "Fiyat VAL bölgesinde (63500-63520) güçlü bid absorpsiyonu ve DOM'daki devasa bid duvarları ile karşılaştı. Bu durum, alıcıların bu kritik seviyeyi savunduğunu ve satıcıların devam edemediğini gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat kritik bir destek seviyesinde (VAL) güçlü order flow onayı (absorption, bid duvarları) ile karşılaşıyor, bu da yukarı yönlü bir hareket beklentisini destekliyor.",
-  "timestamp": "11:40:07"
+  "should_reason": "Tüm Axia Futures kriterleri (VAL'de absorption, güçlü bid duvarları, CVD potansiyel dönüş sinyali ve satışların devam etmemesi) LONG yönünde hizalanmıştır.",
+  "timestamp": "11:44:24"
 }
