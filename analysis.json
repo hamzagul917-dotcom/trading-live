@@ -3,15 +3,15 @@
   "signal": "LONG",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "62600",
+  "entry": 62600,
   "tp1": "YOK",
   "tp2": "YOK",
-  "stop": "62350",
-  "key_level": "VAL (yaklaşık 62400-62500)",
-  "absorption": "VAL seviyesinde agresif satışlar (10:48'de -521 delta) alıcılar tarafından absorbe edildi ve hemen ardından güçlü bir alım tepkisi (10:50'de +2K delta) geldi.",
-  "dom_observation": "Agresif satış sonrası güçlü bid back gözlemlendi (delta punch).",
-  "reason": "Fiyat VAL seviyesinde güçlü bir alıcı absorpsiyonu gösterdi ve ardından önemli bir pozitif delta punch ile yukarı yönlü bir tepki verdi. CVD de genel olarak yükseliş eğiliminde.",
+  "stop": 61950,
+  "key_level": "VAL (62600)",
+  "absorption": "Fiyat VAL seviyesinin altında (yaklaşık 62000-62100) güçlü BID absorpsiyonu gösterdi. Özellikle 10:48 barında büyük negatif delta (-521) ile fiyatın düşmemesi dikkat çekicidir. Ardından 10:52 ve 10:54 barlarında güçlü pozitif delta ile yukarı yönlü tepki geldi.",
+  "dom_observation": "DOM detayları net olmamakla birlikte, footprint ve delta verileri güçlü alıcı absorpsiyonunu ve ardından gelen alım gücünü desteklemektedir.",
+  "reason": "VAL seviyesinin altında gerçekleşen güçlü alıcı absorpsiyonu ve CVD'nin yukarı dönmesiyle birlikte pozitif delta momentumu, fiyatın VAL'i geri alıp yükselme potansiyelini gösteriyor. Giriş, VAL seviyesinin geri kazanılması beklentisiyle limit emri olarak belirlenmiştir.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın kritik bir destek seviyesi olan VAL'de alıcılar tarafından absorbe edilmesi ve güçlü bir delta punch ile tepki vermesi, yukarı yönlü hareket için yüksek olasılıklı bir setup sunuyor.",
-  "timestamp": "12:52:21"
+  "should_reason": "Fiyat VAL seviyesinde (veya hemen altında) net bir alıcı absorpsiyonu gösterdi ve bu seviyeden yukarı doğru hareket etmeye başladı. Bu, Axia Futures metodolojisine göre güçlü bir LONG setup'ıdır ve fiyatın bu seviyeden yukarı hareket etmesi beklenir.",
+  "timestamp": "12:56:48"
 }
