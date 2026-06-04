@@ -3,15 +3,15 @@
   "signal": "LONG",
   "confidence": "ORTA",
   "setup_type": "TEXTBOOK",
-  "entry": 63210.0,
+  "entry": 63170.0,
   "tp1": 63300.0,
   "tp2": 63400.0,
   "stop": 63150.0,
-  "key_level": "VAL (63200-63210)",
-  "absorption": "Sellers are hitting the bid at VAL (e.g., 32 sells at 63200), but price is not breaking down, indicating buyers are absorbing the selling pressure.",
-  "dom_observation": "Significant ask walls above (e.g., 131 at 63220, 134 at 63230) could act as initial resistance/targets. Bids below (e.g., 40 at 63180) provide underlying support.",
-  "reason": "Price is holding at the critical support level VAL despite persistent negative delta and falling CVD, indicating strong absorption by buyers.",
+  "key_level": "VAL (63170.0)",
+  "absorption": "VAL seviyesinde (63170.0) belirgin bid absorption gözlemleniyor; 15 satış emri 24 bid tarafından absorbe ediliyor ve fiyat düşmüyor.",
+  "dom_observation": "63170.0 seviyesindeki bidler satışları absorbe ederken, 63180-63200 aralığında (50, 52, 124 lot) önemli ask duvarları direnç oluşturuyor.",
+  "reason": "Fiyat, kritik VAL destek seviyesinde tutunuyor ve negatif CVD'ye rağmen bid absorption gösteriyor, bu da potansiyel bir boğa dönüşüne işaret ediyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, güçlü satış baskısına rağmen VAL seviyesinin altına düşmeliydi ancak düşmüyor, bu da alıcıların absorpsiyonunu ve potansiyel bir geri dönüşü işaret ediyor.",
-  "timestamp": "19:29:09"
+  "should_reason": "VAL desteği, bid absorption ve boğa yönlü CVD ayrışmasının birleşimi, bu seviyeden uzun bir işlem için yüksek olasılıklı bir kurulum sağlıyor.",
+  "timestamp": "19:32:11"
 }
