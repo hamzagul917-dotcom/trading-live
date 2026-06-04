@@ -3,15 +3,15 @@
   "signal": "SHORT",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "63520.0",
+  "entry": "63550.0",
   "tp1": "63320.0",
   "tp2": "63250.0",
   "stop": "63570.0",
-  "key_level": "63600.0 (vPOC)",
-  "absorption": "Ask absorption observed at 63520-63530 as buyers struggle to push price higher against existing offers.",
-  "dom_observation": "Stacked ask walls from 63520 up to 63600, indicating strong resistance. Bids are being pulled at lower levels (e.g., 63500, 63490).",
-  "reason": "Price is rejecting immediate resistance with clear ask absorption, supported by consistently negative CVD and delta. This indicates strong bearish momentum continuation after a slight retracement.",
+  "key_level": "63550.0 - 63570.0",
+  "absorption": "Fiyat 63550.0 seviyesinde net bir ask absorption gösteriyor; alıcılar ask'ları vurmasına rağmen fiyat yukarı hareket edemiyor.",
+  "dom_observation": "DOM'da 63550.0 seviyesinde aktif işlem görülüyor, ancak ask tarafındaki hacim ve önceki satış baskısı (Sells: 1036 vs Buys: 946) satıcıların gücünü gösteriyor. Üst seviyelerde (63560, 63600, 63660) belirgin ask duvarları mevcut.",
+  "reason": "Fiyat, Axia sisteminin de belirttiği gibi, anlık direnci net ask absorption ile reddediyor. Bu, satıcıların kontrolü ele aldığını ve yukarı yönlü hareketin engellendiğini gösteren güçlü bir ayı sinyalidir.",
   "should_trade": "EVET",
-  "should_reason": "Multiple Axia Futures criteria for a short setup are met, including ask absorption at resistance, negative CVD/Delta, and rejection of the vPOC at 63600.0.",
-  "timestamp": "22:53:16"
+  "should_reason": "Piyasa, Axia metodolojisine göre yüksek güvenilirlikli bir kısa pozisyon kurulumu olan, kritik bir direnç seviyesinde net ask absorption sergiliyor.",
+  "timestamp": "22:55:49"
 }
