@@ -3,15 +3,15 @@
   "signal": "LONG",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "62266.9",
+  "entry": "62223.2",
   "tp1": "63000",
   "tp2": "63400",
   "stop": "61900",
-  "key_level": "VAL (62200-62300)",
-  "absorption": "VAL seviyesinde güçlü BID absorption gözlemlendi; satıcılar gelmesine rağmen fiyat düşmedi ve alıcılar absorbe etti. CVD'deki bullish uyumsuzluk bunu destekliyor.",
-  "dom_observation": "YOK (DOM görünür değil)",
-  "reason": "Fiyat VAL seviyesinde güçlü alıcı absorpsiyonu gösteriyor ve düşen fiyatlara rağmen CVD'de belirgin bir bullish uyumsuzluk mevcut. Bu durum, momentumun yukarı yönlü değiştiğini işaret ediyor.",
+  "key_level": "VAL (62200-62250)",
+  "absorption": "VAL seviyesinde güçlü alıcı absorbsiyonu gözlemleniyor; satıcılar geliyor ancak fiyat düşmüyor, alıcılar baskıyı absorbe ediyor.",
+  "dom_observation": "DOM detayları tam görünmese de, chart mesajı VAL seviyesinde güçlü alıcı absorbsiyonu olduğunu belirtiyor.",
+  "reason": "Fiyat VAL seviyesinde güçlü alıcı absorbsiyonu gösteriyor ve düşen fiyatlara rağmen CVD yükselerek bullish bir reversal sinyali veriyor. Ayrıca güçlü pozitif delta punch gözlemlendi.",
   "should_trade": "EVET",
-  "should_reason": "CVD'deki bullish uyumsuzluk ve VAL seviyesindeki alıcı absorpsiyonu, fiyatın bu seviyeden yukarı yönlü hareket etmesi gerektiğini gösteriyor ve Axia Futures kriterlerini karşılıyor.",
-  "timestamp": "13:40:30"
+  "should_reason": "Tüm Axia Futures kriterleri (VAL'de absorbsiyon, CVD divergansı, güçlü delta) LONG yönünde hizalanmıştır ve sistem tarafından da yüksek güvenle LONG sinyali verilmiştir.",
+  "timestamp": "13:44:41"
 }
