@@ -8,10 +8,10 @@
   "tp2": "63200.0",
   "stop": "63310.0",
   "key_level": "63300.0",
-  "absorption": "63300.0 seviyesinde büyük ask duvarı tarafından alıcılar absorbe ediliyor, fiyat yukarı gidemiyor. Daha önce 63390.0 seviyesinde de benzer bir absorpsiyon yaşanmış.",
-  "dom_observation": "63300.0 seviyesinde 547 lotluk büyük bir ask duvarı mevcut ve alıcılar bu seviyeyi kırmakta zorlanıyor. Üst seviyelerde de (63310.0 ve üzeri) güçlü ask duvarları devam ediyor. Bid tarafında ise belirgin bir destek duvarı bulunmuyor.",
-  "reason": "Fiyat 63300.0 seviyesindeki güçlü ask duvarı tarafından absorbe ediliyor ve genel CVD ile Delta negatif seyrediyor. Bu durum, satıcıların kontrolünde olduğunu ve fiyatın düşmeye devam etmesi gerektiğini gösteriyor.",
+  "absorption": "63300.0 seviyesinde güçlü ask absorption gözlemleniyor; alıcılar geliyor ancak fiyat yükselmiyor.",
+  "dom_observation": "63300.0 seviyesinde 543 lotluk büyük bir stacked ask duvari mevcut. Anlık olarak 63300.0'da 35 satış, 63290.0'da ise sadece 3 alış gerçekleşmiş.",
+  "reason": "Fiyat, 63300.0 seviyesindeki güçlü ask duvarı tarafından absorbe ediliyor ve genel CVD ile delta değerleri sürekli negatif seyrederek düşüş momentumunu destekliyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyatın 63300.0 seviyesindeki güçlü dirençten aşağı yönlü hareket etmesi bekleniyor, çünkü alıcılar absorbe ediliyor, genel piyasa yapısı düşüş yönünde ve vPOC'un altında seyrediyor.",
-  "timestamp": "22:23:10"
+  "should_reason": "Fiyatın 63300.0 seviyesinden aşağı yönlü hareket etmesi bekleniyor çünkü alıcılar bu seviyede güçlü bir şekilde absorbe ediliyor ve satıcılar kontrolü ele almış durumda.",
+  "timestamp": "22:25:33"
 }
