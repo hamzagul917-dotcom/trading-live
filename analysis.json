@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "HIGH",
+  "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": 63470.0,
-  "tp1": 63450.0,
-  "tp2": 63300.0,
-  "stop": 63510.0,
-  "key_level": "63470.0 (current minor support), 63550.0 (major ask wall)",
-  "absorption": "Minor bid absorption at 63470.0 (16 bids vs 7 sells) is present but not strong enough to reverse the dominant bearish trend. Aggressive selling was observed at 63480.0 (9 sells vs 1 buy).",
-  "dom_observation": "Significant stacked ask walls above 63500, particularly at 63550 (27 asks) and 63590 (58 asks), indicate strong resistance. A bid wall is present at 63450 (40 bids).",
-  "reason": "Strong bearish momentum is evident from consistently negative CVD and Delta. Price is facing significant resistance from stacked ask orders above, suggesting further downside is likely.",
+  "entry": "63490.0",
+  "tp1": "63360.0",
+  "tp2": "63200.0",
+  "stop": "63520.0",
+  "key_level": "63500.0 (direnc), 63350.0 (destek)",
+  "absorption": "63500 seviyesi ve üzerinde belirgin ASK absorption (alıcılar geliyor ancak fiyat yükselmiyor, satıcılar absorbe ediyor), bu da ayı piyasası gücünü gösteriyor.",
+  "dom_observation": "63500 seviyesinde ve üzerinde büyük stacked ask duvarları (özellikle 63640'ta 88 lot) mevcut. Fiyat düşerken bid'lere agresif satışlar geliyor ve alıcılar yeterince güçlü karşı koyamıyor.",
+  "reason": "CVD ve Delta'nın düşüş eğiliminde olması, fiyatın ana vPOC ve VAL seviyelerinin altında işlem görmesi güçlü ayı momentumunu teyit ediyor. DOM'daki ask absorption ve stacked ask duvarları direnci pekiştiriyor.",
   "should_trade": "EVET",
-  "should_reason": "The market exhibits clear bearish order flow with falling CVD, negative delta, and strong ask-side resistance, indicating a high probability for price continuation downwards.",
-  "timestamp": "22:33:12"
+  "should_reason": "Tüm order flow göstergeleri (CVD, Delta, Footprint, DOM) güçlü bir düşüş trendi devamını işaret ediyor ve Axia Futures kriterlerine göre net bir SHORT setup'ı sunuyor.",
+  "timestamp": "22:40:31"
 }
