@@ -1,17 +1,17 @@
 {
   "bias": "BULLISH",
   "signal": "LONG",
-  "confidence": "ORTA",
+  "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": 63170.0,
-  "tp1": 63300.0,
-  "tp2": 63400.0,
-  "stop": 63150.0,
-  "key_level": "VAL (63170.0)",
-  "absorption": "VAL seviyesinde (63170.0) belirgin bid absorption gözlemleniyor; 15 satış emri 24 bid tarafından absorbe ediliyor ve fiyat düşmüyor.",
-  "dom_observation": "63170.0 seviyesindeki bidler satışları absorbe ederken, 63180-63200 aralığında (50, 52, 124 lot) önemli ask duvarları direnç oluşturuyor.",
-  "reason": "Fiyat, kritik VAL destek seviyesinde tutunuyor ve negatif CVD'ye rağmen bid absorption gösteriyor, bu da potansiyel bir boğa dönüşüne işaret ediyor.",
+  "entry": "63070",
+  "tp1": "63300",
+  "tp2": "63500",
+  "stop": "62990",
+  "key_level": "63000",
+  "absorption": "63000 seviyesinde 72 lotluk agresif satışlar bid tarafında absorbe edildi, fiyat aşağı kırılamadı.",
+  "dom_observation": "63000 seviyesinde 72 lotluk büyük bir bid duvarı ve 62950 seviyesinde 117 lotluk başka bir bid duvarı mevcut. Fiyat, bu seviyelerden gelen satışlara rağmen tutunuyor.",
+  "reason": "Fiyat, kritik VAL seviyesi yakınında (63000) güçlü bid absorption gösteriyor, bu da alıcıların bu seviyeyi savunduğunu ve potansiyel bir yükselişin başlayabileceğini işaret ediyor. Negatif CVD'ye rağmen fiyatın düşmemesi de bu absorpsiyonu destekliyor.",
   "should_trade": "EVET",
-  "should_reason": "VAL desteği, bid absorption ve boğa yönlü CVD ayrışmasının birleşimi, bu seviyeden uzun bir işlem için yüksek olasılıklı bir kurulum sağlıyor.",
-  "timestamp": "19:32:11"
+  "should_reason": "Kritik bir destek seviyesi olan VAL'de net bir bid absorption sinyali var, bu da iyi tanımlanmış bir risk/ödül oranı ile yüksek olasılıklı bir LONG setup sunuyor.",
+  "timestamp": "19:34:39"
 }
