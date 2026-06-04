@@ -7,11 +7,11 @@
   "tp1": "63600",
   "tp2": "63700",
   "stop": "63380",
-  "key_level": "VAL (63550-63500)",
-  "absorption": "Fiyat VAL seviyesinde güçlü bid absorption gösteriyor. Özellikle 63550-63510 aralığında agresif alımlar ve 63520/63510 seviyelerinde satış sonrası karşı teklif (0 sells) olmaması alıcı gücünü teyit ediyor.",
-  "dom_observation": "DOM'da 63510 seviyesinde 1299 lot ve 63500 seviyesinde 2038 lotluk büyük bid duvarları, bu seviyelerin güçlü bir destek olarak savunulduğunu gösteriyor.",
-  "reason": "Fiyat VAL seviyesinde güçlü bid absorption gösteriyor, DOM'da büyük bid duvarları ve negatif delta sonrası pozitif delta ile alıcılar devreye giriyor. Satış sonrası karşı teklif gelmiyor.",
+  "key_level": "63500 (VAL)",
+  "absorption": "Fiyat VAL seviyesi (63500-63520) civarında güçlü bid absorption gösteriyor; satıcılar geliyor ancak fiyat düşmüyor, alıcılar baskıyı absorbe ediyor.",
+  "dom_observation": "63500 seviyesinde (2038 kontrat) ve üstünde (63510: 1299, 63520: 1242) devasa yığılmış bid duvarları mevcut, bu da güçlü bir destek seviyesini işaret ediyor.",
+  "reason": "Fiyat, VAL seviyesinde güçlü bid absorption ve DOM'da devasa bir bid duvarı ile karşılaştı, bu da alıcıların bu seviyeyi savunduğunu gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Tüm order flow göstergeleri (absorption, DOM bid duvarları, delta değişimi, CVD dönüşü) VAL seviyesinde güçlü bir long setup'ı destekliyor.",
-  "timestamp": "11:14:44"
+  "should_reason": "VAL seviyesinde güçlü bid absorption ve DOM'daki büyük bid duvarı, yüksek olasılıklı bir long setup için güçlü bir onay sağlıyor.",
+  "timestamp": "11:18:53"
 }
