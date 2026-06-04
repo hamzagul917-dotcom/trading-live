@@ -1,17 +1,17 @@
 {
   "bias": "BEARISH",
   "signal": "SHORT",
-  "confidence": "ORTA",
-  "setup_type": "FAILURE",
-  "entry": 63570.0,
-  "tp1": 63500.0,
-  "tp2": 63450.0,
-  "stop": 63640.0,
+  "confidence": "YUKSEK",
+  "setup_type": "TEXTBOOK",
+  "entry": "63500.0",
+  "tp1": "63450.0",
+  "tp2": "63350.0",
+  "stop": "63610.0",
   "key_level": "63600.0 (vPOC)",
-  "absorption": "20:39 mumunda pozitif delta (132) ile gelen alım gücü, 16x28 ile zirvede karşılandı ve mevcut mumda negatif delta (-23) ile devam etmedi. Bu, alıcıların yüksek fiyatlarda absorbe edildiğini gösteriyor.",
-  "dom_observation": "63600.0-63610.0 seviyelerinde belirgin ask duvarları mevcut, bu da direnci pekiştiriyor. Mevcut fiyatta (63570.0) bid ve ask dengeli.",
-  "reason": "Fiyat, güçlü pozitif delta ile yükselme denemesi yaptı ancak vPOC (63600.0) seviyesinde reddedildi ve devam edemedi. Bu, alım gücünün tükenmesi ve satıcıların devreye girmesiyle oluşan bir başarısızlık setup'ıdır.",
+  "absorption": "ASK absorption at vPOC (63600.0) where price attempted to rise with positive delta but was rejected.",
+  "dom_observation": "Büyük stacked ask duvarları 63510.0 (1156) ve 63560.0 (1215) seviyelerinde güçlü direnç oluşturuyor.",
+  "reason": "Fiyat vPOC (63600.0) seviyesinde güçlü bir şekilde reddedildi ve ask absorption gözlemlendi. Negatif delta ve düşen CVD, bearish momentumun devam ettiğini gösteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Piyasa, güçlü bir delta punch ile yukarı yönlü bir hareket denedi ancak kritik direnç seviyesi olan vPOC'ta (63600.0) reddedildi ve devam sinyali vermedi. Bu, Axia Futures metodolojisine göre bir 'failure' setup'ı için net bir sinyaldir.",
-  "timestamp": "22:43:06"
+  "should_reason": "Fiyatın vPOC'tan reddedilmesi ve order flow'un bearish yönü desteklemesi, short pozisyon için net bir sinyal sunuyor.",
+  "timestamp": "22:45:44"
 }
