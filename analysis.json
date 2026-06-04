@@ -3,15 +3,15 @@
   "signal": "LONG",
   "confidence": "YUKSEK",
   "setup_type": "TEXTBOOK",
-  "entry": "62489.2",
+  "entry": "62266.9",
   "tp1": "63000",
   "tp2": "63400",
   "stop": "61900",
-  "key_level": "62000-62200 (vPOC/VAL)",
-  "absorption": "Fiyat düşüşüne rağmen 62000-62200 seviyesinde güçlü alıcı absorbsiyonu gözlemlendi.",
-  "dom_observation": "DOM verisi mevcut değil.",
-  "reason": "Düşen fiyatlara rağmen CVD'de bullish uyumsuzluk ve destek seviyesinde güçlü alıcı absorbsiyonu mevcut. Ardından gelen 949 pozitif delta punch, alıcıların kontrolü ele aldığını ve fiyatın yukarı yönlü hareket etmesi gerektiğini gösteriyor.",
+  "key_level": "VAL (62200-62300)",
+  "absorption": "VAL seviyesinde güçlü BID absorption gözlemlendi; satıcılar gelmesine rağmen fiyat düşmedi ve alıcılar absorbe etti. CVD'deki bullish uyumsuzluk bunu destekliyor.",
+  "dom_observation": "YOK (DOM görünür değil)",
+  "reason": "Fiyat VAL seviyesinde güçlü alıcı absorpsiyonu gösteriyor ve düşen fiyatlara rağmen CVD'de belirgin bir bullish uyumsuzluk mevcut. Bu durum, momentumun yukarı yönlü değiştiğini işaret ediyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat, güçlü alıcı absorbsiyonu, CVD uyumsuzluğu ve delta punch ile destek seviyesinden yukarı yönlü hareket etmelidir.",
-  "timestamp": "13:36:20"
+  "should_reason": "CVD'deki bullish uyumsuzluk ve VAL seviyesindeki alıcı absorpsiyonu, fiyatın bu seviyeden yukarı yönlü hareket etmesi gerektiğini gösteriyor ve Axia Futures kriterlerini karşılıyor.",
+  "timestamp": "13:40:30"
 }
