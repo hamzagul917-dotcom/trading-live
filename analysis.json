@@ -7,11 +7,11 @@
   "tp1": 63600.0,
   "tp2": 63700.0,
   "stop": 63380.0,
-  "key_level": "VAL (63500-63510)",
-  "absorption": "Fiyat VAL seviyesinde (63520-63540 aralığında) güçlü bid absorption gösteriyor (footprint'te 25 alım vs 6 satım, 21 alım vs 0 satım).",
-  "dom_observation": "63510'da 1299 ve 63500'de 2038 lotluk devasa stacked bid duvarları, güçlü destek ve alıcıların seviyeyi savunduğunu gösteriyor.",
-  "reason": "Fiyat VAL seviyesinde güçlü bid absorption ve DOM'da devasa bid duvarları ile karşılaştı, bu da alıcıların bu seviyeyi savunduğunu ve fiyatın yukarı yönlü hareket etmesi gerektiğini gösteriyor.",
+  "key_level": "VAL (63550-63500)",
+  "absorption": "Fiyat VAL seviyesinde güçlü BID absorption ile karşılaşıyor; footprint ve DOM'da 63550-63500 aralığında yoğun alım baskısı ve 63520/63510'da satışların durması gözlemlendi.",
+  "dom_observation": "63510 ve 63500 seviyelerinde sırasıyla 1299 ve 2038 lotluk büyük yığılmış bid duvarları, güçlü destek oluşturuyor.",
+  "reason": "Fiyat VAL seviyesinde güçlü bid absorption ve DOM'da devasa bid duvarı ile karşılaşıyor, bu da yükseliş momentumu için zemin hazırlıyor.",
   "should_trade": "EVET",
-  "should_reason": "Fiyat VAL seviyesinde güçlü alıcı tepkisi ve DOM'da belirgin destekle karşılaştı, bu da yukarı yönlü bir hareket için yüksek olasılık sunuyor.",
-  "timestamp": "12:05:45"
+  "should_reason": "Axia Futures metodolojisine göre VAL seviyesinde güçlü absorption ve DOM'da destekleyici bid duvarları, yüksek olasılıklı bir LONG setup'ı işaret ediyor.",
+  "timestamp": "12:09:58"
 }
