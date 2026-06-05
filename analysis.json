@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62555.6",
-    "VAL": "62115.2",
-    "VAH": "63346.5"
+    "vPOC": "62700.0",
+    "VAL": "62000.0",
+    "VAH": "63345.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62110.0",
-  "tp1": "61950.0",
-  "tp2": "61800.0",
-  "stop": "62250.0",
-  "absorption": "YOK",
-  "dom_observation": "Saticilar VAL seviyesinde agresif, DOM'da alici tepkisi zayif, yukarida ask likiditesi birikmis.",
-  "reasoning": "Fiyat, güçlü negatif delta ve düşen CVD eşliğinde Değer Alanı Düşük (VAL) seviyesini kırıyor ve alıcı absorpsiyonu gözlemlenmiyor, bu da aşağı yönlü kabulü teyit ediyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "75",
+  "entry": "62140.0",
+  "tp1": "62400.0",
+  "tp2": "62700.0",
+  "stop": "61950.0",
+  "absorption": "Saticilar VAL seviyesine satis yapmasina ragmen fiyat dusmuyor, DOM'daki alicilar ve son mumdaki pozitif delta (+49) BID absorption'a isaret ediyor.",
+  "dom_observation": "Mevcut fiyatin altinda, ozellikle 62100-62000 bolgesinde alici (bid) yigilmasi var, bu da destegi guclendiriyor.",
+  "reasoning": "Fiyat, gunluk deger alani desteginde (VAL) satici tukenmesi ve alici absorpsiyonu belirtileri gostererek potansiyel bir yukselis firsati sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "13:46:37"
+  "timestamp": "13:51:03"
 }
