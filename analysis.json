@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62268.9",
+    "vPOC": "62255.1",
     "VAL": "61800.0",
     "VAH": "63346.5"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "60830.0",
+  "confidence_score": 90,
+  "entry": "60730.0",
   "tp1": "60500.0",
   "tp2": "60200.0",
   "stop": "60960.0",
   "absorption": "YOK",
-  "dom_observation": "Agresif satislar devam ediyor, alicilar zayif, en yakin onemli bid destegi 60800 seviyesinde.",
-  "reasoning": "Fiyat, yuksek hacim ve guclu negatif delta ile VAL altinda kabul gordu (acceptance), CVD dususu trendi dogruluyor.",
+  "dom_observation": "Agresif saticilar (market sells) hakim, bid tarafi zayif ve emirler hizla tuketiliyor.",
+  "reasoning": "Fiyat, onceki deger alaninin altinda dusuk fiyatlari kabul ediyor (Acceptance) ve bu durum guclu negatif delta, dusen CVD ve agresif satis emirleri ile teyit ediliyor.",
   "should_trade": "EVET",
-  "timestamp": "16:16:47"
+  "timestamp": "16:21:00"
 }
