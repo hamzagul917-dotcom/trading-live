@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60187.8",
+    "vPOC": "60260.1",
     "VAL": "60000.0",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60180.0",
-  "tp1": "60000.0",
-  "tp2": "59850.0",
-  "stop": "60310.0",
-  "absorption": "Guclu pozitif delta (+697) olmasina ragmen fiyatin vPOC seviyesinde yukselememesi, saticilarin alimlari absorbe ettigini gosteren net bir ASK absorption isaretidir.",
-  "dom_observation": "vPOC'un hemen uzerinde (60290-60340) buyuk stacked ask duvarlari birikiyor, asagida ise 60160 ve 60000'de bid destegi var.",
-  "reasoning": "Fiyat, yuksek alim deltasina ragmen vPOC'u gecemedi; bu durum, saticilarin agresif alimlari absorbe ettigini ve dusus potansiyelini gosteriyor.",
+  "entry": "60250.0",
+  "tp1": "60400.0",
+  "tp2": "60800.0",
+  "stop": "60100.0",
+  "absorption": "Guclu BID absorption 60250 seviyesinde goruldu (69 lot satisa ragmen fiyat dusmedi).",
+  "dom_observation": "60250'de buyuk satis emri (69 lot) absorbe edildi. Fiyatin altinda 60200'den baslayan guclu pasif alim duvarlari var.",
+  "reasoning": "vPOC seviyesinde agresif satislarin pasif alicilar tarafindan absorbe edilmesi, saticilarin gucunun tukendigini ve potansiyel bir yukselis hareketini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "21:56:30"
+  "timestamp": "21:59:14"
 }
