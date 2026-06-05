@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62118.6",
+    "vPOC": "62106.7",
     "VAL": "61500.0",
-    "VAH": "62400.0"
+    "VAH": "YOK"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60820.0",
-  "tp1": "60600.0",
-  "tp2": "YOK",
-  "stop": "60930.0",
-  "absorption": "Alıcılar 60810 seviyesinde aktif olmalarına rağmen fiyat yükselemiyor, bu durum satıcıların agresif alımları absorbe ettiğini (ASK absorption) gösteriyor.",
-  "dom_observation": "60890 seviyesinden başlayan ve yukarı doğru devam eden büyük bir stacked ask duvarı (satış baskısı) mevcut.",
-  "reasoning": "Fiyat, alıcıların tükenme belirtileri gösterdiği bir ASK absorption bölgesinde, bearish CVD uyumsuzluğu ile birlikte duraksıyor.",
+  "entry": "60850.0",
+  "tp1": "61000.0",
+  "tp2": "61200.0",
+  "stop": "60740.0",
+  "absorption": "Saticilarin 60800 seviyesine dogru satis yapmasina ragmen, fiyatin dusmemesi ve DOM'daki buyuk bid duvarinin bu satislari emmesi (BID absorption).",
+  "dom_observation": "60800 ve 60900 seviyelerinde cok buyuk yigilmis alim emirleri (stacked bids) bulunuyor, bu da guclu bir destegi isaret ediyor. 61000'de ise direnc olusturan bir ask duvari var.",
+  "reasoning": "Fiyat, gunluk dusus trendine ragmen 60800 seviyesindeki buyuk alim duvarinda saticilari absorbe ediyor ve asagi yonlu devam edemiyor, bu da kisa vadeli bir yukselis potansiyeli yaratiyor.",
   "should_trade": "EVET",
-  "timestamp": "16:59:24"
+  "timestamp": "17:08:16"
 }
