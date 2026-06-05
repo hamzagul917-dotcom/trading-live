@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
-    "VAL": "59200.0",
+    "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "60880.0",
-  "tp1": "60990.0",
-  "tp2": "61100.0",
-  "stop": "60640.0",
-  "absorption": "Agresif satislar (-1.96K delta) vPOC seviyesinde pasif alicilar tarafindan absorbe edildi ve fiyat dususe devam edemedi.",
-  "dom_observation": "vPOC seviyesinde satislar karsilaniyor, 60850 ve altinda katmanli bid destegi goruluyor. Yukarida 61000 seviyesinde ask likiditesi mevcut.",
-  "reasoning": "Agresif satislarin vPOC'de basarisiz olmasi ve absorbe edilmesi, satici gucunun tukendigini ve alicilarin kontrolu ele alabilecegini gosteriyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "60850.0",
+  "tp1": "60700.0",
+  "tp2": "60500.0",
+  "stop": "60950.0",
+  "absorption": "Alıcılar vPOC seviyesinde pozitif delta yaratmasına rağmen fiyat yükselemiyor, 60900 seviyesindeki büyük ask duvarı tarafından absorbe ediliyor.",
+  "dom_observation": "60900 seviyesinde güçlü bir stacked ask duvarı (direnç) bulunurken, aşağıda belirgin bir destek duvarı gözlenmiyor.",
+  "reasoning": "Genel trendin negatif olduğu seansta, fiyatın vPOC'den tepki verememesi ve 60900'deki büyük ask duvarının alımları absorbe etmesi, düşüş yönlü bir pozisyon için güçlü bir sinyaldir.",
   "should_trade": "EVET",
-  "timestamp": "01:03:28"
+  "timestamp": "01:07:52"
 }
