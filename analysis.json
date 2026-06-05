@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61745.3",
-    "VAL": "YOK",
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
     "VAH": "62700.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "60920.0",
-  "tp1": "61000.0",
-  "tp2": "61200.0",
-  "stop": "60790.0",
-  "absorption": "Guclu BID absorption 60920-60850 seviyelerinde goruluyor. Agresif saticilara ragmen fiyat dusmuyor.",
-  "dom_observation": "60900 seviyesinde ve altinda biriken bid'ler saticilari karsiliyor. Anlik satislar absorbe ediliyor.",
-  "reasoning": "Agresif satis baskisina ragmen fiyatin dusmeyi reddetmesi ve 60900 bolgesinde pasif alicilar tarafindan absorbe edilmesi, potansiyel bir dip ve yukari yonlu bir donus sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "60810.0",
+  "tp1": "60350.0",
+  "tp2": "60050.0",
+  "stop": "61050.0",
+  "absorption": "ASK Absorption detected around 60900-61000. The previous candle had a high positive delta (+515) but failed to push the price higher, indicating sellers were absorbing the aggressive buying pressure.",
+  "dom_observation": "Significant stacked offers are visible at 61050 (1108 lots) and 61100 (1139 lots), acting as strong resistance. Bids are comparatively thin, showing a lack of strong support nearby.",
+  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen yukselmeyi basaramadi (ASK Absorption), bu da alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "18:42:23"
+  "timestamp": "18:46:40"
 }
