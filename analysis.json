@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60750.0",
-  "tp2": "60600.0",
-  "stop": "60950.0",
-  "absorption": "Alıcılar mevcut pozitif deltaya (+29) rağmen fiyatı yukarı taşıyamıyor, 60900 seviyesindeki teklifler (offers) tarafından absorbe ediliyorlar. Bu durum alıcıların tükendiğini (buyer exhaustion) gösterir.",
-  "dom_observation": "Mevcut fiyatın hemen üzerinde 60900 ve özellikle 61000 seviyelerinde büyük yığılmış satış emirleri (stacked asks) bulunuyor. Alış tarafındaki (bid) likidite daha zayıf.",
-  "reasoning": "Genel trendin güçlü şekilde aşağı yönlü olduğu ortamda, vPOC seviyesinde alıcıların zayıflığı ve pasif satıcılar tarafından absorbe edilmesi, düşüşün devam etme olasılığını artırmaktadır.",
+  "tp1": "60990.0",
+  "tp2": "61460.0",
+  "stop": "60640.0",
+  "absorption": "Saticilarin vPOC seviyesinde satis yapmasina ragmen fiyatin dusmemesi, alicilarin pasif olarak satislari emdigini (BID absorption) gosteriyor.",
+  "dom_observation": "60880 seviyesinde satislarin karsilanmasi ve asagida 60730-60780 arasi biriken bid'ler alici destegini gosteriyor.",
+  "reasoning": "Fiyat, gunluk vPOC'de belirgin bir alici absorpsiyonu sergiliyor ve negatif deltaya ragmen dusmeyi reddederek satici gucunun tukendigine isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "00:30:09"
+  "timestamp": "00:34:29"
 }
