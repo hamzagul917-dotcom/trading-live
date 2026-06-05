@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62050.0",
-    "VAH": "63346.5"
+    "VAL": "61950.0",
+    "VAH": "63345.5"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62210.0",
+  "entry": "62280.0",
   "tp1": "62500.0",
   "tp2": "62700.0",
   "stop": "61950.0",
-  "absorption": "Guclu BID absorption 62000.0 seviyesinde goruldu, saticilarin asagi yonlu momentumu alicilar tarafindan emildi.",
-  "dom_observation": "62250.0 seviyesinde 87 lotluk bir ask duvari ilk direnc olarak duruyor. Mevcut fiyatta alimlar satislardan daha agresif.",
-  "reasoning": "VAL seviyesinin altinda gerceklesen basarisiz kirilim girisimi ve 62000.0'da gozlenen guclu BID absorption, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "absorption": "Fiyatin dusmesini engelleyen 62150-62250 arasi belirgin BID absorption (pasif alicilar) gozlemlendi.",
+  "dom_observation": "DOM, 62400 uzerinde satici likiditesi gosterirken, mevcut fiyat seviyesinin altinda alicilarin agresif satislari emdigi goruluyor.",
+  "reasoning": "Agresif satislara (negatif delta) ragmen fiyatin dusmemesi, guclu pasif alici absorpsiyonunu teyit ediyor ve yukari yonlu bir donus potansiyeli yaratiyor.",
   "should_trade": "EVET",
-  "timestamp": "14:17:57"
+  "timestamp": "14:22:25"
 }
