@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62161.3",
+    "vPOC": "62151.7",
     "VAL": "61500.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60950",
-  "tp1": "60300",
-  "tp2": "60000",
-  "stop": "61200",
-  "absorption": "YOK",
-  "dom_observation": "Likidite zayif, belirgin bir duvar yok, alici gucunun tukenmesi bekleniyor.",
-  "reasoning": "Guclu dusus trendi ve asiri negatif delta sonrasi gelen zayif alici tepkisi, trendin devam edecegine isaret ediyor.",
+  "entry": "60800.0",
+  "tp1": "60900.0",
+  "tp2": "61000.0",
+  "stop": "60720.0",
+  "absorption": "Guclu BID absorption 60750-60800 seviyelerinde gozlemleniyor. Onceki mumdaki yuksek negatif deltaya ragmen fiyat dusmuyor, bu da buyuk pasif alicilarin emirleri emdigini gosteriyor.",
+  "dom_observation": "60900 ve 60790 seviyelerinde buyuk pasif alim (bid) emirleri var. Mevcut fiyatta satislar gelse de fiyat bu destekler sayesinde tutunuyor.",
+  "reasoning": "Agresif satislara ragmen fiyatin seans dibinde ilerleyememesi ve buyuk bid'ler tarafindan absorbe edilmesi, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "16:41:36"
+  "timestamp": "16:46:03"
 }
