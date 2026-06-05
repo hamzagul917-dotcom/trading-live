@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62100.0",
-    "VAL": "61845.8",
+    "VAL": "61800.0",
     "VAH": "63000.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "61850.0",
-  "tp1": "61700.0",
-  "tp2": "61550.0",
-  "stop": "62050.0",
-  "absorption": "Fiyat VAL seviyesinde iken gelen pozitif deltaya (426 ve 195) ragmen yukselemiyor, bu durum alicilarin saticilar tarafindan absorbe edildigini gosteren guclu bir ASK absorption'dur.",
-  "dom_observation": "61700 seviyesinde 1179 lotluk buyuk bir alim duvari (destek) ve 62000 seviyesinde 1958 lotluk buyuk bir satis duvari (direnc) bulunuyor. Mevcut seviyelerde alim gucu tukenmis gorunuyor.",
-  "reasoning": "Genel dusus trendi icinde, VAL seviyesindeki alim girisimleri saticilar tarafindan absorbe ediliyor ve fiyatin yukselmesini engelliyor, bu da satis baskisinin devam edecegine isaret ediyor.",
+  "confidence_score": "90",
+  "entry": "61380.0",
+  "tp1": "61200.0",
+  "tp2": "61000.0",
+  "stop": "61560.0",
+  "absorption": "YOK",
+  "dom_observation": "61400 ve 61390 seviyelerinde (184 ve 80 lot) agresif piyasa satis emirleri var, alicilar zayif.",
+  "reasoning": "Fiyat, deger alani altinda kabul gormus ve dusuk seviyelerde agresif satis baskisi (buyuk negatif delta) ve dusen CVD ile teyit edilen guclu bir dusus trendi icindedir.",
   "should_trade": "EVET",
-  "timestamp": "15:46:58"
+  "timestamp": "15:51:24"
 }
