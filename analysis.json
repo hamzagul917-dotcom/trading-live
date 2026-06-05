@@ -3,18 +3,18 @@
   "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62100.0",
-    "VAL": "61800.0",
-    "VAH": "63000.0"
+    "VAL": "61782.1",
+    "VAH": "63146.5"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "90",
-  "entry": "61120.0",
-  "tp1": "61000.0",
-  "tp2": "60800.0",
-  "stop": "61350.0",
+  "entry": "60790.0",
+  "tp1": "60500.0",
+  "tp2": "60200.0",
+  "stop": "61100.0",
   "absorption": "YOK",
-  "dom_observation": "Yukarıda 61300 civarında büyük ask yığılması direnç oluşturuyor, aşağıda ise 61000 seviyesinde büyük bir bid desteği bulunuyor.",
-  "reasoning": "Fiyat, yüksek hacim ve güçlü negatif delta (-2K) ile Değer Alanı Altına (VAL) kırılım gerçekleştirmiş ve bu seviye altında kabul görmüştür (Acceptance).",
+  "dom_observation": "Guclu market satis emirleri (116 lot @ 60780) bid tarafindan karsilanamiyor, satici agresyonu devam ediyor.",
+  "reasoning": "Agresif saticilar, yuksek hacim ve asiri negatif delta (-6K) ile Deger Alani Altini (VAL) kirarak asagida fiyat kabulu (Acceptance) olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "15:55:48"
+  "timestamp": "16:00:17"
 }
