@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60300.0",
-    "VAL": "60000.0",
+    "vPOC": "59600.0",
+    "VAL": "59200.0",
     "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "80",
-  "entry": "59320.0",
-  "tp1": "59500.0",
+  "confidence_score": "90",
+  "entry": "59500.0",
+  "tp1": "59600.0",
   "tp2": "59700.0",
-  "stop": "59150.0",
-  "absorption": "Fiyat yeni bir dip yaptiktan sonra -2K'lik buyuk negatif deltaya ragmen dususe devam edemiyor. Mevcut mumda (+360) pozitif delta ve 59200-59300 seviyelerinde yuksek hacimli BID absorption gozlemleniyor. Bu durum, saticilarin gucunun tukendigini ve alicilarin kontrolu ele aldigini gosteriyor.",
-  "dom_observation": "Mevcut fiyat seviyelerinde satis baskisi azaldi, alimlar (bids) gelen satislari karsiliyor ve fiyat dusmuyor.",
-  "reasoning": "Guclu satis dalgasinin ardindan fiyat dususu durdu ve dusuklerde alicilar tarafindan (BID absorption) karsilaniyor, bu da satici gucunun tukendigini ve potansiyel bir kisa vadeli yukari donusu isaret ediyor.",
+  "stop": "59250.0",
+  "absorption": "Guclu alici absorpsiyonu 59400 seviyesinde ve altinda goruluyor. Footprint'te 410'a 68 gibi buyuk bir alim tarafi dengesizligi var.",
+  "dom_observation": "59400 seviyesinden asagiya dogru buyuk bir yigilmis alim (stacked bid) duvari mevcut, bu da guclu bir destegi isaret ediyor.",
+  "reasoning": "Fiyat diplerdeyken belirgin bir pozitif CVD uyumsuzlugu, DOM'daki buyuk alim duvarlari ve footprint'teki alici absorpsiyonu guclu bir long sinyali olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "21:00:34"
+  "timestamp": "21:04:56"
 }
