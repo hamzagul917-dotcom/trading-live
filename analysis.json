@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "62050.0",
-  "tp1": "62200.0",
-  "tp2": "62500.0",
-  "stop": "61940.0",
-  "absorption": "Agresif satislar 62000.0 seviyesindeki buyuk pasif alici duvari (1021 lot) tarafindan absorbe ediliyor. Footprint'te 62000.0'da 181 lotluk satis emri karsilanmis ancak fiyat dusmemistir.",
-  "dom_observation": "62000.0 seviyesinde 1021 lotluk buyuk bir stacked bid duvari var ve bu seviyeye gelen satislari emiyor.",
-  "reasoning": "Fiyat, asiri negatif deltaya ragmen 62000.0'daki buyuk alim duvarini kiramiyor, bu durum agresif saticilarin absorbe edildigi basarisiz bir satis girisimini (failed auction) gosteriyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "90",
+  "entry": "61770.0",
+  "tp1": "61500.0",
+  "tp2": "61200.0",
+  "stop": "61950.0",
+  "absorption": "YOK",
+  "dom_observation": "Agresif saticilar surekli olarak bid'e vuruyor ve alicilarin likiditesi zayif.",
+  "reasoning": "Fiyat, VAL altinda dusuk fiyati kabul etmis (Acceptance) ve dusen CVD ile negatif delta bu ayi trendini guclu bir sekilde teyit etmektedir.",
   "should_trade": "EVET",
-  "timestamp": "14:00:04"
+  "timestamp": "14:04:30"
 }
