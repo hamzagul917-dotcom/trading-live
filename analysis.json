@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60300.0",
-    "VAL": "60000.0",
+    "vPOC": "60183.2",
+    "VAL": "60169.5",
     "VAH": "62400.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60250.0",
-  "tp1": "60160.0",
-  "tp2": "60050.0",
-  "stop": "60360.0",
-  "absorption": "YOK",
-  "dom_observation": "vPOC (60300) seviyesinde satici yigilmasi ve 60160 seviyesinde buyuk bir alim duvari (bid wall) goruluyor. Mevcut fiyat hareketinde agresif satislar hakim.",
-  "reasoning": "Fiyat, vPOC'nin altinda deger kabul ediyor (Acceptance) ve guclu negatif Session Delta ile dusen CVD, ayi yonlu trendin devamini guclu bir sekilde teyit ediyor.",
+  "entry": "60185.0",
+  "tp1": "60340.0",
+  "tp2": "60400.0",
+  "stop": "60150.0",
+  "absorption": "Agresif saticilar (yuksek negatif delta) VAL seviyesinde buyuk bir pasif alim duvarı (4205 lot @ 60160.0) tarafindan absorbe ediliyor, bu da dusus trendinin duraksamasina neden oluyor.",
+  "dom_observation": "60160.0 seviyesinde cok buyuk bir yigilmis bid duvari (4205 lot) guclu destek olarak calisiyor ve satis baskisini emiyor.",
+  "reasoning": "Fiyat, yuksek negatif deltaya ragmen VAL seviyesindeki devasa bir bid duvari tarafindan absorbe ediliyor, bu da saticilarin tuzaga dustugu ve bir yukari yonlu sıkısma potansiyeli oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "20:29:33"
+  "timestamp": "20:33:57"
 }
