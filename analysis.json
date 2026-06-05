@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62700.0",
+    "vPOC": "62800.0",
     "VAL": "62100.0",
     "VAH": "63346.5"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62558.8",
-  "tp1": "62700.0",
-  "tp2": "62800.0",
-  "stop": "62520.0",
-  "absorption": "Footprint'te -272'lik guclu negatif deltaya ragmen fiyatin yukselmesi, saticilarin pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
-  "dom_observation": "DOM'da anlik olarak guclu bir bid duvari olmasa da, footprint'teki absorpsiyon alici gucunu teyit ediyor. Ask tarafi vPOC'a dogru direnc gosterebilir.",
-  "reasoning": "Guclu negatif deltaya ragmen fiyatin yukselmesiyle teyit edilen net bir BID absorption paterni, saticilarin tuzaga dustugunu ve yukari yonlu bir hareketin muhtemel oldugunu gosteriyor.",
+  "entry": "62550.0",
+  "tp1": "62800.0",
+  "tp2": "63300.0",
+  "stop": "62350.0",
+  "absorption": "Guclu negatif deltaya (-350) ragmen fiyatin 62500-62450 bolgesinde dususu yavasliyor, bu durum pasif alicilarin agresif satislari emdigini gosteren net bir BID absorption'dur.",
+  "dom_observation": "DOM'da 62500 seviyesinin altinda kume halinde bid emirleri goruluyor, bu da alici destegini teyit ediyor. Ust tarafta ise belirgin bir satici duvari yok.",
+  "reasoning": "Fiyat, guclu satis baskisina ragmen destek seviyesinde tutunuyor; bu durum, satıcıların tukendigini ve alıcıların kontrolu ele aldigini gosteren bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "13:20:08"
+  "timestamp": "13:24:41"
 }
