@@ -7,14 +7,14 @@
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "60880.0",
-  "tp1": "60600.0",
-  "tp2": "60400.0",
-  "stop": "61010.0",
-  "absorption": "60900 seviyesinde alicilarin pozitif delta yaratmasina ragmen fiyat yukselemiyor, bu da guclu bir ASK absorption (satici emilimi) oldugunu gosteriyor.",
-  "dom_observation": "60900 ve 61000 seviyelerinde cok buyuk (2751 ve 2285 lot) stacked ask duvarlari bulunuyor, bu da satici baskisini ve direncini teyit ediyor.",
-  "reasoning": "Genel dusus trendi icinde vPOC'de olusan zayif alici tepkisi, buyuk ask duvari tarafindan absorbe ediliyor, bu da dususun devam edecegine isaret ediyor.",
+  "tp1": "60800.0",
+  "tp2": "60700.0",
+  "stop": "60950.0",
+  "absorption": "Onceki mumda gorulen yuksek pozitif delta (+1K) ile fiyatin yukari gidememesi ve ardindan hizli satis gelmesi, 60900 seviyesinde belirgin bir ASK absorption (satis emilimi) oldugunu gosteriyor.",
+  "dom_observation": "60900 seviyesinden baslayarak yukari yonlu buyuk yigilmis satis (ask) duvarlari saticilarin agresif oldugunu gosterirken, alim (bid) tarafi daha zayif.",
+  "reasoning": "Fiyatın yüksek pozitif deltaya rağmen yükselişini sürdürememesi (ASK Absorption), negatif seans deltası (-16K) ve DOM'daki büyük satış duvarları düşüş yönlü bir hareketi destekliyor.",
   "should_trade": "EVET",
-  "timestamp": "22:48:47"
+  "timestamp": "22:51:27"
 }
