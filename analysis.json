@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62066.3",
-    "VAL": "N/A",
-    "VAH": "N/A"
+    "vPOC": "62058.4",
+    "VAL": "61200.0",
+    "VAH": "YOK"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60770.0",
-  "tp1": "60900.0",
-  "tp2": "61000.0",
-  "stop": "60490.0",
-  "absorption": "Agresif saticilar (onceki mumda -541 delta) 60700-60770 seviyelerinde pasif alicilar tarafindan absorbe ediliyor, bu da fiyatin dusmesini engelliyor.",
-  "dom_observation": "DOM'da 'Sells' sutununda gorulen satis baskisina ragmen, 'Bid' tarafi fiyati tutuyor ve yeni dipler engelleniyor. Bu, alicilarin kontrolu ele aldigini gosteriyor.",
-  "reasoning": "Fiyat, yuksek negatif deltaya ragmen dususu surduremiyor; bu durum, pasif alicilarin agresif saticilari absorbe ettigi guclu bir BID absorption sinyalidir.",
+  "entry": "60540.0",
+  "tp1": "60500.0",
+  "tp2": "60400.0",
+  "stop": "60800.0",
+  "absorption": "YOK",
+  "dom_observation": "60550-60500 seviyelerinde agresif market satis emirleri (37, 24, 33, 89) gozlemleniyor. Ust seviyelerde (60700+) buyuk ask duvarlari var. Bid tarafi zayif.",
+  "reasoning": "Fiyat, deger alaninin (VA) altinda kabul goruyor ve negatif delta, dusen CVD ve DOM'daki agresif satislarla desteklenen guclu bir dusus trendi icinde.",
   "should_trade": "EVET",
-  "timestamp": "17:30:20"
+  "timestamp": "17:34:58"
 }
