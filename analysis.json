@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62558.9",
+    "vPOC": "62700.0",
     "VAL": "62100.0",
-    "VAH": "63346.5"
+    "VAH": "63600.0"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62410.0",
-  "tp1": "62300.0",
-  "tp2": "62150.0",
+  "entry": "62330.0",
+  "tp1": "62100.0",
+  "tp2": "61900.0",
   "stop": "62560.0",
-  "absorption": "Mevcut pozitif deltali mumda fiyatin yukselememesi, pasif saticilarin gelen alimlari absorbe ettigini gosteriyor (ASK absorption).",
-  "dom_observation": "DOM'da yakin seviyelerde belirgin bir duvar yok, ancak mevcut alim girisimi (pozitif delta) fiyati yukari itemiyor, bu da satici gucunu teyit ediyor.",
-  "reasoning": "Fiyat vPOC altinda kabul gordu (acceptance), CVD dusus trendini dogruluyor ve mevcut zayif alim girisimi absorbe edildigi icin dususun devam etmesi beklenir.",
+  "absorption": "62450 seviyesinde alıcıların agresifliğine rağmen fiyatın yükselememesi ve ardından düşüşe geçmesi, satıcıların absorbe ettiğini gösteriyor.",
+  "dom_observation": "Mevcut fiyatta ve hemen altında satıcılar agresif bir şekilde bid'e vuruyor (Chg: -7, -6), bid tarafında ise önemli bir yığılma (stacked bid) bulunmuyor.",
+  "reasoning": "Ayısal piyasa yapısı (ChoCH), vPOC altı fiyatlama ve düşen CVD ile desteklenen agresif satış emir akışı, VAL seviyesine doğru bir düşüşün devam edeceğini gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "13:33:27"
+  "timestamp": "13:37:47"
 }
