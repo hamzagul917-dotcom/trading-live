@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62307.3",
+    "vPOC": "62268.9",
     "VAL": "61800.0",
     "VAH": "63346.5"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "60500.0",
-  "tp1": "60400.0",
-  "tp2": "60320.0",
-  "stop": "60650.0",
+  "confidence_score": "85",
+  "entry": "60830.0",
+  "tp1": "60500.0",
+  "tp2": "60200.0",
+  "stop": "60960.0",
   "absorption": "YOK",
-  "dom_observation": "60500.0 seviyesindeki buyuk bid duvarina (574 lot) karsi 538 lotluk agresif satis gerceklesti ve seviye kirildi. Saticilarin tam kontrolu soz konusu.",
-  "reasoning": "Fiyat, deger alaninin (VAL) cok altinda kabul goruyor ve CVD ile dogrulanan guclu negatif delta ile dusus trendini surduruyor.",
+  "dom_observation": "Agresif satislar devam ediyor, alicilar zayif, en yakin onemli bid destegi 60800 seviyesinde.",
+  "reasoning": "Fiyat, yuksek hacim ve guclu negatif delta ile VAL altinda kabul gordu (acceptance), CVD dususu trendi dogruluyor.",
   "should_trade": "EVET",
-  "timestamp": "16:08:32"
+  "timestamp": "16:16:47"
 }
