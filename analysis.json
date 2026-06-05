@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62100.0",
+    "VAL": "62300.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "62560.0",
-  "tp1": "62700.0",
-  "tp2": "62850.0",
-  "stop": "62440.0",
-  "absorption": "62500-62550 seviyelerinde agresif satislarin alicilar tarafindan emildigi (BID absorption) gozlemleniyor.",
-  "dom_observation": "DOM'da 62500-62550 araliginda satislara ragmen fiyat dusmuyor, bu da alicilarin gucunu gosteriyor. Yukarida 62700-62800 arasi satici likiditesi mevcut.",
-  "reasoning": "Fiyat, buyuk negatif delta barina ragmen dususu surdurememis ve destek bolgesinde alicilar tarafindan absorbe edilerek dusuk fiyatlari reddetmistir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "80",
+  "entry": "62550.0",
+  "tp1": "62300.0",
+  "tp2": "62100.0",
+  "stop": "62750.0",
+  "absorption": "YOK",
+  "dom_observation": "Ask tarafindaki likidite (saticilar) bid tarafindan daha yogun, bu da satici baskisini teyit ediyor.",
+  "reasoning": "Fiyat, gunluk vPOC altinda kabul goruyor, pozitif delta ile yukselis girisimi basarisiz oldu ve simdi agresif satislarla (negatif delta) asagi yonlu hareketine devam ediyor.",
   "should_trade": "EVET",
-  "timestamp": "12:38:41"
+  "timestamp": "12:43:07"
 }
