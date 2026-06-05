@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62151.7",
-    "VAL": "61500.0",
-    "VAH": "63346.5"
+    "vPOC": "62135.4",
+    "VAL": "61650.0",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60800.0",
-  "tp1": "60900.0",
-  "tp2": "61000.0",
-  "stop": "60720.0",
-  "absorption": "Guclu BID absorption 60750-60800 seviyelerinde gozlemleniyor. Onceki mumdaki yuksek negatif deltaya ragmen fiyat dusmuyor, bu da buyuk pasif alicilarin emirleri emdigini gosteriyor.",
-  "dom_observation": "60900 ve 60790 seviyelerinde buyuk pasif alim (bid) emirleri var. Mevcut fiyatta satislar gelse de fiyat bu destekler sayesinde tutunuyor.",
-  "reasoning": "Agresif satislara ragmen fiyatin seans dibinde ilerleyememesi ve buyuk bid'ler tarafindan absorbe edilmesi, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "entry": "60950",
+  "tp1": "61100",
+  "tp2": "61200",
+  "stop": "60790",
+  "absorption": "Saticilarin 60900-60950 bolgesindeki satis baskisi, DOM'daki buyuk alim emirleri tarafindan emiliyor ve fiyatin dusmesini engelliyor.",
+  "dom_observation": "60900 seviyesinden asagiya dogru 1000+ lotluk buyuk yigilmis alim (stacked bid) duvarlari goruluyor, bu da guclu bir destegi isaret ediyor.",
+  "reasoning": "Fiyat, yogun satis baskisina (negatif delta) ragmen dusmeyi basaramiyor ve kilit destek seviyesinde alicilar tarafindan absorbe ediliyor, bu da potansiyel bir yukselis sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "16:46:03"
+  "timestamp": "16:50:35"
 }
