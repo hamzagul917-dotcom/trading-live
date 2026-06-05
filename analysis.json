@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60400.0",
+    "vPOC": "60300.0",
     "VAL": "YOK",
-    "VAH": "60950.0"
+    "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "65",
-  "entry": "60690.0",
+  "confidence_score": "85",
+  "entry": "60490.0",
   "tp1": "60800.0",
   "tp2": "60950.0",
-  "stop": "60540.0",
-  "absorption": "Sellers have been aggressive (Session Delta -11K), but price is failing to break down, with a significant buying imbalance (30x164) appearing at the lows, indicating passive BID absorption.",
-  "dom_observation": "Moderate bid clusters are visible between 60610-60560, providing potential support below the current price. Ask liquidity is thinner until 60800.",
-  "reasoning": "Despite strong negative session delta, price is failing to auction lower and is showing clear signs of passive bid absorption at the range low.",
+  "stop": "60340.0",
+  "absorption": "Saticilarin 60490-60450 seviyelerine yaptigi agresif satislar, DOM'da ve footprint'te gorulen pasif alicilar tarafindan emiliyor (BID absorption).",
+  "dom_observation": "60490'da 45 lotluk satis emri karsilaniyor ve fiyat dusmuyor. Asagida 60450 (121 lot) ve 60350 (128 lot) seviyelerinde destekleyici bid'ler mevcut.",
+  "reasoning": "Agresif saticilara ragmen fiyatin dusmemesi ve kilit destek seviyesinde BID absorption gozlemlenmesi, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "20:16:01"
+  "timestamp": "20:20:44"
 }
