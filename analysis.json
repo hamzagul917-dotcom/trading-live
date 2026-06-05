@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62700.0",
+    "vPOC": "62100.0",
     "VAL": "61800.0",
-    "VAH": "63100.0"
+    "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
+  "confidence_score": "85",
   "entry": "61950.0",
   "tp1": "62100.0",
-  "tp2": "62450.0",
+  "tp2": "62400.0",
   "stop": "61800.0",
-  "absorption": "Gunun dusuklerinde ve VAL yakininda (61900-61850) agresif satislarin buyuk alicilar tarafindan emildigi (BID absorption) footprint'te net olarak goruluyor.",
-  "dom_observation": "61950'den asagiya dogru cok buyuk bir stacked bid duvari (ozellikle 61900'de 1600+ kontrat) alici destegini ve savunmasini dogruluyor.",
-  "reasoning": "Fiyat, gunun dusuklerinde ve VAL yakininda guclu alici absorpsiyonu ve DOM'daki buyuk bid duvari ile desteklenen net bir donus sinyali veriyor.",
+  "absorption": "61900-61950 seviyelerinde yogun BID absorption gozlemleniyor; agresif satislar (market sell) fiyati dusuremiyor, pasif alicilar tarafindan emiliyor.",
+  "dom_observation": "Saticilar 61950 ve altindaki bid'lere surekli vursa da fiyat tutunuyor ve yukari tepki veriyor. Negatif delta momentumu tukenmis durumda.",
+  "reasoning": "Fiyat, seans VAL yakininda agresif satislari absorbe ediyor ve negatif delta tukeniyor, bu da vPOC'a dogru bir rotasyon icin long sinyali uretiyor.",
   "should_trade": "EVET",
-  "timestamp": "15:08:13"
+  "timestamp": "15:12:43"
 }
