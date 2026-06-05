@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62045.9",
+    "vPOC": "62000.0",
     "VAL": "61200.0",
     "VAH": "YOK"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "60350",
-  "tp1": "60050",
-  "tp2": "59800",
-  "stop": "60550",
-  "absorption": "YOK",
-  "dom_observation": "Saticilar baskin, 60450 ve 60500 seviyelerinde buyuk ask (satis) bloklari var. Alim tarafi (bid) zayif.",
-  "reasoning": "Fiyat, onceki deger alaninin (VAL) altinda kabul gordu ve basarisiz bir alim denemesinin ardindan gelen guclu negatif delta (-693) ile agresif satis baskisi devam ediyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "60100.0",
+  "tp1": "60350.0",
+  "tp2": "60800.0",
+  "stop": "59950.0",
+  "absorption": "Son mumda -714 gibi cok guclu bir negatif delta olmasina ragmen fiyat dusmuyor ve mum yesil kapaniyor, bu durum alicilarin satis baskisini agresif bir sekilde absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "60000.0 seviyesinde 922 lotluk cok buyuk bir pasif alim duvari (stacked bid) bulunuyor, bu seviyeyi guclu bir destek yapiyor ve fiyat icin bir miknatis gorevi goruyor.",
+  "reasoning": "Fiyat yeni dip yaparken olusan asiri negatif deltaya ragmen dususun durmasi ve 60000'deki buyuk alim duvari, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "17:39:23"
+  "timestamp": "17:43:50"
 }
