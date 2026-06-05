@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "95",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60700.0",
-  "tp2": "60500.0",
-  "stop": "60950.0",
-  "absorption": "vPOC seviyesinde (60880-60900) yogun ASK absorption gozlemleniyor. Pozitif deltaya ragmen fiyat yukselemiyor.",
-  "dom_observation": "60900 ve uzerinde buyuk yigilmis ASK (satis) emirleri var, bu da satici baskisini ve direnci dogruluyor.",
-  "reasoning": "Fiyat, vPOC direncinde agresif alımları absorbe eden pasif satıcılar ve bearish CVD uyumsuzluğu ile karşılaştığı için short sinyali oluşmuştur.",
+  "tp1": "61000.0",
+  "tp2": "61200.0",
+  "stop": "60700.0",
+  "absorption": "Fiyat, -16K'lik cok guclu negatif seans deltasina ragmen vPOC seviyesinde tutunuyor. DOM'da 60850-60730 arasinda pasif alicilarin (bid) agresif satislari emdigi goruluyor. Bu, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption'dur.",
+  "dom_observation": "60850'de 40 lotluk bir bid ve 60780-60730 arasinda kume halinde baska bid'ler goruluyor. Bu seviyeler, agresif satis emirlerini pasif olarak emiyor ve fiyatin dusmesini engelliyor.",
+  "reasoning": "Agresif satislarin (-16K session delta) vPOC'de pasif alicilar tarafindan absorbe edilmesi, satis gucunun tukendigini ve potansiyel bir yukselis hareketinin baslayacagini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "00:03:58"
+  "timestamp": "00:08:18"
 }
