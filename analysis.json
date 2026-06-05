@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60260.1",
+    "vPOC": "60800.0",
     "VAL": "60000.0",
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60250.0",
-  "tp1": "60400.0",
-  "tp2": "60800.0",
-  "stop": "60100.0",
-  "absorption": "Guclu BID absorption 60250 seviyesinde goruldu (69 lot satisa ragmen fiyat dusmedi).",
-  "dom_observation": "60250'de buyuk satis emri (69 lot) absorbe edildi. Fiyatin altinda 60200'den baslayan guclu pasif alim duvarlari var.",
-  "reasoning": "vPOC seviyesinde agresif satislarin pasif alicilar tarafindan absorbe edilmesi, saticilarin gucunun tukendigini ve potansiyel bir yukselis hareketini isaret ediyor.",
+  "entry": "60368.5",
+  "tp1": "60800.0",
+  "tp2": "61400.0",
+  "stop": "60180.0",
+  "absorption": "Guclu negatif session delta'ya (-16K) ragmen fiyatin dusmemesi ve 60200-60300 bolgesinde alicilarin satis baskisini absorbe etmesi.",
+  "dom_observation": "60250-60220 seviyelerinde yigilmis buyuk bid emirleri (stacked bids) destegi gosteriyor. Yukarida 60500'de direnc var.",
+  "reasoning": "Agresif satis baskisina ragmen fiyat dususu durdu ve alicilarin 60200-60300 bolgesinde satislari absorbe etmesiyle guclu bir BID absorption setup'i olustu.",
   "should_trade": "EVET",
-  "timestamp": "21:59:14"
+  "timestamp": "22:01:49"
 }
