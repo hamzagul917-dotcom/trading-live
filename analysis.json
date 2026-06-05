@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "60405.0",
-    "VAL": "YOK",
-    "VAH": "YOK"
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
+    "VAH": "62400.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "60410.0",
-  "tp1": "60500.0",
-  "tp2": "60600.0",
-  "stop": "60340.0",
-  "absorption": "Agresif saticilar (-1.09K delta) 60400.0 seviyesindeki buyuk pasif alici duvari (2491 lot) tarafindan absorbe ediliyor.",
-  "dom_observation": "60400.0'da 2491 lotluk devasa bir bid duvari var, fiyat bu seviyenin altina inemiyor ve saticilari emiyor.",
-  "reasoning": "Asiri negatif deltaya ragmen fiyatin 60400'deki devasa bid duvarinda dususu durdurmasi, saticilarin absorbe edildigini ve bir long donus setup'i olusturdugunu gosteriyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "60250.0",
+  "tp1": "60160.0",
+  "tp2": "60050.0",
+  "stop": "60360.0",
+  "absorption": "YOK",
+  "dom_observation": "vPOC (60300) seviyesinde satici yigilmasi ve 60160 seviyesinde buyuk bir alim duvari (bid wall) goruluyor. Mevcut fiyat hareketinde agresif satislar hakim.",
+  "reasoning": "Fiyat, vPOC'nin altinda deger kabul ediyor (Acceptance) ve guclu negatif Session Delta ile dusen CVD, ayi yonlu trendin devamini guclu bir sekilde teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "20:25:05"
+  "timestamp": "20:29:33"
 }
