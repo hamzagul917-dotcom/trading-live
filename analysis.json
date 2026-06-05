@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "60879.6",
+    "vPOC": "60879.7",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60750.0",
-  "tp2": "60600.0",
-  "stop": "61010.0",
-  "absorption": "Guclu pozitif deltaya ragmen fiyatin vPOC seviyesini gecememesi ve DOM'da 60900-61000 seviyelerinde buyuk satis duvarlarinin bulunmasi, alicilarin absorbe edildigini gosteriyor (ASK absorption).",
-  "dom_observation": "60900 (1.1K) ve 61000 (1.2K) seviyelerinde buyuk stacked ask duvarlari mevcut, bu da guclu pasif satis baskisini gosteriyor.",
-  "reasoning": "Fiyat, genel dusus trendi icinde vPOC direncinde alici gucunun tukendigini ve buyuk pasif saticilar tarafindan absorbe edildigini gosteriyor.",
+  "tp1": "60700.0",
+  "tp2": "60500.0",
+  "stop": "61050.0",
+  "absorption": "YOK",
+  "dom_observation": "60900-61000 arasinda cok buyuk stacked ask duvari var, asagidaki bid'ler zayif.",
+  "reasoning": "Fiyat, seans vPOC'unda zayif alicilarla karsilasirken, DOM'da biriken devasa satis emirleri (stacked asks) guclu bir direnc ve potansiyel satis baskisi sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "23:12:26"
+  "timestamp": "23:15:07"
 }
