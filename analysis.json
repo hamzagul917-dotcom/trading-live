@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62700.0",
-    "VAL": "62100.0",
+    "vPOC": "62555.6",
+    "VAL": "62115.2",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62240.0",
-  "tp1": "62450.0",
-  "tp2": "62700.0",
-  "stop": "62180.0",
-  "absorption": "Significant BID absorption is occurring around the 62200-62240 level; high negative delta (-350, -262) is failing to push the price lower, indicating trapped sellers.",
-  "dom_observation": "Bids are holding firm around 62230 despite aggressive market selling, indicating passive buyers are absorbing the downward pressure.",
-  "reasoning": "Aggressive sellers are being absorbed at a local support level, creating a high-probability trapped seller scenario for a bullish reversal.",
+  "entry": "62110.0",
+  "tp1": "61950.0",
+  "tp2": "61800.0",
+  "stop": "62250.0",
+  "absorption": "YOK",
+  "dom_observation": "Saticilar VAL seviyesinde agresif, DOM'da alici tepkisi zayif, yukarida ask likiditesi birikmis.",
+  "reasoning": "Fiyat, güçlü negatif delta ve düşen CVD eşliğinde Değer Alanı Düşük (VAL) seviyesini kırıyor ve alıcı absorpsiyonu gözlemlenmiyor, bu da aşağı yönlü kabulü teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "13:42:12"
+  "timestamp": "13:46:37"
 }
