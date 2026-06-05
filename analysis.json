@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62106.7",
-    "VAL": "61500.0",
-    "VAH": "YOK"
+    "vPOC": "62100.8",
+    "VAL": "60600.0",
+    "VAH": "62400.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60850.0",
-  "tp1": "61000.0",
-  "tp2": "61200.0",
-  "stop": "60740.0",
-  "absorption": "Saticilarin 60800 seviyesine dogru satis yapmasina ragmen, fiyatin dusmemesi ve DOM'daki buyuk bid duvarinin bu satislari emmesi (BID absorption).",
-  "dom_observation": "60800 ve 60900 seviyelerinde cok buyuk yigilmis alim emirleri (stacked bids) bulunuyor, bu da guclu bir destegi isaret ediyor. 61000'de ise direnc olusturan bir ask duvari var.",
-  "reasoning": "Fiyat, gunluk dusus trendine ragmen 60800 seviyesindeki buyuk alim duvarinda saticilari absorbe ediyor ve asagi yonlu devam edemiyor, bu da kisa vadeli bir yukselis potansiyeli yaratiyor.",
+  "entry": "60750.0",
+  "tp1": "60600.0",
+  "tp2": "60500.0",
+  "stop": "60850.0",
+  "absorption": "Pozitif delta (+63) olmasina ragmen fiyat yukselemiyor, 60800 seviyesindeki buyuk stacked ask duvarina karsi ASK absorption gozleniyor.",
+  "dom_observation": "60800'den baslayan cok buyuk (1300+ kontrat) stacked ask duvari alimlari engelliyor. Alt tarafta 60700 ve altinda stacked bid'ler destek olusturuyor.",
+  "reasoning": "Genel trendin ayi yonlu oldugu seansta, pozitif deltaya ragmen fiyatin yukselemedigi ve 60800'deki buyuk satici duvarinda absorbe edildigi icin short sinyali olustu.",
   "should_trade": "EVET",
-  "timestamp": "17:08:16"
+  "timestamp": "17:12:38"
 }
