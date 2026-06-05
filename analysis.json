@@ -6,15 +6,15 @@
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60870.0",
-  "tp1": "60990.0",
-  "tp2": "61100.0",
-  "stop": "60740.0",
-  "absorption": "Session vPOC seviyesinde ciddi BID absorption gozleniyor; fiyat, agir negatif session deltaya ragmen kirilim yapamiyor, saticilarin tukendigini gosteriyor.",
-  "dom_observation": "60880-60850 arasinda Bid'ler gelen market satislarini emiyor ve tutunuyor. Yukarida anlik baski kuran buyuk bir Ask duvari yok.",
-  "reasoning": "Fiyat, satici tukenmesini isaret eden net BID absorption ile session vPOC'de tutunuyor, bu da dusmesi gerekirken dusemedigini gosteriyor.",
+  "entry": "60880.0",
+  "tp1": "60700.0",
+  "tp2": "60500.0",
+  "stop": "61100.0",
+  "absorption": "60900-61000 seviyelerinde beklenen guclu pasif ASK absorption (satis emilimi) potansiyeli var.",
+  "dom_observation": "60900 ve uzerinde cok buyuk yigilmis satis emirleri (stacked ask wall) bulunuyor, bu saticilarin o bolgeyi agresif bir sekilde savundugunu gosteren guclu bir direnc.",
+  "reasoning": "Fiyat, gunluk vPOC'ta duraksarken, yukarida bulunan devasa yigilmis satis emirleri (stacked asks) ve genel ayi yonlu seans deltasi dusus yonlu bir hareketi isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "01:53:41"
+  "timestamp": "01:58:02"
 }
