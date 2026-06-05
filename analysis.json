@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60825.3",
-    "VAL": "60800.0",
-    "VAH": "62700.0"
+    "vPOC": "60800.0",
+    "VAL": "60600.0",
+    "VAH": "61000.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60850.0",
-  "tp1": "60900.0",
+  "entry": "60740.0",
+  "tp1": "60800.0",
   "tp2": "61000.0",
-  "stop": "60740.0",
-  "absorption": "Guclu BID absorption 60825-60800 seviyelerinde goruluyor. Footprint'te buyuk satislar (100, 133 lot) karsilanmis ve DOM'da 60800'den baslayan buyuk bir alim duvari var.",
-  "dom_observation": "60800 seviyesinden asagiya dogru buyuk (2176, 1778) stacked bid emirleri var, bu da guclu bir destegi isaret ediyor. Saticilar bu seviyeye vurdukca emiliyor.",
-  "reasoning": "Fiyat, negatif deltaya ragmen kilit destek seviyesini kiramiyor; guclu pasif alicilar (BID absorption) satislari emerek potansiyel bir yukselis icin zemin hazirliyor.",
+  "stop": "60550.0",
+  "absorption": "60600-60730 fiyat araliginda yogun BID absorption mevcut. Agresif saticilar, fiyati dusuremeyen guclu pasif alicilar tarafindan emiliyor.",
+  "dom_observation": "DOM'da 60720 seviyesinin altinda surekli olarak buyuk market satis emirleri (50-90 lot arasi) gelmesine ragmen fiyat tutunuyor, bu da alici gucunu teyit ediyor.",
+  "reasoning": "Fiyat, yuksek negatif deltaya ve yogun market satislarina ragmen dusmeyi reddediyor; bu durum, guclu bir BID absorption ve potansiyel bir dip olusumu sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "19:21:56"
+  "timestamp": "19:30:22"
 }
