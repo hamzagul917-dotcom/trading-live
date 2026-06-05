@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60183.2",
-    "VAL": "60169.5",
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
     "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60185.0",
-  "tp1": "60340.0",
-  "tp2": "60400.0",
-  "stop": "60150.0",
-  "absorption": "Agresif saticilar (yuksek negatif delta) VAL seviyesinde buyuk bir pasif alim duvarı (4205 lot @ 60160.0) tarafindan absorbe ediliyor, bu da dusus trendinin duraksamasina neden oluyor.",
-  "dom_observation": "60160.0 seviyesinde cok buyuk bir yigilmis bid duvari (4205 lot) guclu destek olarak calisiyor ve satis baskisini emiyor.",
-  "reasoning": "Fiyat, yuksek negatif deltaya ragmen VAL seviyesindeki devasa bir bid duvari tarafindan absorbe ediliyor, bu da saticilarin tuzaga dustugu ve bir yukari yonlu sıkısma potansiyeli oldugunu gosteriyor.",
+  "confidence_score": "90",
+  "entry": "60100.0",
+  "tp1": "60300.0",
+  "tp2": "60600.0",
+  "stop": "59940.0",
+  "absorption": "Guclu BID absorption 60000.0 seviyesinde goruluyor. Agresif saticilar (negatif delta) fiyati asagi itemiyor, buyuk pasif alicilar tarafindan emiliyorlar.",
+  "dom_observation": "60000.0 seviyesinde buyuk bir pasif alim duvari (1982 lot) var ve footprint bu seviyeye gelen yogun satislari gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de (60000.0) yogun satislari absorbe ediyor, bu da saticilarin tuzaga dustugunu ve bir yukselis potansiyeli oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "20:33:57"
+  "timestamp": "20:38:22"
 }
