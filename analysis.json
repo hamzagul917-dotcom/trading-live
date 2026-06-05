@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62218.0",
-    "VAL": "61800.0",
+    "vPOC": "62193.8",
+    "VAL": "61600.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "60450.0",
-  "tp1": "60350.0",
-  "tp2": "60050.0",
-  "stop": "60650.0",
-  "absorption": "YOK",
-  "dom_observation": "Agresif satis baskisi devam ediyor, asagidaki buyuk bid duvarlari (60330) potansiyel hedefler.",
-  "reasoning": "Fiyat, onceki gunun deger alani (VAL) altinda guclu negatif delta ve dusen CVD ile net bir sekilde kabul (acceptance) gordu, bu da dusus trendinin devamini isaret ediyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "60400.0",
+  "tp1": "60500.0",
+  "tp2": "60600.0",
+  "stop": "60300.0",
+  "absorption": "Guclu BID absorption 60345 seviyesinde goruluyor. -3K delta'ya ragmen fiyat dusmuyor, bu da agresif saticilarin pasif alicilar tarafindan emildigini gosteriyor.",
+  "dom_observation": "DOM'da anlik olarak belirgin bir bid duvari yok, ancak footprint'teki hacim ve fiyatin tepkisi gizli bir alim (iceberg) veya buyuk pasif alicilarin varligina isaret ediyor.",
+  "reasoning": "Agresif saticilarin (-3K delta) yeni bir dip yaptiramamasi ve fiyatin 60345 seviyesinde absorbe edilmesi, satici gucunun tukendigini ve potansiyel bir kisa vadeli yukselisi isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "16:29:03"
+  "timestamp": "16:33:25"
 }
