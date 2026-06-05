@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "59393.0",
-    "VAL": "~59100.0",
-    "VAH": "~59700.0"
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
+    "VAH": "62700.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "59400.0",
-  "tp1": "59600.0",
-  "tp2": "59700.0",
-  "stop": "59240.0",
-  "absorption": "Significant BID absorption is occurring at the session vPOC. Despite a heavily negative session delta (-16K), sellers are unable to push the price lower, and buyers are absorbing the pressure.",
-  "dom_observation": "A large stacked bid wall of 760 lots is defending the 59390.0 level, acting as strong support, while the ask side is comparatively thin.",
-  "reasoning": "BID absorption at the session vPOC, supported by a large stacked bid and a bid back after a high negative delta candle, signals seller exhaustion and a high probability of an upward rotation.",
+  "entry": "59160.0",
+  "tp1": "59000.0",
+  "tp2": "58800.0",
+  "stop": "59260.0",
+  "absorption": "59170 seviyesinde anlik BID absorption gozlense de, genel ayi baskisini kiracak gucun olmamasi ve satislarin devam etmesi.",
+  "dom_observation": "59170 seviyesinde 102 lotluk agresif satis ve yukarida 59300'den baslayan yogun stacked ask duvarlari saticilarin kontrolunu gosteriyor.",
+  "reasoning": "Fiyat, onceki gunun deger alani (VAL) altinda kabul goruyor (Acceptance) ve guclu negatif delta ile dusen CVD, ayi yonlu trendi teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "21:13:53"
+  "timestamp": "21:18:17"
 }
