@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "62000.0",
-    "VAH": "63345.5"
+    "VAH": "63346.5"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "62140.0",
-  "tp1": "62400.0",
+  "confidence_score": "85",
+  "entry": "62050.0",
+  "tp1": "62500.0",
   "tp2": "62700.0",
-  "stop": "61950.0",
-  "absorption": "Saticilar VAL seviyesine satis yapmasina ragmen fiyat dusmuyor, DOM'daki alicilar ve son mumdaki pozitif delta (+49) BID absorption'a isaret ediyor.",
-  "dom_observation": "Mevcut fiyatin altinda, ozellikle 62100-62000 bolgesinde alici (bid) yigilmasi var, bu da destegi guclendiriyor.",
-  "reasoning": "Fiyat, gunluk deger alani desteginde (VAL) satici tukenmesi ve alici absorpsiyonu belirtileri gostererek potansiyel bir yukselis firsati sunuyor.",
+  "stop": "61940.0",
+  "absorption": "Saticilar 62000-61950 seviyelerine agresif satis yapiyor ancak fiyat dusmuyor, pasif alicilar tarafindan absorbe ediliyor. Delta tukenmesi bunu dogruluyor.",
+  "dom_observation": "62000-61900 arasinda alici yigilmasi (bid cluster) var, bu seviyeler destek olarak calisiyor.",
+  "reasoning": "Fiyat, gunluk deger alani alt sinirinde (VAL) agresif satislari absorbe ediyor ve satis gucunun tukendigine dair net sinyaller veriyor.",
   "should_trade": "EVET",
-  "timestamp": "13:51:03"
+  "timestamp": "13:55:35"
 }
