@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62081.1",
-    "VAL": "61500.0",
+    "vPOC": "62076.4",
+    "VAL": "61200.0",
     "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "60730.0",
-  "tp1": "60900.0",
-  "tp2": "61000.0",
-  "stop": "60650.0",
-  "absorption": "34 lot market sell emri 60730.0 seviyesindeki BID tarafindan absorbe ediliyor ve fiyat dusmuyor.",
-  "dom_observation": "Agresif alicilarin (+518 delta) ardindan saticilarin geldigini ancak fiyatin 60730 seviyesinde pasif alicilar tarafindan tutuldugunu gosteriyor.",
-  "reasoning": "Guclu pozitif delta ile dusuk seviyelerden gelen tepkinin ardindan mevcut fiyatta BID absorption gozlemlenmesi, kisa vadeli bir yukselis potansiyeli sunmaktadir.",
+  "confidence_score": "70",
+  "entry": "60900.0",
+  "tp1": "61000.0",
+  "tp2": "61200.0",
+  "stop": "60680.0",
+  "absorption": "60800 seviyesinden asagiya dogru cok buyuk bir pasif alici (stacked bid) duvari fiyati destekliyor ve dususu engelliyor.",
+  "dom_observation": "60800-60700 arasinda cok guclu ve kalin bir stacked bid duvari var, 61000 seviyesinde ise buyuk bir stacked ask goruluyor. Piyasa bu iki buyuk likidite alani arasinda sıkışmış durumda.",
+  "reasoning": "Fiyat, cok guclu bir pasif alici duvarinin (stacked bid) uzerinde tutunuyor ve bu durum, yukaridaki satici likiditesini test etmek icin bir long firsati sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "17:21:30"
+  "timestamp": "17:25:51"
 }
