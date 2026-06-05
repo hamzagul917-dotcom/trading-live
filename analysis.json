@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60067.1",
-    "VAL": "~60000.0",
+    "vPOC": "60115.3",
+    "VAL": "60000.0",
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "60070.0",
-  "tp1": "60300.0",
-  "tp2": "60400.0",
+  "confidence_score": "85",
+  "entry": "60110.0",
+  "tp1": "60150.0",
+  "tp2": "60300.0",
   "stop": "59940.0",
-  "absorption": "Guclu negatif deltaya ragmen fiyat 60000-60040 seviyesindeki buyuk bid duvarinda dusmeyi basaramiyor, bu durum saticilarin agresif bir sekilde absorbe edildigini gosteriyor.",
-  "dom_observation": "60040-60000 arasinda buyuk bir stacked bid duvari var ve saticilar bu seviyeleri kiramiyor. Yukarida 60160'da buyuk bir ask duvari direnc olusturuyor.",
-  "reasoning": "Fiyat, vPOC/VAL desteginde yogun satis baskisina ragmen dusmeyi reddediyor; bu, guclu pasif alicilarin saticilari absorbe ettigi klasik bir long setup'idir.",
+  "absorption": "Sürekli negatif deltaya rağmen fiyatın vPOC seviyesinde düşmemesi, agresif satışların pasif alıcılar tarafından absorbe edildiğini gösteriyor.",
+  "dom_observation": "60160 seviyesinde büyük bir ask duvarı (direnç) ve 60000 seviyesinde çok daha büyük bir bid duvarı (destek) var. Mevcut fiyatın hemen altında alıcılar bekliyor.",
+  "reasoning": "Agresif satıcıların fiyatı vPOC'un altına itememesi ve oluşan bariz BID absorption, short pozisyonların sıkışmasıyla yukarı yönlü bir hareket potansiyeli yaratıyor.",
   "should_trade": "EVET",
-  "timestamp": "22:04:30"
+  "timestamp": "22:07:07"
 }
