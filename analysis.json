@@ -1,5 +1,5 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
@@ -12,9 +12,9 @@
   "tp1": "62100.0",
   "tp2": "62500.0",
   "stop": "61740.0",
-  "absorption": "61800-61900 seviyelerinde yogun negatif deltaya ragmen fiyat dusmuyor, DOM uzerindeki buyuk pasif alim emirleri (stacked bids) agresif satislari absorbe ediyor.",
-  "dom_observation": "61800 ve 61870 seviyelerinde 992 ve 1026 lotluk buyuk stacked bid duvarlari goruluyor. Agresif satislar (61770'de 73 lot) bu seviyelerde emiliyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de, yuksek negatif deltaya ragmen dusmeyi basaramiyor; bu durum, kurumsal alicilarin satislari absorbe ettigi guclu bir BID absorption setup'idir.",
+  "absorption": "Guclu BID absorption 61800-61900 arasinda gozlemlendi, saticilarin asagi yonlu baskisi pasif alicilar tarafindan emiliyor.",
+  "dom_observation": "61900, 61860 ve 61800 seviyelerinde buyuk yigilmis BID (pasif alis) emirleri goruluyor, bu da guclu destegi isaret ediyor.",
+  "reasoning": "Fiyat, VAL desteginde agresif satislari buyuk pasif alis emirleriyle (BID absorption) emerek dususu reddediyor, bu da potansiyel bir yukselis donusune isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "14:44:46"
+  "timestamp": "14:49:17"
 }
