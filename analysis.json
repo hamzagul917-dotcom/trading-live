@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "70",
-  "entry": "60850",
-  "tp1": "60700",
-  "tp2": "60550",
-  "stop": "60960",
-  "absorption": "YOK",
-  "dom_observation": "60900 seviyesinden baslayarak yukarida yigilmis (stacked) ask likiditesi mevcut. Mevcut fiyatta alicilarin tepkisi cok zayif.",
-  "reasoning": "Agir negatif seans deltasi ve dusen CVD ile teyit edilen bearish trend icinde, fiyat vPOC'de tutunmakta zorlaniyor ve alicilardan beklenen guclu tepki gelmiyor, bu da dususun devam etme ihtimalini guclendiriyor.",
+  "confidence_score": "85",
+  "entry": "60880.0",
+  "tp1": "60600.0",
+  "tp2": "60400.0",
+  "stop": "60950.0",
+  "absorption": "vPOC seviyesi olan 60880-60900 aralığında bir önceki mumdaki 1K'lık pozitif deltaya rağmen fiyatın ilerleyememesi, satıcıların alım gücünü absorbe ettiğini (ASK Absorption) gösteriyor.",
+  "dom_observation": "Mevcut fiyatın hemen üzerinde 60900 seviyesinde 2751 lotluk bir satış duvarı ve yukarıda kümelenmiş pasif satıcılar direnç oluşturuyor.",
+  "reasoning": "Negatif seans deltası bağlamında, vPOC direncinde alıcıların devamlılık gösterememesi (no continuation) ve belirgin ASK absorpsiyonu short yönlü bir işlem fırsatı sunmaktadır.",
   "should_trade": "EVET",
-  "timestamp": "23:17:50"
+  "timestamp": "23:20:28"
 }
