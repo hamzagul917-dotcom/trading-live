@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60300.0",
+    "vPOC": "60200.0",
     "VAL": "60000.0",
     "VAH": "62700.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "59160.0",
-  "tp1": "59000.0",
-  "tp2": "58800.0",
-  "stop": "59260.0",
-  "absorption": "59170 seviyesinde anlik BID absorption gozlense de, genel ayi baskisini kiracak gucun olmamasi ve satislarin devam etmesi.",
-  "dom_observation": "59170 seviyesinde 102 lotluk agresif satis ve yukarida 59300'den baslayan yogun stacked ask duvarlari saticilarin kontrolunu gosteriyor.",
-  "reasoning": "Fiyat, onceki gunun deger alani (VAL) altinda kabul goruyor (Acceptance) ve guclu negatif delta ile dusen CVD, ayi yonlu trendi teyit ediyor.",
+  "entry": "59250.0",
+  "tp1": "59400.0",
+  "tp2": "59600.0",
+  "stop": "59150.0",
+  "absorption": "Significant BID absorption observed around 59200. The previous candle shows a large sell imbalance (179 contracts) at the low, but the price failed to break down, indicating passive buyers are absorbing aggressive sellers.",
+  "dom_observation": "Aggressive selling continues at the bid (48 lots at 59200), but the price is holding. Significant ask liquidity is stacked above 59300, acting as potential resistance.",
+  "reasoning": "Aggressive sellers are being absorbed at the session low, indicated by high negative delta with no price follow-through, creating a potential long opportunity against trapped shorts.",
   "should_trade": "EVET",
-  "timestamp": "21:18:17"
+  "timestamp": "21:44:42"
 }
