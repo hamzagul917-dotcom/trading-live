@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60300.0",
-    "VAL": "YOK",
-    "VAH": "62700.0"
+    "vPOC": "60850.0",
+    "VAL": "60700.0",
+    "VAH": "61100.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60920.0",
-  "tp1": "61150.0",
-  "tp2": "61500.0",
-  "stop": "60800.0",
-  "absorption": "Guclu negatif deltaya (-963) ragmen fiyatin dusmemesi, dusuk seviyelerde pasif alicilarin agresif saticilari absorbe ettigini gosteriyor (Bid Absorption).",
-  "dom_observation": "Fiyatin hemen altinda belirgin bir destek duvarı olmasa da, footprint'teki hacim ve fiyatin tepkisi pasif alicilarin guclu oldugunu gosteriyor.",
-  "reasoning": "Agresif satislarin (negatif delta & dusen CVD) fiyati asagi itememesi, guclu bir BID absorption ve potansiyel bir yukari donus sinyali olusturmaktadir.",
+  "entry": "60850.0",
+  "tp1": "61050.0",
+  "tp2": "61200.0",
+  "stop": "60750.0",
+  "absorption": "Aggressive selling (negative delta) is being absorbed by large passive bids visible on the DOM around 60800-60850, preventing further price decline.",
+  "dom_observation": "Large stacked bid wall from 60800 downwards is absorbing aggressive market sells.",
+  "reasoning": "Aggressive selling is being absorbed by a large passive bid wall at a key vPOC support level, indicating potential seller exhaustion and a likely reversal.",
   "should_trade": "EVET",
-  "timestamp": "18:33:37"
+  "timestamp": "18:37:56"
 }
