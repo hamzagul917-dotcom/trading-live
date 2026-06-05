@@ -9,12 +9,12 @@
   "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60600.0",
-  "tp2": "60400.0",
+  "tp1": "60750.0",
+  "tp2": "60650.0",
   "stop": "60950.0",
-  "absorption": "vPOC seviyesi olan 60880-60900 aralığında bir önceki mumdaki 1K'lık pozitif deltaya rağmen fiyatın ilerleyememesi, satıcıların alım gücünü absorbe ettiğini (ASK Absorption) gösteriyor.",
-  "dom_observation": "Mevcut fiyatın hemen üzerinde 60900 seviyesinde 2751 lotluk bir satış duvarı ve yukarıda kümelenmiş pasif satıcılar direnç oluşturuyor.",
-  "reasoning": "Negatif seans deltası bağlamında, vPOC direncinde alıcıların devamlılık gösterememesi (no continuation) ve belirgin ASK absorpsiyonu short yönlü bir işlem fırsatı sunmaktadır.",
+  "absorption": "Saticilar, vPOC seviyesindeki zayif alim girisimini absorbe ediyor ve yukari yonlu devamlılık (continuation) engelleniyor.",
+  "dom_observation": "60900.0 seviyesi ve uzerinde yogun stacked ask duvarlari (1.6K+) satici baskisini gosterirken, asagidaki bid destegi zayif kaliyor.",
+  "reasoning": "Agir negatif seans deltasi (-16K) ve dusen CVD'nin teyit ettigi vPOC'de alici gucunun tukenmesi (no continuation) short firsati sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "23:20:28"
+  "timestamp": "23:23:04"
 }
