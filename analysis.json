@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "60890.0",
-  "tp1": "60740.0",
-  "tp2": "60650.0",
-  "stop": "61010.0",
-  "absorption": "Fiyat vPOC seviyesine yaklasirken, 60890-61000 arasinda bekleyen devasa stacked ask duvarinda (1000+ lot) agresif alicilarin absorbe edilmesi bekleniyor.",
-  "dom_observation": "60890-61000 arasinda cok buyuk bir stacked ask duvari var, bu da guclu kurumsal satici direncini gosteriyor. Altinda ise 60740 seviyesinde onemli bir bid destegi bulunuyor.",
-  "reasoning": "Genel session deltasi (-16K) guclu bearisken, fiyat vPOC'deki devasa bir satici duvarina (stacked ask) dogru zayif bir geri cekilme yapiyor, bu da yuksek olasilikli bir ASK absorption donus setup'idir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "60880.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60640.0",
+  "absorption": "Massive selling pressure (Delta -15K) was absorbed by passive buyers at the vPOC, preventing a price breakdown.",
+  "dom_observation": "Significant stacked bids are visible below the current price (60730-60850), while asks above are relatively thin, supporting a potential bounce.",
+  "reasoning": "Fiyat, vPOC seviyesinde agresif satislari (buyuk negatif delta) absorbe etti ve dusmeyi reddetti; bu durum, alicilarin kontrolu ele aldigi bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "00:17:12"
+  "timestamp": "00:21:30"
 }
