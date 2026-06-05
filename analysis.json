@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62100.0",
+    "VAL": "62000.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "62185.0",
-  "tp1": "62300.0",
-  "tp2": "62500.0",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "61868.5",
+  "tp1": "61650.0",
+  "tp2": "61450.0",
   "stop": "62100.0",
-  "absorption": "Strong BID absorption detected near VAL; price is not falling despite a significant negative delta of -251, trapping aggressive sellers.",
-  "dom_observation": "DOM is ask-heavy nearby, but passive bids are absorbing aggressive selling at current levels, preventing further downside.",
-  "reasoning": "Aggressive sellers are being absorbed by passive buyers at the value area low, indicating a high probability of a short squeeze/reversal.",
+  "absorption": "YOK",
+  "dom_observation": "61900-62000 seviyelerinde birikmis satis emirleri (ask) direnç olusturuyor, alici tarafi daha zayif.",
+  "reasoning": "Fiyat, VAL seviyesinin altina guclu negatif delta ve dusen CVD ile kirilim gerceklestirerek asagi yonlu kabul (acceptance) gostermektedir.",
   "should_trade": "EVET",
-  "timestamp": "14:31:24"
+  "timestamp": "14:35:52"
 }
