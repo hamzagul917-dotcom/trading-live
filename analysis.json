@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60880.0",
+  "entry": "60870.0",
   "tp1": "61100.0",
-  "tp2": "61450.0",
+  "tp2": "61400.0",
   "stop": "60640.0",
-  "absorption": "Massive selling pressure (Delta -15K) was absorbed by passive buyers at the vPOC, preventing a price breakdown.",
-  "dom_observation": "Significant stacked bids are visible below the current price (60730-60850), while asks above are relatively thin, supporting a potential bounce.",
-  "reasoning": "Fiyat, vPOC seviyesinde agresif satislari (buyuk negatif delta) absorbe etti ve dusmeyi reddetti; bu durum, alicilarin kontrolu ele aldigi bir donus sinyalidir.",
+  "absorption": "Massive BID absorption at vPOC. Despite a -16K session delta, the price is failing to break down, indicating sellers are being trapped.",
+  "dom_observation": "Bids are holding and being added around 60870-60850 despite aggressive market selling, confirming passive absorption.",
+  "reasoning": "Aggressive sellers are being absorbed at the session vPOC, which is a high-probability long setup for a reversal against trapped participants.",
   "should_trade": "EVET",
-  "timestamp": "00:21:30"
+  "timestamp": "00:25:50"
 }
