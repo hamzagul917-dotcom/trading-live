@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62000.0",
+    "VAL": "61890.5",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61868.5",
-  "tp1": "61650.0",
-  "tp2": "61450.0",
-  "stop": "62100.0",
-  "absorption": "YOK",
-  "dom_observation": "61900-62000 seviyelerinde birikmis satis emirleri (ask) direnç olusturuyor, alici tarafi daha zayif.",
-  "reasoning": "Fiyat, VAL seviyesinin altina guclu negatif delta ve dusen CVD ile kirilim gerceklestirerek asagi yonlu kabul (acceptance) gostermektedir.",
+  "entry": "61910.0",
+  "tp1": "62100.0",
+  "tp2": "62700.0",
+  "stop": "61740.0",
+  "absorption": "Strong BID absorption detected at VAL (61890.5). Price is failing to break down despite significant negative delta (-274, -271), held by a large 1322 lot bid wall at 61900.",
+  "dom_observation": "Large stacked bid wall of 1322 lots at 61900 is absorbing aggressive selling pressure, preventing a breakdown below the Value Area Low.",
+  "reasoning": "Fiyat, guclu satis baskisina ragmen kilit VAL seviyesindeki buyuk bir alim duvarinda (BID absorption) duraksadigi icin dusus yonlu kirilim basarisiz oluyor ve bir donus sinyali olusuyor.",
   "should_trade": "EVET",
-  "timestamp": "14:35:52"
+  "timestamp": "14:40:19"
 }
