@@ -1,10 +1,10 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60800.0",
-    "VAL": "60600.0",
-    "VAH": "61000.0"
+    "vPOC": "60900.0",
+    "VAL": "YOK",
+    "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
@@ -12,9 +12,9 @@
   "tp1": "60800.0",
   "tp2": "61000.0",
   "stop": "60550.0",
-  "absorption": "60600-60730 fiyat araliginda yogun BID absorption mevcut. Agresif saticilar, fiyati dusuremeyen guclu pasif alicilar tarafindan emiliyor.",
-  "dom_observation": "DOM'da 60720 seviyesinin altinda surekli olarak buyuk market satis emirleri (50-90 lot arasi) gelmesine ragmen fiyat tutunuyor, bu da alici gucunu teyit ediyor.",
-  "reasoning": "Fiyat, yuksek negatif deltaya ve yogun market satislarina ragmen dusmeyi reddediyor; bu durum, guclu bir BID absorption ve potansiyel bir dip olusumu sinyalidir.",
+  "absorption": "Fiyat dusuk seviyelerdeyken, negatif deltaya ragmen (satis baskisi) yukselen yesil mum goruluyor. Bu, pasif alicilarin satislari absorbe ettigini gosteren guclu bir BID absorption isaretidir.",
+  "dom_observation": "Mevcut fiyatin altinda kume halinde destek olusturan bid emirleri var. Satislar (yesil sayilar) bid tarafindan karsilaniyor ve fiyat dusmuyor.",
+  "reasoning": "Satis baskisina ragmen fiyatin dusmeyi reddetmesi ve dusuklerde pasif alicilar tarafindan absorbe edilmesi, saticilarin gucunun tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "19:30:22"
+  "timestamp": "19:34:44"
 }
