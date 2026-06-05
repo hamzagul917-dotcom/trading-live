@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60900.0",
+  "tp1": "60950.0",
   "tp2": "61100.0",
-  "stop": "60640.0",
-  "absorption": "Footprint uzerinde -1K ve -196'lik buyuk negatif deltalara ragmen fiyatin dusmemesi, vPOC seviyesinde guclu pasif alici absorpsiyonunu (BID absorption) gosteriyor.",
-  "dom_observation": "60850 ve altinda biriken bid'ler destegi gosterirken, 60900 seviyesindeki 98 lotluk ask ilk hedef/direnc olarak one cikiyor.",
-  "reasoning": "vPOC seviyesinde agresif saticilarin pasif alicilar tarafindan absorbe edilmesi, satis gucunun tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "stop": "60700.0",
+  "absorption": "Guclu negatif session delta'ya (-16K) ragmen fiyat vPOC seviyesinde tutunuyor, bu durum saticilarin agresif bir sekilde absorbe edildigini gosteriyor (Passive BID Absorption).",
+  "dom_observation": "DOM, vPOC seviyesinde ve altinda alim ilgisi oldugunu, 60900 ve uzerinde ise satis likiditesi bulundugunu gosteriyor. Fiyat, satis baskisina ragmen dusmuyor.",
+  "reasoning": "Agresif satislarin (yuksek negatif delta) vPOC'de emilmesi, satıcıların tuzağa düşme ve yukarı yönlü bir sıkışma potansiyeli ile güçlü bir alım sinyali oluşturmaktadır.",
   "should_trade": "EVET",
-  "timestamp": "23:46:58"
+  "timestamp": "23:49:38"
 }
