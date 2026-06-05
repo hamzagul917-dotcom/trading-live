@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "~60300.0",
-    "VAL": "YOK",
-    "VAH": "~62400.0"
+    "vPOC": "60300.0",
+    "VAL": "N/A",
+    "VAH": "61700.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60890.0",
-  "tp1": "61000.0",
-  "tp2": "61100.0",
-  "stop": "60790.0",
-  "absorption": "Fiyat 60880-60840 arasinda agresif satislari (DOM'da gorulen) emiyor, dusmuyor. Bu guclu bir BID absorption'dur.",
-  "dom_observation": "60880-60840 seviyelerinde agresif satislar (31, 25, 18 lot) pasif alicilar tarafindan karsilaniyor. Yukarida 61000'de buyuk bir satis duvari (2285 lot) var.",
-  "reasoning": "Agresif satis baskisina (negatif session delta) ragmen fiyatin dusmemesi ve DOM'da net bir sekilde gorulen BID absorption, alicilarin kontrolu ele aldigini gosteriyor.",
+  "entry": "60750.0",
+  "tp1": "60300.0",
+  "tp2": "60000.0",
+  "stop": "60940.0",
+  "absorption": "Fiyatin pozitif delta (+63) ile yukselmeye calismasina ragmen ilerleyememesi ve CVD'nin bu hareketi desteklememesi, 60800-60870 bolgesinde ASK absorption oldugunu gosteriyor.",
+  "dom_observation": "60900-60930 arasinda saticilarin yogunlastigi buyuk bir stacked ask duvari mevcut. Mevcut fiyatta satislar (sells) alislardan (buys) daha fazla.",
+  "reasoning": "Yuksek hacimli bir bolgede (HVN) alim gucunun tukenmesi (ASK absorption), bariz bir bearis CVD uyumsuzlugu ve DOM'daki satici duvari ile desteklenen bir donus sinyali mevcuttur.",
   "should_trade": "EVET",
-  "timestamp": "20:03:20"
+  "timestamp": "20:07:48"
 }
