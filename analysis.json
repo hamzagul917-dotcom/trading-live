@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "62100.0",
-    "VAL": "61200.0",
+    "vPOC": "61920.8",
+    "VAL": "60900.0",
     "VAH": "YOK"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "60430.0",
-  "tp1": "60550.0",
-  "tp2": "60800.0",
-  "stop": "60350.0",
-  "absorption": "Guclu BID absorption 60400.0 seviyesinde goruluyor. Negatif deltaya ragmen fiyat dusmuyor.",
-  "dom_observation": "60400.0'da 1928 lotluk buyuk bir bid duvari var ve saticilar bu seviyeyi kiramiyor. Yukarida 60550.0'da ise 1333 lotluk ask duvari direnc olusturuyor.",
-  "reasoning": "Fiyat, yuksek negatif deltaya ve dusus trendine ragmen 60400.0'daki buyuk bid duvarinda absorbe ediliyor, bu da potansiyel bir donus sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "60250.0",
+  "tp1": "60160.0",
+  "tp2": "60050.0",
+  "stop": "60450.0",
+  "absorption": "Onceki pozitif delta mumlarinda (~60400 seviyesinde) alimlarin fiyati yukseltememesi (ASK absorption) mevcut satis dalgasini baslatti.",
+  "dom_observation": "60330 (1055) ve 60400 (1147) seviyelerinde guclu stacked ask duvarlari yukselisi engelleyen direnc olusturuyor. 60150'de buyuk bir bid (3012) potansiyel bir hedef/destek.",
+  "reasoning": "Fiyat, onceki deger alanini (VAL alti) reddetmis, seans deltasi guclu negatif (-9K) ve son alim girisimleri absorbe edilmis olup, dusus trendinin devam etme olasiligi yuksektir.",
   "should_trade": "EVET",
-  "timestamp": "18:01:54"
+  "timestamp": "18:06:31"
 }
