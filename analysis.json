@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61200.0",
-    "VAL": "60300.0",
+    "vPOC": "60825.3",
+    "VAL": "60800.0",
     "VAH": "62700.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60980.0",
+  "entry": "60850.0",
   "tp1": "60900.0",
-  "tp2": "60500.0",
-  "stop": "61170.0",
-  "absorption": "YOK",
-  "dom_observation": "60900 seviyesinin altinda buyuk bir stacked bid duvari potansiyel destek/hedef olarak gorunuyor.",
-  "reasoning": "Fiyat, vPOC altinda guclu negatif delta ile kabul goruyor ve CVD trendi dogruluyor, bu da dusus trendinin devam etme olasiliginin yuksek oldugunu gosteriyor.",
+  "tp2": "61000.0",
+  "stop": "60740.0",
+  "absorption": "Guclu BID absorption 60825-60800 seviyelerinde goruluyor. Footprint'te buyuk satislar (100, 133 lot) karsilanmis ve DOM'da 60800'den baslayan buyuk bir alim duvari var.",
+  "dom_observation": "60800 seviyesinden asagiya dogru buyuk (2176, 1778) stacked bid emirleri var, bu da guclu bir destegi isaret ediyor. Saticilar bu seviyeye vurdukca emiliyor.",
+  "reasoning": "Fiyat, negatif deltaya ragmen kilit destek seviyesini kiramiyor; guclu pasif alicilar (BID absorption) satislari emerek potansiyel bir yukselis icin zemin hazirliyor.",
   "should_trade": "EVET",
-  "timestamp": "19:17:27"
+  "timestamp": "19:21:56"
 }
