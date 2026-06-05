@@ -7,14 +7,14 @@
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "60880.0",
   "tp1": "60750.0",
-  "tp2": "60650.0",
-  "stop": "60950.0",
-  "absorption": "60900-61000 seviyelerinde alicilarin +1K delta ile fiyati yukari itememesi, saticilarin bu alimlari absorbe ettigini gosteren bir ASK absorption durumudur.",
-  "dom_observation": "Mevcut fiyatta satislar aktif. Yukarida 60900 ve 61000 seviyelerinde satis likiditesi yogun. Asagida ise 60850 ve 60780 seviyelerinde destek olabilecek alim emirleri bekliyor.",
-  "reasoning": "Fiyat, pozitif delta ile yukari itemeyince (ASK absorption) saticilarin agresif bir sekilde kontrolu almasi (offer back) ve dususu CVD'nin de teyit etmesiyle short sinyali olustu.",
+  "tp2": "YOK",
+  "stop": "60930.0",
+  "absorption": "Pozitif delta (+29) olmasina ragmen fiyat vPOC seviyesinden yukari gidemiyor, bu saticilarin alimlari absorbe ettigini gosteren bir ASK absorption durumudur.",
+  "dom_observation": "vPOC seviyesinde alimlar saticilar tarafindan karsilaniyor. 60900 ve uzerinde satici likiditesi mevcut. 60740 civarinda ise alici destegi goruluyor.",
+  "reasoning": "vPOC seviyesinde gozlemlenen net ASK absorption, genel bearish market yapisi (negatif session delta, dusen CVD) ile birleserek guclu bir satis sinyali olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "22:20:06"
+  "timestamp": "22:22:37"
 }
