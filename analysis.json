@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62084.5",
+    "vPOC": "62162.1",
     "VAL": "61800.0",
-    "VAH": "63060.0"
+    "VAH": "63000.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
-  "entry": "62060.0",
+  "confidence_score": "85",
+  "entry": "62162.1",
   "tp1": "61950.0",
   "tp2": "61810.0",
-  "stop": "62200.0",
-  "absorption": "Yuksek pozitif delta (+325) olmasina ragmen fiyatin yukselememesi, vPOC seviyesinde saticilarin alimlari agresif bir sekilde absorbe ettigini gosteriyor. (ASK Absorption)",
-  "dom_observation": "62000-61900 arasinda buyuk bir stacked bid duvari destek olarak bekliyor, ancak mevcut fiyat seviyesinin hemen ustunde satici absorpsiyonu daha baskin.",
-  "reasoning": "Fiyat, vPOC direncinde yuksek pozitif deltayi absorbe ederek yukseliste basarisiz oldu, bu da satici gucunu ve dusus potansiyelini dogruluyor.",
+  "stop": "62260.0",
+  "absorption": "Guclu pozitif delta (+479) olmasina ragmen fiyatin vPOC seviyesinde yukselememesi, saticilarin alimlari absorbe ettigini gosteren net bir ASK absorption durumudur.",
+  "dom_observation": "DOM'da 62000 seviyesinde alici yigilmasi var ancak mevcut fiyatta saticilarin pasif agresifligi daha baskin.",
+  "reasoning": "Fiyat, vPOC direncinde yuksek alim deltasina ragmen ilerleyemiyor; bu durum, kurumsal saticilarin alislari absorbe ettigini ve dususun devam edecegini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "15:25:44"
+  "timestamp": "15:30:13"
 }
