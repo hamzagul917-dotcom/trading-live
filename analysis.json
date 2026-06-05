@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "61800.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61900.0",
-  "tp1": "62100.0",
-  "tp2": "62500.0",
-  "stop": "61740.0",
-  "absorption": "Guclu BID absorption 61800-61900 arasinda gozlemlendi, saticilarin asagi yonlu baskisi pasif alicilar tarafindan emiliyor.",
-  "dom_observation": "61900, 61860 ve 61800 seviyelerinde buyuk yigilmis BID (pasif alis) emirleri goruluyor, bu da guclu destegi isaret ediyor.",
-  "reasoning": "Fiyat, VAL desteginde agresif satislari buyuk pasif alis emirleriyle (BID absorption) emerek dususu reddediyor, bu da potansiyel bir yukselis donusune isaret ediyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": 85,
+  "entry": "61860.0",
+  "tp1": "61500.0",
+  "tp2": "61200.0",
+  "stop": "62100.0",
+  "absorption": "Alicilarin VAL seviyesini geri alma cabalari, yukaridaki ask (satis) emirleri tarafindan absorbe ediliyor ve fiyatin yukselmesini engelliyor.",
+  "dom_observation": "61900 seviyesinden baslayarak yukari dogru birikmis (stacked) ask duvarlari satici baskisini gosterirken, yakin destek saglayacak guclu bir bid duvari bulunmuyor.",
+  "reasoning": "Fiyat, Deger Alani Dusu'nun (VAL) altinda kabul goruyor (acceptance) ve saticilarin (negatif delta, stacked asks) kontrolunde oldugu icin dusus trendinin devam etmesi bekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "14:49:17"
+  "timestamp": "14:53:43"
 }
