@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "61800.0",
-    "VAH": "63000.0"
+    "VAH": "63100.0"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62025.0",
-  "tp1": "61900.0",
-  "tp2": "61800.0",
-  "stop": "62100.0",
-  "absorption": "62050 seviyesi civarinda alicilarin yukselis denemesi (pozitif delta) basarisiz oldu ve saticilar tarafindan absorbe edildi (ASK absorption).",
-  "dom_observation": "61900 seviyesinde alicilarin olusturdugu buyuk bir yigilma (stacked bid) var, bu seviye ilk hedef olabilir. Satis tarafi (ask) ise zayif, bu da agresif saticilarin kontrolu elinde tuttugunu gosteriyor.",
-  "reasoning": "Guclu negatif seans deltasi ve dusus trendindeki CVD ile desteklenen genel ayi piyasasi yapisi, alicilarin son yukselis denemesinin basarisiz olmasiyla teyit edilmistir, bu da trendin devam etme olasiligini guclendirmektedir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "90",
+  "entry": "61950.0",
+  "tp1": "62100.0",
+  "tp2": "62450.0",
+  "stop": "61800.0",
+  "absorption": "Gunun dusuklerinde ve VAL yakininda (61900-61850) agresif satislarin buyuk alicilar tarafindan emildigi (BID absorption) footprint'te net olarak goruluyor.",
+  "dom_observation": "61950'den asagiya dogru cok buyuk bir stacked bid duvari (ozellikle 61900'de 1600+ kontrat) alici destegini ve savunmasini dogruluyor.",
+  "reasoning": "Fiyat, gunun dusuklerinde ve VAL yakininda guclu alici absorpsiyonu ve DOM'daki buyuk bid duvari ile desteklenen net bir donus sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "15:03:40"
+  "timestamp": "15:08:13"
 }
