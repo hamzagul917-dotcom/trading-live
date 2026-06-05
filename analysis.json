@@ -1,17 +1,20 @@
 {
-  "bias": "BULLISH",
-  "signal": "LONG",
-  "confidence": "YUKSEK",
-  "setup_type": "TEXTBOOK",
-  "entry": "63810.0",
-  "tp1": "63850.0",
-  "tp2": "63900.0",
-  "stop": "63780.0",
-  "key_level": "63800.0",
-  "absorption": "63800.0 seviyesinde güçlü bid absorption gözlemlendi; 42 kontratlık bid duvarı 3 satışı absorbe etti ve +13 değişimle yenilendi.",
-  "dom_observation": "63800.0'da büyük ve yenilenen bid duvarı mevcutken, 63820.0 ve üzeri seviyelerde ask duvarları oldukça ince.",
-  "reason": "Fiyat 63800.0 seviyesinde güçlü bid absorption göstererek satış baskısını emdi ve yukarıda zayıf ask duvarları ile yükseliş potansiyeli taşıyor. Önceki bearish sinyal geçersizleşti.",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Acceptance",
+  "key_levels": {
+    "vPOC": "62000.0",
+    "VAL": "61400.0",
+    "VAH": "62900.0"
+  },
+  "order_flow_signal": "BUY",
+  "confidence_score": "80",
+  "entry": "61760.0",
+  "tp1": "62000.0",
+  "tp2": "62498.0",
+  "stop": "61640.0",
+  "absorption": "YOK",
+  "dom_observation": "61700 seviyesinde 815 lotluk destekleyici bid ve footprint'te 105x10'luk alim agirligi goruluyor.",
+  "reasoning": "Fiyat, deger alani icinde destek bulduktan sonra pozitif delta ve CVD esliginde yukseliyor, bu da vPOC'a dogru bir hareket potansiyeli gosteriyor.",
   "should_trade": "EVET",
-  "should_reason": "Net bir bid absorption ve DOM yapısı, fiyatın bu seviyeden yukarı hareket etmesi gerektiğini gösteriyor.",
-  "timestamp": "23:10:24"
+  "timestamp": "09:23:09"
 }
