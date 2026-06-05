@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62076.4",
-    "VAL": "61200.0",
-    "VAH": "YOK"
+    "vPOC": "62066.3",
+    "VAL": "N/A",
+    "VAH": "N/A"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "70",
-  "entry": "60900.0",
-  "tp1": "61000.0",
-  "tp2": "61200.0",
-  "stop": "60680.0",
-  "absorption": "60800 seviyesinden asagiya dogru cok buyuk bir pasif alici (stacked bid) duvari fiyati destekliyor ve dususu engelliyor.",
-  "dom_observation": "60800-60700 arasinda cok guclu ve kalin bir stacked bid duvari var, 61000 seviyesinde ise buyuk bir stacked ask goruluyor. Piyasa bu iki buyuk likidite alani arasinda sıkışmış durumda.",
-  "reasoning": "Fiyat, cok guclu bir pasif alici duvarinin (stacked bid) uzerinde tutunuyor ve bu durum, yukaridaki satici likiditesini test etmek icin bir long firsati sunuyor.",
+  "confidence_score": "85",
+  "entry": "60770.0",
+  "tp1": "60900.0",
+  "tp2": "61000.0",
+  "stop": "60490.0",
+  "absorption": "Agresif saticilar (onceki mumda -541 delta) 60700-60770 seviyelerinde pasif alicilar tarafindan absorbe ediliyor, bu da fiyatin dusmesini engelliyor.",
+  "dom_observation": "DOM'da 'Sells' sutununda gorulen satis baskisina ragmen, 'Bid' tarafi fiyati tutuyor ve yeni dipler engelleniyor. Bu, alicilarin kontrolu ele aldigini gosteriyor.",
+  "reasoning": "Fiyat, yuksek negatif deltaya ragmen dususu surduremiyor; bu durum, pasif alicilarin agresif saticilari absorbe ettigi guclu bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "17:25:51"
+  "timestamp": "17:30:20"
 }
