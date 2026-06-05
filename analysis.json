@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 85,
-  "entry": "60880.0",
-  "tp1": "60750.0",
-  "tp2": "60650.0",
-  "stop": "60960.0",
-  "absorption": "ASK absorption at vPOC (60880). Buyers are active (positive delta) but price fails to move higher, indicating sellers are absorbing the buying pressure.",
-  "dom_observation": "Significant stacked ask wall starting from 60900, acting as heavy resistance. Buyers are being absorbed at the 60880 level.",
-  "reasoning": "Price is failing to gain acceptance above the vPOC, showing clear signs of ASK absorption against a large stacked ask wall, signaling a high-probability bearish reversal.",
+  "entry": "60870.0",
+  "tp1": "61100.0",
+  "tp2": "61500.0",
+  "stop": "60650.0",
+  "absorption": "Fiyat, seans vPOC seviyesinde ve yuksek negatif deltaya ragmen dususu surduremiyor; bu durum, agresif satislarin pasif alicilar tarafindan guclu bir sekilde absorbe edildigini gosteriyor (BID Absorption).",
+  "dom_observation": "DOM'da mevcut fiyatin hemen altinda (60870-60850) yenilenen ve karsilanan bid'ler goruluyor, bu da alicilarin seviyeyi savundugunu teyit ediyor. Ust tarafta ise 61000 seviyesinde bir likidite birikimi var.",
+  "reasoning": "Yuksek negatif deltaya ragmen fiyat vPOC'de tutunuyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "01:45:01"
+  "timestamp": "01:49:22"
 }
