@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62101.4",
+    "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
+  "order_flow_signal": "SELL",
+  "confidence_score": "90",
   "entry": "62110.0",
-  "tp1": "62500.0",
-  "tp2": "62700.0",
-  "stop": "62040.0",
-  "absorption": "Fiyat, kilit destek seviyesi olan VAL'e (62101.4) ulastiginda agresif satislarin durdugu ve DOM'da 62100-62080 arasinda alicilarin satis emirlerini absorbe ettigi goruluyor.",
-  "dom_observation": "62100 seviyesinde ve hemen altinda alimlarin satislarla karsilandigi, fiyatin dususunun yavasladigi ve potansiyel bir destek olustugu gozlemleniyor. 62000 seviyesinde 1095 lotluk bir alim blogu dikkat cekiyor.",
-  "reasoning": "Fiyat, gunluk deger alani alt siniri olan VAL'de alici absorpsiyonu ile karsilasti ve dusus momentumunu kaybetti, bu da potansiyel bir yukselis tepkisine isaret ediyor.",
+  "tp1": "62000.0",
+  "tp2": "61850.0",
+  "stop": "62210.0",
+  "absorption": "Guclu pozitif delta (+323) olmasina ragmen fiyat yukselemiyor, bu durum alicilarin pasif saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption isaretidir.",
+  "dom_observation": "Mevcut fiyatin hemen ustunde belirgin bir direnc olmasa da, pozitif deltaya ragmen fiyatin yukselmemesi, gizli veya agresif saticilarin alimlari karsiladigini gosteriyor.",
+  "reasoning": "Fiyat gunun dibindeyken gelen guclu pozitif deltaya ragmen yukselmeyi basaramiyor, bu da alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteren bir ASK absorption setup'idir.",
   "should_trade": "EVET",
-  "timestamp": "14:08:59"
+  "timestamp": "14:13:26"
 }
