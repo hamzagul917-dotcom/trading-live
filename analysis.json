@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62300.0",
+    "VAL": "61800.0",
     "VAH": "63346.5"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "80",
-  "entry": "62550.0",
-  "tp1": "62300.0",
-  "tp2": "62100.0",
-  "stop": "62750.0",
-  "absorption": "YOK",
-  "dom_observation": "Ask tarafindaki likidite (saticilar) bid tarafindan daha yogun, bu da satici baskisini teyit ediyor.",
-  "reasoning": "Fiyat, gunluk vPOC altinda kabul goruyor, pozitif delta ile yukselis girisimi basarisiz oldu ve simdi agresif satislarla (negatif delta) asagi yonlu hareketine devam ediyor.",
+  "confidence_score": 85,
+  "entry": "62560.0",
+  "tp1": "62400.0",
+  "tp2": "62150.0",
+  "stop": "62820.0",
+  "absorption": "Alıcıların 62750-62800 seviyesinde absorbe edilmesi sonrası satıcılar kontrolü ele aldı.",
+  "dom_observation": "62700 ve 62800 seviyelerinde belirgin ask likiditesi mevcutken, 62500 seviyesinde büyük bir bid duvarı potansiyel destek olarak bekliyor.",
+  "reasoning": "vPOC seviyesinden gelen reddedilme (rejection), pozitif delta sonrası güçlü satış baskısı (offer back) ve öncül bearish CVD uyumsuzluğu net bir short sinyali oluşturmaktadır.",
   "should_trade": "EVET",
-  "timestamp": "12:43:07"
+  "timestamp": "12:51:22"
 }
