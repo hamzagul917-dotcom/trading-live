@@ -10,11 +10,11 @@
   "confidence_score": "85",
   "entry": "60880.0",
   "tp1": "60750.0",
-  "tp2": "60650.0",
+  "tp2": "60600.0",
   "stop": "60950.0",
-  "absorption": "Saticilar, vPOC seviyesindeki zayif alim girisimini absorbe ediyor ve yukari yonlu devamlılık (continuation) engelleniyor.",
-  "dom_observation": "60900.0 seviyesi ve uzerinde yogun stacked ask duvarlari (1.6K+) satici baskisini gosterirken, asagidaki bid destegi zayif kaliyor.",
-  "reasoning": "Agir negatif seans deltasi (-16K) ve dusen CVD'nin teyit ettigi vPOC'de alici gucunun tukenmesi (no continuation) short firsati sunuyor.",
+  "absorption": "Mevcut mumda pozitif delta (+29) olmasina ragmen fiyat yukselemiyor ve kirmizi kapaniyor; bu durum alicilarin saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption'dur.",
+  "dom_observation": "DOM'da 60980 ve uzerinde buyuk bir stacked ask duvari (direnc) gorulurken, asagida esdeger bir bid duvari (destek) bulunmuyor.",
+  "reasoning": "Genel seans deltasi (-16K) ve CVD'nin ayi yonlu oldugu bir ortamda, vPOC seviyesinde alicilarin saticilar tarafindan absorbe edilmesi dusus beklentisini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "23:23:04"
+  "timestamp": "23:25:40"
 }
