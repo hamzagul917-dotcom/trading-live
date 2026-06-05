@@ -7,14 +7,14 @@
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60750.0",
-  "tp2": "YOK",
-  "stop": "60930.0",
-  "absorption": "Pozitif delta (+29) olmasina ragmen fiyat vPOC seviyesinden yukari gidemiyor, bu saticilarin alimlari absorbe ettigini gosteren bir ASK absorption durumudur.",
-  "dom_observation": "vPOC seviyesinde alimlar saticilar tarafindan karsilaniyor. 60900 ve uzerinde satici likiditesi mevcut. 60740 civarinda ise alici destegi goruluyor.",
-  "reasoning": "vPOC seviyesinde gozlemlenen net ASK absorption, genel bearish market yapisi (negatif session delta, dusen CVD) ile birleserek guclu bir satis sinyali olusturuyor.",
+  "tp1": "60780.0",
+  "tp2": "60680.0",
+  "stop": "60960.0",
+  "absorption": "Alıcılar pozitif delta (+29) yaratmasına rağmen fiyat vPOC seviyesinde yükselemiyor, bu da satıcıların gelen alımları agresif bir şekilde absorbe ettiğini gösteriyor (ASK absorption).",
+  "dom_observation": "60950-61000 arasında büyük bir yığılmış satış (ask) duvarı net bir direnç oluşturuyor ve alıcıların yukarı yönlü devamlılığını engelliyor.",
+  "reasoning": "Genel seans trendinin güçlü negatif olduğu bir ortamda, fiyatın kilit vPOC seviyesinde alıcıların devamlılık gösterememesi (no continuation) ve absorbe edilmesi, düşüş yönlü bir pozisyon için yüksek olasılıklı bir setup sunmaktadır.",
   "should_trade": "EVET",
-  "timestamp": "22:22:37"
+  "timestamp": "22:27:54"
 }
