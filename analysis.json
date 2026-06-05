@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60200.0",
-    "VAL": "59963.5",
-    "VAH": "60500.0"
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
+    "VAH": "62700.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60160.0",
-  "tp1": "60250.0",
-  "tp2": "60450.0",
-  "stop": "60050.0",
-  "absorption": "60160.0 seviyesinde 2200'den fazla kontratlik agresif satisa ragmen fiyatin dusmemesi, guclu pasif alicilarin (BID absorption) oldugunu gosteriyor.",
-  "dom_observation": "60160'da buyuk satis absorbe ediliyor, 60000'de ise buyuk bir alim duvari (bid wall) destegi var.",
-  "reasoning": "Asiri negatif deltaya ragmen fiyatin VAL yakininda dusmeyi reddetmesi ve bariz BID absorption gostermesi, short'larin tuzaga dustugunu ve bir yukari donus potansiyeli oldugunu isaret ediyor.",
+  "entry": "60810.0",
+  "tp1": "60300.0",
+  "tp2": "60000.0",
+  "stop": "61050.0",
+  "absorption": "ASK absorption goruluyor. +715'lik guclu pozitif delta mumu yukari yonlu devam edemiyor ve saticilar tarafindan emiliyor.",
+  "dom_observation": "DOM'da fiyat yukseldikce satici likiditesi artiyor, mevcut seviyede ise alimlarin gucsuz kaldigi ve saticilarin devreye girdigi gozleniyor (offer back).",
+  "reasoning": "Genel dusus trendi icinde, yuksek pozitif deltali bir tepki aliminin direnc bolgesinde gucunu yitirmesi ve saticilar tarafindan absorbe edilmesi (ASK absorption) short sinyali olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "18:11:29"
+  "timestamp": "18:16:03"
 }
