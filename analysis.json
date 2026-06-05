@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62162.1",
-    "VAL": "61800.0",
+    "vPOC": "62100.0",
+    "VAL": "61721.5",
     "VAH": "63000.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62162.1",
-  "tp1": "61950.0",
-  "tp2": "61810.0",
-  "stop": "62260.0",
-  "absorption": "Guclu pozitif delta (+479) olmasina ragmen fiyatin vPOC seviyesinde yukselememesi, saticilarin alimlari absorbe ettigini gosteren net bir ASK absorption durumudur.",
-  "dom_observation": "DOM'da 62000 seviyesinde alici yigilmasi var ancak mevcut fiyatta saticilarin pasif agresifligi daha baskin.",
-  "reasoning": "Fiyat, vPOC direncinde yuksek alim deltasina ragmen ilerleyemiyor; bu durum, kurumsal saticilarin alislari absorbe ettigini ve dususun devam edecegini isaret ediyor.",
+  "entry": "61730.0",
+  "tp1": "62100.0",
+  "tp2": "62470.0",
+  "stop": "61590.0",
+  "absorption": "Significant BID absorption is occurring at the VAL (~61720), with large market sell orders being absorbed by passive buyers, preventing a price breakdown.",
+  "dom_observation": "Large market sells are being absorbed by a stacked bid wall visible from 61700 down to 61600, indicating strong passive buying interest.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve asagi yonlu kirilimi basaramiyor, bu da potansiyel bir trend donusune isaret eden bir alim firsati sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "15:30:13"
+  "timestamp": "15:42:30"
 }
