@@ -9,12 +9,12 @@
   "order_flow_signal": "SELL",
   "confidence_score": 85,
   "entry": "60880.0",
-  "tp1": "60800.0",
-  "tp2": "60700.0",
-  "stop": "60950.0",
-  "absorption": "Onceki mumda gorulen yuksek pozitif delta (+1K) ile fiyatin yukari gidememesi ve ardindan hizli satis gelmesi, 60900 seviyesinde belirgin bir ASK absorption (satis emilimi) oldugunu gosteriyor.",
-  "dom_observation": "60900 seviyesinden baslayarak yukari yonlu buyuk yigilmis satis (ask) duvarlari saticilarin agresif oldugunu gosterirken, alim (bid) tarafi daha zayif.",
-  "reasoning": "Fiyatın yüksek pozitif deltaya rağmen yükselişini sürdürememesi (ASK Absorption), negatif seans deltası (-16K) ve DOM'daki büyük satış duvarları düşüş yönlü bir hareketi destekliyor.",
+  "tp1": "60750.0",
+  "tp2": "60600.0",
+  "stop": "60930.0",
+  "absorption": "Pozitif delta (+29) olmasina ragmen fiyatin vPOC seviyesinde yukselememesi, pasif saticilarin alimlari absorbe ettigini gosteriyor (ASK Absorption).",
+  "dom_observation": "vPOC seviyesinde alimlar (pozitif delta) karsilaniyor, fiyat yukselemiyor. Yukarida 60900 ve 61000 seviyelerinde satici likiditesi mevcut.",
+  "reasoning": "vPOC seviyesinde gozlemlenen net ASK absorption, dusen CVD ve guclu negatif seans deltasi ile birleserek dusus hareketinin devam etme olasiligini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "22:51:27"
+  "timestamp": "22:54:01"
 }
