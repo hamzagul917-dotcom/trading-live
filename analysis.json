@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62100.0",
-    "VAL": "61721.5",
+    "VAL": "61845.8",
     "VAH": "63000.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "61730.0",
-  "tp1": "62100.0",
-  "tp2": "62470.0",
-  "stop": "61590.0",
-  "absorption": "Significant BID absorption is occurring at the VAL (~61720), with large market sell orders being absorbed by passive buyers, preventing a price breakdown.",
-  "dom_observation": "Large market sells are being absorbed by a stacked bid wall visible from 61700 down to 61600, indicating strong passive buying interest.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve asagi yonlu kirilimi basaramiyor, bu da potansiyel bir trend donusune isaret eden bir alim firsati sunuyor.",
+  "entry": "61850.0",
+  "tp1": "61700.0",
+  "tp2": "61550.0",
+  "stop": "62050.0",
+  "absorption": "Fiyat VAL seviyesinde iken gelen pozitif deltaya (426 ve 195) ragmen yukselemiyor, bu durum alicilarin saticilar tarafindan absorbe edildigini gosteren guclu bir ASK absorption'dur.",
+  "dom_observation": "61700 seviyesinde 1179 lotluk buyuk bir alim duvari (destek) ve 62000 seviyesinde 1958 lotluk buyuk bir satis duvari (direnc) bulunuyor. Mevcut seviyelerde alim gucu tukenmis gorunuyor.",
+  "reasoning": "Genel dusus trendi icinde, VAL seviyesindeki alim girisimleri saticilar tarafindan absorbe ediliyor ve fiyatin yukselmesini engelliyor, bu da satis baskisinin devam edecegine isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "15:42:30"
+  "timestamp": "15:46:58"
 }
