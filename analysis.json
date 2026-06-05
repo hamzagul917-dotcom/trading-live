@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62400.0",
+    "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 85,
-  "entry": "62560.0",
-  "tp1": "62400.0",
-  "tp2": "62150.0",
-  "stop": "62850.0",
-  "absorption": "YOK",
-  "dom_observation": "62700 uzerinde ve yukarida biriken buyuk stacked ask duvarlari (satici likiditesi) direnci guclendiriyor.",
-  "reasoning": "Fiyat, vPOC seviyesinden agresif satıcıların (guclu negatif delta) kontrolünde reddedildi ve aşağı yönlü trend CVD ile teyit ediliyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "62558.8",
+  "tp1": "62700.0",
+  "tp2": "62800.0",
+  "stop": "62520.0",
+  "absorption": "Footprint'te -272'lik guclu negatif deltaya ragmen fiyatin yukselmesi, saticilarin pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
+  "dom_observation": "DOM'da anlik olarak guclu bir bid duvari olmasa da, footprint'teki absorpsiyon alici gucunu teyit ediyor. Ask tarafi vPOC'a dogru direnc gosterebilir.",
+  "reasoning": "Guclu negatif deltaya ragmen fiyatin yukselmesiyle teyit edilen net bir BID absorption paterni, saticilarin tuzaga dustugunu ve yukari yonlu bir hareketin muhtemel oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "13:15:50"
+  "timestamp": "13:20:08"
 }
