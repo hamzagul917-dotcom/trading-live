@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "60879.0",
+  "confidence_score": 85,
+  "entry": "60880.0",
   "tp1": "60750.0",
-  "tp2": "60600.0",
-  "stop": "61010.0",
-  "absorption": "Potential ASK absorption is occurring as the weak buying attempt (small positive delta) is failing to push price through the resistance at the vPOC.",
-  "dom_observation": "A massive stacked ask wall is visible on the DOM starting from 60900, creating a significant resistance barrier right above the current price.",
-  "reasoning": "A massive stacked ask wall at 60900 is capping the price at the vPOC, indicating strong selling pressure and a high probability of rejection of higher prices.",
+  "tp2": "60650.0",
+  "stop": "60960.0",
+  "absorption": "ASK absorption at vPOC (60880). Buyers are active (positive delta) but price fails to move higher, indicating sellers are absorbing the buying pressure.",
+  "dom_observation": "Significant stacked ask wall starting from 60900, acting as heavy resistance. Buyers are being absorbed at the 60880 level.",
+  "reasoning": "Price is failing to gain acceptance above the vPOC, showing clear signs of ASK absorption against a large stacked ask wall, signaling a high-probability bearish reversal.",
   "should_trade": "EVET",
-  "timestamp": "01:40:43"
+  "timestamp": "01:45:01"
 }
