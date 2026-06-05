@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
-    "VAL": "YOK",
+    "VAL": "59200.0",
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "75",
   "entry": "60880.0",
-  "tp1": "60950.0",
+  "tp1": "60990.0",
   "tp2": "61100.0",
-  "stop": "60740.0",
-  "absorption": "Fiyat, gunluk vPOC seviyesinde agresif satislari emiyor. Onceki mumlardaki yuksek negatif deltaya ragmen fiyatin dususe devam edememesi ve hacmin azalmasi, saticilarin gucunun tukendigini ve pasif alicilarin kontrolu ele aldigini gosteriyor.",
-  "dom_observation": "DOM'da mevcut fiyatin hemen altinda (60850-60730 arasi) kucuk ama israrci bid'ler birikiyor ve satislari karsiliyor. Yukarida 61000 seviyesinde belirgin bir satici likiditesi var.",
-  "reasoning": "Fiyat, gunluk vPOC desteginde agresif satislari absorbe ediyor ve dusuk hacimle dususe devam edemiyor, bu da satici yorgunlugunu ve potansiyel bir yukselis tepkisini isaret ediyor.",
+  "stop": "60640.0",
+  "absorption": "Agresif satislar (-1.96K delta) vPOC seviyesinde pasif alicilar tarafindan absorbe edildi ve fiyat dususe devam edemedi.",
+  "dom_observation": "vPOC seviyesinde satislar karsilaniyor, 60850 ve altinda katmanli bid destegi goruluyor. Yukarida 61000 seviyesinde ask likiditesi mevcut.",
+  "reasoning": "Agresif satislarin vPOC'de basarisiz olmasi ve absorbe edilmesi, satici gucunun tukendigini ve alicilarin kontrolu ele alabilecegini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "00:51:29"
+  "timestamp": "01:03:28"
 }
