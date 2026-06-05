@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60783.8",
+    "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "70",
-  "entry": "60780.0",
-  "tp1": "60900.0",
+  "entry": "60880.0",
+  "tp1": "61000.0",
   "tp2": "61100.0",
-  "stop": "60640.0",
-  "absorption": "Fiyat seansin dibinde ve son mumda -226'lik negatif delta olmasina ragmen daha fazla dusmeyi basaramiyor. Bu, pasif alicilarin satis baskisini emdigini (BID absorption) gosteriyor.",
-  "dom_observation": "Mevcut fiyatin altinda 60700.0 (57 lot) ve ozellikle 60650.0 (91 lot) seviyelerinde buyuk pasif alim emirleri (stacked bids) bulunuyor, bu da destek ve absorpsiyonu teyit ediyor.",
-  "reasoning": "Agresif satislar (negatif delta), fiyatin dusmesini saglayamiyor; bu durum, dusuk seviyelerde alicilarin satislari absorbe ettigini ve potansiyel bir yukari donus sinyali oldugunu gosteriyor.",
+  "stop": "60700.0",
+  "absorption": "Saticilarin vPOC seviyesinde agresif satmasina ragmen (guclu negatif delta) fiyatin dusmemesi, pasif alicilarin satislari absorbe ettigini gosteriyor.",
+  "dom_observation": "Mevcut fiyatin altinda 60850-60730 araliginda alici likiditesi birikmis, 61000 seviyesinde ise onemli bir ask duvari (98 lot) direnc olarak bekliyor.",
+  "reasoning": "Agresif satis baskisina ragmen fiyatin vPOC'de tutunmasi, alicilarin satislari absorbe ettigini ve potansiyel bir kisa vadeli yukselis sinyali olusturdugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "22:14:49"
+  "timestamp": "22:17:29"
 }
