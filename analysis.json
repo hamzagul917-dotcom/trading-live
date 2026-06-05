@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62800.0",
+    "vPOC": "62558.9",
     "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62550.0",
-  "tp1": "62800.0",
-  "tp2": "63300.0",
-  "stop": "62350.0",
-  "absorption": "Guclu negatif deltaya (-350) ragmen fiyatin 62500-62450 bolgesinde dususu yavasliyor, bu durum pasif alicilarin agresif satislari emdigini gosteren net bir BID absorption'dur.",
-  "dom_observation": "DOM'da 62500 seviyesinin altinda kume halinde bid emirleri goruluyor, bu da alici destegini teyit ediyor. Ust tarafta ise belirgin bir satici duvari yok.",
-  "reasoning": "Fiyat, guclu satis baskisina ragmen destek seviyesinde tutunuyor; bu durum, satıcıların tukendigini ve alıcıların kontrolu ele aldigini gosteren bir BID absorption sinyalidir.",
+  "entry": "62410.0",
+  "tp1": "62300.0",
+  "tp2": "62150.0",
+  "stop": "62560.0",
+  "absorption": "Mevcut pozitif deltali mumda fiyatin yukselememesi, pasif saticilarin gelen alimlari absorbe ettigini gosteriyor (ASK absorption).",
+  "dom_observation": "DOM'da yakin seviyelerde belirgin bir duvar yok, ancak mevcut alim girisimi (pozitif delta) fiyati yukari itemiyor, bu da satici gucunu teyit ediyor.",
+  "reasoning": "Fiyat vPOC altinda kabul gordu (acceptance), CVD dusus trendini dogruluyor ve mevcut zayif alim girisimi absorbe edildigi icin dususun devam etmesi beklenir.",
   "should_trade": "EVET",
-  "timestamp": "13:24:41"
+  "timestamp": "13:33:27"
 }
