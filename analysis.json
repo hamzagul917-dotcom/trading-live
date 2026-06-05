@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61328.8",
-    "VAL": "~61000.0",
-    "VAH": "61781.1"
+    "vPOC": "60300.0",
+    "VAL": "YOK",
+    "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61150.0",
-  "tp1": "61328.0",
-  "tp2": "61750.0",
-  "stop": "60950.0",
-  "absorption": "Guclu negatif deltaya ragmen fiyatin 61000-61100 bolgesinde tutunmasi ve DOM'daki devasa yigilimli bid duvarlari (stacked bids) pasif alici absorpsiyonunu gosteriyor.",
-  "dom_observation": "61100-61000 arasinda cok buyuk yigilimli bid duvarlari (1000+ lot) var, bu da guclu bir destegi isaret ediyor. Ask tarafi ise daha zayif.",
-  "reasoning": "Fiyat, guclu bir destek seviyesinde (HVN) buyuk yigilimli bid duvarlari tarafindan absorbe ediliyor ve negatif delta sonrasi guclu bir 'bid back' goruluyor.",
+  "entry": "60920.0",
+  "tp1": "61150.0",
+  "tp2": "61500.0",
+  "stop": "60800.0",
+  "absorption": "Guclu negatif deltaya (-963) ragmen fiyatin dusmemesi, dusuk seviyelerde pasif alicilarin agresif saticilari absorbe ettigini gosteriyor (Bid Absorption).",
+  "dom_observation": "Fiyatin hemen altinda belirgin bir destek duvarı olmasa da, footprint'teki hacim ve fiyatin tepkisi pasif alicilarin guclu oldugunu gosteriyor.",
+  "reasoning": "Agresif satislarin (negatif delta & dusen CVD) fiyati asagi itememesi, guclu bir BID absorption ve potansiyel bir yukari donus sinyali olusturmaktadir.",
   "should_trade": "EVET",
-  "timestamp": "18:29:12"
+  "timestamp": "18:33:37"
 }
