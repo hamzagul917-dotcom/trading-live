@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62125.4",
+    "vPOC": "62118.6",
     "VAL": "61500.0",
-    "VAH": "YOK"
+    "VAH": "62400.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60890.0",
-  "tp1": "61000.0",
-  "tp2": "61100.0",
-  "stop": "60790.0",
-  "absorption": "Saticilarin surekli olarak bid'e vurmasina (negatif delta) ragmen fiyat dusmuyor, bu da 60800 seviyesindeki buyuk alici duvarinin pasif olarak satislari emdigini (BID absorption) gosteriyor.",
-  "dom_observation": "60800 seviyesinde 1129 lotluk buyuk bir stacked bid duvari destek olustururken, 61000 seviyesinde 1158 lotluk bir stacked ask duvari direnc olarak bekliyor.",
-  "reasoning": "Guclu negatif deltaya ragmen fiyatin dusmemesi ve 60800'deki buyuk alici duvari tarafindan absorbe edilmesi, sikismis saticilarin neden olabilecegi bir yukselis potansiyeli tasiyor.",
+  "entry": "60820.0",
+  "tp1": "60600.0",
+  "tp2": "YOK",
+  "stop": "60930.0",
+  "absorption": "Alıcılar 60810 seviyesinde aktif olmalarına rağmen fiyat yükselemiyor, bu durum satıcıların agresif alımları absorbe ettiğini (ASK absorption) gösteriyor.",
+  "dom_observation": "60890 seviyesinden başlayan ve yukarı doğru devam eden büyük bir stacked ask duvarı (satış baskısı) mevcut.",
+  "reasoning": "Fiyat, alıcıların tükenme belirtileri gösterdiği bir ASK absorption bölgesinde, bearish CVD uyumsuzluğu ile birlikte duraksıyor.",
   "should_trade": "EVET",
-  "timestamp": "16:54:57"
+  "timestamp": "16:59:24"
 }
