@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62000.0",
+    "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62300.0",
-  "tp1": "62000.0",
-  "tp2": "61800.0",
-  "stop": "62550.0",
-  "absorption": "YOK",
-  "dom_observation": "Agresif saticilar (market sells) hakim, alim tarafinda likidite zayif, ask tarafinda daha fazla emir birikimi var.",
-  "reasoning": "Fiyat vPOC altinda kabul goruyor (Acceptance), dusen CVD trendi dogruluyor ve footprint'te agresif satislar hakim, bu da dusus trendinin devam edecegini gosteriyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "75",
+  "entry": "62185.0",
+  "tp1": "62300.0",
+  "tp2": "62500.0",
+  "stop": "62100.0",
+  "absorption": "Strong BID absorption detected near VAL; price is not falling despite a significant negative delta of -251, trapping aggressive sellers.",
+  "dom_observation": "DOM is ask-heavy nearby, but passive bids are absorbing aggressive selling at current levels, preventing further downside.",
+  "reasoning": "Aggressive sellers are being absorbed by passive buyers at the value area low, indicating a high probability of a short squeeze/reversal.",
   "should_trade": "EVET",
-  "timestamp": "14:26:57"
+  "timestamp": "14:31:24"
 }
