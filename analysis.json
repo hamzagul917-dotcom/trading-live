@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "61800.0",
-    "VAH": "63346.5"
+    "VAH": "63000.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
-  "entry": "61860.0",
-  "tp1": "61500.0",
-  "tp2": "61200.0",
+  "confidence_score": "85",
+  "entry": "62025.0",
+  "tp1": "61900.0",
+  "tp2": "61800.0",
   "stop": "62100.0",
-  "absorption": "Alicilarin VAL seviyesini geri alma cabalari, yukaridaki ask (satis) emirleri tarafindan absorbe ediliyor ve fiyatin yukselmesini engelliyor.",
-  "dom_observation": "61900 seviyesinden baslayarak yukari dogru birikmis (stacked) ask duvarlari satici baskisini gosterirken, yakin destek saglayacak guclu bir bid duvari bulunmuyor.",
-  "reasoning": "Fiyat, Deger Alani Dusu'nun (VAL) altinda kabul goruyor (acceptance) ve saticilarin (negatif delta, stacked asks) kontrolunde oldugu icin dusus trendinin devam etmesi bekleniyor.",
+  "absorption": "62050 seviyesi civarinda alicilarin yukselis denemesi (pozitif delta) basarisiz oldu ve saticilar tarafindan absorbe edildi (ASK absorption).",
+  "dom_observation": "61900 seviyesinde alicilarin olusturdugu buyuk bir yigilma (stacked bid) var, bu seviye ilk hedef olabilir. Satis tarafi (ask) ise zayif, bu da agresif saticilarin kontrolu elinde tuttugunu gosteriyor.",
+  "reasoning": "Guclu negatif seans deltasi ve dusus trendindeki CVD ile desteklenen genel ayi piyasasi yapisi, alicilarin son yukselis denemesinin basarisiz olmasiyla teyit edilmistir, bu da trendin devam etme olasiligini guclendirmektedir.",
   "should_trade": "EVET",
-  "timestamp": "14:53:43"
+  "timestamp": "15:03:40"
 }
