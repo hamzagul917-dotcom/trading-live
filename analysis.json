@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "62100.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "62560.0",
-  "tp1": "62700.0",
-  "tp2": "62900.0",
-  "stop": "62480.0",
-  "absorption": "VAL seviyesinin altinda -1K'lik buyuk negatif delta'ya ragmen fiyat dusmedi, bu da guclu bir BID absorption oldugunu gosteriyor.",
-  "dom_observation": "Mevcut fiyat seviyelerinde agresif alicilar teklifi kaldiriyor (lifting the offer) ve satis tarafinda anlik guclu bir tepki (counter offer) gozlenmiyor.",
-  "reasoning": "VAL altindaki basarisiz acik artirma (failed auction) ve guclu alici absorpsiyonu sonrasi fiyat deger alani icine geri donuyor.",
+  "tp1": "62250.0",
+  "tp2": "62100.0",
+  "stop": "62880.0",
+  "absorption": "YOK",
+  "dom_observation": "DOM, vPOC seviyesi (62700-62750) etrafinda satici likiditesi gosteriyor, bu da direnci teyit ediyor.",
+  "reasoning": "Fiyat, vPOC seviyesinden guclu negatif delta (-272) ile reddedildi ve dusen CVD trendi onayliyor, bu da dususun devam etme olasiligini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "12:01:50"
+  "timestamp": "12:09:57"
 }
