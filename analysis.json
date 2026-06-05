@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60950.0",
-    "VAL": "60800.0",
-    "VAH": "61200.0"
+    "vPOC": "60300.0",
+    "VAL": "YOK",
+    "VAH": "60900.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "80",
-  "entry": "60980.0",
-  "tp1": "60900.0",
-  "tp2": "60750.0",
-  "stop": "61230.0",
-  "absorption": "Agresif alicilar (Delta +231) 61000-61100 seviyelerindeki buyuk yigilimli satis emirlerine (stacked asks) ragmen fiyati yukseltemiyor, bu durum guclu bir ASK absorption (satis emilimi) oldugunu gosteriyor.",
-  "dom_observation": "61000 seviyesinden baslayarak yukari yonlu buyuk yigilimli satis emirleri (stacked asks) guclu bir direnc olustururken, 60900 seviyesinin altinda yigilimli alis emirleri (stacked bids) destek gorevi goruyor.",
-  "reasoning": "Fiyat, guclu pozitif deltaya ragmen buyuk bir satis duvarini (ASK absorption) gecemiyor, bu da alici gucunun tukendigini ve dusus potansiyelini gosteriyor.",
+  "confidence_score": "85",
+  "entry": "60800.0",
+  "tp1": "60650.0",
+  "tp2": "60300.0",
+  "stop": "60930.0",
+  "absorption": "Mevcut mumda pozitif delta (+30) olmasina ragmen fiyat yukari yonlu momentum kazanamiyor; bu durum, alicilarin yukaridaki buyuk saticilar tarafindan absorbe edildigini gosteriyor (ASK Absorption).",
+  "dom_observation": "Smart DOM'da 60900.0 ve uzerinde 1000 lottan buyuk yigilmis ask (satis) duvarlari goruluyor, bu da guclu bir direnc bolgesi oldugunu teyit ediyor. Mevcut fiyat altindaki bid'ler (destek) ise oldukca zayif.",
+  "reasoning": "Genel seans deltasi (-11K) ile uyumlu olarak, pozitif deltaya ragmen fiyatin yukselemedigi ve yukaridaki buyuk satis bloklari tarafindan absorbe edildigi net bir ASK absorption setup'i mevcuttur.",
   "should_trade": "EVET",
-  "timestamp": "19:43:13"
+  "timestamp": "19:47:34"
 }
