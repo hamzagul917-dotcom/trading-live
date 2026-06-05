@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "62700.0",
-    "VAL": "62100.0",
+    "VAL": "62050.0",
     "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "62110.0",
-  "tp1": "62000.0",
-  "tp2": "61850.0",
-  "stop": "62210.0",
-  "absorption": "Guclu pozitif delta (+323) olmasina ragmen fiyat yukselemiyor, bu durum alicilarin pasif saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption isaretidir.",
-  "dom_observation": "Mevcut fiyatin hemen ustunde belirgin bir direnc olmasa da, pozitif deltaya ragmen fiyatin yukselmemesi, gizli veya agresif saticilarin alimlari karsiladigini gosteriyor.",
-  "reasoning": "Fiyat gunun dibindeyken gelen guclu pozitif deltaya ragmen yukselmeyi basaramiyor, bu da alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteren bir ASK absorption setup'idir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "62210.0",
+  "tp1": "62500.0",
+  "tp2": "62700.0",
+  "stop": "61950.0",
+  "absorption": "Guclu BID absorption 62000.0 seviyesinde goruldu, saticilarin asagi yonlu momentumu alicilar tarafindan emildi.",
+  "dom_observation": "62250.0 seviyesinde 87 lotluk bir ask duvari ilk direnc olarak duruyor. Mevcut fiyatta alimlar satislardan daha agresif.",
+  "reasoning": "VAL seviyesinin altinda gerceklesen basarisiz kirilim girisimi ve 62000.0'da gozlenen guclu BID absorption, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "14:13:26"
+  "timestamp": "14:17:57"
 }
