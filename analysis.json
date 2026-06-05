@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "60879.7",
+    "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "60880.0",
-  "tp1": "60700.0",
-  "tp2": "60500.0",
-  "stop": "61050.0",
+  "confidence_score": "70",
+  "entry": "60850",
+  "tp1": "60700",
+  "tp2": "60550",
+  "stop": "60960",
   "absorption": "YOK",
-  "dom_observation": "60900-61000 arasinda cok buyuk stacked ask duvari var, asagidaki bid'ler zayif.",
-  "reasoning": "Fiyat, seans vPOC'unda zayif alicilarla karsilasirken, DOM'da biriken devasa satis emirleri (stacked asks) guclu bir direnc ve potansiyel satis baskisi sinyali veriyor.",
+  "dom_observation": "60900 seviyesinden baslayarak yukarida yigilmis (stacked) ask likiditesi mevcut. Mevcut fiyatta alicilarin tepkisi cok zayif.",
+  "reasoning": "Agir negatif seans deltasi ve dusen CVD ile teyit edilen bearish trend icinde, fiyat vPOC'de tutunmakta zorlaniyor ve alicilardan beklenen guclu tepki gelmiyor, bu da dususun devam etme ihtimalini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "23:15:07"
+  "timestamp": "23:17:50"
 }
