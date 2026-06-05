@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "59600.0",
-    "VAL": "59200.0",
+    "vPOC": "60300.0",
+    "VAL": "60000.0",
     "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "59500.0",
-  "tp1": "59600.0",
+  "confidence_score": "85",
+  "entry": "59300.0",
+  "tp1": "59500.0",
   "tp2": "59700.0",
-  "stop": "59250.0",
-  "absorption": "Guclu alici absorpsiyonu 59400 seviyesinde ve altinda goruluyor. Footprint'te 410'a 68 gibi buyuk bir alim tarafi dengesizligi var.",
-  "dom_observation": "59400 seviyesinden asagiya dogru buyuk bir yigilmis alim (stacked bid) duvari mevcut, bu da guclu bir destegi isaret ediyor.",
-  "reasoning": "Fiyat diplerdeyken belirgin bir pozitif CVD uyumsuzlugu, DOM'daki buyuk alim duvarlari ve footprint'teki alici absorpsiyonu guclu bir long sinyali olusturuyor.",
+  "stop": "59100.0",
+  "absorption": "Onceki mumda gorulen -15K'lik devasa negatif deltaya ragmen fiyat yeni bir dip yapamadi ve alicilar tarafindan absorbe edildi.",
+  "dom_observation": "Mevcut seviyelerde agresif satislar pasif alicilar tarafindan karsilaniyor ve delta pozitife donmeye basliyor.",
+  "reasoning": "Agresif saticilarin dususu devam ettirememesi ve absorbe edilmesi, saticilarin tuzaga dustugu bir basarisiz satis auction'i (failed auction) sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "21:04:56"
+  "timestamp": "21:09:20"
 }
