@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "62100.0",
-    "VAH": "63465.5"
+    "VAH": "63346.5"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62560.0",
+  "entry": "62550.0",
   "tp1": "62700.0",
-  "tp2": "63000.0",
-  "stop": "62520.0",
-  "absorption": "Onceki mumda -272'lik guclu negatif deltaya ragmen fiyatin dusmemesi, gelisen vPOC seviyesinde guclu bir BID absorption (pasif alici emilimi) oldugunu gosteriyor.",
-  "dom_observation": "Mevcut fiyat seviyesinin altinda orta duzeyde alim destegi var, yukarida ise onceki vPOC seviyesine yakin daha yogun satis likiditesi goruluyor.",
-  "reasoning": "Agresif saticilar, gelisen vPOC seviyesindeki guclu pasif alici emilimi nedeniyle fiyati asagi itemedi, bu da yukari yonlu bir rotasyon potansiyeline isaret ediyor.",
+  "tp2": "62850.0",
+  "stop": "62480.0",
+  "absorption": "Saticilarin 62500-62550 bolgesindeki agresif satislarina ragmen fiyatin dusmemesi, alicilarin pasif olarak tum satislari emdigini gosteriyor (Bid Absorption).",
+  "dom_observation": "DOM'da belirgin bir bid duvari olmasa da, footprint'teki -1K'lik negatif delta barinin ardindan fiyatin yukselmesi, dusuk seviyelerde guclu alici absorpsiyonunu teyit ediyor.",
+  "reasoning": "Fiyat, yuksek negatif delta ile asagi yonlu kirilimi basaramadi ve alicilar tarafindan absorbe edildi; bu durum, saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "12:14:15"
+  "timestamp": "12:22:15"
 }
