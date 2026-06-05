@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
@@ -7,14 +7,14 @@
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60870.0",
-  "tp1": "61100.0",
-  "tp2": "61500.0",
-  "stop": "60650.0",
-  "absorption": "Fiyat, seans vPOC seviyesinde ve yuksek negatif deltaya ragmen dususu surduremiyor; bu durum, agresif satislarin pasif alicilar tarafindan guclu bir sekilde absorbe edildigini gosteriyor (BID Absorption).",
-  "dom_observation": "DOM'da mevcut fiyatin hemen altinda (60870-60850) yenilenen ve karsilanan bid'ler goruluyor, bu da alicilarin seviyeyi savundugunu teyit ediyor. Ust tarafta ise 61000 seviyesinde bir likidite birikimi var.",
-  "reasoning": "Yuksek negatif deltaya ragmen fiyat vPOC'de tutunuyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
+  "tp1": "60990.0",
+  "tp2": "61100.0",
+  "stop": "60740.0",
+  "absorption": "Session vPOC seviyesinde ciddi BID absorption gozleniyor; fiyat, agir negatif session deltaya ragmen kirilim yapamiyor, saticilarin tukendigini gosteriyor.",
+  "dom_observation": "60880-60850 arasinda Bid'ler gelen market satislarini emiyor ve tutunuyor. Yukarida anlik baski kuran buyuk bir Ask duvari yok.",
+  "reasoning": "Fiyat, satici tukenmesini isaret eden net BID absorption ile session vPOC'de tutunuyor, bu da dusmesi gerekirken dusemedigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:49:22"
+  "timestamp": "01:53:41"
 }
