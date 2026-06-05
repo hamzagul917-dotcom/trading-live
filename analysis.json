@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 85,
-  "entry": "60890.0",
-  "tp1": "61461.6",
-  "tp2": "63340.7",
-  "stop": "60740.0",
-  "absorption": "Guclu negatif deltaya ragmen fiyat vPOC seviyesinde dusmeyi basaramiyor, bu da alicilarin satis baskisini pasif olarak emdigini (BID absorption) gosteriyor.",
-  "dom_observation": "Mevcut fiyatin hemen altinda (60850-60730) alici emirleri (bids) birikmis durumda ve gelen satislar fiyati asagi itemiyor, absorbe ediliyor.",
-  "reasoning": "Fiyat, gunluk vPOC'de agresif satislari absorbe ediyor ve dususe devam edemiyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir donus sinyalidir.",
+  "entry": "60870.0",
+  "tp1": "60900.0",
+  "tp2": "61100.0",
+  "stop": "60640.0",
+  "absorption": "Oturum vPOC seviyesinde, yuksek negatif delta'ya ragmen fiyatin dusmemesi guclu BID absorption (alis emilimi) oldugunu gosteriyor.",
+  "dom_observation": "60850-60730 arasinda kume halinde alicilar (bids) bulunurken, 60890-60900 seviyesinde onemli bir satici (ask) duvari ilk direnci olusturuyor.",
+  "reasoning": "Fiyat, guclu satis baskisina ragmen kilit destek olan vPOC'ta tutunuyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren bir absorpsiyon isaretidir.",
   "should_trade": "EVET",
-  "timestamp": "23:57:26"
+  "timestamp": "00:00:01"
 }
