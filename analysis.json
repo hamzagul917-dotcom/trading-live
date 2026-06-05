@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62000.0",
+    "vPOC": "61978.2",
     "VAL": "61200.0",
     "VAH": "YOK"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60100.0",
-  "tp1": "60350.0",
-  "tp2": "60800.0",
-  "stop": "59950.0",
-  "absorption": "Son mumda -714 gibi cok guclu bir negatif delta olmasina ragmen fiyat dusmuyor ve mum yesil kapaniyor, bu durum alicilarin satis baskisini agresif bir sekilde absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "60000.0 seviyesinde 922 lotluk cok buyuk bir pasif alim duvari (stacked bid) bulunuyor, bu seviyeyi guclu bir destek yapiyor ve fiyat icin bir miknatis gorevi goruyor.",
-  "reasoning": "Fiyat yeni dip yaparken olusan asiri negatif deltaya ragmen dususun durmasi ve 60000'deki buyuk alim duvari, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
+  "entry": "60200.0",
+  "tp1": "60000.0",
+  "tp2": "59800.0",
+  "stop": "60400.0",
+  "absorption": "Pozitif delta (+224) olmasina ragmen fiyat yukselemiyor, 60200-60250 seviyelerinde agresif alicilar pasif saticilar tarafindan absorbe ediliyor (ASK absorption).",
+  "dom_observation": "Yukari seviyelerde (60300-60340) likidite birikimi var, asagisi daha zayif. Mevcut fiyatta agresif satislar gozlemleniyor.",
+  "reasoning": "Genel dusus trendi icinde, pozitif deltaya ragmen fiyatin yukselemedigi net bir ASK absorption durumu mevcut, bu da saticilarin kontrolu elinde tuttugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "17:43:50"
+  "timestamp": "17:48:21"
 }
