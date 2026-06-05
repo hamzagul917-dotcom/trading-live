@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60879.7",
+    "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60600.0",
-  "tp2": "60400.0",
+  "tp1": "60800.0",
+  "tp2": "60700.0",
   "stop": "61010.0",
-  "absorption": "Fiyatin vPOC direncine yaptigi dusuk hacimli geri cekilme, 60900 uzerinde yigili buyuk ask (satis) emirleri tarafindan karsilaniyor. Bu, potansiyel bir ASK absorption (satis emilimi) durumudur.",
-  "dom_observation": "60900-61000 arasinda 1000+ lotluk cok buyuk bir yigili satis (stacked ask) duvari var, bu da guclu bir satici baskisina ve dirence isaret ediyor.",
-  "reasoning": "Fiyat, genel dusus trendi icinde vPOC direncine ulasti ve yukselis hacimsiz kalirken, DOM'da gorulen devasa satis duvarlari guclu bir short sinyali olusturuyor.",
+  "absorption": "Fiyatin vPOC seviyesinde yukselme cabasi (pozitif delta) DOM'daki buyuk yigilimli satis emirleri (60900 uzeri) tarafindan absorbe ediliyor.",
+  "dom_observation": "60900 ve uzerinde buyuk yigilimli satis (ask) duvarlari var. Mevcut fiyatin altinda alicilarin (bid) tepkisi zayif.",
+  "reasoning": "vPOC'ta alicilarin fiyati yukari itememesi ve buyuk satis duvarlari tarafindan absorbe edilmesi, saticilarin kontrolu ele aldigini gosteren bir zayiflik isaretidir.",
   "should_trade": "EVET",
-  "timestamp": "23:28:15"
+  "timestamp": "23:30:50"
 }
