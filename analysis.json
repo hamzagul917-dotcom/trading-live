@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "60300.0",
     "VAL": "60000.0",
     "VAH": "62400.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "59760.0",
-  "tp1": "59850.0",
-  "tp2": "60000.0",
-  "stop": "59690.0",
-  "absorption": "Guclu negatif deltaya ragmen fiyat dusmuyor, 59700-59760 arasi pasif alicilar satis baskisini absorbe ediyor.",
-  "dom_observation": "DOM'da agresif satislar (sells) goruluyor ancak fiyat dusmekte zorlaniyor, bu da alttaki limit alim emirlerinin gucunu gosteriyor.",
-  "reasoning": "Fiyat yeni dip yaparken gelen yogun satislara ragmen ilerleyemiyor, bu durum kurumsal bir BID absorption'a isaret eden guclu bir long sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "80",
+  "entry": "59230.0",
+  "tp1": "59000.0",
+  "tp2": "58800.0",
+  "stop": "59450.0",
+  "absorption": "YOK",
+  "dom_observation": "59400 seviyesinde 410 lotluk buyuk bir ask duvari (direnc) var, altindaki bid'ler zayif.",
+  "reasoning": "Fiyat, onceki deger alaninin (VAL) altinda, cok guclu negatif delta (-15K) ve dusen CVD ile kabul gordu, bu da guclu kurumsal satis baskisini dogruluyor.",
   "should_trade": "EVET",
-  "timestamp": "20:51:28"
+  "timestamp": "20:56:11"
 }
