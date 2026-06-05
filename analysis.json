@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62700.0",
     "VAL": "62100.0",
-    "VAH": "63600.0"
+    "VAH": "63346.5"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62330.0",
-  "tp1": "62100.0",
-  "tp2": "61900.0",
-  "stop": "62560.0",
-  "absorption": "62450 seviyesinde alıcıların agresifliğine rağmen fiyatın yükselememesi ve ardından düşüşe geçmesi, satıcıların absorbe ettiğini gösteriyor.",
-  "dom_observation": "Mevcut fiyatta ve hemen altında satıcılar agresif bir şekilde bid'e vuruyor (Chg: -7, -6), bid tarafında ise önemli bir yığılma (stacked bid) bulunmuyor.",
-  "reasoning": "Ayısal piyasa yapısı (ChoCH), vPOC altı fiyatlama ve düşen CVD ile desteklenen agresif satış emir akışı, VAL seviyesine doğru bir düşüşün devam edeceğini gösteriyor.",
+  "entry": "62240.0",
+  "tp1": "62450.0",
+  "tp2": "62700.0",
+  "stop": "62180.0",
+  "absorption": "Significant BID absorption is occurring around the 62200-62240 level; high negative delta (-350, -262) is failing to push the price lower, indicating trapped sellers.",
+  "dom_observation": "Bids are holding firm around 62230 despite aggressive market selling, indicating passive buyers are absorbing the downward pressure.",
+  "reasoning": "Aggressive sellers are being absorbed at a local support level, creating a high-probability trapped seller scenario for a bullish reversal.",
   "should_trade": "EVET",
-  "timestamp": "13:37:47"
+  "timestamp": "13:42:12"
 }
