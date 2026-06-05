@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60880.0",
-  "tp1": "60800.0",
-  "tp2": "60700.0",
-  "stop": "61010.0",
-  "absorption": "Fiyatin vPOC seviyesinde yukselme cabasi (pozitif delta) DOM'daki buyuk yigilimli satis emirleri (60900 uzeri) tarafindan absorbe ediliyor.",
-  "dom_observation": "60900 ve uzerinde buyuk yigilimli satis (ask) duvarlari var. Mevcut fiyatin altinda alicilarin (bid) tepkisi zayif.",
-  "reasoning": "vPOC'ta alicilarin fiyati yukari itememesi ve buyuk satis duvarlari tarafindan absorbe edilmesi, saticilarin kontrolu ele aldigini gosteren bir zayiflik isaretidir.",
+  "entry": "60850.0",
+  "tp1": "60750.0",
+  "tp2": "60500.0",
+  "stop": "60980.0",
+  "absorption": "Footprint'te görülen yüksek pozitif delta (+1K) mumu fiyatı yukarı itememiş, bu durum güçlü bir ASK absorption (satıcıların alıcıları emmesi) olduğunu gösteriyor.",
+  "dom_observation": "Mevcut fiyatta alıcıların agresif olmasına rağmen fiyatın yükselememesi ve 61000 seviyesinde bekleyen likidite, satıcıların kontrolünü teyit ediyor. Aşağıda 60730-60780 aralığında kümelenmiş bid'ler ilk hedef olabilir.",
+  "reasoning": "Yüksek pozitif deltaya rağmen fiyatın ilerleyememesi (ASK Absorption) ve ardından gelen satıcı baskısı (Offer Back), vPOC seviyesinin aşağı yönlü kırılma ihtimalini güçlendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "23:30:50"
+  "timestamp": "23:33:48"
 }
