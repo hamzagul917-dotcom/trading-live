@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62000.0",
-    "VAL": "61400.0",
-    "VAH": "62900.0"
+    "vPOC": "62700.0",
+    "VAL": "61800.0",
+    "VAH": "63346.5"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "80",
-  "entry": "61760.0",
-  "tp1": "62000.0",
-  "tp2": "62498.0",
-  "stop": "61640.0",
-  "absorption": "YOK",
-  "dom_observation": "61700 seviyesinde 815 lotluk destekleyici bid ve footprint'te 105x10'luk alim agirligi goruluyor.",
-  "reasoning": "Fiyat, deger alani icinde destek bulduktan sonra pozitif delta ve CVD esliginde yukseliyor, bu da vPOC'a dogru bir hareket potansiyeli gosteriyor.",
+  "confidence_score": "75",
+  "entry": "62560.0",
+  "tp1": "62700.0",
+  "tp2": "62850.0",
+  "stop": "62480.0",
+  "absorption": "62550 seviyesinde agresif satislar (sells column) pasif alicilar tarafindan absorbe ediliyor, fiyatin dusmesini engelliyor.",
+  "dom_observation": "DOM'da 62550-62530 arasinda satislara ragmen fiyat tutunuyor. Ust seviyelerde (62700+) daha buyuk satis bloklari gorunuyor.",
+  "reasoning": "Agresif satislarin 62550 seviyesinde pasif alicilar tarafindan absorbe edilmesi, dususun devam edememesine ve potansiyel bir yukari yonlu tepkiye isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "09:23:09"
+  "timestamp": "11:57:31"
 }
