@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60226.0",
+    "vPOC": "60275.0",
     "VAL": "60000.0",
-    "VAH": "62400.0"
+    "VAH": "63340.7"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60230.0",
-  "tp1": "60290.0",
-  "tp2": "60400.0",
-  "stop": "60140.0",
-  "absorption": "YOK",
-  "dom_observation": "Agresif alicilar 60300-60310 seviyesindeki buyuk satis duvarina dogru ilerliyor. Mevcut mumda +783'luk guclu pozitif delta var.",
-  "reasoning": "Guclu pozitif delta, vPOC uzerine kirilim ve agresif piyasa alimlari, satici tukenmesi sonrasi yukselis momentumunun devam edecegini gosteriyor.",
+  "entry": "60275.0",
+  "tp1": "60100.0",
+  "tp2": "60000.0",
+  "stop": "60410.0",
+  "absorption": "ASK absorption at vPOC. High positive delta (+697) failed to lift the price, indicating passive sellers are absorbing aggressive buyers.",
+  "dom_observation": "Large stacked ask walls at 60300 and 60400 are capping the upside, confirming resistance.",
+  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen vPOC seviyesinde yukselmeyi basaramadi, bu da agresif alicilarin pasif saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "21:47:55"
+  "timestamp": "21:50:55"
 }
