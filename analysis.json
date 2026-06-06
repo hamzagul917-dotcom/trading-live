@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60510.1",
-    "VAH": "61452.9"
+    "vPOC": "61452.9",
+    "VAL": "60611.2",
+    "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60520.0",
-  "tp1": "60690.0",
-  "tp2": "61090.0",
+  "entry": "60620.0",
+  "tp1": "60900.0",
+  "tp2": "61450.0",
   "stop": "60450.0",
-  "absorption": "Aggressive selling with high negative delta is being absorbed by passive buyers at the Value Area Low (VAL), preventing a price breakdown.",
-  "dom_observation": "Despite aggressive selling at 60510-60480, the price is holding, and a wall of bids is stacking up below, particularly from 60450 down to 60400.",
-  "reasoning": "A classic bid absorption setup is forming at the critical VAL support level, indicating seller exhaustion and a potential reversal.",
+  "absorption": "Agresif saticilar VAL seviyesindeki (60611.2) tekliflere (bid) vursa da fiyat kirilim yapamiyor, bu da pasif alicilarin satislari emdigini (BID absorption) gosteriyor.",
+  "dom_observation": "60600 seviyesindeki bid'ler satis baskisina ragmen tutunuyor. Asagida 60530-60490 arasinda birikmis bid'ler potansiyel destek olusturuyor. Yukarida 60730'da onemli bir ask duvari var.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve dusuk hacimle asagi kirilimi basaramiyor, bu da satici gucunun tukendigini ve potansiyel bir yukselis sinyali oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "20:53:34"
+  "timestamp": "20:58:13"
 }
