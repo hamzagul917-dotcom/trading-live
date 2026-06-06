@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61415.9",
-    "VAL": "60667.0",
+    "vPOC": "61324.9",
+    "VAL": "60669.9",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "61430.0",
-  "tp1": "61415.0",
-  "tp2": "61300.0",
-  "stop": "61510.0",
-  "absorption": "VAH seviyesinde (61450 civari) pozitif deltaya ragmen fiyatin yukselemedigi, DOM'da biriken satis emirleri tarafindan alimlarin emildigi goruluyor (ASK Absorption).",
-  "dom_observation": "61450 uzerinde yogun stacked ask emirleri var, alicilarin ilerlemesini engelliyor. Fiyat yukselmeye calistikca satislarla karsilasiyor.",
-  "reasoning": "Fiyat, VAH direncinde pozitif deltaya ragmen ilerleyemiyor; bu durum, DOM'daki buyuk satis duvarlariyla desteklenen bir ASK absorption setup'idir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "90",
+  "entry": "61330.0",
+  "tp1": "61450.0",
+  "tp2": "61550.0",
+  "stop": "61240.0",
+  "absorption": "Saticilar 61300-61325 araligindaki tekliflere (bid) agresif bir sekilde satis yapiyor, ancak fiyat vPOC seviyesinde tutunuyor ve dusmuyor. Bu, alicilarin satislari absorbe ettigini gosteren guclu bir BID absorption durumudur.",
+  "dom_observation": "Mevcut fiyatin hemen altinda, ozellikle 61300'den baslayarak 61200'e kadar uzanan buyuk yigilmis alim emirleri (stacked bids) bulunuyor, bu da guclu bir pasif alici destegini isaret ediyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan vPOC'de, negatif deltaya ragmen dusmeyi basaramiyor ve alttaki buyuk alim duvarlari tarafindan desteklenen net bir BID absorption sergiliyor.",
   "should_trade": "EVET",
-  "timestamp": "10:55:27"
+  "timestamp": "10:59:47"
 }
