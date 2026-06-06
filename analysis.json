@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61200.0",
-    "VAH": "61400.0"
+    "VAL": "61180.0",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
+  "confidence_score": "75",
+  "entry": "61280.0",
   "tp1": "61400.0",
-  "tp2": "61500.0",
-  "stop": "61240.0",
-  "absorption": "Sellers hit the bids with extreme negative delta (-679), but the price failed to break down and is holding, indicating strong passive bid absorption.",
-  "dom_observation": "Large bid walls are stacked below the current price (e.g., 2128 at 61300), while large ask walls are present at 61400 and 61500, defining the expected range.",
-  "reasoning": "Aggressive selling was fully absorbed near the vPOC without a price breakdown, trapping sellers and indicating a high probability of an upward rotation towards VAH.",
+  "tp2": "61450.0",
+  "stop": "61180.0",
+  "absorption": "Sürekli negatif deltaya rağmen fiyatın düşmemesi, satıcıların agresif bir şekilde absorbe edildiğini gösteriyor (BID absorption).",
+  "dom_observation": "Mevcut fiyatın altında 61200 seviyesinde birikmiş alım emirleri (48 lot) potansiyel destek oluşturuyor. Üst tarafta ise VAH civarında satış baskısı mevcut.",
+  "reasoning": "Agresif satış baskısına (negatif delta) rağmen fiyatın düşüşü sürdürememesi, alıcıların satıcıları absorbe ettiğini gösteren güçlü bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "08:56:10"
+  "timestamp": "09:00:27"
 }
