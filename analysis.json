@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61200.0",
-  "tp2": "61150.0",
-  "stop": "61380.0",
-  "absorption": "YOK",
-  "dom_observation": "61500 seviyesinde cok buyuk bir stacked ask duvari (1158 lot) var, bu da yukselis potansiyelini sinirliyor. Mevcut fiyatta agresif satislar gozleniyor.",
-  "reasoning": "Guclu negatif seans deltasi (-690) ve dusen CVD ile teyit edilen ayi baskisi altinda, fiyatin vPOC'nin altinda kabul gormesi VAL'a dogru bir dusus hareketini isaret ediyor.",
+  "entry": "61300.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61240.0",
+  "absorption": "Significant BID absorption observed around 61300-61270 against heavy selling pressure (high negative delta), indicating sellers are getting trapped.",
+  "dom_observation": "Large passive bids on the order book around 61300. Selling pressure on the tape is decreasing (low volume and delta on the last candle).",
+  "reasoning": "Aggressive selling is being absorbed at the session vPOC with signs of seller exhaustion, presenting a high-probability long setup.",
   "should_trade": "EVET",
-  "timestamp": "06:18:27"
+  "timestamp": "06:26:35"
 }
