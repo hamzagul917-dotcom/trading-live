@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61240.2",
     "VAL": "60685.6",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
   "entry": "61240.0",
-  "tp1": "61100.0",
-  "tp2": "60750.0",
-  "stop": "61310.0",
-  "absorption": "vPOC seviyesinde (61240.2) pozitif delta (+93) olusmasina ragmen fiyatin yukari yonlu hareket edememesi, agresif alicilarin pasif saticilar tarafindan absorbe edildigini (ASK absorption) gosteriyor.",
-  "dom_observation": "Mevcut fiyatta alicilarin cabasi gorulse de, DOM'da ust seviyelerdeki teklifler (ask) bu alimlari karsiliyor ve fiyatin yukselmesini engelliyor. Asil buyuk alim duvarlari (bid) 61100-61200 araliginda yogunlasmis durumda.",
-  "reasoning": "Fiyat, vPOC seviyesinde pozitif deltaya ragmen yukselmekte basarisiz oluyor; bu durum, kurumsal saticilarin bu kilit seviyede alimlari absorbe ettigini gosteren guclu bir SHORT sinyalidir.",
+  "tp1": "61350.0",
+  "tp2": "61452.0",
+  "stop": "61190.0",
+  "absorption": "Saticilar vPOC seviyesine baski yapiyor ancak fiyat, 61230-61100 arasindaki cok buyuk yigilimli alim (stacked bid) duvarlari tarafindan absorbe ediliyor.",
+  "dom_observation": "61230'dan baslayarak asagiya dogru yogunlasan (1.5k, 2.2k, 2.5k, 3.4k) buyuk bir yigilimli alim (stacked bid) duvari mevcut. Satis tarafindaki likidite daha zayif.",
+  "reasoning": "Fiyat, vPOC desteginde negatif deltaya ragmen dusmeyi basaramiyor ve buyuk yigilimli alim emirleri tarafindan absorbe ediliyor, bu da guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "12:55:14"
+  "timestamp": "12:59:29"
 }
