@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
-    "VAH": "61400.0"
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61300.0",
-  "tp1": "61400.0",
+  "confidence_score": 85,
+  "entry": "61280.0",
+  "tp1": "61311.8",
   "tp2": "61450.0",
   "stop": "61190.0",
-  "absorption": "Onceki mumda dusuk seviyelerde (-70 delta) agresif satislarin pasif alicilar tarafindan emilmesi (BID absorption) gozlendi, fiyat dususe devam edemedi.",
-  "dom_observation": "DOM'da yakin seviyelerde guclu bir duvar yok, ancak 61450'de 58 lotluk bir satis blogu direnc olusturabilir.",
-  "reasoning": "Fiyat, negatif deltaya ragmen dusuk seviyelerden hizli bir sekilde geri dondu, bu da saticilarin absorbe edildigini ve alicilarin kontrolu ele aldigini gosteren bir basarisiz satis girisimidir.",
+  "absorption": "Onemli BID absorption gozlendi; -679'luk buyuk negatif delta, fiyati asagi itemedi, bu da pasif alicilarin satis baskisini emdigini gosteriyor.",
+  "dom_observation": "DOM'da belirgin bir duvar olmasa da, footprint'teki absorpsiyon sinyali cok daha guclu. Satici gucunun tukendigine isaret ediyor.",
+  "reasoning": "Agresif saticilar, guclu pasif alici absorpsiyonu nedeniyle dususu devam ettiremedi; bu durum satici yorgunlugunu ve vPOC'a dogru bir rotasyon potansiyelini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "10:42:27"
+  "timestamp": "10:46:47"
 }
