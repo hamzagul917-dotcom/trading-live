@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60844.6",
-    "VAL": "60080.6",
-    "VAH": "61452.9"
+    "vPOC": "61100.0",
+    "VAL": "60631.2",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60840.0",
-  "tp1": "60950.0",
-  "tp2": "61000.0",
-  "stop": "60790.0",
-  "absorption": "Saticilarin baskisina ragmen fiyat vPOC seviyesinde tutunuyor ve altinda kalin bir BID duvari alicilarin satis emirlerini absorbe ediyor.",
-  "dom_observation": "60830 seviyesinden baslayarak asagi yonlu cok buyuk bir stacked bid duvari var, ask tarafi ise daha zayif.",
-  "reasoning": "vPOC seviyesinde gozlemlenen BID absorption ve DOM'daki buyuk alici duvarlari, saticilarin gucunun tukendigini ve potansiyel bir yukari hareketi isaret ediyor.",
+  "entry": "60700.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60550.0",
+  "absorption": "Guclu negatif deltaya ragmen fiyat VAL seviyesinde dusmeyi basaramiyor, bu da alicilarin satis baskisini absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "DOM'da belirgin bir duvar olmasa da, footprint'te 60700-60800 seviyelerinde satisin karsilandigi ve fiyatin dusmedigi goruluyor.",
+  "reasoning": "Fiyat, gunluk Deger Alani Alt (VAL) seviyesinde, yogun satis baskisina (negatif delta) ragmen dususu reddediyor; bu durum, kurumsal alicilarin satislari absorbe ettigi guclu bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "14:28:47"
+  "timestamp": "14:33:03"
 }
