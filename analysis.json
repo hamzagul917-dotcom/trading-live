@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60611.2",
-    "VAH": "61452.3"
+    "vPOC": "60700.3",
+    "VAL": "60506.4",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60620.0",
-  "tp1": "60800.0",
-  "tp2": "61100.0",
-  "stop": "60500.0",
-  "absorption": "Fiyat VAL'in altini test ederken 60600-60540 seviyelerinde saticilarin agresif alicilar tarafindan absorbe edilmesiyle olusan BID absorption gozlemlendi.",
-  "dom_observation": "Mevcut fiyatin altinda belirgin bir bid duvari yok, ancak 60700 ve 60800 seviyelerinde satici likiditesi (ask) yogunlasiyor.",
-  "reasoning": "Fiyat, gunluk deger alani altini (VAL) test ettikten sonra guclu pozitif delta ve footprint'te gorulen alici absorpsiyonu ile iceri geri dondu (Rejection).",
+  "entry": "60520.0",
+  "tp1": "60700.0",
+  "tp2": "60800.0",
+  "stop": "60480.0",
+  "absorption": "Saticilar VAL seviyesinde (~60500) satis yapmasina ragmen fiyat dusmuyor, footprint'te 90 kontratlik alim tarafinda islem goruluyor. Bu durum, alicilarin satislari absorbe ettigini gosteriyor.",
+  "dom_observation": "60500-60400 arasinda alim emirleri kumelemis durumda, ozellikle 60400'de 3410 kontratlik bir bid var. Mevcut fiyatta satis baskisi absorbe ediliyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de saticilari absorbe ediyor, bu da dusus girisiminin basarisiz oldugunu ve bir yukselis potansiyeli oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "17:13:43"
+  "timestamp": "17:18:07"
 }
