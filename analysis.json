@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61452.3",
+  "entry": "61300.0",
+  "tp1": "61450.0",
   "tp2": "61500.0",
-  "stop": "61279.1",
-  "absorption": "vPOC seviyesinde surekli negatif deltaya ragmen fiyatin dusmemesi, guclu pasif alici absorpsiyonunu (BID absorption) gosteriyor.",
-  "dom_observation": "61300.0 seviyesinde 2128 lotluk buyuk bir bid emri destek olarak bekliyor. Ask tarafi goreceli olarak zayif.",
-  "reasoning": "Fiyat vPOC'ta tutunurken, dusen CVD ve negatif delta guclu bir alici absorpsiyonu ve potansiyel bir short squeeze durumu yaratiyor.",
+  "stop": "61190.0",
+  "absorption": "Saticilar 61200-61250 seviyelerinde agresif satis yapmasina ragmen (-679 delta) fiyat dusmuyor, bu da guclu alici absorpsiyonunu gosteriyor.",
+  "dom_observation": "DOM'da belirgin bir duvar olmasa da, footprint'teki buyuk negatif deltaya ragmen fiyatin dusmemesi, gizli alim emirlerinin (iceberg/absorption) saticilari emdigini gosteriyor.",
+  "reasoning": "Agresif satislara ragmen fiyatin dusmeyi reddetmesi (seller absorption), saticilarin tuzaga dustugunu ve bir yukari donus potansiyeli oldugunu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "08:11:30"
+  "timestamp": "08:23:22"
 }
