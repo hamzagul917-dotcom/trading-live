@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61452.0",
-  "stop": "61240.0",
-  "absorption": "Sellers are hitting the bid with negative delta, but the price is failing to move down at the vPOC, indicating strong passive buyers are absorbing the selling pressure.",
-  "dom_observation": "Large passive bid order of 2128 contracts at 61300.0 is supporting the price and absorbing sellers.",
-  "reasoning": "Aggressive sellers (negative delta) are being absorbed by passive buyers at the vPOC, indicating a high probability of a rotation back up towards the VAH.",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61190.0",
+  "absorption": "Fiyat, -679'luk cok guclu bir negatif deltaya ragmen dususe devam edemedi; bu durum, dusuk seviyelerde agresif satislarin pasif alicilar tarafindan emildigini gosteren bir BID absorption'dur.",
+  "dom_observation": "Mevcut fiyatin hemen altinda 61300.0 seviyesinde 2128 lotluk bir bid destegi bulunuyor, yukarida ise 61450.0'den baslayan belirgin ask yigilmasi var.",
+  "reasoning": "Piyasa, agresif satislara ragmen dususu surduremeyerek guclu bir bid absorption sergilemistir, bu da saticilarin gucunun tukendigini ve alicilarin kontrolu ele alabilecegini gosteren bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "03:23:49"
+  "timestamp": "03:28:04"
 }
