@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61006.2",
-    "VAL": "60093.0",
+    "vPOC": "61000.0",
+    "VAL": "60055.5",
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "61000.0",
-  "tp1": "60900.0",
-  "tp2": "60800.0",
-  "stop": "61090.0",
-  "absorption": "Mevcut mumda pozitif delta (+29) olmasina ragmen fiyat vPOC seviyesini gecemiyor; bu, alicilarin pasif saticilar tarafindan absorbe edildigini gosterir.",
-  "dom_observation": "61150 seviyesinden itibaren yukarida buyuk bir stacked ask (satis) duvari gorulurken, yakin destek seviyelerinde onemli bir bid (alis) duvari bulunmuyor.",
-  "reasoning": "Fiyat, vPOC'nin altinda pozitif delta ve dusen CVD ile alici absorpsiyonu gosteriyor, bu da zayif alicilara ve guclu saticilara isaret eden net bir short sinyalidir.",
+  "confidence_score": "75",
+  "entry": "60970.0",
+  "tp1": "60700.0",
+  "tp2": "60100.0",
+  "stop": "61050.0",
+  "absorption": "Saticilar, vPOC seviyesi olan 61000.0 civarindaki alim girisimlerini absorbe etti.",
+  "dom_observation": "Mevcut fiyatin uzerindeki Ask (satis) emirleri, Bid (alis) emirlerinden daha yogun gorunuyor, bu da satici baskisina isaret ediyor.",
+  "reasoning": "Fiyat, negatif delta ve dusen CVD esliginde vPOC seviyesinden reddedildi, bu da saticilarin kontrolu aldigini ve dusus trendinin devam etme olasiligini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "15:23:34"
+  "timestamp": "15:27:55"
 }
