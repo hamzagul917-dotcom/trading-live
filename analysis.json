@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61200.0",
+    "VAL": "61150.0",
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61290.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61230.0",
-  "absorption": "Sellers are hitting the bids around 61250-61300, but the price is not moving down, indicating strong passive buyers are absorbing the selling pressure.",
-  "dom_observation": "Bids are holding and absorbing market sells between 61250 and 61300. No significant stacked ask wall immediately above.",
-  "reasoning": "Strong BID absorption is occurring at the lower part of the value area, trapping aggressive sellers and suggesting an imminent rotation upwards.",
+  "entry": "61310.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61240.0",
+  "absorption": "Aggressive sellers (high negative delta in previous candle) failed to break down and are being absorbed by passive buyers at the vPOC.",
+  "dom_observation": "Very large stacked bid wall (2128 lots) at 61300.0 is providing strong support and absorbing selling pressure.",
+  "reasoning": "Aggressive sellers are being absorbed by a large passive bid wall at the session vPOC, indicating a high probability of a rotation back up towards the VAH.",
   "should_trade": "EVET",
-  "timestamp": "03:40:25"
+  "timestamp": "03:44:44"
 }
