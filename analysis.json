@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
-    "VAL": "60605.6",
-    "VAH": "61452.3"
+    "VAL": "60570.8",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60610.0",
-  "tp1": "60800.0",
+  "entry": "60580.0",
+  "tp1": "60697.3",
   "tp2": "61100.0",
-  "stop": "60490.0",
-  "absorption": "Fiyatin VAL (60605) seviyesinde, bir onceki mumdaki -490'luk buyuk negatif deltaya ragmen dususu surdurememesi ve mevcut mumda alicilarin satis baskisini emmesi (BID absorption) gozlemleniyor.",
-  "dom_observation": "60500 seviyesinde 3055 lotluk buyuk bir alim duvari (stacked bid) bulunuyor, bu da asagi yonlu hareket icin guclu bir destek olusturuyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve asagi kirilim basarisiz oluyor, bu da potansiyel bir yukselis (rejection) sinyalidir.",
+  "stop": "60480.0",
+  "absorption": "Saticilar VAL (60570.8) seviyesini agresif bir sekilde satmasina ragmen, alicilar tum satislari absorbe ediyor ve mevcut mumda delta pozitife donuyor. Bu guclu bir BID absorption gostergesidir.",
+  "dom_observation": "DOM'da fiyat altinda likidite birikimi var ve anlik olarak alicilar satis baskisini karsiliyor, fiyat dusmuyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "18:33:37"
+  "timestamp": "18:41:44"
 }
