@@ -11,10 +11,10 @@
   "entry": "61210.0",
   "tp1": "61350.0",
   "tp2": "61450.0",
-  "stop": "61060.0",
-  "absorption": "Guclu BID absorption 61100-61200 seviyelerinde goruluyor, saticilarin agresifligine ragmen fiyat dusmuyor.",
-  "dom_observation": "61130-61090 arasinda cok buyuk yigilma teklif (stacked bid) duvari mevcut, bu seviye guclu destek olarak calisiyor.",
-  "reasoning": "Fiyat, vPOC'nin hemen altinda buyuk bir yigilma teklif (stacked bid) duvari tarafindan emiliyor (absorption), bu da saticilarin gucunun tukendigini ve alicilarin kontrolu ele aldigini gosteriyor.",
+  "stop": "61050.0",
+  "absorption": "Pasif alıcılar, vPOC seviyesinde ve hemen altındaki (61200-61100) büyük bid duvarında agresif satıcıları absorbe ediyor.",
+  "dom_observation": "61200'den 61100'e kadar çok büyük bir yığılmış bid duvarı (stacked bid wall) var, bu da güçlü bir destek olduğunu gösteriyor. Yukarıda ise 61350'den başlayan bir ask duvarı direnç oluşturuyor.",
+  "reasoning": "Fiyat, vPOC'de tutunurken hemen altında bulunan devasa yığılmış bid duvarı, alıcıların bölgeyi savunduğunu ve potansiyel bir yukarı yönlü hareket için zemin hazırladığını gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "12:42:18"
+  "timestamp": "12:46:39"
 }
