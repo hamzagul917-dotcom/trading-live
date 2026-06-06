@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61452.9",
-    "VAL": "60595.7",
-    "VAH": "61452.9"
+    "vPOC": "61100.0",
+    "VAL": "60611.2",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "61450.0",
-  "tp2": "62000.0",
-  "stop": "60440.0",
-  "absorption": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde. Önceki mumlardaki negatif deltaya rağmen fiyat düşüşü devam etmiyor ve mevcut mumda pozitif delta (+10) ile alıcıların satışı absorbe ettiği görülüyor.",
-  "dom_observation": "60500.0 seviyesinde 207 lotluk büyük bir yığılmış alım (stacked bid) duvarı bulunuyor, bu da fiyat için güçlü bir destek tabanı oluşturuyor. Satış (ask) tarafı ise daha zayıf.",
-  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde agresif satıcıları absorbe ediyor, bu durum DOM'daki büyük alım duvarı ile desteklenen bir başarısız açık artırma (rejection) ve yukarı yönlü rotasyon sinyalidir.",
+  "entry": "60620.0",
+  "tp1": "60800.0",
+  "tp2": "61100.0",
+  "stop": "60500.0",
+  "absorption": "Fiyat VAL'in altini test ederken 60600-60540 seviyelerinde saticilarin agresif alicilar tarafindan absorbe edilmesiyle olusan BID absorption gozlemlendi.",
+  "dom_observation": "Mevcut fiyatin altinda belirgin bir bid duvari yok, ancak 60700 ve 60800 seviyelerinde satici likiditesi (ask) yogunlasiyor.",
+  "reasoning": "Fiyat, gunluk deger alani altini (VAL) test ettikten sonra guclu pozitif delta ve footprint'te gorulen alici absorpsiyonu ile iceri geri dondu (Rejection).",
   "should_trade": "EVET",
-  "timestamp": "17:09:21"
+  "timestamp": "17:13:43"
 }
