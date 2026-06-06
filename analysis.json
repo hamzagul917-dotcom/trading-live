@@ -2,9 +2,9 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60972.2",
-    "VAL": "60869.9",
-    "VAH": "61452.9"
+    "vPOC": "61026.4",
+    "VAL": "60091.2",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
@@ -12,9 +12,9 @@
   "tp1": "61060.0",
   "tp2": "61150.0",
   "stop": "60920.0",
-  "absorption": "Negatif deltaya ragmen fiyatin vPOC seviyesinde dusmemesi, agresif saticilarin pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
-  "dom_observation": "DOM'da vPOC seviyesinde ve hemen altinda alim emirleri goruluyor, satislara ragmen fiyat tutunuyor ve dusmuyor.",
-  "reasoning": "Fiyat, negatif deltaya ragmen vPOC'de tutunuyor; bu durum, alicilarin satislari absorbe ettigini ve yukari yonlu bir hareket potansiyeli oldugunu gosteren guclu bir sinyaldir.",
+  "absorption": "Fiyat vPOC seviyesinde tutunurken, ardışık negatif delta mumları (agresif satış) fiyatı aşağı itemiyor. Bu durum, pasif alıcıların satıcıları absorbe ettiğini gösteren net bir BID absorption sinyalidir.",
+  "dom_observation": "Mevcut fiyatın altında 60900-61000 bölgesinde kümelenmiş pasif alım emirleri (bid) desteği görülüyor.",
+  "reasoning": "vPOC seviyesinde agresif satışların pasif alıcılar tarafından absorbe edilmesi (BID Absorption), fiyatın aşağı yönlü hareket etmesi gerekirken edememesi (Should Trade Test fail) nedeniyle long sinyali oluşmuştur.",
   "should_trade": "EVET",
-  "timestamp": "15:02:55"
+  "timestamp": "15:07:12"
 }
