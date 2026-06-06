@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "61300.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61240.0",
-  "absorption": "Aggressive sellers are being absorbed by passive buyers around 61300-61280, indicated by decreasing negative delta while price fails to make new lows.",
-  "dom_observation": "Sellers are hitting the bids at 61310-61300 but price is not dropping, indicating bid absorption. Ask side liquidity is heavier above 61400.",
-  "reasoning": "Seller exhaustion and clear bid absorption below the vPOC suggest a high probability of a rotation back up towards the VAH.",
+  "confidence_score": "85",
+  "entry": "61310.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61250.0",
+  "absorption": "Guclu negatif deltaya ragmen fiyatin vPOC seviyesinde dusmemesi, agresif satislarin pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
+  "dom_observation": "Mevcut fiyatin altinda (61210-61190) pasif alim ilgisi goruluyor. Agresif satislar fiyati asagi itemiyor.",
+  "reasoning": "vPOC seviyesinde gozlenen net BID absorption, satıcıların tukendigini ve fiyatın VAH'a dogru rotasyon yapma potansiyelini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "04:43:24"
+  "timestamp": "04:47:38"
 }
