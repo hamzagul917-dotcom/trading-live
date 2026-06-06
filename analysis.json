@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61180.0",
-    "VAH": "61450.0"
+    "VAL": "61150.0",
+    "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "75",
-  "entry": "61300.0",
-  "tp1": "61180.0",
-  "tp2": "61100.0",
-  "stop": "61360.0",
-  "absorption": "YOK",
-  "dom_observation": "Guclu negatif Session Delta (-690) ve dusen CVD satici kontrolunu dogruluyor. vPOC altinda fiyatlama var.",
-  "reasoning": "Fiyat, guclu negatif delta ve dusen CVD esliginde vPOC'nin altinda kabul goruyor, bu da VAL'a dogru bir hareket potansiyeli tasiyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "61310.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61240.0",
+  "absorption": "Footprint'te 61250-61280 seviyelerinde negatif deltaya ragmen fiyatin dusmemesi ve alicilarin satis baskisini emmesi (BID absorption) gozlemlendi.",
+  "dom_observation": "61300.0 seviyesinde 2128 lotluk cok buyuk bir stacked bid duvari alici destegini gosteriyor. Yukarida ise 61400 ve 61500'de buyuk ask duvarlari direnc olusturuyor.",
+  "reasoning": "Fiyat, vPOC'nin hemen altinda buyuk bir stacked bid duvari (61300) tarafindan destekleniyor ve footprint'te negatif deltaya ragmen dususu surduremeyen BID absorption gozlemleniyor.",
   "should_trade": "EVET",
-  "timestamp": "05:16:50"
+  "timestamp": "05:21:05"
 }
