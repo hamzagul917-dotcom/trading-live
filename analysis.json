@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61214.1",
     "VAL": "60673.2",
-    "VAH": "61452.3"
+    "VAH": "62244.1"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61215.0",
-  "tp1": "61350.0",
-  "tp2": "61450.0",
+  "entry": "61220.0",
+  "tp1": "61450.0",
+  "tp2": "61600.0",
   "stop": "61150.0",
-  "absorption": "Aggressive selling (Delta -289, heavy market sells on DOM at 61220-61200) is being absorbed by passive buyers at the vPOC level, preventing a price breakdown.",
-  "dom_observation": "Heavy selling is hitting the bids at 61220-61200, but price is holding firm at the vPOC. A large bid wall is visible lower at 61100, providing potential support.",
-  "reasoning": "Aggressive sellers are failing to break the key vPOC support due to strong passive bid absorption, indicating a high probability of a rotation back up within the value area.",
+  "absorption": "Guclu negatif delta (-289) olmasina ragmen fiyat vPOC seviyesinde dususu surduremiyor, bu durum alicilarin satislari pasif olarak absorbe ettigini gosteriyor.",
+  "dom_observation": "DOM'da belirgin bir duvar yok ancak footprint'te vPOC seviyesinde alimlarin satis baskisini karsiladigi goruluyor.",
+  "reasoning": "vPOC'de agresif satislarin pasif alicilar tarafindan absorbe edilmesi, basarisiz bir kirilim girisimi ve potansiyel bir yukselis sinyali olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "11:12:41"
+  "timestamp": "11:20:46"
 }
