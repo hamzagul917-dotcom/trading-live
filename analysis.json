@@ -6,15 +6,15 @@
     "VAL": "60685.6",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "61240.0",
-  "tp1": "61350.0",
-  "tp2": "61452.3",
-  "stop": "61040.0",
-  "absorption": "Saticilarin 61230-61210 seviyelerindeki satislari pasif alicilar tarafindan emiliyor (BID absorption), fiyatin dusmesini engelliyor.",
-  "dom_observation": "vPOC altinda 61230-61210 seviyelerinde agresif satislarin karsilanmasi ve asagida 61100-61130 arasi kumesel pasif alim emirleri gozlemleniyor.",
-  "reasoning": "vPOC seviyesinin hemen altinda gozlenen net BID absorption, bullish CVD uyumsuzlugu ile birleserek saticilarin guc kaybettigini ve alicilarin kontrolu ele aldigini gosteriyor.",
+  "tp1": "61100.0",
+  "tp2": "60750.0",
+  "stop": "61350.0",
+  "absorption": "Guclu pozitif delta (+420) olmasina ragmen fiyat vPOC seviyesinde yukselemiyor, bu durum buyuk pasif saticilarin alimlari absorbe ettigini gosteriyor (ASK Absorption).",
+  "dom_observation": "vPOC seviyesinde agresif alimlar (Delta +420) pasif satislar tarafindan karsilaniyor. Fiyat ilerleyemiyor.",
+  "reasoning": "vPOC seviyesinde gerceklesen ve yuksek pozitif delta ile teyit edilen guclu ASK absorption, alici gucunun tukendigini ve asagi yonlu bir rotasyon potansiyelini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "13:07:37"
+  "timestamp": "13:11:55"
 }
