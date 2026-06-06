@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60689.2",
+    "vPOC": "60809.4",
+    "VAL": "60682.3",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60750.0",
-  "tp1": "61100.0",
+  "confidence_score": "95",
+  "entry": "60810.0",
+  "tp1": "61000.0",
   "tp2": "61450.0",
-  "stop": "60590.0",
-  "absorption": "Guclu BID absorption VAL seviyesinde gozlemleniyor. Negatif deltaya ragmen fiyat dusmuyor, saticilarin absorbe edildigini gosteriyor.",
-  "dom_observation": "DOM'da 60800-60900 arasinda satici likiditesi goruluyor, ancak mevcut fiyatin altinda belirgin bir alici duvari yok. Esas olay footprint'teki absorpsiyon.",
-  "reasoning": "Fiyat, surekli negatif deltaya ragmen VAL seviyesinde dusmeyi reddediyor ve bu durum guclu bir alici absorpsiyonuna isaret ederek potansiyel bir yukselis sinyali veriyor.",
+  "stop": "60650.0",
+  "absorption": "Guclu BID absorption 60750-60800 seviyelerinde goruluyor. Agresif saticilar (buyuk negatif delta) pasif alicilar tarafindan emiliyor.",
+  "dom_observation": "60790 ve altinda cok buyuk yigilmis BID (alim) emirleri var, bu da guclu bir destek duvari olusturuyor. Ask (satis) tarafi zayif.",
+  "reasoning": "Fiyatin dusmesi gerekirken (buyuk negatif delta ve CVD dususu) dusmemesi, guclu BID absorption ve DOM'daki alim duvari net bir LONG sinyali uretiyor.",
   "should_trade": "EVET",
-  "timestamp": "14:41:37"
+  "timestamp": "14:45:58"
 }
