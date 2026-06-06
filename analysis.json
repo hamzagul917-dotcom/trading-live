@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "~60980.0",
-    "VAL": "YOK",
-    "VAH": "~61452.3"
+    "vPOC": "61050.0",
+    "VAL": "60850.0",
+    "VAH": "61120.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": 75,
   "entry": "60972.2",
-  "tp1": "61120.0",
-  "tp2": "61450.0",
-  "stop": "60800.0",
-  "absorption": "Saticilarin (negatif delta) fiyati asagi itemedigi, alicilarin POC seviyesinde pasif olarak satislari emdigi goruluyor.",
-  "dom_observation": "DOM'da belirgin bir duvar yok ancak footprint'te negatif deltaya ragmen yukselen mum, alici gucunu teyit ediyor.",
-  "reasoning": "Fiyat, yuksek hacimli POC bolgesinde negatif deltaya ragmen dusmeyi reddediyor; bu durum, saticilarin tuzaga dustugu ve alicilarin kontrolu ele aldigi bir BID absorption senaryosudur.",
+  "tp1": "61000.0",
+  "tp2": "61050.0",
+  "stop": "60940.0",
+  "absorption": "Saticilarin agresif bir sekilde satis yapmasina (negatif delta ve footprint'te gorulen satislar) ragmen fiyat 60960-60970 seviyelerinde tutunuyor, bu da guclu pasif alicilarin satislari absorbe ettigini gosteriyor (BID absorption).",
+  "dom_observation": "61000.0 seviyesinde 53 lotluk buyuk bir stacked ask duvari (direnc) bulunuyor. Mevcut fiyatin altindaki bid'ler zayif, ancak pasif alimlar fiyati tutuyor.",
+  "reasoning": "Negatif deltaya ve aktif satislara ragmen fiyatin dusmemesi, guclu bir alici absorpsiyonuna isaret ediyor ve 61000 seviyesindeki likiditeye dogru bir rotasyon potansiyeli olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "16:22:38"
+  "timestamp": "16:26:58"
 }
