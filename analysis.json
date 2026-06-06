@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "75",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
   "entry": "61300.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61190.0",
-  "absorption": "Saticilarin -70 delta ile yaptigi satis baskisi POC yakinlarinda alicilar tarafindan absorbe edildi ve fiyat dusemedi.",
-  "dom_observation": "Mevcut fiyatin altinda 61300'de ve asagisinda pasif alim emirleri (bid) yigilmis durumda, yukarida ise 61370'den baslayan pasif satis (ask) duvarlari var.",
-  "reasoning": "Fiyat, yuksek hacimli bolge olan POC'de, negatif deltaya ragmen dusmeyi basaramadi; bu durum alicilarin satis baskisini absorbe ettigini gosteren guclu bir isarettir.",
+  "tp1": "61200.0",
+  "tp2": "61150.0",
+  "stop": "61380.0",
+  "absorption": "YOK",
+  "dom_observation": "Ask tarafinda likidite birikimi var, vPOC altinda fiyat zayif kaliyor.",
+  "reasoning": "Fiyat, yüksek hacimli vPOC seviyesini aşağı yönlü reddediyor ve güçlü negatif delta ile satıcıların kontrolünde olduğunu teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "09:59:56"
+  "timestamp": "10:04:14"
 }
