@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61452.9",
-    "VAL": "60667.4",
+    "VAL": "60595.7",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60670.0",
-  "tp1": "60800.0",
-  "tp2": "60900.0",
-  "stop": "60620.0",
-  "absorption": "Significant BID absorption observed on the DOM and Footprint between 60620-60670, as aggressive sellers are unable to push the price below the Value Area Low.",
-  "dom_observation": "Multiple waves of selling are hitting the bid side, but the price is holding firm and bids are absorbing the pressure. Larger passive bids are visible below the current price.",
-  "reasoning": "Aggressive sellers are being absorbed by passive buyers at the key Value Area Low support, indicating a high probability of a short-term reversal.",
+  "entry": "60600.0",
+  "tp1": "61450.0",
+  "tp2": "62000.0",
+  "stop": "60440.0",
+  "absorption": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde. Önceki mumlardaki negatif deltaya rağmen fiyat düşüşü devam etmiyor ve mevcut mumda pozitif delta (+10) ile alıcıların satışı absorbe ettiği görülüyor.",
+  "dom_observation": "60500.0 seviyesinde 207 lotluk büyük bir yığılmış alım (stacked bid) duvarı bulunuyor, bu da fiyat için güçlü bir destek tabanı oluşturuyor. Satış (ask) tarafı ise daha zayıf.",
+  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde agresif satıcıları absorbe ediyor, bu durum DOM'daki büyük alım duvarı ile desteklenen bir başarısız açık artırma (rejection) ve yukarı yönlü rotasyon sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "17:05:01"
+  "timestamp": "17:09:21"
 }
