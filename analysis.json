@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61210.0",
-  "tp1": "61350.0",
+  "entry": "61240.0",
+  "tp1": "61400.0",
   "tp2": "61450.0",
-  "stop": "61050.0",
-  "absorption": "61100-61130 seviyeleri arasinda cok buyuk yigilmis bid duvarlari (stacked bids) goruluyor, bu da asagi yonlu hareketleri absorbe etmeye hazir guclu pasif alicilari isaret ediyor.",
-  "dom_observation": "DOM'da 61100 seviyesinde 3446 kontratlik devasa bir bid duvari var, bu seviye guclu bir destek olusturuyor. Yukarida ise direncler daha daginik.",
-  "reasoning": "Fiyat vPOC seviyesinde tutunurken, hemen altinda yer alan devasa yigilmis bid duvari ve onceki negatif deltali mumdan sonra fiyatin dusmemesi, alicilarin kontrolu ele aldigi bir absorpsiyon setup'i olusturuyor.",
+  "stop": "61140.0",
+  "absorption": "Saticilarin vPOC seviyesinde agresif satis yapmasina ragmen fiyat dusmuyor, alicilar tarafindan absorbe ediliyor (BID absorption).",
+  "dom_observation": "61130-61100 arasinda fiyatin dususunu engelleyen cok buyuk bir yigilmis alim emri (stacked bid) duvari mevcut.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan vPOC'de, buyuk bir alim duvari onunde saticilari absorbe ediyor, bu da VAH'a dogru bir rotasyon potansiyeli yaratiyor.",
   "should_trade": "EVET",
-  "timestamp": "13:20:35"
+  "timestamp": "13:24:54"
 }
