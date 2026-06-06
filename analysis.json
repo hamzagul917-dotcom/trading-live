@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60870.0",
-  "tp1": "60700.0",
-  "tp2": "60500.0",
-  "stop": "61000.0",
-  "absorption": "Footprint'te 60900 seviyesinde yuksek pozitif deltaya ragmen fiyat ilerleyemiyor, agresif alimlar pasif saticilar tarafindan absorbe ediliyor (ASK absorption).",
-  "dom_observation": "Mevcut fiyatin hemen uzerinde 60900 ve 61000 seviyelerinde onemli ask likiditesi (satis duvari) birikmis durumda.",
-  "reasoning": "Fiyat, negatif seans deltasi esliginde vPOC direncinde agresif alimlari absorbe ediyor, bu da yuksek olasilikli bir dusus sinyalidir.",
+  "entry": "60880.0",
+  "tp1": "60740.0",
+  "tp2": "YOK",
+  "stop": "60930.0",
+  "absorption": "Pozitif delta (+29) olmasina ragmen fiyat vPOC seviyesinde yukselemiyor, bu durum alicilarin saticilar tarafindan absorbe edildigini gosteriyor (ASK Absorption).",
+  "dom_observation": "60900 ve 61000 seviyelerinde buyuk stacked ask duvarlari (98 ve 593 lot) satici baskisini teyit ediyor.",
+  "reasoning": "Fiyat, kilit vPOC seviyesinde alici gucunun tukendigini gosteren (no continuation) ve saticilarin alimlari absorbe ettigi (ASK absorption) net bir satici setup'i olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "02:45:06"
+  "timestamp": "02:49:22"
 }
