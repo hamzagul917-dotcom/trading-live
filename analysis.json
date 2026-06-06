@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60631.2",
-    "VAH": "61452.3"
+    "vPOC": "61000.0",
+    "VAL": "60837.0",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60700.0",
-  "tp1": "61100.0",
+  "entry": "60830.0",
+  "tp1": "61000.0",
   "tp2": "61450.0",
-  "stop": "60550.0",
-  "absorption": "Guclu negatif deltaya ragmen fiyat VAL seviyesinde dusmeyi basaramiyor, bu da alicilarin satis baskisini absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "DOM'da belirgin bir duvar olmasa da, footprint'te 60700-60800 seviyelerinde satisin karsilandigi ve fiyatin dusmedigi goruluyor.",
-  "reasoning": "Fiyat, gunluk Deger Alani Alt (VAL) seviyesinde, yogun satis baskisina (negatif delta) ragmen dususu reddediyor; bu durum, kurumsal alicilarin satislari absorbe ettigi guclu bir donus sinyalidir.",
+  "stop": "60700.0",
+  "absorption": "Guclu BID absorption VAL seviyesinde (60837.0) gozlemleniyor. Agresif satislar (negatif delta) fiyati dusuremiyor, pasif alicilar piyasayi emiyor.",
+  "dom_observation": "DOM'da 60830.0 altinda kumeleşen bid'ler ve footprint'te yuksek hacimli satislarin fiyati kiramamasi, alici gucunu teyit ediyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor, bu da bir kirilim tuzagi ve yukari yonlu bir donus potansiyeli oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "14:33:03"
+  "timestamp": "14:37:20"
 }
