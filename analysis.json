@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61240.0",
-  "absorption": "Guclu negatif deltaya (-690) ragmen fiyat vPOC seviyesinde dusmuyor, bu da pasif alicilarin satis baskisini absorbe ettigini gosteriyor (BID absorption).",
-  "dom_observation": "61300 seviyesinde alici kumesi (2128) ve vPOC etrafinda tutunan fiyat, agresif satislara karsi pasif alimi dogruluyor.",
-  "reasoning": "Agresif satislarin (yuksek negatif delta) vPOC'de pasif alicilar tarafindan absorbe edilmesi, saticilarin tukendigini ve potansiyel bir yukselis hareketini isaret ediyor.",
+  "confidence_score": "70",
+  "entry": "61300.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61180.0",
+  "absorption": "Guclu negatif deltaya (-679, -70) ragmen fiyat vPOC seviyesinde dusmeyi basaramiyor, bu da saticilarin pasif alicilar tarafindan absorbe edildigini gosteriyor.",
+  "dom_observation": "DOM'da belirgin bir duvar olmasa da, fiyat vPOC etrafinda tutunuyor ve satislar fiyati asagi itemiyor.",
+  "reasoning": "Agresif saticilarin (guclu negatif delta) vPOC'de fiyati asagi itememesi, pasif alicilarin absorpsiyonunu ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "08:31:21"
+  "timestamp": "08:35:39"
 }
