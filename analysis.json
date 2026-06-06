@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60934.9",
-    "VAL": "60840.0",
-    "VAH": "61045.9"
+    "vPOC": "61000.0",
+    "VAL": "60680.1",
+    "VAH": "61452.9"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60950.0",
-  "tp1": "60840.0",
-  "tp2": "60700.0",
-  "stop": "61120.0",
-  "absorption": "Potansiyel ASK absorption VAH/vPOC bolgesinde gelisiyor, alicilarin yukari yonlu momentumu surdurememesiyle belirginlesiyor.",
-  "dom_observation": "61030 seviyesinde 110 lotluk buyuk bir pasif satis emri duvari var, bu da yukselisi engelleyen onemli bir direnc olusturuyor.",
-  "reasoning": "Fiyat, genel dusus trendi icinde VAH/vPOC direnc bolgesine yaptigi geri cekilmede momentum kaybediyor ve DOM'daki buyuk satis duvarlariyla karsilasarak bir Rejection (Red) sinyali uretiyor.",
+  "entry": "60840.0",
+  "tp1": "60950.0",
+  "tp2": "61000.0",
+  "stop": "60790.0",
+  "absorption": "Onemli negatif deltaya (-312, -87) ragmen fiyat 60830 seviyesinin altina inemiyor, bu da agresif saticilarin pasif alicilar tarafindan emildigini gosteren guclu bir BID absorption isaretidir.",
+  "dom_observation": "60800 ile 60720 arasinda biriken buyuk stacked bid duvarlari, mevcut absorpsiyon bolgesinin altinda bir destek tabani olusturuyor.",
+  "reasoning": "Fiyat, negatif deltaya ragmen dususu surduremiyor ve deger alaninin alt kisminda alicilar tarafindan absorbe ediliyor, bu da vPOC'a dogru bir rotasyon icin potansiyel bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "14:20:08"
+  "timestamp": "14:24:30"
 }
