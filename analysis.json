@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60850.0",
-  "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "Fiyat VAL seviyesinde (60562.5) alicilar tarafindan absorbe ediliyor. Footprint'te ve DOM'da alim baskisi goruluyor.",
-  "dom_observation": "60500-60550 arasinda alicilar agresiflesiyor, satislara ragmen fiyat dusmuyor, bu da BID absorption'u teyit ediyor.",
-  "reasoning": "Fiyat, gunluk deger alani alt sinirinda (VAL) alici absorpsiyonu ve guclu pozitif delta ile reddedilme (rejection) sinyali veriyor.",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60440.0",
+  "absorption": "Guclu BID absorption VAL seviyesinde (60562.5) gozlemlendi, alicilar satis baskisini emiyor.",
+  "dom_observation": "Mevcut fiyatin altinda 60500 ve 60430 seviyelerinde yogunlasmis buyuk stacked bid duvarlari destegi gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den alici absorpsiyonu, pozitif delta ve DOM'daki alim duvarlari ile guclu bir sekilde reddediliyor.",
   "should_trade": "EVET",
-  "timestamp": "22:23:31"
+  "timestamp": "22:33:51"
 }
