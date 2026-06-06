@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61150.0",
-    "VAH": "61452.3"
+    "VAL": "61180.0",
+    "VAH": "61450.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61190.0",
-  "absorption": "Fiyat, -679'luk cok guclu bir negatif deltaya ragmen dususe devam edemedi; bu durum, dusuk seviyelerde agresif satislarin pasif alicilar tarafindan emildigini gosteren bir BID absorption'dur.",
-  "dom_observation": "Mevcut fiyatin hemen altinda 61300.0 seviyesinde 2128 lotluk bir bid destegi bulunuyor, yukarida ise 61450.0'den baslayan belirgin ask yigilmasi var.",
-  "reasoning": "Piyasa, agresif satislara ragmen dususu surduremeyerek guclu bir bid absorption sergilemistir, bu da saticilarin gucunun tukendigini ve alicilarin kontrolu ele alabilecegini gosteren bir donus sinyalidir.",
+  "entry": "61300",
+  "tp1": "61450",
+  "tp2": "61500",
+  "stop": "61190",
+  "absorption": "Sellers are hitting the 61300 level with negative delta, but the price is not breaking down due to a large passive bid wall (2128 lots), indicating strong BID absorption.",
+  "dom_observation": "Large passive bid wall of 2128 lots at 61300 is holding the price despite consistent selling pressure shown by negative delta.",
+  "reasoning": "Fiyat, vPOC'nin hemen altinda buyuk bir pasif alim duvarinda negatif deltaya ragmen dusmeyi basaramayarak alicilar tarafindan absorbe ediliyor.",
   "should_trade": "EVET",
-  "timestamp": "03:28:04"
+  "timestamp": "03:36:10"
 }
