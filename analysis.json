@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "75",
-  "entry": "61300.0",
-  "tp1": "61200.0",
-  "tp2": "61150.0",
-  "stop": "61400.0",
-  "absorption": "YOK",
-  "dom_observation": "Satici agirlikli emir akisi (negatif delta), vPOC altinda islem goruyor. Belirgin bir likidite duvari yok.",
-  "reasoning": "Fiyat, guclu negatif seans deltasi (-690) ve dusen CVD esliginde vPOC'nin altina kiriliyor ve daha dusuk seviyelerde kabul (acceptance) bulmaya calisiyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "61310.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61190.0",
+  "absorption": "Agresif satislar (-679 delta) vPOC yakinindaki dusuk seviyelerde pasif alicilar tarafindan absorbe edildi, fiyat kirilimi basarisiz oldu.",
+  "dom_observation": "61300 seviyesinde 2128 lotluk buyuk bir pasif alim emri (bid) bulunuyor ve yukarida 61400'den baslayan yogun satis emirleri (ask) var.",
+  "reasoning": "Yuksek negatif deltaya ragmen fiyatin dususu basarisiz oldu ve vPOC'de tutunuyor; bu durum, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "06:55:29"
+  "timestamp": "06:59:47"
 }
