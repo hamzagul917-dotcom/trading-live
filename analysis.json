@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60724.8",
+    "vPOC": "60697.6",
+    "VAL": "60847.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60730.0",
-  "tp1": "60800.0",
-  "tp2": "61100.0",
-  "stop": "60490.0",
-  "absorption": "-3K'lik buyuk negatif delta'ya ragmen fiyatin VAL seviyesi yakininda dusmemesi, guclu pasif alici (BID) absorpsiyonunu gosteriyor.",
-  "dom_observation": "Mevcut fiyatin hemen altinda (60700-60600) destekleyici bid'ler birikmis durumda, yukarida ise 60800-60850 arasinda ask duvarlari direnc olusturuyor.",
-  "reasoning": "VAL seviyesinde agresif satislarin pasif alicilar tarafindan absorbe edilmesi, satici tukenisine ve vPOC'a dogru bir rotasyon potansiyeline isaret ediyor.",
+  "entry": "60760.0",
+  "tp1": "60970.0",
+  "tp2": "61450.0",
+  "stop": "60600.0",
+  "absorption": "Saticilar VAL seviyesinin altina itmeye calisirken, CVD'nin yukselmesi ve footprint'te alim ilgisinin artmasi pasif alicilarin satislari absorbe ettigini gosteriyor (Bullish Bid Absorption).",
+  "dom_observation": "DOM'da mevcut fiyatin altinda katmanli bid'ler goruluyor, ask tarafi ise daha zayif. Bu durum alicilarin destegini gosteriyor.",
+  "reasoning": "Fiyat kilit destek seviyesi olan VAL'de duserken CVD'nin yukselmesi (bullish divergence), saticilarin gucunun tukendigini ve alicilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "17:38:43"
+  "timestamp": "17:43:02"
 }
