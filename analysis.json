@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60851.5",
-    "VAL": "60500.0",
+    "vPOC": "61180.0",
+    "VAL": "60783.2",
     "VAH": "61452.9"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 85,
   "entry": "60830.0",
-  "tp1": "60600.0",
-  "tp2": "60500.0",
-  "stop": "60910.0",
-  "absorption": "vPOC seviyesi olan 60851.5 civarinda pozitif deltaya ragmen fiyatin yukselemedigi, saticilarin alimlari absorbe ettigi (ASK absorption) gozlemlendi.",
-  "dom_observation": "60960.0 seviyesinde 204 kontratlik cok buyuk bir yigilimli satis emri (stacked ask wall) bulunuyor, bu durum guclu bir direnc teskil ediyor.",
-  "reasoning": "Fiyat, negatif seans deltasi ve dusen CVD esliginde vPOC seviyesinden reddedildi ve yukarida buyuk bir satis duvari varken alim denemeleri basarisiz oldu (ASK absorption).",
+  "tp1": "61000.0",
+  "tp2": "61180.0",
+  "stop": "60640.0",
+  "absorption": "Fiyat VAL seviyesinde ve altinda negatif deltaya ragmen dusmuyor, DOM'daki buyuk alim emirleri (bids) satis baskisini absorbe ediyor (BID Absorption).",
+  "dom_observation": "Buyuk yigilmis bid duvarlari (60740-60650 arasi, ozellikle 91 lot 60650'de) agresif satis emirlerini emiyor.",
+  "reasoning": "Fiyatin kilit destek seviyesi olan VAL'de agresif satislari absorbe etmesi ve dusmeyi reddetmesi, alicilarin kontrolu ele aldigini gosteren guclu bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "17:47:17"
+  "timestamp": "17:51:35"
 }
