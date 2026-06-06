@@ -1,5 +1,5 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61490.0",
+  "confidence_score": "85",
+  "entry": "61300.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
   "stop": "61240.0",
-  "absorption": "61300.0 seviyesinde agresif satislar (onceki mumda -679 delta) buyuk pasif alicilar tarafindan emiliyor (BID Absorption), bu da saticilarin gucunun tukendigini gosteriyor.",
-  "dom_observation": "61300.0 fiyat seviyesinde 2128 lotluk buyuk bir pasif alim (stacked bid) duvari bulunuyor ve aktif satislari karsiliyor.",
-  "reasoning": "Agresif satis baskisina ragmen fiyat 61300'deki buyuk alim duvari tarafindan absorbe ediliyor, bu da potansiyel bir dusus tuzagi ve yukari yonlu donus sinyalidir.",
+  "absorption": "Guclu negatif delta (-679) olmasina ragmen fiyat dusmuyor, bu durum 61250-61300 bolgesinde alicilarin satis baskisini absorbe ettigini gosteren net bir BID absorption isaretidir.",
+  "dom_observation": "Fiyat vPOC'nin hemen altinda islem goruyor. Footprint'te gorulen agresif satislar DOM'daki pasif alicilar tarafindan karsilaniyor.",
+  "reasoning": "Agresif satislarin (buyuk negatif delta) fiyati dusurememesi, guclu pasif alici absorpsiyonunu teyit eden ve potansiyel bir yukselis sinyali veren bir tuzak durumudur.",
   "should_trade": "EVET",
-  "timestamp": "09:12:56"
+  "timestamp": "09:17:16"
 }
