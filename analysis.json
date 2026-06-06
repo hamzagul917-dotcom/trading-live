@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61300.0",
-  "tp1": "61200.0",
-  "tp2": "61150.0",
-  "stop": "61380.0",
-  "absorption": "YOK",
-  "dom_observation": "Ask tarafinda likidite birikimi var, vPOC altinda fiyat zayif kaliyor.",
-  "reasoning": "Fiyat, yüksek hacimli vPOC seviyesini aşağı yönlü reddediyor ve güçlü negatif delta ile satıcıların kontrolünde olduğunu teyit ediyor.",
+  "entry": "61310.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61190.0",
+  "absorption": "Guclu negatif deltaya (-699, -679) ragmen fiyatin 61200 seviyesinde dusmemesi, pasif alicilarin agresif satislari absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "Satis baskisi son mumda onemli olcude azaldi (Delta -11). Fiyatin altinda 61300'de likidite destegi goruluyor.",
+  "reasoning": "Iki buyuk satis dalgasinin pasif alicilar tarafindan absorbe edilmesi ve saticilarin tukenmesi, alicilarin kontrolu ele almasi icin bir firsat olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "10:04:14"
+  "timestamp": "10:08:34"
 }
