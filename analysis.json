@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60580.0",
-  "tp1": "60900.0",
-  "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "Guclu alici absorpsiyonu ve agresif alimlar VAL seviyesinde (60562.5) gozlemleniyor. Footprint icinde 28x28 ve 24x29 gibi buyuk takaslar alicilarin kontrolu aldigini gosteriyor.",
-  "dom_observation": "Mevcut fiyatin altinda 60500-60420 arasinda destek olusturan alim emirleri mevcut. Satis tarafinda likidite daha zayif.",
-  "reasoning": "Fiyat, gunluk Deger Alani Alt (VAL) seviyesinde guclu alici tepkisi ve pozitif delta ile karsilasti, bu da dusus denemesinin reddedildigini ve potansiyel bir yukari donus sinyali verdigini gosteriyor.",
+  "confidence_score": "90",
+  "entry": "60570.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60400.0",
+  "absorption": "Value Area Low (VAL) seviyesinde, pozitif delta ve yukselen CVD esliginde guclu BID absorption gozlemleniyor. Saticilarin baskisina ragmen fiyat dusmuyor.",
+  "dom_observation": "Mevcut fiyatin hemen altinda, ozellikle 60500-60420 araliginda, fiyati destekleyen cok guclu bir yigilimli alim (stacked bid) duvari mevcut.",
+  "reasoning": "Fiyat, Deger Alani Dusu'nden (VAL) net bir sekilde reddediliyor ve bu durum guclu alici absorpsiyonu, pozitif CVD uyumsuzlugu ve DOM'daki yigilimli alim emirleri ile destekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "23:47:43"
+  "timestamp": "23:57:23"
 }
