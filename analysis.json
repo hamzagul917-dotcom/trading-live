@@ -7,14 +7,14 @@
     "VAH": "63340.7"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "60890.0",
-  "tp1": "61000.0",
-  "tp2": "61460.0",
-  "stop": "60740.0",
-  "absorption": "Guclu negatif seans deltasina (-16K) ragmen fiyat vPOC seviyesinde tutunuyor, bu durum alicilarin satis baskisini absorbe ettigini gosteriyor (BID absorption).",
-  "dom_observation": "Mevcut fiyatin altinda (60850-60730) kismen yigilmis bid'ler ve ustunde (61000) daha belirgin ask yigilmasi var. Satislarin fiyati dusurememesi dikkat cekici.",
-  "reasoning": "Fiyat, asiri negatif seans deltasina ragmen seans vPOC'sinde guclu BID absorption gosteriyor, bu da saticilarin gucunun tukendigine ve potansiyel bir yukselise isaret ediyor.",
+  "confidence_score": "85",
+  "entry": "60870.0",
+  "tp1": "60950.0",
+  "tp2": "61100.0",
+  "stop": "60640.0",
+  "absorption": "Agresif saticilar (negatif -16K session delta) fiyati vPOC seviyesinde asagi itemiyor, DOM uzerindeki 60780-60730 arasi yigilmis buyuk bid emirleri satis baskisini emiyor (BID absorption).",
+  "dom_observation": "60780 ve altinda fiyatin dususunu engelleyen, surekli yenilenen buyuk bir yigilmis (stacked) bid duvari mevcut.",
+  "reasoning": "Session vPOC seviyesinde, asiri negatif deltaya ragmen fiyatin dusmeyi reddetmesi ve DOM'daki buyuk alici duvarlari, saticilarin tuzaga dustugu bir BID absorption senaryosunu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "02:06:40"
+  "timestamp": "02:11:01"
 }
