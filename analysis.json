@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61280.0",
+  "entry": "61310.0",
   "tp1": "61400.0",
   "tp2": "61452.0",
-  "stop": "61200.0",
-  "absorption": "Fiyatin vPOC seviyesinde tutundugu ve -679 gibi cok guclu bir negatif deltaya ragmen kirilim yapamadigi goruluyor; bu durum agresif saticilarin pasif alicilar tarafindan absorbe edildigini gosteren guclu bir BID absorption sinyalidir.",
-  "dom_observation": "Mevcut fiyatin hemen altinda 61300 seviyesinde 2128 lotluk buyuk bir pasif alim duvari (stacked bid) bulunuyor, bu da asagi yonlu hareketi zorlastiriyor ve absorption tezini destekliyor.",
-  "reasoning": "Agresif saticilarin vPOC'de absorbe edilmesi, satici gucunun tukendigine ve piyasanin deger alaninin ust bandina (VAH) dogru bir rotasyon yapabilecegine isaret ediyor.",
+  "stop": "61270.0",
+  "absorption": "Guclu BID absorption 61300 seviyesinde gozlemleniyor. Negatif deltaya ragmen fiyat dusmuyor, bu da alicilarin satis baskisini emdigini gosteriyor.",
+  "dom_observation": "61300'de 2128 lotluk buyuk bir stacked bid duvari var, bu seviyeyi guclu bir destek yapiyor. Yukarida ise 61400'de 2552 lotluk bir ask duvari direnc olarak bekliyor.",
+  "reasoning": "Fiyat, vPOC ve buyuk bir bid duvarinin oldugu 61300 seviyesinde negatif deltaya ragmen tutunuyor, bu da guclu alici absorpsiyonunu teyit eden bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "03:52:53"
+  "timestamp": "03:57:10"
 }
