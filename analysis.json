@@ -1,5 +1,5 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61240.2",
@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "61240",
-  "tp1": "61100",
-  "tp2": "60750",
-  "stop": "61360",
-  "absorption": "Mevcut mumda pozitif delta (+93) olusmasina ragmen fiyat vPOC seviyesini gecemiyor, bu saticilarin gelen alimlari agresif bir sekilde absorbe ettigini gosteren net bir ASK absorption durumudur.",
-  "dom_observation": "61100 seviyesinde cok buyuk bir stacked bid duvari (3446 lot) potansiyel destek ve ilk kar alma hedefi olarak bekliyor.",
-  "reasoning": "Fiyat, gunluk vPOC direncinde pozitif deltaya ragmen yukselemiyor; bu durum saticilarin alimlari absorbe ettigini ve asagidaki buyuk likiditeye (61100) dogru bir hareket potansiyelini gosteriyor.",
+  "confidence_score": "90",
+  "entry": "61240.0",
+  "tp1": "61100.0",
+  "tp2": "60750.0",
+  "stop": "61350.0",
+  "absorption": "Guclu pozitif delta (+420) olmasina ragmen fiyat vPOC seviyesi olan 61240'i gecemiyor. Bu, alicilarin agresifliginin saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption (satis emilimi) isaretidir.",
+  "dom_observation": "DOM'da 61240-61300 arasinda satici baskisi goruluyor ve anlik alimlar fiyati yukseltemiyor. Asagida 61100'de destek olabilecek bir alim blogu var.",
+  "reasoning": "vPOC direncinde yuksek pozitif deltaya ragmen fiyatin yukselememesi, kurumsal saticilarin alimlari absorbe ettigini gosteriyor ve bu durum dusus potansiyeline isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "11:42:23"
+  "timestamp": "11:46:41"
 }
