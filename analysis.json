@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61200.0",
+    "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61452.3",
-  "stop": "61270.0",
-  "absorption": "Agresif saticilar 61300 seviyesindeki buyuk pasif alim duvarini (2128 lot) kiramiyor, bu bir BID absorption durumudur.",
-  "dom_observation": "61300'de cok buyuk bir stacked bid (2128 lot) var ve saticilarin bu seviyeye vuruslari emiliyor.",
-  "reasoning": "Agresif satis baskisina ragmen fiyat, vPOC altindaki buyuk bid duvari tarafindan absorbe ediliyor, bu da saticilarin tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "tp1": "61200.0",
+  "tp2": "61150.0",
+  "stop": "61380.0",
+  "absorption": "YOK",
+  "dom_observation": "61500 seviyesinde cok buyuk bir stacked ask duvari (1158 lot) var, bu da yukselis potansiyelini sinirliyor. Mevcut fiyatta agresif satislar gozleniyor.",
+  "reasoning": "Guclu negatif seans deltasi (-690) ve dusen CVD ile teyit edilen ayi baskisi altinda, fiyatin vPOC'nin altinda kabul gormesi VAL'a dogru bir dusus hareketini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "06:02:38"
+  "timestamp": "06:18:27"
 }
