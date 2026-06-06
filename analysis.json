@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61300.0",
-  "tp1": "61380.0",
-  "tp2": "61450.0",
-  "stop": "61180.0",
-  "absorption": "Guclu negatif deltaya (-679) ragmen fiyat vPOC seviyesinde dusmeyi basaramiyor, bu da pasif alicilarin satislari absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "Mevcut fiyatta agresif satislar (market sells) var ancak 61300 seviyesindeki bidler bu satislari karsiliyor ve fiyatin dusmesini engelliyor.",
-  "reasoning": "vPOC'de gozlemlenen agresif satislara ragmen fiyatin dusmemesi, guclu bir BID absorption'a isaret ediyor ve potansiyel bir yukari donus sinyali veriyor.",
+  "entry": "61320.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
+  "stop": "61240.0",
+  "absorption": "Saticilarin negatif deltaya ragmen fiyati 61300 seviyesinin altina itememesi, bu bolgede pasif alicilar tarafindan BID absorption oldugunu gosteriyor.",
+  "dom_observation": "61300 seviyesinde buyuk bir yigilimli bid (2128 lot) duvari var ve canli DOM'da satislarin karsilandigi goruluyor.",
+  "reasoning": "Suregelen negatif deltaya ragmen fiyatin vPOC altinda dususe devam edememesi ve 61300 desteginde absorbe edilmesi, satici gucunun tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "09:34:11"
+  "timestamp": "09:38:40"
 }
