@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
-  "stop": "60490.0",
-  "absorption": "Guclu BID absorption 60550-60570 seviyelerinde, VAL'de goruluyor. Pozitif delta (+30) fiyatin dusmesini engelliyor.",
-  "dom_observation": "Alim tarafinda 60500 seviyesinde biriken emirler ve anlik fiyatta alicilarin agresiflesmesi gozlemleniyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif alicilar tarafindan absorbe ediliyor, bu da dusus girisiminin basarisiz oldugunu ve bir yukselis potansiyeli oldugunu gosteriyor.",
+  "tp1": "60900.0",
+  "tp2": "61100.0",
+  "stop": "60440.0",
+  "absorption": "Fiyat VAL seviyesinde (60562.5) ve DOM'da alıcılar (bid) gelen piyasa satışlarını emiyor. Bu net bir BID absorption durumudur.",
+  "dom_observation": "VAL seviyesinde pozitif delta (+30) ile birlikte alıcıların piyasa satışlarını absorbe ettiği görülüyor. 60450 seviyesinde 80 lotluk bir alım duvarı destek oluşturuyor.",
+  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde alıcı absorpsiyonu (BID absorption) gösteriyor ve pozitif delta ile destekleniyor, bu da yukarı yönlü bir rotasyon potansiyeli sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "00:55:36"
+  "timestamp": "01:00:18"
 }
