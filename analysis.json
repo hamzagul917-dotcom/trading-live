@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60800.0",
-    "VAL": "60696.3",
-    "VAH": "61452.3"
+    "VAL": "60700.0",
+    "VAH": "61000.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
   "entry": "60800.0",
-  "tp1": "60972.2",
-  "tp2": "61120.0",
-  "stop": "60686.3",
-  "absorption": "60800.0 seviyesinde -63'luk negatif deltaya ragmen fiyat dusmedi, footprint'te buyuk satis emirleri (72 lot) alicilar tarafindan karsilandi.",
-  "dom_observation": "60730.0 seviyesinden baslayarak asagiya dogru kalin bir stacked bid duvari mevcut, bu da alicilarin bu bolgeyi guclu bir sekilde savundugunu gosteriyor.",
-  "reasoning": "Fiyat, VAL yakininda agresif satislari absorbe ediyor ve DOM'daki kalin alim duvarlariyla destekleniyor, bu da Value Area icinde yukari yonlu bir rotasyon potansiyeli gosteriyor.",
+  "tp1": "60700.0",
+  "tp2": "60606.0",
+  "stop": "60972.2",
+  "absorption": "Mevcut mumda pozitif delta (+63) olmasina ragmen fiyat vPOC (60800.0) seviyesini gecemiyor, bu durum alicilarin pasif saticilar tarafindan absorbe edildigini gosteriyor (ASK absorption).",
+  "dom_observation": "Fiyatin uzerinde, ozellikle 60920.0 seviyesinde kumelelenmis buyuk satis emirleri (stacked asks) alicilar icin bir direnc olusturuyor.",
+  "reasoning": "Agresif alicilar seansin vPOC seviyesinde pasif saticilar tarafindan absorbe ediliyor, bu da alici gucunun tukendigini ve fiyatin araligin alt bandini test etme olasiligini artiriyor.",
   "should_trade": "EVET",
-  "timestamp": "15:56:55"
+  "timestamp": "16:01:17"
 }
