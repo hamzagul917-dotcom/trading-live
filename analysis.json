@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61351.9",
-    "VAL": "60663.4",
+    "vPOC": "61415.9",
+    "VAL": "60667.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "61360.0",
-  "tp1": "61440.0",
-  "tp2": "61500.0",
-  "stop": "61270.0",
-  "absorption": "Footprint uzerinde 61300 seviyesinde (123x20) ve DOM'da asagida yigilmis emirlerde guclu BID absorption gozlemlendi.",
-  "dom_observation": "61300 seviyesinden baslayan cok guclu bir yigilmis alim (stacked bid) duvari var, bu da fiyatin altinda guclu bir pasif alici destegini gosteriyor.",
-  "reasoning": "Fiyat, vPOC seviyesinde tutunurken, footprint'te teyit edilen guclu alici absorpsiyonu ve DOM'daki yigilmis alim duvarlari VAH'a dogru bir rotasyon potansiyeli sunuyor.",
+  "entry": "61430.0",
+  "tp1": "61415.0",
+  "tp2": "61300.0",
+  "stop": "61510.0",
+  "absorption": "VAH seviyesinde (61450 civari) pozitif deltaya ragmen fiyatin yukselemedigi, DOM'da biriken satis emirleri tarafindan alimlarin emildigi goruluyor (ASK Absorption).",
+  "dom_observation": "61450 uzerinde yogun stacked ask emirleri var, alicilarin ilerlemesini engelliyor. Fiyat yukselmeye calistikca satislarla karsilasiyor.",
+  "reasoning": "Fiyat, VAH direncinde pozitif deltaya ragmen ilerleyemiyor; bu durum, DOM'daki buyuk satis duvarlariyla desteklenen bir ASK absorption setup'idir.",
   "should_trade": "EVET",
-  "timestamp": "10:51:12"
+  "timestamp": "10:55:27"
 }
