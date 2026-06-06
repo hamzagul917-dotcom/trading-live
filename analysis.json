@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60570.0",
   "tp1": "61100.0",
-  "tp2": "61450.0",
-  "stop": "60420.0",
-  "absorption": "VAL seviyesinde (60562.5) net BID absorption gozlemleniyor. Footprint'te buyuk alimlar ve pozitife donen delta, saticilarin absorbe edildigini gosteriyor.",
-  "dom_observation": "Fiyatin hemen altinda 60500-60430 arasinda kumeleşmis buyuk bid emirleri (80, 69 lot) destegi guclendiriyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alici absorpsiyonu ve pozitife donen delta ile net bir sekilde reddedilme (rejection) sinyali veriyor.",
+  "tp2": "61452.9",
+  "stop": "60440.0",
+  "absorption": "Fiyat, Value Area Low (VAL) seviyesinde ve hemen altinda saticilari agresif bir sekilde absorbe ediyor (BID absorption), bu durum footprint uzerindeki buyuk alim emirlerinde acikca gorulmektedir.",
+  "dom_observation": "DOM'da 60500 ve altindaki seviyelerde alici yigilmasi (bid) goruluyor. Fiyat bu seviyelere dustugunde negatif delta olusmasina ragmen hizla geri cekiliyor (bid back), bu da alicilarin kontrolu elinde tuttugunu gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de net bir alici absorpsiyonu, pozitif donen delta ve bid back paterni ile guclu bir reddedilme (rejection) sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "23:35:51"
+  "timestamp": "23:41:25"
 }
