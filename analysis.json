@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61240.0",
-  "absorption": "Aggressive sellers (high negative delta in previous candle) failed to break down and are being absorbed by passive buyers at the vPOC.",
-  "dom_observation": "Very large stacked bid wall (2128 lots) at 61300.0 is providing strong support and absorbing selling pressure.",
-  "reasoning": "Aggressive sellers are being absorbed by a large passive bid wall at the session vPOC, indicating a high probability of a rotation back up towards the VAH.",
+  "entry": "61280.0",
+  "tp1": "61400.0",
+  "tp2": "61452.0",
+  "stop": "61200.0",
+  "absorption": "Fiyatin vPOC seviyesinde tutundugu ve -679 gibi cok guclu bir negatif deltaya ragmen kirilim yapamadigi goruluyor; bu durum agresif saticilarin pasif alicilar tarafindan absorbe edildigini gosteren guclu bir BID absorption sinyalidir.",
+  "dom_observation": "Mevcut fiyatin hemen altinda 61300 seviyesinde 2128 lotluk buyuk bir pasif alim duvari (stacked bid) bulunuyor, bu da asagi yonlu hareketi zorlastiriyor ve absorption tezini destekliyor.",
+  "reasoning": "Agresif saticilarin vPOC'de absorbe edilmesi, satici gucunun tukendigine ve piyasanin deger alaninin ust bandina (VAH) dogru bir rotasyon yapabilecegine isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "03:44:44"
+  "timestamp": "03:52:53"
 }
