@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61180.0",
+    "VAL": "61150.0",
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
+  "entry": "61300.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
   "stop": "61240.0",
-  "absorption": "Saticilarin (negatif delta) vPOC seviyesinde agresif satis yapmasina ragmen fiyatin dusmemesi, pasif alicilar tarafindan BID absorption oldugunu gosteriyor.",
-  "dom_observation": "61300 seviyesinde alici destegi ve yukarida 61400'de satici likiditesi goruluyor. Fiyat vPOC'de tutunuyor.",
-  "reasoning": "vPOC'de gozlemlenen belirgin BID absorption, agresif satislara ragmen fiyatin dusmesini engelliyor ve potansiyel bir yukselis sinyali veriyor.",
+  "absorption": "Saticilarin 61300 seviyesindeki buyuk bid duvarini (2128 lot) kirmaya calismasina ragmen fiyatin dusmemesi, guclu bir BID absorption oldugunu gosteriyor.",
+  "dom_observation": "61300'de 2128 lotluk buyuk bir stacked bid duvari var ve saticilar bu seviyeye vurdukca absorbe ediliyor.",
+  "reasoning": "Agresif satis baskisina (negatif delta) ragmen fiyatin 61300'deki buyuk bid duvari tarafindan absorbe edilmesi ve asagi yonlu devam edememesi, alicilarin kontrolu ele aldigini gosteren guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "03:10:55"
+  "timestamp": "03:15:12"
 }
