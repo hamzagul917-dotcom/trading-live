@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61210.0",
+  "entry": "61200.0",
   "tp1": "61400.0",
   "tp2": "61450.0",
   "stop": "61075.0",
-  "absorption": "Guclu BID absorption 61230-61100 arasinda gozlemleniyor. Saticilarin agresif satislarina ragmen fiyat dusmuyor, bu da buyuk pasif alicilarin emirleri emdigini gosteriyor.",
-  "dom_observation": "DOM'da 61200, 61120 ve ozellikle 61100 (3446 lot) seviyelerinde buyuk alim duvarlari (stacked bids) mevcut. Tape'de surekli bid'e satis gelmesine ragmen fiyat tutunuyor.",
-  "reasoning": "vPOC seviyesinin hemen altinda gerceklesen bariz BID absorption, agresif saticilarin tuzaga dustugunu ve piyasanin yukari donme potansiyelinin yuksek oldugunu gosteriyor.",
+  "absorption": "Saticilar 61200-61100 arasindaki tekliflere (bid) agresif bir sekilde satis yapmasina ragmen fiyat dusmuyor; buyuk pasif alicilar satislari absorbe ediyor.",
+  "dom_observation": "61100-61130 arasinda buyuk bir yigilmis alim (stacked bid) duvari goruluyor, bu da guclu bir destek alani olusturuyor.",
+  "reasoning": "Fiyat vPOC'tan reddedildikten sonra dusmesi gerekirken, DOM'da gorulen yogun BID absorption ve buyuk stacked bid'ler dususu engelliyor, bu da alicilarin kontrolu ele aldigini gosteren guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "14:02:29"
+  "timestamp": "14:06:54"
 }
