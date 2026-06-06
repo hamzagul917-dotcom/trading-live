@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.0"
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60690.0",
-  "tp2": "61090.0",
-  "stop": "60480.0",
-  "absorption": "Alicilar, VAL seviyesi olan 60562.5'te satis baskisini absorbe ediyor ve fiyatın daha fazla dusmesini engelliyor.",
-  "dom_observation": "Footprint, VAL seviyesinde (60562.5) alici tarafinda (15x22) belirgin bir dengesizlik gosteriyor, bu da seviyenin aktif olarak savunuldugunu isaret ediyor.",
-  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinden alıcı tepkisiyle karşılaştı, footprint'te alıcı dengesizlikleri ve pozitif delta ile bu tepki teyit edildi, bu da düşük fiyatların reddedildiğini gösteriyor.",
+  "tp1": "60691.1",
+  "tp2": "61100.0",
+  "stop": "60470.0",
+  "absorption": "Alicilar, kilit destek seviyesi olan VAL'de (60562.5) satis baskisini emiyor ve fiyatin daha fazla dusmesini engelliyor.",
+  "dom_observation": "Fiyat VAL seviyesine dustukten sonra alicilarin hizla geri gelmesi (bid back) ve mevcut mumda pozitif delta olusmasi gozlemleniyor.",
+  "reasoning": "VAL seviyesinde gozlemlenen bullish CVD uyumsuzlugu, bid absorption ve bid back, saticilarin gucunu kaybettigini ve alicilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "22:49:25"
+  "timestamp": "22:55:15"
 }
