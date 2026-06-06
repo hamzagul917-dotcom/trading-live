@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60599.3",
-    "VAH": "61452.9"
+    "vPOC": "61452.9",
+    "VAL": "60583.4",
+    "VAH": "N/A"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "61100.0",
+  "confidence_score": 85,
+  "entry": "60630.0",
+  "tp1": "61000.0",
   "tp2": "61450.0",
   "stop": "60490.0",
-  "absorption": "Fiyat, gunluk deger alani alt siniri olan VAL'de agresif satislari absorbe ediyor. Dusen hacim ve footprint'teki alici tepkisi, saticilarin gucunu kaybettigini gosteriyor.",
-  "dom_observation": "60580 seviyesinden baslayarak asagi yonlu birikmis alim emirleri (bid cluster) bulunuyor ve bu emirler satis baskisina karsi fiyatı tutuyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de dusen hacimle birlikte alici absorpsiyonu gosterdigi icin yukselis beklenmektedir.",
+  "absorption": "Fiyat VAL'in altina dustukten sonra agresif saticilar (-17 delta) pasif alicilar tarafindan absorbe ediliyor, fiyat dusmek yerine yukseliyor. Bu bir BID absorption'dur.",
+  "dom_observation": "DOM'da belirgin bir duvar yok, ancak footprint'te VAL seviyesinde alici tepkisi ve saticilarin absorbe edilmesi net bir sekilde goruluyor.",
+  "reasoning": "Fiyat, Deger Alani Alt Seviyesi'nden (VAL) asagi kirilimi basarisiz olup, negatif deltaya ragmen yukselerek alici absorpsiyonu teyit ettigi icin LONG sinyali uretilmistir.",
   "should_trade": "EVET",
-  "timestamp": "20:40:49"
+  "timestamp": "20:45:10"
 }
