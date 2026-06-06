@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61210.0",
+  "entry": "61240.0",
   "tp1": "61400.0",
   "tp2": "61450.0",
-  "stop": "61050.0",
-  "absorption": "Aggressive sellers with high negative delta (-123) were absorbed by passive buyers at the vPOC, preventing a price breakdown.",
-  "dom_observation": "Large stacked bid wall visible below current price, especially at 61100, acting as strong support.",
-  "reasoning": "Aggressive sellers were absorbed at the vPOC, indicating seller exhaustion and a probable rotation up towards the Value Area High.",
+  "stop": "61060.0",
+  "absorption": "Saticilarin vPOC seviyesindeki satislari alicilar tarafindan karsilaniyor ve asagida 61100-61130 arasinda buyuk bir pasif alim duvari (bid wall) bulunuyor.",
+  "dom_observation": "61100-61130 arasi cok guclu stacked bid duvari var. Mevcut fiyatta alicilar agresiflesiyor (pozitif delta).",
+  "reasoning": "Fiyat, vPOC'de saticilarin basarisiz olmasinin ardindan, guclu bir pasif alim duvari ve agresif alicilarin devreye girmesiyle destek buluyor.",
   "should_trade": "EVET",
-  "timestamp": "12:16:59"
+  "timestamp": "12:21:31"
 }
