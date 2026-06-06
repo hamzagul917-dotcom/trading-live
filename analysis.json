@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60972.2",
-    "VAL": "YOK",
-    "VAH": "61452.9"
+    "VAL": "60700.0",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60820.0",
-  "tp1": "60900.0",
-  "tp2": "60972.2",
-  "stop": "60780.0",
-  "absorption": "60811.1 seviyesinde 1200'den fazla kontratlik agresif satisin pasif alicilar tarafindan emilmesi (BID absorption) gozlemlendi.",
-  "dom_observation": "Footprint uzerinde gorulen yogun satisa ragmen DOM'da fiyat asagi yonlu kirilamiyor, bu da alicilarin gucunu teyit ediyor.",
-  "reasoning": "Fiyatin dusmesi gerekirken (Should Trade Test), 60811.1 seviyesindeki devasa BID absorption saticilarin tukendigini ve alicilarin kontrolu ele alabilecegini gosteriyor.",
+  "entry": "60800.0",
+  "tp1": "60972.2",
+  "tp2": "61120.0",
+  "stop": "60606.1",
+  "absorption": "Footprint uzerinde 60800.0 seviyesinde -43 delta'li mumda belirgin BID absorption goruluyor; agresif satislara ragmen fiyat dusmuyor.",
+  "dom_observation": "60710.0 ile 60680.0 arasinda fiyati destekleyen buyuk bir yigilimli alim (stacked bid) duvari mevcut.",
+  "reasoning": "Agresif saticilarin dusuk seviyelerde absorbe edilmesi ve DOM'daki guclu alim duvarinin varligi, vPOC'a dogru bir yukari yonlu rotasyon ihtimalini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "15:40:31"
+  "timestamp": "15:52:35"
 }
