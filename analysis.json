@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
-    "VAH": "61400.0"
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
+  "confidence_score": "75",
+  "entry": "61300.0",
   "tp1": "61400.0",
-  "tp2": "61452.3",
-  "stop": "61270.0",
-  "absorption": "Cok guclu negatif deltaya (-679) ragmen fiyatin dusmemesi, vPOC seviyesinde pasif alicilarin (limit bid) agresif saticilari absorbe ettigini gosteriyor.",
-  "dom_observation": "Mevcut fiyatin altinda kademeli bid destegi gorulurken, VAH seviyesine yaklasan (61380-61400) bolgede ask (satis) emirleri yogunlasiyor.",
-  "reasoning": "Agresif saticilarin vPOC altina itme girisimi, guclu pasif alim (bid absorption) ile karsilandi ve basarisiz oldu; bu durum saticilarin tuzaga dustugunu ve bir yukselis potansiyelini isaret ediyor.",
+  "tp2": "61450.0",
+  "stop": "61240.0",
+  "absorption": "Aggressive sellers are being absorbed by passive buyers around 61300-61280, indicated by decreasing negative delta while price fails to make new lows.",
+  "dom_observation": "Sellers are hitting the bids at 61310-61300 but price is not dropping, indicating bid absorption. Ask side liquidity is heavier above 61400.",
+  "reasoning": "Seller exhaustion and clear bid absorption below the vPOC suggest a high probability of a rotation back up towards the VAH.",
   "should_trade": "EVET",
-  "timestamp": "04:39:08"
+  "timestamp": "04:43:24"
 }
