@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "65",
+  "order_flow_signal": "BUY",
+  "confidence_score": 85,
   "entry": "61310.0",
-  "tp1": "61200.0",
-  "tp2": "61150.0",
-  "stop": "61360.0",
-  "absorption": "YOK",
-  "dom_observation": "Agresif saticilar bid'lere vuruyor, anlik alici destegi zayif, yukarida 61400-61500 seviyelerinde pasif satis baskisi mevcut.",
-  "reasoning": "Fiyat vPOC altinda kabul bulmaya calisiyor, Session Delta ve CVD guclu bir sekilde negatif ve fiyatla uyumlu, bu da dusus momentumunun devam ettigini gosteriyor.",
+  "tp1": "61450.0",
+  "tp2": "61490.0",
+  "stop": "61240.0",
+  "absorption": "61300.0 seviyesinde agresif satislar (onceki mumda -679 delta) buyuk pasif alicilar tarafindan emiliyor (BID Absorption), bu da saticilarin gucunun tukendigini gosteriyor.",
+  "dom_observation": "61300.0 fiyat seviyesinde 2128 lotluk buyuk bir pasif alim (stacked bid) duvari bulunuyor ve aktif satislari karsiliyor.",
+  "reasoning": "Agresif satis baskisina ragmen fiyat 61300'deki buyuk alim duvari tarafindan absorbe ediliyor, bu da potansiyel bir dusus tuzagi ve yukari yonlu donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "09:04:46"
+  "timestamp": "09:12:56"
 }
