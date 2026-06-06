@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "65",
+  "confidence_score": "85",
   "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61240.0",
-  "absorption": "Agresif satis baskisi (-690 Session Delta) vPOC seviyesinde fiyati asagi itemiyor, bu durum alicilarin satislari pasif olarak absorbe ettigini gosteriyor.",
-  "dom_observation": "DOM'da belirgin bir alici veya satici duvari yok, ancak ask tarafindaki likidite bid tarafindan daha kalin gorunuyor. Fiyat vPOC etrafinda islem goruyor.",
-  "reasoning": "Yuksek negatif deltaya ragmen fiyatin vPOC'de tutunmasi, saticilarin gucunu kaybettigini ve alicilarin kontrolu ele alabilecegi bir absorpsiyon durumunu isaret ediyor.",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61280.0",
+  "absorption": "Agresif saticilar (-699 ve -679 delta) 61300 seviyesindeki buyuk pasif alici duvari (2128 lot) tarafindan absorbe ediliyor, fiyat dusmuyor.",
+  "dom_observation": "61300 seviyesinde 2128 lotluk cok buyuk bir stacked bid duvari var ve fiyat bu seviyenin hemen ustunde tutunuyor. Yukarida ise 61400'de 2552 lotluk bir ask duvari direnc olusturuyor.",
+  "reasoning": "Agresif satis baskisina ragmen fiyatin vPOC altindaki buyuk bid duvari tarafindan absorbe edilmesi ve dususe devam edememesi, alicilarin kontrolu ele aldigini gosteren guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "04:51:56"
+  "timestamp": "04:56:11"
 }
