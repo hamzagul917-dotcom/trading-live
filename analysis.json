@@ -6,15 +6,15 @@
     "VAL": "60685.6",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "order_flow_signal": "SELL",
+  "confidence_score": "75",
   "entry": "61240.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61050.0",
-  "absorption": "Guclu BID absorption vPOC seviyesinde gozlemlendi. -123'luk negatif deltaya ragmen fiyat dusmedi ve alicilar 48x10 gibi bir dengesizlikle 61100 seviyesinde satis baskisini emdi.",
-  "dom_observation": "vPOC seviyesinde satislarin karsilanmasi ve alim tarafina gecen pozitif delta. Alt kademelerde (61100 civari) alici kumesi mevcut.",
-  "reasoning": "Fiyat, kilit vPOC seviyesinde agresif satislari absorbe etti ve alicilarin kontrolu ele aldigini gosteren pozitif bir delta ile tepki verdi.",
+  "tp1": "61100.0",
+  "tp2": "60750.0",
+  "stop": "61320.0",
+  "absorption": "Onceki mumda +93 pozitif deltaya ragmen fiyat vPOC seviyesini gecemedi, saticilar alimlari absorbe ediyor (ASK absorption).",
+  "dom_observation": "vPOC'de alici gucsuzlugu gozlemleniyor. Asagida 61100-61130 arasi yigilmis alim emirleri (stacked bids) ilk destek bolgesini olusturuyor.",
+  "reasoning": "Fiyat, vPOC'de pozitif deltaya ragmen yukselemeyerek ASK absorption gosteriyor ve alicilarin devam edememesi (no continuation) short sinyali uretiyor.",
   "should_trade": "EVET",
-  "timestamp": "13:41:27"
+  "timestamp": "13:45:47"
 }
