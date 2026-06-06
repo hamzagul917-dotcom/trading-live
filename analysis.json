@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61190.0",
-  "absorption": "Guclu negatif deltaya (-699, -679) ragmen fiyatin 61200 seviyesinde dusmemesi, pasif alicilarin agresif satislari absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "Satis baskisi son mumda onemli olcude azaldi (Delta -11). Fiyatin altinda 61300'de likidite destegi goruluyor.",
-  "reasoning": "Iki buyuk satis dalgasinin pasif alicilar tarafindan absorbe edilmesi ve saticilarin tukenmesi, alicilarin kontrolu ele almasi icin bir firsat olusturuyor.",
+  "confidence_score": "75",
+  "entry": "61300.0",
+  "tp1": "61400.0",
+  "tp2": "61452.0",
+  "stop": "61240.0",
+  "absorption": "Guclu negatif deltaya (-70, -21) ragmen fiyatin 61300-61250 bolgesinde dusmemesi, agresif saticilarin pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
+  "dom_observation": "DOM'da 61300 ve altindaki seviyelerde market satis emirleri (12, 16, 14, 22 lot) karsilaniyor ancak fiyat kirilamiyor. Bu, alicilarin seviyeyi savundugunu gosterir.",
+  "reasoning": "Agresif saticilarin vPOC altinda pasif alicilar tarafindan absorbe edilmesi, dusus momentumunun tukendigini ve bir yukari donus potansiyeli oldugunu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "10:08:34"
+  "timestamp": "10:12:58"
 }
