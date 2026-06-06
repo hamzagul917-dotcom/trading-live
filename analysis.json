@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61150.0",
-    "VAH": "61452.3"
+    "VAL": "61200.0",
+    "VAH": "61450.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "61300.0",
-  "tp1": "61380.0",
-  "tp2": "61450.0",
+  "confidence_score": "85",
+  "entry": "61320.0",
+  "tp1": "61450.0",
+  "tp2": "61500.0",
   "stop": "61240.0",
-  "absorption": "Significant negative session delta (-690) is being absorbed by passive buyers just below the vPOC, preventing further price decline.",
-  "dom_observation": "No large stacked bids are visible, but offers are heavy above 61450, defining the upper boundary. Current price action is light.",
-  "reasoning": "Passive BID absorption is occurring below the vPOC despite strong negative session delta, indicating sellers are being trapped and a potential rotation upwards is likely.",
+  "absorption": "Sellers are hitting the bids around the vPOC (61310-61320), but the price is not breaking down despite consistent negative delta, indicating strong passive buyers (BID absorption).",
+  "dom_observation": "Significant ask liquidity sits above 61400. Bids are holding firm around 61300 despite selling pressure.",
+  "reasoning": "Fiyat, vPOC seviyesinde negatif deltaya ragmen dusmeyi basaramiyor; bu durum saticilarin pasif alicilar tarafindan absorbe edildigini gosteren guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "09:46:53"
+  "timestamp": "09:51:14"
 }
