@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
-    "VAL": "60570.8",
+    "VAL": "60691.0",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60580.0",
-  "tp1": "60697.3",
-  "tp2": "61100.0",
-  "stop": "60480.0",
-  "absorption": "Saticilar VAL (60570.8) seviyesini agresif bir sekilde satmasina ragmen, alicilar tum satislari absorbe ediyor ve mevcut mumda delta pozitife donuyor. Bu guclu bir BID absorption gostergesidir.",
-  "dom_observation": "DOM'da fiyat altinda likidite birikimi var ve anlik olarak alicilar satis baskisini karsiliyor, fiyat dusmuyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor, bu da saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren bir donus sinyalidir.",
+  "entry": "60691.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60450.0",
+  "absorption": "Aggressive sellers were absorbed by passive buyers below VAL (~60500), causing a price rejection of the lows.",
+  "dom_observation": "Significant stacked bid wall visible below current price, supporting the absorption thesis. Ask side is comparatively thin.",
+  "reasoning": "Price is showing rejection of lows with clear BID absorption at the key VAL support level, indicating seller exhaustion and a potential rotation up.",
   "should_trade": "EVET",
-  "timestamp": "18:41:44"
+  "timestamp": "18:46:04"
 }
