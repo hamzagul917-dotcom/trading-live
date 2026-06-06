@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61452.9",
+    "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61850.0"
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "61450.0",
-  "tp2": "61850.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
   "stop": "60490.0",
-  "absorption": "VAL seviyesi yakinlarinda (60550-60500) satıcılarin agresif satislarina ragmen fiyatın dusmemesi ve alicilarin bu satislari karsilamasi (BID absorption).",
-  "dom_observation": "Mevcut fiyatin altinda katmanli BID emirleri (destek) gorulurken, ust taraftaki ASK emirleri (direnc) daha zayif.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alıcı absorpsiyonu ve pozitif deltaya dönen emir akışı ile reddedildi, bu da bir long setup oluşturuyor.",
+  "absorption": "VAL seviyesinde (60562.5) alıcılar tarafından yapılan BID absorption gozlemleniyor. Pozitif delta ve yukselen CVD bunu dogruluyor.",
+  "dom_observation": "Fiyat VAL'de tutunurken, CVD yukseliyor ve son mumlarda pozitif delta hakim. Bu, alicilarin seviyeyi savundugunu gosteriyor.",
+  "reasoning": "Fiyat, kilit destek olan VAL seviyesinde alıcı absorpsiyonu ve belirgin bir boğasal CVD ayrışması (bullish divergence) göstererek net bir long sinyali oluşturmaktadır.",
   "should_trade": "EVET",
-  "timestamp": "01:17:25"
+  "timestamp": "01:21:59"
 }
