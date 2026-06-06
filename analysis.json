@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "60972.2",
-    "VAL": "YOK",
+    "VAL": "60700.7",
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "60970.0",
+  "confidence_score": "75",
+  "entry": "60940.0",
   "tp1": "60800.0",
   "tp2": "60700.0",
-  "stop": "61050.0",
-  "absorption": "61000-61030 seviyelerinde yogun stacked ask duvarlari alimlari absorbe ediyor. Pozitif deltaya ragmen fiyatin yukselmekte zorlanmasi satici gucunu gosteriyor.",
-  "dom_observation": "61000-61030 arasinda 30-65 lot arasinda degisen buyuk bir satici (ask) duvari mevcut. Bu seviyeler guclu direnc olusturuyor.",
-  "reasoning": "Fiyat, genel bear trend icinde vPOC direncine dogru zayif bir geri cekilme yapiyor ve DOM'da gorulen buyuk satici duvari tarafindan absorbe ediliyor.",
+  "stop": "61000.0",
+  "absorption": "YOK",
+  "dom_observation": "DOM, anlik satis baskisinin devam ettigini ve yukarida satici likiditesinin bulundugunu gosteriyor; guclu bir alici destegi gorunmuyor.",
+  "reasoning": "Fiyat, negatif delta ve dusen CVD esliginde gunluk POC'nin altinda deger kabul ediyor, bu da dusus trendinin devam etme olasiligini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "16:40:03"
+  "timestamp": "16:52:01"
 }
