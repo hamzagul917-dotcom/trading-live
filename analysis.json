@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61240.2",
@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "61240.0",
   "tp1": "61100.0",
   "tp2": "60750.0",
   "stop": "61350.0",
-  "absorption": "Pozitif delta (+93) olmasina ragmen fiyat vPOC (61240.2) seviyesini gecemiyor, bu durum alicilarin pasif saticilar tarafindan absorbe edildigini gosteren net bir ASK absorption'dur.",
-  "dom_observation": "Mevcut fiyatin hemen ustunde saticilar aktif, asagida ise 61100 civarinda buyuk bir alim duvari (bid wall) potansiyel hedef olarak gorunuyor.",
-  "reasoning": "Fiyat, kilit vPOC seviyesinde yukselen deltaya ragmen ilerleyemiyor; bu durum, alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteren guclu bir ASK absorption sinyalidir.",
+  "absorption": "Pozitif delta (+93) olmasina ragmen fiyatin vPOC seviyesinde yukselememesi, saticilarin gelen alimlari agresif bir sekilde absorbe ettigini gosteriyor (ASK Absorption).",
+  "dom_observation": "vPOC seviyesinde alicilarin agresiflesmesine ragmen (pozitif delta) fiyat ilerleyemiyor. Satici likiditesi (ask) alimlari emiyor. Asagida 61100'de alici destegi gorunuyor.",
+  "reasoning": "Fiyat, kilit seviye olan vPOC'de pozitif deltaya ragmen yukselmeyi basaramiyor; bu durum, kurumsal saticilarin alimlari absorbe ettigini ve dusus potansiyelini isaret eden net bir ASK absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "11:51:04"
+  "timestamp": "11:55:24"
 }
