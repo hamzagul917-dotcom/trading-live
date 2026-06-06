@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.9"
+    "VAH": "61452.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60900.0",
-  "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "VAL seviyesinde (60562.5) agresif satislarin pasif alicilar tarafindan emildigi gozlemleniyor (BID Absorption).",
-  "dom_observation": "Fiyat VAL'de tutunurken, CVD yukseliyor ve DOM'da satislarin fiyati dusuremedigi goruluyor, bu da alicilarin gucunu gosteriyor.",
-  "reasoning": "Fiyat VAL destegindeyken, yukselen CVD (bullish divergence) ve belirgin BID absorption, yukari yonlu bir rotasyon potansiyeli sunuyor.",
+  "tp1": "61100.0",
+  "tp2": "61452.0",
+  "stop": "60470.0",
+  "absorption": "Footprint'te 60500-60520 seviyelerinde ve VAL yakininda alici absorpsiyonu gozlendi.",
+  "dom_observation": "Fiyat VAL'den sekerken DOM'da alicilarin agresiflestigi ve bid tarafinin guclendigi goruluyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den pozitif delta, CVD yukselisi ve footprint'teki alici absorpsiyonu ile guclu bir sekilde reddedildi.",
   "should_trade": "EVET",
-  "timestamp": "23:13:21"
+  "timestamp": "23:20:54"
 }
