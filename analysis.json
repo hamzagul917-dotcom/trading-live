@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61452.9",
-    "VAL": "60721.2",
-    "VAH": "YOK"
+    "vPOC": "61100.0",
+    "VAL": "60731.1",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
+  "confidence_score": "85",
   "entry": "60730.0",
-  "tp1": "60900.0",
+  "tp1": "61100.0",
   "tp2": "61450.0",
   "stop": "60490.0",
-  "absorption": "Saticilar 60730.0 seviyesinde 46 lot satmasina ragmen fiyat dusmuyor, VAL seviyesinde potansiyel BID absorption gozleniyor.",
-  "dom_observation": "60730.0 seviyesinde 46 lotluk satis emri karsilandi. Asagida 60620-60580 arasi yigilmis alim emirleri (stacked bids) destegi gosteriyor.",
-  "reasoning": "Fiyat, gunluk deger alani alt siniri (VAL) seviyesinde saticilari absorbe ediyor ve dusmeyi reddediyor, bu da potansiyel bir yukari donus (rejection) sinyalidir.",
+  "absorption": "BID absorption at VAL. Negative delta is failing to push the price lower, indicating passive buyers are absorbing the selling pressure.",
+  "dom_observation": "Sellers are active but price is holding at VAL. Bids are present below, while significant offers are stacked higher up around 60800-60870.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de negatif deltaya ragmen dusmeyi basaramiyor, bu da guclu pasif alici absorpsiyonunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "21:11:24"
+  "timestamp": "21:15:45"
 }
