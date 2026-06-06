@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61150.0",
+    "VAL": "61180.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61270.0",
-  "absorption": "Saticilarin 61300 seviyesindeki buyuk pasif alici duvarina satis yapmasina ragmen fiyatin dusmemesi, net bir BID absorption gostergesi.",
-  "dom_observation": "61300 seviyesinde 2128 lotluk buyuk bir bid duvari fiyati destekliyor, satici gucunun tukendigini gosteren dusuk negatif delta ile birlesiyor.",
-  "reasoning": "Fiyat, vPOC altinda satici tukenmisligi ve 61300'deki buyuk bid duvarinda gerceklesen BID absorption nedeniyle yukselis potansiyeli tasiyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "75",
+  "entry": "61300.0",
+  "tp1": "61180.0",
+  "tp2": "61100.0",
+  "stop": "61360.0",
+  "absorption": "YOK",
+  "dom_observation": "Satici baskisi vPOC altinda devam ediyor, yukarida daha buyuk ask bloklari var.",
+  "reasoning": "Fiyat, negatif delta ve dusen CVD esliginde vPOC seviyesini asagi yonlu kirarak satis inisiyatifi gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "05:32:58"
+  "timestamp": "05:37:14"
 }
