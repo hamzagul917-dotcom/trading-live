@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61150.0",
+    "VAL": "61200.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61190.0",
-  "absorption": "Guclu negatif deltaya ragmen (onceki mumlarda -699, -679) fiyatin dususu yavasladi ve 61300 seviyesinde tutunuyor. Bu, agresif saticilarin pasif alicilar tarafindan emildigini gosteren bir BID absorption durumudur.",
-  "dom_observation": "Smart DOM'da 61300.0 seviyesinde 2128 lotluk cok buyuk bir stacked bid duvari var, bu da fiyatin dusmesini engelleyen kurumsal bir destek bolgesi oldugunu teyit ediyor.",
-  "reasoning": "Fiyat, yuksek negatif deltaya ragmen VAL yakinindaki buyuk bir BID duvarinda absorbe ediliyor, bu da potansiyel bir yukari donus sinyalidir.",
-  "should_trade": "HAYIR",
-  "timestamp": "05:45:50"
+  "order_flow_signal": "SELL",
+  "confidence_score": "70",
+  "entry": "61300.0",
+  "tp1": "61200.0",
+  "tp2": "61150.0",
+  "stop": "61360.0",
+  "absorption": "YOK",
+  "dom_observation": "61400 ve 61500 seviyelerinde buyuk stacked ask duvarlari satici baskisini gosteriyor.",
+  "reasoning": "Agresif negatif session delta (-690) ve dusen CVD, fiyatin vPOC altinda kabul gormesiyle birleserek VAL'a dogru bir hareket potansiyeli yaratiyor.",
+  "should_trade": "EVET",
+  "timestamp": "05:50:13"
 }
