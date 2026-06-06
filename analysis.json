@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60972.2",
-    "VAL": "60700.0",
+    "vPOC": "60800.0",
+    "VAL": "60696.3",
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "60800.0",
   "tp1": "60972.2",
   "tp2": "61120.0",
-  "stop": "60606.1",
-  "absorption": "Footprint uzerinde 60800.0 seviyesinde -43 delta'li mumda belirgin BID absorption goruluyor; agresif satislara ragmen fiyat dusmuyor.",
-  "dom_observation": "60710.0 ile 60680.0 arasinda fiyati destekleyen buyuk bir yigilimli alim (stacked bid) duvari mevcut.",
-  "reasoning": "Agresif saticilarin dusuk seviyelerde absorbe edilmesi ve DOM'daki guclu alim duvarinin varligi, vPOC'a dogru bir yukari yonlu rotasyon ihtimalini guclendiriyor.",
+  "stop": "60686.3",
+  "absorption": "60800.0 seviyesinde -63'luk negatif deltaya ragmen fiyat dusmedi, footprint'te buyuk satis emirleri (72 lot) alicilar tarafindan karsilandi.",
+  "dom_observation": "60730.0 seviyesinden baslayarak asagiya dogru kalin bir stacked bid duvari mevcut, bu da alicilarin bu bolgeyi guclu bir sekilde savundugunu gosteriyor.",
+  "reasoning": "Fiyat, VAL yakininda agresif satislari absorbe ediyor ve DOM'daki kalin alim duvarlariyla destekleniyor, bu da Value Area icinde yukari yonlu bir rotasyon potansiyeli gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "15:52:35"
+  "timestamp": "15:56:55"
 }
