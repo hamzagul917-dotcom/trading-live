@@ -1,10 +1,10 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61452.9",
-    "VAL": "60611.2",
-    "VAH": "62400.0"
+    "VAL": "60559.2",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
@@ -12,9 +12,9 @@
   "tp1": "60900.0",
   "tp2": "61450.0",
   "stop": "60450.0",
-  "absorption": "Agresif saticilar VAL seviyesindeki (60611.2) tekliflere (bid) vursa da fiyat kirilim yapamiyor, bu da pasif alicilarin satislari emdigini (BID absorption) gosteriyor.",
-  "dom_observation": "60600 seviyesindeki bid'ler satis baskisina ragmen tutunuyor. Asagida 60530-60490 arasinda birikmis bid'ler potansiyel destek olusturuyor. Yukarida 60730'da onemli bir ask duvari var.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve dusuk hacimle asagi kirilimi basaramiyor, bu da satici gucunun tukendigini ve potansiyel bir yukselis sinyali oldugunu gosteriyor.",
+  "absorption": "Footprint grafiginde VAL seviyesinin hemen altinda (60540-60530) agresif satislarin (14x24, 23x25) pasif alicilar tarafindan emildigi net bir BID absorption goruluyor.",
+  "dom_observation": "Mevcut fiyatin altinda kuclu bir duvar olmasa da, destek olusturan kume halinde bid emirleri mevcut. Ust taraftaki ask likiditesi daha zayif.",
+  "reasoning": "Saticilarin VAL seviyesini kirmak icin gosterdiği agresif caba, guclu pasif alim (BID absorption) ile karsilandi ve satis momentumu tukendi, bu da vPOC'a dogru bir rotasyon icin yuksek olasilikli bir long firsati sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "20:58:13"
+  "timestamp": "21:02:36"
 }
