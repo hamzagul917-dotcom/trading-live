@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61240.2",
-    "VAL": "60685.6",
-    "VAH": "61452.3"
+    "vPOC": "60840.0",
+    "VAL": "YOK",
+    "VAH": "YOK"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "61200.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61075.0",
-  "absorption": "Saticilar 61200-61100 arasindaki tekliflere (bid) agresif bir sekilde satis yapmasina ragmen fiyat dusmuyor; buyuk pasif alicilar satislari absorbe ediyor.",
-  "dom_observation": "61100-61130 arasinda buyuk bir yigilmis alim (stacked bid) duvari goruluyor, bu da guclu bir destek alani olusturuyor.",
-  "reasoning": "Fiyat vPOC'tan reddedildikten sonra dusmesi gerekirken, DOM'da gorulen yogun BID absorption ve buyuk stacked bid'ler dususu engelliyor, bu da alicilarin kontrolu ele aldigini gosteren guclu bir long sinyalidir.",
+  "entry": "61060.0",
+  "tp1": "60840.0",
+  "tp2": "60700.0",
+  "stop": "61120.0",
+  "absorption": "Agresif piyasa alimlari (61063.6'da 83 lot) yerel tepede pasif saticilar tarafindan emiliyor ve pozitif deltaya ragmen fiyatin duraksamasina neden oluyor.",
+  "dom_observation": "Yuksek seviyelerde (ozellikle 61230.0'da 1245 lot) buyuk pasif satis emirleri yigilmis durumda, bu da satici baskisini teyit ediyor.",
+  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen yukari yonlu devam edemiyor; bu durum, agresif alicilarin pasif saticilar tarafindan absorbe edildigini gosteren klasik bir ASK absorption setup'idir.",
   "should_trade": "EVET",
-  "timestamp": "14:06:54"
+  "timestamp": "14:11:18"
 }
