@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60879.6",
+    "vPOC": "60880.0",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "90",
+  "confidence_score": "85",
   "entry": "60880.0",
-  "tp1": "60700.0",
-  "tp2": "60500.0",
-  "stop": "60950.0",
-  "absorption": "vPOC seviyesi olan 60880 civarinda, pozitif deltaya ve agresif alimlara (footprint'te 325 lot) ragmen fiyatin yukselemedigi net bir ASK absorption (satis emilimi) gozlemleniyor.",
-  "dom_observation": "60880 seviyesinde pasif saticilar piyasa alicilarini emiyor ve hemen ustte 60900 seviyesinde bekleyen 2751 lotluk bir satis blogu bu direnci guclendiriyor.",
-  "reasoning": "Fiyat, kilit vPOC seviyesinde pozitif deltaya ragmen yukselmeyi basaramiyor, bu da alicilari absorbe eden guclu pasif saticilari (ASK absorption) gosteren net bir zayiflik isaretidir.",
+  "tp1": "60600.0",
+  "tp2": "60450.0",
+  "stop": "61100.0",
+  "absorption": "ASK absorption goruldu, +1K delta ile gelen alimlar 60900-61000 seviyesindeki saticilar tarafindan emildi ve fiyat yukselemedi.",
+  "dom_observation": "60900'den 61010'a kadar cok buyuk bir stacked ask duvari (direnc) bulunuyor, alici tarafi (bid) ise goreceli olarak zayif.",
+  "reasoning": "Guclu negatif seans deltasi, dusen CVD ve buyuk bir ask duvarina karsi basarisiz olan alim girisimi (absorption), dusus yonlu hareketin devam etme olasiligini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "03:02:21"
+  "timestamp": "03:06:39"
 }
