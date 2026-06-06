@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61452.9",
-    "VAL": "60541.7",
+    "vPOC": "61100.0",
+    "VAL": "60440.0",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60560.0",
-  "tp1": "60696.3",
+  "entry": "60450.0",
+  "tp1": "60700.0",
   "tp2": "61100.0",
-  "stop": "60440.0",
-  "absorption": "Alıcılar, Değer Alanı Düşük (VAL) seviyesinde satıcıları absorbe ediyor. Düşüş sonrası gelen pozitif delta mumları fiyatın daha fazla düşmesini engelliyor.",
-  "dom_observation": "Mevcut fiyatın altında 60500 ve 60400 seviyelerinde büyük yığılmış alım (bid) emirleri destek oluşturuyor, bu da alıcıların bölgeyi savunma niyetini gösteriyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'ı test ediyor ve alıcılar pozitif delta ve DOM'daki yığılmış emirlerle bu seviyeyi savunarak potansiyel bir geri dönüş sinyali veriyor.",
+  "stop": "60350.0",
+  "absorption": "Guclu BID absorption VAL seviyesinde (60440.0) gozlemleniyor. Yuksek negatif deltaya (-74) ragmen fiyat dusmuyor.",
+  "dom_observation": "60400.0 seviyesinden baslayan buyuk bir stacked bid duvari (3489 lot) alici destegini dogruluyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve altindaki buyuk bid duvari donus potansiyelini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "20:07:13"
+  "timestamp": "20:11:31"
 }
