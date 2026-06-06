@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
-    "VAH": "61452.3"
+    "VAH": "61400.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
+  "entry": "61300.0",
   "tp1": "61400.0",
   "tp2": "61450.0",
-  "stop": "61249.0",
-  "absorption": "Saticilarin 61300 seviyesindeki buyuk pasif alim duvarini (2128 lot) delemedigi, belirgin bir BID absorption gozlemleniyor.",
-  "dom_observation": "61300'de cok buyuk bir stacked bid duvari (2128 lot) var ve saticilarin baskisina ragmen fiyat bu seviyede tutunuyor.",
-  "reasoning": "Fiyat, negatif deltaya ragmen 61300'deki devasa alim duvarinda absorbe ediliyor, bu da saticilarin gucunun tukendigini ve yukari yonlu bir rotasyon potansiyelini gosteriyor.",
+  "stop": "61190.0",
+  "absorption": "Onceki mumda dusuk seviyelerde (-70 delta) agresif satislarin pasif alicilar tarafindan emilmesi (BID absorption) gozlendi, fiyat dususe devam edemedi.",
+  "dom_observation": "DOM'da yakin seviyelerde guclu bir duvar yok, ancak 61450'de 58 lotluk bir satis blogu direnc olusturabilir.",
+  "reasoning": "Fiyat, negatif deltaya ragmen dusuk seviyelerden hizli bir sekilde geri dondu, bu da saticilarin absorbe edildigini ve alicilarin kontrolu ele aldigini gosteren bir basarisiz satis girisimidir.",
   "should_trade": "EVET",
-  "timestamp": "10:38:11"
+  "timestamp": "10:42:27"
 }
