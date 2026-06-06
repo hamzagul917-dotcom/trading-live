@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61200.0",
+    "VAL": "61180.0",
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "70",
-  "entry": "61280.0",
-  "tp1": "61311.8",
-  "tp2": "61452.3",
-  "stop": "61190.0",
-  "absorption": "Footprint'te 61200.0 (VAL) seviyesinde alıcıların satışı absorbe ettiği görülüyor (33 bid vs 20 ask), fiyatın düşüşünü yavaşlatıyor.",
-  "dom_observation": "Mevcut fiyatın hemen üzerinde daha fazla likidite (ask) var, ancak VAL seviyesinde alıcılar aktif olarak savunma yapıyor.",
-  "reasoning": "Fiyat, negatif deltaya rağmen Değer Alanı Düşük (VAL) seviyesini kıramıyor ve bu bölgede alıcı absorpsiyonu gözlemleniyor, bu da potansiyel bir yukarı dönüşe işaret ediyor.",
+  "confidence_score": "85",
+  "entry": "61305.0",
+  "tp1": "61420.0",
+  "tp2": "61452.0",
+  "stop": "61250.0",
+  "absorption": "Saticilar vPOC seviyesine agresif satis yapmasina ragmen (negatif delta), fiyat dusmuyor. Bu durum, alicilarin satislari absorbe ettigini gosteren guclu bir BID absorption isaretidir.",
+  "dom_observation": "Mevcut fiyatin altinda katmanli pasif alicilar (stacked bids) var ve anlik satis baskisi emiliyor. Ust tarafta 61311'de bir miktar satis emri gorunuyor.",
+  "reasoning": "vPOC destek seviyesinde gozlemlenen net BID absorption, satıcıların tuzağa düşme ve fiyatın yukarı dönme ihtimalini artırıyor.",
   "should_trade": "EVET",
-  "timestamp": "07:04:04"
+  "timestamp": "07:08:21"
 }
