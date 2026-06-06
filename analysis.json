@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60879.6",
     "VAL": "YOK",
     "VAH": "63340.7"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "order_flow_signal": "BUY",
+  "confidence_score": 90,
   "entry": "60880.0",
-  "tp1": "60600.0",
-  "tp2": "60400.0",
-  "stop": "61100.0",
-  "absorption": "Fiyat vPOC seviyesine yaklasirken pozitif deltaya ragmen yukselemiyor. 60900.0 ve uzerindeki buyuk stacked ask duvarlari alimlari absorbe ediyor.",
-  "dom_observation": "60900.0 seviyesinden baslayarak yukari yonlu cok buyuk bir stacked ask duvari (satis baskisi) mevcut. Alt taraftaki bid'ler (alis destegi) cok daha zayif.",
-  "reasoning": "Fiyat, vPOC seviyesinde agresif alicilari (pozitif delta) absorbe eden buyuk pasif saticilarla (stacked asks) karsilasiyor, bu da yukselisin devam edemeyecegini ve dusus potansiyelini gosteriyor.",
+  "tp1": "60990.0",
+  "tp2": "61100.0",
+  "stop": "60749.0",
+  "absorption": "Asiri negatif session delta (-16K) ve buyuk satis mumlarina ragmen fiyat vPOC seviyesinde dusmeyi basaramiyor. Bu durum, agresif saticilarin guclu pasif alicilar tarafindan absorbe edildigini gosteriyor.",
+  "dom_observation": "DOM'da asagi yonlu agresif satislara ragmen (kirmizi kutular) fiyat seviyesi korunuyor ve alt kademelerde (60850-60730) alim emirleri (bid) bekliyor. 60900'de 98 lotluk bir satis emri ilk direnc noktasi.",
+  "reasoning": "Fiyat, asiri negatif deltaya ragmen vPOC seviyesinde dusmeyi basaramiyor, bu da guclu pasif alicilarin agresif satislari absorbe ettigini gosteren net bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "02:53:39"
+  "timestamp": "02:58:03"
 }
