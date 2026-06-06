@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60691.0",
-    "VAH": "61452.9"
+    "vPOC": "61452.9",
+    "VAL": "60793.8",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": "70",
   "entry": "60691.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
+  "tp1": "60793.8",
+  "tp2": "61100.0",
   "stop": "60450.0",
-  "absorption": "Aggressive sellers were absorbed by passive buyers below VAL (~60500), causing a price rejection of the lows.",
-  "dom_observation": "Significant stacked bid wall visible below current price, supporting the absorption thesis. Ask side is comparatively thin.",
-  "reasoning": "Price is showing rejection of lows with clear BID absorption at the key VAL support level, indicating seller exhaustion and a potential rotation up.",
+  "absorption": "Fiyat VAL'in altina dustukten sonra, footprint'te dusuk seviyelerde (60500 civari) buyuk alimlarin (146x15) market satislarini karsiladigi ve fiyatin hizla geri dondugu bir BID absorption gozlemlendi.",
+  "dom_observation": "DOM'da anlik olarak belirgin bir duvar olmasa da, footprint'teki pozitif delta ve dusuk seviyelerdeki alimlar alici gucunu gosteriyor.",
+  "reasoning": "Fiyatın VAL altına kırılımı başarısız oldu (failed breakdown), alıcıların düşük seviyeleri agresif bir şekilde absorbe etmesiyle bir 'look below and fail' (Rejection) paterni oluşuyor.",
   "should_trade": "EVET",
-  "timestamp": "18:46:04"
+  "timestamp": "18:50:27"
 }
