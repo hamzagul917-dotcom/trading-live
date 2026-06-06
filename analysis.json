@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61014.0",
-    "VAL": "60696.9",
+    "vPOC": "60938.0",
+    "VAL": "YOK",
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60890.0",
-  "tp1": "60750.0",
-  "tp2": "60700.0",
-  "stop": "60970.0",
-  "absorption": "60900 seviyesinde yuksek pozitif deltaya (+227) ragmen fiyatin ilerleyememesi, agresif alicilarin pasif saticilar tarafindan emildigini gosteren guclu bir ASK absorption'dur.",
-  "dom_observation": "Footprint'te +227 gibi cok guclu bir delta olusurken, DOM'da fiyat 60900 uzerindeki satis kademelerinde takiliyor ve yukari yonlu devamlılık saglanamiyor.",
-  "reasoning": "Yuksek pozitif deltaya ragmen fiyatin ilerleyememesi, alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteren klasik bir absorpsiyon/tukenme (exhaustion) setup'idir.",
+  "entry": "60930.0",
+  "tp1": "60800.0",
+  "tp2": "60697.3",
+  "stop": "61010.0",
+  "absorption": "Yuksek pozitif delta (+231) ile gelen alim girisimi 61000 seviyesinde saticilar tarafindan tamamen absorbe edildi.",
+  "dom_observation": "Alicilarin yukari yonlu momentumu surdurememesi ve ardindan gelen satis baskisi satici gucunu teyit ediyor.",
+  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen yukselemeyip 61000 seviyesinden sert bir sekilde reddedildi; bu durum, saticilarin alicilari absorbe ettigini ve kontrolu ele aldigini gosteren guclu bir short sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "16:05:44"
+  "timestamp": "16:10:07"
 }
