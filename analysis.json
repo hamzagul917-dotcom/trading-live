@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "60692.2",
-    "VAL": "60539.3",
-    "VAH": "61452.9"
+    "vPOC": "61100.0",
+    "VAL": "60570.8",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60560.0",
-  "tp1": "60690.0",
-  "tp2": "60800.0",
-  "stop": "60470.0",
-  "absorption": "Fiyatin VAL seviyesinde agresif satislari emmesi (BID absorption) gozlemleniyor, saticilarin gucu tukeniyor.",
-  "dom_observation": "60500-60550 bolgesinde alicilarin satis baskisini karsiladigi ve fiyatin dusmesini engelledigi goruluyor. Yukaridaki anlik likidite daha zayif.",
-  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) agresif satislari absorbe ediyor ve dusmeyi reddediyor, bu da alicilarin kontrolu ele aldigini gosteren guclu bir donus sinyalidir.",
+  "entry": "60580.0",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60500.0",
+  "absorption": "60540-60570 araliginda saticilarin (market sell) pasif alicilar tarafindan emildigi (BID absorption) gozlemleniyor.",
+  "dom_observation": "Mevcut fiyatin altinda 60500 ve 60400 seviyelerinde destek olusturan bid yigilmalari var. Ust tarafta ise 60700'den baslayan direnc mevcut.",
+  "reasoning": "Fiyat, VAL seviyesinde pozitif delta ve CVD destegiyle birlikte net bir BID absorption gostererek deger alanina geri kabul edilme (acceptance) sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "21:41:31"
+  "timestamp": "21:45:50"
 }
