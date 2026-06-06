@@ -1,5 +1,5 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
+  "confidence_score": "85",
   "entry": "60570.0",
   "tp1": "61100.0",
-  "tp2": "61452.9",
-  "stop": "60410.0",
-  "absorption": "VAL seviyesinde (60562.5) ve altinda yogun BID absorption gozlemleniyor. Saticilarin agresif satislarina ragmen fiyat dusmuyor.",
-  "dom_observation": "60500.0 seviyesinden asagiya dogru buyuk bir stacked bid duvari mevcut, alicilarin bu bolgeyi savundugunu gosteriyor.",
-  "reasoning": "Fiyat, VAL desteginde yogun alici absorpsiyonu, buyuk yigilimli bid'ler ve hafif CVD uyusmazligi ile karsilastigi icin yukselis beklenmektedir.",
+  "tp2": "61450.0",
+  "stop": "60420.0",
+  "absorption": "Fiyat VAL seviyesinde ve altinda (60450-60550 arasi) gelen agresif satis emirlerini (DOM'da gorulen yuksek Sells sutunu) absorbe ediyor ve dusmuyor. Bu durum, pasif alicilarin guclu oldugunu gosteren bir BID absorption'dur.",
+  "dom_observation": "DOM uzerinde 60450-60550 bolgesinde yuksek miktarda satis emri (market sell) karsilanmasina ragmen fiyat dususu sinirli kalmis ve hizla toparlanmistir (bid back). Bu, alicilarin saticilari absorbe ettigini teyit etmektedir.",
+  "reasoning": "Piyasa, kilit destek seviyesi olan Deger Alani Düşük (VAL) seviyesinde guclu alici absorpsiyonu ve fiyat reddi gostererek alicilarin bu seviyeyi savundugunu isaret etmektedir.",
   "should_trade": "EVET",
-  "timestamp": "23:00:04"
+  "timestamp": "23:06:14"
 }
