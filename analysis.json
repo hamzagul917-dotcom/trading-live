@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61452.9",
-    "VAL": "60591.5",
-    "VAH": "61900.0"
+    "VAL": "60542.0",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "61450.0",
-  "tp2": "61900.0",
-  "stop": "60380.0",
-  "absorption": "Fiyat VAL seviyesine dustukten sonra gelen satislar alicilar tarafindan 60500-60600 bolgesinde absorbe ediliyor, bu durum footprint'teki alim agirlikli hacim ve pozitif delta ile dogrulaniyor.",
-  "dom_observation": "DOM'da 60600 seviyesinin altindaki bid'ler tutunuyor ve gelen satislari karsiliyor. Yukarida belirgin bir satis duvari yok, bu da yukselis icin alan oldugunu gosteriyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den pozitif delta ve alici absorpsiyonu ile net bir sekilde reddediliyor (rejection), bu da bir donus (long) firsati sunuyor.",
+  "entry": "60520.0",
+  "tp1": "60700.0",
+  "tp2": "60900.0",
+  "stop": "60390.0",
+  "absorption": "Guclu negatif deltaya (-65) ragmen fiyat VAL seviyesinde (60542) dusmuyor, footprint'te 60500-60440 arasinda buyuk satis emirleri (48, 36, 73 lot) pasif alicilar tarafindan absorbe ediliyor.",
+  "dom_observation": "Mevcut fiyatin altinda anlik buyuk bir bid duvari yok, ancak footprint'te pasif alimlar goruluyor. Ust seviyelerde (60650 uzeri) ask baskisi mevcut.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de, yuksek negatif deltaya ragmen dusmeyi basaramiyor; bu durum, agresif saticilarin pasif alicilar tarafindan absorbe edildigini gosteren guclu bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "20:28:11"
+  "timestamp": "20:36:27"
 }
