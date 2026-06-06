@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61240.2",
     "VAL": "60685.6",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61250.0",
-  "tp1": "61100.0",
-  "tp2": "60750.0",
-  "stop": "61350.0",
-  "absorption": "vPOC seviyesinde guclu ASK absorption gozlemleniyor; yuksek pozitif delta (+420) fiyati yukseltemiyor, bu da pasif saticilarin agresif alicilari emdigini gosteriyor.",
-  "dom_observation": "61350 uzerinde yigilmis satis emirleri (ask) ve 61100-61130 bolgesinde yigilmis alis emirleri (bid) mevcut. Fiyat vPOC'de sıkışmış durumda.",
-  "reasoning": "vPOC'de agresif alicilarin pasif saticilar tarafindan absorbe edilmesi, asagi yonlu bir rotasyon ihtimalinin yuksek oldugunu gosteriyor.",
+  "entry": "61210.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61050.0",
+  "absorption": "Aggressive sellers with high negative delta (-123) were absorbed by passive buyers at the vPOC, preventing a price breakdown.",
+  "dom_observation": "Large stacked bid wall visible below current price, especially at 61100, acting as strong support.",
+  "reasoning": "Aggressive sellers were absorbed at the vPOC, indicating seller exhaustion and a probable rotation up towards the Value Area High.",
   "should_trade": "EVET",
-  "timestamp": "12:12:42"
+  "timestamp": "12:16:59"
 }
