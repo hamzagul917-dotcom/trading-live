@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61150.0",
-    "VAH": "61452.3"
+    "VAL": "61180.0",
+    "VAH": "61450.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "70",
-  "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61190.0",
-  "absorption": "Saticilarin (negatif delta) baskisina ragmen fiyatin vPOC seviyesinde dusmemesi, pasif alicilarin satislari absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "Mevcut fiyatin altinda likidite birikimi var ve VAH yakinlarinda (61450) buyuk bir satis duvari goruluyor.",
-  "reasoning": "vPOC seviyesinde gozlemlenen negatif deltaya ragmen fiyatin dusmeyi reddetmesi, guclu bir BID absorption sinyalidir ve yukari yonlu bir tepki hareketini tetikleyebilir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "75",
+  "entry": "61300.0",
+  "tp1": "61180.0",
+  "tp2": "61100.0",
+  "stop": "61360.0",
+  "absorption": "YOK",
+  "dom_observation": "Guclu negatif Session Delta (-690) ve dusen CVD satici kontrolunu dogruluyor. vPOC altinda fiyatlama var.",
+  "reasoning": "Fiyat, guclu negatif delta ve dusen CVD esliginde vPOC'nin altinda kabul goruyor, bu da VAL'a dogru bir hareket potansiyeli tasiyor.",
   "should_trade": "EVET",
-  "timestamp": "05:12:26"
+  "timestamp": "05:16:50"
 }
