@@ -11,10 +11,10 @@
   "entry": "61310.0",
   "tp1": "61400.0",
   "tp2": "61450.0",
-  "stop": "61240.0",
-  "absorption": "Footprint'te 61250-61280 seviyelerinde negatif deltaya ragmen fiyatin dusmemesi ve alicilarin satis baskisini emmesi (BID absorption) gozlemlendi.",
-  "dom_observation": "61300.0 seviyesinde 2128 lotluk cok buyuk bir stacked bid duvari alici destegini gosteriyor. Yukarida ise 61400 ve 61500'de buyuk ask duvarlari direnc olusturuyor.",
-  "reasoning": "Fiyat, vPOC'nin hemen altinda buyuk bir stacked bid duvari (61300) tarafindan destekleniyor ve footprint'te negatif deltaya ragmen dususu surduremeyen BID absorption gozlemleniyor.",
+  "stop": "61270.0",
+  "absorption": "Saticilarin 61300 seviyesindeki buyuk pasif alici duvarina satis yapmasina ragmen fiyatin dusmemesi, net bir BID absorption gostergesi.",
+  "dom_observation": "61300 seviyesinde 2128 lotluk buyuk bir bid duvari fiyati destekliyor, satici gucunun tukendigini gosteren dusuk negatif delta ile birlesiyor.",
+  "reasoning": "Fiyat, vPOC altinda satici tukenmisligi ve 61300'deki buyuk bid duvarinda gerceklesen BID absorption nedeniyle yukselis potansiyeli tasiyor.",
   "should_trade": "EVET",
-  "timestamp": "05:21:05"
+  "timestamp": "05:32:58"
 }
