@@ -1,10 +1,10 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60840.0",
+    "vPOC": "60978.0",
     "VAL": "YOK",
-    "VAH": "YOK"
+    "VAH": "61045.9"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
@@ -12,9 +12,9 @@
   "tp1": "60840.0",
   "tp2": "60700.0",
   "stop": "61120.0",
-  "absorption": "Agresif piyasa alimlari (61063.6'da 83 lot) yerel tepede pasif saticilar tarafindan emiliyor ve pozitif deltaya ragmen fiyatin duraksamasina neden oluyor.",
-  "dom_observation": "Yuksek seviyelerde (ozellikle 61230.0'da 1245 lot) buyuk pasif satis emirleri yigilmis durumda, bu da satici baskisini teyit ediyor.",
-  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen yukari yonlu devam edemiyor; bu durum, agresif alicilarin pasif saticilar tarafindan absorbe edildigini gosteren klasik bir ASK absorption setup'idir.",
+  "absorption": "VAH seviyesinin hemen üzerinde, 387.50 kontratlık büyük bir alım emri (buy imbalance) pasif satıcılar tarafından absorbe ediliyor ve fiyatın daha fazla yükselmesini engelliyor.",
+  "dom_observation": "Mevcut fiyatta ve hemen üzerinde önemli bir ask likiditesi var. Agresif alıcıların (387.50) girmesine rağmen fiyatın ilerleyememesi, bu likiditenin satıcılar tarafından aktif olarak kullanıldığını gösteriyor.",
+  "reasoning": "Fiyat, VAH seviyesini kırma girişiminde yüksek alıcı agresifliğine rağmen ilerleyemiyor; bu durum, pasif satıcıların alımları absorbe ettiğini ve potansiyel bir geri dönüşü işaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "14:11:18"
+  "timestamp": "14:15:45"
 }
