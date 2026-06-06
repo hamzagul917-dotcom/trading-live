@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61452.9",
     "VAL": "60562.5",
-    "VAH": "YOK"
+    "VAH": "61850.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "60700.0",
-  "tp2": "61400.0",
-  "stop": "60450.0",
-  "absorption": "Saticilarin VAL seviyesinin altinda agresif satis yapmasina ragmen alicilar tarafindan absorbe edilmesi (Bid Absorption) gozlemlendi.",
-  "dom_observation": "VAL altinda pasif alicilarin (bid) birikmesi ve agresif satislarin fiyatı dusurememesi, alici gucunu gosteriyor.",
-  "reasoning": "Fiyat, VAL seviyesinde agresif satislarin alicilar tarafindan absorbe edilmesiyle dusuk fiyatlari reddediyor ve CVD/Delta uyusmazligi ile desteklenen bir long sinyali uretiyor.",
+  "entry": "60570.0",
+  "tp1": "61450.0",
+  "tp2": "61850.0",
+  "stop": "60490.0",
+  "absorption": "VAL seviyesi yakinlarinda (60550-60500) satıcılarin agresif satislarina ragmen fiyatın dusmemesi ve alicilarin bu satislari karsilamasi (BID absorption).",
+  "dom_observation": "Mevcut fiyatin altinda katmanli BID emirleri (destek) gorulurken, ust taraftaki ASK emirleri (direnc) daha zayif.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alıcı absorpsiyonu ve pozitif deltaya dönen emir akışı ile reddedildi, bu da bir long setup oluşturuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:12:50"
+  "timestamp": "01:17:25"
 }
