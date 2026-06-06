@@ -1,5 +1,5 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61240.2",
@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 85,
-  "entry": "61240",
-  "tp1": "61450",
-  "tp2": "61800",
-  "stop": "61050",
-  "absorption": "Onceki mumda -123'luk negatif deltaya ragmen fiyat vPOC altina inemedi, 61100 seviyesinde (48x10) yogun BID absorption gozlendi.",
-  "dom_observation": "61100-61120 bolgesinde buyuk pasif alim emirleri (3446, 2302, 2540 lot) birikmis durumda, bu da asagi yonlu hareketi zorlastiran bir destek duvari olusturuyor.",
-  "reasoning": "Agresif saticilar vPOC seviyesini kiramayip guclu pasif alicilar tarafindan absorbe edildi, bu durum saticilarin tukendigini ve fiyatin VAH'a dogru rotasyon yapma ihtimalini guclendiriyor.",
+  "entry": "61240.0",
+  "tp1": "61400.0",
+  "tp2": "61450.0",
+  "stop": "61050.0",
+  "absorption": "Guclu BID absorption vPOC seviyesinde gozlemlendi. -123'luk negatif deltaya ragmen fiyat dusmedi ve alicilar 48x10 gibi bir dengesizlikle 61100 seviyesinde satis baskisini emdi.",
+  "dom_observation": "vPOC seviyesinde satislarin karsilanmasi ve alim tarafina gecen pozitif delta. Alt kademelerde (61100 civari) alici kumesi mevcut.",
+  "reasoning": "Fiyat, kilit vPOC seviyesinde agresif satislari absorbe etti ve alicilarin kontrolu ele aldigini gosteren pozitif bir delta ile tepki verdi.",
   "should_trade": "EVET",
-  "timestamp": "13:29:13"
+  "timestamp": "13:41:27"
 }
