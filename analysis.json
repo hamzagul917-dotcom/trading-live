@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "61026.4",
-    "VAL": "60091.2",
-    "VAH": "61452.3"
+    "vPOC": "61452.3",
+    "VAL": "60892.5",
+    "VAH": "61700.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60975.0",
-  "tp1": "61060.0",
-  "tp2": "61150.0",
-  "stop": "60920.0",
-  "absorption": "Fiyat vPOC seviyesinde tutunurken, ardışık negatif delta mumları (agresif satış) fiyatı aşağı itemiyor. Bu durum, pasif alıcıların satıcıları absorbe ettiğini gösteren net bir BID absorption sinyalidir.",
-  "dom_observation": "Mevcut fiyatın altında 60900-61000 bölgesinde kümelenmiş pasif alım emirleri (bid) desteği görülüyor.",
-  "reasoning": "vPOC seviyesinde agresif satışların pasif alıcılar tarafından absorbe edilmesi (BID Absorption), fiyatın aşağı yönlü hareket etmesi gerekirken edememesi (Should Trade Test fail) nedeniyle long sinyali oluşmuştur.",
+  "entry": "60950.0",
+  "tp1": "60800.0",
+  "tp2": "60700.0",
+  "stop": "61100.0",
+  "absorption": "YOK",
+  "dom_observation": "Saticilar agresif, CVD ve Delta dususu destekliyor. 61000 seviyesinde satici likiditesi var, 60800-60780 arasi potansiyel alici likiditesi gorunuyor.",
+  "reasoning": "Fiyat, guclu negatif delta (-3K Session Delta) ve dusen CVD esliginde Deger Alani Alt Seviyesini (VAL) kirarak asagida kabul (acceptance) bulmaya calisiyor.",
   "should_trade": "EVET",
-  "timestamp": "15:07:12"
+  "timestamp": "15:19:11"
 }
