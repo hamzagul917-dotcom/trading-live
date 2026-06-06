@@ -7,14 +7,14 @@
     "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61320.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
+  "confidence_score": "75",
+  "entry": "61300.0",
+  "tp1": "61380.0",
+  "tp2": "61450.0",
   "stop": "61240.0",
-  "absorption": "Saticilarin negatif deltaya ragmen fiyati 61300 seviyesinin altina itememesi, bu bolgede pasif alicilar tarafindan BID absorption oldugunu gosteriyor.",
-  "dom_observation": "61300 seviyesinde buyuk bir yigilimli bid (2128 lot) duvari var ve canli DOM'da satislarin karsilandigi goruluyor.",
-  "reasoning": "Suregelen negatif deltaya ragmen fiyatin vPOC altinda dususe devam edememesi ve 61300 desteginde absorbe edilmesi, satici gucunun tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "absorption": "Significant negative session delta (-690) is being absorbed by passive buyers just below the vPOC, preventing further price decline.",
+  "dom_observation": "No large stacked bids are visible, but offers are heavy above 61450, defining the upper boundary. Current price action is light.",
+  "reasoning": "Passive BID absorption is occurring below the vPOC despite strong negative session delta, indicating sellers are being trapped and a potential rotation upwards is likely.",
   "should_trade": "EVET",
-  "timestamp": "09:38:40"
+  "timestamp": "09:46:53"
 }
