@@ -3,18 +3,18 @@
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61452.9",
-    "VAL": "60559.7",
-    "VAH": "N/A"
+    "VAL": "60721.2",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60560.0",
-  "tp1": "60700.0",
-  "tp2": "60900.0",
-  "stop": "60400.0",
-  "absorption": "Saticilarin VAL seviyesinde (60559.7) buyuk pasif alicilar tarafindan absorbe edilmesi. DOM'da 60550-60430 arasinda buyuk bir bid duvari var.",
-  "dom_observation": "60550'den 60430'a kadar uzanan buyuk yigilimli bid (alici) duvarı, saticilarin asagi yonlu momentumunu durduruyor.",
-  "reasoning": "Fiyat, yogun satis baskisina ragmen kilit destek olan VAL seviyesinde tutunuyor ve DOM'daki buyuk alici duvarı tarafindan absorbe ediliyor, bu da potansiyel bir yukari donusu isaret ediyor.",
+  "confidence_score": "75",
+  "entry": "60730.0",
+  "tp1": "60900.0",
+  "tp2": "61450.0",
+  "stop": "60490.0",
+  "absorption": "Saticilar 60730.0 seviyesinde 46 lot satmasina ragmen fiyat dusmuyor, VAL seviyesinde potansiyel BID absorption gozleniyor.",
+  "dom_observation": "60730.0 seviyesinde 46 lotluk satis emri karsilandi. Asagida 60620-60580 arasi yigilmis alim emirleri (stacked bids) destegi gosteriyor.",
+  "reasoning": "Fiyat, gunluk deger alani alt siniri (VAL) seviyesinde saticilari absorbe ediyor ve dusmeyi reddediyor, bu da potansiyel bir yukari donus (rejection) sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "21:06:59"
+  "timestamp": "21:11:24"
 }
