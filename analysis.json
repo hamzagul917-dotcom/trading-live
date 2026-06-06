@@ -10,11 +10,11 @@
   "confidence_score": "85",
   "entry": "61240.0",
   "tp1": "61350.0",
-  "tp2": "61452.0",
-  "stop": "61190.0",
-  "absorption": "Saticilar vPOC seviyesine baski yapiyor ancak fiyat, 61230-61100 arasindaki cok buyuk yigilimli alim (stacked bid) duvarlari tarafindan absorbe ediliyor.",
-  "dom_observation": "61230'dan baslayarak asagiya dogru yogunlasan (1.5k, 2.2k, 2.5k, 3.4k) buyuk bir yigilimli alim (stacked bid) duvari mevcut. Satis tarafindaki likidite daha zayif.",
-  "reasoning": "Fiyat, vPOC desteginde negatif deltaya ragmen dusmeyi basaramiyor ve buyuk yigilimli alim emirleri tarafindan absorbe ediliyor, bu da guclu bir long sinyalidir.",
+  "tp2": "61452.3",
+  "stop": "61040.0",
+  "absorption": "Saticilarin 61230-61210 seviyelerindeki satislari pasif alicilar tarafindan emiliyor (BID absorption), fiyatin dusmesini engelliyor.",
+  "dom_observation": "vPOC altinda 61230-61210 seviyelerinde agresif satislarin karsilanmasi ve asagida 61100-61130 arasi kumesel pasif alim emirleri gozlemleniyor.",
+  "reasoning": "vPOC seviyesinin hemen altinda gozlenen net BID absorption, bullish CVD uyumsuzlugu ile birleserek saticilarin guc kaybettigini ve alicilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "12:59:29"
+  "timestamp": "13:07:37"
 }
