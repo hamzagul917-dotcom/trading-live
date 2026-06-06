@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61214.1",
     "VAL": "60673.2",
-    "VAH": "61452.3"
+    "VAH": "62240.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61220.0",
-  "tp1": "61350.0",
+  "entry": "61215.0",
+  "tp1": "61300.0",
   "tp2": "61450.0",
   "stop": "61150.0",
-  "absorption": "Significant selling pressure, evidenced by the large negative delta candle (-289), is being absorbed by passive buyers at the vPOC level (61214.1), preventing further price decline.",
-  "dom_observation": "Aggressive market sells (38 lots at 61220, 43 lots at 61200) are hitting the bids, but the price is holding firm around the vPOC, indicating strong bid-side absorption.",
-  "reasoning": "Aggressive sellers are failing to break the vPOC support due to strong passive buyer absorption, creating a high-probability long reversal setup.",
+  "absorption": "vPOC seviyesinde (~61214) agresif satislar (-289 delta) pasif alicilar tarafindan emiliyor, fiyat dusmekte zorlaniyor. Bu durum BID absorption'a isaret ediyor.",
+  "dom_observation": "DOM uzerinde 61210 ve 61200 seviyelerine gelen yogun satislar (38 ve 43 lot) fiyati asagi itemiyor, bu da alicilarin seviyeyi savundugunu gosteriyor.",
+  "reasoning": "Agresif saticilarin vPOC'de absorbe edilmesi, satici gucunun tukendigini ve potansiyel bir yukari yonlu short squeeze hareketini tetikleyebilecegini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "11:04:05"
+  "timestamp": "11:08:25"
 }
