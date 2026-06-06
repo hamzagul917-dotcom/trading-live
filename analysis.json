@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60917.4",
+    "vPOC": "60972.2",
     "VAL": "YOK",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60917.4",
-  "tp1": "61120.0",
-  "tp2": "61452.3",
-  "stop": "60699.3",
-  "absorption": "Agresif saticilara ragmen (negatif delta) fiyatin vPOC seviyesinde dusmemesi, alicilarin satislari absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "vPOC seviyesinde (60917.4) footprint'te 45 lotluk alim emri goruluyor, bu da satislari karsilayan pasif alici gucunu teyit ediyor.",
-  "reasoning": "Fiyat, surekli negatif deltaya ragmen vPOC seviyesinde tutunuyor; bu durum, saticilarin tuzaga dustugu ve alicilarin kontrolu ele aldigi guclu bir BID absorption sinyalidir.",
+  "entry": "60970.0",
+  "tp1": "60800.0",
+  "tp2": "60700.0",
+  "stop": "61050.0",
+  "absorption": "61000-61030 seviyelerinde yogun stacked ask duvarlari alimlari absorbe ediyor. Pozitif deltaya ragmen fiyatin yukselmekte zorlanmasi satici gucunu gosteriyor.",
+  "dom_observation": "61000-61030 arasinda 30-65 lot arasinda degisen buyuk bir satici (ask) duvari mevcut. Bu seviyeler guclu direnc olusturuyor.",
+  "reasoning": "Fiyat, genel bear trend icinde vPOC direncine dogru zayif bir geri cekilme yapiyor ve DOM'da gorulen buyuk satici duvari tarafindan absorbe ediliyor.",
   "should_trade": "EVET",
-  "timestamp": "16:35:43"
+  "timestamp": "16:40:03"
 }
