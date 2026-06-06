@@ -1,6 +1,6 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
-  "stop": "60490.0",
-  "absorption": "VAL seviyesinde (60562.5) alıcılar tarafından yapılan BID absorption gozlemleniyor. Pozitif delta ve yukselen CVD bunu dogruluyor.",
-  "dom_observation": "Fiyat VAL'de tutunurken, CVD yukseliyor ve son mumlarda pozitif delta hakim. Bu, alicilarin seviyeyi savundugunu gosteriyor.",
-  "reasoning": "Fiyat, kilit destek olan VAL seviyesinde alıcı absorpsiyonu ve belirgin bir boğasal CVD ayrışması (bullish divergence) göstererek net bir long sinyali oluşturmaktadır.",
+  "tp1": "60800.0",
+  "tp2": "61100.0",
+  "stop": "60450.0",
+  "absorption": "Saticilarin 60500-60560 arasi tekliflere (bid) vurmasina ragmen fiyatin dusmemesi, alicilarin pasif olarak satislari emdigini gosteriyor (BID Absorption).",
+  "dom_observation": "60500 seviyesinde ve altinda alici yigilmasi var. Mevcut fiyatta satislara ragmen teklifler (bids) hizla geri geliyor ve tutunuyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de, bariz bir bullish CVD uyumsuzlugu esliginde alici absorpsiyonu (bid absorption) gostermektedir.",
   "should_trade": "EVET",
-  "timestamp": "01:21:59"
+  "timestamp": "01:26:51"
 }
