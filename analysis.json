@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "61050.0",
-    "VAL": "60850.0",
-    "VAH": "61120.0"
+    "vPOC": "60972.2",
+    "VAL": "YOK",
+    "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 75,
-  "entry": "60972.2",
-  "tp1": "61000.0",
-  "tp2": "61050.0",
+  "order_flow_signal": "SELL",
+  "confidence_score": "75",
+  "entry": "60830.0",
+  "tp1": "60750.0",
+  "tp2": "60700.0",
   "stop": "60940.0",
-  "absorption": "Saticilarin agresif bir sekilde satis yapmasina (negatif delta ve footprint'te gorulen satislar) ragmen fiyat 60960-60970 seviyelerinde tutunuyor, bu da guclu pasif alicilarin satislari absorbe ettigini gosteriyor (BID absorption).",
-  "dom_observation": "61000.0 seviyesinde 53 lotluk buyuk bir stacked ask duvari (direnc) bulunuyor. Mevcut fiyatin altindaki bid'ler zayif, ancak pasif alimlar fiyati tutuyor.",
-  "reasoning": "Negatif deltaya ve aktif satislara ragmen fiyatin dusmemesi, guclu bir alici absorpsiyonuna isaret ediyor ve 61000 seviyesindeki likiditeye dogru bir rotasyon potansiyeli olusturuyor.",
+  "absorption": "YOK",
+  "dom_observation": "Satici likiditesi (ask) 60950-60980 arasinda toplaniyor, alici likiditesi (bid) daha zayif ve asagida. Mevcut seviyelerde agresif satislar gozleniyor.",
+  "reasoning": "Fiyat vPOC altinda islem goruyor, CVD dusus trendini dogruluyor ve bir onceki alim denemesi (pozitif delta mumu) basarisiz olup saticilarin kontrolu ele almasiyla sonuclandi.",
   "should_trade": "EVET",
-  "timestamp": "16:26:58"
+  "timestamp": "16:31:24"
 }
