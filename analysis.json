@@ -2,8 +2,8 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61000.0",
-    "VAL": "60680.1",
+    "vPOC": "60844.6",
+    "VAL": "60080.6",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
@@ -12,9 +12,9 @@
   "tp1": "60950.0",
   "tp2": "61000.0",
   "stop": "60790.0",
-  "absorption": "Onemli negatif deltaya (-312, -87) ragmen fiyat 60830 seviyesinin altina inemiyor, bu da agresif saticilarin pasif alicilar tarafindan emildigini gosteren guclu bir BID absorption isaretidir.",
-  "dom_observation": "60800 ile 60720 arasinda biriken buyuk stacked bid duvarlari, mevcut absorpsiyon bolgesinin altinda bir destek tabani olusturuyor.",
-  "reasoning": "Fiyat, negatif deltaya ragmen dususu surduremiyor ve deger alaninin alt kisminda alicilar tarafindan absorbe ediliyor, bu da vPOC'a dogru bir rotasyon icin potansiyel bir donus sinyalidir.",
+  "absorption": "Saticilarin baskisina ragmen fiyat vPOC seviyesinde tutunuyor ve altinda kalin bir BID duvari alicilarin satis emirlerini absorbe ediyor.",
+  "dom_observation": "60830 seviyesinden baslayarak asagi yonlu cok buyuk bir stacked bid duvari var, ask tarafi ise daha zayif.",
+  "reasoning": "vPOC seviyesinde gozlemlenen BID absorption ve DOM'daki buyuk alici duvarlari, saticilarin gucunun tukendigini ve potansiyel bir yukari hareketi isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "14:24:30"
+  "timestamp": "14:28:47"
 }
