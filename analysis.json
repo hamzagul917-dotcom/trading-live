@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60692.5",
-    "VAL": "60581.5",
-    "VAH": "61452.9"
+    "vPOC": "61452.9",
+    "VAL": "60582.0",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60640.0",
-  "tp1": "60690.0",
-  "tp2": "60790.0",
-  "stop": "60570.0",
-  "absorption": "60581.5 seviyesindeki VAL'de saticilarin (17 lot) alicilar (20 lot) tarafindan absorbe edilmesi gozlemlendi.",
-  "dom_observation": "DOM'da anlik olarak buyuk bir duvar olmasa da, VAL seviyesinde alim ilgisi ve yukari yonlu momentum var.",
-  "reasoning": "Fiyat, VAL seviyesinde net bir alici absorpsiyonu ve bid back gostererek yukari donus sinyali veriyor, hedef vPOC.",
+  "confidence_score": "75",
+  "entry": "60590.0",
+  "tp1": "60670.0",
+  "tp2": "60750.0",
+  "stop": "60550.0",
+  "absorption": "Fiyat gunluk VAL (60582.0) seviyesindeyken, DOM'da 60580-60570 seviyelerine gelen agresif satislar (11 ve 36 lot) pasif alicilar tarafindan emiliyor ve fiyatin dusmesini engelliyor. Bu bir BID absorption durumudur.",
+  "dom_observation": "60570-60580 seviyelerindeki agresif satislara ragmen fiyat tutunuyor. Yukarida 60650-60700 arasinda satici (ask) yigilmasi goruluyor.",
+  "reasoning": "Fiyat, kritik bir destek olan gunluk VAL seviyesinde agresif satislari absorbe ediyor, bu da asagi yonlu kirilimin basarisiz oldugunu ve potansiyel bir yukselis firsati oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "21:28:48"
+  "timestamp": "21:33:12"
 }
