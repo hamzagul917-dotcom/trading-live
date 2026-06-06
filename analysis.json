@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
-    "VAL": "61200.0",
-    "VAH": "61400.0"
+    "VAL": "61150.0",
+    "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
   "entry": "61310.0",
-  "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61190.0",
-  "absorption": "Cok yuksek negatif deltali (-679) mumun fiyatı asagi itememesi, dusuk seviyelerde guclu bir pasif alici absorpsiyonu oldugunu gosteriyor.",
-  "dom_observation": "61300 seviyesinde 2128 lotluk buyuk bir bid destegi ve 61400 seviyesinde (VAH) 2552 lotluk buyuk bir ask direnci bulunuyor.",
-  "reasoning": "Agresif satislarin pasif alicilar tarafindan absorbe edilmesi (failed auction) ve fiyatin vPOC uzerinde tutunmasi, saticilarin gucunun tukendigini ve potansiyel bir yukselis hareketini isaret ediyor.",
+  "tp1": "61200.0",
+  "tp2": "61150.0",
+  "stop": "61360.0",
+  "absorption": "YOK",
+  "dom_observation": "Saticilar 61300-61310 seviyesindeki bid'leri aktif olarak vuruyor, guclu bir alici tepkisi (bid back) gorulmuyor. Yukarida 61400 ve 61500'de buyuk ask duvarlari var.",
+  "reasoning": "Fiyat, negatif delta ve dusen CVD esliginde vPOC'un altina kirildi ve saticilarin baskin oldugu DOM ile asagi yonlu hareketin devam etmesi bekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "07:54:13"
+  "timestamp": "07:58:33"
 }
