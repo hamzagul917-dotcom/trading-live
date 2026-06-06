@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "60972.2",
-    "VAL": "60700.7",
+    "VAL": "~60700.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "75",
-  "entry": "60940.0",
-  "tp1": "60800.0",
-  "tp2": "60700.0",
-  "stop": "61000.0",
-  "absorption": "YOK",
-  "dom_observation": "DOM, anlik satis baskisinin devam ettigini ve yukarida satici likiditesinin bulundugunu gosteriyor; guclu bir alici destegi gorunmuyor.",
-  "reasoning": "Fiyat, negatif delta ve dusen CVD esliginde gunluk POC'nin altinda deger kabul ediyor, bu da dusus trendinin devam etme olasiligini guclendiriyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "85",
+  "entry": "60955.0",
+  "tp1": "61120.0",
+  "tp2": "61450.0",
+  "stop": "60890.0",
+  "absorption": "60950-60920 araliginda agresif satislar (market sell) gelmesine ragmen fiyat dusmuyor, bu bolgede pasif alicilarin satislari emdigini (BID absorption) gosteriyor.",
+  "dom_observation": "Mevcut fiyatin hemen altinda (60950-60920) satislari karsilayan pasif alicilar var. Yukarida ise 61000 ve 61080 seviyelerinde daha belirgin satis likiditesi goruluyor.",
+  "reasoning": "Fiyat, seans POC seviyesinde agresif satislari pasif alicilarla absorbe ediyor, bu da saticilarin gucunun tukendigini ve potansiyel bir yukari donusu isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "16:52:01"
+  "timestamp": "16:56:24"
 }
