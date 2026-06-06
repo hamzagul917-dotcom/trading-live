@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61452.9",
-    "VAL": "60583.4",
-    "VAH": "N/A"
+    "vPOC": "61100.0",
+    "VAL": "60510.1",
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "60630.0",
-  "tp1": "61000.0",
-  "tp2": "61450.0",
-  "stop": "60490.0",
-  "absorption": "Fiyat VAL'in altina dustukten sonra agresif saticilar (-17 delta) pasif alicilar tarafindan absorbe ediliyor, fiyat dusmek yerine yukseliyor. Bu bir BID absorption'dur.",
-  "dom_observation": "DOM'da belirgin bir duvar yok, ancak footprint'te VAL seviyesinde alici tepkisi ve saticilarin absorbe edilmesi net bir sekilde goruluyor.",
-  "reasoning": "Fiyat, Deger Alani Alt Seviyesi'nden (VAL) asagi kirilimi basarisiz olup, negatif deltaya ragmen yukselerek alici absorpsiyonu teyit ettigi icin LONG sinyali uretilmistir.",
+  "confidence_score": "85",
+  "entry": "60520.0",
+  "tp1": "60690.0",
+  "tp2": "61090.0",
+  "stop": "60450.0",
+  "absorption": "Aggressive selling with high negative delta is being absorbed by passive buyers at the Value Area Low (VAL), preventing a price breakdown.",
+  "dom_observation": "Despite aggressive selling at 60510-60480, the price is holding, and a wall of bids is stacking up below, particularly from 60450 down to 60400.",
+  "reasoning": "A classic bid absorption setup is forming at the critical VAL support level, indicating seller exhaustion and a potential reversal.",
   "should_trade": "EVET",
-  "timestamp": "20:45:10"
+  "timestamp": "20:53:34"
 }
