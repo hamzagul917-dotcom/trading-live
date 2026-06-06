@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60732.8",
-    "VAH": "61452.9"
+    "vPOC": "61180.0",
+    "VAL": "60704.0",
+    "VAH": "61452.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60730.0",
-  "tp1": "60880.0",
-  "tp2": "61100.0",
+  "entry": "60710.0",
+  "tp1": "61180.0",
+  "tp2": "61450.0",
   "stop": "60650.0",
-  "absorption": "Significant BID absorption is occurring at the Value Area Low (VAL), preventing the price from breaking down despite selling pressure.",
-  "dom_observation": "Bids are holding and absorbing sellers around 60720-60730 despite market sells hitting them, indicating buyer strength at this level.",
-  "reasoning": "Price is failing to break below the key VAL support due to strong passive bid absorption, signaling a potential rejection and upward rotation.",
+  "absorption": "Fiyat VAL seviyesinde (60704) ve saticilarin baskisina ragmen dusmuyor. DOM'da 60700 ve altinda biriken alim emirleri (bid cluster) ve footprint'teki pozitif delta cabalari, alicilarin bu bolgeyi agresif bir sekilde absorbe ettigini gosteriyor.",
+  "dom_observation": "60700 seviyesi ve altinda yogunlasan alim emirleri (bid cluster) goruluyor. Satislar bu seviyelerde karsilaniyor ve fiyat asagi kirilamiyor.",
+  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) alicilar tarafindan absorbe ediliyor, bu da potansiyel bir yukari donus (rejection) sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "18:13:02"
+  "timestamp": "18:17:23"
 }
