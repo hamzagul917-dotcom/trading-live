@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61310.0",
+  "entry": "61280.0",
   "tp1": "61400.0",
-  "tp2": "61450.0",
-  "stop": "61280.0",
-  "absorption": "Agresif saticilar (-699 ve -679 delta) 61300 seviyesindeki buyuk pasif alici duvari (2128 lot) tarafindan absorbe ediliyor, fiyat dusmuyor.",
-  "dom_observation": "61300 seviyesinde 2128 lotluk cok buyuk bir stacked bid duvari var ve fiyat bu seviyenin hemen ustunde tutunuyor. Yukarida ise 61400'de 2552 lotluk bir ask duvari direnc olusturuyor.",
-  "reasoning": "Agresif satis baskisina ragmen fiyatin vPOC altindaki buyuk bid duvari tarafindan absorbe edilmesi ve dususe devam edememesi, alicilarin kontrolu ele aldigini gosteren guclu bir long sinyalidir.",
+  "tp2": "61452.3",
+  "stop": "61230.0",
+  "absorption": "Guclu negatif deltaya (-70, -21) ragmen fiyatin dusmemesi, 61250-61300 bolgesinde pasif alicilarin satis baskisini absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "Agresif satislarin (Sells) fiyati asagi itememesi ve 61300 seviyesindeki goreceli buyuk bid (2128) emri, alici destegini teyit ediyor.",
+  "reasoning": "Agresif satislarin fiyati asagi kiramamasi, saticilarin tuzaga dustugunu ve alicilarin kontrolu ele alabilecegini gosteren guclu bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "04:56:11"
+  "timestamp": "05:00:33"
 }
