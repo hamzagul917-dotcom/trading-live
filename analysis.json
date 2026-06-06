@@ -1,20 +1,20 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "60938.0",
+    "vPOC": "60901.8",
     "VAL": "YOK",
     "VAH": "61452.3"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60930.0",
+  "entry": "60900.0",
   "tp1": "60800.0",
-  "tp2": "60697.3",
+  "tp2": "60750.0",
   "stop": "61010.0",
-  "absorption": "Yuksek pozitif delta (+231) ile gelen alim girisimi 61000 seviyesinde saticilar tarafindan tamamen absorbe edildi.",
-  "dom_observation": "Alicilarin yukari yonlu momentumu surdurememesi ve ardindan gelen satis baskisi satici gucunu teyit ediyor.",
-  "reasoning": "Fiyat, yuksek pozitif deltaya ragmen yukselemeyip 61000 seviyesinden sert bir sekilde reddedildi; bu durum, saticilarin alicilari absorbe ettigini ve kontrolu ele aldigini gosteren guclu bir short sinyalidir.",
+  "absorption": "Alıcılar pozitif delta yaratmasına rağmen fiyat vPOC altında yükselemiyor, 61000 seviyesindeki büyük ask duvarı tarafından absorbe ediliyor.",
+  "dom_observation": "61000 seviyesinde çok büyük bir stacked ask duvarı (5667 lot) var, bu da güçlü bir direnç ve satış baskısı gösteriyor.",
+  "reasoning": "Fiyatın vPOC altında işlem görmesi, alıcıların zayıflığı (ASK absorption) ve DOM'daki büyük satış duvarı net bir short sinyali oluşturuyor.",
   "should_trade": "EVET",
-  "timestamp": "16:10:07"
+  "timestamp": "16:18:12"
 }
