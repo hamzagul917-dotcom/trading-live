@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61100.0",
-    "VAL": "60648.5",
-    "VAH": "61452.9"
+    "vPOC": "61452.9",
+    "VAL": "60622.8",
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60650.0",
-  "tp1": "60780.0",
-  "tp2": "61100.0",
-  "stop": "60540.0",
-  "absorption": "Agresif satislar 60650-60550 arasi pasif alicilar tarafindan absorbe ediliyor (BID absorption).",
-  "dom_observation": "VAL seviyesinde agresif satislar (sells sutunu) pasif alim duvarlari (bid sutunu) tarafindan karsilaniyor, fiyat dusmuyor.",
-  "reasoning": "VAL seviyesinde gozlenen guclu BID absorption, hafif bullish CVD uyumsuzlugu ile birleserek dusuk fiyatlarin reddedildigini ve potansiyel bir yukari donusu isaret ediyor.",
+  "confidence_score": "75",
+  "entry": "60620.0",
+  "tp1": "60697.5",
+  "tp2": "60800.0",
+  "stop": "60470.0",
+  "absorption": "Potansiyel BID absorption VAL seviyesinde. Onceki mumdaki -399'luk cok guclu negatif deltaya ragmen fiyat dususe devam edemiyor ve alicilar devreye giriyor.",
+  "dom_observation": "60550 seviyesinden baslayarak asagi yonlu birikmis alim emirleri (bid cluster) goruluyor, bu da saticilarin karsilanabilecegi bir destek bolgesi olusturuyor.",
+  "reasoning": "Fiyat, agresif satislar sonrasi kilit destek seviyesi olan VAL'de duraksadi ve alicilarin absorpsiyonu ile karsilasiyor, bu da bir donus potansiyeli yaratiyor.",
   "should_trade": "EVET",
-  "timestamp": "19:24:26"
+  "timestamp": "19:28:45"
 }
