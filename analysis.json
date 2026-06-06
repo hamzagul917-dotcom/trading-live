@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "61240.0",
-  "tp1": "61400.0",
+  "entry": "61210.0",
+  "tp1": "61350.0",
   "tp2": "61450.0",
-  "stop": "61060.0",
-  "absorption": "Saticilarin vPOC seviyesindeki satislari alicilar tarafindan karsilaniyor ve asagida 61100-61130 arasinda buyuk bir pasif alim duvari (bid wall) bulunuyor.",
-  "dom_observation": "61100-61130 arasi cok guclu stacked bid duvari var. Mevcut fiyatta alicilar agresiflesiyor (pozitif delta).",
-  "reasoning": "Fiyat, vPOC'de saticilarin basarisiz olmasinin ardindan, guclu bir pasif alim duvari ve agresif alicilarin devreye girmesiyle destek buluyor.",
+  "stop": "61050.0",
+  "absorption": "61100-61200 araliginda saticilarin agresif alicilar tarafindan absorbe edilmesi (BID absorption) gozlemlendi.",
+  "dom_observation": "61100-61130 arasinda fiyati destekleyen guclu yigilmis alim emirleri (stacked bids) mevcut.",
+  "reasoning": "vPOC altinda basarisiz bir satis denemesi sonrasi guclu alici absorpsiyonu ve DOM'daki yigilmis alim emirleri, dusuk fiyatlarin reddedildigini ve yukari rotasyon potansiyelini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "12:21:31"
+  "timestamp": "12:25:54"
 }
