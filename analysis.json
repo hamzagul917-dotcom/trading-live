@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61311.8",
     "VAL": "61150.0",
     "VAH": "61452.3"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "61310.0",
-  "tp1": "61450.0",
-  "tp2": "61500.0",
-  "stop": "61240.0",
-  "absorption": "Saticilarin (negatif delta) 61300 seviyesindeki buyuk pasif alim duvarini (2128 lot) kiramamasi ve emirlerin absorbe edilmesi.",
-  "dom_observation": "61300'de 2128 lotluk buyuk bir bid duvari var, bu seviyede satislar karsilaniyor ve fiyat asagi yonlu kirilim yapamiyor.",
-  "reasoning": "Negatif deltaya ragmen fiyatin dusmemesi ve 61300'deki buyuk bid duvarinda saticilarin absorbe edilmesi, potansiyel bir yukari donus sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "75",
+  "entry": "61300.0",
+  "tp1": "61200.0",
+  "tp2": "61150.0",
+  "stop": "61400.0",
+  "absorption": "YOK",
+  "dom_observation": "Satici agirlikli emir akisi (negatif delta), vPOC altinda islem goruyor. Belirgin bir likidite duvari yok.",
+  "reasoning": "Fiyat, guclu negatif seans deltasi (-690) ve dusen CVD esliginde vPOC'nin altina kiriliyor ve daha dusuk seviyelerde kabul (acceptance) bulmaya calisiyor.",
   "should_trade": "EVET",
-  "timestamp": "06:51:15"
+  "timestamp": "06:55:29"
 }
