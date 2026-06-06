@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "60809.4",
-    "VAL": "60682.3",
-    "VAH": "61452.9"
+    "vPOC": "61060.4",
+    "VAL": "60685.8",
+    "VAH": "61452.3"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "95",
-  "entry": "60810.0",
-  "tp1": "61000.0",
-  "tp2": "61450.0",
-  "stop": "60650.0",
-  "absorption": "Guclu BID absorption 60750-60800 seviyelerinde goruluyor. Agresif saticilar (buyuk negatif delta) pasif alicilar tarafindan emiliyor.",
-  "dom_observation": "60790 ve altinda cok buyuk yigilmis BID (alim) emirleri var, bu da guclu bir destek duvari olusturuyor. Ask (satis) tarafi zayif.",
-  "reasoning": "Fiyatin dusmesi gerekirken (buyuk negatif delta ve CVD dususu) dusmemesi, guclu BID absorption ve DOM'daki alim duvari net bir LONG sinyali uretiyor.",
+  "confidence_score": "70",
+  "entry": "60975.0",
+  "tp1": "61060.0",
+  "tp2": "61150.0",
+  "stop": "60920.0",
+  "absorption": "YOK",
+  "dom_observation": "Cok guclu stacked bid duvari 60900-60800 seviyelerinde destek olusturuyor, anlik alimlar fiyati yukari itiyor.",
+  "reasoning": "Fiyat, DOM'da gorulen guclu alici duvarindan (stacked bids) tepki aldi ve negatif delta sonrasi 'bid back' paterni olusturarak vPOC'a dogru bir rotasyon baslatti.",
   "should_trade": "EVET",
-  "timestamp": "14:45:58"
+  "timestamp": "14:54:14"
 }
