@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61452.9",
-    "VAL": "60793.8",
-    "VAH": "YOK"
+    "vPOC": "61100.0",
+    "VAL": "60787.0",
+    "VAH": "61452.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "70",
-  "entry": "60691.0",
-  "tp1": "60793.8",
+  "confidence_score": 85,
+  "entry": "60790.0",
+  "tp1": "60977.0",
   "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "Fiyat VAL'in altina dustukten sonra, footprint'te dusuk seviyelerde (60500 civari) buyuk alimlarin (146x15) market satislarini karsiladigi ve fiyatin hizla geri dondugu bir BID absorption gozlemlendi.",
-  "dom_observation": "DOM'da anlik olarak belirgin bir duvar olmasa da, footprint'teki pozitif delta ve dusuk seviyelerdeki alimlar alici gucunu gosteriyor.",
-  "reasoning": "Fiyatın VAL altına kırılımı başarısız oldu (failed breakdown), alıcıların düşük seviyeleri agresif bir şekilde absorbe etmesiyle bir 'look below and fail' (Rejection) paterni oluşuyor.",
+  "stop": "60649.0",
+  "absorption": "Value Area Low (VAL) seviyesinde (60787.0) saticilarin baskisina ragmen fiyatin dusmedigi, pozitif deltali mumlarla desteklenen guclu BID absorption gozlemleniyor.",
+  "dom_observation": "Saticilar 60780.0 seviyesindeki tekliflere (bid) vursa da, alicilar bu seviyeyi koruyor ve hizlica yeniden dolduruyor (bid back). Yukarida anlik olarak buyuk bir satis duvari (ask wall) bulunmuyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan Deger Alani Alt Bandi'nda (VAL) alicilar tarafindan absorbe ediliyor ve dusuk fiyatlari reddediyor, bu da vPOC'a dogru bir rotasyon potansiyelini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "18:50:27"
+  "timestamp": "18:54:48"
 }
