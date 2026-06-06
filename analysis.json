@@ -10,11 +10,11 @@
   "confidence_score": "85",
   "entry": "60880.0",
   "tp1": "60700.0",
-  "tp2": "60600.0",
-  "stop": "61100.0",
-  "absorption": "Fiyatin pozitif deltaya ragmen 60900 seviyesindeki buyuk satis duvarini gecememesi, saticilarin alimlari absorbe ettigini gosteriyor (ASK absorption).",
-  "dom_observation": "60900'den 61010'a kadar yogun bir sekilde yigilmis satis emirleri (stacked asks) guclu bir direnc bolgesi olusturuyor.",
-  "reasoning": "Fiyat yukselmeye calisirken dusen CVD (bearish divergence) ve 60900 seviyesindeki buyuk stacked ask duvarinda gozlenen ASK absorption, alici gucunun tukendigini ve dusus potansiyelini isaret ediyor.",
+  "tp2": "60500.0",
+  "stop": "60930.0",
+  "absorption": "ASK absorption detected near 60900. A large positive delta bar (+1K) failed to produce a higher price, indicating sellers absorbed the buying pressure.",
+  "dom_observation": "Large stacked ask walls at 60900 and 61000 are capping the upside. Bids are thinner below.",
+  "reasoning": "Fiyat, vPOC seviyesinde guclu pozitif deltaya ragmen yukselmeyi basaramadi (ASK Absorption), bu da alici gucunun tukendigini ve saticilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "02:32:01"
+  "timestamp": "02:36:24"
 }
