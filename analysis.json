@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "61180.0",
-    "VAL": "60783.2",
+    "vPOC": "60733.7",
+    "VAL": "60530.0",
     "VAH": "61452.9"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "60830.0",
-  "tp1": "61000.0",
-  "tp2": "61180.0",
-  "stop": "60640.0",
-  "absorption": "Fiyat VAL seviyesinde ve altinda negatif deltaya ragmen dusmuyor, DOM'daki buyuk alim emirleri (bids) satis baskisini absorbe ediyor (BID Absorption).",
-  "dom_observation": "Buyuk yigilmis bid duvarlari (60740-60650 arasi, ozellikle 91 lot 60650'de) agresif satis emirlerini emiyor.",
-  "reasoning": "Fiyatin kilit destek seviyesi olan VAL'de agresif satislari absorbe etmesi ve dusmeyi reddetmesi, alicilarin kontrolu ele aldigini gosteren guclu bir donus sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "60800.0",
+  "tp1": "60733.7",
+  "tp2": "60530.0",
+  "stop": "60910.0",
+  "absorption": "Fiyatin yukselmesini engelleyen 60800-60870 bolgesinde belirgin ASK absorption (satis emilimi) gozlemlendi.",
+  "dom_observation": "60870 seviyesinde 82 lotluk buyuk bir stacked ask duvari (satis blogu) bulunuyor.",
+  "reasoning": "Yuksek pozitif deltaya ragmen fiyatin ilerleyememesi (ASK absorption) ve DOM'daki buyuk satis duvari, alicilarin tukendigini ve dusus potansiyelini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "17:51:35"
+  "timestamp": "17:55:53"
 }
