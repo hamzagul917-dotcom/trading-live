@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62819.5",
     "VAL": "61940.9",
     "VAH": "62900.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "90",
-  "entry": "62826.5",
-  "tp1": "62631.6",
-  "tp2": "YOK",
-  "stop": "62910.0",
-  "absorption": "vPOC seviyesi olan 62819.5'te 438 kontrat gibi cok yuksek bir alim hacmi olmasina ragmen fiyat yukari yonlu guclu bir sekilde ilerleyemiyor. Bu durum, buyuk bir pasif saticinin tum agresif alimlari absorbe ettigini gosteren bir ASK absorption isaretidir.",
-  "dom_observation": "DOM'da gorunur buyuk bir satis duvari olmasa da, fiyatin yuksek alim hacmine ragmen ilerleyememesi, gizli (iceberg) satis emirlerinin varligina veya buyuk bir saticinin alimlari karsiladigina isaret ediyor.",
-  "reasoning": "Yuksek pozitif delta ve vPOC'deki devasa alim hacmine ragmen fiyatin yukselememesi, alicilari tuzaga dusuren guclu bir ASK absorption oldugunu ve dusus potansiyeli tasidigini gostermektedir.",
+  "entry": "62819.5",
+  "tp1": "62900.0",
+  "tp2": "63000.0",
+  "stop": "62749.0",
+  "absorption": "Massive BID absorption at vPOC (62819.5), where 438 market sell orders were absorbed by passive buyers without a significant price drop.",
+  "dom_observation": "DOM shows sellers hitting the bids around 62810-62800, but the price is holding firm, confirming the absorption seen on the footprint.",
+  "reasoning": "Aggressive sellers are being absorbed by passive buyers at the session's vPOC, indicating institutional buying interest and a high probability of an upward move.",
   "should_trade": "EVET",
-  "timestamp": "11:15:01"
+  "timestamp": "11:19:24"
 }
