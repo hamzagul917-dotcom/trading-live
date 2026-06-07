@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BEARISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "60562.5",
-  "tp1": "61100.0",
-  "tp2": "61452.9",
-  "stop": "60440.0",
-  "absorption": "Fiyat VAL seviyesinde saticilari absorbe ediyor. Negatif seans deltasina ragmen son mumlarda delta pozitife dondu ve alicilarin seviyeyi savundugunu gosteriyor.",
-  "dom_observation": "Mevcut fiyatin hemen altinda (60500-60420 arasi) kume halinde alim emirleri (bid cluster) destegi bulunuyor, satis tarafi (ask) daha zayif.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de net bir alici absorpsiyonu (bid absorption) gosteriyor ve bu da potansiyel bir yukari donus sinyalidir.",
+  "entry": "60570.0",
+  "tp1": "60450.0",
+  "tp2": "60250.0",
+  "stop": "60700.0",
+  "absorption": "YOK",
+  "dom_observation": "Agresif satislarin (sells) bid'leri vurdugu ve yukarida (ask) likidite duvarinin olustugu gozlemleniyor.",
+  "reasoning": "Fiyat, seansin Deger Alani Altindan (VAL) asagi kirilim gosteriyor ve emir akisi agresif saticilarin kontrolu ele aldigini dogruluyor (Acceptance).",
   "should_trade": "EVET",
-  "timestamp": "05:14:08"
+  "timestamp": "05:18:27"
 }
