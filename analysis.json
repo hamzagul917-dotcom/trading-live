@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62631.6",
-    "VAL": "61895.5",
-    "VAH": "62500.0"
+    "vPOC": "62300.0",
+    "VAL": "61900.0",
+    "VAH": "62550.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "62770.0",
-  "tp1": "62950.0",
-  "tp2": "63200.0",
-  "stop": "62600.0",
-  "absorption": "YOK",
-  "dom_observation": "Agresif alicilar ask emirlerini tuketerek fiyati yukari suruyor, CVD ve Delta trendi dogruluyor.",
-  "reasoning": "Fiyat, yuksek hacim ve guclu pozitif delta (+554) ile onceki deger alaninin (VAH) uzerinde kabul goruyor, bu da guclu bir yukselis trendi devam sinyalidir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "62780.0",
+  "tp1": "62500.0",
+  "tp2": "62300.0",
+  "stop": "62960.0",
+  "absorption": "ASK absorption detected at local highs. High positive delta (+593 on previous candle, +266 on current) is failing to push the price higher, indicating sellers are absorbing the buying pressure.",
+  "dom_observation": "No significant stacked orders, but the price is stalling at the ask despite continuous market buys, confirming absorption.",
+  "reasoning": "Aggressive buyers are being absorbed by passive sellers at the local high, indicated by high positive delta with no upward price movement, signaling a likely failure of the breakout attempt.",
   "should_trade": "EVET",
-  "timestamp": "10:49:54"
+  "timestamp": "10:52:28"
 }
