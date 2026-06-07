@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62819.5",
     "VAL": "61940.9",
-    "VAH": "62819.5"
+    "VAH": "62900.0"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62826.5",
+  "entry": "62810.0",
   "tp1": "62631.6",
-  "tp2": "YOK",
+  "tp2": "61940.9",
   "stop": "62910.0",
-  "absorption": "VAH seviyesinde alicilarin agresif emirleri pasif saticilar tarafindan emiliyor (ASK absorption), fiyatin yukselmesini engelliyor.",
-  "dom_observation": "DOM'da anlik belirgin bir duvar yok ancak footprint'te yuksek alim hacmine ragmen fiyatin ilerleyememesi satici gucunu gosteriyor.",
-  "reasoning": "Fiyat, VAH/vPOC direncinde yuksek hacimle duraksadi ve agresif alicilarin pasif saticilar tarafindan absorbe edilmesiyle yukselis momentumunu kaybetti.",
+  "absorption": "Yuksek pozitif session delta'ya ragmen fiyatin vPOC uzerinde kalamamasi, agresif alicilarin pasif saticilar tarafindan absorbe edildigini gosteriyor (ASK Absorption).",
+  "dom_observation": "vPOC seviyesinde agresif alimlar fiyatı yukarı itemiyor, satıcılar piyasa emirlerini emiyor ve fiyatı baskılıyor. Alıcıların devamlılığı yok (no continuation).",
+  "reasoning": "Fiyat, yüksek alıcı hacmine rağmen vPOC direncini geçemiyor; bu durum, satıcıların kontrolü ele aldığını gösteren net bir ASK absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "11:23:42"
+  "timestamp": "11:28:03"
 }
