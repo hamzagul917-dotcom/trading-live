@@ -6,15 +6,15 @@
     "VAL": "61679.3",
     "VAH": "62400.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "90",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
   "entry": "62170.0",
-  "tp1": "62250.0",
-  "tp2": "62400.0",
-  "stop": "62120.0",
-  "absorption": "Fiyat vPOC altina duserken, guclu negatif deltaya (-86) ragmen CVD'nin dusmemesi (bullish divergence) pasif alicilarin agresif satislari absorbe ettigini gosteriyor.",
-  "dom_observation": "62250.0 seviyesinde 509 lotluk buyuk bir ask duvari (direnc) bulunuyor. Mevcut fiyatin altinda ise belirgin bir bid duvari yok, ancak absorpsiyon aktif.",
-  "reasoning": "vPOC seviyesinde agresif satislarin pasif alicilar tarafindan absorbe edilmesi ve es zamanli bullish CVD uyumsuzlugu, saticilarin tuzaga dustugunu ve yukari yonlu bir donusun muhtemel oldugunu gosteriyor.",
+  "tp1": "61900.0",
+  "tp2": "61700.0",
+  "stop": "62260.0",
+  "absorption": "Guclu ASK absorption 62200 seviyesindeki 509 lotluk pasif satis duvari tarafindan goruluyor, alicilarin yukari yonlu momentumunu durduruyor.",
+  "dom_observation": "62200'de 509 lotluk buyuk bir stacked ask duvari var, bu da asagi yonlu baski olusturuyor. Mevcut fiyatta satislar (delta -86) hakim.",
+  "reasoning": "Fiyat vPOC'de buyuk bir ask duvari (direnc) ile karsilasti, agresif satislar (negatif delta) basladi ve yukari yonlu momentumun tukendigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "09:33:16"
+  "timestamp": "09:35:52"
 }
