@@ -2,19 +2,19 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62300.0",
-    "VAL": "61915.0",
-    "VAH": "62500.0"
+    "vPOC": "62250.0",
+    "VAL": "61928.4",
+    "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62790.0",
-  "tp1": "62961.0",
-  "tp2": "63100.0",
-  "stop": "62631.6",
-  "absorption": "YOK",
-  "dom_observation": "62750 seviyesinde 352 lotluk buyuk bir bid var, bu seviye potansiyel destek gorevi gorebilir. Ask tarafi daha ince.",
-  "reasoning": "Fiyat, VAH uzerinde kabul (acceptance) goruyor ve bu durum yukselen CVD ve guclu pozitif delta ile teyit ediliyor, bu da yukselis trendinin devam etme olasiligini guclendiriyor.",
+  "entry": "62750.5",
+  "tp1": "62850.0",
+  "tp2": "62950.0",
+  "stop": "62690.0",
+  "absorption": "Guclu BID absorption: 62750.0 seviyesindeki 1790 lotluk buyuk pasif alici, agresif satis baskisini emiyor ve fiyatin dusmesini engelliyor.",
+  "dom_observation": "62750.0 seviyesinde 1790 lotluk cok buyuk bir stacked bid duvari var. Bu seviyeye gelen satislar (negatif delta) fiyati asagi itemiyor.",
+  "reasoning": "Fiyat, VAH uzerinde tutunmaya calisirken 62750.0 seviyesinde gorulen cok guclu BID absorption ve buyuk stacked bid duvari, alicilarin kontrolu ele aldigini gosteren net bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "10:55:04"
+  "timestamp": "10:57:39"
 }
