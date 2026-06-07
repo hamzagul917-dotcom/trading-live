@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.0"
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "61100.0",
-  "tp2": "61452.0",
-  "stop": "60400.0",
-  "absorption": "VAL seviyesinde (60562.5) alıcılar tarafından BID absorption gözlemleniyor. DOM'da aşağıda biriken büyük alım emirleri (stacked bids) satıcıları emiyor.",
-  "dom_observation": "Mevcut fiyatın altında 60450-60420 seviyelerinde büyük stacked bid duvarı (80, 69, 63 lot) güçlü destek oluşturuyor. Ask tarafı daha zayıf.",
-  "reasoning": "Fiyat, kilit destek olan VAL seviyesinde alıcı absorpsiyonu ve DOM'daki büyük alım duvarı ile reddediliyor, bu da vPOC'a doğru bir rotasyon potansiyeli yaratıyor.",
+  "entry": "60570.0",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60440.0",
+  "absorption": "Agresif saticilar 60560-60500 seviyelerindeki tekliflere (bids) satis yapiyor ancak fiyat dusmuyor, bu da pasif alicilarin satislari emdigini gosteren bir BID absorption durumudur.",
+  "dom_observation": "60500 seviyesinde buyuk bir stacked bid duvari (3592 lot) bulunuyor ve mevcut fiyat seviyesinde satislara ragmen teklifler (bids) tutunuyor.",
+  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) agresif satis baskisini absorbe ediyor ve DOM uzerinde guclu alici destegi goruluyor, bu da vPOC'a dogru bir rotasyon potansiyeli sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "07:14:08"
+  "timestamp": "07:22:16"
 }
