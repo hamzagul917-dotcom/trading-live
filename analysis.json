@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "75",
-  "entry": "60570.0",
-  "tp1": "60700.0",
-  "tp2": "61100.0",
-  "stop": "60490.0",
-  "absorption": "Fiyat VAL seviyesinin hemen altinda market satis emirlerini emiyor (BID absorption), pozitif delta ile birlikte yukari tepki veriyor.",
-  "dom_observation": "Mevcut fiyatin altinda alicilar birikiyor, ancak 60700 ve uzerinde onemli stacked ask duvarlari (direnc) mevcut.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den alici absorpsiyonu ve pozitif delta ile tepki aliyor, bu da deger alani icine bir rotasyon (rejection) sinyalidir.",
+  "entry": "60600.0",
+  "tp1": "60450.0",
+  "tp2": "60350.0",
+  "stop": "60750.0",
+  "absorption": "ASK absorption is detected at the Value Area Low (VAL). Despite recent positive delta (+30), the price is failing to gain acceptance above this key level, indicating sellers are absorbing the buying pressure.",
+  "dom_observation": "Significant offers are stacked between 60650 and 60700, acting as a strong resistance wall. Buyers are hitting the asks but price is not moving up, confirming absorption.",
+  "reasoning": "Fiyat, kilit direnç seviyesi olan VAL'in altında agresif alımları absorbe ediyor, bu durum alıcıların tükendiğini ve satıcıların kontrolü ele aldığını gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "02:33:10"
+  "timestamp": "02:40:31"
 }
