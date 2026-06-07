@@ -1,6 +1,6 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61452.9",
-  "stop": "60420.0",
-  "absorption": "60500-60550 fiyat araliginda alicilarin satis baskisini absorbe ettigi (BID absorption) goruluyor.",
-  "dom_observation": "VAL seviyesinde alicilarin aktif oldugu, footprint'te pozitif delta ve alim agirlikli takaslarin oldugu gozlemleniyor. Pasif emirlerden cok, market satislarinin karsilandigi bir destek yapisi var.",
-  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) alici absorpsiyonu ve pozitif delta ile destek bularak yukari donus (rejection) sinyali vermektedir.",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60490.0",
+  "absorption": "Guclu alici absorpsiyonu (BID absorption) 60562.5 VAL seviyesinde gozlemleniyor. Saticilarin baskisina ragmen fiyat dusmuyor ve delta pozitife donuyor.",
+  "dom_observation": "DOM'da 60560-60500 arasinda alim emirleri (bids) satis baskisini karsiliyor. Ust tarafta belirgin bir satici blogu yok.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de (60562.5) alicilar tarafindan absorbe ediliyor, bu da satis gucunun tukendigini ve potansiyel bir yukselis hareketini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "06:36:06"
+  "timestamp": "06:40:23"
 }
