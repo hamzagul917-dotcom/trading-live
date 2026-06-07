@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "75",
-  "entry": "60570.0",
-  "tp1": "60800.0",
-  "tp2": "61100.0",
-  "stop": "60480.0",
-  "absorption": "Alıcılar, Değer Alanı Düşük (VAL) seviyesinde satıcıları absorbe ediyor, bu da pozitif delta ile teyit ediliyor.",
-  "dom_observation": "Mevcut fiyatın altında kümelenmiş alım emirleri (bid) ve 60670-60690 seviyelerinde önemli satış emirleri (ask) duvarı gözlemleniyor.",
-  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde pozitif delta ile alıcı tepkisiyle karşılaştı, bu da değer alanı içine doğru bir rotasyon potansiyeli taşıyan bir reddedilme (rejection) sinyalidir.",
+  "confidence_score": "85",
+  "entry": "60562.5",
+  "tp1": "61100.0",
+  "tp2": "61452.9",
+  "stop": "60440.0",
+  "absorption": "Fiyat VAL seviyesinde (60562.5) tutunurken, dusen fiyata ragmen CVD yukseliyor ve son mumlarda pozitif delta goruluyor. Bu, saticilarin alicilar tarafindan absorbe edildigini gosteren bir BID absorption durumudur.",
+  "dom_observation": "Mevcut fiyatin altinda 60500-60420 arasinda kumeleşmis alim emirleri (bid) destegi gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de, alicilarin saticilari absorbe ettigini gosteren guclu bir pozitif CVD uyumsuzlugu ile karsilasiyor.",
   "should_trade": "EVET",
-  "timestamp": "08:50:09"
+  "timestamp": "08:52:38"
 }
