@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62175.6",
     "VAL": "61679.3",
-    "VAH": "62400.0"
+    "VAH": "YOK"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62240.0",
-  "tp1": "62175.0",
+  "entry": "62175.0",
+  "tp1": "61900.0",
   "tp2": "61700.0",
-  "stop": "62310.0",
-  "absorption": "Buyuk 509 lotluk pasif satici (stacked ask) 62250.0 seviyesinde ASK absorption potansiyeli yaratiyor.",
-  "dom_observation": "62250.0 seviyesinde 509 lotluk cok buyuk bir stacked ask duvari goruluyor, bu seviye guclu bir direnc teskil ediyor.",
-  "reasoning": "Fiyat, vPOC yakininda konsolide olurken 62250.0 seviyesindeki devasa stacked ask duvarina yaklasiyor, bu da guclu bir satis baskisi ve dusus potansiyeli sinyali veriyor.",
+  "stop": "62250.0",
+  "absorption": "vPOC (62175.6) seviyesinde belirgin ASK absorption. Pozitif delta ile gelen alicilarin gucu tukendi ve saticilar tarafindan absorbe edilerek fiyat asagi itildi.",
+  "dom_observation": "vPOC seviyesinde ve hemen ustunde (62170-62200) yigilmis buyuk satis (ASK) emirleri alici gucunu baskiliyor.",
+  "reasoning": "Fiyat, vPOC seviyesinde karsilastigi guclu satis baskisi ve ASK absorption nedeniyle reddedildi, bu da dusus yonlu bir firsat sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "09:43:31"
+  "timestamp": "09:46:11"
 }
