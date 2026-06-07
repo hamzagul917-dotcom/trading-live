@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "62175.6",
     "VAL": "61679.3",
     "VAH": "62400.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
+  "confidence_score": "75",
   "entry": "62170.0",
-  "tp1": "62050.0",
-  "tp2": "61800.0",
-  "stop": "62255.0",
-  "absorption": "62200.0 seviyesinde alicilarin agresif alimlarinin buyuk pasif saticilar tarafindan emildigi (ASK Absorption) goruluyor.",
-  "dom_observation": "62200.0 fiyat seviyesinde 509 lotluk cok buyuk bir stacked ask duvari bulunuyor ve bu seviye saticilar tarafindan guclu bir sekilde savunuluyor.",
-  "reasoning": "Fiyat, vPOC seviyesinde ve 62200'deki buyuk ask duvarinda (509 lot) net bir ASK absorption ile karsilasiyor, bu da alim gucunun tukendigini ve dusus potansiyelini gosteriyor.",
+  "tp1": "62000.0",
+  "tp2": "61700.0",
+  "stop": "62260.0",
+  "absorption": "YOK",
+  "dom_observation": "62250.0 seviyesinde 509 lotluk buyuk bir stacked ask duvari (direnc) mevcut.",
+  "reasoning": "Alicilarin devam edememesi (no continuation), vPOC'de guclu negatif delta ile saticilarin devreye girmesi ve ustteki buyuk ask duvari dusus potansiyelini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "09:51:35"
+  "timestamp": "09:54:10"
 }
