@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.9"
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60690.0",
-  "tp2": "61100.0",
+  "tp1": "61100.0",
+  "tp2": "61500.0",
   "stop": "60440.0",
-  "absorption": "Bid absorption is occurring at the Value Area Low (60562.5), as indicated by the price failing to drop despite selling pressure on the DOM and footprint.",
-  "dom_observation": "Sellers are hitting the bids around VAL, but price is holding. A significant bid wall is present at 60500, suggesting buyer support.",
-  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde alıcılar tarafından absorbe ediliyor, bu da daha düşük fiyatların reddedildiğini ve vPOC'a doğru bir rotasyon potansiyeli olduğunu gösteriyor.",
+  "absorption": "60500-60600 seviyelerinde alicilarin satis baskisini emdigi (BID absorption) goruluyor, footprint mumunda alim agirlikli bir yapi mevcut.",
+  "dom_observation": "Mevcut fiyatin altinda 60460'da 80 lotluk bir alim blogu destek olusturuyor, satis tarafi (ask) ise daha zayif.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alici absorpsiyonu gostererek dusuk fiyatlari reddediyor ve bu durum long pozisyon icin guclu bir sinyal olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "06:10:34"
+  "timestamp": "06:14:52"
 }
