@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62175.6",
     "VAL": "61679.3",
-    "VAH": "YOK"
+    "VAH": "62400.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62175.0",
-  "tp1": "61900.0",
-  "tp2": "61700.0",
-  "stop": "62250.0",
-  "absorption": "vPOC (62175.6) seviyesinde belirgin ASK absorption. Pozitif delta ile gelen alicilarin gucu tukendi ve saticilar tarafindan absorbe edilerek fiyat asagi itildi.",
-  "dom_observation": "vPOC seviyesinde ve hemen ustunde (62170-62200) yigilmis buyuk satis (ASK) emirleri alici gucunu baskiliyor.",
-  "reasoning": "Fiyat, vPOC seviyesinde karsilastigi guclu satis baskisi ve ASK absorption nedeniyle reddedildi, bu da dusus yonlu bir firsat sunuyor.",
+  "entry": "62170.0",
+  "tp1": "62250.0",
+  "tp2": "62400.0",
+  "stop": "62120.0",
+  "absorption": "Negatif delta (-86) olmasina ragmen fiyatin vPOC seviyesinde dusmemesi, alicilarin satis baskisini absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "Fiyat vPOC etrafinda tutunuyor, 62200 seviyesinde direnc olusturan bir ask duvari (2095 lot) mevcut.",
+  "reasoning": "vPOC seviyesinde gozlemlenen guclu BID absorption, satis baskisinin tukenmekte oldugunu ve alicilarin kontrolu ele alabilecegini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "09:46:11"
+  "timestamp": "09:48:46"
 }
