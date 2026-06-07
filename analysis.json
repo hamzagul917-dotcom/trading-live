@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
+  "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60900.0",
+  "tp1": "60800.0",
   "tp2": "61100.0",
-  "stop": "60440.0",
-  "absorption": "VAL seviyesinde (60562.5) guclu BID absorption gozlemleniyor. Pozitif delta ve footprint'teki alimlar, saticilarin absorbe edildigini gosteriyor.",
-  "dom_observation": "DOM'da 60500 ve altinda biriken bid emirleri ve fiyatin dususe ragmen pozitif delta ile karsilanmasi (bid back) alici gucunu teyit ediyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif alicilar tarafindan absorbe ediliyor ve bu durum pozitif delta uyumsuzlugu ile destekleniyor.",
+  "stop": "60480.0",
+  "absorption": "VAL seviyesi olan 60562.5'te agresif satislarin pasif alicilar tarafindan emildigi (BID absorption) gozlemleniyor.",
+  "dom_observation": "DOM'da 60600 altindaki seviyelerde agresif satislar (Sells sutunu) gorulmesine ragmen fiyat dusmuyor, bu da alicilarin gucunu gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de agresif satislari absorbe ediyor ve CVD'de hafif bir pozitif uyumsuzlukla birlikte alici tepkisi gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "07:56:45"
+  "timestamp": "08:01:06"
 }
