@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
+  "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "60900.0",
-  "tp2": "61100.0",
-  "stop": "60400.0",
-  "absorption": "Significant BID absorption is occurring at the Value Area Low (VAL) around 60550.0, preventing a price breakdown despite visible selling pressure in the footprint.",
-  "dom_observation": "Despite aggressive market selling hitting the bids (negative Chg. values), the price is holding at VAL, and a dense cluster of passive buy orders is visible below 60500.0, acting as support.",
-  "reasoning": "Price is failing to break below the key Value Area Low (VAL) due to strong BID absorption, confirmed by a positive delta (+30) and a slight bullish CVD divergence.",
+  "tp1": "61100.0",
+  "tp2": "61452.9",
+  "stop": "60420.0",
+  "absorption": "60500-60550 fiyat araliginda alicilarin satis baskisini absorbe ettigi (BID absorption) goruluyor.",
+  "dom_observation": "VAL seviyesinde alicilarin aktif oldugu, footprint'te pozitif delta ve alim agirlikli takaslarin oldugu gozlemleniyor. Pasif emirlerden cok, market satislarinin karsilandigi bir destek yapisi var.",
+  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) alici absorpsiyonu ve pozitif delta ile destek bularak yukari donus (rejection) sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "06:31:51"
+  "timestamp": "06:36:06"
 }
