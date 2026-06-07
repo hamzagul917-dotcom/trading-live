@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62631.6",
-    "VAL": "61578.3",
-    "VAH": "62700.0"
+    "vPOC": "62520.0",
+    "VAL": "62010.3",
+    "VAH": "62631.6"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62580.0",
+  "entry": "62510.0",
   "tp1": "62630.0",
   "tp2": "62700.0",
-  "stop": "62390.0",
-  "absorption": "Aggressive selling (large negative delta -543) at the lows around 62400-62500 was absorbed by passive buyers, leading to a price bounce and indicating seller exhaustion.",
-  "dom_observation": "Significant ask liquidity is stacked at 62700, acting as a potential target and resistance. Bids are layered below, supporting the current price area.",
-  "reasoning": "Aggressive sellers failed to break the lows and were absorbed, creating a high probability for a rotation back up towards the session's vPOC.",
+  "stop": "62440.0",
+  "absorption": "Aggressive selling with high negative delta (-543) is being absorbed at the 62500-62510 level, preventing further price decline.",
+  "dom_observation": "Significant bid absorption at 62510-62500. A very large stacked bid wall of 217 lots is visible at 62450, acting as strong support.",
+  "reasoning": "Aggressive sellers failed to break price lower, and their volume is being absorbed by passive buyers at a key level just below the vPOC, indicating a high probability of a rotation upwards.",
   "should_trade": "EVET",
-  "timestamp": "11:54:58"
+  "timestamp": "11:59:13"
 }
