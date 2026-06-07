@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.9"
+    "VAH": "61452.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "60570.0",
   "tp1": "61100.0",
-  "tp2": "61452.0",
-  "stop": "60419.0",
-  "absorption": "Alıcılar VAL seviyesinde ve hemen altında (60500-60420) satıcıları absorbe ediyor, DOM'daki büyük yığılmış bid duvarı ile teyit ediliyor.",
-  "dom_observation": "60500 ile 60420 arasında çok güçlü, yığılmış alım emirleri (stacked bids) var, bu da güçlü bir destek bölgesi oluşturuyor.",
-  "reasoning": "Fiyat, alıcıların DOM'da büyük yığılmış emirlerle savunduğu ve footprint'te pozitif delta ile teyit edilen önemli VAL destek seviyesini test ediyor.",
+  "tp2": "61450.0",
+  "stop": "60400.0",
+  "absorption": "Fiyat VAL seviyesini test ederken, DOM'da 60500-60420 arasinda gorulen buyuk pasif alim emirleri (stacked bids) ve satis baskisina ragmen fiyatin dusmemesi, guclu bir BID absorption'a isaret ediyor.",
+  "dom_observation": "60500 seviyesinin altinda yogunlasan buyuk pasif alim duvarlari (80 lot @ 60450) saticilari absorbe ediyor ve fiyatin dususunu engelliyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de, buyuk pasif alim emirlerinin destegiyle (BID absorption) reddedilme (rejection) sinyalleri veriyor.",
   "should_trade": "EVET",
-  "timestamp": "07:43:52"
+  "timestamp": "07:48:12"
 }
