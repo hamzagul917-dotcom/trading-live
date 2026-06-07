@@ -7,14 +7,14 @@
     "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "80",
+  "confidence_score": "85",
   "entry": "62170.0",
-  "tp1": "62200.0",
-  "tp2": "62250.0",
-  "stop": "62120.0",
-  "absorption": "Mevcut mumda -86'lik negatif delta olmasina ragmen fiyat vPOC seviyesinde tutunuyor, bu durum alicilarin satis baskisini absorbe ettigini gosteren guclu bir BID absorption sinyalidir.",
-  "dom_observation": "62200.0 seviyesinde 509 lotluk bir Ask duvari direnc olarak duruyor. Mevcut fiyatin altinda ise belirgin bir bid duvari olmamasina ragmen footprint'te absorpsiyon gozlemleniyor.",
-  "reasoning": "vPOC seviyesinde gozlemlenen negatif deltaya ragmen fiyatin dusmemesi, guclu bir alici absorpsiyonuna isaret ediyor ve yukari yonlu bir rotasyon potansiyeli doguruyor.",
+  "tp1": "62250.0",
+  "tp2": "62400.0",
+  "stop": "62090.0",
+  "absorption": "Fiyat vPOC seviyesinde ve mevcut mumda -86'lik negatif delta olmasina ragmen dusmuyor. Bu durum, saticilarin agresif olmasina karsin pasif alicilarin tum satislari emdigini gosteren guclu bir BID absorption'dur.",
+  "dom_observation": "62250.0 seviyesinde 509 lotluk buyuk bir stacked ask duvari bulunuyor, bu da ilk kar alma hedefi olarak one cikiyor.",
+  "reasoning": "Agresif satis baskisina (negatif delta) ragmen fiyatin kilit vPOC seviyesinde tutunmasi, guclu pasif alimi (BID absorption) teyit eden bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "10:33:50"
+  "timestamp": "10:36:42"
 }
