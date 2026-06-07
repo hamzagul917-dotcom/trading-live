@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62631.6",
     "VAL": "61940.9",
     "VAH": "62819.5"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62819.5",
-  "tp1": "62631.6",
-  "tp2": "61940.9",
-  "stop": "62910.0",
-  "absorption": "ASK Absorption detected at session high (62819.5). Significant market buys (438 lots) are being absorbed by passive sellers without price moving higher.",
-  "dom_observation": "Offers are holding firm despite aggressive buying at 62819.5. No significant bid support immediately below.",
-  "reasoning": "Price is failing to break session highs due to strong passive ASK absorption, indicating buyer exhaustion and a high probability of a reversal.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "80",
+  "entry": "62820.0",
+  "tp1": "62950.0",
+  "tp2": "63000.0",
+  "stop": "62740.0",
+  "absorption": "YOK",
+  "dom_observation": "Footprint shows very strong stacked buy imbalances (438x170) at the VAH, indicating aggressive buyers are attempting a breakout.",
+  "reasoning": "Aggressive buyers are breaking the Value Area High with significant volume and buy-side pressure, confirmed by CVD, signaling a high probability of acceptance at higher prices.",
   "should_trade": "EVET",
-  "timestamp": "11:36:38"
+  "timestamp": "11:41:03"
 }
