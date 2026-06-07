@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": "75",
   "entry": "60570.0",
-  "tp1": "60900.0",
+  "tp1": "60700.0",
   "tp2": "61100.0",
-  "stop": "60440.0",
-  "absorption": "Fiyat VAL seviyesinde duserken pozitif delta (+32) ile karsilasti, bu da saticilarin agresif bir sekilde pasif alicilar tarafindan absorbe edildigini gosteriyor (BID Absorption).",
-  "dom_observation": "Mevcut fiyatin altinda 60500 ve ozellikle 60450 seviyelerinde yigilmis (stacked) alim emirleri (bids) bulunuyor, bu da alici destegini teyit ediyor.",
-  "reasoning": "Fiyat, VAL desteginde bariz bir BID absorption gosterdi ve delta negatiften pozitife dondu, bu da deger alani icinde vPOC'a dogru bir rotasyon potansiyeli sunuyor.",
+  "stop": "60490.0",
+  "absorption": "Fiyat VAL seviyesinin hemen altinda market satis emirlerini emiyor (BID absorption), pozitif delta ile birlikte yukari tepki veriyor.",
+  "dom_observation": "Mevcut fiyatin altinda alicilar birikiyor, ancak 60700 ve uzerinde onemli stacked ask duvarlari (direnc) mevcut.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den alici absorpsiyonu ve pozitif delta ile tepki aliyor, bu da deger alani icine bir rotasyon (rejection) sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "02:28:47"
+  "timestamp": "02:33:10"
 }
