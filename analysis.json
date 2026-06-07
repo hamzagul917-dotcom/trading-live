@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62103.9",
-    "VAL": "61666.8",
+    "vPOC": "62163.1",
+    "VAL": "61674.5",
     "VAH": "62400.0"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "70",
-  "entry": "62110.0",
-  "tp1": "61900.0",
-  "tp2": "61670.0",
-  "stop": "62220.0",
-  "absorption": "Pozitif delta ile vPOC'a gelen alicilarin gucu tukendi ve fiyat ilerleyemiyor; saticilarin absorbe ettigi goruluyor.",
-  "dom_observation": "DOM'da vPOC seviyesinin uzerinde (62220-62250) goreceli olarak daha fazla ask likiditesi birikmis durumda.",
-  "reasoning": "Fiyat, pozitif delta ile vPOC'a ulastiktan sonra hacimsiz kalarak ilerleyemedi, bu durum alici gucunun tukendigini ve potansiyel bir donusu isaret ediyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "80",
+  "entry": "62170.0",
+  "tp1": "62250.0",
+  "tp2": "62400.0",
+  "stop": "62120.0",
+  "absorption": "Guclu BID absorption 62150.0 seviyesinde gozlendi (169 lot satis emri karsilandi ve fiyat dusmedi), bu seviye alicilar tarafindan savunuluyor.",
+  "dom_observation": "62150.0 seviyesinde 169 lotluk buyuk bir bid emri var ve bu seviyeye gelen satislar absorbe ediliyor. Yukarida ise 62250 ve 62300 seviyelerinde likidite mevcut.",
+  "reasoning": "Fiyat vPOC'de konsolide olurken, 62150 seviyesindeki guclu BID absorption ve DOM'daki buyuk alim duvari, alicilarin kontrolu ele aldigini ve yukari yonlu bir rotasyon potansiyeli oldugunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "09:15:50"
+  "timestamp": "09:25:26"
 }
