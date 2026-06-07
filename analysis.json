@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
+  "confidence_score": "75",
   "entry": "60570.0",
-  "tp1": "60700.0",
+  "tp1": "60800.0",
   "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "Alicilar, VAL seviyesindeki satis baskisini pozitif delta ile absorbe ediyor.",
-  "dom_observation": "Mevcut seviyenin altinda katmanli alim emirleri (bids) destegi var, ust tarafta likidite daha zayif.",
-  "reasoning": "Fiyat VAL seviyesini test ederken, yukselen CVD (bullish divergence) ve pozitif delta ile desteklenen guclu bir alici absorpsiyonu gozlemleniyor.",
+  "stop": "60480.0",
+  "absorption": "Alıcılar, Değer Alanı Düşük (VAL) seviyesinde satıcıları absorbe ediyor, bu da pozitif delta ile teyit ediliyor.",
+  "dom_observation": "Mevcut fiyatın altında kümelenmiş alım emirleri (bid) ve 60670-60690 seviyelerinde önemli satış emirleri (ask) duvarı gözlemleniyor.",
+  "reasoning": "Fiyat, Değer Alanı Düşük (VAL) seviyesinde pozitif delta ile alıcı tepkisiyle karşılaştı, bu da değer alanı içine doğru bir rotasyon potansiyeli taşıyan bir reddedilme (rejection) sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "08:47:34"
+  "timestamp": "08:50:09"
 }
