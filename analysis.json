@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "60550.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
+  "confidence_score": "85",
+  "entry": "60570.0",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
   "stop": "60400.0",
-  "absorption": "Significant BID absorption is occurring at the VAL, supported by a large stacked bid wall below.",
-  "dom_observation": "Large stacked bid wall from 60500 down to 60420 is absorbing selling pressure at the Value Area Low.",
-  "reasoning": "Fiyat, gunluk deger alani alt sinirinda (VAL) buyuk bir yigilma alim emri duvari (stacked bids) tarafindan destekleniyor ve satis baskisini absorbe ediyor.",
+  "absorption": "Fiyat VAL seviyesinde ve altinda (60500) gelen satislarin pasif alicilar tarafindan absorbe edildigi goruluyor.",
+  "dom_observation": "60500-60420 arasinda fiyati destekleyen guclu bir yigilmis alim (stacked bid) duvari mevcut.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den alici absorpsiyonu ve DOM'daki yigilmis alim emirleri ile reddediliyor, bu da yukari yonlu bir rotasyon potansiyeli gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "09:00:17"
+  "timestamp": "09:02:50"
 }
