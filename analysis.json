@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62819.5",
+    "vPOC": "62800.0",
     "VAL": "61940.9",
-    "VAH": "62900.0"
+    "VAH": "62850.0"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62826.5",
+  "entry": "62819.5",
   "tp1": "62631.6",
-  "tp2": "YOK",
+  "tp2": "62500.0",
   "stop": "62910.0",
-  "absorption": "Fiyat vPOC/VAH seviyesinde yukselmeye calisirken, footprint'te (438x70) ve DOM'da gorulen pasif saticilar tarafindan agresif alicilarin absorbe edilmesi (ASK Absorption).",
-  "dom_observation": "DOM'da ask tarafinda bid'e gore daha fazla likidite birikimi var ve fiyat yukseldikce satis emirleri artiyor, bu da satici direncini gosteriyor.",
-  "reasoning": "Piyasa, vPOC/VAH direncinde net bir ASK absorpsiyonu gosteriyor; alicilarin yukari yonlu devam edememesi, asagi yonlu bir rotasyon ihtimalini guclendiriyor.",
+  "absorption": "Fiyat 62819.5'te yuksek alim hacmine (438 lot) ragmen yukselemedi, bu saticilarin alimlari absorbe ettigini gosteriyor (ASK Absorption).",
+  "dom_observation": "DOM'da yukari yonlu belirgin bir direnc gorunuyor, anlik fiyatta ise alimlarin karsilandigi ve fiyatin ilerleyemedigi gozlemleniyor.",
+  "reasoning": "Yuksek pozitif delta ve CVD uyumsuzluguna ragmen fiyatin yukselememesi, VAH yakininda guclu bir ASK absorption oldugunu ve dusus potansiyeli tasidigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "11:08:23"
+  "timestamp": "11:10:53"
 }
