@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62520.0",
-    "VAL": "62010.3",
+    "vPOC": "62376.7",
+    "VAL": "62012.8",
     "VAH": "62631.6"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62510.0",
-  "tp1": "62630.0",
-  "tp2": "62700.0",
-  "stop": "62440.0",
-  "absorption": "Aggressive selling with high negative delta (-543) is being absorbed at the 62500-62510 level, preventing further price decline.",
-  "dom_observation": "Significant bid absorption at 62510-62500. A very large stacked bid wall of 217 lots is visible at 62450, acting as strong support.",
-  "reasoning": "Aggressive sellers failed to break price lower, and their volume is being absorbed by passive buyers at a key level just below the vPOC, indicating a high probability of a rotation upwards.",
+  "entry": "62375.0",
+  "tp1": "62500.0",
+  "tp2": "62630.0",
+  "stop": "62320.0",
+  "absorption": "Saticilar vPOC seviyesine agresif satis yapmasina ragmen (negatif delta) fiyat dusmuyor, bu da alicilarin satislari pasif olarak absorbe ettigini gosteriyor.",
+  "dom_observation": "vPOC seviyesinde satislar karsilaniyor, fiyat asagi kiramiyor. Ust seviyelerde (62500) likidite birikimi var.",
+  "reasoning": "Fiyat, negatif deltaya ragmen kilit vPOC seviyesinde tutunuyor; bu durum, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "11:59:13"
+  "timestamp": "12:03:50"
 }
