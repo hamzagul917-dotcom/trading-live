@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "90",
   "entry": "60570.0",
-  "tp1": "60700.0",
-  "tp2": "61100.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
   "stop": "60480.0",
-  "absorption": "Value Area Low (VAL) seviyesinde (60500-60550 arasi) agresif satislarin pasif alicilar tarafindan emildigi (BID absorption) goruluyor.",
-  "dom_observation": "Mevcut fiyatin altindaki bid kademeleri (ozellikle 60550 ve 60500) guclu duruyor ve dusuk seviyelerde satis yapanlarin tuzaga dustugu (trapped sellers) gozlemleniyor.",
-  "reasoning": "Fiyat, Deger Alani Dusu'nu (VAL) reddediyor ve bu hareket, guclu alici absorpsiyonu, tuzaga dusmus saticilar ve pozitif CVD uyumsuzlugu ile destekleniyor.",
+  "absorption": "Guclu BID absorption VAL seviyesinde (60500-60560 arasi) gozlemleniyor, saticilarin baskisi alicilar tarafindan emiliyor.",
+  "dom_observation": "Fiyat VAL'de tutunurken, footprint'te artan pozitif delta (+30) ve DOM'da satislarin karsilanmasi alici gucunu gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de guclu alici absorpsiyonu ve artan pozitif delta ile dususu reddediyor, bu da yukselis potansiyeli olan bir donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "05:22:47"
+  "timestamp": "05:27:22"
 }
