@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62819.5",
     "VAL": "61940.9",
-    "VAH": "62900.0"
+    "VAH": "62819.5"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "62819.5",
-  "tp1": "62900.0",
-  "tp2": "63000.0",
-  "stop": "62749.0",
-  "absorption": "Massive BID absorption at vPOC (62819.5), where 438 market sell orders were absorbed by passive buyers without a significant price drop.",
-  "dom_observation": "DOM shows sellers hitting the bids around 62810-62800, but the price is holding firm, confirming the absorption seen on the footprint.",
-  "reasoning": "Aggressive sellers are being absorbed by passive buyers at the session's vPOC, indicating institutional buying interest and a high probability of an upward move.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "85",
+  "entry": "62826.5",
+  "tp1": "62631.6",
+  "tp2": "YOK",
+  "stop": "62910.0",
+  "absorption": "VAH seviyesinde alicilarin agresif emirleri pasif saticilar tarafindan emiliyor (ASK absorption), fiyatin yukselmesini engelliyor.",
+  "dom_observation": "DOM'da anlik belirgin bir duvar yok ancak footprint'te yuksek alim hacmine ragmen fiyatin ilerleyememesi satici gucunu gosteriyor.",
+  "reasoning": "Fiyat, VAH/vPOC direncinde yuksek hacimle duraksadi ve agresif alicilarin pasif saticilar tarafindan absorbe edilmesiyle yukselis momentumunu kaybetti.",
   "should_trade": "EVET",
-  "timestamp": "11:19:24"
+  "timestamp": "11:23:42"
 }
