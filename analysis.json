@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
-    "VAH": "61452.0"
+    "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": 85,
   "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61452.0",
-  "stop": "60480.0",
-  "absorption": "Fiyat, kilit destek seviyesi olan VAL'de (60562.5) agresif saticilari absorbe ediyor. Footprint icinde dusuk seviyelerde alici agirlikli takaslar (15x22, 28x28) goruluyor.",
-  "dom_observation": "Mevcut fiyatin hemen altinda (60500-60420) biriken ve yenilenen bid'ler, saticilarin fiyatı daha asagi itemedigini ve alicilarin seviyeyi savundugunu gosteriyor.",
-  "reasoning": "Fiyat, kilit destek olan VAL seviyesinde net bir BID absorption sergiliyor ve CVD'de gozlenen pozitif uyumsuzlukla desteklenen bir yukselis potansiyeli gosteriyor.",
+  "tp1": "60900.0",
+  "tp2": "61100.0",
+  "stop": "60410.0",
+  "absorption": "60550-60500 araliginda saticilarin satis yapmasina ragmen fiyatin dusmedigi, alicilar tarafindan BID absorption gozlemlendi.",
+  "dom_observation": "Mevcut fiyatin altinda 60500-60420 seviyelerinde kumelelenmis alim emirleri (bid) destegi bulunuyor, bu da dususu zorlastiriyor.",
+  "reasoning": "Fiyat, Deger Alani Dusu'nden (VAL) alici absorpsiyonu ve pozitife donen delta ile guclu bir sekilde reddediliyor, bu da vPOC'a dogru bir rotasyon potansiyelini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "04:35:10"
+  "timestamp": "05:09:52"
 }
