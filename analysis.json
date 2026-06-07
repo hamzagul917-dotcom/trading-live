@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62200.0",
-    "VAL": "61500.0",
+    "vPOC": "62450.0",
+    "VAL": "61841.7",
     "VAH": "62500.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "90",
-  "entry": "62630.0",
-  "tp1": "62750.0",
-  "tp2": "62900.0",
-  "stop": "62610.0",
-  "absorption": "YOK",
-  "dom_observation": "62620.0 seviyesinde 676 lotluk cok buyuk bir stacked bid duvari var, bu seviye guclu bir destek olarak calisiyor.",
-  "reasoning": "Fiyat, VAH uzerinde guclu pozitif delta, artan CVD ve buyuk bir bid duvari ile desteklenen bir 'Acceptance' durumu sergiliyor, bu da yukari yonlu devami isaret ediyor.",
+  "confidence_score": 85,
+  "entry": "62420.0",
+  "tp1": "62490.0",
+  "tp2": "62550.0",
+  "stop": "62370.0",
+  "absorption": "Saticilarin 62410-62400 seviyesine satis yapmasina ragmen fiyatin dusmemesi, bu bolgede alicilarin pasif olarak satislari absorbe ettigini gosteriyor (BID Absorption).",
+  "dom_observation": "62410 ve 62400 seviyelerinde alim emirleri (bids) bekliyor ve gelen satis emirlerini karsiliyor, fiyatin daha fazla dusmesini engelliyor.",
+  "reasoning": "vPOC altinda negatif delta ile dusus sonrasi fiyatin ilerleyememesi ve 62400 seviyesinde BID absorption gozlemlenmesi, saticilarin gucunun tukendigini ve alicilarin kontrolu ele aldigini gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "10:39:12"
+  "timestamp": "10:41:47"
 }
