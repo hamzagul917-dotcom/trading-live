@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62450.0",
-    "VAL": "61841.7",
-    "VAH": "62500.0"
+    "vPOC": "62499.9",
+    "VAL": "61845.9",
+    "VAH": "62550.0"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "62420.0",
-  "tp1": "62490.0",
-  "tp2": "62550.0",
-  "stop": "62370.0",
-  "absorption": "Saticilarin 62410-62400 seviyesine satis yapmasina ragmen fiyatin dusmemesi, bu bolgede alicilarin pasif olarak satislari absorbe ettigini gosteriyor (BID Absorption).",
-  "dom_observation": "62410 ve 62400 seviyelerinde alim emirleri (bids) bekliyor ve gelen satis emirlerini karsiliyor, fiyatin daha fazla dusmesini engelliyor.",
-  "reasoning": "vPOC altinda negatif delta ile dusus sonrasi fiyatin ilerleyememesi ve 62400 seviyesinde BID absorption gozlemlenmesi, saticilarin gucunun tukendigini ve alicilarin kontrolu ele aldigini gosteriyor.",
+  "order_flow_signal": "SELL",
+  "confidence_score": 90,
+  "entry": "62630.0",
+  "tp1": "62500.0",
+  "tp2": "61850.0",
+  "stop": "62670.0",
+  "absorption": "Fiyat yeni tepe yaparken agresif alicilar 62640 seviyesindeki buyuk pasif satici duvari tarafindan absorbe ediliyor, bu durum mumun negatif delta (-2) ile kapanmasiyla teyitleniyor.",
+  "dom_observation": "62640 seviyesinde 671 lotluk cok buyuk bir stacked ask duvari bulunuyor ve fiyat bu seviyeye yaklastikca satis baskisi artiyor.",
+  "reasoning": "Fiyat, yeni bir tepe yaparken negatif delta gostermekte ve buyuk bir ask duvari tarafindan absorbe edilmektedir, bu da alim gucunun tukendigini ve bir donus potansiyelini isaret eden klasik bir Axia short setup'idir.",
   "should_trade": "EVET",
-  "timestamp": "10:41:47"
+  "timestamp": "10:44:31"
 }
