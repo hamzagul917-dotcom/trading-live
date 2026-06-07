@@ -11,10 +11,10 @@
   "entry": "60570.0",
   "tp1": "60700.0",
   "tp2": "61100.0",
-  "stop": "60450.0",
-  "absorption": "Significant BID absorption observed at the session VAL (60562.5), indicated by positive delta (+30) and buying on the footprint despite the price being at a key low.",
-  "dom_observation": "Strong stacked bids are visible below the current price (e.g., 80 lots at 60460), providing support, while sellers are defending higher levels (e.g., 63 lots at 60680).",
-  "reasoning": "Fiyat, seansin kilit destek seviyesi olan VAL'de alici absorpsiyonu ile guclu bir reddedilme (rejection) gosteriyor, bu durum pozitif delta ve DOM'daki alim emirleri ile teyit ediliyor.",
+  "stop": "60400.0",
+  "absorption": "Fiyat VAL seviyesinde iken, agresif satislarin (+30 pozitif delta ile) pasif alicilar tarafindan emildigi goruluyor (BID absorption).",
+  "dom_observation": "Mevcut fiyatin hemen altinda (60500-60420 arasi) alici destegi ve yukarida (60680-60700) satici direnci goruluyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de pozitif delta ve CVD uyusmazligi ile birlikte net bir BID absorption sergileyerek potansiyel bir yukari donus sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "09:07:48"
+  "timestamp": "09:10:31"
 }
