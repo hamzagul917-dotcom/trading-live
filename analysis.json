@@ -9,12 +9,12 @@
   "order_flow_signal": "BUY",
   "confidence_score": "85",
   "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
-  "stop": "60410.0",
-  "absorption": "Fiyat VAL seviyesinde agresif satis emirlerini (negatif delta) absorbe ediyor, dususu engelliyor.",
-  "dom_observation": "DOM'da 60560-60500 arasinda negatif delta gorulmesine ragmen fiyat tutunuyor. Alt seviyelerde (60450-60430) destekleyici alim limitleri mevcut.",
-  "reasoning": "Fiyat, kilit destek olan VAL seviyesinde, bullish CVD uyumsuzlugu esliginde net bir BID absorption sergiliyor.",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60400.0",
+  "absorption": "Fiyat VAL altinda yeni dip yapmaya calisirken, ozellikle 60450-60500 seviyelerinde buyuk alim emirleri (BID) satis baskisini emiyor (absorption), dususu engelliyor.",
+  "dom_observation": "DOM'da 60450 seviyesindeki 80 lotluk ve altindaki diger buyuk bid'ler satislari karsiliyor. Fiyat dusmekte zorlaniyor.",
+  "reasoning": "Fiyat, deger alani altinda (VAL) kalicilik saglayamiyor ve dusuk seviyelerde guclu alici absorpsiyonu ve hafif CVD uyumsuzlugu gozlemleniyor, bu da potansiyel bir yukari donus sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "05:36:02"
+  "timestamp": "05:40:23"
 }
