@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "62300.0",
-    "VAL": "61900.0",
-    "VAH": "62550.0"
+    "VAL": "61915.0",
+    "VAH": "62500.0"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62780.0",
-  "tp1": "62500.0",
-  "tp2": "62300.0",
-  "stop": "62960.0",
-  "absorption": "ASK absorption detected at local highs. High positive delta (+593 on previous candle, +266 on current) is failing to push the price higher, indicating sellers are absorbing the buying pressure.",
-  "dom_observation": "No significant stacked orders, but the price is stalling at the ask despite continuous market buys, confirming absorption.",
-  "reasoning": "Aggressive buyers are being absorbed by passive sellers at the local high, indicated by high positive delta with no upward price movement, signaling a likely failure of the breakout attempt.",
+  "entry": "62790.0",
+  "tp1": "62961.0",
+  "tp2": "63100.0",
+  "stop": "62631.6",
+  "absorption": "YOK",
+  "dom_observation": "62750 seviyesinde 352 lotluk buyuk bir bid var, bu seviye potansiyel destek gorevi gorebilir. Ask tarafi daha ince.",
+  "reasoning": "Fiyat, VAH uzerinde kabul (acceptance) goruyor ve bu durum yukselen CVD ve guclu pozitif delta ile teyit ediliyor, bu da yukselis trendinin devam etme olasiligini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "10:52:28"
+  "timestamp": "10:55:04"
 }
