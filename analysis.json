@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62400.2",
-    "VAL": "62001.7",
+    "vPOC": "62631.6",
+    "VAL": "61578.3",
     "VAH": "62700.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "62400.0",
-  "tp1": "62500.0",
+  "entry": "62580.0",
+  "tp1": "62630.0",
   "tp2": "62700.0",
-  "stop": "62340.0",
-  "absorption": "Agresif satislar (112 lot) vPOC seviyesi olan 62400'de pasif alicilar tarafindan emiliyor, fiyat dusmuyor.",
-  "dom_observation": "62400 seviyesinde buyuk market satislari (112) karsilanirken, daha yukarida 62500 ve 62560'da buyuk ask bloklari direnc olarak bekliyor.",
-  "reasoning": "vPOC desteginde agresif satislarin fiyati dusurememesi, pasif alicilarin absorpsiyon yaptigini ve potansiyel bir yukselis sinyali olusturdugunu gosteriyor.",
+  "stop": "62390.0",
+  "absorption": "Aggressive selling (large negative delta -543) at the lows around 62400-62500 was absorbed by passive buyers, leading to a price bounce and indicating seller exhaustion.",
+  "dom_observation": "Significant ask liquidity is stacked at 62700, acting as a potential target and resistance. Bids are layered below, supporting the current price area.",
+  "reasoning": "Aggressive sellers failed to break the lows and were absorbed, creating a high probability for a rotation back up towards the session's vPOC.",
   "should_trade": "EVET",
-  "timestamp": "11:50:17"
+  "timestamp": "11:54:58"
 }
