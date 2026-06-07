@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62499.9",
-    "VAL": "61845.9",
-    "VAH": "62550.0"
+    "vPOC": "62500.0",
+    "VAL": "61860.9",
+    "VAH": "62600.0"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 90,
-  "entry": "62630.0",
-  "tp1": "62500.0",
-  "tp2": "61850.0",
-  "stop": "62670.0",
-  "absorption": "Fiyat yeni tepe yaparken agresif alicilar 62640 seviyesindeki buyuk pasif satici duvari tarafindan absorbe ediliyor, bu durum mumun negatif delta (-2) ile kapanmasiyla teyitleniyor.",
-  "dom_observation": "62640 seviyesinde 671 lotluk cok buyuk bir stacked ask duvari bulunuyor ve fiyat bu seviyeye yaklastikca satis baskisi artiyor.",
-  "reasoning": "Fiyat, yeni bir tepe yaparken negatif delta gostermekte ve buyuk bir ask duvari tarafindan absorbe edilmektedir, bu da alim gucunun tukendigini ve bir donus potansiyelini isaret eden klasik bir Axia short setup'idir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "90",
+  "entry": "62710.0",
+  "tp1": "62850.0",
+  "tp2": "63000.0",
+  "stop": "62531.6",
+  "absorption": "YOK",
+  "dom_observation": "Guclu agresif alicilar DOM'a giriyor, anlik ask (offer) likiditesi zayif.",
+  "reasoning": "Fiyat, VAH uzerinde yuksek hacim ve guclu pozitif delta (+465) ile kabul (acceptance) goruyor, CVD trendi dogruluyor.",
   "should_trade": "EVET",
-  "timestamp": "10:44:31"
+  "timestamp": "10:47:22"
 }
