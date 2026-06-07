@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62376.7",
-    "VAL": "62012.8",
-    "VAH": "62631.6"
+    "vPOC": "62500.0",
+    "VAL": "61800.0",
+    "VAH": "62630.0"
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62375.0",
-  "tp1": "62500.0",
-  "tp2": "62630.0",
-  "stop": "62320.0",
-  "absorption": "Saticilar vPOC seviyesine agresif satis yapmasina ragmen (negatif delta) fiyat dusmuyor, bu da alicilarin satislari pasif olarak absorbe ettigini gosteriyor.",
-  "dom_observation": "vPOC seviyesinde satislar karsilaniyor, fiyat asagi kiramiyor. Ust seviyelerde (62500) likidite birikimi var.",
-  "reasoning": "Fiyat, negatif deltaya ragmen kilit vPOC seviyesinde tutunuyor; bu durum, saticilarin tukendigini ve alicilarin kontrolu ele aldigini gosteren guclu bir BID absorption sinyalidir.",
+  "entry": "62390.0",
+  "tp1": "62270.0",
+  "tp2": "62100.0",
+  "stop": "62560.0",
+  "absorption": "Mevcut mumda pozitif delta (+24) olmasına rağmen fiyatın vPOC altında yükseliş gösterememesi, pasif satıcıların gelen alım emirlerini absorbe ettiğini gösteriyor (ASK absorption).",
+  "dom_observation": "62500 seviyesinden başlayan ve yukarı doğru devam eden belirgin bir stacked ask duvarı (direnç) mevcutken, bid tarafında likidite zayıf.",
+  "reasoning": "Fiyatın vPOC altında kabul görmesi, düşen CVD trendi ve alıcıların zayıflığını gösteren anlık absorption nedeniyle düşüşün devam etmesi beklenmektedir.",
   "should_trade": "EVET",
-  "timestamp": "12:03:50"
+  "timestamp": "12:15:59"
 }
