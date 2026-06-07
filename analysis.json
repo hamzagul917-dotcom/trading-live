@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62631.6",
-    "VAL": "61936.5",
-    "VAH": "62826.5"
+    "VAL": "61940.9",
+    "VAH": "62825.6"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62826.5",
+  "confidence_score": 85,
+  "entry": "62825.0",
   "tp1": "62631.6",
-  "tp2": "YOK",
+  "tp2": "62500.0",
   "stop": "62910.0",
-  "absorption": "ASK absorption detected at VAH (62826.5). Buyers are struggling to push price higher despite volume, indicating sellers are absorbing the buying pressure.",
-  "dom_observation": "Sellers are defending the VAH level, with notable stacked asks visible above, particularly at 62900. The buying momentum seen in the tape is being absorbed without significant price appreciation.",
-  "reasoning": "Fiyat, VAH seviyesinde alıcıların momentum kaybetmesi (negatif delta), ASK absorption ve bearish CVD uyumsuzluğu ile birlikte reddedilme (rejection) sinyalleri veriyor.",
+  "absorption": "Aggressive buyers are being absorbed by passive sellers at the VAH (62825.6), indicated by high volume on the ask side of the footprint (438 lots) with no upward price movement.",
+  "dom_observation": "Price is stalling at the current level despite buying attempts. A large 442 lot ask wall is visible higher up at 63000, acting as further resistance.",
+  "reasoning": "Fiyat, VAH seviyesinde agresif alicilarin pasif saticilar tarafindan absorbe edildigi net bir ASK absorption sergiliyor, bu da yukselisin devam edememesine ve potansiyel bir donuse isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "11:00:16"
+  "timestamp": "11:02:48"
 }
