@@ -7,14 +7,14 @@
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60570.0",
-  "tp1": "61100.0",
-  "tp2": "61450.0",
-  "stop": "60410.0",
-  "absorption": "Alicilar, VAL seviyesindeki satis baskisini footprint uzerinde gorulen alim agirlikli dengesizliklerle (buy-side imbalances) aktif olarak absorbe ediyor.",
-  "dom_observation": "Mevcut fiyatin altinda 60500-60420 arasinda kume halinde alim emirleri (bids) destek olustururken, satis tarafindaki (ask) likidite daha zayif ve daginik.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alicilar tarafindan absorbe ediliyor ve footprint'te alim agresifligi goruluyor, bu da dusuk fiyatlarin reddedildigini gosteriyor.",
+  "confidence_score": "70",
+  "entry": "60562.5",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60449.0",
+  "absorption": "YOK",
+  "dom_observation": "Alıcılar VAL seviyesinde (60562.5) pozitif delta ile devreye giriyor. Mevcut fiyatın altında kümelenmiş bid emirleri desteği gösteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de pozitif delta ve alıcı tepkisiyle karşılaştı, bu da seviyeden bir sıçrama (rejection) potansiyeli olduğunu gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "08:18:08"
+  "timestamp": "08:22:26"
 }
