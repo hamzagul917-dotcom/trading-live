@@ -2,19 +2,19 @@
   "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62800.0",
+    "vPOC": "62819.5",
     "VAL": "61940.9",
-    "VAH": "62850.0"
+    "VAH": "62900.0"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62819.5",
+  "confidence_score": "90",
+  "entry": "62826.5",
   "tp1": "62631.6",
-  "tp2": "62500.0",
+  "tp2": "YOK",
   "stop": "62910.0",
-  "absorption": "Fiyat 62819.5'te yuksek alim hacmine (438 lot) ragmen yukselemedi, bu saticilarin alimlari absorbe ettigini gosteriyor (ASK Absorption).",
-  "dom_observation": "DOM'da yukari yonlu belirgin bir direnc gorunuyor, anlik fiyatta ise alimlarin karsilandigi ve fiyatin ilerleyemedigi gozlemleniyor.",
-  "reasoning": "Yuksek pozitif delta ve CVD uyumsuzluguna ragmen fiyatin yukselememesi, VAH yakininda guclu bir ASK absorption oldugunu ve dusus potansiyeli tasidigini gosteriyor.",
+  "absorption": "vPOC seviyesi olan 62819.5'te 438 kontrat gibi cok yuksek bir alim hacmi olmasina ragmen fiyat yukari yonlu guclu bir sekilde ilerleyemiyor. Bu durum, buyuk bir pasif saticinin tum agresif alimlari absorbe ettigini gosteren bir ASK absorption isaretidir.",
+  "dom_observation": "DOM'da gorunur buyuk bir satis duvari olmasa da, fiyatin yuksek alim hacmine ragmen ilerleyememesi, gizli (iceberg) satis emirlerinin varligina veya buyuk bir saticinin alimlari karsiladigina isaret ediyor.",
+  "reasoning": "Yuksek pozitif delta ve vPOC'deki devasa alim hacmine ragmen fiyatin yukselememesi, alicilari tuzaga dusuren guclu bir ASK absorption oldugunu ve dusus potansiyeli tasidigini gostermektedir.",
   "should_trade": "EVET",
-  "timestamp": "11:10:53"
+  "timestamp": "11:15:01"
 }
