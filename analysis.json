@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "61100.0",
+    "vPOC": "60691.1",
     "VAL": "60562.5",
-    "VAH": "61452.9"
+    "VAH": "YOK"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60570.0",
-  "tp1": "60800.0",
-  "tp2": "61100.0",
-  "stop": "60410.0",
-  "absorption": "VAL seviyesinde potansiyel BID absorption gozleniyor; pozitif delta ve CVD sapmasi dususu engelliyor.",
-  "dom_observation": "60560'dan 60450'ye kadar cok guclu yigilmis BID duvarı (ozellikle 60450'de 80 lot) alici destegini gosteriyor.",
-  "reasoning": "Fiyat, VAL desteginde pozitif delta, bullish CVD sapmasi ve DOM'daki buyuk alici duvari ile destekleniyor, bu da dusuk fiyatlarin reddedildigini gosteriyor.",
+  "confidence_score": "90",
+  "entry": "60580.0",
+  "tp1": "60690.0",
+  "tp2": "60800.0",
+  "stop": "60440.0",
+  "absorption": "Guclu BID absorption 60560-60500 arasinda gozlemleniyor. Saticilarin baskisina ragmen fiyat dusmuyor.",
+  "dom_observation": "60560 seviyesinin altinda 60420'ye kadar uzanan cok buyuk bir stacked bid duvari var, bu da guclu pasif alim ilgisini gosteriyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de guclu BID absorption ve buyuk bir stacked bid duvari ile karsilasti, bu da dususu reddedip vPOC'a dogru bir rotasyon baslatma ihtimalini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "07:26:35"
+  "timestamp": "07:30:59"
 }
