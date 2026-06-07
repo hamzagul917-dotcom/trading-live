@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62819.5",
+    "vPOC": "62200.0",
     "VAL": "61940.9",
-    "VAH": "62900.0"
+    "VAH": "62819.5"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62810.0",
+  "entry": "62826.5",
   "tp1": "62631.6",
-  "tp2": "61940.9",
+  "tp2": "YOK",
   "stop": "62910.0",
-  "absorption": "Yuksek pozitif session delta'ya ragmen fiyatin vPOC uzerinde kalamamasi, agresif alicilarin pasif saticilar tarafindan absorbe edildigini gosteriyor (ASK Absorption).",
-  "dom_observation": "vPOC seviyesinde agresif alimlar fiyatı yukarı itemiyor, satıcılar piyasa emirlerini emiyor ve fiyatı baskılıyor. Alıcıların devamlılığı yok (no continuation).",
-  "reasoning": "Fiyat, yüksek alıcı hacmine rağmen vPOC direncini geçemiyor; bu durum, satıcıların kontrolü ele aldığını gösteren net bir ASK absorption sinyalidir.",
+  "absorption": "VAH seviyesi olan 62819.5'te, pozitif deltaya rağmen fiyatın ilerleyememesi, pasif satıcılar tarafından güçlü bir ASK absorption (satış emilimi) olduğunu göstermektedir.",
+  "dom_observation": "Mevcut fiyatın hemen üzerinde (ask) likidite birikimi gözlemlenirken, altındaki (bid) destek zayıftır; bu durum satıcıların bu seviyede kontrolü ele aldığını teyit etmektedir.",
+  "reasoning": "Fiyat VAH seviyesinde alım gücünü emen pasif satıcılar tarafından durduruldu, bu bir zayıflık ve potansiyel düşüş sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "11:28:03"
+  "timestamp": "11:32:23"
 }
