@@ -4,17 +4,17 @@
   "key_levels": {
     "vPOC": "62631.6",
     "VAL": "61940.9",
-    "VAH": "62825.6"
+    "VAH": "62819.5"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 85,
-  "entry": "62825.0",
+  "confidence_score": "85",
+  "entry": "62826.5",
   "tp1": "62631.6",
-  "tp2": "62500.0",
+  "tp2": "YOK",
   "stop": "62910.0",
-  "absorption": "Aggressive buyers are being absorbed by passive sellers at the VAH (62825.6), indicated by high volume on the ask side of the footprint (438 lots) with no upward price movement.",
-  "dom_observation": "Price is stalling at the current level despite buying attempts. A large 442 lot ask wall is visible higher up at 63000, acting as further resistance.",
-  "reasoning": "Fiyat, VAH seviyesinde agresif alicilarin pasif saticilar tarafindan absorbe edildigi net bir ASK absorption sergiliyor, bu da yukselisin devam edememesine ve potansiyel bir donuse isaret ediyor.",
+  "absorption": "VAH seviyesi olan 62819.5'te guclu ASK absorption gozlemleniyor. Footprint'te yuksek alim hacmine ragmen (438 lot) fiyat ilerleyemiyor.",
+  "dom_observation": "Agresif alicilar VAH'taki tekliflere (ask) vursa da fiyat yukari yonlu ivme kazanamiyor, bu da pasif saticilarin kontrolu elinde tuttugunu gosteriyor.",
+  "reasoning": "Fiyat, VAH seviyesinde agresif alımlara rağmen yukarı gidemiyor; bu durum, satıcıların alımları absorbe ettiğini ve potansiyel bir düşüşü (Rejection) işaret eden net bir ASK absorption sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "11:02:48"
+  "timestamp": "11:05:28"
 }
