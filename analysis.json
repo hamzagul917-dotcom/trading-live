@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "SIDEWAYS",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60550.0",
-  "tp1": "60450.0",
-  "tp2": "60300.0",
-  "stop": "60750.0",
-  "absorption": "Fiyatin yukselme girisimleri (pozitif delta) 60600-60700 arasinda saticilar tarafindan absorbe edildi, bu da alim gucunun tukendigini gosteriyor.",
-  "dom_observation": "DOM'da yukari seviyelerde (60670+) artan satis emirleri goruluyor. Mevcut fiyatta agresif satislar (negatif Chg.) mevcut.",
-  "reasoning": "Pozitif deltaya ragmen fiyatin yukselemedigi net bir ASK absorption sonrasi, fiyat VAL seviyesini asagi yonlu kirmaya calisiyor.",
+  "entry": "60570.0",
+  "tp1": "60700.0",
+  "tp2": "61100.0",
+  "stop": "60470.0",
+  "absorption": "VAL seviyesinde (60562.5) agresif satislarin pasif alicilar tarafindan emildigi (BID absorption) footprint ve DOM'da goruluyor.",
+  "dom_observation": "Fiyat VAL'de tutunurken, DOM'da satislarin karsilandigi ve alt kademelerde (60450-60420) destekleyici bid'lerin oldugu gozlemleniyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de net bir BID absorption ve pozitif delta donusu gostererek yukari yonlu bir tepki (rejection) sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "06:44:38"
+  "timestamp": "06:48:52"
 }
