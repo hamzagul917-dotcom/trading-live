@@ -8,13 +8,13 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": "85",
-  "entry": "60600.0",
-  "tp1": "60900.0",
-  "tp2": "61100.0",
-  "stop": "60480.0",
-  "absorption": "Guclu BID absorption VAL seviyesinde (60500-60570 arasi) gozlemleniyor. Saticilarin baskisina ragmen fiyat dusmuyor.",
-  "dom_observation": "DOM'da fiyat altinda biriken alim emirleri (ornegin 60450'de 80 lot) ve mevcut fiyatta satislari karsilayan alicilar goruluyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alicilar tarafindan absorbe ediliyor ve CVD/Delta uyumsuzlugu ile desteklenen bir donus (rejection) sinyali veriyor.",
+  "entry": "60570.0",
+  "tp1": "61100.0",
+  "tp2": "61452.9",
+  "stop": "60440.0",
+  "absorption": "Fiyat VAL seviyesinde tutunurken, artan pozitif delta ve yukselen CVD alicilarin satis baskisini absorbe ettigini gosteriyor (Bullish Bid Absorption).",
+  "dom_observation": "Mevcut fiyatin altinda duzenli bid destegi var ve son islemlerde alim agirlikli bir yapi gozleniyor.",
+  "reasoning": "Fiyat, gunluk deger alani alt bandinda (VAL) yukselen CVD ve pozitif delta ile desteklenen bir alici absorpsiyonu sergiliyor, bu da yukari yonlu bir donus potansiyeli olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:58:35"
+  "timestamp": "02:04:07"
 }
