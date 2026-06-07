@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "60570.0",
-  "tp1": "60700.0",
+  "confidence_score": 85,
+  "entry": "60580.0",
+  "tp1": "60900.0",
   "tp2": "61100.0",
-  "stop": "60400.0",
-  "absorption": "Fiyat VAL altinda yeni dip yapmaya calisirken, ozellikle 60450-60500 seviyelerinde buyuk alim emirleri (BID) satis baskisini emiyor (absorption), dususu engelliyor.",
-  "dom_observation": "DOM'da 60450 seviyesindeki 80 lotluk ve altindaki diger buyuk bid'ler satislari karsiliyor. Fiyat dusmekte zorlaniyor.",
-  "reasoning": "Fiyat, deger alani altinda (VAL) kalicilik saglayamiyor ve dusuk seviyelerde guclu alici absorpsiyonu ve hafif CVD uyumsuzlugu gozlemleniyor, bu da potansiyel bir yukari donus sinyalidir.",
+  "stop": "60440.0",
+  "absorption": "Value Area Low (VAL) seviyesinde (60562.5 civari) saticilarin agresif satislarinin alicilar tarafindan emildigi (BID absorption) gozlemleniyor.",
+  "dom_observation": "DOM'da 60500-60560 arasi teklifler (bids) tutunurken, footprint'te agresif alicilarin (pozitif delta +30) ask'i vurdugu goruluyor.",
+  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'de alici absorpsiyonu gosteriyor ve negatif deltadan pozitif deltaya gecisle birlikte CVD yukselisi bu alici gucunu teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "05:40:23"
+  "timestamp": "05:48:33"
 }
