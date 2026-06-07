@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62200.0",
+    "vPOC": "62631.6",
     "VAL": "61940.9",
     "VAH": "62819.5"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "85",
-  "entry": "62826.5",
+  "entry": "62819.5",
   "tp1": "62631.6",
-  "tp2": "YOK",
+  "tp2": "61940.9",
   "stop": "62910.0",
-  "absorption": "VAH seviyesi olan 62819.5'te, pozitif deltaya rağmen fiyatın ilerleyememesi, pasif satıcılar tarafından güçlü bir ASK absorption (satış emilimi) olduğunu göstermektedir.",
-  "dom_observation": "Mevcut fiyatın hemen üzerinde (ask) likidite birikimi gözlemlenirken, altındaki (bid) destek zayıftır; bu durum satıcıların bu seviyede kontrolü ele aldığını teyit etmektedir.",
-  "reasoning": "Fiyat VAH seviyesinde alım gücünü emen pasif satıcılar tarafından durduruldu, bu bir zayıflık ve potansiyel düşüş sinyalidir.",
+  "absorption": "ASK Absorption detected at session high (62819.5). Significant market buys (438 lots) are being absorbed by passive sellers without price moving higher.",
+  "dom_observation": "Offers are holding firm despite aggressive buying at 62819.5. No significant bid support immediately below.",
+  "reasoning": "Price is failing to break session highs due to strong passive ASK absorption, indicating buyer exhaustion and a high probability of a reversal.",
   "should_trade": "EVET",
-  "timestamp": "11:32:23"
+  "timestamp": "11:36:38"
 }
