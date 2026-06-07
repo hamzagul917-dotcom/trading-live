@@ -1,5 +1,5 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62175.6",
@@ -7,14 +7,14 @@
     "VAH": "62400.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
+  "confidence_score": "80",
   "entry": "62170.0",
-  "tp1": "62250.0",
-  "tp2": "62400.0",
+  "tp1": "62200.0",
+  "tp2": "62250.0",
   "stop": "62120.0",
-  "absorption": "Saticilarin -86'lik negatif delta ile yaptigi satislara ragmen fiyatin vPOC seviyesinde dusmemesi, guclu pasif alicilar tarafindan absorbe edildigini gosteriyor.",
-  "dom_observation": "62200.0 seviyesinde 509 lotluk buyuk bir ask duvari var, bu ilk direnc noktasi. Mevcut fiyatta alicilar agresiflesmeye basliyor.",
-  "reasoning": "vPOC seviyesinde gozlenen guclu BID absorption, saticilarin basarisiz oldugunu ve alicilarin kontrolu ele aldigini gosteren yuksek olasilikli bir long setup olusturuyor.",
+  "absorption": "Mevcut mumda -86'lik negatif delta olmasina ragmen fiyat vPOC seviyesinde tutunuyor, bu durum alicilarin satis baskisini absorbe ettigini gosteren guclu bir BID absorption sinyalidir.",
+  "dom_observation": "62200.0 seviyesinde 509 lotluk bir Ask duvari direnc olarak duruyor. Mevcut fiyatin altinda ise belirgin bir bid duvari olmamasina ragmen footprint'te absorpsiyon gozlemleniyor.",
+  "reasoning": "vPOC seviyesinde gozlemlenen negatif deltaya ragmen fiyatin dusmemesi, guclu bir alici absorpsiyonuna isaret ediyor ve yukari yonlu bir rotasyon potansiyeli doguruyor.",
   "should_trade": "EVET",
-  "timestamp": "10:28:57"
+  "timestamp": "10:33:50"
 }
