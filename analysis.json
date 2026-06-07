@@ -1,20 +1,20 @@
 {
   "trend_direction": "SIDEWAYS",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "61100.0",
     "VAL": "60562.5",
     "VAH": "61452.9"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 85,
-  "entry": "60610.0",
-  "tp1": "60800.0",
-  "tp2": "61100.0",
-  "stop": "60540.0",
-  "absorption": "VAL seviyesinde (60560.0) net bir BID absorption gozlemlendi. Saticilarin baskisina ragmen fiyat dusmedi ve alicilar kontrolu ele aldi.",
-  "dom_observation": "Mevcut fiyatin altinda alici destegi olusuyor ve footprint'te agresif alimlar goruluyor. Yukarida 60680.0 seviyesinde belirgin bir satici blogu (ask wall) direnc olusturuyor.",
-  "reasoning": "Fiyat, kilit destek seviyesi olan VAL'den alici absorpsiyonu ve pozitif delta ile net bir sekilde reddedildi (rejection), bu da yukari yonlu bir hareket potansiyeli sunuyor.",
+  "confidence_score": "85",
+  "entry": "60550.0",
+  "tp1": "61100.0",
+  "tp2": "61450.0",
+  "stop": "60400.0",
+  "absorption": "Potansiyel BID absorption VAL seviyesinde, asagidaki buyuk stacked bid duvarlari tarafindan destekleniyor.",
+  "dom_observation": "60500.0 seviyesinden asagiya dogru cok buyuk ve yogun bir stacked bid duvari var. Ask tarafi cok daha zayif.",
+  "reasoning": "Fiyat, DOM'da cok guclu bir alici duvarinin belirdigi kilit destek seviyesi olan VAL'i test ediyor, bu da yukari yonlu bir donus ihtimalini guclendiriyor.",
   "should_trade": "EVET",
-  "timestamp": "02:08:26"
+  "timestamp": "02:19:58"
 }
