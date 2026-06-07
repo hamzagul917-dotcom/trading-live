@@ -1,20 +1,20 @@
 {
-  "trend_direction": "SIDEWAYS",
-  "market_structure": "Absorption Detected",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62175.6",
-    "VAL": "61679.3",
-    "VAH": "62400.0"
+    "vPOC": "62200.0",
+    "VAL": "61500.0",
+    "VAH": "62500.0"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "85",
-  "entry": "62170.0",
-  "tp1": "62250.0",
-  "tp2": "62400.0",
-  "stop": "62090.0",
-  "absorption": "Fiyat vPOC seviyesinde ve mevcut mumda -86'lik negatif delta olmasina ragmen dusmuyor. Bu durum, saticilarin agresif olmasina karsin pasif alicilarin tum satislari emdigini gosteren guclu bir BID absorption'dur.",
-  "dom_observation": "62250.0 seviyesinde 509 lotluk buyuk bir stacked ask duvari bulunuyor, bu da ilk kar alma hedefi olarak one cikiyor.",
-  "reasoning": "Agresif satis baskisina (negatif delta) ragmen fiyatin kilit vPOC seviyesinde tutunmasi, guclu pasif alimi (BID absorption) teyit eden bir long sinyalidir.",
+  "confidence_score": "90",
+  "entry": "62630.0",
+  "tp1": "62750.0",
+  "tp2": "62900.0",
+  "stop": "62610.0",
+  "absorption": "YOK",
+  "dom_observation": "62620.0 seviyesinde 676 lotluk cok buyuk bir stacked bid duvari var, bu seviye guclu bir destek olarak calisiyor.",
+  "reasoning": "Fiyat, VAH uzerinde guclu pozitif delta, artan CVD ve buyuk bir bid duvari ile desteklenen bir 'Acceptance' durumu sergiliyor, bu da yukari yonlu devami isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "10:36:42"
+  "timestamp": "10:39:12"
 }
