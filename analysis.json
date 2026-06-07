@@ -2,19 +2,19 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62500.0",
-    "VAL": "61860.9",
-    "VAH": "62600.0"
+    "vPOC": "62631.6",
+    "VAL": "61895.5",
+    "VAH": "62500.0"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "90",
-  "entry": "62710.0",
-  "tp1": "62850.0",
-  "tp2": "63000.0",
-  "stop": "62531.6",
+  "entry": "62770.0",
+  "tp1": "62950.0",
+  "tp2": "63200.0",
+  "stop": "62600.0",
   "absorption": "YOK",
-  "dom_observation": "Guclu agresif alicilar DOM'a giriyor, anlik ask (offer) likiditesi zayif.",
-  "reasoning": "Fiyat, VAH uzerinde yuksek hacim ve guclu pozitif delta (+465) ile kabul (acceptance) goruyor, CVD trendi dogruluyor.",
+  "dom_observation": "Agresif alicilar ask emirlerini tuketerek fiyati yukari suruyor, CVD ve Delta trendi dogruluyor.",
+  "reasoning": "Fiyat, yuksek hacim ve guclu pozitif delta (+554) ile onceki deger alaninin (VAH) uzerinde kabul goruyor, bu da guclu bir yukselis trendi devam sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "10:47:22"
+  "timestamp": "10:49:54"
 }
