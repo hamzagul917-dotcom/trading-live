@@ -1,20 +1,20 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "SIDEWAYS",
   "market_structure": "Absorption Detected",
   "key_levels": {
     "vPOC": "62175.6",
     "VAL": "61679.3",
-    "VAH": "62400.0"
+    "VAH": "62200.0"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "90",
-  "entry": "62175",
-  "tp1": "61950",
-  "tp2": "61700",
-  "stop": "62260",
-  "absorption": "ASK absorption at 62200. Aggressive buyers are being absorbed by a large passive seller (509 lot offer wall), causing the upward move to fail.",
-  "dom_observation": "Large stacked ask wall at 62200 (509 lots) is holding the price. Buyers are hitting it but price is not advancing, followed by sellers stepping in.",
-  "reasoning": "Fiyat, vPOC ve 62200'deki buyuk ask duvarindan ASK absorption ile reddedildi, pozitif delta sonrasi gelen guclu negatif delta (-86) donusu teyit ediyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": 85,
+  "entry": "62175.6",
+  "tp1": "62250.0",
+  "tp2": "62400.0",
+  "stop": "62120.0",
+  "absorption": "Strong BID absorption at vPOC. A large negative delta of -86 is being absorbed by passive buyers, preventing the price from falling.",
+  "dom_observation": "Significant ask liquidity is stacked at 62200 (509 lots), acting as the first major resistance. Aggressive selling is being absorbed at current levels.",
+  "reasoning": "Fiyat, vPOC seviyesinde agresif satis baskisina (buyuk negatif delta) ragmen dusmeyi reddediyor; bu durum, guclu pasif alicilarin satislari absorbe ettigini gosteren net bir long sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "09:38:24"
+  "timestamp": "09:40:59"
 }
