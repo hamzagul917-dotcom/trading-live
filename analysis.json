@@ -2,19 +2,19 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption Detected",
   "key_levels": {
-    "vPOC": "62500.0",
-    "VAL": "61800.0",
-    "VAH": "62630.0"
+    "vPOC": "63700,0",
+    "VAL": "63586,6",
+    "VAH": "64200,0"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "85",
-  "entry": "62390.0",
-  "tp1": "62270.0",
-  "tp2": "62100.0",
-  "stop": "62560.0",
-  "absorption": "Mevcut mumda pozitif delta (+24) olmasına rağmen fiyatın vPOC altında yükseliş gösterememesi, pasif satıcıların gelen alım emirlerini absorbe ettiğini gösteriyor (ASK absorption).",
-  "dom_observation": "62500 seviyesinden başlayan ve yukarı doğru devam eden belirgin bir stacked ask duvarı (direnç) mevcutken, bid tarafında likidite zayıf.",
-  "reasoning": "Fiyatın vPOC altında kabul görmesi, düşen CVD trendi ve alıcıların zayıflığını gösteren anlık absorption nedeniyle düşüşün devam etmesi beklenmektedir.",
-  "should_trade": "EVET",
-  "timestamp": "12:15:59"
+  "order_flow_signal": "NO_TRADE",
+  "confidence_score": "45",
+  "entry": "YOK",
+  "tp1": "YOK",
+  "tp2": "YOK",
+  "stop": "YOK",
+  "absorption": "64400-64500 bolgesinde bid tarafinda buyuk emirler (30, 63, 64) birikiyor ancak fiyat vPOC altina dusmus durumda; mevcut fiyat 64409 civarinda VAH altinda kabul gormus, net absorption sinyali belirsiz",
+  "dom_observation": "Bid tarafinda 64300'de 63, 64260'da 64 lot stacked destek var; ask tarafinda 64430-64440'da iceberg benzeri yeniden dolan emirler (66) mevcut, iki tarafli denge",
+  "reasoning": "Fiyat VAH altinda CVD ile uyumsuzluk net degil ve DOM iki tarafli denge gosterirken absorption yonu belirsiz oldugu icin gecerli bir Axia setup olusmamistir.",
+  "should_trade": "HAYIR",
+  "timestamp": "00:24:48"
 }
