@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Equilibrium",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "30833.00",
+    "vPOC": "30833.0",
     "VAL": "30601.75",
     "VAH": "30905.25"
   },
   "order_flow_signal": "SELL",
   "confidence_score": "68",
-  "entry": "30480.25",
-  "tp1": "30460.00",
-  "tp2": "30435.00",
-  "stop": "30498.00",
-  "absorption": "YOK - absorption flag false, ancak son barlarda yuksek hacimde negatif delta dominant (delta_sum_5bars -415)",
-  "dom_observation": "bid_ask_ratio 0.95 hafif ask agir ama net sinyal yok (0.7-1.5 araliginda notr)",
-  "htf_alignment": "Tum zaman dilimleri (5m/15m/1h/4h) BEAR - mukemmel HTF uyumu, SELL yonu destekli",
-  "session_bias": "buy_sell_ratio 1.01 notr, fiyat VAL altinda (30480 < 30601) bu BEARISH acceptance gosteriyor, kural 6 tetiklenmiyor ama deger alani altinda kalici",
-  "reasoning": "Fiyat VAL'in cok altinda kalici (acceptance), tum HTF bias BEAR ve son barlarda satis baskisi dominant - trend yonunde kisa vadeli short, ancak DOM notr oldugu icin temkinli boyut.",
+  "entry": "30478.5",
+  "tp1": "30455.0",
+  "tp2": "30430.0",
+  "stop": "30498.0",
+  "absorption": "YOK - absorption flag false, ancak son barlarda yukari delta itislerine ragmen fiyat 30480 civarinda sikismis durumda",
+  "dom_observation": "bid_ask_ratio 0.82 - ask depth (1227) bid depth (1006) uzerinde, hafif satis baskisi ama 0.7 esiginin uzerinde",
+  "htf_alignment": "Tum zaman dilimleri (5m/15m/1h/4h) BEAR - mukemmel HTF uyumu, SELL yonunu destekliyor",
+  "session_bias": "buy_sell_ratio 1.02 notr, fiyat VAL'in (30601.75) cok altinda - deger alani altinda bearish acceptance",
+  "reasoning": "Fiyat VAL altinda derin bearish acceptance bolgesinde, tum HTF BEAR uyumlu ve son barlardaki pozitif delta itisleri (delta_sum_5bars -62) fiyati yukari tasiyamadi, bu da satici kontrolunu gosteriyor.",
   "should_trade": "EVET",
-  "timestamp": "19:04:15"
+  "timestamp": "19:05:10"
 }
