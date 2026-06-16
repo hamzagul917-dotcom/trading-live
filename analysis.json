@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Equilibrium",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "65750.0",
-    "VAL": "65615.0",
-    "VAH": "66427.0"
+    "vPOC": "65750",
+    "VAL": "65542",
+    "VAH": "66363"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "75",
-  "entry": "65641.0",
-  "tp1": "65550.0",
-  "tp2": "65450.0",
-  "stop": "65710.0",
-  "absorption": "YOK",
-  "dom_observation": "DOM bid ask orani 0.87 ile dengeli fakat hafif satis yonlu baslangic gosteriyor",
-  "htf_alignment": "Tum buyuk zaman dilimleri BEAR uyumlu olup satis yonlu islemleri desteklemektedir",
-  "session_bias": "Session buy sell orani genel alici agirlikli olsa da son barlarda satici baskisi ve fiyatin VAL seviyesine dogru dususu gozlemlenmektedir",
-  "reasoning": "Tum HTF zaman dilimlerinin BEAR olmasi ve fiyatin VAL seviyesine dogru suzulmesi nedeniyle satis yonlu islem tercih edilmektedir.",
+  "confidence_score": "58",
+  "entry": "65730",
+  "tp1": "65650",
+  "tp2": "65542",
+  "stop": "65800",
+  "absorption": "Son 10 barda fiyat 65720-65820 arasinda sikisti, yukari baskida (bar 5-8) pozitif delta var ancak fiyat yukari kabul goremiyor; mevcut barda ask_vol=3 vs bid_vol=18 ile fiyat sabit kaliyor, ask tarafinda pasif absorption sinyali mevcut",
+  "dom_observation": "bid_ask_ratio=0.90 ask agirlikli, ask_depth 63 vs bid_depth 57 ile satis tarafi hafif ustun, zayif satis baskisi devam ediyor",
+  "htf_alignment": "5m BEAR + 4h BEAR uyumlu BEARISH, ancak 15m ve 1h BULL karsi yonde; sadece 2/4 HTF uyumu var, 5m+4h bear sinyali orta duzey guvenirliligi destekliyor, 15m+1h bull uyumsuzlugu confidence dusurdu",
+  "session_bias": "CVD=-2435 guclu kumulatif satis baskisi, buy_sell_ratio=0.96 esit dengeye yakin ancak sell_volume>buy_volume (63319 vs 60884), session hafif bearish egilimli",
+  "reasoning": "Fiyat vPOC=65750 altinda seyrederken CVD=-2435 ile sert kumulatif satis baskisi mevcut, son 5 bar delta=-63 negatif, ask absorption isaretleriyle fiyat yukari gecelemiyor ve 4h+5m HTF bear uyumu SHORT senaryosunu destekliyor ancak 15m+1h bull biasin yarattigi HTF uyumsuzlugu nedeniyle confidence orta seviyede tutuldu",
   "should_trade": "EVET",
-  "timestamp": "21:13:48"
+  "timestamp": "22:26:23"
 }
