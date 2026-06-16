@@ -1,7 +1,7 @@
 {
     "order_flow_signal": {
-        "timestamp": "2026-06-16 20:32:13",
-        "direction": "NO TRADE",
-        "analysis_result": "YON: NO TRADE\nGEREKCE: Son bardaki 4 kontratlık son derece düşük hacim gerçek bir kurumsal emilimi imkansız kılar ve sinyal sadece likidite eksikliğinden kaynaklanan bir yanılsamadır."
+        "timestamp": "2026-06-16 20:35:42",
+        "direction": "SELL",
+        "analysis_result": "YON: SELL\nGEREKCE: Oturum genelindeki devasa pozitif CVD verisine ragmen fiyatın yukselemeyip gerilemesi ve alıcıların pasif satıcılar tarafından emilmesi net bir ayı yonlu CVD uyumsuzlugu olusturmaktadır."
     }
 }
