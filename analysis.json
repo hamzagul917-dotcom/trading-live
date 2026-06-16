@@ -1,22 +1,6 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
-  "key_levels": {
-    "vPOC": "30833.0",
-    "VAL": "30601.75",
-    "VAH": "30905.25"
-  },
-  "order_flow_signal": "SELL",
-  "confidence_score": "68",
-  "entry": "30478.5",
-  "tp1": "30455.0",
-  "tp2": "30430.0",
-  "stop": "30498.0",
-  "absorption": "YOK - absorption flag false, ancak son barlarda yukari delta itislerine ragmen fiyat 30480 civarinda sikismis durumda",
-  "dom_observation": "bid_ask_ratio 0.82 - ask depth (1227) bid depth (1006) uzerinde, hafif satis baskisi ama 0.7 esiginin uzerinde",
-  "htf_alignment": "Tum zaman dilimleri (5m/15m/1h/4h) BEAR - mukemmel HTF uyumu, SELL yonunu destekliyor",
-  "session_bias": "buy_sell_ratio 1.02 notr, fiyat VAL'in (30601.75) cok altinda - deger alani altinda bearish acceptance",
-  "reasoning": "Fiyat VAL altinda derin bearish acceptance bolgesinde, tum HTF BEAR uyumlu ve son barlardaki pozitif delta itisleri (delta_sum_5bars -62) fiyati yukari tasiyamadi, bu da satici kontrolunu gosteriyor.",
-  "should_trade": "EVET",
-  "timestamp": "19:05:10"
+    "order_flow_signal": {
+        "timestamp": "2026-06-16 19:54:22",
+        "analysis_result": "- YÖN: BUY\n- GİRİŞ SEVİYESİ: 65960 - 65970\n- TP1 / TP2 / STOP: 66050 / 66400 / 65880\n- GÜVEN SKORU (%): 85%\n- ANALİZ GEREKÇESİ (Maddeler halinde kısa ve net):\n  * **Düşük Hacimli Geri Çekilme (Low-Volume Pullback):** Son barda gerçekleşen düşüşte hacmin dramatik şekilde (313'ten 44'e) ve satıcı deltasının (-19) çok zayıf kalması, satış baskısının tükendiğini ve bu hareketin sadece teknik bir test olduğunu göstermektedir.\n  * **DOM Likidite Desteği:** Bid/Ask oranının 1.75 olması ve alıcı derinliğinin (69 bid) baskınlığı, pasif kurumsal alıcıların fiyatı aşağıda desteklediğini (bid absorption) doğrulamaktadır.\n  * **Trend ve Çoklu Zaman Dilimi Uyumu (HTF Alignment):** HTF bias tarafında 5m, 15m ve 1h grafiklerin tamamının BULL olması, kısa vadeli momentumun tamamen yukarı yönlü olduğunu göstermektedir.\n  * **Değer Alanı Hedefi (Value Area Play):** Fiyatın vPOC (65750) üzerinde tutunarak VAH (66428) seviyesine doğru genişleme eğiliminde olması hedef seviyelerimizi desteklemektedir.\n  * **Agresif Alıcı Üstünlüğü:** Gün içi kümülatif delta (CVD) 169k ile aşırı pozitif olup, seans genelindeki 1.56 buy/sell oranı agresif alıcıların piyasayı domine ettiğini kanıtlamaktadır."
+    }
 }
