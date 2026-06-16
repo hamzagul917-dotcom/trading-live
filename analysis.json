@@ -1,6 +1,7 @@
 {
     "order_flow_signal": {
-        "timestamp": "2026-06-16 20:10:29",
-        "analysis_result": "- YÖN: SELL\n- GİRİŞ SEVİYESİ: 66100 - 66130\n- TP1 / TP2 / STOP: TP1: 65970 / TP2: 65750 (vPOC) / STOP: 66215\n- GÜVEN SKORU (%): 75%\n- ANALİZ GEREKÇESİ:\n  * **Agresif Alıcıların Absorbe Edilmesi:** Son 10 bar incelendiğinde, Bar 9 ve Bar 8'deki yüksek hacimli agresif alımların (+391 ve +105 Delta) 66247 seviyesinde pasif satıcılar (limit orders) tarafından tamamen emilmesi (absorption) ve fiyatın buradan sertçe geri çekilmesi.\n  * **Hacim Kuruması (Exhaustion):** Hacmin 908'den son barda 14'e kadar düşmesi, alıcıların bu seviyede piyasayı yukarı sürecek gücünün kalmadığını ve \"Buyer Exhaustion\" durumunun gerçekleştiğini göstermektedir.\n  * **Belirgin CVD Uyuşmazlığı:** Günlük CVD'nin 1.37M ile aşırı pozitif olmasına rağmen fiyatın lokal zirvesini koruyamayıp aşağı süzülmesi, kurumsal oyuncuların alıcıları likidite tuzağına çekerek dağıtım (distribution) yaptığını doğrulamaktadır.\n  * **vPOC Mıknatıs Etkisi:** Değer alanı (Value Area) içinde olan fiyatın, üst sınırdan (VAH) reddedilmesi sonrası dengelenme noktası olan vPOC (65750) seviyesine doğru hareket etme eğilimi.\n  * **HTF Trend Uyumu:** 4 saatlik ve 5 dakikalık HTF yapılarının BEAR (ayı) yönlü olması, trend yönündeki kısa pozisyon kurgusunu desteklemektedir."
+        "timestamp": "2026-06-16 20:32:13",
+        "direction": "NO TRADE",
+        "analysis_result": "YON: NO TRADE\nGEREKCE: Son bardaki 4 kontratlık son derece düşük hacim gerçek bir kurumsal emilimi imkansız kılar ve sinyal sadece likidite eksikliğinden kaynaklanan bir yanılsamadır."
     }
 }
