@@ -7,16 +7,16 @@
     "VAH": "30905.25"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "68",
-  "entry": "30468.0",
-  "tp1": "30446.0",
-  "tp2": "30424.0",
+  "confidence_score": "72",
+  "entry": "30465.25",
+  "tp1": "30443.0",
+  "tp2": "30420.0",
   "stop": "30489.0",
-  "absorption": "YOK - possible_absorption=false, gercek dusus baskisi var",
-  "dom_observation": "bid_ask_ratio 1.2 hafif bid agir ama 1.5 esiginin altinda, yutucu bir alis sinyali degil, notr-hafif long bias",
-  "htf_alignment": "Tum zaman dilimleri (5m/15m/1h/4h) BEAR - mukemmel HTF uyumu, SELL yonunde tam destek",
-  "session_bias": "buy_sell_ratio 1.02 notr, session delta pozitif ancak fiyat VAL'in cok altinda (30468 < 30601.75) bu yuzden gun ici alis erimis durumda, deger alani disinda satici kontrolu",
-  "reasoning": "Fiyat VAL altinda kabul gormus, current bar guclu negatif delta (-303) ve bid_vol>ask_vol ile satici baskili, tum HTF BEAR; DOM hafif bid agir oldugundan confidence orta seviyede tutuldu.",
+  "absorption": "YOK - absorption sinyali yok, temiz satis baskisi",
+  "dom_observation": "bid_ask_ratio 1.22 hafif bid agir ama esik (1.5) altinda, anlamli alis baskisi degil",
+  "htf_alignment": "5m+15m+1h+4h tamami BEAR - tam uyum, guclu bearish onay",
+  "session_bias": "buy_sell_ratio 1.0 notr, ancak fiyat VAL altinda (30601.75) derinde - deger alani disinda bearish acceptance",
+  "reasoning": "Fiyat VAL altinda kabul gormus, tum HTF dilimleri BEAR ve mevcut bar -270 delta ile dustu, son barda alici toparlanma reddedildi (high 30488.75 satildi), trend yonunde short.",
   "should_trade": "EVET",
-  "timestamp": "19:02:34"
+  "timestamp": "19:03:01"
 }
