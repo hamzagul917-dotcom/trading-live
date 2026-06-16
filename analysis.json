@@ -1,7 +1,7 @@
 {
     "order_flow_signal": {
-        "timestamp": "2026-06-16 20:35:42",
+        "timestamp": "2026-06-16 20:36:03",
         "direction": "SELL",
-        "analysis_result": "YON: SELL\nGEREKCE: Oturum genelindeki devasa pozitif CVD verisine ragmen fiyatın yukselemeyip gerilemesi ve alıcıların pasif satıcılar tarafından emilmesi net bir ayı yonlu CVD uyumsuzlugu olusturmaktadır."
+        "analysis_result": "YON: SELL\nGEREKCE: Aşırı pozitif kümülatif delta değerine rağmen fiyatın düşüş eğiliminde olması agresif alıcıların pasif satıcılar tarafından absorbe edilerek tuzaklandığını gösteriyor."
     }
 }
