@@ -1,20 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption Detected",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "63700,0",
-    "VAL": "63586,6",
-    "VAH": "64200,0"
+    "vPOC": "30833.0",
+    "VAL": "30601.75",
+    "VAH": "30905.25"
   },
-  "order_flow_signal": "NO_TRADE",
-  "confidence_score": "45",
-  "entry": "YOK",
-  "tp1": "YOK",
-  "tp2": "YOK",
-  "stop": "YOK",
-  "absorption": "64400-64500 bolgesinde bid tarafinda buyuk emirler (30, 63, 64) birikiyor ancak fiyat vPOC altina dusmus durumda; mevcut fiyat 64409 civarinda VAH altinda kabul gormus, net absorption sinyali belirsiz",
-  "dom_observation": "Bid tarafinda 64300'de 63, 64260'da 64 lot stacked destek var; ask tarafinda 64430-64440'da iceberg benzeri yeniden dolan emirler (66) mevcut, iki tarafli denge",
-  "reasoning": "Fiyat VAH altinda CVD ile uyumsuzluk net degil ve DOM iki tarafli denge gosterirken absorption yonu belirsiz oldugu icin gecerli bir Axia setup olusmamistir.",
-  "should_trade": "HAYIR",
-  "timestamp": "00:24:48"
+  "order_flow_signal": "SELL",
+  "confidence_score": "68",
+  "entry": "30468.0",
+  "tp1": "30446.0",
+  "tp2": "30424.0",
+  "stop": "30489.0",
+  "absorption": "YOK - possible_absorption=false, gercek dusus baskisi var",
+  "dom_observation": "bid_ask_ratio 1.2 hafif bid agir ama 1.5 esiginin altinda, yutucu bir alis sinyali degil, notr-hafif long bias",
+  "htf_alignment": "Tum zaman dilimleri (5m/15m/1h/4h) BEAR - mukemmel HTF uyumu, SELL yonunde tam destek",
+  "session_bias": "buy_sell_ratio 1.02 notr, session delta pozitif ancak fiyat VAL'in cok altinda (30468 < 30601.75) bu yuzden gun ici alis erimis durumda, deger alani disinda satici kontrolu",
+  "reasoning": "Fiyat VAL altinda kabul gormus, current bar guclu negatif delta (-303) ve bid_vol>ask_vol ile satici baskili, tum HTF BEAR; DOM hafif bid agir oldugundan confidence orta seviyede tutuldu.",
+  "should_trade": "EVET",
+  "timestamp": "19:02:34"
 }
