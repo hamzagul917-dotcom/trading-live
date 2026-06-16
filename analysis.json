@@ -1,7 +1,22 @@
 {
-    "order_flow_signal": {
-        "timestamp": "2026-06-16 20:36:03",
-        "direction": "SELL",
-        "analysis_result": "YON: SELL\nGEREKCE: Aşırı pozitif kümülatif delta değerine rağmen fiyatın düşüş eğiliminde olması agresif alıcıların pasif satıcılar tarafından absorbe edilerek tuzaklandığını gösteriyor."
-    }
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
+  "key_levels": {
+    "vPOC": "65750",
+    "VAL": "65615",
+    "VAH": "66427"
+  },
+  "order_flow_signal": "BUY",
+  "confidence_score": "62",
+  "entry": "65831",
+  "tp1": "65950",
+  "tp2": "66100",
+  "stop": "65769",
+  "absorption": "Son 10 barda fiyat 65767-65835 arasında sıkışmış, hacim görece yüksek (85-121) ancak fiyat anlamlı ilerleme kaydedemiyor; possible_absorption=true ile teyitleniyor. Delta değerleri negatiften (-13,-6,-5) pozitife (+8,+5) döndü, bu bid absorption sonrası alıcıların kontrolü devraldığına işaret ediyor.",
+  "dom_observation": "bid_depth=81 vs ask_depth=62, bid_ask_ratio=1.31 -> bid tarafı belirgin ağır, aktif alış baskısı mevcut ancak 1.5 eşiğinin altında olduğundan güçlü sinyal değil, orta düzey alış baskısı.",
+  "htf_alignment": "5m BULL + 1h BULL + 4h BULL -> 3/4 zaman dilimi bullish uyumlu, yalnızca 15m BEAR diverge. KURAL 5 gereği minimum 2 BULL koşulu sağlandı, ancak 15m bearish baskı kısa vadeli geri çekilme riski taşıyor, confidence kısmen baskılanıyor.",
+  "session_bias": "buy_sell_ratio=1.88 güçlü alış dominansı, session delta=1,245,554 pozitif ve yüksek. Fiyat VAL(65615) üzerinde ve vPOC(65750) üzerinde seyrediyor -> KURAL 6 gereği BULLISH momentum aktif.",
+  "reasoning": "vPOC üzerinde fiyat tutunurken bid absorption tamamlanmış, delta negatiften pozitife dönmüş, DOM bid ağır ve session buy_sell_ratio 1.88 ile güçlü alış dominansı mevcut; 5m-1h-4h HTF uyumu BUY sinyalini destekliyor ancak düşük hacim ve 15m BEAR bias güveni sınırlıyor.",
+  "should_trade": "EVET",
+  "timestamp": "20:45:38"
 }
