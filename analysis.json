@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64469,
-  "tp1": 64552,
-  "tp2": 64650,
-  "stop": 64400,
-  "absorption": "Son 5 barda delta_sum=24 (pozitif) + current_bar delta=10 (alis baskisi); ancak CVD=-2.7M (gunluk satis baskisi) kurumsal absorbsyon gosterir - VAL seviyesinde bid accumulation var.",
-  "dom_observation": "Bid/Ask ratio=1.1 (hafif alis baskisi); bid_depth=64 > ask_depth=58; son 10 barda bar-7 ile 102 ask volume (guclu satici test) sonrasi recovery - absorption sinyali.",
-  "htf_alignment": "5m=FLAT, 15m=BULL, 1h=BULL, 4h=BULL; 3/4 timeframe bullish - HTF uyumu KUVVETLI, BUY icin yeterli.",
-  "session_bias": "buy_sell_ratio=0.58 (satis dominantligi var) fakat fiyat VAL=64552 seviyesinde bulunuyor ve HTF bullish; session delta negatifligi yok sayin risk.",
-  "reasoning": "HTF multi-timeframe bullish alignment + VAL support seviyesinde bid absorption + son 5 bar pozitif delta + DOM bid agir - klasik Axia early-stage bullish setup.",
+  "entry": 64466,
+  "tp1": 64420,
+  "tp2": 64380,
+  "stop": 64500,
+  "absorption": "Mevcut bar: delta +11 (ask vol 15 > bid vol 4) fakat fiyat VAL altinda yanal hareket ediyor, kurumsal satis baskisi devam ediyor.",
+  "dom_observation": "bid_ask_ratio 1.26 (alis baskisi gosteriyorsa da), session'da ask vol 6.4M vs bid vol 3.7M = net satis baskisi dominans, ask depth 51 < bid depth 64 fakat sell volume onemli.",
+  "htf_alignment": "5m BEAR (gucu) + 15m/1h/4h BULL (yuksek TF degistirme potansiyeli), carpisma olmakla birlikte 5m'de immediate bear egilimi net.",
+  "session_bias": "buy_sell_ratio 0.58 (<0.8) = gunluk satis dominansi, session delta -2.7M = guclu bearish momentum, VAL alti fiyat = acceptance of lower prices.",
+  "reasoning": "CVD divergence aktivasyon + session satis baskisi (0.58 ratio) + 5m bear trend + fiyat VAL altinda yanal hareket (absorption) = kurumsal satis emiri absorpsiyon, short setup kurulmuş.",
   "should_trade": "EVET",
-  "timestamp": "01:53:38"
+  "timestamp": "01:54:02"
 }
