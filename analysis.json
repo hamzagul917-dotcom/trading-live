@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64253,
+  "entry": 64249,
   "tp1": 64100,
   "tp2": 63950,
-  "stop": 64350,
-  "absorption": "Negatif CVD (-2.8M) ile onemli satis baskisi var, fiyat VAL altinda (64253 < 64552), session buy/sell ratio 0.55 ile agir satis hakimiyeti gosteriliyor.",
-  "dom_observation": "Bid/Ask ratio 0.92 (<1.0) - ask agir, satis baskisi yuklaniyor. Ask depth (62) > Bid depth (57).",
-  "htf_alignment": "5m BEAR, 15m BEAR, 4h BEAR - 3/4 timeframe bearish, guclu uyum. 1h BULL tek aykiri sinyal ancak kisa term satis baskisina karsi yuksek olmadi.",
-  "session_bias": "Buy/Sell ratio 0.55 (<<1.0) ve session delta -2.8M ile gunluk agir satis hakimiyeti. Alis hacmi (3.4M) satis hacminin (6.3M) yarisina kalmis durumda.",
-  "reasoning": "Buyuk negatif CVD, VAL altinda fiyat, ASK agir DOM, 5m/15m/4h bearish trend ve 0.55 buy/sell ratio ile multiple satis sinyalleri aligned - satis baskisi hakimdir.",
+  "stop": 64320,
+  "absorption": "Ask depth dominant (80 vs 49) ile satis baskisi guclu, CVD -2.8M cumulative negatif delta gunu domine ediyor",
+  "dom_observation": "Bid/Ask ratio 0.62 (<0.7) - satis agir, emir defterinde ask'lar bid'leri kisitliyarak downside hazirlaniyyor",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3 timeframe bearish, 1h BULL uyumsuzlugu yapilacak short'u dogrulayamasa da session guclu satis baskisini onayliyor",
+  "session_bias": "Buy/sell ratio 0.55 (<0.8) + session delta -2.8M = guncun basladigindan beri kurumsal satis baskisi dominan, fiyat VAL (64552) altinda henuz konumlanmadi ancak test alaninda",
+  "reasoning": "Negatif CVD akumulasyonu, ask agir DOM, 3 timeframe bearish bias ve 0.55 buy/sell ratio'su kurumsal satis baskisini dogruluyor - VAL altina kirilim beklenir.",
   "should_trade": "EVET",
-  "timestamp": "01:06:35"
+  "timestamp": "01:06:55"
 }
