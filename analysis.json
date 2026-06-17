@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64415,
-  "tp1": 64380,
-  "tp2": 64340,
-  "stop": 64450,
-  "absorption": "VAL (64552) altında absorption gözlemleniyor - negatif CVD (-2768386) güçlü satış baskısı gösteriyor, fiyat destek seviyelerine çekiliyken bid absorption yapılıyor.",
-  "dom_observation": "BID/ASK oranı 1.35 - bid ağırlığı var ancak ask derinliği azalıyor (53), satış baskısı artıyor. Session içinde buy/sell ratio 0.57 - güçlü satış dominasyonu.",
-  "htf_alignment": "5m-15m BEAR trend ile uyumlu ancak 1h-4h BULL trend uyumsuzluk yaratıyor. Kısa vadede satış baskısı kontrol ediyor.",
-  "session_bias": "Session delta -2768386, buy_sell_ratio 0.57 - gün boyunca kurumsal satış baskısı belirgindir. VAL altında işlem yapıyoruz = BEARISH acceptance.",
-  "reasoning": "CVD divergence + negatif session delta + VAL altında fiyat + 5m-15m BEAR trend, güçlü SHORT setup oluşturuyor; delta_sum_5bars pozitif ama CVD düşüşü momentum kaybını gösteriyor.",
+  "confidence_score": "72",
+  "entry": "64388",
+  "tp1": "64300",
+  "tp2": "64200",
+  "stop": "64450",
+  "absorption": "Session delta -2768911 ile güçlü satış baskısı; CVD divergence aktif - kurumsal para hala aşağı yönlü pozisyon almaya devam ediyor.",
+  "dom_observation": "Bid/Ask ratio 1.74 ise de mevcut bar'da ASK hacmi (7) BID hacmini (12) bastırıyor ve sessiyonda sell_volume (6.4M) buy_volume'u (3.6M) 1.76x oranında aşıyor.",
+  "htf_alignment": "5m ve 15m BEAR sinyali verirken 1h ve 4h BULL gösteriyor - kısa vadede HTF uyumu BEARISH taraftadır; 4h BULL ise volatilite riski içerir.",
+  "session_bias": "Buy/Sell ratio 0.57 - kuvvetli satış dominansı; fiyat VAL (64552) altında 64388'de kapandı - session BEARISH momentum devam ediyor.",
+  "reasoning": "Gün boyunca CVD -2.76M, son barlar da negatif delta gösteriyor; VAL altında kapanış + satış baskılı session + CVD divergence = Axia Kural 2 ve 6 uyarıyor - erken SHORT pozisyonu almaya hazır.",
   "should_trade": "EVET",
-  "timestamp": "01:40:22"
+  "timestamp": "01:40:51"
 }
