@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64320,
-  "tp1": 64200,
-  "tp2": 64050,
-  "stop": 64380,
-  "absorption": "Negatif CVD (-2.8M) ile fiyat direnci (64320-64335) arasinda saliniyor; buy_sell_ratio 0.55 ile guclu satis baskisi ve VAH altinda rejection yaşaniyor.",
-  "dom_observation": "Bid/ask ratio 1.3 alis baskisi gösterse de, session buy_sell_ratio 0.55 ile satis hakimiyeti net şekilde egemen; ask depth (67) bid depth'e (88) yakin degil.",
-  "htf_alignment": "5m BULL + 1h BULL vs 15m BEAR + 4h BEAR; uyum zayif, conflicting signals mevcut ancak intraday (5m) ve intermediate (1h) bullish olmakla birlikte macro (4h) ve meso (15m) bearish baskisi guclu.",
-  "session_bias": "Buy_sell_ratio 0.55 ve session delta -2.8M ile guclu bearish momentum; cumulative satis hacmi (6.25M) alis hacminin (3.41M) 1.83x ust.",
-  "reasoning": "CVD divergence true + session satis baskisi dominant (0.55) + VAH altinda price rejection + delta_sum_5bars negative (-31) + fiyat vPOC altinda = kurumsal short yapma sinyali, macro trend uyumu zayif olsa da intra-session satis hakimiyeti net.",
+  "confidence_score": "72",
+  "entry": "64315",
+  "tp1": "64250",
+  "tp2": "64180",
+  "stop": "64360",
+  "absorption": "5. bar'da devasa BID absorption gozlendi (delta -62, bid 71) - kurumsal satis yapildi, fiyat direnc altinda tutuldu",
+  "dom_observation": "DOM ratio 0.75 (< 0.7 eşik yakını) - Ask depth 69 > Bid depth 52 - satis baskisi artiyor",
+  "htf_alignment": "Mixed - 5m BULL, 15m BEAR, 1h BULL, 4h BEAR - ancak 4h BEAR + 15m BEAR dominatif signal (2/4 bearish)",
+  "session_bias": "Session delta -2836478 (agir negatif), buy_sell_ratio 0.55 (< 0.8 critical) - gun boyunca masif satis baskisi devam ediyor",
+  "reasoning": "CVD divergence aktif (-2836478), session buy/sell ratio 0.55, DOM ask agir (0.75), last 5bar delta -34 negatif, fiyat VAL (64552) altında kalmaya zorlanıyor - kurumsal satis baskısı net SHORT setupu gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:03:17"
+  "timestamp": "01:03:41"
 }
