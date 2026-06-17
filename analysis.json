@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64400,
-  "tp1": 64350,
-  "tp2": 64300,
-  "stop": 64450,
-  "absorption": "Fiyat 64400-64405 seviyesinde kilitli kalmis, bid ağırlıklı (bid_vol:3 vs ask_vol:1) ancak fiyat ilerlemiyor = BID SIDE ABSORPTION. Kurumsal satici emri yutuyor, fiyat dusmeyi bekliyor.",
-  "dom_observation": "bid_ask_ratio 1.73 (alis baskisi görüntüsü) fakat mevcut bar ultra düşük volüm (3) ve negatif delta (-3) = FAKE BID, saticilar emri yutuyor.",
-  "htf_alignment": "5m BEAR + 4h BEAR (2/3 uyum) = BEARISH. 15m-1h BULL minor direnç oluşturuyor fakat makro BEAR trend dominan.",
-  "session_bias": "buy_sell_ratio 0.57 (çok düşük) + session delta -2.7M (ağır satis baskisi) + fiyat VAL (64552) altında = BEARISH momentum onus net.",
-  "reasoning": "Sessiz barler içinde absorption pattern + session delta aşırı negatif + VAL altı fiyat + HTF majority BEAR = kurumsal satış baskısı net, kısa pozisyon hazırlığı.",
+  "confidence_score": "72",
+  "entry": "64423",
+  "tp1": "64380",
+  "tp2": "64320",
+  "stop": "64450",
+  "absorption": "Cari bar -4 delta ile dusuk hacimdedir (4 lot), VAL'in (64552) altinda fiyat tutunuyor, ancak ask hacmi sifir - bu BID tarafinda absorption isaretidir. Piyasa satisi emmelemiyor.",
+  "dom_observation": "BID/ASK orani 1.63 - alis baskisi vardir ancak fiyat dusuyor, bu kurumsal satislarin gizli emilimi anlamina gelir.",
+  "htf_alignment": "5m BEAR, 15m BEAR - kisa vadeli trend acikca BEARISH, 1h/4h BULL uyumsuzlugu confidence'i 28 puan azaltir.",
+  "session_bias": "Buy/Sell orani 0.57 - gunun %63'u satici baskisidir. Session delta -2.768M (guclu negatif), Acceptance alaninda (VAL altinda) fiyat tutunuyor.",
+  "reasoning": "CVD divergence + possible absorption + session sell dominant + HTF kisa vadeli BEAR + cari bar negatif delta - kurumsal satici emilimi VAL altinda gerceklesiyor, SELL setup basarisidir.",
   "should_trade": "EVET",
-  "timestamp": "01:37:25"
+  "timestamp": "01:40:11"
 }
