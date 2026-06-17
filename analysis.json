@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65794
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64354,
-  "tp1": 64241,
-  "tp2": 64100,
-  "stop": 64420,
-  "absorption": "Son bardaki ASK absorption: delta -6 (satis baskisi) + minimal hacim (6) + fiyat direncte siki yapisili, kurumsal satici emri yutulmakta. Negative delta_last_bar + VAL (64552) altinda fiyat hareketi = BEARISH.",
-  "dom_observation": "Bid/Ask ratio 1.15 (alis ileride) ancak son 2 bardaki ASK volume (32+34) BID'den (8+10) cok daha yuksek = satis baskisi artiyor ve absorption devam ediyor.",
-  "htf_alignment": "5m/15m/1h BULL (3/3 bullish) fakat 4h BEAR - HTF uyumsuzluk var ancak mikro zamanda son 5 bar delta_sum +72 oldugu halde current bar delta -6 ile negatife dondu = BEARISH divergence.",
-  "session_bias": "Session buy_sell_ratio 0.55 (0.8 altinda) + session delta -2.8M (agir satis baski) + VAL altinda fiyat = gun boyu BEARISH hakimiyeti, sona dogru satis momentum artisi gozlenmekte.",
-  "reasoning": "Gün boyu ağır satış baskısı (-2.8M CVD) ile birleşen ASK absorption + negatif delta divergence + 4h BEAR bias + VAL altı fiyat konumu = kısa vadeli SHORT opportunitesi, ancak HTF çoğunlukla bullish olması confidence'i moderatoya indiriyor.",
+  "entry": 64368,
+  "tp1": 64552,
+  "tp2": 64650,
+  "stop": 64280,
+  "absorption": "Son 5 bardaki delta_sum (+81) pozitif, current bar delta +4 ile stabilite gosterirken, CVD'nin gunluk -2828278 dusmesine ragmen fiyat 64385'te tutunmus = BID tarafinda guclu absorption ve kurumsal alis baskisi",
+  "dom_observation": "bid_ask_ratio 1.28 (>1.0) = alis baskisi baskın, bid depth 82 vs ask depth 65, ask volumunde relative zaiflik",
+  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = 3/3 bullish uyum mükemmel, 4h BEAR ters sinyal ama intraday buyuk uyum var",
+  "session_bias": "buy_sell_ratio 0.55 (<1.0) gunluk satis baskisi gosterirken, VAL (64552) henuz kesilmemis ve son 5 bar delta pozitif = buyuk satislara ragmen alis tarafinda dayanak agir",
+  "reasoning": "Gunluk satış baskısına karşı VAL seviyesinde BID absorption + positive delta sum 5bars + HTF 3/3 bullish + DOM buy dominant = kurumsal destek sinyali, VAL'i kesmeye hazır long setup",
   "should_trade": "EVET",
-  "timestamp": "01:17:13"
+  "timestamp": "01:17:39"
 }
