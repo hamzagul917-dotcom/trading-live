@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64420,
-  "tp1": 64380,
-  "tp2": 64340,
+  "entry": 64425,
+  "tp1": 64350,
+  "tp2": 64280,
   "stop": 64480,
-  "absorption": "Cumulative session delta -2.7M ile guclu satis baskisi; mevcut bar negatif delta (-5) ile VAL'a yaklasikta fiyat dusup emr yutulmuyor, ask agirliginda (ask_depth:44 < bid_depth:71 tersine) kurumsal satis yonetiminin signalidur",
-  "dom_observation": "bid_ask_ratio 1.61 (alis agir gorunse de) son 10 barda son bar massive 79 delta pozitif sonrasi mevcut bar -5 negatife donustur - momentum rotasyonu ve ask agirligina gecis",
-  "htf_alignment": "5m BEAR (lokalde tersine donus icerigi), 15m/1h/4h BULL (yuksek zaman uyumsuzlugu) - kisa vadede bearish setup kurumsal order flow ile tutarlı",
-  "session_bias": "buy_sell_ratio 0.58 (<0.8) + sell_volume dominansi (6.4M vs 3.7M) - guzun tamaminda net satis baskisi, VAL seviyesine yakin fiyat bearish acceptance",
-  "reasoning": "CVD divergence (tumuyle negatif CVD) + mevcut bar VAL seviyesi altında negatif delta + DOM ask rotation + session sell dominansı + 5m BEAR trend kurumsal short setupini isaret eder",
+  "absorption": "ASK absorption aktif: Session-wide massive CVD negatif (-2739788) fiyat VAL altinda tutunup mini pozitif delta (delta_sum_5bars +20) ile fiyat ilerleyemiyorsa = kurumsal satis baskisi altinda gizli SHORT setup",
+  "dom_observation": "DOM ratio 1.19 (bid agir gorunurken) session buy_sell_ratio 0.58 (satis 42% daha yuksek) = derin satis baskisi; ask_vol/bid_vol 5/2 mevcut barda satis dominansi",
+  "htf_alignment": "5m BEAR + 15m/1h/4h BULL = mixte signal ancak 5m immediate trend BEARISH, short-term satis baskisina uyan",
+  "session_bias": "Buy/Sell ratio 0.58 + session delta -2739788 = gun boyunca agir satis; fiyat VAL (64552) altinda + CVD divergence = kurumsal para satista",
+  "reasoning": "CVD divergence + possible_absorption + session satis dominansi (0.58 ratio) + 5m BEAR + VAL alti acceptance = erken SHORT setup; pozitif delta rebound sonarasinda negatife donus expected",
   "should_trade": "EVET",
-  "timestamp": "01:56:39"
+  "timestamp": "01:57:18"
 }
