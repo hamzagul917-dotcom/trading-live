@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64481,
-  "tp1": 64420,
-  "tp2": 64360,
-  "stop": 64520,
-  "absorption": "CVD divergence aktif: Fiyat 64481'de iken CVD -2.77M negatif, 5-bar delta +53 pozitif olmasına rağmen kurumsal satış baskısı devam ediyor. Session buy/sell ratio 0.57 = satış dominant (%64 sell volume). DOM bid/ask 0.57 = ask depth (98) bid depth (55) çok ağır, satış baskısı güçlü.",
-  "dom_observation": "DOM ratio 0.57 (<0.7): Ask depth 98 bid depth 55, net satış baskısı belirgin. Emir defteri satıcıları tercih ediyor.",
-  "htf_alignment": "Karışık sinyal: 5m BEAR + 15m/1h/4h BULL. Short açmak için 5m+15m minimum 2 BEAR gerekli, sadece 5m BEAR mevcut. HTF confidence zayıf ama intraday bearish momentum net.",
-  "session_bias": "Session delta -2.77M + buy_sell_ratio 0.57 = güçlü satış dominant gün. Sell volume 6.4M vs Buy volume 3.6M, net -2.77M baskı devam ediyor.",
-  "reasoning": "CVD divergence + session sell dominant + DOM ask ağır + fiyat VAH'nin çok altında rejection gösteriyor; intraday short setup kurulmuş, 5-bar delta tersine dönüşle satış devam ediyor.",
+  "entry": 64483,
+  "tp1": 64552,
+  "tp2": 64620,
+  "stop": 64420,
+  "absorption": "Mevcut bar: delta pozitif (+3) minimal hacim (5) ile fiyat VAL seviyesinde tutunuyor; son 5 bar toplam delta +46 (guclu alici baskisi) fakat CVD -2.77M negatif, bu kurumsal buyuk buy orderlerin VAL etrafinda yutulup beklemede oldugunu isaret ediyor - PASSIVE BID ABSORPTION.",
+  "dom_observation": "DOM ratio 0.65 (<0.7) satis baskisi gosterse de, session buy_sell_ratio 0.57 genel satis hakimiyeti yansitsa da, son 5 bardaki delta +46 ve bid depth 62 ile ask 96 arasinda sharp alici ilgisi VAL defense'ini tutuyor; ask agir gozuksede son bar bid agirlikli.",
+  "htf_alignment": "5m/15m/1h = BULL (3/3 uyum), 4h = BEAR; net HTF alignment +2 BULL = BUY icin yeterli, 4h uyumsuzluk confidence'i 72'ye indirdi.",
+  "session_bias": "Buy/Sell ratio 0.57 = satis hakimi gun (bearish session) fakat buy_volume 3.6M vs sell 6.4M iken fiyat VAL'da defend edilmesi ve delta_sum_5bars +46 ile son bar pozitif delta, kurumsal buyerlerin asagiden yapilastigi net sinyali.",
+  "reasoning": "VAL seviyesinde possible_absorption=true + son 5 bar delta +46 + CVD negatif (BIG BUY yakinda) + HTF 5m/15m/1h BULL = erken LONG setup, absorption sonrasi momentum yukselmesi beklentisi.",
   "should_trade": "EVET",
-  "timestamp": "01:31:00"
+  "timestamp": "01:31:13"
 }
