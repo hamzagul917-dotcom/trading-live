@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64335,
-  "tp1": 64250,
-  "tp2": 64100,
+  "entry": 64379,
+  "tp1": 64297,
+  "tp2": 64258,
   "stop": 64400,
-  "absorption": "Son 5 bardaki delta_sum -28 (net satis baskisi), fiyat 64350 seviyesinde direnc yapıyor, kurumsal satış gücü devam ediyor.",
-  "dom_observation": "DOM ratio 1.01 = dengedeli ancak session'da bid/ask 0.55 = net satış baskısı hakimdir, ask agirlik kazanıyor.",
-  "htf_alignment": "5m BULL vs 15m/4h BEAR; uyum zayıf, ancak 4h trend BEAR dominant, kısa vadeli retracementler görülebilir.",
-  "session_bias": "buy_sell_ratio 0.55 = güçlü BEARISH session, satış hacimleri (6.2M) alış hacimleri (3.4M) çok önünde, session delta -2.8M cumulative satış baskısı.",
-  "reasoning": "CVD divergence +negatif session delta +satis baskisi dominansi +VAH rejectioni, kurumsal short pozisyonlama sinyali veriyor, kisa pozisyonla risk-reward optimal.",
+  "absorption": "Mevcut bar (vol=6, delta=3) minimal hacim ile ASK absorption belirti gösteriyor; son 5 bar delta_sum=43 pozitif ama session delta=-2835986 (güçlü satış baskısı), VAL=64552 altında fiyat olup bearish acceptance devam ediyor.",
+  "dom_observation": "DOM ratio=0.88 (<1.0) satış baskısını gösteriyor; ask_depth=74 > bid_depth=65, satış tarafı agır.",
+  "htf_alignment": "5m/15m/1h BULL olsa da 4h BEAR; session buy_sell_ratio=0.55 (<0.8) güçlü satış dominansı; HTF uyumsuzluk mevcut ancak session delta overwhelmingly bearish.",
+  "session_bias": "buy_sell_ratio=0.55 + session delta=-2835986 + sell_volume=6256779 (buy_volume=3420793'ün %183'ü), gün boyunca kurumsal satış tarafından kontrol edilmiş.",
+  "reasoning": "Güçlü negatif session delta + DOM satış baskısı + VAL altında fiyat + mevcut ASK absorption = kısa vadeli satış setup, HTF uyumsuzluğa rağmen session yapısı SELL sinyali destekliyor.",
   "should_trade": "EVET",
-  "timestamp": "01:03:59"
+  "timestamp": "01:04:22"
 }
