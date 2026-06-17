@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64388",
-  "tp1": "64300",
-  "tp2": "64200",
-  "stop": "64450",
-  "absorption": "Session delta -2769066 ile guclü satis baskisi; buy_sell_ratio 0.57 (<0.8) BEARISH; CVD divergence aktif - fiyat direncte ama kurumsal satis esliginde degil, erken satis sinyali",
-  "dom_observation": "Bid/Ask ratio 2.15 (>1.5) görünüşte alis baskısı gösterse de, session sell volume (6.4M) buy volume (3.6M)'ü 1.75x aştığı için DOM hata yapıyor - satis hakimi",
-  "htf_alignment": "5m/15m BEAR, 1h/4h BULL = conflikt. Short için 5m+15m BEAR uygun, fakat HTF güç kaybı confidence azaltıyor",
-  "session_bias": "Session delta -2769066 ile gün boyunca agir satis baskisi; Sell volume %64 dominans; fiyat VAL (64552) üstünde ama rejection pattern",
-  "reasoning": "Fiyat VAL üstü olmasına rağmen CVD divergence + session sell dominans (-2769 delta) + buy_sell_ratio 0.57 + negative delta_last_bar (-4) = kurumsal satis, lower timeframe BEAR uyumu ile SHORT setup kurulmuş durumda.",
+  "confidence_score": 72,
+  "entry": 64390,
+  "tp1": 64340,
+  "tp2": 64280,
+  "stop": 64420,
+  "absorption": "Session genelinde ask absorption olusmus (sell_volume 6.4M > buy_volume 3.6M), fiyat VAL altinda kalip CVD -2.7M ile forte bearish baski vardir.",
+  "dom_observation": "Bid/ask ratio 1.17 - satis baskisi baslamis, ask depth 60 bid depth 71'e karsitik, equilibrium bozulmasi satis lehine.",
+  "htf_alignment": "5m/15m BEAR (kisa vade satis onus), 1h/4h BULL (guclu direnç), zitlik var ama 5m+15m dominant = kisa vade SELL sinyali gecerli.",
+  "session_bias": "Buy/sell ratio 0.57 (<0.8) + CVD deeply negative + sell volume 1.75x buy volume = guc satis tarafinda, session delta -2.76M ile gun boyunca kurumsal satis yapmis.",
+  "reasoning": "CVD divergence ile fiyat 64390'da dagili yukselmekte ama global kurumsal satis baskisi artiyor (ask absorption + negatif CVD), HTF 5m/15m BEAR alignment ve session sell dominance ile short setup net.",
   "should_trade": "EVET",
-  "timestamp": "01:41:02"
+  "timestamp": "01:41:32"
 }
