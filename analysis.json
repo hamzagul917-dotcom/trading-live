@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64340,
-  "tp1": 64297,
-  "tp2": 64258,
-  "stop": 64372,
-  "absorption": "Mevcut bar minimal volume (7) ile ask absorption gosteriyorsa da, session geneli massive sell baskisi (-2.8M CVD), buy_sell_ratio 0.55 ve VAL alti fiyat pozisyonu bearish momentum dogruluyor. Son 5 bar net -31 delta + DOM 1.34 ratio (zayif bid) confirmation saglıyor.",
-  "dom_observation": "Bid depth 80 vs Ask depth 59 = bid/ask 1.34 orani, superfisyal bid agirligina ragmen session genelinde ask dominasyonu ve negative CVD divergence ases baskisini gosteriliyor.",
-  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BEAR = mixed signal ancak session delta ve CVD divergence bearish setup'i destekledigi icin 15m/4h BEAR alignment'i kullanilir.",
-  "session_bias": "Buy/sell ratio 0.55 (0.8 altinda BEARISH), session delta -2.8M (massive sell), sell volume 6.2M vs buy 3.4M = gun boyunca strong bearish momentum taşındığı.",
-  "reasoning": "Possible absorption true + CVD divergence true + session overwhelming sell dominance (0.55 ratio) + fiyat VAL altında + last 5 bar net negative delta, Axia short setup kriterleri karşılar.",
+  "entry": 64320,
+  "tp1": 64200,
+  "tp2": 64050,
+  "stop": 64380,
+  "absorption": "Negatif CVD (-2.8M) ile fiyat direnci (64320-64335) arasinda saliniyor; buy_sell_ratio 0.55 ile guclu satis baskisi ve VAH altinda rejection yaşaniyor.",
+  "dom_observation": "Bid/ask ratio 1.3 alis baskisi gösterse de, session buy_sell_ratio 0.55 ile satis hakimiyeti net şekilde egemen; ask depth (67) bid depth'e (88) yakin degil.",
+  "htf_alignment": "5m BULL + 1h BULL vs 15m BEAR + 4h BEAR; uyum zayif, conflicting signals mevcut ancak intraday (5m) ve intermediate (1h) bullish olmakla birlikte macro (4h) ve meso (15m) bearish baskisi guclu.",
+  "session_bias": "Buy_sell_ratio 0.55 ve session delta -2.8M ile guclu bearish momentum; cumulative satis hacmi (6.25M) alis hacminin (3.41M) 1.83x ust.",
+  "reasoning": "CVD divergence true + session satis baskisi dominant (0.55) + VAH altinda price rejection + delta_sum_5bars negative (-31) + fiyat vPOC altinda = kurumsal short yapma sinyali, macro trend uyumu zayif olsa da intra-session satis hakimiyeti net.",
   "should_trade": "EVET",
-  "timestamp": "01:02:38"
+  "timestamp": "01:03:17"
 }
