@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64275,
-  "tp1": 64150,
-  "tp2": 64050,
-  "stop": 64320,
-  "absorption": "ASK absorption belirtileri - mevcut bar pozitif delta (11) ile dusuk hacim (23), fiyat VAL altinda rezilience gostermemesi, dom ask depth (83) bid depth (48) den onemli oranda fazla, ask/bid ratio 0.57 ciddiye satis baskisi gosteriyor.",
-  "dom_observation": "DOM 0.57 ratio ile ask agirlik baskili, 83 ask'e karsı 48 bid - kuvvetli satis baskisinin emirdefter derinliginde net refleksiyonu.",
-  "htf_alignment": "5m/15m/4h BEAR, sadece 1h BULL - 3 timeframe BEAR uyumsuzluk kuralina rağmen net negatif momentum. Kisa vadeli multiple timeframe bearish convergence.",
-  "session_bias": "Session delta -2843400 (gunun tamami satis baskili), buy_sell_ratio 0.55 - yuksek satis dominansi. Fiyat VAL 64552 ve vPOC 64932 altinda, VAH 65794 uzak - bearish acceptance pattern.",
-  "reasoning": "Gununun tamamina yayilan -2.8M CVD negatif momentum, dom ask agirlik satis baskisi, session buy_sell_ratio 0.55 ile satis egemenliginin net refleksiyonu, fiyat VAL altında acceptance pattern kurarak short kırilimına hazir setup.",
+  "confidence_score": "72",
+  "entry": "64280",
+  "tp1": "64200",
+  "tp2": "64100",
+  "stop": "64350",
+  "absorption": "Son 5 bardaki delta_sum -22 negatif, ask_vol/bid_vol oranı 33/9 = 3.67 (ciddi satis baskisi), fakat fiyat 64255-64294 aralığında konsolidasyon yapıyor - kurumsal satış emrinin yutulması ve fiyat direncinde rejection işareti.",
+  "dom_observation": "bid_ask_ratio 0.84 (<1.0) = satis baskisi dominant. Ask depth 68 > bid depth 57, pazar satıcı kontrollü.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/3 bearish, sadece 1h BULL (zayıf uyum). Lower timeframe dominansı SELL lehine güçlü sinyal.",
+  "session_bias": "buy_sell_ratio 0.55 (çok düşük), session delta -2840439 (ağır negatif), sell_volume 6.29M >> buy_volume 3.45M = kurumsal satış akını.",
+  "reasoning": "Fiyat VAL seviyesine (64552) yakın ancak altında konsolide olurken, kurumsal satış akını (negative CVD, low buy/sell ratio, ask dominansı) ve HTF bearish alignment (5m/15m/4h BEAR) net SHORT sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:09:42"
+  "timestamp": "01:10:04"
 }
