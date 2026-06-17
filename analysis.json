@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64420,
-  "tp1": 64350,
-  "tp2": 64280,
-  "stop": 64480,
-  "absorption": "CVD divergence aktif (-2.78M) fakat fiyat 64420'de direnç goruyyor - ASK agirliginda rejection; son 5 bardaki delta dengede (0) ancak session sell baskisi baskindir (0.57 buy/sell ratio)",
-  "dom_observation": "DOM neredeyse denli (0.97 bid/ask ratio) ancak session genelinde ask agirliginda - satis baskisi artiyor",
-  "htf_alignment": "5m ve 15m BEAR uyumlu, 1h ve 4h BULL ile ters sinyal - HTF uyum zayif ancak intraday BEARISH hakim",
-  "session_bias": "Session delta guclu negatif (-2.78M), buy_sell_ratio 0.57 (<0.8) = session genelinde satis baskisi dominan",
-  "reasoning": "CVD divergence + negatif session delta + ask dom agirliginda + intraday BEAR hakim = VAH direncinde ASK absorption tespit edildi, kirilim asagiya yoneliktir",
+  "confidence_score": "72",
+  "entry": "64413",
+  "tp1": "64300",
+  "tp2": "64180",
+  "stop": "64450",
+  "absorption": "Minimal absorption, delta negatif, ask volume yukselmekte (68 vs 52 bid), satis baskisi dominan",
+  "dom_observation": "DOM orani 0.77 < 0.7 threshold yakini, ask depth 68 > bid depth 52, satis baskisi artiyor",
+  "htf_alignment": "Zayif - 5m/15m/4h BEAR ama 1h BULL, 2 timeframe bullish icin yeterli degil SELL sinyali icin dusuk risk",
+  "session_bias": "buy_sell_ratio 0.57 << 0.8 threshold, gunluk satis dominansi kuvvetli, session delta -2.7M olumsuz",
+  "reasoning": "Gunluk satis baskisi (ratio 0.57), negatif session delta, DOM ask dominansi (0.77), son 5 bar delta sum negatif (-17) ve kurumsal para satis tarafi yukselmektedir - SHORT setup klasik Axia rejection sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:34:45"
+  "timestamp": "01:35:14"
 }
