@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64243,
-  "tp1": 64150,
-  "tp2": 64050,
+  "entry": 64250,
+  "tp1": 64180,
+  "tp2": 64100,
   "stop": 64280,
-  "absorption": "Mevcut bar: delta +2 (minimal alis), ask_vol 3 vs bid_vol 1 = satis baskisi. Son 10 bardaki -62 delta sonrasi +2 delta = kurumsal satis sonrasi absorption.",
-  "dom_observation": "bid_ask_ratio 1.34 (alis baskisi gostersa de) ask_depth 62 vs bid_depth 83; son 10 bardaki trend bid dominantliginin sona ermesi ve satis hacminin artmasi sinyal.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/4 BEARISH; 1h BULL uyumsuzluk olusturuyor ancak lower timeframes dominant.",
-  "session_bias": "buy_sell_ratio 0.55 (satis dominansi) + session delta -2849210 (guclu satis baskisi) + sell_volume (6.2M) >> buy_volume (3.4M) = gunu kontrol eden satis.",
-  "reasoning": "Session satis dominansi (-2849210 CVD) + lower timeframe BEAR trend + son bardaki negatif delta sonrasi minimal recovery + VAL (64552) alti fiyat = erken short setup, kurumsal satis absorption mevcut.",
+  "absorption": "Mevcut bar (23 delta) ve 10 bar onceki bar (-62 delta) karsilastirmasi icin; kurumsal buyuk satis orderi var (bid_vol 7 vs ask_vol 31), fiyat VAH altinda rejection gosteriyor.",
+  "dom_observation": "bid_ask_ratio 1.57 (alis baskisi gibi gorunse de), gunluk buy_sell_ratio 0.55 ile satis hacmi dominan (6.3M sell vs 3.4M buy), ask depth 51 < bid depth 80 ama ask agirlikli hareket.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL + 4h BEAR = 3/4 BEARISH, HTF coklu timeframe bear oyu",
+  "session_bias": "Gunluk CVD -2.84M (ciddi satis baskisi), buy_sell_ratio 0.55 (<0.8), oturumda satis yukseg hakimiyeti net BEARISH momentum.",
+  "reasoning": "Negative session delta (-2.84M CVD) + majority timeframes BEAR (5m,15m,4h) + sell volume dominance (6.3M) + fiyat VAH altinda (65794 >> 64250) + mevcut delta pozitif FAKAT son 5 bar delta toplamı -43 (net bearish) ve VAL yaklaşımı (64552 seviyesine dogru) kurumsal short açılışı sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:08:16"
+  "timestamp": "01:08:59"
 }
