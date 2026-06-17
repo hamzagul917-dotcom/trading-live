@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64430,
-  "tp1": 64550,
-  "tp2": 64650,
-  "stop": 64380,
-  "absorption": "Son 5 bardaki delta_sum_5bars=+118 (pozitif), fiyat VAL (64552) uzerinde tutuluyor, BID absorption sinyali vermektedir.",
-  "dom_observation": "bid_ask_ratio=1.0 (esit), ancak son 10 barin analizi: ask-agir barlar (bar5: ask96, bar9: ask83) sonrasi delta_sum_5bars pozitif donus yapti, kurumsal alis baskisi gostergesi.",
-  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = 3/3 bullish uyum, 4h BEAR ancak kisa vadede buyuk uyum saglanmis.",
-  "session_bias": "buy_sell_ratio=0.57 (satis baskili), SESSION bearish ancak INTRADAY son 5 bar net BULLISH delta toplayarak mikro tersine donus sinyali vermektedir.",
-  "reasoning": "Negatif session delta (-2780218) uzerinde CVD divergence yokken, son 5 barin +118 net deltasi, fiyatin VAL uzerinde tutunmasi ve 3 zaman diliminin bullish olmasi kurum alim absorption'ini isaret etmektedir.",
+  "entry": 64463,
+  "tp1": 64552,
+  "tp2": 64620,
+  "stop": 64430,
+  "absorption": "VAL seviyesi (64552) yakininda BID absorption tespit edildi - 5 bardaki net pozitif delta (57) + ask_vol dominansi (35 vs 7 bid) guclu alis baskisini gosterir. Fiyat VAL ustu kabul alaninda konumlanmis.",
+  "dom_observation": "BID/ASK ratio 1.49 - guclü alis baskisi, bid derinligi (76) ask derinliginden (51) onemli oranda yuksek, kurumsal buyerlar emri yutuyorlar.",
+  "htf_alignment": "Mukemmel HTF uyumu: 5m/15m/1h/4h tum timeframeler BULLISH, net long sinyali icin optimal kosullar saglanmis.",
+  "session_bias": "Buy/sell ratio 0.57 (düşük görünüyor) ancak bu gun basina ait veri; mevcut 5 bar delta_sum (+57) ve son 10 bardaki trend analizi son saatlerde alis dominanligini onaylıyor - kurumsal buyerlar pozisyon almaya basladı.",
+  "reasoning": "Güçlü VAL absorption (bid agir order flow + fiyat dusmuyor), pozitif delta momentum (son 5 bar: +57), tum HTF bullish, DOM 1.49 bid agir - Axia LONG setup tamamlandı.",
   "should_trade": "EVET",
-  "timestamp": "01:28:58"
+  "timestamp": "01:29:39"
 }
