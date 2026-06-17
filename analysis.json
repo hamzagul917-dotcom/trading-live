@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65794
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64368,
-  "tp1": 64552,
-  "tp2": 64650,
-  "stop": 64280,
-  "absorption": "Son 5 bardaki delta_sum (+81) pozitif, current bar delta +4 ile stabilite gosterirken, CVD'nin gunluk -2828278 dusmesine ragmen fiyat 64385'te tutunmus = BID tarafinda guclu absorption ve kurumsal alis baskisi",
-  "dom_observation": "bid_ask_ratio 1.28 (>1.0) = alis baskisi baskın, bid depth 82 vs ask depth 65, ask volumunde relative zaiflik",
-  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = 3/3 bullish uyum mükemmel, 4h BEAR ters sinyal ama intraday buyuk uyum var",
-  "session_bias": "buy_sell_ratio 0.55 (<1.0) gunluk satis baskisi gosterirken, VAL (64552) henuz kesilmemis ve son 5 bar delta pozitif = buyuk satislara ragmen alis tarafinda dayanak agir",
-  "reasoning": "Gunluk satış baskısına karşı VAL seviyesinde BID absorption + positive delta sum 5bars + HTF 3/3 bullish + DOM buy dominant = kurumsal destek sinyali, VAL'i kesmeye hazır long setup",
+  "entry": 64388,
+  "tp1": 64325,
+  "tp2": 64241,
+  "stop": 64420,
+  "absorption": "Son 5 bardaki pozitif delta (84) fiyatı yükseltemeyen rejection; mevcut bar düşük volume (40) ile kapandı, satış baskısı artan fase.",
+  "dom_observation": "Bid/Ask oranı 0.77 (<0.7 threshold yakını) - satış baskısı belirgin, ask derinliği (71) bid derinliğinden (55) daha ağır.",
+  "htf_alignment": "Kısmi uyumsuzluk: 5m/15m/1h BULL ancak 4h BEAR - daha yüksek timeframe'de descending pressure devam ediyor, HTF sinyallerinde conflict var.",
+  "session_bias": "Güçlü satış baskısı: buy_sell_ratio 0.55 (<<0.8 threshold), session delta -2.827M negatif, sell_volume (6.3M) >> buy_volume (3.5M) - gün boyunca kurumsal satış akını.",
+  "reasoning": "CVD -2.8M ile derin negatif; son 5 bar delta pozitif (+84) fiyatı VAL (64552) üzerine çıkaramadı ve kapanış 64388'de; DOM satış ağır (0.77 ratio); session buy_sell_ratio 0.55 ile extremis satış - Axia rejection setup.",
   "should_trade": "EVET",
-  "timestamp": "01:17:39"
+  "timestamp": "01:17:55"
 }
