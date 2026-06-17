@@ -11,12 +11,12 @@
   "entry": 64458,
   "tp1": 64400,
   "tp2": 64350,
-  "stop": 64495,
-  "absorption": "Session delta -2774480 (CVD negatif) + buy_sell_ratio 0.57 (güçlü satis baskisi) + CVD divergence true (kurumsal satis var) + fiyat VAL altinda",
-  "dom_observation": "bid_ask_ratio 1.3 (alis baskili görünse de) ask_depth 52 vs bid_depth 68, current_bar bid:ask 5:1 (satis agir mum)",
-  "htf_alignment": "5m BEAR (destek) + 15m/1h/4h BULL (zit). Dirençte HTF uyumsuzlugu var, fakat 5m BEAR + gunluk satis dominant.",
-  "session_bias": "buy_sell_ratio 0.57 (<0.8) + session delta -2774480 = gunluk satis baskisi baskın, BEARISH momentum",
-  "reasoning": "Gunluk kurumsal satis baskisi (CVD divergence + session ratio 0.57) + 5m BEAR + VAL alti fiyat + ask absorption (satis agir) = DOWNSIDE setup.",
+  "stop": 64500,
+  "absorption": "Session sonu buyuk ask absorption + CVD divergence: fiyat 64458'de durmus, ancak gun boyu -2.77M CVD ve 0.57 buy/sell ratio ile guclu satis baskisi devam ediyor. Last bar -7 delta ile kapanmasi ve DOM'da 1.88 bid/ask orani maskeleyici. Kurumsal saticilar fiyatin yukselisine karsilik vermemekte.",
+  "dom_observation": "Bid depth 87 vs Ask depth 46 (1.88 ratio) gozlemsel alis baskisini gosterse de, session buy/sell ratio (0.57) ve negatif CVD guclu satis agirligini dogruluyor. DOM maskelemesi: fiyat itildikten sonra saticilar geri cekiliyorlar.",
+  "htf_alignment": "5m BEAR + 15m/1h/4h BULL = karmasik sinyal. Ancak mevcut 5m BEAR + intraday sonu negative session delta + CVD divergence kombinasyonu SHORT'u destekliyor.",
+  "session_bias": "Gun boyu sell dominant (0.57 buy/sell, -2.77M CVD, VAL'in 64552 altinda). Kapanisin VAL'a yakin olmasi rejeksyon sinyali, kapanista negatif delta = short setup.",
+  "reasoning": "CVD divergence + session sell dominance + 5m bearish trend + last bar negative delta + price rejected at VAL = SHORT setup; risk/reward 1:3 ile VAL'in altina kiramalara short giris.",
   "should_trade": "EVET",
-  "timestamp": "01:33:12"
+  "timestamp": "01:33:28"
 }
