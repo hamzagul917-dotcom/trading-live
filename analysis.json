@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -10,13 +10,13 @@
   "confidence_score": 72,
   "entry": 64358,
   "tp1": 64256,
-  "tp2": 64150,
-  "stop": 64400,
-  "absorption": "Ask agır absorption gozlendi: Session buy/sell ratio 0.55 (ciddi satis baskisi), CVD -2.8M (guclu satis), fiyat VAL (64552) alti degil ancak satis hacmi alis hacminin 1.83 katı. Mevcut bar minimal delta (2) ile 6 volume = yuksek volatilite yok, yapı zayıf.",
-  "dom_observation": "Bid/Ask ratio 1.09 (hafif alis tarafı) ancak gun boyunca ask volume (6.2M) bid volume'u (3.4M) net basıyor. DOM yapısı uyumsuz - sinyalize edilmemesi risk.",
-  "htf_alignment": "UYUMSUZ: 5m BEAR (uyumlu), 15m BULL (uyumsuz), 1h BULL (uyumsuz), 4h BEAR (uyumlu). HTF consensus BULLISH'e egiliyor ancak session delta ve order flow BEARISH - Mixed sinyal.",
-  "session_bias": "Guclu BEARISH: 0.55 buy/sell ratio, -2.8M CVD, sell volume 83% oranında dominant. Fiyat VAL (64552) yakını hareket ediyor, daha asagı test olabilir.",
-  "reasoning": "CVD divergence aktif + possible absorption true + session satis dominant (0.55 ratio) + 4h/5m BEAR alignment = Kurumsal shorting aktivitesi gözlendi, VAL altı kuwet kazandırır.",
+  "tp2": 64100,
+  "stop": 64390,
+  "absorption": "Negatif CVD (-2.83M) ile fiyat VAL altında rejected, kurumsal satış baskısı devam ediyor.",
+  "dom_observation": "Bid/Ask oranı 1.13 (hafif bid ağır) fakat session buy_sell_ratio 0.55 ile güçlü satış baskısı hakim.",
+  "htf_alignment": "5m BEAR + 4h BEAR = 2/3 bearish, 15m/1h bullish uyum zayıf. Short için yeterli alignment.",
+  "session_bias": "Buy/Sell ratio 0.55 (<0.8) + session delta -2.83M = Session içinde agresif satış baskısı, fiyat VAL altında trapped.",
+  "reasoning": "CVD divergence aktif, güçlü negatif session delta, fiyat VAL altında rejected ve HTF 5m/4h bearish: kurumsal satış setup net SHORT sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "00:54:28"
+  "timestamp": "00:55:26"
 }
