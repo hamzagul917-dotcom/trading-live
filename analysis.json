@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64433,
-  "tp1": 64350,
-  "tp2": 64280,
-  "stop": 64480,
-  "absorption": "Mevcut bar negatif delta (-17) ile ancak fiyat VAL altinda stabilize oldu; 4h BEAR trendiyle 5m/15m/1h BULL uyumsuzlugu + gun boyu doviz satisi baskisi (delta -2.7M, buy_sell_ratio 0.57) kurumsal satisi isaret ediyor.",
-  "dom_observation": "DOM bid_ask_ratio 1.77 (alis baskisi gozukuyor ancak) ask_vol sistemik satis aglirligini dogruluyor; session genelinde sell volume 6.3M vs buy 3.6M net bearish baskinlik.",
-  "htf_alignment": "4h BEAR biased ancak 5m/15m/1h BULL - uyumsuzluk ancak 4h yapisal yuksek timeframe kontrolu HTF2 SHORT lehine calisir.",
-  "session_bias": "buy_sell_ratio 0.57 (<0.8 threshold) gunluk agir doviz satisi, fiyat VAL 64552 altinda = BEARISH momentum kurumsal yapida net.",
-  "reasoning": "Gunluk doviz satisi baskisi (CVD -2.7M) + HTF 4h BEAR + VAL kac kirilimi + ask_depth yukarisi = kirilim yonune giris SHORT sinyali.",
+  "entry": 64431,
+  "tp1": 64390,
+  "tp2": 64350,
+  "stop": 64460,
+  "absorption": "Mevcut bar: delta -9 (satis baskisi) + ultra dusuk volume (9) + fiyat VAL'in altinda (64431<64552) = ask absorption tespit edildi. Son 10 barda deltalar dalgali (90,71,+39,+29,-9,-8,-12,-19,-9) ancak CVD agir negatif (-2780158) ve session delta corban (buy/sell 0.57). Fiyat VAL altinda stuck = satis baskisi emri yutturmaya calisiyorsa kirilim olabilir.",
+  "dom_observation": "DOM ratio 1.05 (hafif bid agir) fakat absolut rakamlar dengeli. Ask depth 61, bid depth 64 - satis tarafinda direnc var.",
+  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF uyum zayif. 4h bear bias ile 1m satis baskisi uyumlu, macrodan gelen satis yonelimi net.",
+  "session_bias": "Gunluk buy/sell ratio 0.57 = agir satis baskisi dominasyonu. Gunluk delta -2780158 (keskin negatif). Session tamamiyle bearish, mevcut bar bu baskinin devamini gosteriyor.",
+  "reasoning": "Mevcut bar VAL altinda satis deltasi ile absorption olusturuyorken, gunluk agir bearish session deltasi ve 4h bear bias with microtrendin positive recent deltas (5-10 bars) vs macro sell volume uyumsuzlugu klasik Axia short setup'ini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "01:27:57"
+  "timestamp": "01:28:15"
 }
