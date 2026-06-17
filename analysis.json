@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64367,
-  "tp1": 64300,
-  "tp2": 64240,
+  "entry": 64358,
+  "tp1": 64256,
+  "tp2": 64150,
   "stop": 64400,
-  "absorption": "Session boyunca güçlü satış baskısı (buy_sell_ratio: 0.55), fiyat VAL altında, kurumsal net short pozisyonu (CVD: -2.8M), mevcut bar minimal hacimle (vol:4) hareket etmiyor = ask absorption başlangıcı",
-  "dom_observation": "Bid/Ask oranı 0.76 (< 0.7 eşik yaklaşık), satış baskısı dominan, ask depth (81) bid depth'i (62) aşıyor",
-  "htf_alignment": "5m FLAT + 15m BULL ancak 4h BEAR çekişiyor; 15m/1h bullish olsa da session bearish deltası güçlü, 4h bear uyarısı önemli",
-  "session_bias": "Ağır satış hakim (6.2M sell vs 3.4M buy), buy_sell_ratio 0.55 << 0.8 eşiği, session delta -2.8M net short, fiyat VAL (64552) altında consolidasyon yapıyor",
-  "reasoning": "Kurumsal CVD güçlü bearish (-2.8M), session sell dominant, VAL altında fiyat reddediliyor, DOM ask ağır (0.76), mevcut bar absorption başlangıcı gösteriyor - erken short setup kurulmuş durumda.",
+  "absorption": "Ask agır absorption gozlendi: Session buy/sell ratio 0.55 (ciddi satis baskisi), CVD -2.8M (guclu satis), fiyat VAL (64552) alti degil ancak satis hacmi alis hacminin 1.83 katı. Mevcut bar minimal delta (2) ile 6 volume = yuksek volatilite yok, yapı zayıf.",
+  "dom_observation": "Bid/Ask ratio 1.09 (hafif alis tarafı) ancak gun boyunca ask volume (6.2M) bid volume'u (3.4M) net basıyor. DOM yapısı uyumsuz - sinyalize edilmemesi risk.",
+  "htf_alignment": "UYUMSUZ: 5m BEAR (uyumlu), 15m BULL (uyumsuz), 1h BULL (uyumsuz), 4h BEAR (uyumlu). HTF consensus BULLISH'e egiliyor ancak session delta ve order flow BEARISH - Mixed sinyal.",
+  "session_bias": "Guclu BEARISH: 0.55 buy/sell ratio, -2.8M CVD, sell volume 83% oranında dominant. Fiyat VAL (64552) yakını hareket ediyor, daha asagı test olabilir.",
+  "reasoning": "CVD divergence aktif + possible absorption true + session satis dominant (0.55 ratio) + 4h/5m BEAR alignment = Kurumsal shorting aktivitesi gözlendi, VAL altı kuwet kazandırır.",
   "should_trade": "EVET",
-  "timestamp": "00:54:17"
+  "timestamp": "00:54:28"
 }
