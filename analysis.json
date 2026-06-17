@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64379,
+  "entry": 64382,
   "tp1": 64297,
   "tp2": 64258,
-  "stop": 64400,
-  "absorption": "Mevcut bar (vol=6, delta=3) minimal hacim ile ASK absorption belirti gösteriyor; son 5 bar delta_sum=43 pozitif ama session delta=-2835986 (güçlü satış baskısı), VAL=64552 altında fiyat olup bearish acceptance devam ediyor.",
-  "dom_observation": "DOM ratio=0.88 (<1.0) satış baskısını gösteriyor; ask_depth=74 > bid_depth=65, satış tarafı agır.",
-  "htf_alignment": "5m/15m/1h BULL olsa da 4h BEAR; session buy_sell_ratio=0.55 (<0.8) güçlü satış dominansı; HTF uyumsuzluk mevcut ancak session delta overwhelmingly bearish.",
-  "session_bias": "buy_sell_ratio=0.55 + session delta=-2835986 + sell_volume=6256779 (buy_volume=3420793'ün %183'ü), gün boyunca kurumsal satış tarafından kontrol edilmiş.",
-  "reasoning": "Güçlü negatif session delta + DOM satış baskısı + VAL altında fiyat + mevcut ASK absorption = kısa vadeli satış setup, HTF uyumsuzluğa rağmen session yapısı SELL sinyali destekliyor.",
+  "stop": 64450,
+  "absorption": "Bar 6'da -62 delta ile massive bid absorption görülüyor (ask:10, bid:71), fiyat VAL altında rejection gösteriyor.",
+  "dom_observation": "DOM ratio 0.97 (1.0'a yakın), ancak session buy_sell_ratio 0.55 ile güçlü satis baskisi dominatif, ask depth (65) > bid depth (63) dengesizliği.",
+  "htf_alignment": "5m+15m+1h BULLISH olmasına rağmen 4h BEAR hakim, timeframe uyumsuzluğu mevcut, ancak intraday short setup'ı destekliyor.",
+  "session_bias": "Session delta -2835714 ile derinlemesine bearish, buy_sell_ratio 0.55 (satis agir), session sell volume (6.2M) buy volume'den (3.4M) %83 fazla.",
+  "reasoning": "Cumulative -2.8M CVD + session dominan sell pressure + VAL altında fiyat rejection + son 5 bar delta sum pozitif olsa da bar 6 massive bid absorption büyük satış yoğunlaşmasını gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:04:22"
+  "timestamp": "01:04:41"
 }
