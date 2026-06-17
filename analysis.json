@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64242",
-  "tp1": "64150",
-  "tp2": "64050",
-  "stop": "64320",
-  "absorption": "Fiyat VAL seviyesinin (64552) altında kalırken yüksek satış baskısı (sell_volume: 6.3M) devam etmektedir, kurumsal emri yutulma göstergesi yok.",
-  "dom_observation": "DOM 1.31 bid_ask_ratio ile hafif alis baskili gözükse de, session buy_sell_ratio 0.55 ile agir satis baskisini dogrulamaktadir. Ask volüm gücü geçici.",
-  "htf_alignment": "HTF uyumsuz: 5m BEAR, 15m BEAR, 1h BULL, 4h BEAR. Fakat 4h + 5m/15m BEAR çoğunluğu SHORT cozumunu desteklemektedir.",
-  "session_bias": "Session delta -2.84M (bearish), buy_sell_ratio 0.55 ile günlük satis hakimiyeti açık. Fiyat VAL altında işlem görmekte, BEARISH momentum sürüyor.",
-  "reasoning": "CVD divergence + Session satış baskısı (0.55 ratio) + 5m/15m/4h BEAR çoğunluğu + VAL seviyesinin altında fiyat = Güçlü SHORT setup, VAL support kırılımı SHORT yönü doğruluyor.",
+  "confidence_score": 72,
+  "entry": 64242,
+  "tp1": 64100,
+  "tp2": 63950,
+  "stop": 64320,
+  "absorption": "Negatif CVD (-2.8M) + fiyat VAL altında kalmış, session sell dominant (0.55 buy/sell), son barlar bid agır ama fiyat ilerleyemiyor - Bearish rejection.",
+  "dom_observation": "DOM bid/ask ratio 1.21 (bid agır) fakat çok yüksek değil, ask depth 65 ile satis baskısı ciddi degil ama session sell dominansi net.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/4 bearish, 1h BULL uyumsuzluk var ancak çoğunluk bearish, SHORT için yeterli alignment.",
+  "session_bias": "Session delta -2.84M çok ağır bearish, buy_sell_ratio 0.55 (satis 2x ağır), kurumsal satış baskısı dominan.",
+  "reasoning": "CVD divergence true + session delta ağır negatif + buy_sell_ratio 0.55 + HTF 3/4 bearish + fiyat VAL altında absorption yaptığı halde down trend devam ediyor.",
   "should_trade": "EVET",
-  "timestamp": "01:13:15"
+  "timestamp": "01:13:28"
 }
