@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64262,
-  "tp1": 64100,
-  "tp2": 63900,
-  "stop": 64350,
-  "absorption": "Gunluk -2.8M CVD ve 0.55 buy/sell oranında güçlü satış baskısı varken, mevcut barın +3 delta ile küçük hacim (5) absorption göstermesi, alıcıların emri satıcıların yuttuğunu ve fiyatın aşağıya gitmeye hazır olduğunu işaret ediyor.",
-  "dom_observation": "Bid/Ask oranı 0.52 ile ask ağırlıklı; emir defterinde satış baskısı devam ediyor (76 ask vs 40 bid).",
-  "htf_alignment": "Kısmi uyumsuzluk: 5m BEAR + 15m BEAR + 1h BULL + 4h BEAR. Düşük zaman dilimleri bearish fakat 1h bullish, confidence azaltıyor.",
-  "session_bias": "Gunluk delta -2.8M ve buy_sell_ratio 0.55 ile güçlü satış hakim; fiyat VAL (64552) üstünde ancak session BEARISH momentum taşıyor.",
-  "reasoning": "Gunluk kurumsal satış baskısı (-2.8M CVD) + ask agır DOM (0.52 ratio) + mevcut barda absorption (düşük delta yüksek satış) + HTF 5m/15m/4h bearish hizalama, yükselen ASK absorption ile short setup oluşturuyor.",
+  "entry": 64275,
+  "tp1": 64150,
+  "tp2": 64050,
+  "stop": 64320,
+  "absorption": "ASK absorption belirtileri - mevcut bar pozitif delta (11) ile dusuk hacim (23), fiyat VAL altinda rezilience gostermemesi, dom ask depth (83) bid depth (48) den onemli oranda fazla, ask/bid ratio 0.57 ciddiye satis baskisi gosteriyor.",
+  "dom_observation": "DOM 0.57 ratio ile ask agirlik baskili, 83 ask'e karsı 48 bid - kuvvetli satis baskisinin emirdefter derinliginde net refleksiyonu.",
+  "htf_alignment": "5m/15m/4h BEAR, sadece 1h BULL - 3 timeframe BEAR uyumsuzluk kuralina rağmen net negatif momentum. Kisa vadeli multiple timeframe bearish convergence.",
+  "session_bias": "Session delta -2843400 (gunun tamami satis baskili), buy_sell_ratio 0.55 - yuksek satis dominansi. Fiyat VAL 64552 ve vPOC 64932 altinda, VAH 65794 uzak - bearish acceptance pattern.",
+  "reasoning": "Gununun tamamina yayilan -2.8M CVD negatif momentum, dom ask agirlik satis baskisi, session buy_sell_ratio 0.55 ile satis egemenliginin net refleksiyonu, fiyat VAL altında acceptance pattern kurarak short kırilimına hazir setup.",
   "should_trade": "EVET",
-  "timestamp": "01:09:21"
+  "timestamp": "01:09:42"
 }
