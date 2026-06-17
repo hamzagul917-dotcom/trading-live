@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64249,
+  "entry": 64225,
   "tp1": 64100,
   "tp2": 63950,
-  "stop": 64320,
-  "absorption": "Ask depth dominant (80 vs 49) ile satis baskisi guclu, CVD -2.8M cumulative negatif delta gunu domine ediyor",
-  "dom_observation": "Bid/Ask ratio 0.62 (<0.7) - satis agir, emir defterinde ask'lar bid'leri kisitliyarak downside hazirlaniyyor",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3 timeframe bearish, 1h BULL uyumsuzlugu yapilacak short'u dogrulayamasa da session guclu satis baskisini onayliyor",
-  "session_bias": "Buy/sell ratio 0.55 (<0.8) + session delta -2.8M = guncun basladigindan beri kurumsal satis baskisi dominan, fiyat VAL (64552) altinda henuz konumlanmadi ancak test alaninda",
-  "reasoning": "Negatif CVD akumulasyonu, ask agir DOM, 3 timeframe bearish bias ve 0.55 buy/sell ratio'su kurumsal satis baskisini dogruluyor - VAL altina kirilim beklenir.",
+  "stop": 64350,
+  "absorption": "Mevcut bar minimal volume (8) ile fiyat 64225-64232 aralığında yatay hareket - satis baskisinin emri yutması (ASK absorption)",
+  "dom_observation": "Bid/Ask ratio 1.11 - hafif alis baskisi ancak session genelinde ask dominansi (buy_sell_ratio 0.55) satis yonetimini gosteriyor",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/3 bearish uyum, 1h BULL minor counter-trend - guclu SHORT uyumu",
+  "session_bias": "Session delta -2848961 ile guclu satis baskisi, buy_sell_ratio 0.55 (alis/satis 1:1.8 orani) - gunluk bearish momentum basladi",
+  "reasoning": "Satis-agir session deltasi (-2.8M), bearish HTF uyumu (5m/15m/4h) ve VAL (64552) uzerinde ASK absorption kombinasyonu - VAL seviyesinden short setup kurulmu durumda yer aliyor.",
   "should_trade": "EVET",
-  "timestamp": "01:06:55"
+  "timestamp": "01:07:18"
 }
