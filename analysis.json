@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64250,
+  "entry": 64243,
   "tp1": 64150,
   "tp2": 64050,
-  "stop": 64320,
-  "absorption": "Son 10 bardaki -62 delta absorption (9. bar) + gunluk -2.8M negatif CVD + fiyat VAL altinda hareket ediyor = satis baski yoğun",
-  "dom_observation": "Bid/Ask orani 1.16 (hafif alis), ancak ask_vol/bid_vol son 5 barda -50 toplam delta ile satis baskisini destekliyor",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/4 timeframe bearish uyumlu, 1h BULL uyumsuzluk minimal risk",
-  "session_bias": "Buy/Sell ratio 0.55 = guclü satis baskisi (gunun %65'i satis), -2.8M session delta kesintisiz ayıbaşı",
-  "reasoning": "Gunluk agir satis baskisi + VAL alti fiyat acceptance + son 10 bardaki -62 delta absorption + 3/4 HTF bearish = SELL setupi net kurumsal satıs sinyali verıyor",
+  "stop": 64280,
+  "absorption": "Mevcut bar: delta +2 (minimal alis), ask_vol 3 vs bid_vol 1 = satis baskisi. Son 10 bardaki -62 delta sonrasi +2 delta = kurumsal satis sonrasi absorption.",
+  "dom_observation": "bid_ask_ratio 1.34 (alis baskisi gostersa de) ask_depth 62 vs bid_depth 83; son 10 bardaki trend bid dominantliginin sona ermesi ve satis hacminin artmasi sinyal.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/4 BEARISH; 1h BULL uyumsuzluk olusturuyor ancak lower timeframes dominant.",
+  "session_bias": "buy_sell_ratio 0.55 (satis dominansi) + session delta -2849210 (guclu satis baskisi) + sell_volume (6.2M) >> buy_volume (3.4M) = gunu kontrol eden satis.",
+  "reasoning": "Session satis dominansi (-2849210 CVD) + lower timeframe BEAR trend + son bardaki negatif delta sonrasi minimal recovery + VAL (64552) alti fiyat = erken short setup, kurumsal satis absorption mevcut.",
   "should_trade": "EVET",
-  "timestamp": "01:08:01"
+  "timestamp": "01:08:16"
 }
