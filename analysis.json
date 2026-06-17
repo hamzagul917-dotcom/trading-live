@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64425,
-  "tp1": 64350,
-  "tp2": 64280,
-  "stop": 64480,
-  "absorption": "ASK absorption aktif: Session-wide massive CVD negatif (-2739788) fiyat VAL altinda tutunup mini pozitif delta (delta_sum_5bars +20) ile fiyat ilerleyemiyorsa = kurumsal satis baskisi altinda gizli SHORT setup",
-  "dom_observation": "DOM ratio 1.19 (bid agir gorunurken) session buy_sell_ratio 0.58 (satis 42% daha yuksek) = derin satis baskisi; ask_vol/bid_vol 5/2 mevcut barda satis dominansi",
-  "htf_alignment": "5m BEAR + 15m/1h/4h BULL = mixte signal ancak 5m immediate trend BEARISH, short-term satis baskisina uyan",
-  "session_bias": "Buy/Sell ratio 0.58 + session delta -2739788 = gun boyunca agir satis; fiyat VAL (64552) altinda + CVD divergence = kurumsal para satista",
-  "reasoning": "CVD divergence + possible_absorption + session satis dominansi (0.58 ratio) + 5m BEAR + VAL alti acceptance = erken SHORT setup; pozitif delta rebound sonarasinda negatife donus expected",
+  "entry": 64433,
+  "tp1": 64300,
+  "tp2": 64150,
+  "stop": 64500,
+  "absorption": "Mevcut bar: delta +24 (ask agir 27 vs bid 4) fakat hacim dusmustuk (31) - kurumsal direnc var.",
+  "dom_observation": "bid_ask_ratio 1.23 > 1.0 ama ask_depth 45 vs bid_depth 55 - satis baskisi artisa da bid henuz agir. Dikkat: ask hacmi nispeten dusuk, bu direnc isaretleyebilir.",
+  "htf_alignment": "5m BEAR (kisa vadeli satisci baskinligi), 15m/1h/4h BULL ama - 5m anlik hareket satis yonlu, HTF mixed signal.",
+  "session_bias": "cvd -2.7M (kuvvetli satis baskisi), buy_sell_ratio 0.58 (catilisiz satis egemenliginde), session delta buyuk negative - gunun tamaminda saticilar hakim.",
+  "reasoning": "CVD divergence=true (fiyat dusmek istemiyor ama kurumsal para satis yapiyor) + session satis egemenliginde (0.58 ratio) + 5m BEAR + vPOC 64932 ustu zone'de rejection sekilmis (current 64433 < vPOC) = erken SHORT sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:57:18"
+  "timestamp": "01:57:59"
 }
