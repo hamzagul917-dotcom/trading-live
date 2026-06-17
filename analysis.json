@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64401,
+  "entry": 64400,
   "tp1": 64350,
   "tp2": 64280,
-  "stop": 64450,
-  "absorption": "Son 10 bar analizi: Bar 7-8 kuvvetli pozitif delta (21,32) sonrasi Bar 9-10'da negatif delta donusu (-19), fiyat VAL altinda rejection gosteriyor. Ask absorption sinallari var (ask_vol/bid_vol dengesizligi).",
-  "dom_observation": "bid_ask_ratio 0.85 < 1.0 = ask agir, satis baskisi artiyor. Ask_depth (69) > bid_depth (59), saticilar kontrolde.",
-  "htf_alignment": "5m BEAR, 15m BEAR, 4h BEAR = 3/4 timeframe bearish uyum kuvvetli. 1h BULL zayif sinyal, genel trend BEARISH.",
-  "session_bias": "buy_sell_ratio 0.57 << 0.8, session delta -2778518 agir negatif. Gunun tamaminda satis baskisi dominant (sell_vol 6432318 >> buy_vol 3653800).",
-  "reasoning": "VAL (64552) alti fiyat, agir session sell baskisi, HTF 3/4 bearish, ask absorption ve DOM satis baski kombinasyonu net SHORT sinyali vermektedir.",
+  "stop": 64440,
+  "absorption": "Mevcut bar minimum hacimle (2 kontrat) fiyati koruyor, possible_absorption=true + delta_sum_5bars=-17 bearish baski altinda absorption yapiliyor - satis baskisi emri yutuyor",
+  "dom_observation": "bid_ask_ratio=1.23 alis lehine gorunse de ask_vol=0 + bid_vol=2 minimal hacimle, session sell_volume (6.4M) buy_volume (3.6M) cok asili - ask agirliginin guclu satis baskisi var",
+  "htf_alignment": "5m=BEAR + 4h=BEAR + 1h=BULL(zayif), 2/3 timeframe bearish - satis sinyali icin yeterli uyum",
+  "session_bias": "buy_sell_ratio=0.57 (<0.8) + session_delta=-2777886 (guclu negatif) + CVD dusuyor, fiyat henuz VAL (64552) ustu tutmuyor, BEARISH momentum domina edyor",
+  "reasoning": "Guclu kurumsal satis baskisi (CVD=-2.7M, ratio=0.57) altinda VAL altinda absorption yapilarak fiyat tutulmuyor, 5m+4h bearish + DOM ask agirliginda SHORT setup olusmus durumdadir.",
   "should_trade": "EVET",
-  "timestamp": "01:36:45"
+  "timestamp": "01:37:12"
 }
