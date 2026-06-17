@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64458,
+  "entry": 64450,
   "tp1": 64400,
   "tp2": 64350,
-  "stop": 64500,
-  "absorption": "Session sonu buyuk ask absorption + CVD divergence: fiyat 64458'de durmus, ancak gun boyu -2.77M CVD ve 0.57 buy/sell ratio ile guclu satis baskisi devam ediyor. Last bar -7 delta ile kapanmasi ve DOM'da 1.88 bid/ask orani maskeleyici. Kurumsal saticilar fiyatin yukselisine karsilik vermemekte.",
-  "dom_observation": "Bid depth 87 vs Ask depth 46 (1.88 ratio) gozlemsel alis baskisini gosterse de, session buy/sell ratio (0.57) ve negatif CVD guclu satis agirligini dogruluyor. DOM maskelemesi: fiyat itildikten sonra saticilar geri cekiliyorlar.",
-  "htf_alignment": "5m BEAR + 15m/1h/4h BULL = karmasik sinyal. Ancak mevcut 5m BEAR + intraday sonu negative session delta + CVD divergence kombinasyonu SHORT'u destekliyor.",
-  "session_bias": "Gun boyu sell dominant (0.57 buy/sell, -2.77M CVD, VAL'in 64552 altinda). Kapanisin VAL'a yakin olmasi rejeksyon sinyali, kapanista negatif delta = short setup.",
-  "reasoning": "CVD divergence + session sell dominance + 5m bearish trend + last bar negative delta + price rejected at VAL = SHORT setup; risk/reward 1:3 ile VAL'in altina kiramalara short giris.",
+  "stop": 64480,
+  "absorption": "Guclu satis baskisi: session buy_sell_ratio=0.57 (saturim baskili), gunluk delta=-2.77M (derin bearish), son 10 bardaki en yuksek pozitif delta (90) hemen sonrasi fiyat 64450'ye cikti = ask absorption/rejection",
+  "dom_observation": "bid_ask_ratio=1.28 (alis agir gorunuyor AMMA delta verisi aksini soyluyor) - bid derinligi 70 ancak gunluk satis hacmi 6.4M vs alis 3.6M = kurumsal shorting aktif, ask agir durumda",
+  "htf_alignment": "UYUMSUZ - 5m BEAR ama 15m/1h/4h BULL, kisa vadede satis baskisi kurumsal long pozisyonlari yoketiyorsa risk yuksek",
+  "session_bias": "Gunluk deep bearish delta (-2.77M) + buy_sell_ratio 0.57 = gunun geneline satis baskisi hakim, fiyat VAL (64552) seviyesi altinda olmasa da bullish acceptance olamadi",
+  "reasoning": "CVD divergence + negatif session delta + ask absorption pattern + 5m bearish + satis hacmi baskili = kurumsal koruma satis yapiyorsa short setup kurulmaktadir",
   "should_trade": "EVET",
-  "timestamp": "01:33:28"
+  "timestamp": "01:33:53"
 }
