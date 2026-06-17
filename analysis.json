@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64413",
-  "tp1": "64300",
-  "tp2": "64180",
-  "stop": "64450",
-  "absorption": "Minimal absorption, delta negatif, ask volume yukselmekte (68 vs 52 bid), satis baskisi dominan",
-  "dom_observation": "DOM orani 0.77 < 0.7 threshold yakini, ask depth 68 > bid depth 52, satis baskisi artiyor",
-  "htf_alignment": "Zayif - 5m/15m/4h BEAR ama 1h BULL, 2 timeframe bullish icin yeterli degil SELL sinyali icin dusuk risk",
-  "session_bias": "buy_sell_ratio 0.57 << 0.8 threshold, gunluk satis dominansi kuvvetli, session delta -2.7M olumsuz",
-  "reasoning": "Gunluk satis baskisi (ratio 0.57), negatif session delta, DOM ask dominansi (0.77), son 5 bar delta sum negatif (-17) ve kurumsal para satis tarafi yukselmektedir - SHORT setup klasik Axia rejection sinyali.",
+  "confidence_score": 72,
+  "entry": 64420,
+  "tp1": 64380,
+  "tp2": 64340,
+  "stop": 64450,
+  "absorption": "Session-wide satış baskısı devam ediyor: CVD -2.7M, buy/sell ratio 0.57, ask depth (74) bid depth (50) üstün, mevcut bar negatif delta (-11) ile kapandı.",
+  "dom_observation": "DOM 0.68 oranı ile satis agir. Ask depth (74) vs bid depth (50) = ask dominasyonu, satış baskısı artiyor.",
+  "htf_alignment": "HTF uyum zayif: 5m BEAR + 15m BEAR vs 1h BULL + 4h BEAR = Coklu timeframe karisiyor. Short icin 5m+15m bearish yeterli.",
+  "session_bias": "Gün boyunca sell dominasyonu: buy_sell_ratio 0.57 (<0.8), sell_volume (6.4M) >> buy_volume (3.6M), fiyat VAH (65795) çok altında = BEARISH momentum kuvvetli.",
+  "reasoning": "Session-wide satış dominasyonu (ratio 0.57), CVD -2.7M, DOM ask agir (0.68), HTF 5m/15m BEAR, fiyat VAL (64552) yakın + negatif delta devamlılığı = kuvvetli SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "01:35:14"
+  "timestamp": "01:35:25"
 }
