@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64463,
-  "tp1": 64520,
-  "tp2": 64600,
-  "stop": 64420,
-  "absorption": "Son 5 bardaki delta toplami 60 (pozitif), current bar delta 31 pozitif, possible_absorption=true: Kurumsal aliş baskısı fiyat seviyelerde yutuluyor, VAL (64552) üstünde tutunuş gözleniyor",
-  "dom_observation": "Bid/ask ratio 0.91 (hafif satis baskisi) ancak mevcut bar ask_vol:39 > bid_vol:8, net alis hakimiyeti",
-  "htf_alignment": "5m/15m/1h/4h tümü BULL - maksimum HTF uyum saglanmis",
-  "session_bias": "Session delta -2776134 negatif (gün boyunca satis baskisi) ancak buy_sell_ratio 0.57 gösteriyor; ancak son barlar ve delta_sum_5bars +60 pozitif yönde momentum oluşturmaya başladı",
-  "reasoning": "VAL seviyesinde (64552) Bid absorption + pozitif delta momentum (60 in 5bars) + tüm HTF BULLISH + kurumsal likidite tutuşu klasik Axia long setupi oluşturuyor.",
+  "entry": 64440,
+  "tp1": 64360,
+  "tp2": 64280,
+  "stop": 64500,
+  "absorption": "Session delta -2774229 ile guclu satis baskisi, buy_sell_ratio 0.57 (<0.8) BEARISH momentum onayi, CVD divergence mevcut kurumsal short baslamasi isareti",
+  "dom_observation": "bid_ask_ratio 1.04 (dengesiz), ask_depth 65 vs bid_depth 67 - hafif ask agir fakat dengeli, DOM direnci zayif",
+  "htf_alignment": "5m BEAR + 4h BEAR konfirme ederken 15m/1h BULL uyumu zayif, net BEARISH sinyal icin 5m dominans yeterli",
+  "session_bias": "buy_sell_ratio 0.57 ve gunluk delta -2774229, fiyat VAL (64552) altinda hareketi planlanmamis, satis hakimiyeti baskın",
+  "reasoning": "CVD divergence + session satis hakimiyeti + 5m/4h BEAR uyumu + fiyat VAL altina rejection yapması, kurumsal short absorption setup'ı olusturmustur.",
   "should_trade": "EVET",
-  "timestamp": "01:29:51"
+  "timestamp": "01:30:19"
 }
