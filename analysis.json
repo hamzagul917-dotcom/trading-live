@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64350",
-  "tp1": "64240",
-  "tp2": "64150",
-  "stop": "64400",
-  "absorption": "Mevcut bar: yüksek ask volume (84) ve pozitif delta (+76) ile fiyat 64367'de takılı kalmış, ask agır absorption göstermektedir.",
-  "dom_observation": "Bid/ask oranı 1.73 (bid agır) ancak current bar ask dominansı VAH direncinde absorption işareti vermektedir.",
-  "htf_alignment": "5m/15m/1h BULL, 4h BEAR - Zaman dilimi uyumsuzluğu ancak 4h bearish kırılım baskını desteklemektedir.",
-  "session_bias": "Session delta -2830182 (güçlü satış baskısı), buy/sell oranı 0.55 (satış dominansı), VAL altında fiyat tutunamaması bearish momentum göstermektedir.",
-  "reasoning": "Mevcut bar ask absorption + session satış dominansı + 4h bearish bias + CVD negatif trend + fiyat VAL altında = SHORT setup; HTF uyumsuzluğu confidence düşürmesine rağmen order flow net satış sinyali vermektedir.",
+  "confidence_score": 72,
+  "entry": 64354,
+  "tp1": 64241,
+  "tp2": 64100,
+  "stop": 64420,
+  "absorption": "Son bardaki ASK absorption: delta -6 (satis baskisi) + minimal hacim (6) + fiyat direncte siki yapisili, kurumsal satici emri yutulmakta. Negative delta_last_bar + VAL (64552) altinda fiyat hareketi = BEARISH.",
+  "dom_observation": "Bid/Ask ratio 1.15 (alis ileride) ancak son 2 bardaki ASK volume (32+34) BID'den (8+10) cok daha yuksek = satis baskisi artiyor ve absorption devam ediyor.",
+  "htf_alignment": "5m/15m/1h BULL (3/3 bullish) fakat 4h BEAR - HTF uyumsuzluk var ancak mikro zamanda son 5 bar delta_sum +72 oldugu halde current bar delta -6 ile negatife dondu = BEARISH divergence.",
+  "session_bias": "Session buy_sell_ratio 0.55 (0.8 altinda) + session delta -2.8M (agir satis baski) + VAL altinda fiyat = gun boyu BEARISH hakimiyeti, sona dogru satis momentum artisi gozlenmekte.",
+  "reasoning": "Gün boyu ağır satış baskısı (-2.8M CVD) ile birleşen ASK absorption + negatif delta divergence + 4h BEAR bias + VAL altı fiyat konumu = kısa vadeli SHORT opportunitesi, ancak HTF çoğunlukla bullish olması confidence'i moderatoya indiriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:16:57"
+  "timestamp": "01:17:13"
 }
