@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64378",
-  "tp1": "64297",
-  "tp2": "64200",
-  "stop": "64400",
-  "absorption": "Son 5 bardaki delta_sum=44 (pozitif) ancak CVD=-2835646 (guclu negatif), fiyat VAL (64552) altinda; kurumsal para satista baskili, yukariya carpmalar fail.",
-  "dom_observation": "bid_ask_ratio=1.22 (az alis baskisi), ask_depth=61 yakinda; session buy_sell_ratio=0.55 (<0.8) guclu satis baskisi; DOM satisla uyumlu.",
-  "htf_alignment": "5m/15m/1h BULL ama 4h BEAR; ust trend zayif, lower timeframe bullish capraz ancak session delta gunluk satista baskili.",
-  "session_bias": "Gunluk delta=-2835646 (cokkati satis), buy_sell_ratio=0.55 (<0.8) = guclu bearish momentum; fiyat VAL altinda = acceptance DOWN.",
-  "reasoning": "Guclu gunluk satis baskisi (CVD -2.8M, ratio 0.55), fiyat VAL altinda rejection, 4h BEAR trend, DOM satis agir; yukariya delta-spike sonrasi satis absorpsiyonu = SELL setup.",
+  "confidence_score": 72,
+  "entry": 64316,
+  "tp1": 64258,
+  "tp2": 64200,
+  "stop": 64350,
+  "absorption": "Mevcut bar: delta -42 (negatif), bid vol 57 > ask vol 15 = satıcı baskısı yok ancak fiyat 64305 düşük kalmış, VAL (64552) üzerinde absorption senaryosu sağlanmamış. Son 10 bardaki -62 delta bar (7. bar) ve günlük -2.8M CVD ile kurumsal satış hakimiyeti net.",
+  "dom_observation": "DOM ratio 0.63 < 0.7 = ask derinliği (72) bid derinliğinden (45) %60 daha fazla, satış baskısı artıyor",
+  "htf_alignment": "5m BULL + 15m BEAR + 1h BULL uyumsuzluk var ancak 4h BEAR güçlü bearish thesis destekliyor. 15m+4h bear = kısa vadede satış baskısı",
+  "session_bias": "Buy/Sell ratio 0.55 (çok düşük) + session delta -2.8M = güçlü günlük satış baskısı, fiyat VAL altında (64316 < 64552)",
+  "reasoning": "CVD divergence true + negatif delta + dom ask ağır + session sell dominant + 4h bearish = kurumsal satış absorption senaryo çalışıyor, VAL kırılım kısa vadeli satış sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:05:04"
+  "timestamp": "01:05:53"
 }
