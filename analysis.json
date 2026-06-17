@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64409,
-  "tp1": 64367,
-  "tp2": 64320,
-  "stop": 64450,
-  "absorption": "Negatif CVD (-2.78M) baskısı devam ediyor, fiyat VAL altında konumlanmış, kurumsal satış baskısı net.",
-  "dom_observation": "Bid/Ask oranı 1.28 (alis baskili gorunuse ragmen) fakat session buy_sell_ratio 0.57 ile net satis dominansı; ask agir beklentisi session delta ile ters, manipulation sinyali.",
-  "htf_alignment": "5m BULL / 15m BEAR / 1h BULL / 4h BULL - uyum zayif: 15m bearish ama 1h/4h bullish, zaman dilimi catishmasi confidence azaltiyor.",
-  "session_bias": "Buy/Sell ratio 0.57 (<0.8) + negatif session delta (-2.78M) + VAL altinda fiyat = guclu bearish momentum, kurumsal saticilar kontrolde.",
-  "reasoning": "CVD divergence true + negatif delta sum + VAL alti + session satisi dominant (0.57 ratio) + 15m bearish = kurumsal absorption satis baskisini gosteriyor, retracement setup net shortur.",
+  "entry": 64443,
+  "tp1": 64552,
+  "tp2": 64650,
+  "stop": 64367,
+  "absorption": "Son 10 bardaki bar-8'de (delta: 71, vol: 98, ask: 85) buyuk ask absorption gorulmektedir; mevcut bar (delta: 13) bu bullish momentumu devam ettirmektedir.",
+  "dom_observation": "BID/ASK ratio 3.64 (>1.5) - guclü alis baskisi, emir defterinde buyuler kontrolde.",
+  "htf_alignment": "5m BULL, 1h BULL, 4h BULL (3/4 bullish) - HTF uyumu cok guclü; 15m BEAR tek zayif nokta ama uzun vadeli uyum dominan.",
+  "session_bias": "Buy/Sell ratio 0.57 (satış dominanslı) ancak session delta -2.7M negatif olmasına rağmen, fiyat VAL (64552) üzerinde sabit kalıp yükselmektedir - kurumsal absorpsiyon yapılıyor.",
+  "reasoning": "Negatif session delta'ya rağmen fiyat VAL üstünde acceptance göstermesi, güçlü bid depth (113), son barların pozitif delta momentum'u ve HTF multi-timeframe bullish uyumu, Axia kuralı 6'ya uygun bir erken long setup'ı işaret etmektedir.",
   "should_trade": "EVET",
-  "timestamp": "01:46:51"
+  "timestamp": "01:47:31"
 }
