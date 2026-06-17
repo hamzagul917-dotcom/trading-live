@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64242,
-  "tp1": 64100,
-  "tp2": 63950,
+  "entry": 64256,
+  "tp1": 64200,
+  "tp2": 64100,
   "stop": 64320,
-  "absorption": "Session genelinde -2.843M CVD ile agir satis baskisi, buy_sell_ratio 0.55 (<0.8) bearish momentum gosteriyor, VAH ustu fiyat rejection yaparak rejection absorption olusuyor.",
-  "dom_observation": "bid_ask_ratio 0.62 (<0.7) - ask depth (78) bid depth (48)den buyuk, satis baskisi dominantligini kanitliyor.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR - 3 timeframe bearish, 1h BULL ise minority - HTF bearish alignment kuvvetli.",
-  "session_bias": "Gunluk delta -2.843M ve buy_sell_ratio 0.55, sell_volume (6.3M) buy_volume (3.4M)yi 1.8x astiyor - kurumsal satis dominansi.",
-  "reasoning": "CVD divergence true + session sell_dominant + DOM ask heavy + HTF 3/4 bearish + fiyat VAH test etmeden rejection = net SELL setup.",
+  "absorption": "Mevcut bar: Ask volume ağır (7/0), fiyat VAL altında (64256 < 64552), ancak önceki 10 barında kuvvetli negatif delta (-47 bar10) sonrası pozitif dönüş yok; Session sell dominant (6.3M sell vs 3.4M buy, 0.55 ratio), CVD kuvvetli negatif (-2.84M), delta_sum_5bars negatif (-11) = Satıcı absorpsiyonu mevcut, fiyat ilerleyemiyor.",
+  "dom_observation": "Bid/Ask ratio 0.9 (satış baskısı başlangıcı), Ask depth 71 > Bid depth 64, satış tarafında ağırlık artmakta.",
+  "htf_alignment": "5m/15m/4h BEAR (3/3) fakat 1h BULL - HTF uyumsuzluk var ancak çoğunluk bearish, confidence kısmen düşürüyor.",
+  "session_bias": "buy_sell_ratio 0.55 (ağır satis), session delta -2.84M, gunluk sell-dominant baskı belirgin.",
+  "reasoning": "Session sell-dominant + satıcı absorpsiyonu + negatif CVD + fiyat VAL altında + DOM ask ağırlığı = Short setup, ancak HTF 1h BULL ile uyumsuzluk confidence'ı 72'ye indiriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:13:59"
+  "timestamp": "01:14:12"
 }
