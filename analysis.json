@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64315",
-  "tp1": "64250",
-  "tp2": "64180",
-  "stop": "64360",
-  "absorption": "5. bar'da devasa BID absorption gozlendi (delta -62, bid 71) - kurumsal satis yapildi, fiyat direnc altinda tutuldu",
-  "dom_observation": "DOM ratio 0.75 (< 0.7 eşik yakını) - Ask depth 69 > Bid depth 52 - satis baskisi artiyor",
-  "htf_alignment": "Mixed - 5m BULL, 15m BEAR, 1h BULL, 4h BEAR - ancak 4h BEAR + 15m BEAR dominatif signal (2/4 bearish)",
-  "session_bias": "Session delta -2836478 (agir negatif), buy_sell_ratio 0.55 (< 0.8 critical) - gun boyunca masif satis baskisi devam ediyor",
-  "reasoning": "CVD divergence aktif (-2836478), session buy/sell ratio 0.55, DOM ask agir (0.75), last 5bar delta -34 negatif, fiyat VAL (64552) altında kalmaya zorlanıyor - kurumsal satis baskısı net SHORT setupu gösteriyor.",
+  "confidence_score": 72,
+  "entry": 64335,
+  "tp1": 64250,
+  "tp2": 64100,
+  "stop": 64400,
+  "absorption": "Son 5 bardaki delta_sum -28 (net satis baskisi), fiyat 64350 seviyesinde direnc yapıyor, kurumsal satış gücü devam ediyor.",
+  "dom_observation": "DOM ratio 1.01 = dengedeli ancak session'da bid/ask 0.55 = net satış baskısı hakimdir, ask agirlik kazanıyor.",
+  "htf_alignment": "5m BULL vs 15m/4h BEAR; uyum zayıf, ancak 4h trend BEAR dominant, kısa vadeli retracementler görülebilir.",
+  "session_bias": "buy_sell_ratio 0.55 = güçlü BEARISH session, satış hacimleri (6.2M) alış hacimleri (3.4M) çok önünde, session delta -2.8M cumulative satış baskısı.",
+  "reasoning": "CVD divergence +negatif session delta +satis baskisi dominansi +VAH rejectioni, kurumsal short pozisyonlama sinyali veriyor, kisa pozisyonla risk-reward optimal.",
   "should_trade": "EVET",
-  "timestamp": "01:03:41"
+  "timestamp": "01:03:59"
 }
