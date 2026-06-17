@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64303,
-  "tp1": 64200,
-  "tp2": 64050,
-  "stop": 64380,
-  "absorption": "Gunluk CVD -2.83M (agir satis baskisi) + possible_absorption=true + fiyat 64303'te hareketsiz = ask tarafinda guclu emri yutulmus, satis kurumsal baskisi devam ediyor",
-  "dom_observation": "bid_ask_ratio=1.15 (hafif alis baskisi gozukuyor ama gunluk buy_sell_ratio=0.55 ile cakismasi = fake bid, ask tarafinda gizli yogunluk",
-  "htf_alignment": "5m BEAR + 4h BEAR = SHORT icin 2 ust zaman dilimi uyumlu; 15m+1h BULL ise conflicting signal, confidence hafif azaltmali",
-  "session_bias": "buy_sell_ratio=0.55 (<0.8), gunluk satis hacmi 6.2M >> alis hacmi 3.4M, session tamamen bearish, fiyat VAL (64552) alti hareket etmemis ama CVD-2.83M'nin agirligina karsin satis dominasyonu net",
-  "reasoning": "Gunluk agir satis baskisi (CVD -2.83M, buy_sell_ratio 0.55) + possible_absorption + 5m+4h BEAR uyumu + VAL altinda fiyat = kurumsal saticilar emri soguruyor, kirilim asagiya beklenmeli.",
+  "confidence_score": "72",
+  "entry": "64272",
+  "tp1": "64200",
+  "tp2": "64100",
+  "stop": "64330",
+  "absorption": "Son 10 bardaki analiz: Bar 8'de (+129 delta, 164 vol, 147 ask) guclu alis baskinasina ragmen fiyat 64390'dan 64371'e dustu. Bu ask absorption'dur - alicilar emri yuttu ama fiyat yukselemedi. Sonrasında bar 9-10'da negative delta devam ediyor.",
+  "dom_observation": "bid_ask_ratio 1.61 (alis baskinasi gibi görünse de), mevcut bar'da ask_vol=1, bid_vol=32 ile sahte buy sinyali. Derinlikte bid=95 > ask=59 olsa da, gerçek momentum satış yönünde.",
+  "htf_alignment": "5m BEAR + 4h BEAR = 2 zaman dilimi bear. 15m+1h bull olsa da, alt timeframe'ler dominant bearish baskı gösteriyor. Düşük güven.",
+  "session_bias": "Gün deltası -5.4M, buy_sell_ratio 0.54 (satış egemenliği). Fiyat VAL (64552) altında konumlanmış = BEARISH acceptance. Satış hacmi (11.9M) alış hacminin (6.4M) 1.8 katı.",
+  "reasoning": "Kuvvetli satış deltası (-5.4M CVD), mevcut bar negatif delta (-31), son 5 bar net negative (-45), bar 8'deki ask absorption (alis emri battirildi), VAL alti fiyat konumu ve session buy_sell_ratio 0.54 ile egerken short setup'ı sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "00:59:19"
+  "timestamp": "00:59:30"
 }
