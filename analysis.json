@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64395,
+  "entry": 64391,
   "tp1": 64325,
   "tp2": 64254,
-  "stop": 64458,
-  "absorption": "Mevcut bar 26 bid / 5 ask ile strong bid absorption gösteriyor ancak fiyat 64395'te sıkışmış, kurumsal satış baskısı devam ediyor.",
-  "dom_observation": "DOM ratio 0.58 (<0.7) - Ask depth (134) bid depth'in (77) çok üstünde, güçlü satış baskısı sinyali.",
-  "htf_alignment": "5m BEAR + 4h BEAR, 15m ve 1h BULL olmasına rağmen short-term bearish bias dominant. Zaman dilimi çatışması confidence'ı düşürüyor.",
-  "session_bias": "Buy/sell ratio 0.56 (<0.8) + session delta -2.8M = Günlük satış hakimiyeti. Sell volume 6.3M, buy volume 3.5M ile net bearish session.",
-  "reasoning": "CVD divergence + negative session delta (-2.8M) + DOM ask ağır (0.58 ratio) + VAH üstünde fiyat rejection + 5m/4h bearish bias = erken short pozisyonu için setup mevcut.",
+  "stop": 64443,
+  "absorption": "Mevcut bar'da ask volumune karsi bid baskisi (5:1 orani) fakat fiyat VAL altinda dusmekte - seller absorption gücü artmakta, fiyat dirençle karsilasip geri cekiliyor",
+  "dom_observation": "DOM ratio 0.5 (cok dusuk) - ask depth 132 vs bid depth 65 = guclu satis baskisi, seller kontrol ediyor",
+  "htf_alignment": "5m BEAR + 4h BEAR = 2/3 saat dilimi bearish, 15m ve 1h bullish olmasi confidence'i sinirlaniyor ancak guncel baskinin satici tarafinda oldugu acik",
+  "session_bias": "Buy/sell ratio 0.56 (çok düşük - satış dominantı), cumulative delta -2,806,562 = gunluk guclu satis baskisi, session bearish bias kuvvetli",
+  "reasoning": "CVD divergence + ask absorption + 0.5 DOM ratio + session sell dominant (0.56) + fiyat VAL alti rejeksiyonu = Net kurumsal satici baskisi, short setup net ve guclu.",
   "should_trade": "EVET",
-  "timestamp": "01:22:39"
+  "timestamp": "01:23:17"
 }
