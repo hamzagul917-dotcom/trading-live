@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64450",
-  "tp1": "64550",
-  "tp2": "64650",
-  "stop": "64350",
-  "absorption": "Son 5 bardaki pozitif delta akumulasyonu (delta_sum_5bars=162) fiyat VAL seviyesinde konsolidasyonla desteklenmiş, kurumsal alış absorpsiyonu tespit edildi",
-  "dom_observation": "Bid/ask ratio 1.05 (hafif alış baskısı), bid_depth 75 vs ask_depth 71 - alış tarafında likidite dominansı",
-  "htf_alignment": "5m BULL + 15m BULL + 1h BULL (3/3 tam uyum) - 4h BEAR uyumsuzluğu hafif confidence düşürüyor",
-  "session_bias": "Buy/sell ratio 0.56 (satis baskisı) fakat son 5 bar analizi pozitif delta gosteriyorsa - kurumsal in-session reversal sinyali",
-  "reasoning": "Negatif CVD (-2780682) ortasında pozitif delta akumulasyonu + VAL desteğinde alış absorpsiyonu + HTF bullish alignment (5m/15m/1h) = Institutional reversal setup",
+  "confidence_score": 72,
+  "entry": 64450,
+  "tp1": 64550,
+  "tp2": 64650,
+  "stop": 64350,
+  "absorption": "Son 5 bardaki delta_sum pozitif (162), mevcut bar delta +21, fiyat VAL ustu tutunuyor, hafif BID absorption gozlemi (bid_vol:19 < ask_vol:40 olmasina ragmen fiyat yukseliste kapaniyor)",
+  "dom_observation": "bid_ask_ratio 1.05 (hafif alis baskisi), bid_depth 75 vs ask_depth 71, emir defterinde alis egemenliği baslamis",
+  "htf_alignment": "5m BULL + 15m BULL + 1h BULL (3/3 uyum), 4h BEAR uyumsuzluk getiriyor ama alt timeframeler gucu ile confidence 72'ye ayarlanmis",
+  "session_bias": "Gunluk CVD -2.78M negatif (satis baskisi dominan) ANCAK son 5 bar toplamı +162 delta = erken tersine donus sinyali, buy_sell_ratio 0.56 (satis agir) ile capismazsa long riskli",
+  "reasoning": "Alt timeframe bullish uyum + son 5 bar pozitif delta baskisi + fiyat VAL ustunde kapanmasi + hafif BID absorption = erken long setup, ancak gunluk satis baskisinin devami halinde absorption basarisiz olabilir.",
   "should_trade": "EVET",
-  "timestamp": "01:25:38"
+  "timestamp": "01:25:40"
 }
