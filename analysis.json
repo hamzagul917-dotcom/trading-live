@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65794
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64365,
-  "tp1": 64420,
-  "tp2": 64500,
-  "stop": 64320,
-  "absorption": "Son 5 barda pozitif delta akumulasyonu (delta_sum_5bars: +132) fiyat VAL uzerinde tutunurken, bid/ask rasyosu 1.29 ile alis baskisi gosteriyorum; kurumsal absorption VAL'de devam ediyor.",
-  "dom_observation": "Bid depth (84) > Ask depth (65) ile 1.29 oraninda alis baskisi dominansi, ask agirliginin olmayisi satis baskisini ekarte ediyor.",
-  "htf_alignment": "5m/15m/1h BULL uyumi guclu; 4h BEAR olmasina ragmen alt zaman dilimleri consensus BULLISH, kisa vadeli long icin yeterli.",
-  "session_bias": "buy_sell_ratio 0.55 (satis baskili gun) olmasina ragmen CVD -2.8M ile dusmesi, gunun erken saatlerindeki satis sonrasi suan alis absorpsiyonu basladigi sinyali veriyor.",
-  "reasoning": "VAL (64552) uzerinde pozitif delta akumulasyonu + bid absorption + HTF bullish uyumu + DOM alis baskisi, erken long setupini konfirme ediyor.",
+  "entry": 64367,
+  "tp1": 64300,
+  "tp2": 64240,
+  "stop": 64400,
+  "absorption": "Session boyunca güçlü satış baskısı (buy_sell_ratio: 0.55), fiyat VAL altında, kurumsal net short pozisyonu (CVD: -2.8M), mevcut bar minimal hacimle (vol:4) hareket etmiyor = ask absorption başlangıcı",
+  "dom_observation": "Bid/Ask oranı 0.76 (< 0.7 eşik yaklaşık), satış baskısı dominan, ask depth (81) bid depth'i (62) aşıyor",
+  "htf_alignment": "5m FLAT + 15m BULL ancak 4h BEAR çekişiyor; 15m/1h bullish olsa da session bearish deltası güçlü, 4h bear uyarısı önemli",
+  "session_bias": "Ağır satış hakim (6.2M sell vs 3.4M buy), buy_sell_ratio 0.55 << 0.8 eşiği, session delta -2.8M net short, fiyat VAL (64552) altında consolidasyon yapıyor",
+  "reasoning": "Kurumsal CVD güçlü bearish (-2.8M), session sell dominant, VAL altında fiyat reddediliyor, DOM ask ağır (0.76), mevcut bar absorption başlangıcı gösteriyor - erken short setup kurulmuş durumda.",
   "should_trade": "EVET",
-  "timestamp": "00:53:35"
+  "timestamp": "00:54:17"
 }
