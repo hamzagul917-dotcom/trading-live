@@ -9,14 +9,14 @@
   "order_flow_signal": "SELL",
   "confidence_score": 72,
   "entry": 64355,
-  "tp1": 64290,
-  "tp2": 64200,
+  "tp1": 64310,
+  "tp2": 64256,
   "stop": 64380,
-  "absorption": "Gunluk CVD -2.8M ile ciddi satis baskisi var, fiyat VAL (64552) altinda, ask volumu bid volumunu basmaya basladi (ask absorption sinyali)",
-  "dom_observation": "Bid/ask ratio 1.34 alis baskili gozukse de, session butununde buy_sell_ratio 0.55 ile ciddi satis dominasyonu, ask depth azaliyor (satis gucluyor)",
-  "htf_alignment": "5m BEAR + 4h BEAR uyumu var (2/3), ancak 15m ve 1h BULL muhalefet ediyor - confidence orta seviye",
-  "session_bias": "Buy/sell ratio 0.55 + session delta -2.8M = Gunun tamaminda satis baskisi, satis hacmi alis hacminin 1.83x katı",
-  "reasoning": "Kural 2 (CVD divergence) + Kural 6 (session delta <0.8) + fiyat VAL altinda durmakta, negatif kurumsal baski VAL seviyesine dokulmus, 5m+4h BEAR alignment SHORT sinyalini onayliyor.",
+  "absorption": "Mevcut bar negatif delta (-3) ile kapanırken fiyat VAL altında konumlanmıştır; son 10 bardaki yapı (bar 9-10'da 86/66 pozitif delta sonrası VAL kırılmış) satış baskısını göstermektedir.",
+  "dom_observation": "DOM bid/ask ratio 1.07 ile nötr ancak session buy_sell_ratio 0.55 (ağır satış) kurumsal satış baskısını teyit etmektedir.",
+  "htf_alignment": "5m BEAR + 4h BEAR = uyumlu, 15m/1h BULL uyumu azaltsa da macro satış sinyali açık.",
+  "session_bias": "Session delta -2,831,154 ve buy_sell_ratio 0.55 güçlü satış baskısı göstermektedir; fiyat VAL altında acceptance yapmıştır.",
+  "reasoning": "CVD divergence aktif, session ağır satış baskılı, fiyat VAL kırılmış, HTF 5m+4h BEAR uyumlu = erken SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:55:39"
+  "timestamp": "00:56:07"
 }
