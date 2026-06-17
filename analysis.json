@@ -9,14 +9,14 @@
   "order_flow_signal": "BUY",
   "confidence_score": 72,
   "entry": 64463,
-  "tp1": 64552,
-  "tp2": 64620,
-  "stop": 64430,
-  "absorption": "VAL seviyesi (64552) yakininda BID absorption tespit edildi - 5 bardaki net pozitif delta (57) + ask_vol dominansi (35 vs 7 bid) guclu alis baskisini gosterir. Fiyat VAL ustu kabul alaninda konumlanmis.",
-  "dom_observation": "BID/ASK ratio 1.49 - guclü alis baskisi, bid derinligi (76) ask derinliginden (51) onemli oranda yuksek, kurumsal buyerlar emri yutuyorlar.",
-  "htf_alignment": "Mukemmel HTF uyumu: 5m/15m/1h/4h tum timeframeler BULLISH, net long sinyali icin optimal kosullar saglanmis.",
-  "session_bias": "Buy/sell ratio 0.57 (düşük görünüyor) ancak bu gun basina ait veri; mevcut 5 bar delta_sum (+57) ve son 10 bardaki trend analizi son saatlerde alis dominanligini onaylıyor - kurumsal buyerlar pozisyon almaya basladı.",
-  "reasoning": "Güçlü VAL absorption (bid agir order flow + fiyat dusmuyor), pozitif delta momentum (son 5 bar: +57), tum HTF bullish, DOM 1.49 bid agir - Axia LONG setup tamamlandı.",
+  "tp1": 64520,
+  "tp2": 64600,
+  "stop": 64420,
+  "absorption": "Son 5 bardaki delta toplami 60 (pozitif), current bar delta 31 pozitif, possible_absorption=true: Kurumsal aliş baskısı fiyat seviyelerde yutuluyor, VAL (64552) üstünde tutunuş gözleniyor",
+  "dom_observation": "Bid/ask ratio 0.91 (hafif satis baskisi) ancak mevcut bar ask_vol:39 > bid_vol:8, net alis hakimiyeti",
+  "htf_alignment": "5m/15m/1h/4h tümü BULL - maksimum HTF uyum saglanmis",
+  "session_bias": "Session delta -2776134 negatif (gün boyunca satis baskisi) ancak buy_sell_ratio 0.57 gösteriyor; ancak son barlar ve delta_sum_5bars +60 pozitif yönde momentum oluşturmaya başladı",
+  "reasoning": "VAL seviyesinde (64552) Bid absorption + pozitif delta momentum (60 in 5bars) + tüm HTF BULLISH + kurumsal likidite tutuşu klasik Axia long setupi oluşturuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:29:39"
+  "timestamp": "01:29:51"
 }
