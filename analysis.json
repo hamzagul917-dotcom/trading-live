@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64438,
+  "entry": 64469,
   "tp1": 64552,
   "tp2": 64650,
   "stop": 64400,
-  "absorption": "Mevcut bar ve son 2 bar birlikte BID absorption gosteriyor: dusuk volume (6-43) ile negatif delta (-4, -12) ancak fiyat VAL seviyesinde support bulmuştur. Emir defteri 1.57 bid/ask ratio ile alis baskisini isaret etmektedir.",
-  "dom_observation": "DOM 1.57 bid_ask_ratio ile net alis baskisi (bid_depth 74 vs ask_depth 47) gostermektedir. Bu absorption'ı desteklemektedir.",
-  "htf_alignment": "5m, 15m, 1h ve 4h tamamı BULL - maksimum HTF uyum saglanmistir.",
-  "session_bias": "Session deltası -2.744M (bearish) ancak buy_sell_ratio 0.58 satış baskısı gösterirken, mevcut bar absorpsiyon ile ters yönde hareket edilmeye başlanmıştır. Kurumsal buyback sinyali.",
-  "reasoning": "VAL seviyesinde BID absorption (negatif delta + buy dominant emir defteri) + 4 timeframe BULL alignment + delta_sum_5bars pozitif (72) = erken long setup kurumsal desteği ile konumlanmış.",
+  "absorption": "Son 5 barda delta_sum=24 (pozitif) + current_bar delta=10 (alis baskisi); ancak CVD=-2.7M (gunluk satis baskisi) kurumsal absorbsyon gosterir - VAL seviyesinde bid accumulation var.",
+  "dom_observation": "Bid/Ask ratio=1.1 (hafif alis baskisi); bid_depth=64 > ask_depth=58; son 10 barda bar-7 ile 102 ask volume (guclu satici test) sonrasi recovery - absorption sinyali.",
+  "htf_alignment": "5m=FLAT, 15m=BULL, 1h=BULL, 4h=BULL; 3/4 timeframe bullish - HTF uyumu KUVVETLI, BUY icin yeterli.",
+  "session_bias": "buy_sell_ratio=0.58 (satis dominantligi var) fakat fiyat VAL=64552 seviyesinde bulunuyor ve HTF bullish; session delta negatifligi yok sayin risk.",
+  "reasoning": "HTF multi-timeframe bullish alignment + VAL support seviyesinde bid absorption + son 5 bar pozitif delta + DOM bid agir - klasik Axia early-stage bullish setup.",
   "should_trade": "EVET",
-  "timestamp": "01:50:19"
+  "timestamp": "01:53:38"
 }
