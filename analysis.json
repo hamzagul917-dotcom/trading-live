@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64300,
-  "tp1": 64200,
-  "tp2": 64050,
-  "stop": 64380,
-  "absorption": "Son 10 barında güçlü ASK absorption: bar 7'de delta -47 (güçlü satis) fiyat 64381'den 64225'e düşerken ardından bar 6-5'te negatif delta devam, bar 2-3'te pozitif deltalara rağmen fiyat 64304'te stabilize oldu. Kurumsal saticilar fiyatı 64550 (VAL) altına tutarak absorption gösteriyorlar.",
-  "dom_observation": "DOM bid_ask_ratio 0.87 (<1) - Ask agir, satis baskisi net dominasyon, emir defterinde ask derinliği (73) bid derinliğini (63) üstün tutuyor.",
-  "htf_alignment": "5m BULL vs 15m/4h BEAR - uyumsuzluk var ancak 1h BULL mevcut. Ancak session delta -2839793 ve buy_sell_ratio 0.55 güçlü BEARISH momentum gösterirken, HTF bullish sinyalleri zayıf kalmış.",
-  "session_bias": "Kritik: buy_sell_ratio 0.55 (<0.8) + fiyat VAL altında (64304 < 64552) = güçlü BEARISH session momentum. Sell volume (6.3M) buy volume (3.46M)'nin neredeyse 2 katı.",
-  "reasoning": "Massive sell volume absorption + negatif CVD (-2.84M) + session sell dominant (ratio 0.55) + fiyat VAL altında stabilize = kurumsal satiş baskisi net, delta_sum_5bars pozitif olsa da teknik absorpsiyon short setupı net gösteriyor.",
+  "confidence_score": "72",
+  "entry": "64242",
+  "tp1": "64150",
+  "tp2": "64050",
+  "stop": "64320",
+  "absorption": "Fiyat VAL seviyesinin (64552) altında kalırken yüksek satış baskısı (sell_volume: 6.3M) devam etmektedir, kurumsal emri yutulma göstergesi yok.",
+  "dom_observation": "DOM 1.31 bid_ask_ratio ile hafif alis baskili gözükse de, session buy_sell_ratio 0.55 ile agir satis baskisini dogrulamaktadir. Ask volüm gücü geçici.",
+  "htf_alignment": "HTF uyumsuz: 5m BEAR, 15m BEAR, 1h BULL, 4h BEAR. Fakat 4h + 5m/15m BEAR çoğunluğu SHORT cozumunu desteklemektedir.",
+  "session_bias": "Session delta -2.84M (bearish), buy_sell_ratio 0.55 ile günlük satis hakimiyeti açık. Fiyat VAL altında işlem görmekte, BEARISH momentum sürüyor.",
+  "reasoning": "CVD divergence + Session satış baskısı (0.55 ratio) + 5m/15m/4h BEAR çoğunluğu + VAL seviyesinin altında fiyat = Güçlü SHORT setup, VAL support kırılımı SHORT yönü doğruluyor.",
   "should_trade": "EVET",
-  "timestamp": "01:11:33"
+  "timestamp": "01:13:15"
 }
