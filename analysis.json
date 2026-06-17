@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64355,
+  "entry": 64336,
   "tp1": 64200,
   "tp2": 64050,
-  "stop": 64450,
-  "absorption": "ASK absorption tespit edildi: 5 bar oncesinde delta +129 (ask vol 147) fiyat yukselemedi, bugun delta pozitif ama fiyat 64355'te takili; kurumsal satis baskisi gizleniyor",
-  "dom_observation": "DOM bid/ask ratio 0.85 < 1.0 = ask agir, satis baskisi baslamis, liquidity ask tarafinda yogun",
-  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR = 3/4 BEARISH; ust timeframe uyum tarafli (3 BEAR cikmiş)",
-  "session_bias": "Session delta -2831156 (kuvvetli NEGATIF), buy_sell_ratio 0.55 (satis dominant %64), VAL 64552 < current 64355 = BEARISH acceptance tespit",
-  "reasoning": "CVD divergence + strong negative session delta + ask absorption pattern + DOM ask heavy + HTF majority bearish = kurumsal short setup, fiyat destekte rejection gosterip short trigger.",
+  "stop": 64400,
+  "absorption": "Bar 4-5 spike'ında 129 delta ile ask agırlıklı (147 ask) yukarı itilme fakat fiyat tutmadı, devamında negatif delta ve satış baskısı arttı - kurumsal satıcı emri yuttuktan sonra price action aşağı döndü.",
+  "dom_observation": "Bid/Ask oranı 0.63 (<0.7) - güçlü satış baskısı, ask depth 106 vs bid depth 67 - likidite tarafında satıcılar ağırlıklı.",
+  "htf_alignment": "5m/15m/4h BEAR (3/3) - kuvvetli bearish, 1h BULL uyumsuzluğu confidence'ı 15 puan düşürdü.",
+  "session_bias": "Buy/Sell Ratio 0.55 (<0.8) + Session Delta -2.8M = güçlü satış dominant gün, CVD divergence aktif = kurumsal satış momentum.",
+  "reasoning": "VAL altında fiyat, satış dominant session, ASK absorption + CVD divergence + DOM ask ağırlıklı + HTF 5m/15m/4h BEAR = net short setup, bar 4-5 spike'ı reddedildi.",
   "should_trade": "EVET",
-  "timestamp": "00:56:50"
+  "timestamp": "00:57:02"
 }
