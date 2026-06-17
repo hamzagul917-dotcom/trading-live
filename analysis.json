@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64443,
+  "entry": 64437,
   "tp1": 64552,
   "tp2": 64650,
   "stop": 64367,
-  "absorption": "Son 10 bardaki bar-8'de (delta: 71, vol: 98, ask: 85) buyuk ask absorption gorulmektedir; mevcut bar (delta: 13) bu bullish momentumu devam ettirmektedir.",
-  "dom_observation": "BID/ASK ratio 3.64 (>1.5) - guclü alis baskisi, emir defterinde buyuler kontrolde.",
-  "htf_alignment": "5m BULL, 1h BULL, 4h BULL (3/4 bullish) - HTF uyumu cok guclü; 15m BEAR tek zayif nokta ama uzun vadeli uyum dominan.",
-  "session_bias": "Buy/Sell ratio 0.57 (satış dominanslı) ancak session delta -2.7M negatif olmasına rağmen, fiyat VAL (64552) üzerinde sabit kalıp yükselmektedir - kurumsal absorpsiyon yapılıyor.",
-  "reasoning": "Negatif session delta'ya rağmen fiyat VAL üstünde acceptance göstermesi, güçlü bid depth (113), son barların pozitif delta momentum'u ve HTF multi-timeframe bullish uyumu, Axia kuralı 6'ya uygun bir erken long setup'ı işaret etmektedir.",
+  "absorption": "Mevcut bar'da 81 delta ile positive absorption, ask volume (97) bid volume'u (16) belirgin şekilde bastırıyor, fiyat VAL seviyesinin üstünde yapılanma gösteriyor.",
+  "dom_observation": "Bid/Ask ratio 2.43 (>1.5) - güçlü alış baskısı, emir defterinde bid tarafında 72 lot vs ask tarafında 30 lot, açık alış dominasyonu.",
+  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BULL - 3/4 timeframe bullish, HTF uyumu kuvvetli.",
+  "session_bias": "Buy/Sell ratio 0.58 ise session satış dominant (bearish gözükse de), ancak mevcut bar'ın delta_sum_5bars=79 pozitif, son 5 barın net deltası alış bastırılı, session deltası kurumsal satışla maskeleniyor.",
+  "reasoning": "Mevcut bar'da 81 positive delta + bid absorption (ASK/BID ratio 6.06) + DOM 2.43 alış ağır + VAL üstünde fiyat + 3/4 HTF bullish = kurumsal alış gücü net, früh long entry fırsat.",
   "should_trade": "EVET",
-  "timestamp": "01:47:31"
+  "timestamp": "01:47:41"
 }
