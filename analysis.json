@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64265",
-  "tp1": "64200",
-  "tp2": "64100",
-  "stop": "64320",
-  "absorption": "Ask volume absorption gozlendi: positive delta (+10) mevcut bar'da low'dan high'a hareket etmedigi, fiyat dar range'de kaldiginda - kurumsal saticilar emri yutuyor (ask depth 74 vs bid depth 64). Last 10 bars'ta delta_sum -47,-11,-12 baskisi ile satis baskisi dominan.",
-  "dom_observation": "bid_ask_ratio 0.87 (<1.0) - ask agir, satis baskisi artiyor. Ask depth (74) bid depth'i (64) ustunde.",
-  "htf_alignment": "Zayif - 5m BEAR, 15m BEAR, 1h BULL, 4h BEAR. 2/3 BEAR ama 1h counter-trend, confidence dusuk.",
-  "session_bias": "Gunluk buy_sell_ratio 0.55 (<0.8) + session delta -2841652 + sell_volume (6.3M) > buy_volume (3.4M). Guclı bearish session momentum.",
-  "reasoning": "Session sell dominansı (0.55 ratio) + possible absorption true + ask depth yuksek + VAH 65794'ten uzak kalma + last 10 bars'ta net negatif delta baskisi = Kurumsal satis baskisi absorption pattern'i gozlendi, VAL sevisine donus beklenmekte.",
+  "confidence_score": 72,
+  "entry": 64295,
+  "tp1": 64240,
+  "tp2": 64180,
+  "stop": 64330,
+  "absorption": "Mevcut bar ve son 5 bar icinde -17 toplam delta ile guclu satis baskisi gözlenmektedir; possible_absorption=true + fiyat 64295'te kilitli kalmasi = kurumsal satis emrinin yutuluyor oldugu ve aşagiya donus hazarliginin isareti.",
+  "dom_observation": "bid_ask_ratio=0.89 (<1.0) = ask agir, satis baskisi artiyor; ask_depth(86) > bid_depth(76) ile satis emirleri ustu basmaktadir.",
+  "htf_alignment": "5m/15m/1h BULL oldugu halde 4h BEAR; kisa vadede tersine donus sinyali guclu cünkü daha uzun timeframe'de yonelim BEARISH'tir.",
+  "session_bias": "buy_sell_ratio=0.55 ve session delta=-2841205 ile gün boyunca satis baskisi bariz; sell_volume(6312945) >> buy_volume(3471740) ile kurumsal net satis mevcuttur.",
+  "reasoning": "CVD divergence + possible absorption + session sell dominant + DOM ask agir + 4h BEAR bias kombinasyonu ile fiyat 64552 VAL altina kırıldığında strong short sinyalidir.",
   "should_trade": "EVET",
-  "timestamp": "01:14:55"
+  "timestamp": "01:15:28"
 }
