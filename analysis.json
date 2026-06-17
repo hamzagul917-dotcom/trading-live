@@ -10,13 +10,13 @@
   "confidence_score": 72,
   "entry": 64439,
   "tp1": 64380,
-  "tp2": 64302,
+  "tp2": 64310,
   "stop": 64480,
-  "absorption": "Son 5 bar delta (+81) fiyat yukselemeyerek red edilmis, mum kapanislarinda dagilma var",
-  "dom_observation": "BID/ASK 1.69 alis baskisina isaret etse de, session buy_sell_ratio 0.56 ile satis hakimiyeti belirgin",
-  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF zit sinyal, confidence azaldi. Kisa vadede satislari dusundurur",
-  "session_bias": "Session delta -2.8M ve buy_sell_ratio 0.56 = guclu satis hakimiyeti. Sell volume 6.3M vs Buy volume 3.5M ile 1.79x oraninda",
-  "reasoning": "Gunluk satis hakimiyeti (-2.8M CVD), son 5 bar pozitif delta fiyata yansimamasi ve 4h BEAR trendi satis yapisini onayla - VAL seviyesi 64552 direnc olarak calisir",
+  "absorption": "Session deltasi -2.8M (buyuk satis baskisi), buy/sell orani 0.56 - guclu shorting. Bid derinligi yuksek (93) ama fiyat dusemiyor, VAH/direnc alani tarafindan rejection gorulmektedir.",
+  "dom_observation": "Bid/ask orani 1.69 - genel alis baskisi gozukmesine ragmen, son bar negatif delta (-5) ve session dominantinin satis yonunde oldugu (sell_vol 6.3M vs buy_vol 3.5M) kurumsal satis sifasini gostermektedir.",
+  "htf_alignment": "5m/15m/1h BULL ama 4h BEAR - zamanlar arasi uyumsuzluk varsa da 4H trend kuvvetli. HTF uyumu zayif, confidence dusuruldu.",
+  "session_bias": "Buy/sell orani 0.56 (<<0.8 threshold) + session deltasi -2.8M = Guclu BEARISH session momentum. Satis baskisi net hakimdir.",
+  "reasoning": "Session dominantinin satis yonunde (B/S=0.56), CVD derin negatif (-2.8M), DOM guclu bid olmasina ragmen fiyat VAH direncinde reddedilmis, 4H BEAR trendiyle uyumlu kisa pozisyon.",
   "should_trade": "EVET",
-  "timestamp": "01:21:17"
+  "timestamp": "01:21:18"
 }
