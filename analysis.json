@@ -12,11 +12,11 @@
   "tp1": 64100,
   "tp2": 63950,
   "stop": 64320,
-  "absorption": "Negatif CVD (-2.8M) + fiyat VAL altında kalmış, session sell dominant (0.55 buy/sell), son barlar bid agır ama fiyat ilerleyemiyor - Bearish rejection.",
-  "dom_observation": "DOM bid/ask ratio 1.21 (bid agır) fakat çok yüksek değil, ask depth 65 ile satis baskısı ciddi degil ama session sell dominansi net.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/4 bearish, 1h BULL uyumsuzluk var ancak çoğunluk bearish, SHORT için yeterli alignment.",
-  "session_bias": "Session delta -2.84M çok ağır bearish, buy_sell_ratio 0.55 (satis 2x ağır), kurumsal satış baskısı dominan.",
-  "reasoning": "CVD divergence true + session delta ağır negatif + buy_sell_ratio 0.55 + HTF 3/4 bearish + fiyat VAL altında absorption yaptığı halde down trend devam ediyor.",
+  "absorption": "Session genelinde -2.843M CVD ile agir satis baskisi, buy_sell_ratio 0.55 (<0.8) bearish momentum gosteriyor, VAH ustu fiyat rejection yaparak rejection absorption olusuyor.",
+  "dom_observation": "bid_ask_ratio 0.62 (<0.7) - ask depth (78) bid depth (48)den buyuk, satis baskisi dominantligini kanitliyor.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR - 3 timeframe bearish, 1h BULL ise minority - HTF bearish alignment kuvvetli.",
+  "session_bias": "Gunluk delta -2.843M ve buy_sell_ratio 0.55, sell_volume (6.3M) buy_volume (3.4M)yi 1.8x astiyor - kurumsal satis dominansi.",
+  "reasoning": "CVD divergence true + session sell_dominant + DOM ask heavy + HTF 3/4 bearish + fiyat VAH test etmeden rejection = net SELL setup.",
   "should_trade": "EVET",
-  "timestamp": "01:13:28"
+  "timestamp": "01:13:59"
 }
