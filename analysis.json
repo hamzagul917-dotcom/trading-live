@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "65750",
-    "VAL": "65542",
-    "VAH": "66363"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "58",
-  "entry": "65730",
-  "tp1": "65650",
-  "tp2": "65542",
-  "stop": "65800",
-  "absorption": "Son 10 barda fiyat 65720-65820 arasinda sikisti, yukari baskida (bar 5-8) pozitif delta var ancak fiyat yukari kabul goremiyor; mevcut barda ask_vol=3 vs bid_vol=18 ile fiyat sabit kaliyor, ask tarafinda pasif absorption sinyali mevcut",
-  "dom_observation": "bid_ask_ratio=0.90 ask agirlikli, ask_depth 63 vs bid_depth 57 ile satis tarafi hafif ustun, zayif satis baskisi devam ediyor",
-  "htf_alignment": "5m BEAR + 4h BEAR uyumlu BEARISH, ancak 15m ve 1h BULL karsi yonde; sadece 2/4 HTF uyumu var, 5m+4h bear sinyali orta duzey guvenirliligi destekliyor, 15m+1h bull uyumsuzlugu confidence dusurdu",
-  "session_bias": "CVD=-2435 guclu kumulatif satis baskisi, buy_sell_ratio=0.96 esit dengeye yakin ancak sell_volume>buy_volume (63319 vs 60884), session hafif bearish egilimli",
-  "reasoning": "Fiyat vPOC=65750 altinda seyrederken CVD=-2435 ile sert kumulatif satis baskisi mevcut, son 5 bar delta=-63 negatif, ask absorption isaretleriyle fiyat yukari gecelemiyor ve 4h+5m HTF bear uyumu SHORT senaryosunu destekliyor ancak 15m+1h bull biasin yarattigi HTF uyumsuzlugu nedeniyle confidence orta seviyede tutuldu",
+  "confidence_score": 72,
+  "entry": 64377,
+  "tp1": 64256,
+  "tp2": 64232,
+  "stop": 64400,
+  "absorption": "Barlar 7-8'de 138 delta negatif ASK absorption gozlendi (ask:24, bid:162) - kurumsal satis baskisi.",
+  "dom_observation": "bid_ask_ratio=0.41 (<0.7) - ask depth 188 vs bid depth 77, guclу satis baskisi. DOM satin almaya kapali.",
+  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BEAR - Karisiк signal. Fakat mevcut kucuk timeframe'de negatif delta ve ask agir DOM donusu alt timeframe BEAR tarafinin yaninda.",
+  "session_bias": "Gunluk buy_sell_ratio=0.54 (<0.8), session delta -2.8M guclу satis hakimiyeti. VAL (64552) alti hareket etmemiş ancak push potansiyel. Satis dominantligi devam.",
+  "reasoning": "Negatif CVD (-2.8M), ask absorption (bar 7-8), DOM satis baskisi (ratio 0.41) ve session satis hakimiyeti (0.54 ratio) ile VAL yakininda satis setup olusmus.",
   "should_trade": "EVET",
-  "timestamp": "22:26:23"
+  "timestamp": "00:50:49"
 }
