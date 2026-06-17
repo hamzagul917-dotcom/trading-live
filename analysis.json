@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64484,
-  "tp1": 64552,
-  "tp2": 64650,
-  "stop": 64420,
-  "absorption": "Mevcut bar minimal volume (2) ile fiyat 64484'te sabitleşmiş, ask/bid ratio (1:2) bid dominantlığı gösteriyor - kurumsal alis absorption signali",
-  "dom_observation": "DOM ratio 0.87 (bid 82 vs ask 95) hafif ask baskılı görünse de, son 10 bardaki bid dominantlığı (ortalama bid/ask 37/47) ve delta_sum_5bars +199 pozitif net alis baskisı işaret ediyor",
-  "htf_alignment": "5m BULL + 15m BULL + 1h BULL (3/3 uyum), 4h BEAR olsa da kısa vadeli trend net BULLISH - yüksek uyum",
-  "session_bias": "CVD -2.77M negative olsa da, session buy/sell ratio 0.57 ve sell volume baskısı gözükmesine rağmen, last 5 bars delta +199 tersine dönüş gücü gösteriyor; VAL (64552) üzerindeki fiyat positioning bullish acceptance",
-  "reasoning": "VAL üzerinde fiyat konumu + bid absorption + delta_sum_5bars pozitif tersine dönüş + 3/3 HTF bullish uyum = net long setup; possible_absorption=true ve minimal candle volume = kurumsal emri yutma sinyali",
+  "entry": 64433,
+  "tp1": 64350,
+  "tp2": 64280,
+  "stop": 64480,
+  "absorption": "Mevcut bar negatif delta (-17) ile ancak fiyat VAL altinda stabilize oldu; 4h BEAR trendiyle 5m/15m/1h BULL uyumsuzlugu + gun boyu doviz satisi baskisi (delta -2.7M, buy_sell_ratio 0.57) kurumsal satisi isaret ediyor.",
+  "dom_observation": "DOM bid_ask_ratio 1.77 (alis baskisi gozukuyor ancak) ask_vol sistemik satis aglirligini dogruluyor; session genelinde sell volume 6.3M vs buy 3.6M net bearish baskinlik.",
+  "htf_alignment": "4h BEAR biased ancak 5m/15m/1h BULL - uyumsuzluk ancak 4h yapisal yuksek timeframe kontrolu HTF2 SHORT lehine calisir.",
+  "session_bias": "buy_sell_ratio 0.57 (<0.8 threshold) gunluk agir doviz satisi, fiyat VAL 64552 altinda = BEARISH momentum kurumsal yapida net.",
+  "reasoning": "Gunluk doviz satisi baskisi (CVD -2.7M) + HTF 4h BEAR + VAL kac kirilimi + ask_depth yukarisi = kirilim yonune giris SHORT sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:27:16"
+  "timestamp": "01:27:57"
 }
