@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64265,
-  "tp1": 64150,
-  "tp2": 64050,
-  "stop": 64350,
-  "absorption": "Gunluk -2839846 CVD ve session satış dominansı (0.55 buy/sell ratio) fiyatın VAL altında seyrederken guclu satış baskısı gosteriyor; mevcut bar negatif delta (-41) ile likidite emme hareketi sergiliyor.",
-  "dom_observation": "BID/ASK ratio 1.89 (yuksek) alis baskisini gostermesine ragmen, ask_depth 52 ile ask_vol 9, session sell_volume 6244770'in karşı koyamadığını ispatliyor - kurumsal satış dominantı.",
-  "htf_alignment": "5m BEAR + 4h BEAR = 2/3 time frame bearish hizalanmasi; 15m ve 1h BULL ancak gunluk satis baskinligi onların sinyal gucunu eriterek dusuk confidence seviyesinde tutuyor.",
-  "session_bias": "Gunluk delta -2839846, buy_sell_ratio 0.55, satış hacmi 6244770 vs alis 3404923 = guclu bearish session momentum ve rejection yapisi.",
-  "reasoning": "Fiyat VAL (64552) altında, gunluk CVD sert negatif, satış hacmi dominantken 5m+4h bearish uyumu yeniden test pozisyonunda SHORT setup saglamaktadır.",
+  "entry": 64306,
+  "tp1": 64200,
+  "tp2": 64100,
+  "stop": 64390,
+  "absorption": "Son 10 bardaki pozitif delta (bar-9: +129 delta, 164 vol, ask_vol 147) fiyat yukselemeye yardimci olmamis; ciftlestirilmis kurumsal satis baskisi gözlenmektedir.",
+  "dom_observation": "bid_ask_ratio 0.72 (<0.7 esigi yakininda) = ask agir, satis baskisi guclu; bid_depth 57 << ask_depth 80 = satis dominasyonu",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR (3/3 bearish) = güçlü HTF sell alignment; 1h BULL minor çelişki ancak azınlık",
+  "session_bias": "buy_sell_ratio 0.55 (<<0.8 esigi) + session delta -2840486 = ciddi gunluk satis baskisi; fiyat VAL (64552) altinda pozisyon almiyor",
+  "reasoning": "Mevcut 64306 seviyesinde ask absorpsiyonu (delta pozitif ama fiyat ilerleyemedi), session gunluk satis dominasyonu, dom ask agir baski ve 3/3 HTF bearish uyum; Axia Kural-6 session delta bearish momentum + Kural-4 DOM satis baskisi net SHORT sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "01:00:01"
+  "timestamp": "01:01:13"
 }
