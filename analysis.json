@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64382,
-  "tp1": 64297,
-  "tp2": 64258,
-  "stop": 64450,
-  "absorption": "Bar 6'da -62 delta ile massive bid absorption görülüyor (ask:10, bid:71), fiyat VAL altında rejection gösteriyor.",
-  "dom_observation": "DOM ratio 0.97 (1.0'a yakın), ancak session buy_sell_ratio 0.55 ile güçlü satis baskisi dominatif, ask depth (65) > bid depth (63) dengesizliği.",
-  "htf_alignment": "5m+15m+1h BULLISH olmasına rağmen 4h BEAR hakim, timeframe uyumsuzluğu mevcut, ancak intraday short setup'ı destekliyor.",
-  "session_bias": "Session delta -2835714 ile derinlemesine bearish, buy_sell_ratio 0.55 (satis agir), session sell volume (6.2M) buy volume'den (3.4M) %83 fazla.",
-  "reasoning": "Cumulative -2.8M CVD + session dominan sell pressure + VAL altında fiyat rejection + son 5 bar delta sum pozitif olsa da bar 6 massive bid absorption büyük satış yoğunlaşmasını gösteriyor.",
+  "confidence_score": "72",
+  "entry": "64378",
+  "tp1": "64297",
+  "tp2": "64200",
+  "stop": "64400",
+  "absorption": "Son 5 bardaki delta_sum=44 (pozitif) ancak CVD=-2835646 (guclu negatif), fiyat VAL (64552) altinda; kurumsal para satista baskili, yukariya carpmalar fail.",
+  "dom_observation": "bid_ask_ratio=1.22 (az alis baskisi), ask_depth=61 yakinda; session buy_sell_ratio=0.55 (<0.8) guclu satis baskisi; DOM satisla uyumlu.",
+  "htf_alignment": "5m/15m/1h BULL ama 4h BEAR; ust trend zayif, lower timeframe bullish capraz ancak session delta gunluk satista baskili.",
+  "session_bias": "Gunluk delta=-2835646 (cokkati satis), buy_sell_ratio=0.55 (<0.8) = guclu bearish momentum; fiyat VAL altinda = acceptance DOWN.",
+  "reasoning": "Guclu gunluk satis baskisi (CVD -2.8M, ratio 0.55), fiyat VAL altinda rejection, 4h BEAR trend, DOM satis agir; yukariya delta-spike sonrasi satis absorpsiyonu = SELL setup.",
   "should_trade": "EVET",
-  "timestamp": "01:04:41"
+  "timestamp": "01:05:04"
 }
