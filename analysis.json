@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64388,
+  "entry": 64416,
   "tp1": 64295,
   "tp2": 64241,
-  "stop": 64429,
-  "absorption": "Gunluk CVD -2.82M (guclu satis baskisi) + session buy_sell_ratio 0.55 (satis dominas) + fiyat VAL altinda hareket ediyor = BEARISH absorption",
-  "dom_observation": "DOM bid_ask_ratio 1.21 (hafif alis agir) ama session seviyesinde satis baskisi baskin; mevcut barda bid_vol(37) > ask_vol(35) minimal fark",
-  "htf_alignment": "5m/15m/1h BULL ama 4h BEAR - HTF uyumsuzluk var, 4h BEAR buyuk trend, kisa zaman dilimi rallilerine karsi kontra trend pozisyon",
-  "session_bias": "Buy_sell_ratio 0.55 ile satis hacmi 6.3M vs alis 3.5M - guclu satis baskisi gunun genelinde devam ediyor, fiyat VAL (64552) altinda = BEARISH momentum",
-  "reasoning": "Gunluk satis baskisi (CVD -2.8M), session buy_sell_ratio 0.55, fiyat VAL altında ve 4h BEAR trendiyle uyumlu; son barlar fiyat 64388'de yatırılırken negative delta dominate ediyor - konsolidasyon sonrası satis kirilimı beklentisi.",
+  "stop": 64450,
+  "absorption": "Mevcut bar minimal volume ile ask absorption gosteriyor (7 vol, 6 delta), fiyat 64416 seviyesinde tutunamiyarak rejection sinyali veriyor.",
+  "dom_observation": "DOM oranı 0.68 (0.7 alti) - satis baskisi kuvvetli, ask derinligi (83) bid derinliginden (57) onemli ölçude yüksek.",
+  "htf_alignment": "5m/15m/1h BULLISH ancak 4h BEARISH - HTF uyum zayıf, short icin suboptimal ama 4h direnci devredişi onemli.",
+  "session_bias": "buy_sell_ratio 0.55 (1.0 alti) - gunluk satis baskisi dominant, cumulative delta -2.8M buyuk negatif akisı gosteriyor.",
+  "reasoning": "Fiyat VAL (64552) altında işlem görüyor, session sell dominant, DOM ask agır, son 5 bar delta pozitif (94) ancak CVD buyuk negatif (-2.8M) divergence yapıyor - erken short sinyali, 4h bear trendi ile uyumlu.",
   "should_trade": "EVET",
-  "timestamp": "01:19:01"
+  "timestamp": "01:19:16"
 }
