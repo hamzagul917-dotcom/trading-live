@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64297",
-  "tp1": "64200",
-  "tp2": "64100",
-  "stop": "64380",
-  "absorption": "Massive session sell volume (6.25M vs 3.41M buy) ile gunluk CVD -2.84M negatif, fiyat VAL (64552) altinda rejection goruntulemeleri ve ask agir DOM, kurumsal satis baskisinin gucunu dogrular.",
-  "dom_observation": "Bid/Ask ratio 1.01 dengeli olsa da, gunluk buy/sell ratio 0.55 ile ask tarafinin hakimiyeti net - satis baskisi artiyorsa.",
-  "htf_alignment": "4h BEAR + 1h BULL cakismasi var ama son 10 barda strong sell delta (-62 delta bar3 + 129 ask volume bar10 mukabele uretmesine ragmen fiyat yukselmemesi) kurumsal satis agirligini isaret ediyor.",
-  "session_bias": "Buy/sell ratio 0.55 ve session delta -2.84M ile gunun basi iyice satis kontrolunde; fiyat VAL altinda tutunuyor ve CVD divergence true oldugu icin kirilim riski yuksek.",
-  "reasoning": "CVD divergence + negative session delta (-2.84M) + ask volume hakimiyeti (147 ask vs 17 bid son barda) + fiyat VAL altinda rejection = kurumsal satis emri agirliginin varligi, kirilim alaninda SHORT setup.",
+  "confidence_score": 72,
+  "entry": 64340,
+  "tp1": 64297,
+  "tp2": 64258,
+  "stop": 64372,
+  "absorption": "Mevcut bar'da ask absorption tespit edildi (volume 6, tamamen ask=6, bid=0). Fiyat 64340 seviyesinde direnc golunuyor, delta pozitif ama fiyat ilerleyemiyor. Guclu satis baskisi altinda kurumsal emri yutulmus durumda.",
+  "dom_observation": "DOM dengeli (bid_ask_ratio=1.01) ancak session seviyesinde buy_sell_ratio=0.55 ile satis egemenliği dominan. Session delta -2,837,916 ile buyuk satis baskisi, ask agir yonelmesi baslangici.",
+  "htf_alignment": "HTF uyumsuz - 5m BULL, 15m BEAR, 1h BULL, 4h BEAR. Kisa vadede karisik sinyal, ancak 4h BEAR desteği ve session satis egemenliği SHORT sinyalini onayliyor.",
+  "session_bias": "buy_sell_ratio 0.55 (<0.8) + sell_volume dominant (6.2M vs 3.4M buy) = BEARISH momentum. Fiyat VAH (65794) altında kalarak Rejection olusturuyor.",
+  "reasoning": "CVD divergence + possible absorption + session sell egemenliği + VAH rejection + 5 bar sum delta negatif (-32) = Mevcut yukselis absorpsiyon sonrasi tersine donus setup, 64297 VAL test icin SELL sinyal.",
   "should_trade": "EVET",
-  "timestamp": "01:01:56"
+  "timestamp": "01:02:32"
 }
