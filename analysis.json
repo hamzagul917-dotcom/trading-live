@@ -10,13 +10,13 @@
   "confidence_score": "72",
   "entry": "64297",
   "tp1": "64200",
-  "tp2": "64050",
-  "stop": "64400",
-  "absorption": "Son bar (bar_index=10) delta +129 ama fiyat 64371'de takili kaldi, ask absorption gorulmus",
-  "dom_observation": "Bid/Ask ratio 1.45 (alis baskisi gosteriyorsa da) ask hacim artiyor, 5m timeframeda satis baskisi basliyor",
-  "htf_alignment": "5m BEAR + 4h BEAR = 2/3 bearish uyum, 15m/1h bullish karsi baskisi var",
-  "session_bias": "Buy/Sell ratio 0.55 = BASKIIN SATIS BASKISI, CVD -2.8M derininde negatif, gunluk sell dominance net",
-  "reasoning": "Massive session sell volume (-2.8M CVD) + negative 5bar delta (-28) + ask absorption at resistance + session ratio 0.55 = net bearish order flow rejection",
+  "tp2": "64100",
+  "stop": "64380",
+  "absorption": "Massive session sell volume (6.25M vs 3.41M buy) ile gunluk CVD -2.84M negatif, fiyat VAL (64552) altinda rejection goruntulemeleri ve ask agir DOM, kurumsal satis baskisinin gucunu dogrular.",
+  "dom_observation": "Bid/Ask ratio 1.01 dengeli olsa da, gunluk buy/sell ratio 0.55 ile ask tarafinin hakimiyeti net - satis baskisi artiyorsa.",
+  "htf_alignment": "4h BEAR + 1h BULL cakismasi var ama son 10 barda strong sell delta (-62 delta bar3 + 129 ask volume bar10 mukabele uretmesine ragmen fiyat yukselmemesi) kurumsal satis agirligini isaret ediyor.",
+  "session_bias": "Buy/sell ratio 0.55 ve session delta -2.84M ile gunun basi iyice satis kontrolunde; fiyat VAL altinda tutunuyor ve CVD divergence true oldugu icin kirilim riski yuksek.",
+  "reasoning": "CVD divergence + negative session delta (-2.84M) + ask volume hakimiyeti (147 ask vs 17 bid son barda) + fiyat VAL altinda rejection = kurumsal satis emri agirliginin varligi, kirilim alaninda SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "01:01:48"
+  "timestamp": "01:01:56"
 }
