@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64413,
-  "tp1": 64380,
-  "tp2": 64350,
-  "stop": 64435,
-  "absorption": "Mevcut bar minimum delta (+3) ile cok az hacim (5), fiyat VAL alti (64413 < 64552) - Seller absorption gostergesi",
-  "dom_observation": "BID/ASK ratio 1.47 alis baskisi gosterse de, son 5 bardaki delta toplamı +53 ile pozitif olmakla beraber, session delta -2772330 ile gunluk gucu satis tarafinda, ask depth 50 vs bid 74 dengesizligi fiyat harekete direnc gosteriyor",
-  "htf_alignment": "5m/15m BEAR, 1h/4h BULL - zaman dilimi cakismasi var, kisa vadede ayibaci sinyal gucsuz, ancak 1h+ bullish iken 5m/15m sell sinyali tip riskli short",
-  "session_bias": "Buy/sell ratio 0.57 ile gunun %63 satis hacmi domina ediyor, CVD -2.7M ile kurumsal satis baskisi net, fiyat VAL altinda kalmasi BEARISH momentum onayliyor",
-  "reasoning": "CVD divergence (true) + session sell baskisi (%63) + fiyat VAL alti + 5m/15m BEAR bias + minimal delta ile fiyat direnci = kisa vadeli satis setup ama HTF bull uyumsuzlugu confidence dusur",
+  "entry": 64414,
+  "tp1": 64350,
+  "tp2": 64290,
+  "stop": 64450,
+  "absorption": "Session satis baskisi dominant (buy_sell_ratio 0.57), CVD -2.77M negatif, ask depth (62) bid depth'ten (52) fazla, mevcut bar delta 5 pozitif oldugu halde fiyat VAL seviyesi alinda yanal hareket ediyor = gizli satis emri absorption'u",
+  "dom_observation": "bid_ask_ratio 0.84 (<1.0) = satis baskisi, ask derinligi daha fazla, satislar tarafinda guclu emir defteri varligi",
+  "htf_alignment": "5m-15m BEAR (kisa vadede satis dominant), 1h-4h BULL (uzun vade karsilikli), kisa vade senozu hakim konumdadir",
+  "session_bias": "buy_sell_ratio 0.57 + toplam session delta -2.77M = gun boyunca kurumsal satis agirliginda, satis hacmi (6.45M) alis hacminin (3.68M) 1.75x katı",
+  "reasoning": "Negatif CVD (-2.77M) + satis dominansi (0.57 ratio) + ask depth agirliği + absorption pattern (delta pozitif ama fiyat VAL altinda buluşuyor) + kısa vade BEAR bias, kurumsal satış emrinin kademeli absorpsiyonunu ve düşüş ivmesini gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:43:34"
+  "timestamp": "01:44:43"
 }
