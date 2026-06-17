@@ -12,11 +12,11 @@
   "tp1": 64380,
   "tp2": 64320,
   "stop": 64460,
-  "absorption": "Hafif absorption gostergesi: son bardaki -12 delta, ask_vol(18) < bid_vol(30) fakat fiyat ilerleyemiyor, güclu satis baskisi altinda istikrar yok",
-  "dom_observation": "bid_ask_ratio 1.29 (alis baskisi var fakat zayif), ask_depth(57) vs bid_depth(74) dengesiz - buy absorption belirtisi ancak session sell dominant",
-  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR = 3/4 bearish, HTF uyum SELL lehine",
-  "session_bias": "buy_sell_ratio 0.57 (strong sell), session delta -2,780,206 (massive bearish), sell_volume 6.4M vs buy_volume 3.6M = institutional selling pressure",
-  "reasoning": "Session'da kuvvetli kurumsal satis baskisi (-2.78M CVD), delta_sum_5bars -28 negatif trend, HTF 3/4 bearish, VAL(64552) alti hareket etmek uzereyken, DOM bid absorption sahte sinyal - VAH'dan kopus basladi.",
+  "absorption": "Satis baskisi yuksek: session delta -2.78M (negatif), buy_sell_ratio 0.57 (satis dominant), DOM ask_depth 65 > bid_depth 61 (ask agir), delta_sum_5bars -28 (devam eden satis baskisi)",
+  "dom_observation": "bid_ask_ratio 0.92 (<1.0) satis baskisini isaret ediyor; ask derinligi bid derinliginden fazla = descending momentum",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR (3/4 bearish), sadece 1h BULL - strong bearish alignment",
+  "session_bias": "buy_sell_ratio 0.57 satis herkuleyin baskinligini gosteriyor, gunluk delta -2.78M ciddiyetle negatif, VAL (64552) uzerindeyiz",
+  "reasoning": "Guclu satis dominant session (0.57 ratio) + DOM ask agir + HTF 3/4 bearish + CVD ciddi negatif + fiyat VAL yakininda rejection yapiyorsa SHORT setup kurumsal satişın absorpsiyonunun olusturuldugu senaryo.",
   "should_trade": "EVET",
-  "timestamp": "01:35:54"
+  "timestamp": "01:36:05"
 }
