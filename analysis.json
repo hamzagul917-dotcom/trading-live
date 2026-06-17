@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64480",
-  "tp1": "64420",
-  "tp2": "64350",
-  "stop": "64510",
-  "absorption": "Ask volume dominansı (25 vs 4 bid) + mevcut bar düşük hacimde (28) = satis baskininin emri yutmasi, fiyat VAL bölgesinde rejection",
-  "dom_observation": "Bid/Ask orani 0.94 < 1.0 = Satis baskisi basladi, ask depth daha agir (84 vs 79)",
-  "htf_alignment": "4h BEAR uymasi + 1h/15m/5m BULL ise cakisma var ancak 4h timeframe akim baskisini belirliyorsa SELL validity arttirir",
-  "session_bias": "Gunluk buy_sell_ratio 0.56 ve session delta -2.77M = satis dominansi acik, VAL alti kabul yok",
-  "reasoning": "Gün boyunca satis baskinı (-2.77M CVD) + mevcut bar ask absorption (25 ask/4 bid) + VAL resistance rejection + 4h bearish = erken short setup, DOM satis agirligini doğruluyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": 72,
+  "entry": 64480,
+  "tp1": 64552,
+  "tp2": 64620,
+  "stop": 64450,
+  "absorption": "Son 5 bar delta pozitif (199), possible_absorption=true, mevcut bar 22 delta ile ASK absorption yapiyor - kurumsal alim baskisi var fiyat dusmeden",
+  "dom_observation": "Bid/ask ratio 0.85 (ask agir degil), bid depth 78 vs ask depth 91 - dengeli, satis baskisi minimum seviyede",
+  "htf_alignment": "5m BULL + 15m BULL + 1h BULL (3/3 uyumlu), 4h BEAR ama kisa timeframe dominant buyuk yukselige karsi",
+  "session_bias": "Buy/sell ratio 0.56 (satis baskili gun) ANCAK son 5 bar delta_sum +199 ile buyuk tersine donus alanlari, CVD -2776178 fakat son barlar pozitif delta gosteriyor - kurumsal pozisyon buyuruyor",
+  "reasoning": "VAL seviyesi (64552) etrafinda BID absorption + delta_sum_5bars +199 pozitif + HTF 3/3 bullish alignment + possible_absorption=true = Axia Kural 1 ve Kural 5 tetikleniyor, kurumsal para VAL'dan yukselisime hazirlaniyorsa LONG setup.",
   "should_trade": "EVET",
-  "timestamp": "01:26:18"
+  "timestamp": "01:26:20"
 }
