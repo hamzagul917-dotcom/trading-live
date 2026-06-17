@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64423",
-  "tp1": "64380",
-  "tp2": "64320",
-  "stop": "64450",
-  "absorption": "Cari bar -4 delta ile dusuk hacimdedir (4 lot), VAL'in (64552) altinda fiyat tutunuyor, ancak ask hacmi sifir - bu BID tarafinda absorption isaretidir. Piyasa satisi emmelemiyor.",
-  "dom_observation": "BID/ASK orani 1.63 - alis baskisi vardir ancak fiyat dusuyor, bu kurumsal satislarin gizli emilimi anlamina gelir.",
-  "htf_alignment": "5m BEAR, 15m BEAR - kisa vadeli trend acikca BEARISH, 1h/4h BULL uyumsuzlugu confidence'i 28 puan azaltir.",
-  "session_bias": "Buy/Sell orani 0.57 - gunun %63'u satici baskisidir. Session delta -2.768M (guclu negatif), Acceptance alaninda (VAL altinda) fiyat tutunuyor.",
-  "reasoning": "CVD divergence + possible absorption + session sell dominant + HTF kisa vadeli BEAR + cari bar negatif delta - kurumsal satici emilimi VAL altinda gerceklesiyor, SELL setup basarisidir.",
+  "confidence_score": 72,
+  "entry": 64415,
+  "tp1": 64380,
+  "tp2": 64340,
+  "stop": 64450,
+  "absorption": "VAL (64552) altında absorption gözlemleniyor - negatif CVD (-2768386) güçlü satış baskısı gösteriyor, fiyat destek seviyelerine çekiliyken bid absorption yapılıyor.",
+  "dom_observation": "BID/ASK oranı 1.35 - bid ağırlığı var ancak ask derinliği azalıyor (53), satış baskısı artıyor. Session içinde buy/sell ratio 0.57 - güçlü satış dominasyonu.",
+  "htf_alignment": "5m-15m BEAR trend ile uyumlu ancak 1h-4h BULL trend uyumsuzluk yaratıyor. Kısa vadede satış baskısı kontrol ediyor.",
+  "session_bias": "Session delta -2768386, buy_sell_ratio 0.57 - gün boyunca kurumsal satış baskısı belirgindir. VAL altında işlem yapıyoruz = BEARISH acceptance.",
+  "reasoning": "CVD divergence + negatif session delta + VAL altında fiyat + 5m-15m BEAR trend, güçlü SHORT setup oluşturuyor; delta_sum_5bars pozitif ama CVD düşüşü momentum kaybını gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:40:11"
+  "timestamp": "01:40:22"
 }
