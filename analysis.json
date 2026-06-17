@@ -10,13 +10,13 @@
   "confidence_score": 72,
   "entry": 64400,
   "tp1": 64350,
-  "tp2": 64280,
-  "stop": 64440,
-  "absorption": "Mevcut bar minimum hacimle (2 kontrat) fiyati koruyor, possible_absorption=true + delta_sum_5bars=-17 bearish baski altinda absorption yapiliyor - satis baskisi emri yutuyor",
-  "dom_observation": "bid_ask_ratio=1.23 alis lehine gorunse de ask_vol=0 + bid_vol=2 minimal hacimle, session sell_volume (6.4M) buy_volume (3.6M) cok asili - ask agirliginin guclu satis baskisi var",
-  "htf_alignment": "5m=BEAR + 4h=BEAR + 1h=BULL(zayif), 2/3 timeframe bearish - satis sinyali icin yeterli uyum",
-  "session_bias": "buy_sell_ratio=0.57 (<0.8) + session_delta=-2777886 (guclu negatif) + CVD dusuyor, fiyat henuz VAL (64552) ustu tutmuyor, BEARISH momentum domina edyor",
-  "reasoning": "Guclu kurumsal satis baskisi (CVD=-2.7M, ratio=0.57) altinda VAL altinda absorption yapilarak fiyat tutulmuyor, 5m+4h bearish + DOM ask agirliginda SHORT setup olusmus durumdadir.",
+  "tp2": 64300,
+  "stop": 64450,
+  "absorption": "Fiyat 64400-64405 seviyesinde kilitli kalmis, bid ağırlıklı (bid_vol:3 vs ask_vol:1) ancak fiyat ilerlemiyor = BID SIDE ABSORPTION. Kurumsal satici emri yutuyor, fiyat dusmeyi bekliyor.",
+  "dom_observation": "bid_ask_ratio 1.73 (alis baskisi görüntüsü) fakat mevcut bar ultra düşük volüm (3) ve negatif delta (-3) = FAKE BID, saticilar emri yutuyor.",
+  "htf_alignment": "5m BEAR + 4h BEAR (2/3 uyum) = BEARISH. 15m-1h BULL minor direnç oluşturuyor fakat makro BEAR trend dominan.",
+  "session_bias": "buy_sell_ratio 0.57 (çok düşük) + session delta -2.7M (ağır satis baskisi) + fiyat VAL (64552) altında = BEARISH momentum onus net.",
+  "reasoning": "Sessiz barler içinde absorption pattern + session delta aşırı negatif + VAL altı fiyat + HTF majority BEAR = kurumsal satış baskısı net, kısa pozisyon hazırlığı.",
   "should_trade": "EVET",
-  "timestamp": "01:37:12"
+  "timestamp": "01:37:25"
 }
