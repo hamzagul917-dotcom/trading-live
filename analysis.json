@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64336,
-  "tp1": 64200,
-  "tp2": 64050,
-  "stop": 64400,
-  "absorption": "Bar 4-5 spike'ında 129 delta ile ask agırlıklı (147 ask) yukarı itilme fakat fiyat tutmadı, devamında negatif delta ve satış baskısı arttı - kurumsal satıcı emri yuttuktan sonra price action aşağı döndü.",
-  "dom_observation": "Bid/Ask oranı 0.63 (<0.7) - güçlü satış baskısı, ask depth 106 vs bid depth 67 - likidite tarafında satıcılar ağırlıklı.",
-  "htf_alignment": "5m/15m/4h BEAR (3/3) - kuvvetli bearish, 1h BULL uyumsuzluğu confidence'ı 15 puan düşürdü.",
-  "session_bias": "Buy/Sell Ratio 0.55 (<0.8) + Session Delta -2.8M = güçlü satış dominant gün, CVD divergence aktif = kurumsal satış momentum.",
-  "reasoning": "VAL altında fiyat, satış dominant session, ASK absorption + CVD divergence + DOM ask ağırlıklı + HTF 5m/15m/4h BEAR = net short setup, bar 4-5 spike'ı reddedildi.",
+  "entry": 64326,
+  "tp1": 64290,
+  "tp2": 64250,
+  "stop": 64360,
+  "absorption": "Mevcut bar +9 delta ile yukselis yazsa da 64323-64329 arasinda hapsolmus, fiyat VAL altinda ve absorption gerceklesiyor. Gunluk -2.8M CVD ile massive satis baskisi var.",
+  "dom_observation": "Bid/Ask orani 1.11 - hafif alis baskisi ama session buy_sell_ratio 0.55 ile baskın satis var. DOM bid agirligina ragmen session sell overwhelming.",
+  "htf_alignment": "5m BEAR, 15m BEAR, 4h BEAR - 3 saat dilimi BEARISH. Sadece 1h BULL ama ust ust uzun vadede downtrend baski tasiyor.",
+  "session_bias": "buy_sell_ratio 0.55 (0.8 alti) + gunluk delta -2.8M + fiyat VAL alti = BEARISH momentum taraftar. 6.2M sell vs 3.4M buy oraninda net kurum satisi.",
+  "reasoning": "CVD divergence + possible_absorption + bearish HTF (3/4 saat dilimi) + fiyat VAL altinda + session sell dominant (0.55 ratio) = Kurumsal short setup; absorption bar satis kapanisina hazirlik gosterebilir.",
   "should_trade": "EVET",
-  "timestamp": "00:57:02"
+  "timestamp": "00:57:47"
 }
