@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64259,
-  "tp1": 64150,
-  "tp2": 64050,
-  "stop": 64320,
-  "absorption": "Son 10 bardaki pozitif delta (bar 6-7: +24 delta) fiyat yukselemedi (64255-64263 araliginda), kurumsal ask absorption belirlendi; mevcut bardaki +10 delta ile minimum hareket absorption ozelligini teyit ediyor.",
-  "dom_observation": "Bid/Ask orani 1.73 (alis baskisi) garip gorunse de, 5 bar oncesi ask agir (+34 ask vs +10 bid) ve mevcut bardaki 13 ask vs 3 bid, sorulari koruyan shorta atilma durumunu gosteriyor.",
-  "htf_alignment": "5m/4h BEAR (2/3 bearish), 1h BULL zit sinyal vermektedir; 5m+4h dominans SHORT lehine konfidansi saglamakta.",
-  "session_bias": "Session delta -2.84M (agir satis), buy_sell_ratio 0.55 (guclü satis baskisi), VAL 64552 altina dusmek lehine bearish momentum halen aktif.",
-  "reasoning": "Pozitif delta absorpsiyonu (ask tutusuyor) + session sell dominansi + CVD dusuyor + 5m/4h bearish uyumu, VAL 64552 altindaki fiyat seviyesinde kisa pozisyon kurmaya destek veriyor.",
+  "confidence_score": "72",
+  "entry": "64265",
+  "tp1": "64200",
+  "tp2": "64100",
+  "stop": "64320",
+  "absorption": "Ask volume absorption gozlendi: positive delta (+10) mevcut bar'da low'dan high'a hareket etmedigi, fiyat dar range'de kaldiginda - kurumsal saticilar emri yutuyor (ask depth 74 vs bid depth 64). Last 10 bars'ta delta_sum -47,-11,-12 baskisi ile satis baskisi dominan.",
+  "dom_observation": "bid_ask_ratio 0.87 (<1.0) - ask agir, satis baskisi artiyor. Ask depth (74) bid depth'i (64) ustunde.",
+  "htf_alignment": "Zayif - 5m BEAR, 15m BEAR, 1h BULL, 4h BEAR. 2/3 BEAR ama 1h counter-trend, confidence dusuk.",
+  "session_bias": "Gunluk buy_sell_ratio 0.55 (<0.8) + session delta -2841652 + sell_volume (6.3M) > buy_volume (3.4M). Guclı bearish session momentum.",
+  "reasoning": "Session sell dominansı (0.55 ratio) + possible absorption true + ask depth yuksek + VAH 65794'ten uzak kalma + last 10 bars'ta net negatif delta baskisi = Kurumsal satis baskisi absorption pattern'i gozlendi, VAL sevisine donus beklenmekte.",
   "should_trade": "EVET",
-  "timestamp": "01:14:46"
+  "timestamp": "01:14:55"
 }
