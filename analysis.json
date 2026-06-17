@@ -9,14 +9,14 @@
   "order_flow_signal": "SELL",
   "confidence_score": 72,
   "entry": 64355,
-  "tp1": 64310,
-  "tp2": 64256,
-  "stop": 64380,
-  "absorption": "Mevcut bar negatif delta (-3) ile kapanırken fiyat VAL altında konumlanmıştır; son 10 bardaki yapı (bar 9-10'da 86/66 pozitif delta sonrası VAL kırılmış) satış baskısını göstermektedir.",
-  "dom_observation": "DOM bid/ask ratio 1.07 ile nötr ancak session buy_sell_ratio 0.55 (ağır satış) kurumsal satış baskısını teyit etmektedir.",
-  "htf_alignment": "5m BEAR + 4h BEAR = uyumlu, 15m/1h BULL uyumu azaltsa da macro satış sinyali açık.",
-  "session_bias": "Session delta -2,831,154 ve buy_sell_ratio 0.55 güçlü satış baskısı göstermektedir; fiyat VAL altında acceptance yapmıştır.",
-  "reasoning": "CVD divergence aktif, session ağır satış baskılı, fiyat VAL kırılmış, HTF 5m+4h BEAR uyumlu = erken SHORT setup.",
+  "tp1": 64200,
+  "tp2": 64050,
+  "stop": 64450,
+  "absorption": "ASK absorption tespit edildi: 5 bar oncesinde delta +129 (ask vol 147) fiyat yukselemedi, bugun delta pozitif ama fiyat 64355'te takili; kurumsal satis baskisi gizleniyor",
+  "dom_observation": "DOM bid/ask ratio 0.85 < 1.0 = ask agir, satis baskisi baslamis, liquidity ask tarafinda yogun",
+  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR = 3/4 BEARISH; ust timeframe uyum tarafli (3 BEAR cikmiş)",
+  "session_bias": "Session delta -2831156 (kuvvetli NEGATIF), buy_sell_ratio 0.55 (satis dominant %64), VAL 64552 < current 64355 = BEARISH acceptance tespit",
+  "reasoning": "CVD divergence + strong negative session delta + ask absorption pattern + DOM ask heavy + HTF majority bearish = kurumsal short setup, fiyat destekte rejection gosterip short trigger.",
   "should_trade": "EVET",
-  "timestamp": "00:56:07"
+  "timestamp": "00:56:50"
 }
