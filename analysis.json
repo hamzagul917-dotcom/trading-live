@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65794
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65794"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64307,
-  "tp1": 64240,
-  "tp2": 64180,
-  "stop": 64350,
-  "absorption": "Mevcut bar ask-vol baskili (11>2) ancak fiyat ilerleme yapamadi - ASK absorption sinyali; session boyunca -2.8M CVD + 0.55 buy/sell ratio ile guclu satis baskisi devam ediyor",
-  "dom_observation": "DOM ratio 0.82 (<1.0) - ask derinligi (74) bid derinliginden (60) fazla, satis baskisi belirgin",
-  "htf_alignment": "5m BULL/15m BEAR/1h BULL - 2/3 uyum bearish yonde; 4h BEAR ile long-term alignment olumsuz",
-  "session_bias": "buy_sell_ratio 0.55 ile guclu satis dominasyonu; -2.8M daily delta + CVD divergence true - kurumsal sizleme gerceklestigi, fiyat asil yukarida degil",
-  "reasoning": "VAH (65794) ustu almis olsak da session satis baskisi, CVD divergence ve ASK absorption kombinasyonu neticesinde bearish reversal bekleniyor; guclu absorption + negative delta sum tutunakligi tersine donus sinyali veriyor.",
+  "confidence_score": "72",
+  "entry": "64350",
+  "tp1": "64240",
+  "tp2": "64150",
+  "stop": "64400",
+  "absorption": "Mevcut bar: yüksek ask volume (84) ve pozitif delta (+76) ile fiyat 64367'de takılı kalmış, ask agır absorption göstermektedir.",
+  "dom_observation": "Bid/ask oranı 1.73 (bid agır) ancak current bar ask dominansı VAH direncinde absorption işareti vermektedir.",
+  "htf_alignment": "5m/15m/1h BULL, 4h BEAR - Zaman dilimi uyumsuzluğu ancak 4h bearish kırılım baskını desteklemektedir.",
+  "session_bias": "Session delta -2830182 (güçlü satış baskısı), buy/sell oranı 0.55 (satış dominansı), VAL altında fiyat tutunamaması bearish momentum göstermektedir.",
+  "reasoning": "Mevcut bar ask absorption + session satış dominansı + 4h bearish bias + CVD negatif trend + fiyat VAL altında = SHORT setup; HTF uyumsuzluğu confidence düşürmesine rağmen order flow net satış sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "01:16:30"
+  "timestamp": "01:16:57"
 }
