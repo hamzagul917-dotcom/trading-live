@@ -12,11 +12,11 @@
   "tp1": 64380,
   "tp2": 64350,
   "stop": 64435,
-  "absorption": "Son 5 bardaki delta toplamı +54 olup fiyat 64413'te yatay/düşük hacim ile tutunuyor, kurumsal emrin absorbe edilmesinin belirtisi.",
-  "dom_observation": "Bid/Ask oranı 1.49 alis baskisini gosteriyorsa da, current bar %100 ask (4 ask, 0 bid) ile satis bastiriri acikca gorulmektedir.",
-  "htf_alignment": "5m/15m BEAR uyumu kuvvetli, 1h/4h BULL ile zit - kisa vadeli SHORT icin uygun.",
-  "session_bias": "buy_sell_ratio 0.57 (satis hakimiyeti), session delta -2772383 (guclu satis baskisi), fiyat VAL (64552) altinda konumlu = BEARISH momentum net.",
-  "reasoning": "CVD divergence + session dominan satis + 5m/15m bear trend + current bar ask agir + VAL altinda konumlanma = net SHORT setup.",
+  "absorption": "Mevcut bar minimum delta (+3) ile cok az hacim (5), fiyat VAL alti (64413 < 64552) - Seller absorption gostergesi",
+  "dom_observation": "BID/ASK ratio 1.47 alis baskisi gosterse de, son 5 bardaki delta toplamı +53 ile pozitif olmakla beraber, session delta -2772330 ile gunluk gucu satis tarafinda, ask depth 50 vs bid 74 dengesizligi fiyat harekete direnc gosteriyor",
+  "htf_alignment": "5m/15m BEAR, 1h/4h BULL - zaman dilimi cakismasi var, kisa vadede ayibaci sinyal gucsuz, ancak 1h+ bullish iken 5m/15m sell sinyali tip riskli short",
+  "session_bias": "Buy/sell ratio 0.57 ile gunun %63 satis hacmi domina ediyor, CVD -2.7M ile kurumsal satis baskisi net, fiyat VAL altinda kalmasi BEARISH momentum onayliyor",
+  "reasoning": "CVD divergence (true) + session sell baskisi (%63) + fiyat VAL alti + 5m/15m BEAR bias + minimal delta ile fiyat direnci = kisa vadeli satis setup ama HTF bull uyumsuzlugu confidence dusur",
   "should_trade": "EVET",
-  "timestamp": "01:43:24"
+  "timestamp": "01:43:34"
 }
