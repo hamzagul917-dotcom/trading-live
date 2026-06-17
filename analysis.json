@@ -12,11 +12,11 @@
   "tp1": "64300",
   "tp2": "64200",
   "stop": "64450",
-  "absorption": "Session delta -2768911 ile güçlü satış baskısı; CVD divergence aktif - kurumsal para hala aşağı yönlü pozisyon almaya devam ediyor.",
-  "dom_observation": "Bid/Ask ratio 1.74 ise de mevcut bar'da ASK hacmi (7) BID hacmini (12) bastırıyor ve sessiyonda sell_volume (6.4M) buy_volume'u (3.6M) 1.76x oranında aşıyor.",
-  "htf_alignment": "5m ve 15m BEAR sinyali verirken 1h ve 4h BULL gösteriyor - kısa vadede HTF uyumu BEARISH taraftadır; 4h BULL ise volatilite riski içerir.",
-  "session_bias": "Buy/Sell ratio 0.57 - kuvvetli satış dominansı; fiyat VAL (64552) altında 64388'de kapandı - session BEARISH momentum devam ediyor.",
-  "reasoning": "Gün boyunca CVD -2.76M, son barlar da negatif delta gösteriyor; VAL altında kapanış + satış baskılı session + CVD divergence = Axia Kural 2 ve 6 uyarıyor - erken SHORT pozisyonu almaya hazır.",
+  "absorption": "Session delta -2769066 ile guclü satis baskisi; buy_sell_ratio 0.57 (<0.8) BEARISH; CVD divergence aktif - fiyat direncte ama kurumsal satis esliginde degil, erken satis sinyali",
+  "dom_observation": "Bid/Ask ratio 2.15 (>1.5) görünüşte alis baskısı gösterse de, session sell volume (6.4M) buy volume (3.6M)'ü 1.75x aştığı için DOM hata yapıyor - satis hakimi",
+  "htf_alignment": "5m/15m BEAR, 1h/4h BULL = conflikt. Short için 5m+15m BEAR uygun, fakat HTF güç kaybı confidence azaltıyor",
+  "session_bias": "Session delta -2769066 ile gün boyunca agir satis baskisi; Sell volume %64 dominans; fiyat VAL (64552) üstünde ama rejection pattern",
+  "reasoning": "Fiyat VAL üstü olmasına rağmen CVD divergence + session sell dominans (-2769 delta) + buy_sell_ratio 0.57 + negative delta_last_bar (-4) = kurumsal satis, lower timeframe BEAR uyumu ile SHORT setup kurulmuş durumda.",
   "should_trade": "EVET",
-  "timestamp": "01:40:51"
+  "timestamp": "01:41:02"
 }
