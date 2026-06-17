@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64272",
-  "tp1": "64200",
-  "tp2": "64100",
-  "stop": "64330",
-  "absorption": "Son 10 bardaki analiz: Bar 8'de (+129 delta, 164 vol, 147 ask) guclu alis baskinasina ragmen fiyat 64390'dan 64371'e dustu. Bu ask absorption'dur - alicilar emri yuttu ama fiyat yukselemedi. Sonrasında bar 9-10'da negative delta devam ediyor.",
-  "dom_observation": "bid_ask_ratio 1.61 (alis baskinasi gibi görünse de), mevcut bar'da ask_vol=1, bid_vol=32 ile sahte buy sinyali. Derinlikte bid=95 > ask=59 olsa da, gerçek momentum satış yönünde.",
-  "htf_alignment": "5m BEAR + 4h BEAR = 2 zaman dilimi bear. 15m+1h bull olsa da, alt timeframe'ler dominant bearish baskı gösteriyor. Düşük güven.",
-  "session_bias": "Gün deltası -5.4M, buy_sell_ratio 0.54 (satış egemenliği). Fiyat VAL (64552) altında konumlanmış = BEARISH acceptance. Satış hacmi (11.9M) alış hacminin (6.4M) 1.8 katı.",
-  "reasoning": "Kuvvetli satış deltası (-5.4M CVD), mevcut bar negatif delta (-31), son 5 bar net negative (-45), bar 8'deki ask absorption (alis emri battirildi), VAL alti fiyat konumu ve session buy_sell_ratio 0.54 ile egerken short setup'ı sinyali veriyor.",
+  "confidence_score": 72,
+  "entry": 64265,
+  "tp1": 64150,
+  "tp2": 64050,
+  "stop": 64350,
+  "absorption": "Gunluk -2839846 CVD ve session satış dominansı (0.55 buy/sell ratio) fiyatın VAL altında seyrederken guclu satış baskısı gosteriyor; mevcut bar negatif delta (-41) ile likidite emme hareketi sergiliyor.",
+  "dom_observation": "BID/ASK ratio 1.89 (yuksek) alis baskisini gostermesine ragmen, ask_depth 52 ile ask_vol 9, session sell_volume 6244770'in karşı koyamadığını ispatliyor - kurumsal satış dominantı.",
+  "htf_alignment": "5m BEAR + 4h BEAR = 2/3 time frame bearish hizalanmasi; 15m ve 1h BULL ancak gunluk satis baskinligi onların sinyal gucunu eriterek dusuk confidence seviyesinde tutuyor.",
+  "session_bias": "Gunluk delta -2839846, buy_sell_ratio 0.55, satış hacmi 6244770 vs alis 3404923 = guclu bearish session momentum ve rejection yapisi.",
+  "reasoning": "Fiyat VAL (64552) altında, gunluk CVD sert negatif, satış hacmi dominantken 5m+4h bearish uyumu yeniden test pozisyonunda SHORT setup saglamaktadır.",
   "should_trade": "EVET",
-  "timestamp": "00:59:30"
+  "timestamp": "01:00:01"
 }
