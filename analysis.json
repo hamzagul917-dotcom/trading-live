@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65794
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64391,
-  "tp1": 64325,
-  "tp2": 64254,
-  "stop": 64443,
-  "absorption": "Son bardaki -5 delta ile dusuk hacim (6 vol) ve bid=6>ask=1, fiyatin 64391'de tutuluyor = ASK absorption + CVD -2.8M negatif + session sell dominant (0.56 ratio) = kurumsal satis baskisi",
-  "dom_observation": "bid_ask_ratio=1.1 sifira yakinda (ask baskisi), ask_depth=63 vs bid_depth=69 = satis artiyor, dom dengesiz",
-  "htf_alignment": "5m=BEAR, 15m=BULL, 1h=BULL (2/3 bullish ama 5m BEAR + current bar BEAR = kisa vadede satis baskisi hakimiyet)",
-  "session_bias": "buy_sell_ratio=0.56 (<0.8 threshold) + session delta=-2.8M + sell_volume=6.3M >> buy_volume=3.5M = gunun baskin trendi BEARISH, satis guclu",
-  "reasoning": "CVD divergence + possible absorption + negatif session delta + VAH ustu kabul yok + ask agir DOM + 5m BEAR bias = kurumsal short aksyon tespit, VAL seviyesine dogru satis momentum",
+  "entry": 64420,
+  "tp1": 64552,
+  "tp2": 64650,
+  "stop": 64350,
+  "absorption": "YOK",
+  "dom_observation": "Bid/Ask orani 1.18 - alis baskisi gozlenmektedir, ask depth dusuk (59) satis direnci sinir.",
+  "htf_alignment": "5m/15m/1h BULL, 4h BEAR - kisa vadede bullish uyum saglanmis, makro caution var.",
+  "session_bias": "Buy/Sell orani 0.56 (satis agir) ancak CVD -2.8M guclu satis baskisina isaret etmektedir, fiyat VAL (64552) altinda olan 64420 seviyesinde bullish delta (62) ile mum kapatilmis.",
+  "reasoning": "Dunluk satis baskisina (CVD negativity) ragmen, kisa vadede bullish HTF uyumu (5m-15m-1h), DOM'da alis agirliginin baslamasi (bid_ask_ratio 1.18), son bar pozitif delta (62) ve fiyatin VAL destegine yakin konumlanmasi - erken LONG setup'ı sunarken, session deltasinin guclulugu risk yonetimini kritik kilar.",
   "should_trade": "EVET",
-  "timestamp": "01:23:19"
+  "timestamp": "01:23:58"
 }
