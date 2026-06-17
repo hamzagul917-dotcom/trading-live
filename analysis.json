@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64431,
-  "tp1": 64390,
-  "tp2": 64350,
-  "stop": 64460,
-  "absorption": "Mevcut bar: delta -9 (satis baskisi) + ultra dusuk volume (9) + fiyat VAL'in altinda (64431<64552) = ask absorption tespit edildi. Son 10 barda deltalar dalgali (90,71,+39,+29,-9,-8,-12,-19,-9) ancak CVD agir negatif (-2780158) ve session delta corban (buy/sell 0.57). Fiyat VAL altinda stuck = satis baskisi emri yutturmaya calisiyorsa kirilim olabilir.",
-  "dom_observation": "DOM ratio 1.05 (hafif bid agir) fakat absolut rakamlar dengeli. Ask depth 61, bid depth 64 - satis tarafinda direnc var.",
-  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF uyum zayif. 4h bear bias ile 1m satis baskisi uyumlu, macrodan gelen satis yonelimi net.",
-  "session_bias": "Gunluk buy/sell ratio 0.57 = agir satis baskisi dominasyonu. Gunluk delta -2780158 (keskin negatif). Session tamamiyle bearish, mevcut bar bu baskinin devamini gosteriyor.",
-  "reasoning": "Mevcut bar VAL altinda satis deltasi ile absorption olusturuyorken, gunluk agir bearish session deltasi ve 4h bear bias with microtrendin positive recent deltas (5-10 bars) vs macro sell volume uyumsuzlugu klasik Axia short setup'ini isaret ediyor.",
+  "entry": 64430,
+  "tp1": 64550,
+  "tp2": 64650,
+  "stop": 64380,
+  "absorption": "Son 5 bardaki delta_sum_5bars=+118 (pozitif), fiyat VAL (64552) uzerinde tutuluyor, BID absorption sinyali vermektedir.",
+  "dom_observation": "bid_ask_ratio=1.0 (esit), ancak son 10 barin analizi: ask-agir barlar (bar5: ask96, bar9: ask83) sonrasi delta_sum_5bars pozitif donus yapti, kurumsal alis baskisi gostergesi.",
+  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = 3/3 bullish uyum, 4h BEAR ancak kisa vadede buyuk uyum saglanmis.",
+  "session_bias": "buy_sell_ratio=0.57 (satis baskili), SESSION bearish ancak INTRADAY son 5 bar net BULLISH delta toplayarak mikro tersine donus sinyali vermektedir.",
+  "reasoning": "Negatif session delta (-2780218) uzerinde CVD divergence yokken, son 5 barin +118 net deltasi, fiyatin VAL uzerinde tutunmasi ve 3 zaman diliminin bullish olmasi kurum alim absorption'ini isaret etmektedir.",
   "should_trade": "EVET",
-  "timestamp": "01:28:15"
+  "timestamp": "01:28:58"
 }
