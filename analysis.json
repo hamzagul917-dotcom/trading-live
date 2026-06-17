@@ -12,11 +12,11 @@
   "tp1": 64297,
   "tp2": 64258,
   "stop": 64372,
-  "absorption": "Mevcut bar'da ask absorption tespit edildi (volume 6, tamamen ask=6, bid=0). Fiyat 64340 seviyesinde direnc golunuyor, delta pozitif ama fiyat ilerleyemiyor. Guclu satis baskisi altinda kurumsal emri yutulmus durumda.",
-  "dom_observation": "DOM dengeli (bid_ask_ratio=1.01) ancak session seviyesinde buy_sell_ratio=0.55 ile satis egemenliği dominan. Session delta -2,837,916 ile buyuk satis baskisi, ask agir yonelmesi baslangici.",
-  "htf_alignment": "HTF uyumsuz - 5m BULL, 15m BEAR, 1h BULL, 4h BEAR. Kisa vadede karisik sinyal, ancak 4h BEAR desteği ve session satis egemenliği SHORT sinyalini onayliyor.",
-  "session_bias": "buy_sell_ratio 0.55 (<0.8) + sell_volume dominant (6.2M vs 3.4M buy) = BEARISH momentum. Fiyat VAH (65794) altında kalarak Rejection olusturuyor.",
-  "reasoning": "CVD divergence + possible absorption + session sell egemenliği + VAH rejection + 5 bar sum delta negatif (-32) = Mevcut yukselis absorpsiyon sonrasi tersine donus setup, 64297 VAL test icin SELL sinyal.",
+  "absorption": "Mevcut bar minimal volume (7) ile ask absorption gosteriyorsa da, session geneli massive sell baskisi (-2.8M CVD), buy_sell_ratio 0.55 ve VAL alti fiyat pozisyonu bearish momentum dogruluyor. Son 5 bar net -31 delta + DOM 1.34 ratio (zayif bid) confirmation saglıyor.",
+  "dom_observation": "Bid depth 80 vs Ask depth 59 = bid/ask 1.34 orani, superfisyal bid agirligina ragmen session genelinde ask dominasyonu ve negative CVD divergence ases baskisini gosteriliyor.",
+  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BEAR = mixed signal ancak session delta ve CVD divergence bearish setup'i destekledigi icin 15m/4h BEAR alignment'i kullanilir.",
+  "session_bias": "Buy/sell ratio 0.55 (0.8 altinda BEARISH), session delta -2.8M (massive sell), sell volume 6.2M vs buy 3.4M = gun boyunca strong bearish momentum taşındığı.",
+  "reasoning": "Possible absorption true + CVD divergence true + session overwhelming sell dominance (0.55 ratio) + fiyat VAL altında + last 5 bar net negative delta, Axia short setup kriterleri karşılar.",
   "should_trade": "EVET",
-  "timestamp": "01:02:32"
+  "timestamp": "01:02:38"
 }
