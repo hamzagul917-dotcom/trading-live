@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64477,
+  "entry": 64439,
   "tp1": 64380,
   "tp2": 64302,
-  "stop": 64520,
-  "absorption": "Son 5 barın delta toplamı pozitif (+157) ancak session-wide CVD şiddetle negatif (-2808899) - kurumsal satış baskısı açık, fiyat VAL (64552) altında tutunuyor.",
-  "dom_observation": "DOM bid_ask_ratio 0.61 - ask depth (95) bid depth'den (58) %63 ağır, satış baskısı net şekilde arttığını gösteriyor.",
-  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF uyumsuzluk var, 4h bearish bias kısa vadeli satışları destekliyor.",
-  "session_bias": "buy_sell_ratio 0.56 - satış hacmi dominans (6.34M vs 3.53M), günlük delta -2.8M net short pozisyonu işaret ediyor.",
-  "reasoning": "Session satış dominansı + ask depth ağırlığı + 4h bear bias + fiyat VAL altında sabitlenmiş = kurumsal satış absorption sinyali, kısa vadeli short setup geçerli.",
+  "stop": 64480,
+  "absorption": "Son 5 bar delta (+81) fiyat yukselemeyerek red edilmis, mum kapanislarinda dagilma var",
+  "dom_observation": "BID/ASK 1.69 alis baskisina isaret etse de, session buy_sell_ratio 0.56 ile satis hakimiyeti belirgin",
+  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF zit sinyal, confidence azaldi. Kisa vadede satislari dusundurur",
+  "session_bias": "Session delta -2.8M ve buy_sell_ratio 0.56 = guclu satis hakimiyeti. Sell volume 6.3M vs Buy volume 3.5M ile 1.79x oraninda",
+  "reasoning": "Gunluk satis hakimiyeti (-2.8M CVD), son 5 bar pozitif delta fiyata yansimamasi ve 4h BEAR trendi satis yapisini onayla - VAL seviyesi 64552 direnc olarak calisir",
   "should_trade": "EVET",
-  "timestamp": "01:20:36"
+  "timestamp": "01:21:17"
 }
