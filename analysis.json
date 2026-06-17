@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65794
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64357,
-  "tp1": 64210,
-  "tp2": 64100,
-  "stop": 64400,
-  "absorption": "Guncelmede ASK absorption tespit edildi: Pozitif delta sonrasi (bar 2-4 ile +129,+4,+6) negatife donus (-13,-10,-8), fiyat VAL (64552) seviyesine yaklasti, bid agir harita ancak satis baskisi gunun basinda (sell_volume 6223620) buyuk kurumsal satis absorbsiyon gosteriyor.",
-  "dom_observation": "Bid/Ask orani 0.88 (satis baskisi), ask derinligi 77 > bid derinligi 68, DOM satis lehine degisime basladi.",
-  "htf_alignment": "5m BEAR + 4h BEAR (2/3 bearish), 15m/1h bullish ama gunluk delta -2.8M guclu arastirmasi demeleme.",
-  "session_bias": "Buy/Sell ratio 0.54 (<0.8), gunluk massive sell dominant (satis 6.2M vs alis 3.4M), VAL alti fiyat BEARISH acceptance.",
-  "reasoning": "CVD divergence + possible absorption + session satis dominant + 5m-4h bear + DOM satis baskisi = Kurumsal para yakalanmis long pozisyonlari satiyorken fiyat VAL'a cekiliyor, short setup formlanmakta.",
+  "entry": 64365,
+  "tp1": 64420,
+  "tp2": 64500,
+  "stop": 64320,
+  "absorption": "Son 5 barda pozitif delta akumulasyonu (delta_sum_5bars: +132) fiyat VAL uzerinde tutunurken, bid/ask rasyosu 1.29 ile alis baskisi gosteriyorum; kurumsal absorption VAL'de devam ediyor.",
+  "dom_observation": "Bid depth (84) > Ask depth (65) ile 1.29 oraninda alis baskisi dominansi, ask agirliginin olmayisi satis baskisini ekarte ediyor.",
+  "htf_alignment": "5m/15m/1h BULL uyumi guclu; 4h BEAR olmasina ragmen alt zaman dilimleri consensus BULLISH, kisa vadeli long icin yeterli.",
+  "session_bias": "buy_sell_ratio 0.55 (satis baskili gun) olmasina ragmen CVD -2.8M ile dusmesi, gunun erken saatlerindeki satis sonrasi suan alis absorpsiyonu basladigi sinyali veriyor.",
+  "reasoning": "VAL (64552) uzerinde pozitif delta akumulasyonu + bid absorption + HTF bullish uyumu + DOM alis baskisi, erken long setupini konfirme ediyor.",
   "should_trade": "EVET",
-  "timestamp": "00:53:25"
+  "timestamp": "00:53:35"
 }
