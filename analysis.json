@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64388,
-  "tp1": 64300,
-  "tp2": 64200,
-  "stop": 64420,
-  "absorption": "VAH altinda fiyat hareketlenmiyor, ask volumunde negatif delta (-13) ve session sell baskisi (0.57 ratio) guclu satis absorption isareti gosteriyor.",
-  "dom_observation": "Bid/Ask orani 1.18 olup bid agir gozukmesine ragmen, son bardaki 23 bid vs 10 ask kombinasyonu + session buy_sell_ratio 0.57 ile satis baskisi dominedir. Derinlik analizi satis baskisini dogrulamaktadir.",
-  "htf_alignment": "5m ve 15m BEAR, 1h ve 4h BULL - zit sinyaller icinde 5m+15m bearish uyumu SELL icin uygun, fakat 1h bullish HTF ile uyumsuzluk azaltir.",
-  "session_bias": "Gunluk delta -2771739, buy_sell_ratio 0.57 (satis baskisi), sell_volume 6.4M vs buy_volume 3.6M - guclu kurumsal satis baskisi VAL altina dogru hareket icin sinyal.",
-  "reasoning": "CVD divergence aktif, session sell dominant (0.57 ratio), son bar negatif delta absorption, HTF 5m+15m BEAR - VAL seviyesi altina kirilim aray satisinin kurumsal setup'i.",
+  "entry": 64389,
+  "tp1": 64320,
+  "tp2": 64240,
+  "stop": 64450,
+  "absorption": "Session delta -2773036 (buyuk satis baskisi) + CVD divergence = fiyat yukseklerdeyken kurumsal shortuluyor, VAH yonu kacis riski yok, ask absorption devam ediyor",
+  "dom_observation": "Bid/ask ratio 1.34 ise de ask volume hafif, 5m+15m BEAR baskili, ask absorption guclu, bid depth alis cabasina ragmen yutuluyor",
+  "htf_alignment": "5m BEAR + 15m BEAR = 2/3 BEAR uyumlu, 1h+4h BULL fakat short term agir baskili, ust trendden kacis sinyali",
+  "session_bias": "Buy/sell ratio 0.57 (saglik satis) + session delta -2773036 = gunluk agir satis baskisi, VAL 64552 altinda kirilim riski",
+  "reasoning": "Guclu satis delta (-2773036) + CVD divergence + 5m/15m BEAR + ask absorption + vPOC ustu redde = kurumsal short positioning, VAL kirilimi kisa acisina giris sinyali",
   "should_trade": "EVET",
-  "timestamp": "01:41:46"
+  "timestamp": "01:42:14"
 }
