@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65794"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65794
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64280",
-  "tp1": "64200",
-  "tp2": "64100",
-  "stop": "64350",
-  "absorption": "Son 5 bardaki delta_sum -22 negatif, ask_vol/bid_vol oranı 33/9 = 3.67 (ciddi satis baskisi), fakat fiyat 64255-64294 aralığında konsolidasyon yapıyor - kurumsal satış emrinin yutulması ve fiyat direncinde rejection işareti.",
-  "dom_observation": "bid_ask_ratio 0.84 (<1.0) = satis baskisi dominant. Ask depth 68 > bid depth 57, pazar satıcı kontrollü.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR = 3/3 bearish, sadece 1h BULL (zayıf uyum). Lower timeframe dominansı SELL lehine güçlü sinyal.",
-  "session_bias": "buy_sell_ratio 0.55 (çok düşük), session delta -2840439 (ağır negatif), sell_volume 6.29M >> buy_volume 3.45M = kurumsal satış akını.",
-  "reasoning": "Fiyat VAL seviyesine (64552) yakın ancak altında konsolide olurken, kurumsal satış akını (negative CVD, low buy/sell ratio, ask dominansı) ve HTF bearish alignment (5m/15m/4h BEAR) net SHORT sinyali veriyor.",
+  "confidence_score": 72,
+  "entry": 64269,
+  "tp1": 64200,
+  "tp2": 64100,
+  "stop": 64320,
+  "absorption": "CVD Divergence tespit edildi: -2.84M negatif CVD gunluk baski gosteriyor, delta_sum_5bars pozitif (+23) iken fiyat dusuyor = kurumsal satis baskisi maskeleniyor.",
+  "dom_observation": "DOM bid_ask_ratio 0.81 (<1.0) satis agirligini isaret ediyor; ask_depth (70) > bid_depth (57), satis baskisi kuvvetli.",
+  "htf_alignment": "5m BEAR, 15m BEAR, 4h BEAR = 3/4 timeframe bearish, yalniz 1h BULL uyumsuzluk yaratsa da oncelik aşağı yonde.",
+  "session_bias": "buy_sell_ratio 0.55 (<0.8) + session delta -2.84M = gunluk satis dominasyonu net, buy_volume (3.45M) vs sell_volume (6.29M) nettir.",
+  "reasoning": "Session satis baskisi dominasyonu (ratio 0.55), CVD divergence (pozitif micro delta maskelenmis satis), DOM ask agirligı (ratio 0.81) ve 3/4 HTF bearish alignment, VAL (64552) altinda fiyat = net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "01:10:04"
+  "timestamp": "01:10:24"
 }
