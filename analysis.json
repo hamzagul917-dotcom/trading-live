@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
-    "VAH": 65794
+    "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64420,
-  "tp1": 64552,
-  "tp2": 64650,
-  "stop": 64350,
-  "absorption": "YOK",
-  "dom_observation": "Bid/Ask orani 1.18 - alis baskisi gozlenmektedir, ask depth dusuk (59) satis direnci sinir.",
-  "htf_alignment": "5m/15m/1h BULL, 4h BEAR - kisa vadede bullish uyum saglanmis, makro caution var.",
-  "session_bias": "Buy/Sell orani 0.56 (satis agir) ancak CVD -2.8M guclu satis baskisina isaret etmektedir, fiyat VAL (64552) altinda olan 64420 seviyesinde bullish delta (62) ile mum kapatilmis.",
-  "reasoning": "Dunluk satis baskisina (CVD negativity) ragmen, kisa vadede bullish HTF uyumu (5m-15m-1h), DOM'da alis agirliginin baslamasi (bid_ask_ratio 1.18), son bar pozitif delta (62) ve fiyatin VAL destegine yakin konumlanmasi - erken LONG setup'ı sunarken, session deltasinin guclulugu risk yonetimini kritik kilar.",
+  "entry": 64430,
+  "tp1": 64302,
+  "tp2": 64200,
+  "stop": 64480,
+  "absorption": "Gunluk CVD -2.79M (kuvvetli satis baskisi) ancak son 5 bar delta +154 (tersine donus islari); ask agir DOM (0.83 bid/ask) + satis hacmi baskini (%64 sell volume) + possible_absorption=true eslige kotu fiyat hareket yok = kurumsal shorting absorption algisinda",
+  "dom_observation": "Ask depth (70) > Bid depth (58), bid/ask ratio 0.83 < 1.0 = kuvvetli satis baskisi, likidite tuzagi acilma riski",
+  "htf_alignment": "5m BEAR + 4h BEAR vs 15m BULL + 1h BULL = karisik; ancak 4h timeframe BEAR ve gunluk delta kuruveti SELL yonunu destekliyor",
+  "session_bias": "Buy/sell ratio 0.56 (gunluk alislar saturislarin %56si) + gunluk delta -2.79M = STRONG BEARISH session, CVD divergence +cvd_divergence=true kurumsal satis kalkismasi isareti",
+  "reasoning": "Gunluk satis hakimiyeti (-2.79M CVD) + ask agir DOM + mevcut price (64430) VAL (64552) eteginde + positive delta sum (tersine) + absorption pattern = kurumsal shorting setup, VAL kirilimi hedefe SHORT.",
   "should_trade": "EVET",
-  "timestamp": "01:23:58"
+  "timestamp": "01:24:38"
 }
