@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64653,
+  "entry": 64612,
   "tp1": 64552,
   "tp2": 64480,
   "stop": 64710,
-  "absorption": "Son 10 bardaki degisim: 5m+15m BEAR, ancak 1h+4h BULL bias + session delta +273866 (gunun net alis baskisi). CVD -2461787 (guclu satis baskisi) fakat fiyat henuz yukselmedi = gizli kurumsal SHORT setup. ASK depth 73 > BID depth 61 (bid_ask_ratio 0.84 < 1.0) = satis baskisi artiyor. Delta last bar -13 + delta_sum_5bars +24 = son bardaki negatif delta + 5bar pozitif sonra ters donus = SHORT absorption sinyali.",
-  "dom_observation": "Bid/Ask ratio 0.84 (<1.0) satis baskisi gosterir, Ask depth 73 BID depth 61'den yuksek, defteride satis emniyeti daha buyuk",
-  "htf_alignment": "5m BEAR + 15m BEAR (2/3 BEAR) SHORT icin uygun, 1h BULL + 4h BULL ile minor uyumsuzluk var ancak short-term bearish kontrol gosteriyor",
-  "session_bias": "Session delta +273866 (gunun net alisi guclu) ancak son 5 bardaki delta +24, CVD -2461787 ile cakisma = kurumsal satislar gizli, long pozisyonlar tuzak",
-  "reasoning": "CVD divergence (fiyat sabit ama CVD dusuyor) + DOM ask agir + 5m/15m BEAR + negatif delta absorption VAL sevisinde = erken SHORT pozisyonu VAL destek seviyesinden giris icin optimal setup",
+  "absorption": "Mevcut bar minimal hacimle (2) fiyat sabitlenmis, son 10 bardaki negatif delta baskisi (-22,-15,-28,-12,-21) ve ask absorption (2 ask volume vs 0 bid) satis baskisini gostermektedir.",
+  "dom_observation": "Bid/Ask orani 1.11 esitken, emir defterine satis baski basladi (ask_depth 66 vs bid_depth 73 ancak bid_vol 0). Son 5 bar toplamında delta negatif (-4) ve son barlar satin fiyat dagiliyor.",
+  "htf_alignment": "5m ve 15m BEAR harita dusus hizlandirir ancak 1h+4h BULL olmasina ragmen; 2/4 kriter saglanmamis, alignment zayif. Kisa vadede bearish yapı baskinci.",
+  "session_bias": "Session delta +269296 bullish görünse de buy_sell_ratio 1.21 (bolum 1.3 altı) ve fiyat VAH altında 65795 icinde kalıyor. Session icinde satin edilenlerin emildigi gorulmuyor.",
+  "reasoning": "Mevcut bar en minimal hacimle price fixed kalmis, son 10 bardaki negatif delta kasintisi ve ask absorption VAL seviyesine yakin pozisyonda bir SHORT setup olusturmakta; kisa vadeli HTF bearish ve CVD -2.4M kurumsal satis baskisini teyit ediyor.",
   "should_trade": "EVET",
-  "timestamp": "04:59:59"
+  "timestamp": "05:01:12"
 }
