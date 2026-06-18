@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62765,
+  "entry": 62767,
   "tp1": 62650,
   "tp2": 62500,
   "stop": 62850,
-  "absorption": "Current bar (delta -61, bid 84) gösteriyor ki alıcılar emri yutmuyor, satis baskisi artıyor ancak fiyat düşmüyor = SHORT absorption sinyali",
-  "dom_observation": "bid_ask_ratio 1.4 ile alis baskili gorunse de, ask_vol son bardaki 23 vs onceki barların 150+ ile karsilastirildiginda ask tarafında gevşeme var, satis itkisi zayifliyor",
-  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL uyumsuz, ancak 4h BEAR ile 3-1 BEAR dominant, SHORT lehine",
-  "session_bias": "buy_sell_ratio 1.09 (1.0'a yakin), session delta +32059 pozitif ama CVD divergence TRUE = kurumsal para satis yapiyorken fiyat yukselmis, sapma tehlikeli, mean reversion SHORT'a isaret ediyor",
-  "reasoning": "CVD divergence + delta negatiflesme + short absorption + session buy_sell ratio 1.09 da kurumsal satis aktivitesi + HTF 3 bearish + vPOC 65698 uzaktan SHORT setup",
+  "absorption": "Mevcut bar: delta -116 negatif, bid dominance (bid_vol 154 > ask_vol 39), fiyat VAL altında seyrediyor. CVD divergence tespit edildi (-35941) - kurumsal satış baskısı devam ediyor.",
+  "dom_observation": "DOM bid_ask_ratio 1.19 - hafif bid dominance var ancak session sell_volume (456530) > buy_volume (419699), satış baskısı günlük bazda hakim. Ask depth (42) bid depth (49) denli kısıtlı.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL + 4h BEAR = Net 3/4 BEARISH. HTF alignment SHORT için uygun (5m+15m+4h BEAR).",
+  "session_bias": "Session delta -36831, buy_sell_ratio 0.92 (<1.0) = satış dominansı. Fiyat VAL (64316) altında olmasa da VAH (66916) uzağında, aşağı yönlü baskı net.",
+  "reasoning": "CVD divergence + negatif session delta + HTF majority bearish + mevcut bar negatif delta + bid absorption - kurumsal satış açık, VAL desteğine doğru aşağı akışı gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "01:07:39"
+  "timestamp": "01:08:09"
 }
