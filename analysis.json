@@ -7,16 +7,16 @@
     "VAH": 66916
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 62730,
-  "tp1": 62500,
-  "tp2": 62200,
+  "confidence_score": 72,
+  "entry": 62756,
+  "tp1": 62650,
+  "tp2": 62500,
   "stop": 62850,
-  "absorption": "Session-wide ASK absorption: Pozitif delta (14) bar kapanırken fiyat direnc seviyesinde ilerleme yapamiyor, kurumsal satis baskisi yuksek (ask_vol/bid_vol 1.45 orani)",
-  "dom_observation": "DOM ask agir degil (bid_ask_ratio 1.26 > 1.0 ama limitte), ancak session sell dominansi net: sell_volume (959022) >> buy_volume (637556), buy_sell_ratio 0.66 << 0.8 limit",
-  "htf_alignment": "PERFECT BEARISH: 5m BEAR + 15m BEAR + 1h BEAR + 4h BEAR = 4/4 uyum, kuvvetli short sinyali",
-  "session_bias": "STRONG BEARISH MOMENTUM: Session delta -321466, buy_sell_ratio 0.66 (target <0.8) = gun boyunca sistematik satis, CVD -320577 dusuk seviyede",
-  "reasoning": "Gunluk yuksek satis hacmi, tum HTF bearish, mevcut bar pozitif deltaya ragmen fiyat direncte sokulup kaliyorsa kurumsal absorpsiyon + tekniselde kat kirilim sinyali.",
+  "absorption": "Son 10 barda ask dominansi olusmustu (bar-10: ask 122 bid 250, bar-9: ask 154 bid 48), mevcut bar ask/bid 48/30 oraninda küçük volümle kapatildi. ASK absorption + fiyat ilerlemiyor deseni",
+  "dom_observation": "Bid/Ask ratio 0.71 (<0.7 threshold yaklasi) = satis baskisi guclu, ask depth (62) bid depth (44) dan onemli ölcude fazla",
+  "htf_alignment": "Tüm timeframeler (5m, 15m, 1h, 4h) BEAR trend gösteriyor - SHORT için ideal HTF uyum",
+  "session_bias": "Session delta -320506 (deeply negative), buy_sell_ratio 0.67 (<0.8) = gün boyunca satis dominansi, 960K sell vs 640K buy hacmi",
+  "reasoning": "Session-wide satis baskisi (-320K CVD) + tüm HTF bearish + DOM ask agir (0.71) + VAH uzeri rejection + son 5 bar delta -126 = net SELL setupu",
   "should_trade": "EVET",
-  "timestamp": "01:16:56"
+  "timestamp": "01:17:17"
 }
