@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64338,
-  "tp1": 64281,
-  "tp2": 64200,
-  "stop": 64360,
-  "absorption": "Fiyat 64338-64345 arasında tuzaklanmış, 7 bid vs 1 ask ile güçlü alıcı emri yutulmuş ama fiyat dusmuyor = Bearish absorption, satıcılar kontrol ediyor.",
-  "dom_observation": "Bid/Ask oranı 0.82 = satış baskısı artiyor, ask derinliği (77) bid derinliğinden (63) yüksek, yapısal satış dominansı.",
-  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR = 3'e 1 bear uyumu. HTF uyum zayıf olsa da short bias net.",
-  "session_bias": "Session delta -26218 (bearish), buy_sell_ratio 0.99 = nötr-zayıf alıcı, CVD -2761871 ve delta_sum_5bars +25 = long baskısı sonrası reversal habercisi.",
-  "reasoning": "Son 10 bar analizi: bar 10'da -94 delta (%ASK 12%), bar 9'da -29 delta, bar 7'de -81 delta = konsistent satış baskısı; fiyat VAL (64552) altında tutunuyor; mevcut bar -6 delta + bid absorption = satıcılar alıcıları tuzaklamış, bearish reversal senaryosu.",
+  "entry": 64292,
+  "tp1": 64200,
+  "tp2": 64100,
+  "stop": 64320,
+  "absorption": "Son 10 bardaki +58 delta (bar 6) sonrasi koseli satislara (-81 delta, bar 9) gecis gozlenmis, fiyat VAL altinda (64552) hareket etmekte ve kurumsal emri yutan (absorption) red sinyal vermektedir.",
+  "dom_observation": "BID/ASK ratio 1.71 (bid agir gorunse de) mevcut bar'da ask dominansı var (2 ask vs 4 bid). Delta sum 5 bars -42 ile satis baskisi barizdir. Ask depth 50 vs bid depth 85 ancak dinamik order flow'un satisa donmesi net satış sinyali.",
+  "htf_alignment": "5m/15m/1h/4h tum timeframe'lerde BEAR uyumlu. HTF alignment mükemmel SHORT icin.",
+  "session_bias": "Session delta -34,198 ile guclu bearish. Buy/sell ratio 0.98 (satislar ust). Fiyat VAL (64552) altinda hareket ediyor = BEARISH acceptance.",
+  "reasoning": "CVD -2.7M eksi, delta_sum_5bars -42, HTF tum timeframeler BEAR, session buy_sell ratio <1.0, DOM bid-ask baskisinda dinamik satış, current bar'da negatif delta - tum Axia kriterleri SHORT setup'ını doğrulamaktadır.",
   "should_trade": "EVET",
-  "timestamp": "05:33:11"
+  "timestamp": "05:35:23"
 }
