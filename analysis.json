@@ -1,22 +1,22 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 64656,
-  "tp1": 64750,
-  "tp2": 64850,
-  "stop": 64620,
-  "absorption": "Mevcut bar minimal volume (1) ile absorption yapılıyor, son 5 barın delta toplamı +2 (pozitif). Negatif CVD (-2455774) ile yükselen fiyat arasında kurumsal çıkış sinyali var fakat VAL (64552) üzerinde güçlü bid derinliği (72) ve 1.23 bid/ask oranı alis baskısını teyit ediyor.",
-  "dom_observation": "Bid depth (72) > Ask depth (59), bid/ask ratio 1.23 = alis baskisi dominan. DOM alici lehine, support seviyeleri buyuyor.",
-  "htf_alignment": "5m BEAR, 15m BULL, 1h BULL, 4h BULL = 3/4 BULLISH, HTF uyum kuvvetli. Kisa vadeli (5m) sapmadan uzun vadeler taşıyor.",
-  "session_bias": "Session delta +279880, buy/sell ratio 1.23 (1.3 altı ama alis baskili), session buy_volume > sell_volume. Gun boyunca net alis dominansi.",
-  "reasoning": "VAL üstünde bid absorption + HTF bullish uyum (3/4) + DOM bid agir + session buy dominant + delta_sum_5bars pozitif = erken buyout sinyali, CVD divergence riskine karsi VAL support seviyesinde giris.",
+  "confidence_score": "72",
+  "entry": "64650",
+  "tp1": "64700",
+  "tp2": "64750",
+  "stop": "64620",
+  "absorption": "Son 5 bar delta sum pozitif (8), son bar delta pozitif (7), ask_vol dominasyon (12 vs 5 bid), CVD divergence gizli alici baskisini isaret ediyor - alim absorpsiyonu VAL seviyesine yakin.",
+  "dom_observation": "Bid/ask ratio 1.16 (>1.0) - alis baskisi bariz, bid_depth (66) ask_depth'den (57) fazla, alici dominasyon net.",
+  "htf_alignment": "15m/1h/4h BULL (3/3), 5m BEAR - net uyum 75% BULLISH, HTF trendine uygun.",
+  "session_bias": "Buy/sell ratio 1.23 (>1.2) + session delta +280973 (guclu pozitif) + buy_volume dominasyon (1.48M vs 1.20M) - gun boyunca kurumsal alis baskisi bariz.",
+  "reasoning": "VAL seviyesinde bid absorption (delta pozitif, fiyat sabit kalti), session alici dominansi + HTF bullish bias + CVD divergence erken long sinyali veriyor, 64650 support kirilamadi.",
   "should_trade": "EVET",
-  "timestamp": "04:35:10"
+  "timestamp": "04:35:51"
 }
