@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62761,
+  "entry": 62757,
   "tp1": 62650,
-  "tp2": 62500,
+  "tp2": 62550,
   "stop": 62850,
-  "absorption": "Session genelinde güçlü satış baskısı: sell_volume (885049) >> buy_volume (590702), buy_sell_ratio 0.67 < 0.8 eşiği, DOM'da ask_depth (77) >> bid_depth (38) ile bid_ask_ratio 0.49 < 0.7 = askı ağır satış baskısı. CVD -293457 ve son 5 bar delta -112 kümülatif negatif. Fiyat VAH (66916) altında rejection gösteriyor.",
-  "dom_observation": "Ask depth 77 vs Bid depth 38 (bid_ask_ratio 0.49): Satıcılar emir defterini kontrol ediyor, satis baskısı yüksek. Her bir bar'da ask volume >> bid volume pattern'i (örn: bar 0: 61 ask vs 101 bid dışında diğer barlar ask ağır).",
-  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL + 4h BEAR: 3/4 zaman dilimi bearish, short sinyali için uyumlu (5m+15m+4h bear dominant)",
-  "session_bias": "buy_sell_ratio 0.67 < 0.8 = günlük satış baskısı dominant. Session delta -294347 güçlü negatif CVD ile confirmed. Fiyat VAH altında rejection gösteriyor = BEARISH acceptance.",
-  "reasoning": "Session-wide satış baskısı (0.67 ratio), DOM'da satis dominasyonu (0.49 ratio), kümülatif negatif delta (-293457 CVD, -112 son 5 bar), HTF 3/4 bearish alignment ve VAH altında rejection pattern = güçlü SHORT setup.",
+  "absorption": "Session delta -298369 ile guclu satis baskisi, bid_ask_ratio 0.39 (<0.7) ask agirligini ispatliyor, CVD -297479 ile downtrend rekaydediliyor.",
+  "dom_observation": "DOM bid_ask_ratio 0.39 - ciddi satis baskisi, ask_depth 96 bid_depth 37'yi coklugunu gosteriyor, kurumsallar satisacı tarafinda konsantre.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR - 3 zaman dilimi bearish, 1h BULL'a ragmen trend uyumu guclu BEARISH yonde.",
+  "session_bias": "buy_sell_ratio 0.67 (<0.8) + sell_volume 895241 >> buy_volume 596872 - gunluk momentum net bearish, satis hakimiyeti net.",
+  "reasoning": "Guclu satis baskisi (CVD negatif, DOM ask agir, session sell dominant), bearish HTF uyumu ve negatif delta sonrasi askaida karara almasi short setup olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:14:07"
+  "timestamp": "01:14:27"
 }
