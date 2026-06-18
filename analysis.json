@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": 63862,
-  "tp1": 63720,
+  "confidence_score": 72,
+  "entry": 63809,
+  "tp1": 63700,
   "tp2": 63550,
-  "stop": 63950,
-  "absorption": "Son bardaki -186 delta, ciddi ask volumu baskısı (ask_vol: 40, bid_vol: 225 oran bozukluğu) ve VAL'in altında fiyat tutunması absorpsyon göstergesidir.",
-  "dom_observation": "DOM bid_ask_ratio: 0.09 (çok düşük) - muazzam ASK baskısı, emir defterinde 447 ask karşı sadece 42 bid, satis egemenliği net.",
-  "htf_alignment": "5m BEAR, 15m BULL, 1h BEAR, 4h BEAR - net BEAR hakimiyeti (3/4 timeframe BEAR), SHORT için yeterli uyum.",
-  "session_bias": "Session delta: -1859675 (çok negatif), buy_sell_ratio: 0.77 (0.8 altında = BEARISH), sell_volume (8.03M) >> buy_volume (6.17M) - güçlü satis baskilnin devamı.",
-  "reasoning": "VAL altında fiyat tutması, muazzam ask baskısı (DOM ratio 0.09), negatif session deltası ve BEAR hakimiyeti ile net SHORT sinyali oluşmakta; -186 bar deltası + 5bar sum -102 absorpsyon kombinasyonu aşağı hareket potansiyelini işaret ediyor.",
+  "stop": 63880,
+  "absorption": "Son 5 bardaki delta_sum -132 (negatif) + Session delta -1.797M (güçlü satis baskisi) + Fiyat VAL altinda (64552>63809) = Rejection + Bearish Acceptance",
+  "dom_observation": "bid_ask_ratio 2.48 (bid agir gorunse de) fakat session buy_sell_ratio 0.78 (<0.8) = net satis baskisi dominansi, DOM'de yuksek bid derinligi kurumsal selling icin bir tuzak",
+  "htf_alignment": "5m/15m/1h/4h TUMU BEAR = maksimum HTF uyumu SHORT icin, downtrend confirmation",
+  "session_bias": "buy_sell_ratio 0.78 + session delta -1.797M = Gunluk net satis baskisi belirgin, VAL alti fiyat = BEARISH Acceptance completed",
+  "reasoning": "Guclu bearish HTF uyumu (all frames BEAR) + CVD -4.5M + session satis dominansi (0.78 ratio) + fiyat VAL altinda (Bearish Acceptance) + delta_sum_5bars negatif = setup SHORT'a hazir, VAH'a kadar yukselisi reddedildi.",
   "should_trade": "EVET",
-  "timestamp": "06:59:58"
+  "timestamp": "07:02:25"
 }
