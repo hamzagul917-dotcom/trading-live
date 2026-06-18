@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64709,
+  "entry": 64718,
   "tp1": 64932,
-  "tp2": 65795,
+  "tp2": 65150,
   "stop": 64650,
-  "absorption": "Delta negatif (-2453487 CVD) ancak fiyat VAL seviyesi uzerinde stabilize olmus, kurumsal alis absorption gorulmektedir. Son 5 barda delta_sum -9 ama fiyat dusmuyor = gizli alis baskisi.",
-  "dom_observation": "Bid/Ask ratio 1.11 (hafif alis baskisi). Bid depth 67 vs Ask depth 60 - dengelenmis DOM ancak gun boyunca buy_sell_ratio 1.23 ile alis dominant.",
-  "htf_alignment": "Mukemmel: Tum zaman dilimleri (5m, 15m, 1h, 4h) BULLISH, HTF uyum maksimum.",
-  "session_bias": "Session delta 282167 (pozitif), buy_sell_ratio 1.23 > 1.0 (alis baskisi). Gunluk momentum BULLISH. Fiyat VAL (64552) uzerinde = Acceptance bolgesinde.",
-  "reasoning": "CVD divergence (negative CVD vs bullish fiyat) + hawkish HTF alignment + session buy dominansi + VAL destegi + bid absorption = kurumsal long setup, kirilim oyunu oncesi erken entry sinyali.",
+  "absorption": "Son 5 bardaki delta_sum=+30 (pozitif) + possible_absorption=true + bid hacmi ask hacmini yutuyor = kurumsal alici gucu VAL seviyesi yakininda tutunuyor, tersine donus sinyali",
+  "dom_observation": "bid_ask_ratio=0.98 (neredeyse esit) ancak son 3 bardaki bid dominansi (ask:19,28,19 vs bid:3,20,10) alis baskisini gosteriyor",
+  "htf_alignment": "5m+15m+1h+4h tamamı BULL - maksimum HTF uyumu saglanmis",
+  "session_bias": "buy_sell_ratio=1.24 (alis baskili) + session delta=+287855 + fiyat VAL (64552) ustunde = gunluk alis dominansi cok acik",
+  "reasoning": "VAL ustunde kurumsal bid absorpsiyonu + 5 bardaki kumulatif pozitif delta + tum HTF bullish + session buy baskisi = net long sinyali, dusus tutunma noktasinda guclu destek var",
   "should_trade": "EVET",
-  "timestamp": "04:38:20"
+  "timestamp": "04:40:37"
 }
