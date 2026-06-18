@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 65698,
     "VAL": 64316,
     "VAH": 66916
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62725,
-  "tp1": 62450,
-  "tp2": 62200,
-  "stop": 62850,
-  "absorption": "Mevcut bar: düşük hacim (27) ama bid baskısı (22 vs 6) var - fiyat destek seviyesinde ASK absorption. Son 10 bardan bar 10'da (-127 delta) ve bar 3'te (-147 delta) güçlü satış baskısı gözlemleniyor. VAL (64316) altına doğru yönlenme başladı.",
-  "dom_observation": "DOM bid/ask ratio 0.66 (<0.7) - ASK agır, satış baskısı baskın. Emir defterinde ask_depth (76) > bid_depth (51) - satıcılar kontrol altında.",
-  "htf_alignment": "Tüm HTF (5m, 15m, 1h, 4h) BEAR trend gösteriyor - SHORT için mükemmel uyum.",
-  "session_bias": "Session delta -317391 (güçlü negatif), buy_sell_ratio 0.66 (<0.8) - satış dominansı net. Gun boyunca sell_volume (937514) >> buy_volume (620123), bearish momentum devam ediyor.",
-  "reasoning": "Tüm timeframelerde BEAR trend, session'da satış baskısı dominansı, VAL altında fiyat, ASK absorption + negatif CVD (-316501) ve DOM ask agır - net SHORT setup kurumsal satış baskısıyla onaylanmıştır.",
+  "confidence_score": 78,
+  "entry": 62741,
+  "tp1": 62650,
+  "tp2": 62500,
+  "stop": 62800,
+  "absorption": "Son 2 bardaki delta negatif (-11, -55) fakat fiyat orta seviyede sabit kalmis, satis baskisi emri yutuyor. Kurumsal satin alma desteği yok.",
+  "dom_observation": "Bid/Ask orani 1.09 (hafif alis baskisi) ancak ask hacmi balansta. Session'da ask dominantlığı (sell_vol 942660 vs buy_vol 621884) satis baskisini dogruluyor.",
+  "htf_alignment": "Mükemmel uyum: 5m BEAR, 15m BEAR, 1h BEAR, 4h BEAR - tüm zaman dilimleri aşağı yönlü",
+  "session_bias": "buy_sell_ratio 0.66 (<0.8) ve CVD -319886 - güçlü bearish momentum. Session delta -320776 satis hakimiyeti açık.",
+  "reasoning": "Negatif CVD, session sell dominantı (0.66 ratio), tüm HTF BEAR, fiyat VAL (64316) seviyesine test ediyorken ask absorption gösteriyor - düşüş trendi sürüyor.",
   "should_trade": "EVET",
-  "timestamp": "01:15:55"
+  "timestamp": "01:16:15"
 }
