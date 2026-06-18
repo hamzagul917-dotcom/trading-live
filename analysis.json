@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64565,
+  "entry": 64566,
   "tp1": 64620,
-  "tp2": 64680,
-  "stop": 64540,
-  "absorption": "VAL (64552) seviyesinde BID absorption gorulmektedir - fiyat 64565 ile VAL ustunde tutunmus, son 5 bar delta_sum=+1 ile negatiften pozitife donus basladi.",
-  "dom_observation": "DOM bid_ask_ratio=1.27 (>1.0) - alis baskisi net, bid derinligi (74) ask derinliginden (58) significantly yuksek.",
-  "htf_alignment": "5m BULL + 1h BULL + 4h BULL = 3/4 coklu bullish alignment. 15m BEAR uyumsuzlugu varsa da 1h/4h BULL dominant ozu guclu.",
-  "session_bias": "Session buy_sell_ratio=1.43 (>1.3) + gunluk session_delta=+152801 = NET BULLISH momentum, buy volume (504286) sell volume (351486) ustu baskin.",
-  "reasoning": "VAL seviyesinde negatif delta sonrasi pozitif donuse baslayan fiyat, bid absorption ile desteklenmis, multiframe bullish alignment + session buy dominansi ile confluence setup olusmustur.",
+  "tp2": 64700,
+  "stop": 64520,
+  "absorption": "Mevcut bar ve son 5 barlar negatif delta (-18 toplam) goruntulmesine ragmen fiyat VAL (64552) uzerinde stabilize olmus, bid absorption sinyali verir: kurumsal alici emri yutuyor.",
+  "dom_observation": "Bid/Ask ratio 2.57 - guclu alis baskisi, bid derinligi (156) ask derinliginin (61) 2.5 katı, talep yuksek.",
+  "htf_alignment": "15m/1h/4h BULL trend, sadece 5m BEAR - 3/4 timeframe bullish, HTF uyum basarili.",
+  "session_bias": "Session delta +152260 ve buy/sell ratio 1.43 (>1.3) = gunluk alis dominansi, fiyat VAL uzerinde = bullish momentum.",
+  "reasoning": "Negatif delta absorption + strong bid depth + bullish HTF + session buy dominant + fiyat VAL support uzerinde = erken long entry icin ideal Axia setup.",
   "should_trade": "EVET",
-  "timestamp": "02:49:02"
+  "timestamp": "02:50:20"
 }
