@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "65698",
-    "VAL": "64316",
-    "VAH": "66916"
+    "vPOC": 65698,
+    "VAL": 64316,
+    "VAH": 66916
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62779",
-  "tp1": "62748",
-  "tp2": "62700",
-  "stop": "62820",
-  "absorption": "Ask absorption VAH altinda gozlenmedi, ancak satis baskisi dominant - session boyunca sell volume (829846) buy volume'u (552790) %50 oraninda asıyor.",
-  "dom_observation": "Bid/Ask ratio 0.83 - ask derinligi (61) bid derinligini (51) asıyor, satis baskisi belirgin.",
-  "htf_alignment": "5m BEAR + 15m BEAR (2/3 uyum) - ancak 1h BULL yapı güveni azaltıyor. 4h BEAR ile 5m+15m+4h concordance yapısı SHORT için destek veriyor.",
-  "session_bias": "Buy/Sell ratio 0.67 - gün boyunca satis baskisi net kurumsal short pozisyonu işaretliyor. Session delta -277056 agır bearish.",
-  "reasoning": "Session delta -277056 + ask depth dominansi (0.83 ratio) + 5m/15m/4h bear alignment + last_bar negatif delta (-22) + 5bar sum delta negatif (-94) = kurumsal satış baskısı clear, VAL seviyesinden kıpırdamaz isen short setup.",
+  "confidence_score": 72,
+  "entry": 62796,
+  "tp1": 62748,
+  "tp2": 62700,
+  "stop": 62850,
+  "absorption": "Son 10 bardaki pattern incelendiginde: bar 9'da (-127 delta, 371 vol) guclu satis baskisi gorulmus, bar 8'de (+106 delta) alis cevabi geldi ancak fiyat ilerleme gerceklestirilemedi - ASK ABSORPTION sinyali. Mevcut bar negatif delta (-18) ile kapanmistir.",
+  "dom_observation": "bid_ask_ratio 0.68 (<0.7) - SATIS BASKISI ARTIYOR. Ask depth (68) bid depth'ten (47) onemli ölcude yuksek, satis tarafina agir baski var.",
+  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR - 3/4 timeframe bearish. SHORT icin yeterli alignment mevcuttur.",
+  "session_bias": "Session delta -280262, buy_sell_ratio 0.67 (<0.8) - GUCLU SATIS DOMINANSI. Satis hacmi (840281) alis hacminin (560019) %50 fazla, gun boyunca satis baskisi onemli.",
+  "reasoning": "Cumulative CVD -279372 + session sell dominansi (0.67 ratio) + DOM ask agir (0.68 ratio) + HTF 3/4 bearish + son barlar ASK absorption pattern (delta negative ama fiyat resistance'ta) = SHORT SETUP.",
   "should_trade": "EVET",
-  "timestamp": "01:12:04"
+  "timestamp": "01:12:45"
 }
