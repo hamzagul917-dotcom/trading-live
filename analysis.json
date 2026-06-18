@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64680",
-  "tp1": "64750",
-  "tp2": "64850",
-  "stop": "64620",
-  "absorption": "Son 5 bardaki delta toplamı -4 (nötr) iken fiyat VAL üstünde (64680) tutunuyor - bid baskısı altında absorption gözleniyor, kurumsal alış emri yutuluyor.",
-  "dom_observation": "Bid/Ask oranı 0.71 (satis baskisi görülüyor) ancak current bar'da ask_vol=33, bid_vol=9 ile net alış dominasyonu var - akışkan emrin alındığının işareti.",
-  "htf_alignment": "Tüm HTF timeframeler (5m, 15m, 1h, 4h) BULL - mükemmel uyum, BUY sinyalini güçlendiriyor.",
-  "session_bias": "Buy/Sell oranı 1.33 (1.3 üstünde), session delta +277555 ve session buy_volume dominant (1.1M vs 839K) - güçlü kurumsal alış momentumu.",
-  "reasoning": "CVD divergence + session buy dominant + HTF fully bullish + current bar bid absorption + VAL üstünde fiyat tutunması net BUY sinyali vermektedir.",
+  "confidence_score": 72,
+  "entry": 64656,
+  "tp1": 64708,
+  "tp2": 64750,
+  "stop": 64620,
+  "absorption": "BID tarafinda guclu absorption gorulmektedir: 9 bars oncesi -73 delta ile 115 hacim + 94 bid volume ile satis baskisina ragmen fiyat dusmedi, sonrasinda delta_sum_5bars +26 ile pozitif donuse geciş yapildi. Mevcut bar delta=+1 ile alis baskisi devam ediyor.",
+  "dom_observation": "DOM bid_ask_ratio=1.62 (>1.5) - guclu alis baskisi, emir defterinde bid tarafinda 80 contract vs ask 49 contract ile buyucu dominansi net.",
+  "htf_alignment": "Tum zaman dilimleri BULL (5m/15m/1h/4h) - perfect HTF alignment, BUY sinyalinin guvenveriligini onemli ölcude artiyor.",
+  "session_bias": "buy_sell_ratio=1.33 (>1.3) + fiyat 64669 VAL(64552) ustunde = gunluk BULLISH momentum confirmed, kurumsal alis toplama sureci aktif.",
+  "reasoning": "VAL desteginde BID absorption + positive delta reversal + HTF bullish alignment + DOM bid dominance + session buy ratio 1.33 = net Axia LONG setup, CVD negatif ama delta_sum_5bars pozitif donuse isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "03:30:36"
+  "timestamp": "03:33:22"
 }
