@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64522,
-  "tp1": 64480,
-  "tp2": 64420,
+  "entry": 64542,
+  "tp1": 64500,
+  "tp2": 64450,
   "stop": 64560,
-  "absorption": "Mevcut bar: Minimum volume (1 contract) ile fiyat 64522'de sabitlenmiş, satış baskısı (bid_vol=1, ask_vol=0) devam ediyor. Son 5 bar delta toplamı -40 (strong bearish), son 2 bar delta toplamı +27 ama 5 bar ortalamasında net negative. VAL (64552) seviyesine yakın position, ASK absorption sinyali mevcut.",
-  "dom_observation": "Bid/Ask ratio 0.64 (<0.7) - satis baskisi dominan, ask depth (89) bid depth'ten (57) %.56 daha agir, satis tarafinda onemli baski kumesi mevcut.",
-  "htf_alignment": "5m/1h BEAR, 15m/4h BULL - Mixed sinyal ancak intraday (5m) ve medium-term (1h) BEAR dominant, immediate trend SHORT icin destekleyici, confidence azaliyor.",
-  "session_bias": "Buy/Sell ratio 1.26 (alis baskili görünse de) CVD -2.47M (massif satış biriktirmesi), session delta +264K ama bu erken saat verisi, cumulative satış baskisi cok guclü.",
-  "reasoning": "Absorption + DOM ask agir + CVD deep negative + intraday BEAR, fakat mixed HTF ve session buy ratio yüksek olması confidence azaltır; 64522 aktuel seviye VAL yakını, satış tarafında risk/reward uygun.",
+  "absorption": "Guclu bid absorption VAL seviyesinde: son 10 bardaki ardisik negatif deltalar (-5,-15,-8,-13,-3,-6,-11) fiyatin VAL'dan asagi hareket etmesini engelliyor, kurumsal satis baskisini gosteriyor.",
+  "dom_observation": "DOM'da kritik imbalance: bid_depth 652 vs ask_depth 56 (ratio 11.55) normali asmis gibi gorunse de, current_bar'da ask_vol (148) bid_vol'u (17) 8.7x asıyor - buyuk kotu satislar meydanda.",
+  "htf_alignment": "Zayif uyum: 5m BEAR + 1h BEAR ⚠ vs 15m BULL + 4h BULL - buyuk timeframeler hala bullish ama kisa timeframe bearish baski gosteriyor.",
+  "session_bias": "Gun guncumuz bullish: buy_sell_ratio 1.29 (yuksek) ve session delta +302596 pozitif, ancak CVD -2.4M derinliginde ve divergence TRUE = gizli kurumsal short pozisyon olusturuluyor.",
+  "reasoning": "CVD divergence + ardisik negative deltas + VAL'da bid absorption + 5m/1h BEAR = kurumsal satislar momentum yukseliyor, kirilim VAL'in altina karsi short setuplaniyor.",
   "should_trade": "EVET",
-  "timestamp": "04:12:19"
+  "timestamp": "04:15:08"
 }
