@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63927,
-  "tp1": 63800,
-  "tp2": 63700,
-  "stop": 63950,
-  "absorption": "Mevcut barında düşük hacim (15) ve pozitif delta (9) ile fiyat 63927'de sabitleniyor - baskın satış baskısı altında alis emri absorpsiyonu gözleniyor.",
-  "dom_observation": "DOM bid/ask oranı 0.58 (ask ağır) - net satış baskısı, ask derinliği (75) bid derinliğinden (44) önemli ölçüde yüksek.",
-  "htf_alignment": "1h ve 4h BEAR, 5m-15m BULL fakat HTF uyumsuzu var. Ancak güçlü session-level satış baskısı (buy/sell: 0.78) HTF bullish'ı zayıflatıyor.",
-  "session_bias": "Session delta -2.13M (güçlü bearish), buy/sell oranı 0.78 (<0.8 = bearish momentum), fiyat fiyat VAH (65796) çok altında işlem görüyor.",
-  "reasoning": "Negatif CVD (-4.8M) + session sell dominansı (0.78 ratio) + ask ağır DOM (0.58 ratio) + mevcut absorption pattern (düşük hacimde fiyat sabitlenmesi) = kurumsal satış setup.",
+  "entry": 63935,
+  "tp1": 63850,
+  "tp2": 63750,
+  "stop": 63960,
+  "absorption": "Son 10 bardaki 7-8 barda pozitif delta + ask_vol agir (319,212,120,100,68) olmasina ragmen fiyat 63943'ten 63935'e deginmis = ask absorption. Kurumsal satici emri yutuyor.",
+  "dom_observation": "bid_ask_ratio 0.55 (<0.7) = satis baskisi dominan, ask_depth (93) bid_depth (52)'nin 1.79x yukarisi, DOM'da net satis baskisi.",
+  "htf_alignment": "5m/15m BULL vs 1h/4h BEAR = uyumsuzluk var. Ancak 4h bias + session sell dominant + CVD -4.8M = HTF BEAR lehine.",
+  "session_bias": "buy_sell_ratio 0.78 (<0.8) + session delta -2.13M + sell_volume (9.5M) buy_volume'u (7.4M) basiyorsa = net session BEARISH momentum.",
+  "reasoning": "Ask absorption (delta+ ama fiyat aynı kaliyor) + DOM satis baskisi (ratio 0.55) + session sell dominantligi (ratio 0.78) + HTF 1h/4h BEAR + negatif CVD = BEARISH price action.",
   "should_trade": "EVET",
-  "timestamp": "07:17:20"
+  "timestamp": "07:18:01"
 }
