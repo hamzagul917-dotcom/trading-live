@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64627,
-  "tp1": 64700,
-  "tp2": 64750,
-  "stop": 64600,
-  "absorption": "Son 5 barda delta -39 ile negatif baski varken, possible_absorption=true ve bid depth (71) > ask depth (66) ile bid agir, fiyat VAL ustu tutunuyor - buyucu emri yutulması durumu",
-  "dom_observation": "bid_ask_ratio 1.08 ile alis baskisi, bid depth 71 vs ask depth 66 - buyucu kontrol sinyali",
-  "htf_alignment": "5m BEAR ama 15m/1h/4h BULL - 3/4 timeframe bullish, HTF uyum KUVVETLI",
-  "session_bias": "buy_sell_ratio 1.32 (>1.3) + fiyat VAL (64552) ustunde = BULLISH momentum devam",
-  "reasoning": "VAL desteginde BID absorption (delta negatif ama fiyat direnisli) + yuksek HTF bullish bias + session buy dominant - erken uzun pozisyon almasi icin setup hazir",
+  "entry": 64589,
+  "tp1": 64552,
+  "tp2": 64480,
+  "stop": 64610,
+  "absorption": "Son 10 bardaki serisel negatif deltalar (-32, -18, -4, -5) ve mevcut bar pozitif deltası (13) ile birlikte possible_absorption=true, fiyat VAL seviyesine yakın ve ASK absorption işareti gösteriyor. Kurumsal satıcılar yüksek fiyatlarda emri yutuyor.",
+  "dom_observation": "bid_ask_ratio=0.98 (yakin denge) ancak last_10_bars'da bar 7'de bid baskısı (52 vs 20 ask) ve bar 3'de (29 bid vs 5 ask) net satis baskisi gozleniyor. Mevcut bardaki 22 ask vs 9 bid satis egilimini destekliyor.",
+  "htf_alignment": "5m+15m BEAR (2/3 bearish) - BUY icin yetersiz uyum. SHORT icin 5m+15m uyumlu. 1h+4h BULL uyumsuzlugu risk olusturuyor ancak lower timeframe dominans.",
+  "session_bias": "buy_sell_ratio=1.3 (alis baskisi) ancak session delta pozitif (272763) eski veriyi yansitabilir. Canlı mum ve son barlar satis baskisi goruntuluyorken, CVD deep negatif (-2462890) kurumsal satis egilimine isaret ediyor.",
+  "reasoning": "CVD divergence (negatif CVD ama fiyat yuksekte) + Absorption (satis emri yutuluyor) + 5m/15m BEAR + VAL yakinligi + delta sequence negatife donus -> Kiri asagi kirilim tespit sinyali.",
   "should_trade": "EVET",
-  "timestamp": "03:35:22"
+  "timestamp": "03:43:32"
 }
