@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64292,
+  "entry": 64300,
   "tp1": 64200,
   "tp2": 64100,
-  "stop": 64320,
-  "absorption": "Son 10 bardaki +58 delta (bar 6) sonrasi koseli satislara (-81 delta, bar 9) gecis gozlenmis, fiyat VAL altinda (64552) hareket etmekte ve kurumsal emri yutan (absorption) red sinyal vermektedir.",
-  "dom_observation": "BID/ASK ratio 1.71 (bid agir gorunse de) mevcut bar'da ask dominansı var (2 ask vs 4 bid). Delta sum 5 bars -42 ile satis baskisi barizdir. Ask depth 50 vs bid depth 85 ancak dinamik order flow'un satisa donmesi net satış sinyali.",
-  "htf_alignment": "5m/15m/1h/4h tum timeframe'lerde BEAR uyumlu. HTF alignment mükemmel SHORT icin.",
-  "session_bias": "Session delta -34,198 ile guclu bearish. Buy/sell ratio 0.98 (satislar ust). Fiyat VAL (64552) altinda hareket ediyor = BEARISH acceptance.",
-  "reasoning": "CVD -2.7M eksi, delta_sum_5bars -42, HTF tum timeframeler BEAR, session buy_sell ratio <1.0, DOM bid-ask baskisinda dinamik satış, current bar'da negatif delta - tum Axia kriterleri SHORT setup'ını doğrulamaktadır.",
+  "stop": 64380,
+  "absorption": "Son 10 bardan bar 7'de ask dominantlı (109 ask, 51 bid) yuksek volume (160) ile pozitif delta (58) gorulmus, ancak sonrasında swift sell-off (-81 delta bar 10'da) ile absorption teyit edilmis - ask absorption pattern",
+  "dom_observation": "Bid/Ask ratio 0.75 (<0.7'ye yakin) = satis baskisi artiyor, ask depth (80) bid depth (60) uzerine baski kuruyor",
+  "htf_alignment": "Tum HTF timeframeler (5m/15m/1h/4h) BEAR - tam uyum var, SELL confidence yuksek",
+  "session_bias": "Session delta -38267 + buy_sell_ratio 0.98 (<1.0) = gunluk satis baskisi hakimdir, current bar fiyat VAL altında (64300 < 64552)",
+  "reasoning": "Tum HTF'ler bearish, DOM ask dominant, session sell baskili, ask absorption pattern (bar 7 sonrasi reversal), CVD -2773921 seviyesinde guclu negatif, last 5 bars delta -84 kumulatif = net SHORT setup Axia metodolojisine uygun.",
   "should_trade": "EVET",
-  "timestamp": "05:35:23"
+  "timestamp": "05:36:23"
 }
