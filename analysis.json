@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63954,
-  "tp1": 64552,
-  "tp2": 64932,
-  "stop": 63900,
-  "absorption": "Mevcut bar bid absorption - delta negatif (-4) ama fiyat VAL ustu kalmis, son 5 barda toplam delta pozitif (+118), kurumsal alis baskisi belirgini",
-  "dom_observation": "DOM ratio 0.75 - ask agir göründüğü halde bid hacmi yüksek kalıyor, minimu satıcılar karşılanıyor, absorption göstergesi",
-  "htf_alignment": "5m/15m/1h BULL uyumu tam - 4h BEAR olmasına rağmen intraday trend net bullish, micro timeframe entry için yeterli",
-  "session_bias": "Session delta negatif (-2.1M) ancak son 10 barın trend yukarı, buy_sell_ratio 0.78 satış baskılı görünse de mevcut momentum alıştır, rebound formasyonu",
-  "reasoning": "VAL üstünde bid absorption + son 5 bar pozitif delta + HTF 5m-15m-1h bullish uyumu = erken long setupu, kurumsal satış tamamlanıp alış başlama göstergesi",
+  "entry": 63935,
+  "tp1": 63892,
+  "tp2": 63850,
+  "stop": 63973,
+  "absorption": "Guclu CVD divergence: CVD -4.8M iken fiyat VAL altinda yapili, ask agir (4 vs 28 bid), session sell baskisi (0.78 ratio) ile uyumlu kurumsal satış absorpsiyonu tespit edildi.",
+  "dom_observation": "Bid/ask ratio 1.05 sag tarafta, fakat current bar ask vol minimal (4) vs bid heavy (28) = satis baskisi zayiflamasi ancak CVD negatifligi devam ediyor.",
+  "htf_alignment": "Partial conflict: 5m/15m/1h BULL ama 4h BEAR - HTF uyum zayif, buyuk trend bearish itme var.",
+  "session_bias": "Buy/sell ratio 0.78 + session delta -2.09M = guclü satis baskisi, VAL (64552) alti fiyat acceptance gösteriyor.",
+  "reasoning": "CVD divergence + session sell dominant + 4h BEAR bias + negative delta_last_bar + fiyat VAL altinda - kirilim alaninda kurumsal satış absorpsiyonu net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "07:19:11"
+  "timestamp": "07:28:31"
 }
