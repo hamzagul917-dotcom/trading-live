@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63920,
-  "tp1": 63868,
-  "tp2": 63800,
-  "stop": 63960,
-  "absorption": "Fiyat 63908-63927 aralığında küçük hacimle (6) hareket ederken, son 10 bar içinde büyük hacimli barlar (-39 delta, -18 delta) baskı göstermiş; kurumsal satış absorpsiyonu tespit edildi.",
-  "dom_observation": "DOM bid/ask oranı 1.3 ile ılımlı bid tarafı olmasına rağmen, session buy/sell oranı 0.76 ile net satış baskısı hakimdir.",
-  "htf_alignment": "5m BULL ancak 15m/1h/4h BEAR; çoğunluk BEAR yönünde, HTF uyumsuzluk vardır fakat gun bazında satış baskısı net.",
-  "session_bias": "Session delta -1844809 ile güçlü negatif, sell_volume 7.67M vs buy_volume 5.82M; buy_sell_ratio 0.76 < 0.8 kriterini sağlayarak BEARISH momentum gösterir.",
-  "reasoning": "Massive negatif session delta + ask absorption + VAH altında fiyat + 5m dışı HTF bear yöneliş + possible_absorption true + düşük cari bar deltası (4) önceki bar negatif deltası (-5) sonrası tersine dönüş yapmayan semptom = SHORT fiyatlandırması.",
+  "entry": 63884,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63950,
+  "absorption": "Fiyat VAL altinda (64552), gunluk -1.8M CVD ile guclu kurumsal satis baskisi vardir; bid_ask_ratio 1.25 ancak son barlar ask agirlasmaktadir (16 ask vs 55 bid gibi carkilik yok).",
+  "dom_observation": "Bid/ask orani 1.25 (orta), ancak son 4 bardaki ask/bid pattern: 16/55, 17/21, 49/13, 24/27 - satis baskisi toparlanmaya baslamistir.",
+  "htf_alignment": "TUM zaman dilimleri (5m,15m,1h,4h) BEAR - mukemmel short uyumu.",
+  "session_bias": "buy_sell_ratio 0.76 (satis dominant), gunluk delta -1.8M, VAL altinda fiyat = guclu bearish momentum.",
+  "reasoning": "Tum HTF bearish, session sell dominant, CVD deeply negative, fiyat VAL altinda rejection yapip, son barlar ask agirligini gostermektedir - clear SELL setup.",
   "should_trade": "EVET",
-  "timestamp": "06:37:18"
+  "timestamp": "06:37:58"
 }
