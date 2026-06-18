@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 65698,
-    "VAL": 64316,
-    "VAH": 66916
+    "vPOC": 63900,
+    "VAL": 62837,
+    "VAH": 64737
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62805,
-  "tp1": 62733,
-  "tp2": 62650,
+  "entry": 62823,
+  "tp1": 62805,
+  "tp2": 62770,
   "stop": 62870,
-  "absorption": "Son 10 bardaki -356 delta (10.bar) ve -127 delta (7.bar) ile kurumsal satis baskisi guclu, CVD -8874 negatif yonde devam ediyor, fiyat VAL seviyesine yaklasarak Rejection olusturuyor.",
-  "dom_observation": "Bid/Ask ratio 1.64 (bid agir) ancak current bar'da ask_vol:3 vs bid_vol:42 ile satis baskisi dominant, DOM uyumsuzlugu satis sinyali guclendirir.",
-  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BEAR - Conflicted, ancak shorterm (15m) ve longterm (4h) BEAR uyumu SHORT lehinedir.",
-  "session_bias": "Session delta -9764 ve buy_sell_ratio 0.92 (<1.0) guclu satis baskisini ispatliyor, gun boyunca akcilar sell dominant.",
-  "reasoning": "Kurumsal CVD -8874 ve son 10 barin net -356 delta ile satis dominant, fiyat VAL-vPOC arasinda Rejection pattern olusturuyor, 15m-4h BEAR align + session sell dominant + DOM ask baskisi SHORT setup'ini teyit ediyor.",
+  "absorption": "VAH ustu reddetme: fiyat 62823'te VAL seviyesine yakinken, session delta -172843 (guerte satis baskisi baskin), cvd_divergence=true kurumsal para satis yapiyor ancak mum kapanmasi yukarida kalmak istiyor - absorption sinyali.",
+  "dom_observation": "bid_ask_ratio=0.41 (<0.7) - ask depth 94 vs bid depth 39 = satis baskisi net baskin, satis emri defteri cilalanmiyor.",
+  "htf_alignment": "5m/15m/1h BEAR (3/3 uyum) + 4h BULL = HTF uyumsuzluk var ancak short-term 100% bearish consensus.",
+  "session_bias": "buy_sell_ratio=0.7 (<0.8) + session delta -172843 + sell_volume 568k > buy_volume 395k = gun boyunca agir satis baskisi, fiyat VAL altinda.",
+  "reasoning": "Guerte dominan satis baskisi (cvd -172843, ratio 0.7), ask depth ates halinde (94 vs 39), HTF 5m/15m/1h tam BEAR, delta_sum_5bars pozitif ama son bar -4 negatife donus + VAL seviyesinde rejection = erken short setup.",
   "should_trade": "EVET",
-  "timestamp": "01:00:13"
+  "timestamp": "01:06:28"
 }
