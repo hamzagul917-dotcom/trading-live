@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63958,
+  "entry": 63944,
   "tp1": 63890,
-  "tp2": 63800,
-  "stop": 64050,
-  "absorption": "CVD divergence aktif: -4.5M CVD negatif iken fiyat 63958'de dayaniyor, kurumsal satis baskisi gizli ama guclü.",
-  "dom_observation": "Bid/Ask ratio 1.28 - alis baskisi goruntu, ancak ask_vol dominansi (27 vs 4) mevcut bardaki satis kontrolünü gösteriyor.",
-  "htf_alignment": "Uyumsuzluk: 5m-15m BULL ancak 1h-4h BEAR - daha yuksek zaman dilimleri satis hakim, HTF rejection var.",
-  "session_bias": "Gun genelinde seller dominant: buy_sell_ratio 0.76 (<0.8), session delta -1.8M, 7.6M satis vs 5.8M alis - kurumsal satis imleri net.",
-  "reasoning": "CVD divergence + HTF 4h BEAR + session sell dominant + mevcut bar ask absorption (delta +23 ama minimal volume 30) = erken short setup; VAH 65795 direncinde kurumsal red ve gizli satis.",
+  "tp2": 63850,
+  "stop": 63965,
+  "absorption": "Fiyat 63935-63944 aralığında küçük hacimle (3 lot) ilerleyememektedir. Son 5 bardaki delta toplamı +3 (zayıf) olup, session delta -1.846M ile güçlü satış baskısı mevcuttur. Kurumsal absorpsiyon VAL seviyesi altında satıştır.",
+  "dom_observation": "Bid/Ask oranı 0.99 (neredeyse eşit) ancak session buy_sell_ratio 0.76 ile satış baskısı dominant. Ask derinliği (47) Bid derinliğine (46) çok yakındır, siyah mum başlangıcı.",
+  "htf_alignment": "15m/1h/4h BEAR trend karşısında 5m BULL zayıf. Üç zaman diliminde BEAR baskısı, BUY için HTF uyumu yeterli değil; SELL için ideal.",
+  "session_bias": "Buy/Sell oranı 0.76 (satış baskılı) + toplam session delta -1.846M = güçlü bearish momentum. Satılan hacim (7.68M) alınan hacmi (5.84M) net 2.84M fazla ile devam ediyor.",
+  "reasoning": "VAL altında possible_absorption=true + session satış baskısı (0.76) + 3 bardan itibaren negatif delta sıklığı + HTF bearish çoğunluk, kurumsal satış absorption sinyali vermiştir.",
   "should_trade": "EVET",
-  "timestamp": "06:38:37"
+  "timestamp": "06:39:18"
 }
