@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64442,
-  "tp1": 64350,
-  "tp2": 64250,
-  "stop": 64480,
-  "absorption": "Mevcut bar: negative delta (-2) + fiyat VAL seviyesinin altinda kaliyorsa absorption sinyali. Son 10 bar analizi: 9. bar (64460 close) pozitif delta (+16) ile yukseliste basarili oldu ancak 10. bar immediate rejection (-12 delta) gosterdi - kurumsal SHORT yapisi net.",
-  "dom_observation": "BID/ASK ratio 1.69 - alis baskisi var ancak session genelinde buy_sell_ratio 0.58 (kuvvetli satis dominasyonu). DOM ve session delta arasinda divergence: DOM bid ağır görünse de gunluk net satis baskisi bariz.",
-  "htf_alignment": "5m BEAR + 15m/1h/4h BULL = karışık sinyal. Fakat mevcut 5m trend BEAR ve session delta -2.7M = HTF 15m/1h/4h bullish bias'ine ragmen short momentum domalan. Risk var ama BEARISH setup net.",
-  "session_bias": "buy_sell_ratio 0.58 + cumulative delta -2.7M + sell_volume (6.5M) >> buy_volume (3.76M) = gunlu kuvvetli SATIS baskisi. Fiyat VAL'in altinda kaliyorsa kabul red sinyali.",
-  "reasoning": "CVD divergence true (fiyat/CVD ters yonde) + session sell dominant (0.58 ratio) + son bar rejection (-2 delta) + VAL alti kabul red = SHORT setup, HTF mixed olsa da intraday order flow bearish.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "64507",
+  "tp1": "64600",
+  "tp2": "64750",
+  "stop": "64450",
+  "absorption": "Mevcut bar'da +40 delta ile fiyat VAL (64552) uzerinde sabit tutunuyor, ask volumunun (62) bid volumunu (22) significantly asmasi buna ragmen fiyat direnci kirmada zorluk yasamasi =BID SIDE ABSORPTION.",
+  "dom_observation": "Bid depth (67) > Ask depth (60) ile bid/ask ratio 1.11 - alis baskisi net, acil satisi defteri daha hafif yapili, kurumsal alis kontrolu net.",
+  "htf_alignment": "5m+15m+1h+4h TUM BULL - maksimum HTF uyum, buyuk resim strongly bullish.",
+  "session_bias": "Buy/sell ratio 1.9 + session delta +12474 = guclü bullish momentum, gunun basinda kurumsal alis baskisi dominant.",
+  "reasoning": "Gunun basinda VAL seviyesi uzerinde positive delta absorption + 4TF bullish alignment + bid-heavy DOM yapisi + session buy dominance = net kurumsal long setupi, erken entry firsati.",
   "should_trade": "EVET",
-  "timestamp": "01:58:40"
+  "timestamp": "02:01:35"
 }
