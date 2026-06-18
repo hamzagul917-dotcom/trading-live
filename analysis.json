@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "63900",
-    "VAL": "62841",
-    "VAH": "64737"
+    "vPOC": 63900,
+    "VAL": 62841,
+    "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62753",
-  "tp1": "62711",
-  "tp2": "62680",
-  "stop": "62789",
-  "absorption": "Son 5 bardaki delta_sum -119 negatif, fiyat 62841 VAL seviyesinde direnc goruyorken absorption tespit edildi - satici baskisi gizli absorbe ediliyor.",
-  "dom_observation": "Bid/ask ratio 1.02 (esit basinci), ask depth 69 vs bid depth 70 - hafif satis baskisi baslangici.",
-  "htf_alignment": "5m/15m/1h/4h hepsi BEAR - maksimum HTF uyum SELL sinyali icin mevcut.",
-  "session_bias": "Session delta -431675 ve buy_sell_ratio 0.48 (0.8 alti) gunun tamaminda gucu satis tarafinda, bearish momentum hakimiyeti.",
-  "reasoning": "Gucu satis tarafinda gunun tamaminda (delta -431675, ratio 0.48), tum HTF barlari bearish, VAL seviyesinde fiyat reddedilmesi, son 5 bar negatif delta accumulation - yuksek kaliteli SHORT setupi.",
+  "confidence_score": 72,
+  "entry": 62757,
+  "tp1": 62650,
+  "tp2": 62500,
+  "stop": 62850,
+  "absorption": "Session boyunca yaygın satış baskısı, düşük buy_sell_ratio (0.5) ve negatif CVD (-411123) kurumsal satış akışını gösteriyor; mevcut bar pozitif delta (48) gösterse de 5-bar deltaları negatif (-76) ve fiyat VAH altında (current 62757 < VAH 64737) reddediliş işareti.",
+  "dom_observation": "DOM dengeli (bid_ask_ratio 1.05) ancak session büyük hacim satışlar tarafından yönetiliyor (ask_vol mevcut bardan 68 vs bid 20); piyasa yapıcılar satış tarafına yığılmış durumda.",
+  "htf_alignment": "Mükemmel uyum - 5m, 15m, 1h ve 4h tümü BEAR; güçlü düşüş trendi teyidi.",
+  "session_bias": "Şiddetli bearish bias: Günlük delta -411123, buy_sell_ratio 0.5 (ağır satış baskısı), satış hacmi (829576) alış hacminin (418453) 2x üstünde; fiyat VAH altında ACCEPTANCE (BEARISH) konumunda.",
+  "reasoning": "Tüm Axia kriterleri uyumlu: HTF 4/4 bear, session sell-dominant, CVD agresif negatif, fiyat VAH reddedişi, ask agir DOM - kurumsal satış akışı net ve istikrarlı.",
   "should_trade": "EVET",
-  "timestamp": "00:35:40"
+  "timestamp": "00:36:01"
 }
