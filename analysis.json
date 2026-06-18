@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63850,
-  "tp1": 63700,
-  "tp2": 63550,
-  "stop": 63950,
-  "absorption": "Mevcut bar: delta -9, ask_vol 1 vs bid_vol 10 = alis emri yutunuyor, fiyat dusmeyip yanında yatıyor (rejection belirtisi).",
-  "dom_observation": "bid_ask_ratio 1.71 (>1.5) = alis baskisi var ancak fiyat yukselemedi; son 10 barın delta ortalaması negatifte = saticilar kontrol ediyor.",
-  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR = 3/4 BEARISH, trend alignment zayif bullish.",
-  "session_bias": "Session delta -2097676 (güçlü negatif), buy_sell_ratio 0.79 (<0.8) = satis baskisi dominan, fiyat VAL (64552) altında konumlanıyor = BEARISH acceptance.",
-  "reasoning": "CVD -4.8M negatif + session sell dominant (0.79 ratio) + HTF 3/4 bearish + current bar rejection (alis/satis dengesizligi) + fiyat VAL altı = düşüş trendinin devamı ihtimali yüksek.",
+  "entry": 63900,
+  "tp1": 63950,
+  "tp2": 64020,
+  "stop": 63850,
+  "absorption": "Mevcut bar pozitif delta (10) ile kapanmis, son 5 bar toplam delta pozitif (33), ask agirlik (15 vs 5) fakat fiyat dirence yakın seviyelerde tutunuyor - erken bullish absorption sinyali",
+  "dom_observation": "DOM bid_ask_ratio 0.62 (ask agir) ancak son bar ask volume 15, bid volume 5 - satis baskisi var fakat limitledi, dengeleme trendinde",
+  "htf_alignment": "5m/15m/1h BULL (3/3 uyumlu), 4h BEAR - kisa vadeli bullish dominas, uzun vadede dikkat gerekli",
+  "session_bias": "Gunluk delta -2091102 (bearish) ancak buy_sell_ratio 0.79 satis baskili, fiyat VAL (64552) uzerinde bullish acceptance gorulmekte - session geneli satis agir ama mevcut momentum bullish",
+  "reasoning": "Kisa timeframelerde bullish confluence (delta pozitif, HTF 3/3 BULL, fiyat VAL uzerinde acceptance), ask absorption tespit edilmis, CVD divergence ve possible absorption negatif olmakla beraber delta_sum_5bars +33 ve son 2 barın pozitif deltası net bullish momentum işaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "07:53:18"
+  "timestamp": "07:54:58"
 }
