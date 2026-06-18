@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 63900,
     "VAL": 62841,
     "VAH": 64737
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 62753,
-  "tp1": 62650,
-  "tp2": 62550,
-  "stop": 62800,
-  "absorption": "ASK absorption yaşanıyor: Mevcut bar'da delta pozitif (+7) olmasına rağmen fiyat 62753'te kapanmış, yukarıya çıkamadı. Ask volume (14) bid volume (6)'yı baskılıyor.",
-  "dom_observation": "DOM ratio 0.53 (<0.7) - keskin satış baskısı, ask depth (81) bid depth (43)'ten 2 kat fazla. Satıcı kontrol açık.",
-  "htf_alignment": "5m/15m/1h BEAR (3/3) - güçlü bearish uyum. 4h BULL ise HTF uyumsuzluk riski yaratsa da intraday satış baskısı açık.",
-  "session_bias": "Session delta -398649, buy_sell_ratio 0.53 (<0.8) - agır satış dominasyonu. Fiyat VAL (62841) altında trend yapıyor = BEARISH acceptance.",
-  "reasoning": "CVD divergence + DOM ask baskısı + Session sell dominant + HTF intraday bearish + VAL altında fiyat = kurumsal short akışı net görülüyor, ask absorption'dan sonra düşüş bekleniyor.",
+  "entry": 62777,
+  "tp1": 62841,
+  "tp2": 63900,
+  "stop": 62750,
+  "absorption": "Mevcut bar ve son 5 bar pozitif delta (46) ile fiyat VAL seviyesinde support alıyor; possible_absorption=true ile kurumsal bid emri absorbe ediliyor",
+  "dom_observation": "DOM ratio 0.6 (ask agir) ancak son 10 bardaki delta_sum_5bars +46 ve mevcut barda ask_vol/bid_vol orani pozitif; emir defteri dengesiz ama lokomotif bid pressure",
+  "htf_alignment": "5m BULL + 15m BULL + 4h BULL (3/3 alignment), sadece 1h BEAR - kuvvetli bullish HTF uyumu",
+  "session_bias": "CVD -388408 (negatif) ancak gunluk buy_sell_ratio 0.54 ve session delta negatif FAKAT son 5 bar delta +46 ile kurumsal kapialis geri donuyor; erken long setup",
+  "reasoning": "VAL seviyesinde possible_absorption + delta_sum_5bars pozitif donuş + HTF 3/3 bullish + mevcut bardaki +9 delta = BID tarafinda kurumsal emri absorbe ediliyor, geri tepme için hazır",
   "should_trade": "EVET",
-  "timestamp": "00:41:55"
+  "timestamp": "00:47:09"
 }
