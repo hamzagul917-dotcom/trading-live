@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": "64932",
     "VAL": "64552",
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": "72",
-  "entry": "64291",
+  "entry": "64295",
   "tp1": "64235",
-  "tp2": "64150",
-  "stop": "64350",
-  "absorption": "Mevcut bar delta pozitif (+31) fakat fiyat VAL seviyesinin altinda hareketsiz kalmasi, ask volumu (49) bid volumune (18) karsi baskili olması ve DOM'da ask derinliği (119) bid derinligine (67) karsi ağır olmasi → ASK ABSORPTION tespit edilmiş, satış baskısı birikimi.",
-  "dom_observation": "DOM ratio 0.56 (<0.7 threshold) - güçlü satis baskisi. Ask derinliği bid'in 1.78x katı, satıcılar kontrol halinde.",
-  "htf_alignment": "5m/15m BULL fakat 1h/4h BEAR - HTF uyumsuzluk mevcut. SELL için 1h+4h bearish yeterli, confidence hafifletildi.",
-  "session_bias": "Session delta -150667 ve buy_sell_ratio 0.93 (<1.0) - gunun tamamında satış dominasyonu. Fiyat VAL (64552) altında dolandu, BEARISH momentum.",
-  "reasoning": "CVD divergence + possible_absorption + delta_sum_5bars negatif (-130) + DOM ask heavy (0.56) + session sell dominant (0.93) + fiyat VAL altında hareketsiz kalmasi = Kurumsal satış kümesi, kriptik short sinyali.",
+  "tp2": "64180",
+  "stop": "64320",
+  "absorption": "ASK absorption pattern: Mevcut bar'da düşük volume (26) ile fiyat stabilize olmuş (64300-64305 range), ancak negatif delta (-5) ve ask_vol (11) < bid_vol (16) gösteriyor - kurumsal satış baskısı var.",
+  "dom_observation": "bid_ask_ratio=0.58 (<0.7) = Kuvvetli satış baskısı, ask depth (128) bid depth (74) ile ağır ask tarafı baskın.",
+  "htf_alignment": "5m BULL uyumsuz, ancak 15m/1h/4h tümü BEAR - HTF net bearish setupı destekliyor (3/4 timeframe bearish).",
+  "session_bias": "buy_sell_ratio=0.93 (<1.0) + session delta negatif (-149124) + sell_volume (2274567) > buy_volume (2125443) = Günlük satış baskısı dominantı.",
+  "reasoning": "CVD divergence aktif (-2884777), HTF bearish (3/4), DOM ask agır (0.58), session sell dominant - fiyat VAL altında ve negatif delta pattern continuation yapıyor; kurumsal satış absorpsiyonu VAH reddetme işareti.",
   "should_trade": "EVET",
-  "timestamp": "05:48:59"
+  "timestamp": "05:49:39"
 }
