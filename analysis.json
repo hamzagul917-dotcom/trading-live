@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63707,
-  "tp1": 63550,
-  "tp2": 63400,
-  "stop": 63800,
-  "absorption": "Son 5 bardaki agir satis baskisi (-577 delta sum) fiyatin direncte yuttugu ancak yukselemeyen yapida absorption gorulmuyor, ancak ask depth (102) bid depth (42) ile net satis baskisi var.",
-  "dom_observation": "Bid/Ask ratio 0.41 - keskin satis baskisi, ask derinligi 2.4x bid derinliginden fazla, liquidation baskisi yuksek.",
-  "htf_alignment": "5m+15m+1h+4h tumu BEAR - tam HTF uyum, SHORT icin ideal.",
-  "session_bias": "Buy/Sell ratio 0.73 (<0.8) + session delta -2.494M (guclu satis) + sell_volume 9.2M vs buy_volume 6.7M = gun boyunca agir satis baskisi.",
-  "reasoning": "CVD -5.2M agir negatif + tum HTF BEAR + DOM ask baskili + delta_sum_5bars -577 + session satis hakimiyeti (0.73 ratio) = net SHORT setup, VAH ustunde rejection gorulmekte.",
+  "confidence_score": "72",
+  "entry": "63740",
+  "tp1": "63650",
+  "tp2": "63552",
+  "stop": "63800",
+  "absorption": "Son 5 bardaki delta toplami negatif (-58), fiyat 63743'ten 63740'a gerilemis, ask_vol/bid_vol dengesizligi (50/49) satis baskisini gosteriyor. VAL seviyesi (64552) uzerinde islem gorulmekte, fiyat aşağı yonlu reaksiyonlar veriyor.",
+  "dom_observation": "Bid/ask orani 0.58 ile satis baskisini guclu sekilde gosteriyor (1.0 altinda). Ask derinligi (75) bid derinliginden (43) cok daha yuksek, satis entikasyonu net.",
+  "htf_alignment": "5m BULL olmasina ragmen 15m, 1h ve 4h BEAR yonunde. HTF uyumu zayif, ancak 3 zaman dilimi bearish, 1 bullish - satis bias dominan.",
+  "session_bias": "Gunluk delta -2484796 (guclu satis), buy_sell_ratio 0.73 (satis agir), sell_volume > buy_volume oransal olarak belirgin. Session tamamiyla bearish karakterde.",
+  "reasoning": "CVD divergence + negatif session delta + ask agir DOM + 3 timeframe bearish bias + delta_sum_5bars negatif = net SHORT sinyali VAH altinda fiyat rejection.",
   "should_trade": "EVET",
-  "timestamp": "07:08:47"
+  "timestamp": "07:09:58"
 }
