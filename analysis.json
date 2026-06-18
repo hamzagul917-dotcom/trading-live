@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 62718,
-    "VAL": 61002,
-    "VAH": 64900
+    "vPOC": "62718",
+    "VAL": "61002",
+    "VAH": "64900"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62784,
-  "tp1": 62500,
-  "tp2": 61500,
-  "stop": 63100,
-  "absorption": "Son 10 bardaki buyuk hacim ve negative delta (-2682 bar 9) absorption ile VAH'a carpmis, fiyat asagi kapanmis - satis baskisi absorbe edildi.",
-  "dom_observation": "DOM bid/ask ratio 1.11 - hafif alis baskisi var ancak ask volumu (57) azalan trende eslik ediyor, global satis hakim durumda.",
-  "htf_alignment": "15m BEAR + 1h BEAR + 5m BULL = 2/3 bearish uyumlu, HTF SHORT konfirme ediyor.",
-  "session_bias": "Session delta -174637 (negatif), buy_sell_ratio 0.8 (<0.8 degil ama 1.0 alti) = gunun tamaminda net satis baskisi, fiyat VAH altinda.",
-  "reasoning": "CVD divergence aktif (-159382), session bearish, HTF 2/3 bear, VAH ustu rejected, delta_sum_5bars -112 negatif - kurumsal para satistaki absorption ile kalidir, VAL'a dogru kirilim beklenir.",
+  "confidence_score": "72",
+  "entry": "62800",
+  "tp1": "62600",
+  "tp2": "62300",
+  "stop": "63100",
+  "absorption": "Bar 8-9'da 40637 hacimle buyuk satış siddeti, fiyat 63786'dan 62338'e dusmustur - tipik kurumsal satış absorption.",
+  "dom_observation": "Bid/Ask ratio 0.93 (<1) - satis baskisi artiyor, ask derinligi bid'i ustunde.",
+  "htf_alignment": "15m ve 1h BEAR - HTF uyum iyi, 5m BULL ise kisa vadeli bozulma isareti.",
+  "session_bias": "Session delta -210791 (guclu negatif), buy_sell_ratio 0.79 (<0.8) - BEARISH momentum baskın.",
+  "reasoning": "CVD divergence + strong negative session delta (-210791) + recent 40K volume selloff absorption + 15m/1h BEAR trend + DOM satis baskisi + VAL altında fiyat hareketi = net kurumsal satış setup.",
   "should_trade": "EVET",
-  "timestamp": "01:23:08"
+  "timestamp": "01:23:27"
 }
