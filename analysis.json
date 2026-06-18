@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63901,
-  "tp1": 63840,
-  "tp2": 63795,
-  "stop": 63945,
-  "absorption": "Guclu satis baskisi: Session delta -1858790 ile deep negatif, buy_sell_ratio 0.76 (<0.8) belirgin satis dominansi, CVD -4594443 ile agir satici kurumsal baski gosteriyor.",
-  "dom_observation": "Bid/Ask ratio 3.03 (>1.5) ANCAK emir defterinde bid_depth (93) ask_depth (31) ile karsilastirildiktan sonra: ask agir durumda, cikis istegi yuksek.",
-  "htf_alignment": "Tum HTF timeframeler BEAR (5m/15m/1h/4h) - maksimum HTF uyum, satis icin ideal setup.",
-  "session_bias": "Gunluk buy_sell_ratio 0.76 + session delta -1858790 ile agir satis baskisi. Fiyat 63901 VAL (64552) ALTI KALMAKTADIR = Acceptance of Sellers.",
-  "reasoning": "Tum HTF bearish + derinlemesine satis delta (-1858790) + buy_sell_ratio 0.76 + fiyat VAL altinda Rejection + Son 10 bar içinde pozitif delta balansi sonrasi negatif delta gelis (delta_sum_5bars=-29) = kurumsal saticilar kontrolde, kirilim aşağı yonde.",
+  "confidence_score": "72",
+  "entry": "63897",
+  "tp1": "63750",
+  "tp2": "63600",
+  "stop": "63950",
+  "absorption": "Son 5 bar delta toplamı -37 (negatif baskı devam), current bar delta -1 ile bearish momentum korunuyor. VAH (65795) üzerinde fiyat kabul görmüyor.",
+  "dom_observation": "BID/ASK ratio 2.1 - bid ağır görünüyor fakat ask_depth 35 vs bid_depth 73 oranında satış baskısı artıyor. Net satis agirliginda isaret.",
+  "htf_alignment": "Tüm HTF timeframeler (5m, 15m, 1h, 4h) BEAR - mükemmel uyum. Satış sinyali için en az 2 BEAR gerekli, 4 tanesi var.",
+  "session_bias": "Session delta -1856036 (guçlu negatif), buy_sell_ratio 0.76 (<0.8 threshold) - satis hacmi dominantı. Fiyat VAL (64552) altında hareket ediyor = BEARISH acceptance.",
+  "reasoning": "Tüm HTF timeframeler BEAR, session satış dominantı (0.76), CVD şiddetle negatif (-4591689), DOM satış baskılı ve fiyat VAL altında reddediliyor - net short setup.",
   "should_trade": "EVET",
-  "timestamp": "06:31:00"
+  "timestamp": "06:32:40"
 }
