@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65796
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63740",
-  "tp1": "63650",
-  "tp2": "63552",
-  "stop": "63800",
-  "absorption": "Son 5 bardaki delta toplami negatif (-58), fiyat 63743'ten 63740'a gerilemis, ask_vol/bid_vol dengesizligi (50/49) satis baskisini gosteriyor. VAL seviyesi (64552) uzerinde islem gorulmekte, fiyat aşağı yonlu reaksiyonlar veriyor.",
-  "dom_observation": "Bid/ask orani 0.58 ile satis baskisini guclu sekilde gosteriyor (1.0 altinda). Ask derinligi (75) bid derinliginden (43) cok daha yuksek, satis entikasyonu net.",
-  "htf_alignment": "5m BULL olmasina ragmen 15m, 1h ve 4h BEAR yonunde. HTF uyumu zayif, ancak 3 zaman dilimi bearish, 1 bullish - satis bias dominan.",
-  "session_bias": "Gunluk delta -2484796 (guclu satis), buy_sell_ratio 0.73 (satis agir), sell_volume > buy_volume oransal olarak belirgin. Session tamamiyla bearish karakterde.",
-  "reasoning": "CVD divergence + negatif session delta + ask agir DOM + 3 timeframe bearish bias + delta_sum_5bars negatif = net SHORT sinyali VAH altinda fiyat rejection.",
+  "confidence_score": 72,
+  "entry": 63927,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63950,
+  "absorption": "Mevcut barında düşük hacim (15) ve pozitif delta (9) ile fiyat 63927'de sabitleniyor - baskın satış baskısı altında alis emri absorpsiyonu gözleniyor.",
+  "dom_observation": "DOM bid/ask oranı 0.58 (ask ağır) - net satış baskısı, ask derinliği (75) bid derinliğinden (44) önemli ölçüde yüksek.",
+  "htf_alignment": "1h ve 4h BEAR, 5m-15m BULL fakat HTF uyumsuzu var. Ancak güçlü session-level satış baskısı (buy/sell: 0.78) HTF bullish'ı zayıflatıyor.",
+  "session_bias": "Session delta -2.13M (güçlü bearish), buy/sell oranı 0.78 (<0.8 = bearish momentum), fiyat fiyat VAH (65796) çok altında işlem görüyor.",
+  "reasoning": "Negatif CVD (-4.8M) + session sell dominansı (0.78 ratio) + ask ağır DOM (0.58 ratio) + mevcut absorption pattern (düşük hacimde fiyat sabitlenmesi) = kurumsal satış setup.",
   "should_trade": "EVET",
-  "timestamp": "07:09:58"
+  "timestamp": "07:17:20"
 }
