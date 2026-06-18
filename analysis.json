@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63892,
-  "tp1": 63800,
-  "tp2": 63700,
+  "confidence_score": 72,
+  "entry": 63885,
+  "tp1": 63750,
+  "tp2": 63600,
   "stop": 63950,
-  "absorption": "Son 10 bardaki pattern: pozitif delta (bar 9: +16, vol:120) sonrasi ani negatife donus (bar 10: -5, vol:139) + ask agirlanma = ASK absorption, satiş baskisi guclu",
-  "dom_observation": "DOM ratio 1.73 (bid agir gorunmesine ragmen) ask_depth 39 vs bid_depth 67 oraninda dusus trendinde; bid/ask 5 bar ortalamasinda degradasyon: alis baskisi zayifliyor, satis baskisi artis egilimi",
-  "htf_alignment": "5m/15m/1h/4h TAMAMININ BEAR - muthis kuvvetli HTF uyumu SHORT icin",
-  "session_bias": "buy_sell_ratio 0.76 (<0.8 threshold) + session delta -1846274 + sell_volume dominasyon (7.6M vs 5.8M) = gunun tumunde bearish momentum, VAH ustunde fiyat yok (bullish acceptance yok)",
-  "reasoning": "Guclu BEAR HTF + negatif session delta + ASK absorption patterni + DOM zayiflamasi + CVD -4.5M = kurumsal satis baskisi acik, destekte kapanma sinyali icin SHORT setup ideal",
+  "absorption": "Ask absorption VAH altinda tespit edildi: Pozitif delta (67) fiyat direnci asiyorken yuksek ask volume (108) tarafindan emildi, kurumsal satis baskisi isaretliyor.",
+  "dom_observation": "DOM dengesi nispeten esit (ratio: 0.94) ancak ask depth (64) bid depth'i (60) ustun tutuyor - satis baski inisiyatifi gosteriyor.",
+  "htf_alignment": "5m, 15m, 1h ve 4h hepsi BEAR - tam HTF uyum mevcut, SHORT sinyali guclu onay aliyor.",
+  "session_bias": "Buy/sell ratio 0.76 (<0.8) + session delta -1.818M (guclu satis baskisi) + sell_volume buy_volume'u onemli oranda astı (7.7M vs 5.8M) - gunu BEARISH momentum hakim.",
+  "reasoning": "CVD divergence + possible absorption + tum HTF BEAR + session sell dominant + ask agir DOM = kurumsal short setup; mevcut 63885 ask absorption noktasından VAL (64552) altına donus beklenmektedir.",
   "should_trade": "EVET",
-  "timestamp": "06:39:59"
+  "timestamp": "06:40:39"
 }
