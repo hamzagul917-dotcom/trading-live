@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62778,
+  "entry": 62761,
   "tp1": 62650,
   "tp2": 62500,
   "stop": 62850,
-  "absorption": "Ask absorption VAH seviyesine yakın - fiyat direnç kıramamış, delta negatif kalmış",
-  "dom_observation": "Bid/Ask ratio 1.09 - hafif bid baskısı var ancak ask_vol son barında düşük (60), satış baskısı zayıflıyor göründü ama session sell dominant (0.67 buy_sell_ratio)",
-  "htf_alignment": "5m BEAR, 15m BEAR, 1h BULL, 4h BEAR - 3/4 bearish, alignment güçlü SHORT için",
-  "session_bias": "Buy/sell ratio 0.67 - satış hacmi dominan (%60 sell vs %40 buy), session delta -289534 güçlü satış baskısı, VAH altında fiyat = BEARISH momentum devam",
-  "reasoning": "Session'da güçlü satış baskısı (0.67 ratio), CVD -288644 negatif, delta_sum_5bars -107, son bar -35 delta ile kapanış, DOM bid_ask 1.09 zayıf, HTF 3/4 bearish - trend devam sinyali",
+  "absorption": "Session genelinde güçlü satış baskısı: sell_volume (885049) >> buy_volume (590702), buy_sell_ratio 0.67 < 0.8 eşiği, DOM'da ask_depth (77) >> bid_depth (38) ile bid_ask_ratio 0.49 < 0.7 = askı ağır satış baskısı. CVD -293457 ve son 5 bar delta -112 kümülatif negatif. Fiyat VAH (66916) altında rejection gösteriyor.",
+  "dom_observation": "Ask depth 77 vs Bid depth 38 (bid_ask_ratio 0.49): Satıcılar emir defterini kontrol ediyor, satis baskısı yüksek. Her bir bar'da ask volume >> bid volume pattern'i (örn: bar 0: 61 ask vs 101 bid dışında diğer barlar ask ağır).",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL + 4h BEAR: 3/4 zaman dilimi bearish, short sinyali için uyumlu (5m+15m+4h bear dominant)",
+  "session_bias": "buy_sell_ratio 0.67 < 0.8 = günlük satış baskısı dominant. Session delta -294347 güçlü negatif CVD ile confirmed. Fiyat VAH altında rejection gösteriyor = BEARISH acceptance.",
+  "reasoning": "Session-wide satış baskısı (0.67 ratio), DOM'da satis dominasyonu (0.49 ratio), kümülatif negatif delta (-293457 CVD, -112 son 5 bar), HTF 3/4 bearish alignment ve VAH altında rejection pattern = güçlü SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "01:13:45"
+  "timestamp": "01:14:07"
 }
