@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63742,
-  "tp1": 63650,
-  "tp2": 63550,
+  "confidence_score": 78,
+  "entry": 63727,
+  "tp1": 63600,
+  "tp2": 63450,
   "stop": 63800,
-  "absorption": "Current bar: delta pozitif (+23) ancak volume çok düşük (40), ask dominansı yok. Önceki 2 bar (-46, -395 delta) güçlü satış baskısı göstermişti - bu rebound satıcılar tarafından absorbe edildi.",
-  "dom_observation": "Bid/Ask Ratio 0.61 (<<0.7) - güçlü satış baskısı. Ask derinliği (72) bid derinliğinin (44) 1.64x fazlası. DOM açıkça satis dominasyonunu gösteriyor.",
-  "htf_alignment": "Tüm HTF timeframe'ler (5m, 15m, 1h, 4h) BEAR - mükemmel uyum. Kural 5 SELL kriteri sağlanıyor (3/3 BEAR).",
-  "session_bias": "Session delta -2.389M, buy_sell_ratio 0.73 (<0.8) - güçlü satış dominasyonu. CVD -5.125M ve delta_sum_5bars -611 - kurumsal satış baskısı devam ediyor.",
-  "reasoning": "Tüm Axia kriterleri SELL setup gösteriyor: BEAR HTF uyumu, DOM ask agir (0.61), session sell dominasyonu (0.73), CVD negatif, son 5 bar delta negatif (-611), mevcut bar rebound satıcılar tarafından absorbe edildi.",
+  "absorption": "Son 10 bardaki konsistent negatif delta (-644 sum 5bars, -10 current) fiyat direncte tutunamamasi = ask absorption, satis baskisi dominansi.",
+  "dom_observation": "bid_ask_ratio 0.54 (<0.7) = ask agir, satis baskisi artiyor. Ask depth 68 vs bid depth 37 = net short baskisi.",
+  "htf_alignment": "5m/15m/1h/4h tum BEAR = perfect HTF alignment SHORT icin. Confidence maksimum.",
+  "session_bias": "buy_sell_ratio 0.74 (<0.8) + session delta -2381253 + sell volume 9016274 >> buy volume 6635022 = gunluk net sell dominansi. Fiyat VAL 64552 alti degil ancak VAH 65795'ten cok uzak = bearish acceptance.",
+  "reasoning": "Konsistent negatif order flow (CVD -5.1M, delta_sum -644), ask depth dominansi, tum HTF BEAR, gunluk sell baskisi (0.74 ratio) ve dom ratio 0.54 ile net SHORT setup olusmuş; erken short entry VAL destegine kadar downside beklenir.",
   "should_trade": "EVET",
-  "timestamp": "07:06:26"
+  "timestamp": "07:07:06"
 }
