@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62798,
+  "entry": 62804,
   "tp1": 62757,
   "tp2": 62720,
   "stop": 62850,
-  "absorption": "YOK - Fiyat VAL seviyesine yakın, ask agır, absorpsiyon sinyali yok",
-  "dom_observation": "DOM oranı 0.42 (kritik düşük) - Ask volumü 85 vs Bid 35, güçlü satış baskısı var",
-  "htf_alignment": "Mükemmel - 5m/15m/1h/4h tamamı BEAR, kuvvetli HTF doğrulama",
-  "session_bias": "Güçlü bearish momentum - Buy/Sell ratio 0.5 (kritik düşük), session delta -338864, sell volume 683831 vs buy 344967",
-  "reasoning": "Session içinde ağır satış baskısı (0.5 ratio), tüm HTF seviyelerinde BEAR, DOM'da ask hakimiyeti (0.42), CVD negatif (-338864) ve son 5 bar delta negatif (-56) - net SHORT setupu",
+  "absorption": "YOK - Kurumsal satis baskisi devam ediyor, absorption tespit edilmemiştir",
+  "dom_observation": "Bid/Ask orani 1.13 - alis baskisi hafif varsa da, session boyunca sell_volume (686599) buy_volume (346978) nin 2 katı, Ask derinliği (56) stabil, satis baskisi net hakimdir",
+  "htf_alignment": "Tum timeframelerde BEAR uyumu mevcut (5m/15m/1h/4h) - SHORT icin ideal koşullar",
+  "session_bias": "buy_sell_ratio 0.51, session delta -339620 - guçlu bearish momentum, VAL (62841) alti hareket ile satış acceptance devam etmektedir",
+  "reasoning": "CVD -339620 ile guçlu negatif, delta_sum_5bars -53, HTF tum timeframelerde BEAR, fiyat VAL altında reject edilmiş, DOM ask agir, session satis dominantı - net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:29:32"
+  "timestamp": "00:29:52"
 }
