@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63927",
-  "tp1": "63840",
-  "tp2": "63700",
-  "stop": "63990",
-  "absorption": "VAH seviyesinde ASK absorption tespit edildi: Son 5 bardaki delta +123 (pozitif) fakat fiyat 64080'den 63961'e geriledi, kurumsal satis baskisini gosteriyor.",
-  "dom_observation": "BID/ASK orani 1.79 (alis baskisi gorunse de) fakat absolute ask_depth 36 ile shallow, saticilar zaiflesmiyor. Bid agirlik yaniltici olabilir.",
-  "htf_alignment": "Tum zaman dilimleri BEAR (5m/15m/1h/4h), SHORT icin ideal HTF uyumu saglanmis.",
-  "session_bias": "Session delta -1873061 ve buy_sell_ratio 0.75 (satis baskisi dominans). Fiyat VAL 64552 altinda, BEARISH momentum net.",
-  "reasoning": "CVD divergence aktif (-4608715), VAH reddedildi, pozitif delta-5bar sonrasi fiyat dusuyor, HTF full BEAR, session sell dominant = Axia SHORT setup.",
+  "confidence_score": 72,
+  "entry": 63964,
+  "tp1": 63840,
+  "tp2": 63750,
+  "stop": 64020,
+  "absorption": "Mevcut bar: delta +27 (pozitif) ancak fiyat 63964'te sıkışmış, ASK absorption belirtisi. Son 5 bar delta toplamı +299 (bullish görünüm) ama CVD kümülatif -4,596,949 ile MASIF negatif kurumsal baski, fiyat henüz düşüş yapamamış = gizli SHORT hazırlanması.",
+  "dom_observation": "BID/ASK oranı 1.13 (hafif bid agır) ama session buy_sell_ratio 0.75 ile net SELL dominasyonu; ask_depth 45 vs bid_depth 51 dengesiz yapı",
+  "htf_alignment": "HTF UYUMSUZLUK: 5m BULL ama 15m/1h/4h BEAR; 3-1 BEAR ağırlığı SHORT senaryosunu destekliyor",
+  "session_bias": "Session delta -1,861,296 (kuvvetli BEARISH), buy_sell_ratio 0.75 (<0.8 threshold) + sell_volume (7.5M) >> buy_volume (5.6M) = NET SATIŞ BASKISI",
+  "reasoning": "Pozitif barlar ve delta toplamına rağmen, CVD divergence (fiyat stabil, CVD düşük) + session net bearish delta + ASK absorption + HTF 3-1 BEAR uyumu = kurumsal SHORT pozisyon hazırlanması, kırılımdan kaçın.",
   "should_trade": "EVET",
-  "timestamp": "06:23:05"
+  "timestamp": "06:25:36"
 }
