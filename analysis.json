@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64473,
-  "tp1": 64420,
-  "tp2": 64350,
-  "stop": 64510,
-  "absorption": "Son 10 bardaki konsistent negatif delta (-13, -91, -5, -15, -8, -13, -3, -6) ile bid/ask baskısı kombinasyonu gösteriyor ki satıcılar tarafında absorption gerçekleşiyor, fiyat VAL seviyesinde direnç gösteriyor.",
-  "dom_observation": "Bid/Ask oranı 1.54 alis baskisi gösterse de, son barların ask volumü (5 birim) bid'i (18 birim) görmezden gelemiyor; CVD divergence tarafından satış baskısı doğrulanıyor.",
-  "htf_alignment": "5m/15m/1h BEAR uyumu mükemmel, 4h BULL uyumsuzluğu kısa vadeli satış sinyalini zayıflatsada, 3/4 timeframe bearish.",
-  "session_bias": "Session delta +231956 (Buy dominant 1.21 ratio) seçim görse de, CVD -2.5M'ye düşmüş ve divergence true; kurumsal para satış tarafında gizlice hareket ediyor.",
-  "reasoning": "CVD divergence + negatif delta succession + VAL rejection + 3/4 HTF BEAR uyumu + DOM satış baskısı, klasik erken SHORT setupi oluşturuyor.",
+  "entry": 64602,
+  "tp1": 64650,
+  "tp2": 64700,
+  "stop": 64580,
+  "absorption": "Possible absorption aktif: Son 5 bardaki delta_sum (65) pozitif, current bar delta (9) pozitif, fiyat VAL seviyesine yakın ancak ilerleyemiyor - kurumsal alıcılar emri yutmaya başladı.",
+  "dom_observation": "Bid/Ask ratio 1.37 (bid ağır) - alış baskısı güçlü, ask derinliği satış baskısını zayıf tutmakta.",
+  "htf_alignment": "5m BULL + 15m BULL + 4h BULL (3/4 tutarlı), sadece 1h BEAR - çok güçlü bullish uyum.",
+  "session_bias": "Buy/sell ratio 1.22 (bullish), session delta +248059 (güçlü satın alma baskısı), buy volume dominans net.",
+  "reasoning": "VAL seviyesinde possible absorption + pozitif delta stream + güçlü DOM bid baskısı + 3x4 HTF bullish uyum = kurumsal long setup teyidi.",
   "should_trade": "EVET",
-  "timestamp": "04:16:29"
+  "timestamp": "04:22:08"
 }
