@@ -1,22 +1,22 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64650",
-  "tp1": "64700",
-  "tp2": "64750",
-  "stop": "64620",
-  "absorption": "Son 5 bar delta sum pozitif (8), son bar delta pozitif (7), ask_vol dominasyon (12 vs 5 bid), CVD divergence gizli alici baskisini isaret ediyor - alim absorpsiyonu VAL seviyesine yakin.",
-  "dom_observation": "Bid/ask ratio 1.16 (>1.0) - alis baskisi bariz, bid_depth (66) ask_depth'den (57) fazla, alici dominasyon net.",
-  "htf_alignment": "15m/1h/4h BULL (3/3), 5m BEAR - net uyum 75% BULLISH, HTF trendine uygun.",
-  "session_bias": "Buy/sell ratio 1.23 (>1.2) + session delta +280973 (guclu pozitif) + buy_volume dominasyon (1.48M vs 1.20M) - gun boyunca kurumsal alis baskisi bariz.",
-  "reasoning": "VAL seviyesinde bid absorption (delta pozitif, fiyat sabit kalti), session alici dominansi + HTF bullish bias + CVD divergence erken long sinyali veriyor, 64650 support kirilamadi.",
+  "confidence_score": 72,
+  "entry": 64663,
+  "tp1": 64932,
+  "tp2": 65795,
+  "stop": 64552,
+  "absorption": "Son 10 bardaki negatif deltalar (bar 10: -28, bar 9: -10, bar 3: -16) fiyat VAL seviyesinde tutunurken emilmiş, kurumsal alış baskısını gizleme sinyali. CVD divergence ile paralel olarak session buy_sell_ratio 1.23, günlük net delta 281384 pozitif.",
+  "dom_observation": "DOM ratio 0.67 (ask agir görünse de) ancak bid_depth 53 satis icin yeterli. Son bardaki 6 ask/1 bid ekstrem alış baskısı absorption konfirme ediyor.",
+  "htf_alignment": "15m/1h/4h BULL consensus (5m BEAR minor) - BUY criteria karşılandı. HTF uyum güçlü.",
+  "session_bias": "Buy volume 1484352 vs sell 1202968, ratio 1.23 = net alis dominant. Fiyat VAL ustu (64663 > 64552) + session buy pressure = bullish momentum.",
+  "reasoning": "Negatif delta absorption + VAL support + CVD divergence + session buy dominance + HTF bullish consensus, Axia Kural 2,3,6 trigger - early long setup kurumsal emilim ile.",
   "should_trade": "EVET",
-  "timestamp": "04:35:51"
+  "timestamp": "04:36:31"
 }
