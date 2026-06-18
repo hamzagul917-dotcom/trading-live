@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62757,
+  "entry": 62747,
   "tp1": 62650,
-  "tp2": 62550,
+  "tp2": 62500,
   "stop": 62850,
-  "absorption": "Session delta -298369 ile guclu satis baskisi, bid_ask_ratio 0.39 (<0.7) ask agirligini ispatliyor, CVD -297479 ile downtrend rekaydediliyor.",
-  "dom_observation": "DOM bid_ask_ratio 0.39 - ciddi satis baskisi, ask_depth 96 bid_depth 37'yi coklugunu gosteriyor, kurumsallar satisacı tarafinda konsantre.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR - 3 zaman dilimi bearish, 1h BULL'a ragmen trend uyumu guclu BEARISH yonde.",
-  "session_bias": "buy_sell_ratio 0.67 (<0.8) + sell_volume 895241 >> buy_volume 596872 - gunluk momentum net bearish, satis hakimiyeti net.",
-  "reasoning": "Guclu satis baskisi (CVD negatif, DOM ask agir, session sell dominant), bearish HTF uyumu ve negatif delta sonrasi askaida karara almasi short setup olusturuyor.",
+  "absorption": "Session delta -300072, buy_sell_ratio 0.67 (satis baskisi dominant), DOM ask_depth 71 > bid_depth 41 (ask agir), CVD -299183 (kuvvetli kurumsal satis), delta_sum_5bars -116 (tutarli negatif delta).",
+  "dom_observation": "DOM bid_ask_ratio 0.58 (<0.7) - ask agir, satis baskisi artiyor. 2 ardisik negative bar (-44 delta, -147 delta) satis motivasyonunu gosteriyor.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR (3/3 bearish) = guclu bearish uyum. 1h BULL tek kaldi, overridden.",
+  "session_bias": "buy_sell_ratio 0.67 (<0.8), sell_volume 899504 >> buy_volume 599432 - session boyunca kuvvetli satis baskisi. Fiyat VAL (64316) uzakta, VAH (66916) uzakta, ancak momentum aşağı yonde.",
+  "reasoning": "Guclu kurumsal satis (CVD -299k), tutarli negatif delta (-116 son 5bar), ask agir DOM (ratio 0.58), 3/3 HTF bearish alignment, session sell dominant (ratio 0.67) - tetiklenmiş aşağı yönlü setup.",
   "should_trade": "EVET",
-  "timestamp": "01:14:27"
+  "timestamp": "01:14:48"
 }
