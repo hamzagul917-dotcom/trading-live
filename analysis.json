@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62841,
-    "VAH": 64737
+    "vPOC": "63900",
+    "VAL": "62841",
+    "VAH": "64737"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62780,
-  "tp1": 62733,
-  "tp2": 62711,
-  "stop": 62810,
-  "absorption": "Son 5 bardaki strong negative delta (-77, -42 bardalar) ile rağmen fiyat 62780-62793 arasında tutuluyor = Ask absorption sinyali. Kurumsal satış baskısı fiyatı baskılamaya çalışıyor.",
-  "dom_observation": "DOM bid_ask_ratio=0.97 (<1.0) satis baskisi basliyor, ask depth (54) bid depth (53)' e esittir, dengeleme asamasi.",
-  "htf_alignment": "15m BEAR + 1h BEAR + 5m BULL = 2/3 bearish, HTF short icin uygun ancak partial conflict.",
-  "session_bias": "Session delta -399396 ve buy_sell_ratio 0.52 = guclu satis baskisi. Gun boyunca saticilar kontrol sahibi.",
-  "reasoning": "Kurumsal absorption (yuksek volume + fiyat hareketsiz) + negative cumulative delta + session sell dominant + VAL seviyesine yakin fiyat = erken short setup.",
+  "confidence_score": "72",
+  "entry": "62780",
+  "tp1": "62733",
+  "tp2": "62711",
+  "stop": "62813",
+  "absorption": "Son 10 barda +51 delta (bar 4) sonrasi guclu negatif deltalar (-77, -42, -13, -9, -4) gozlenmis, fiyat 62780'de sabitlenirken ask volume hala yuksek (24) - kurumsal satis absorption'u net gorunuyor.",
+  "dom_observation": "bid_ask_ratio 0.73 (<0.7 seviyesine yakin) - ask derinligi (65) bid derinliginden (48) belirgin fazla, satis baskisi artiyor.",
+  "htf_alignment": "5m BULL ama 15m+1h BEAR (2/3 bearish) - HTF uyum zayif, ancak intraday satis setup'i destekliyor.",
+  "session_bias": "buy_sell_ratio 0.52 (hawayiz), session delta -398881 (guclu satis baskisi), sell_volume (836k) buy_volume'nin (437k) 1.9x ustu - gun boyunca kurumsal satis dominasyonu.",
+  "reasoning": "Fiyat VAL (62841) altinda, negatif CVD (-398881), ask absorption, dom satis agir ve session sell dominant - SHORT kurumsalca desteklenmiş bearish setupdir.",
   "should_trade": "EVET",
-  "timestamp": "00:38:27"
+  "timestamp": "00:38:47"
 }
