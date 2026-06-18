@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63840,
-  "tp1": 63750,
-  "tp2": 63650,
+  "entry": 63934,
+  "tp1": 63821,
+  "tp2": 63750,
   "stop": 63950,
-  "absorption": "Son 5 bardaki delta_sum pozitif (+13) olmasina ragmen CVD guclu negatif (-4838086) ve fiyat VAL altinda rejekte ediliyor - kurumsal satis baskisi var.",
-  "dom_observation": "Bid/Ask orani 1.65 ile alis baskili gorunse de, ask_vol 16 vs bid_vol 44 dagilimi son bardaki satis calismasini, DOM'da bid derinligi yuksek olsa da ask'in hizla tukendigi isareti.",
-  "htf_alignment": "5m, 15m, 1h ve 4h tum zaman dilimleri BEAR - perfect alignment, SHORT icin guvenilir.",
-  "session_bias": "Gunluk buy_sell_ratio 0.78 (<0.8) ve session delta -2102432 (guclu satis) - satis hakimiyeti net, VAL altinda fiyat = BEARISH momentum.",
-  "reasoning": "CVD divergence + HTF full BEAR + session satis baskisi + fiyat VAL altinda rejection yapiyorsa, kurumsal para acikcasi shorta hazirlanmis, delta_sum 5bars pozitif olsa da dusus trend onceliklidir.",
+  "absorption": "Mevcut bar minimal hacim (1) ile kapanmis, bid_vol egemen, strong bearish absorption yapisi gosteriliyor. Son 5 bar delta toplamı -63 (kumulatif satis baskisi), fiyat VAL altinda konumlanmis.",
+  "dom_observation": "Bid/Ask orani 1.46 (bid agir) fakat ask_depth 42 vs bid_depth 62 ile ask buyup gozleniyor. Absorption sinyali net.",
+  "htf_alignment": "5m BULL + 15m BEAR + 1h BULL + 4h BEAR = Uyumsuzluk var, ancak 15m ve 4h BEARISH yon destekliyor. Confidence kismada azalma.",
+  "session_bias": "Session delta -2,120,169 (kuvvetli satis) + buy_sell_ratio 0.78 (<0.8) = Ogun boyunca dominant SELL baskisi. VAL altinda fiyat = BEARISH acceptance.",
+  "reasoning": "CVD divergence TRUE + possible absorption TRUE + delta_sum_5bars -63 + session sell dominant (0.78 ratio) + VAL altında fiyat + bearish session delta = kurumsal satis baskisinin VAL seviyesinde absorption yaptigi net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "07:38:45"
+  "timestamp": "07:42:14"
 }
