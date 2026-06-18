@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
+  "confidence_score": 78,
   "entry": 63865,
-  "tp1": 63750,
-  "tp2": 63600,
-  "stop": 63950,
-  "absorption": "Guclu satis baskisi: current bar delta -82 (ask_vol 30 vs bid_vol 112), satis haci dominansi devam ediyor.",
-  "dom_observation": "DOM bid_ask_ratio 1.44 = pozitif ama son bardaki -82 delta guclu satis talebini gosteriyor. Ask depth 48 vs Bid depth 69 = bid agir gibi gorunuyor ancak delta negatif.",
-  "htf_alignment": "5m/15m/1h/4h hepsi BEAR - maksimum HTF uyum saglanmis, SELL sinyali icin ideal.",
-  "session_bias": "Session delta -1,864,644 + buy_sell_ratio 0.76 (<<1.0) = guclu BEARISH momentum. Satis hacmi (7.8M) alistan (5.9M) 32% daha fazla.",
-  "reasoning": "Guclu negatif CVD (-4.6M), all-timeframe BEAR bias, session satis dominansi (0.76 ratio), VAL altinda fiyat + son bardan itibaren guclu satis order flow (-82 delta) = net Axia SHORT setup.",
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63920,
+  "absorption": "Mevcut bar: ask_vol (15) << bid_vol (48), delta negatif (-33), fiyat VAH altında kalıyor - satıcı baskısı hakimdir.",
+  "dom_observation": "bid_ask_ratio 1.59 (bid ağır görünüyor fakat ask_depth düşük=43, bid_depth yüksek=69 ama pozisyon alıcılara karşı satıcılar baskılı durumda)",
+  "htf_alignment": "Mükemmel uyum: 5m/15m/1h/4h TÜM BEAR - yüksek güvenilirlik",
+  "session_bias": "buy_sell_ratio 0.76 (<<1.0), session delta -1.8M net satış, sell_volume (7.8M) >> buy_volume (5.9M) - güçlü günlük satış baskısı",
+  "reasoning": "CVD -4.6M negatif trend, delta_sum_5bars -70 tutarlı satış, session'da buy_sell_ratio 0.76, HTF tüm timeframe'lerde BEAR - Axia Kural 5 ve 6 tam uyumlu SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "06:44:00"
+  "timestamp": "06:44:41"
 }
