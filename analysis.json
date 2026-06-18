@@ -7,16 +7,16 @@
     "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 62727,
+  "confidence_score": 72,
+  "entry": 62734,
   "tp1": 62650,
-  "tp2": 62550,
-  "stop": 62850,
-  "absorption": "Negatif CVD (-419749) + negatif session delta (-419749) + düşük buy/sell ratio (0.47) = güçlü satış baskısı; fiyat VAL seviyesinin altında absorption gösteriyor",
-  "dom_observation": "Bid/Ask ratio 1.56 ancak ask volümü (51) son bardaki bid volümü (51) ile eşit - satış baskısı yoğunlaşıyor",
-  "htf_alignment": "Mükemmel HTF uyumu: 5m/15m/1h/4h tümü BEAR - kısa vadede güçlü satış sinyali",
-  "session_bias": "Buy/sell ratio 0.47 (<0.8) + VAL altında fiyat = net BEARISH momentum, kurumsal satış dominantı",
-  "reasoning": "Tüm timeframelerde BEAR bias + negatif delta 5 bardır devam ediyor + CVD seviyesinde kurumsal satış pressure + VAL altında fiyat Rejection gösteriyor = net SHORT setup.",
+  "tp2": 62580,
+  "stop": 62780,
+  "absorption": "VAL alt seviyesinde - satis baskisi artiyor, delta negatif (-425023 CVD), DOM ask agir (0.46 ratio), 5 barin net deltasi -127 (satis egilimi)",
+  "dom_observation": "Ask depth (93) bid depth'ten (43) cok yuksek - satis baskisi net 2.16x, ask agir hakim",
+  "htf_alignment": "5m/15m/1h/4h tamamen BEAR - maksimum HTF uyum, short icin ideal",
+  "session_bias": "buy_sell_ratio 0.47 (<0.8) + session delta -425023 + sell_volume (801022) >> buy_volume (375998) = kuvvetli satis baskisi, VAL alti Acceptance bildiriyor",
+  "reasoning": "Satis dominasyonlu session (0.47 B/S), tum HTF BEAR, DOM ask agir (0.46), CVD derin negatif, fiyat VAL alti tutunuyor - kirilima destek yok, Axia short setup net.",
   "should_trade": "EVET",
-  "timestamp": "00:32:47"
+  "timestamp": "00:33:23"
 }
