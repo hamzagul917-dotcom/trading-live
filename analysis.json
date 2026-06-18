@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62841,
-    "VAH": 64737
+    "vPOC": "63900",
+    "VAL": "62841",
+    "VAH": "64737"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62823,
-  "tp1": 62757,
-  "tp2": 62700,
-  "stop": 62850,
-  "absorption": "Session delta -279878 ile güçlü satış baskısı, mevcut bar'da -29 delta ve 47 bid vs 19 ask asimetrisinde satıcı dominasyonu gözlendi.",
-  "dom_observation": "Bid/Ask oranı 1.03 (neredeyse dengeli) ancak mevcut bar'da ask_vol (19) << bid_vol (47), satış enerji birikintisi gösteriyor.",
-  "htf_alignment": "5m BULL izole görünüm, ancak 15m/1h/4h üçü de BEAR - majör HTF bearish bias kuvvetli, SELL için uyumlu.",
-  "session_bias": "Buy/Sell ratio 0.52 (<0.8), session sell-dominant; toplam volume 889120'de sadece 307809 buy (34.6%) vs 587687 sell (65.4%) - güçlü bearish momentum.",
-  "reasoning": "CVD divergence aktif (-279878), VAL (62841) altında fiyat, session masif sell baskısında, HTF 3/4 bearish - erken SHORT setup, satıcıların kontrol ettiği zayıf VAH-altı zone'da.",
+  "confidence_score": "72",
+  "entry": "62804",
+  "tp1": "62757",
+  "tp2": "62740",
+  "stop": "62845",
+  "absorption": "Mevcut bar: delta -59 (negatif), bid_vol 110 > ask_vol 51 (bid agir), fiyat VAL seviyesi (62841) altinda tutunuyor - satici absorpsiyonu + fiyat dusmekte devam ediyor. Erken short sinyali.",
+  "dom_observation": "bid_ask_ratio 1.45 - inceleme: 63 bid vs 44 ask = alici baskisi gozukse de, session 0.5 buy_sell_ratio + cumulative delta -329812 + last 10 bars icin satici agir trend (bar 0 delta -59, bar 8 delta -28) tutarli.",
+  "htf_alignment": "5m BEAR, 15m BEAR, 1h BEAR, 4h BEAR - tum HTF seviyeler BEARISH, SHORT icin ideal uyum.",
+  "session_bias": "buy_sell_ratio 0.5 (satici dominasyonu), session delta -329812 (guclü negative), sell_volume 659722 >> buy_volume 329910 - guclu BEARISH session momentum.",
+  "reasoning": "Tum timeframelerde BEARISH trend + VAL altinda fiyat + session satici dominasyonu + delta negative momentum + DOM bid agir olmasina ragmen CVD ciddi negative - textbook short setup, VAL kirtilimi confirmation olur.",
   "should_trade": "EVET",
-  "timestamp": "00:28:34"
+  "timestamp": "00:28:55"
 }
