@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64725",
-  "tp1": "64932",
-  "tp2": "65150",
-  "stop": "64670",
-  "absorption": "Mevcut bar: delta=+11 (ask baskili 14 vs bid 3), fiyat 64725 VAL uzerinde, ancak hafif hacim (17) absorption sinyali vermekte. Son 5 bar cumulative delta=+47 (net bullish), fiyat direncte hafif tutunuyor.",
-  "dom_observation": "Bid/Ask ratio=1.74 (bid agir), 100 bid vs 57 ask = guclü alis baskisi, kurumsal buying support",
-  "htf_alignment": "Tum timeframeler BULL (5m/15m/1h/4h), perfect uyum, BUY setup icin ideal ortam",
-  "session_bias": "Session delta=291283 (net bullish), buy_sell_ratio=1.24 (alis baskili), CVD=-2444370 (istatistiksel negatif ama daily delta strongly pozitif = kurumsal short squeeze potansiyeli)",
-  "reasoning": "Guclü HTF bullish uyum + DOM bid agir (1.74 ratio) + session buy dominant + mevcut bar ask baskili delta = VAL uzerinde kurumsal alis absorption, retracement sonrasi yeniden yukselse bullish kirilim beklentisi.",
+  "confidence_score": 72,
+  "entry": 64721,
+  "tp1": 64780,
+  "tp2": 64850,
+  "stop": 64650,
+  "absorption": "Mevcut bar negatif delta (-6) ile kapanmasina ragmen fiyat VAL uzerinde (64721>64552) stabilite gosteriyor; bid depth (84) ask depth (59) kadar agir olmasi ve delta_sum_5bars pozitif (+39) BID absorption isaretleridir.",
+  "dom_observation": "Bid/Ask ratio 1.44 = alis baskisi net; bid derinligi satis derinliginden %42 fazla; mevcut bar 10 bid vs 4 ask ile yuksek alis ilgisi gosteriyor.",
+  "htf_alignment": "Tum HTF seviyeleri (5m/15m/1h/4h) BULL align - maksimum HTF uyumu saglanmis.",
+  "session_bias": "Session buy_sell_ratio 1.24 ve toplam delta +291661 ile guclü alis baskisi; fiyat VAL uzerinde kapanisi momentum onayliyor.",
+  "reasoning": "VAL desteginde BID absorption + tum HTF BULL + session buy dominant + CVD yukselim oncesi erken long setup; negatif delta sonrasi tersine donuse hazirlaniyoruz.",
   "should_trade": "EVET",
-  "timestamp": "04:41:54"
+  "timestamp": "04:42:34"
 }
