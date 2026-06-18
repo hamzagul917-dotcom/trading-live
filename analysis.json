@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63935,
-  "tp1": 63850,
-  "tp2": 63750,
-  "stop": 63960,
-  "absorption": "Son 10 bardaki 7-8 barda pozitif delta + ask_vol agir (319,212,120,100,68) olmasina ragmen fiyat 63943'ten 63935'e deginmis = ask absorption. Kurumsal satici emri yutuyor.",
-  "dom_observation": "bid_ask_ratio 0.55 (<0.7) = satis baskisi dominan, ask_depth (93) bid_depth (52)'nin 1.79x yukarisi, DOM'da net satis baskisi.",
-  "htf_alignment": "5m/15m BULL vs 1h/4h BEAR = uyumsuzluk var. Ancak 4h bias + session sell dominant + CVD -4.8M = HTF BEAR lehine.",
-  "session_bias": "buy_sell_ratio 0.78 (<0.8) + session delta -2.13M + sell_volume (9.5M) buy_volume'u (7.4M) basiyorsa = net session BEARISH momentum.",
-  "reasoning": "Ask absorption (delta+ ama fiyat aynı kaliyor) + DOM satis baskisi (ratio 0.55) + session sell dominantligi (ratio 0.78) + HTF 1h/4h BEAR + negatif CVD = BEARISH price action.",
+  "entry": 63954,
+  "tp1": 64552,
+  "tp2": 64932,
+  "stop": 63900,
+  "absorption": "Mevcut bar bid absorption - delta negatif (-4) ama fiyat VAL ustu kalmis, son 5 barda toplam delta pozitif (+118), kurumsal alis baskisi belirgini",
+  "dom_observation": "DOM ratio 0.75 - ask agir göründüğü halde bid hacmi yüksek kalıyor, minimu satıcılar karşılanıyor, absorption göstergesi",
+  "htf_alignment": "5m/15m/1h BULL uyumu tam - 4h BEAR olmasına rağmen intraday trend net bullish, micro timeframe entry için yeterli",
+  "session_bias": "Session delta negatif (-2.1M) ancak son 10 barın trend yukarı, buy_sell_ratio 0.78 satış baskılı görünse de mevcut momentum alıştır, rebound formasyonu",
+  "reasoning": "VAL üstünde bid absorption + son 5 bar pozitif delta + HTF 5m-15m-1h bullish uyumu = erken long setupu, kurumsal satış tamamlanıp alış başlama göstergesi",
   "should_trade": "EVET",
-  "timestamp": "07:18:01"
+  "timestamp": "07:19:11"
 }
