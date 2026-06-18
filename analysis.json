@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64394,
-  "tp1": 64300,
-  "tp2": 64200,
-  "stop": 64450,
-  "absorption": "Son bardaki -103 delta ile fiyat 64394'te kapatmasi ancak bid volumunun (142) ask volumundan (38) 3.7x fazla olmasi = satis baskisina karsi alis absorption'i gosteriyorsa, ancak CVD -2.5M ve 5-bar delta -168 ile birlesince SATISLARIN DEVAM ETTIGININ isaretididir.",
-  "dom_observation": "Bid/Ask ratio 1.38 pozitif olmakla birlikte genel emir defteri dengesizdir; ask derinligi 64 vs bid derinligi 88 - bu alis cekisine karsilik ortam satis baskili.",
-  "htf_alignment": "5m/15m/1h/4h tumu BEAR trend - maksimum HTF uyum saglanmistir, SHORT pozisyonlar icin idealdi.",
-  "session_bias": "Session delta +135738 (BULLISH) ancak buy_sell_ratio 1.09 (zayif alis baskisi), fiyat VAL(64552) alti kaliyor = gun icinde guc kaybetme isaretleri.",
-  "reasoning": "Guclu bearish HTF uyumu + negatif CVD + son bardaki satis deltasi + fiyat VAL altinda kalması + session momentumunun zayif olmasi = net SHORT (SELL) sinyali, risk/reward uygun.",
+  "confidence_score": "72",
+  "entry": "64396",
+  "tp1": "64300",
+  "tp2": "64200",
+  "stop": "64450",
+  "absorption": "Mevcut bar: 9 hacimde -7 delta, ASK/BID 1/8 orani -> satis baskisina ragmen fiyat dusmuyor, ask absorption tespit edildi. Son 5 bar delta toplami -199 (net satis baskisi) + VAL (64552) uzerinde pozisyon.",
+  "dom_observation": "DOM ratio 0.58 (56/98) -> Ask agir, satis baskisi dominant. Bid depth dusuk, ask depth yuksek = gucu saticilar",
+  "htf_alignment": "5m/15m/1h/4h BEAR -> tamamen alignment saglanmis, kesintisiz bearish bias",
+  "session_bias": "Session delta +83915 (bullish) ancak buy_sell_ratio 1.05 (minimal). Gunluk net alis baskisi varsa da micro-level satis absorption baskini karsilamaya yetersiz. CVD -2.6M (deep bearish) fiyat hala yuksekte -> CVD'nin reali fiyata cevirmesi acisindan kurumsal satis baskisi AKTIF",
+  "reasoning": "Bearish HTF (4 saat), ask absorption + negative delta_sum_5bars + deep negative CVD + DOM ask dominansi, VAL seviyesine yakin = SELL setup; ask absorption fiyati bassitmek icin kurumsal satici hazirliyor.",
   "should_trade": "EVET",
-  "timestamp": "05:23:36"
+  "timestamp": "05:24:17"
 }
