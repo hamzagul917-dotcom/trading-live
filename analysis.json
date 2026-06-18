@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64458",
-  "tp1": "64380",
-  "tp2": "64300",
-  "stop": "64500",
-  "absorption": "Negatif delta absorption: Last bar delta -21 with bid_vol 29 > ask_vol 8, fiyat VAL seviyesine yakin, kurumsal satis baskisi gizleniyor.",
-  "dom_observation": "bid_ask_ratio 1.2 - hafif alis baskisi gorulse de, ask_depth 76 vs bid_depth 92 ile CVD -2.5M'in tersine yuzsel dusus isareti vermektedir.",
-  "htf_alignment": "3 saat diliminde (5m/15m/1h) BEAR dominasyonu, 4h BULL ile uyumsuzluk mevcuttur ancak kisa vadede BEAR hakim.",
-  "session_bias": "Buy_sell_ratio 1.15 alisin avantajli gorulmesine ragmen, session delta +209k iken CVD -2.5M'lik divergence, kurumsal satirlarin gizli yapildigini isaret etmektedir.",
-  "reasoning": "CVD divergence + negatif bar delta absorption + VAL testine yakin fiyat + 5m/15m/1h BEAR = erken short setup, kurumsal absorpsiyon ile fiyat aşağısını test edecektir.",
+  "confidence_score": 72,
+  "entry": 64446,
+  "tp1": 64380,
+  "tp2": 64310,
+  "stop": 64480,
+  "absorption": "Mevcut bar: delta -39 (satis baskisi) + ask_vol 7 (cok az satici), fiyat VAL seviyesinde (64552) reddetiliyor, kurumsal satis baskisi devam ediyor",
+  "dom_observation": "bid_ask_ratio 1.04 (hemen hemen esit), ancak ask depth (67) bid depth (70) ile yakin, dinamik dengede satis baskisi baslangici gorulmuyor ama negatif delta tutarli",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BEAR (3/3 alignment), 4h BULL ile zit (HTF uyumsuzluk var), kisa vade bearish dominant",
+  "session_bias": "Gunluk delta +204106 (bullish), buy_sell_ratio 1.14 (alis baskisi), ancak CVD kumulatif -2531548 (cok negatif), kurumsal satya yonunde, session buy volumune ragmen CVD asagi, gizli kisa yapma sinyali",
+  "reasoning": "Negatif CVD (-2531548) + delta_last_bar -39 + HTF 5m/15m/1h BEAR (3 alignment) + VAL (64552) seviyesinde fiyat reddetilmesi = kurumsal satis absorption setup, erken kisa pozisyon degeri yuksek.",
   "should_trade": "EVET",
-  "timestamp": "05:20:50"
+  "timestamp": "05:21:50"
 }
