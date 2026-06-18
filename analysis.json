@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64650,
-  "tp1": 64750,
-  "tp2": 65100,
-  "stop": 64580,
-  "absorption": "YOK - absorption false, fakat delta_sum_5bars +153 guclu alis baskisi iceriyor",
-  "dom_observation": "bid_ask_ratio 1.92 (>1.5) = guclu alis baskisi DOM'de, bid derinligi ask'ten 2x daha fazla",
-  "htf_alignment": "Mukemmel - 5m/15m/1h/4h tumu BULL, yuksek HTF uyumu onayli",
-  "session_bias": "buy_sell_ratio 2.18 (>1.3) + session delta +191432 = guclu kurumsal alis dominant, fiyat VAL (64552) ustu acceptance icinde",
-  "reasoning": "Tum zaman dilimlerinde bullish trend + DOM'de guclu bid absorption + session'da 2.18:1 alis/satis orani + CVD negatif olmasina ragmen fiyat yakın VAH'a ilerledi = erken long setup, kurumsal alis akini baslandi.",
+  "entry": 64645,
+  "tp1": 64700,
+  "tp2": 64750,
+  "stop": 64600,
+  "absorption": "Mevcut bar minimal volume (1) ile fiyat VAL seviyesine yakin tutunuyor, fiyat dusmeye direnc gosteriyor - BID absorption belirtisi, kurumsal alis baskisi mevcut",
+  "dom_observation": "BID/ASK ratio 1.33 - alis baskisi guclu, bid derinligi (76) ask derinliginden (57) onemli oranda fazla",
+  "htf_alignment": "5m/15m/1h/4h tamaminda BULL - maksimum HTF uyumu saglanmis",
+  "session_bias": "Buy/Sell ratio 2.13 (1.3 ustu) + session delta +202297 (guclu alis hakimiyeti) - gunluk momentum net bullish",
+  "reasoning": "VAL seviyesinde possible_absorption=true + delta_sum_5bars pozitif (+92) + DOM bid aginlik + HTF tamamen bullish + session buy dominant = Net Axia long setupi, kurumsal emri yutuuyor.",
   "should_trade": "EVET",
-  "timestamp": "02:18:32"
+  "timestamp": "02:20:08"
 }
