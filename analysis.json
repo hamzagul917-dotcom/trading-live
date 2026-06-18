@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64302,
-  "tp1": 64235,
-  "tp2": 64150,
-  "stop": 64350,
-  "absorption": "Mevcut bar: ask_vol 35, bid_vol 1 ile ask dominansi ve ask absorption görülüyor. Son 5 bar delta_sum -126 negatif iken, fiyat VAL (64552) altında kalmaya devam ediyor. Kurumsal satış baskısı absorption içinde gizleniyor.",
-  "dom_observation": "bid_ask_ratio 0.86 (<1.0) = satış baskısı NET, ask_depth (111) > bid_depth (96), emir defterinde ask agır yığılmış durumda",
-  "htf_alignment": "5m/15m BULL ama 1h/4h BEAR = zıtlık var. HTF uyumsuzluğu confidence düşürüyor ancak 1h/4h bear consensus güçlü",
-  "session_bias": "buy_sell_ratio 0.93 (<1.0) + session delta -157971 negatif = BEARISH momentum. Günlük satış hacmi (2.27M) alış hacminden (2.11M) yüksek",
-  "reasoning": "CVD divergence + possible absorption TRUE, ask dominansi + negative session delta + HTF 4h BEAR = kurumsal satış setup, VAL altında fiyat tutunuyor absorption ile gizlenmiş short opportunity",
+  "confidence_score": "72",
+  "entry": "64291",
+  "tp1": "64235",
+  "tp2": "64150",
+  "stop": "64350",
+  "absorption": "Mevcut bar delta pozitif (+31) fakat fiyat VAL seviyesinin altinda hareketsiz kalmasi, ask volumu (49) bid volumune (18) karsi baskili olması ve DOM'da ask derinliği (119) bid derinligine (67) karsi ağır olmasi → ASK ABSORPTION tespit edilmiş, satış baskısı birikimi.",
+  "dom_observation": "DOM ratio 0.56 (<0.7 threshold) - güçlü satis baskisi. Ask derinliği bid'in 1.78x katı, satıcılar kontrol halinde.",
+  "htf_alignment": "5m/15m BULL fakat 1h/4h BEAR - HTF uyumsuzluk mevcut. SELL için 1h+4h bearish yeterli, confidence hafifletildi.",
+  "session_bias": "Session delta -150667 ve buy_sell_ratio 0.93 (<1.0) - gunun tamamında satış dominasyonu. Fiyat VAL (64552) altında dolandu, BEARISH momentum.",
+  "reasoning": "CVD divergence + possible_absorption + delta_sum_5bars negatif (-130) + DOM ask heavy (0.56) + session sell dominant (0.93) + fiyat VAL altında hareketsiz kalmasi = Kurumsal satış kümesi, kriptik short sinyali.",
   "should_trade": "EVET",
-  "timestamp": "05:48:18"
+  "timestamp": "05:48:59"
 }
