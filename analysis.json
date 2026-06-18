@@ -12,11 +12,11 @@
   "tp1": 64650,
   "tp2": 64750,
   "stop": 64520,
-  "absorption": "Son 5 bardaki pozitif delta akümülasyonu (delta_sum_5bars=117) + VAL seviyesinin üstünde fiyat konumlanması = Bullish absorption yapısı",
-  "dom_observation": "DOM dengeli (bid_ask_ratio=0.99) fakat ask_vol/bid_vol oranı (15:1) mevcut bardaki kısa vadeli satış baskısını gösteriyor",
-  "htf_alignment": "5m/15m/1h/4h tüm timeframe'ler BULL - mükemmel HTF uyumu sağlanmış",
-  "session_bias": "Session delta +102989 ve buy_sell_ratio 2.05 ile güçlü kurumsal alış baskısı, fiyat VAL üstünde acceptance gösteriliyor",
-  "reasoning": "Tüm HTF BULL, session delta pozitif, last 5 bars cumülatif delta +117 ile kurumsal alış yapısı, vPOC altında konumlanmış fiyat yukarı çekiliş yapıyor - klasik Axia early long setup.",
+  "absorption": "Son 5 bardaki delta_sum=116 (pozitif baskı) + current bar delta=13, fiyat VAL üstünde tutunuyor, kurumsal alış baskısı güçlü",
+  "dom_observation": "bid_ask_ratio=0.95 (hafif ask ağır) ancak session buy_sell_ratio=2.06 çok güçlü alış baskısı gösteriyor, DOM dengelidir",
+  "htf_alignment": "5m/15m/1h/4h tüm timeframe'ler BULL, HTF uyum mükemmeldir",
+  "session_bias": "buy_sell_ratio=2.06 + session delta=105777 pozitif, fiyat VAL üstünde acceptance gösteriyor, günlük alış hakimiyeti net",
+  "reasoning": "Güçlü bullish HTF uyumu + pozitif session delta + VAL acceptance + 5-bar delta momentum = clean long setup, CVD negatif olmasına rağmen current bar ve son 5 bar net pozitif delta ile absorption pattern oluşuyor",
   "should_trade": "EVET",
-  "timestamp": "02:07:13"
+  "timestamp": "02:07:52"
 }
