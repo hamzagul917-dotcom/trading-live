@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64496,
-  "tp1": 64470,
-  "tp2": 64440,
-  "stop": 64520,
-  "absorption": "Son 10 bardaki surekli negatif delta (-159 toplam) fiyatin VAL (64552) seviyesinin altinda sabit kalmasi ve mevcut bardaki ASK absorption (ask_vol=8, bid_vol=1 ile fiyat dusmemesi) kurumsal satis baskisinin emri yutuyor oldugunu gostermektedir.",
-  "dom_observation": "DOM bid_ask_ratio=0.93 (<1.0) satis baskisi baslatmasi, ask_depth (77) > bid_depth (72) ile emir defterinde satis fazlaligi net.",
-  "htf_alignment": "5m/15m/1h BEAR cizgileri 3/3 uyumlu, 4h BULL ancak dusuk zaman dilimlerinde net SHORT sinyali; HTF alignment BEARISH.",
-  "session_bias": "Session buy_sell_ratio=1.14 ve buy_volume baskinligi temel olarak once yukselis almis (64536-64594 range), su anda fiyat VAL altinda kapanmis ve satislara donusmus durumda; gun geneli BULL'den BEAR'e donusumu gosterip SHORT icin bullish setup saglayan divergence.",
-  "reasoning": "Negatif delta accumulation (-159 son 10 barda) + VAL seviyesinde ASK absorption + DOM satis baskisi (ratio 0.93) + 5m/15m/1h BEAR consensus, Axia Kural 1 (absorption) ve Kural 5 (HTF uyumu) acisinda net SELL setup sunar.",
+  "entry": 64485,
+  "tp1": 64420,
+  "tp2": 64350,
+  "stop": 64530,
+  "absorption": "Son 5 bardaki toplam delta +3 ile cok zayif; son 10 bardaki kumulatif delta negatif (-137), fiyat 64592'den 64471'e dusmesine ragmen CVD -2.5M seviyesinde kalarak kurumsal satis baskisi devam ediyor.",
+  "dom_observation": "DOM bid/ask ratio 0.51 ile ask agir, emir defterinde satis baskisi belirgin (ask_depth 97 vs bid_depth 49), satis artiyor.",
+  "htf_alignment": "5m ve 15m BEAR ile bearish uyum var; 1h ve 4h BULL olsa da short-term BEAR uyumu dominant, kisa vadede satisa uygun.",
+  "session_bias": "Buy/sell ratio 1.15 ile hafif alis baskili gorunse de, fiyat VAL (64552) altinda hareket ediyor ve CVD divergence bearish rejection sinyali veriyor.",
+  "reasoning": "CVD divergence + negatif son 10 bar delta + ask agir DOM + 5m/15m bearish trend + VAL altinda fiyat, kurumsal satisinin erken sinyalini veriyor.",
   "should_trade": "EVET",
-  "timestamp": "05:15:11"
+  "timestamp": "05:17:30"
 }
