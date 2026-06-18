@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64000",
-  "tp1": "63800",
-  "tp2": "63500",
-  "stop": "64150",
-  "absorption": "ASK absorption gozlenmedi ancak delta_sum_5bars=-647 ile keskin satis baskisi, fiyat 64035'te satis gucunun erken kontrol ettigi isaretleri gosteriyor.",
-  "dom_observation": "bid_ask_ratio=0.47 (<0.7) - islemci ask'lar dominante, satis baskisi net sekilde artmis durumda.",
-  "htf_alignment": "5m/15m/1h/4h tamamen BEAR - HTF uyumu mükemmel SHORT icin.",
-  "session_bias": "buy_sell_ratio=0.71 (<0.8) + session delta -1144123 = gunu tum gun satis baskisi tasinmis, fiyat VAL (64552) altinda hareket edecek setup.",
-  "reasoning": "Gün genelinde kurumsal satis (session delta -1.1M, sell_vol 3.9M>buy_vol 2.8M), mevcut bar ASK ağır (bid=52 vs ask=156), CVD'de -3.8M ile derinde negatif, tüm HTF'ler BEAR - net SHORT sinyali VAL altında.",
+  "confidence_score": 72,
+  "entry": 63851,
+  "tp1": 63700,
+  "tp2": 63500,
+  "stop": 63950,
+  "absorption": "Session delta -2230502 ile guclu satis baskisi var; ask_depth=71 bid_depth=30 ile satis hakimi, CVD -4966155 ile kurumsal satislar net harita cikiyor.",
+  "dom_observation": "Bid/Ask orani 0.43 - ask dominate, satici baskisi net, emir kitabi satislara agir.",
+  "htf_alignment": "5m/15m/1h/4h tumu BEAR - maksimum HTF uyumu, aski yonu cok guclu.",
+  "session_bias": "buy_sell_ratio=0.66 (<0.8), gunluk satis hacmi 6.5M vs alis 4.3M - kurumsal satislar devam ediyor.",
+  "reasoning": "Tum zaman dilimlerinde bearish trend, session delta net satici baskili, ask defteri dominate, CVD negatif ve derinlestigi icin erken short sinyali guclu.",
   "should_trade": "EVET",
-  "timestamp": "06:11:32"
+  "timestamp": "06:12:12"
 }
