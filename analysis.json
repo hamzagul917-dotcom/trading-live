@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64555,
-  "tp1": 64610,
-  "tp2": 64680,
-  "stop": 64520,
-  "absorption": "Son 10 bardaki buyuk negatif delta (-27,-9,-8) sonrasi fiyat VAL destek seviyesinde stabilize olmus, BID absorption gozlenmis (DOM bid_ask_ratio 3.76 cok yuksek), bu noktada yeniden pozitif delta baslamistir (delta_sum_5bars +7). Kırmızı absorpsiyon + bid agırlığı = kurumsal alis baskısı.",
-  "dom_observation": "Emir defteri buyuk BID hakimiyeti (175 vs 47), bid_ask_ratio 3.76 cok yuksek = guclu alis baskisi, short likidite tabakasi kurumsal alimlar tarafindan emilmis durumdadir.",
-  "htf_alignment": "5m BULL + 1h BULL + 4h BULL = 3/4 timeframe bullish uyum guclu. 15m BEAR minor uyumsuzluk ancak majority bullish.",
-  "session_bias": "Session buy_sell_ratio 1.46 (1.3 ustu) + session delta +156118 (buyuk pozitif) = gun boyunca kurumsal alis baskisi dominant, fiyat VAL ustu kaliyor.",
-  "reasoning": "VAL destek seviyesinde BID absorpsionu + negatif deltadan pozitife donus + DOM bid hakimiyeti + session alis baskisi + HTF 3/4 bullish = net Axia LONG setup, risk/reward uygun.",
+  "entry": 64565,
+  "tp1": 64620,
+  "tp2": 64700,
+  "stop": 64540,
+  "absorption": "VAL seviyesinin ustunde fiyat tutunuyor, session delta +155635 ile guclu alis baskisi, bid_depth 163 vs ask_depth 49 ile DOM ciddi alis dominant.",
+  "dom_observation": "bid_ask_ratio 3.37 (>1.5) - Guclu alis baskisi, order defterinde ciddi buyer interest.",
+  "htf_alignment": "5m BULL + 1h BULL + 4h BULL (3/4 bullish) - Guclu HTF uyumu. 15m BEAR ise minor negatif, ancak uzun vadeli trend clear bullish.",
+  "session_bias": "buy_sell_ratio 1.45 (>1.3) + fiyat VAL ustu (64565>64552) - Session boyunca guclu alis momentum, bullish bias confirmed.",
+  "reasoning": "VAL support ustunde fiyat tutunuyor, session delta +155k ile kurumsal alis dominant, DOM bid 3.37x agir, HTF 3/4 bullish - setup net long sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "02:45:30"
+  "timestamp": "02:46:29"
 }
