@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 65698,
-    "VAL": 64316,
-    "VAH": 66916
+    "vPOC": 62718,
+    "VAL": 61002,
+    "VAH": 64900
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62730,
-  "tp1": 62400,
-  "tp2": 62100,
-  "stop": 62900,
-  "absorption": "Son 10 bardaki delta yapisinda negatif delta baskisi (delta_sum_5bars = -123) fiyati dusurmuyor, ASK absorption sinyali vermektedir; CVD'nin -309078 seviyesi ve session sell_volume dominansi (988937 vs 678969) satin almayanlarin emrini yutuyor.",
-  "dom_observation": "Bid/Ask orani 1.64 - alis baskisi gosteriyorsa da, ask_depth 65 ile limited kapasitesi, son 2 bardaki delta negatif ve bid agirlasmasi fiyat inerse collapse risk yuksek.",
-  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR - mükemmel HTF uyum, SHORT setup icin ideal.",
-  "session_bias": "Buy/Sell ratio 0.69 (0.8 alti) + session delta -309968 + sell_volume 988937 - guclu BEARISH momentum, VAH ustu fiyat rejection.",
-  "reasoning": "Tum HTF'ler BEAR, session sell dominant, CVD dusuk, DOM bid/ask 1.64 ama absorption sinyali, delta_sum negatif - net SHORT setup.",
+  "entry": 62792,
+  "tp1": 62500,
+  "tp2": 61500,
+  "stop": 63100,
+  "absorption": "CVD divergence aktif (7040 pozitif) + fiyat VAH-VAL banda dusus + 5 bar delta sum negatif (-89) = kurumsal ask absorption mevcut, satis baskilari gizli",
+  "dom_observation": "bid_ask_ratio 0.54 = ask agir, satis baskisi artiyor, emir defterinde ask derinligi (77) bid derinliginin (42) 1.83x ustu",
+  "htf_alignment": "15m BEAR + 1h BEAR = 2/3 timeframe bearish, 5m bullish ancak HTF consensus bearish tarafinda",
+  "session_bias": "Session delta -8215 (guclu satis), buy_sell_ratio 0.93 < 1.0 = satis dominansi gunun basinda kurulmus, fiyat henuz VAH-VAL bandasi icinde",
+  "reasoning": "CVD divergence + DOM ask agir + session sell dominant + HTF bearish + delta negatif absorption = kurumsal short setup, VAL'ye donus bekle",
   "should_trade": "EVET",
-  "timestamp": "01:19:25"
+  "timestamp": "01:20:02"
 }
