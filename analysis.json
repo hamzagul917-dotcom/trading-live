@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64616,
+  "entry": 64631,
   "tp1": 64750,
-  "tp2": 64850,
+  "tp2": 65100,
   "stop": 64550,
-  "absorption": "Negatif delta (-10) mevcut bardaki dusuk hacimde (vol=21) fiyat VAL seviyesinde stabilite goruntulemelı; son 5 bar delta sum pozitif (+31) ile alis baskisi artiyor, kurumsal buyerlar dusuk fiyatlara emri yutuyorlar",
-  "dom_observation": "Bid/Ask ratio 1.47 (>1.5 hedefi yaklasarak) - alis baskisi guclu, bid depth (78) ask depth'ten (53) onemli oranda fazla, piyasa alici hakimiyeti",
-  "htf_alignment": "15m/1h/4h BULL uyum KUVVETLI (3/4 bullish), sadece 5m BEAR - bu micro pullback'i temsil etse de HTF consensus yuksek",
-  "session_bias": "Session buy_sell_ratio 2.08 (>1.3) ile gunluk alis baskisi dominant, buy_volume (394746) sell_volume'un (189744) 2.08 katı; fiyat VAL (64552) ustunde = BULLISH momentum onayli",
-  "reasoning": "CVD divergence mevcut (-2530652) kurumsal tersine hareket isaretI iken, dom bid agir, session buy baskili, HTF 3/4 bullish, ve negatif delta sonrasi delta_sum_5bars pozitife donuş + VAL ustu absorption = net bullish kurumsal alim setup",
+  "absorption": "Son 10 bardaki pozitif deltalar (bar 6: +48, bar 7: +48, bar 9: +55) fiyatı VAL üstünde tutmakta, negatif delta barları absorbe etmekte",
+  "dom_observation": "Bid/Ask ratio 1.77 (>1.5) - güçlü alış baskısı, emir defterinde bid dominasyonu açık",
+  "htf_alignment": "5m BEAR uyumsuz ancak 15m/1h/4h BULL - 3 timeframe bullish, kriterleri sağlıyor",
+  "session_bias": "Buy/Sell ratio 2.06 (>1.3) + fiyat VAL üstünde (64631 > 64552) = BULLISH momentum açık",
+  "reasoning": "VAL support üstünde alış dominasyonu, DOM bid ağır, HTF bullish konsensüs ve session delta güçlü alıştan, negatif CVD'ye rağmen price acceptance gösteriyor - kurumsal alım sinyali",
   "should_trade": "EVET",
-  "timestamp": "02:22:50"
+  "timestamp": "02:23:29"
 }
