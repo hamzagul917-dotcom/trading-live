@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63957,
-  "tp1": 64200,
-  "tp2": 64552,
-  "stop": 63850,
-  "absorption": "Son 5 bardaki pozitif delta toplami (76) + possible_absorption=true + bid_depth agir (1.43 ratio) = kurumsal alis baskisi tespit edilmis, fiyat VAL seviyesine yakin destek bulmus",
-  "dom_observation": "bid_ask_ratio 1.43 = alis baskisi belirgin, bid derinligi (59) ask derinliginden (42) cok fazla, kurumsal limit emirleri aktif",
-  "htf_alignment": "5m+15m+1h BULLISH (3/3 = mükemmel uyum), 4h BEAR olmasina ragmen kisa zaman dilimleri baskili, BUY icin uygun",
-  "session_bias": "buy_sell_ratio 0.79 (satis baskili gun) fakat son 10 bardaki son 5 delta +76 = tersine donusun baslamis oldugunu, kurumsal aliciların devreye girdigi sinyali veriyor",
-  "reasoning": "Negative CVD (-4808933) ortasinda positive delta spike + absorption + strong bid depth + HTF bullish alignment = VAL destek seviyesinde kurumsal long absorption setup, tersine donus sinyali NET",
+  "entry": 63921,
+  "tp1": 63850,
+  "tp2": 63780,
+  "stop": 63965,
+  "absorption": "Session delta -2079045 (bearish), buy_sell_ratio 0.79 (satis baskisi), DOM ask_depth 72 > bid_depth 50 (satis agir), current bar negatif delta (-2) fiyat dusmemis = ASK absorption VAL seviyesinde, CVD -4814699 negative trend devam ediyor",
+  "dom_observation": "bid_ask_ratio 0.7 (<0.7 esiginde) satis baskisi artiyor, ask_depth 72 bid_depth 50 ustu, emir defterinde satis hakimiyeti",
+  "htf_alignment": "5m BEAR + 4h BEAR ama 15m+1h BULL = karisimlı HTF, BUT session delta ve DOM satis bastigi destekliyor",
+  "session_bias": "buy_sell_ratio 0.79 < 0.8 BEARISH threshold, sell_volume 9862761 > buy_volume 7783716, gunluk net satis baskisi acik",
+  "reasoning": "CVD divergence (ASK absorption) + Session sell dominance (0.79 ratio) + DOM ask heavy (0.7 ratio) + VAL seviyesinde negatif delta fiyat duraksama = Kurumsal satis emri yutuyor, downside kirilim bekleniyor",
   "should_trade": "EVET",
-  "timestamp": "07:59:59"
+  "timestamp": "08:01:09"
 }
