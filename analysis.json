@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64096,
-  "tp1": 64052,
-  "tp2": 64000,
-  "stop": 64120,
-  "absorption": "Mevcut bar: Düşük volume (35) + bid_vol baskısı (27 bid vs 8 ask) fakat fiyat hareket etmiyor (64088-64105 range) = ASK absorption. Satıcılar fiyatı düşürmekte direnç gösteriyor, kurumsal satış emri yutuluyor.",
-  "dom_observation": "DOM bid/ask ratio: 2.03 (bid agır görünüyor ANCAK mutlak ask_depth=50 vs bid_depth=101 olmasına rağmen order flow ASK baskısı gösteriyor - kurumsal satış emri maskeleniyor)",
-  "htf_alignment": "Tüm HTF (5m/15m/1h/4h) BEAR, SHORT için optimal alignment var",
-  "session_bias": "Buy/sell ratio 0.91 (<1) + session delta -236641 (güçlü satis baskisi) + sell_volume>buy_volume (2.75M vs 2.51M) = BEARISH momentum",
-  "reasoning": "Güçlü BEARISH HTF uyumu + session satis baskisi + VAH ustu fiyat Rejection + ASK absorption bar + CVD -2.9M (kurumsal shorting) + delta_sum_5bars -172 = Satici kontrol net, ASK absorption baskisina SHORT girisi",
+  "confidence_score": 78,
+  "entry": 63970,
+  "tp1": 63850,
+  "tp2": 63700,
+  "stop": 64050,
+  "absorption": "Mevcut barında ask volumü düşük (134) bid yüksek (583) olmasına rağmen fiyat VAL altında kapandı - satış absorption göstergesi. CVD -3.7M ile güçlü satış baskısı devam ediyor.",
+  "dom_observation": "DOM ratio 0.59 (<0.7) - ask agir, satış baskısı kuvvetli. Bid depth 47 vs ask depth 79 = net satış agırlığı.",
+  "htf_alignment": "5m/15m/1h/4h tüm timeframelar BEAR - mükemmel HTF uyumu. SHORT için ideal setup.",
+  "session_bias": "Buy/sell ratio 0.73 (<0.8) + session delta -1.020M = gün boyunca dominant bearish momentum. Satış hacimleri (3.72M) alışları (2.70M) açık şekilde geçmiş.",
+  "reasoning": "Tüm timeframelar BEAR, DOM ask agir (0.59), session bearish dominant (0.73), CVD -3.7M, delta_sum_5bars negatif (-767), fiyat VAL altında rejection gösteriyor - güçlü SHORT sinyali.",
   "should_trade": "EVET",
-  "timestamp": "06:09:12"
+  "timestamp": "06:10:52"
 }
