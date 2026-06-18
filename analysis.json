@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64616,
-  "tp1": 64552,
-  "tp2": 64480,
-  "stop": 64650,
-  "absorption": "Mevcut bar'da -75 delta ile bearish baski görülüyor, bid agir (91 vs 17) ancak fiyat VAH'dan ciddili uzaklaşmış durumda; negatif CVD (-2456513) ve delta_sum_5bars (-85) tutarlı bearish sinyali veriyor.",
-  "dom_observation": "BID/ASK ratio 1.67 (bid agir) ancak absolute bid depth (86) ask depth (51) karşısında yeterli; session buy_sell_ratio 1.34 olmasına rağmen DOM'da alis baskisi dominan değil.",
-  "htf_alignment": "5m BEAR + 15m BEAR (2/3 kriteru sağlanıyor); 1h ve 4h BULL olmasına rağmen kısa vadeli trend bearish baskıda, confluence zayıf.",
-  "session_bias": "Session delta pozitif (279141) ve buy_sell_ratio 1.34 BULLISH görünse de; CVD negatif divergence + son 5 bar net delta (-85) + mevcut bar delta (-75) kurumsal satin alma yokluğunu gösteriyor; sell dominasyon artan.",
-  "reasoning": "Negatif CVD persistensi, last_5_bar delta net negatif, current bar -75 delta (bid agir masküyle), VAH uzak + HTF 5m/15m BEAR alignment, session buy baskısına rağmen kurumsal para satış yönü gösteriyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "64680",
+  "tp1": "64750",
+  "tp2": "64850",
+  "stop": "64620",
+  "absorption": "Son 5 bardaki delta toplamı -4 (nötr) iken fiyat VAL üstünde (64680) tutunuyor - bid baskısı altında absorption gözleniyor, kurumsal alış emri yutuluyor.",
+  "dom_observation": "Bid/Ask oranı 0.71 (satis baskisi görülüyor) ancak current bar'da ask_vol=33, bid_vol=9 ile net alış dominasyonu var - akışkan emrin alındığının işareti.",
+  "htf_alignment": "Tüm HTF timeframeler (5m, 15m, 1h, 4h) BULL - mükemmel uyum, BUY sinyalini güçlendiriyor.",
+  "session_bias": "Buy/Sell oranı 1.33 (1.3 üstünde), session delta +277555 ve session buy_volume dominant (1.1M vs 839K) - güçlü kurumsal alış momentumu.",
+  "reasoning": "CVD divergence + session buy dominant + HTF fully bullish + current bar bid absorption + VAL üstünde fiyat tutunması net BUY sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "03:25:53"
+  "timestamp": "03:30:36"
 }
