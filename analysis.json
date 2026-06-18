@@ -9,14 +9,14 @@
   "order_flow_signal": "SELL",
   "confidence_score": 72,
   "entry": 62760,
-  "tp1": 62680,
-  "tp2": 62550,
-  "stop": 62850,
-  "absorption": "ASK absorption VAH yakininda tespit edildi: pozitif delta sonrasi negatif CVD divergence, fiyat 62760'ta sabitlenmis, ask volume agir, cumulative delta guclu negatif (-408707).",
-  "dom_observation": "DOM ask_depth (57) > bid_depth (51), bid_ask_ratio 0.9 < 1.0 = satis baskisi artiyor, ask agirligina donus baslandi.",
-  "htf_alignment": "5m BEAR + 1h BEAR + 4h BEAR = 3/4 timeframe strongly bearish, HTF uyumu mükemmel SHORT icin.",
-  "session_bias": "Session delta -408707 (guclu satis), buy_sell_ratio 0.51 (% satis baskisi ezici), VAL (62841) altinda fiyat + negatif momentum = BEARISH session yapisi.",
-  "reasoning": "CVD divergence + possible absorption + ask heavy DOM + 3 HTF bearish + negatif session delta, VAH yakini rejection = net SHORT setup, erken short pozisyon kurulusu tavsiye edilir.",
+  "tp1": 62710,
+  "tp2": 62650,
+  "stop": 62800,
+  "absorption": "VAL yakininda ask absorption - pozitif delta (bar: +8) fiyat hareket etmiyor, kurumsal satis baskisi emri yutuyor",
+  "dom_observation": "bid_ask_ratio=0.43 (<0.7) - ask ogur satis baskisi kuvvetli, ask_depth=88 bid_depth=38 ile net satis hakimiyeti",
+  "htf_alignment": "5m BEAR + 1h BEAR + 4h BEAR (3/4 BEAR) - guclu HTF downtrend uyumu, 15m BULL zayif aksine",
+  "session_bias": "buy_sell_ratio=0.51 (<0.8) + session delta=-407708 + sell_volume (830831) buy_volume'den (423123) 2x yukarisi - guclendirulmus satis hakimiyeti",
+  "reasoning": "Kurumsal CVD divergence ile alis hikayeleri reddediliyor, VAL ustu ask absorptions ve dom satis hakimiyeti ile net bearish short setup olusmus, HTF 3/4 BEAR uyumu ondstege satis sinyalini guclendirir.",
   "should_trade": "EVET",
-  "timestamp": "00:36:24"
+  "timestamp": "00:36:45"
 }
