@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64295",
-  "tp1": "64235",
-  "tp2": "64180",
-  "stop": "64320",
-  "absorption": "ASK absorption pattern: Mevcut bar'da düşük volume (26) ile fiyat stabilize olmuş (64300-64305 range), ancak negatif delta (-5) ve ask_vol (11) < bid_vol (16) gösteriyor - kurumsal satış baskısı var.",
-  "dom_observation": "bid_ask_ratio=0.58 (<0.7) = Kuvvetli satış baskısı, ask depth (128) bid depth (74) ile ağır ask tarafı baskın.",
-  "htf_alignment": "5m BULL uyumsuz, ancak 15m/1h/4h tümü BEAR - HTF net bearish setupı destekliyor (3/4 timeframe bearish).",
-  "session_bias": "buy_sell_ratio=0.93 (<1.0) + session delta negatif (-149124) + sell_volume (2274567) > buy_volume (2125443) = Günlük satış baskısı dominantı.",
-  "reasoning": "CVD divergence aktif (-2884777), HTF bearish (3/4), DOM ask agır (0.58), session sell dominant - fiyat VAL altında ve negatif delta pattern continuation yapıyor; kurumsal satış absorpsiyonu VAH reddetme işareti.",
+  "confidence_score": 72,
+  "entry": 64318,
+  "tp1": 64270,
+  "tp2": 64200,
+  "stop": 64380,
+  "absorption": "Son 5 bardaki cumulative delta +182 (pozitif) fakat fiyat 64381'den 64318'e düşmüş, kurumsal satış baskısı var; ask absorption gözlemlenmiş.",
+  "dom_observation": "bid_ask_ratio 0.72 (<0.7 threshold yakın) = ask agır, satis baskısı artıyor; emir defterinde ask derinliği (99) bid derinliğinden (71) fazla.",
+  "htf_alignment": "5m/15m BULL ama 1h/4h BEAR; HTF uyumsuzluk var ancak HTF dominanı bearish, kısa vadede satış sinyali geçerli.",
+  "session_bias": "buy_sell_ratio 0.98 (<1.0) + session delta -46454 = günün genelinde satış baskısı, fiyat VAL (64552) altına yaklaşıyor.",
+  "reasoning": "Pozitif delta içerisinde fiyat dirençte reddedilmiş (64381 high), kurumsal absorption ve ask baskısı VAL seviyesinde satış baskısını doğruluyor; HTF bearish dominans short setupı destekliyor.",
   "should_trade": "EVET",
-  "timestamp": "05:49:39"
+  "timestamp": "05:54:27"
 }
