@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64498,
-  "tp1": 64420,
-  "tp2": 64350,
-  "stop": 64550,
-  "absorption": "Son 5 bardaki toplam delta -35 (güçlü satış baskısı), mevcut bar -9 delta ile VAL seviyesinde (64552) satış absorpsiyonu gözlenmiştir.",
-  "dom_observation": "Bid/Ask oranı 1.15 (hafif alış baskısı olsa da), ask_vol 2 vs bid_vol 11 gösteriyor ki mevcut barında dahi satış kontrol altında; derinlik analizi (bid_depth 66 vs ask_depth 57) alıcıları gösterse de order flow net satış dominant.",
-  "htf_alignment": "5m BEAR + 15m BEAR (2/3 bearish) = Kısa vadeli satış tarafında HTF uyumu mevcut; 1h ve 4h BULL ise daha uzun pozisyon riskini artırıyor.",
-  "session_bias": "Session delta +156701 (bullish görünse de), buy_sell_ratio 1.48 pozitif ancak CVD -2578952 (çok negatif) ve son 5 bar deltası -35 = gün içinde almış olan büyük oyuncular şimdi satıyor, kurumsal likidite çekiliyor.",
-  "reasoning": "CVD derin negatif (-2578952), delta_sum_5bars -35, VAL (64552) üzerinde kur tutmuş ama red (duvara çarpmış) halde, HTF 5m/15m bearish, session buy dominant olmasına rağmen order flow satış baskılı = erken SHORT setup, absorpsiyondan sonra break aşağı bekleniyor.",
+  "entry": 64472,
+  "tp1": 64380,
+  "tp2": 64300,
+  "stop": 64520,
+  "absorption": "Fiyat 64472-64483 arasinda minimal hareket ederken delta son 5 barrada -12 (satis baskisi) ve mevcut bar -4 ile devam etmesi, bid absorption formasyon gosteriyor. Satis emri tutulma islemi devam ediyor.",
+  "dom_observation": "Bid depth 86 vs ask depth 55 ile bid_ask_ratio 1.56 alis baskisi gosterse de, son 3 bardaki ask hacimleri (20, 19, 19) ile bid hacimlerinin dengesi (27, 19, 19) bozulup satislarin etkinlestigini isaret ediyor.",
+  "htf_alignment": "5m ve 15m BEAR bias, 1h ve 4h BULL bias ile cift zit sinyal veriliyor. Ancak anlık 5m+15m bearish olması kisa vadeli short için destekleyici.",
+  "session_bias": "Session delta 154851 pozitif ve buy_sell_ratio 1.47 bullish gorunse de, fiyat VAL (64552) uzerinde hareket etmiyor ve absorption devam ettiği için kurumsal satis baskisinin gizli oldugu sinyali veriyor.",
+  "reasoning": "Negatif delta (-2.58M CVD, -12 delta 5bar) + possible_absorption + fiyat VAL'de tutunus + DOM bid agirligina ragmen ask varligi, satislarin emri agilastirdigi SHORT setup olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "02:40:35"
+  "timestamp": "02:41:16"
 }
