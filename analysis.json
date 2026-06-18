@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64240,
-  "tp1": 64180,
-  "tp2": 64100,
-  "stop": 64320,
-  "absorption": "DOM bid_ask_ratio 1.99 (bid agir) fakat CVD divergence devam ediyor - kurumsal satici baskisi gizlenmiş, fiyat VAL altinda tutunmus, negatif session delta (-15636)",
-  "dom_observation": "Bid derinligi 111 vs Ask 56 - nominal alis baskisi gozukse de, cumulative CVD -2.75M ve delta_sum_5bars=23 ile dengesiz, ask absorption riski yuksek",
-  "htf_alignment": "4 timeframe BEAR (5m/15m/1h/4h) - tam uyum, SELL icin ideal setup",
-  "session_bias": "Buy/Sell ratio 0.99 (esit) ancak session delta negatif (-15636), gunun tamaminda satis baskisi, buy_volume < sell_volume",
-  "reasoning": "CVD divergence + tum HTF bearish + fiyat VAL altinda (64240 < 64552) + session satis dominant + ask absorption = net SHORT sinyali, 64320 stop ile risk alınabilir",
+  "confidence_score": "72",
+  "entry": "64195",
+  "tp1": "64100",
+  "tp2": "63950",
+  "stop": "64280",
+  "absorption": "Mevcut bar -105 delta (guclu satis) + dusuk ask volume (24) + yuksek bid volume (130) = satis baskisinin bid tarafinda emri yuttugu absorption islemi.",
+  "dom_observation": "bid_ask_ratio=2.16 (bid agir) fakat delta negatif = satis emrinin bid tarafinda absorbe edilmesi, gerçek alis baskisi yok.",
+  "htf_alignment": "5m/15m/1h/4h tümü BEAR - maksimum HTF uyum, SHORT icin ideal.",
+  "session_bias": "Gunluk delta -63699 (guclu satis), buy_sell_ratio=0.97 (<1.0) = satis baskisi dominante, CVD -2799352 (aşağı yonde derin).",
+  "reasoning": "HTF tamamı BEAR + Session satis dominante + Mevcut bar guclu satis deltas (-105) + Ask volume minimal (24) + VAL (64552) henüz kirılmamış = net SHORT setup, VAL altı breakout icin short girmek uygun.",
   "should_trade": "EVET",
-  "timestamp": "06:04:02"
+  "timestamp": "06:04:42"
 }
