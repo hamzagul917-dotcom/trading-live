@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64663,
+  "entry": 64656,
   "tp1": 64750,
   "tp2": 64850,
-  "stop": 64600,
-  "absorption": "Son 10 bar analizinde bar-7'de -28 delta ile guclu ask absorption gozlenmis, ardından bar-10'da +35 delta ile bid agirlik ile tersine donus olusmustur; mevcut durumda delta_sum_5bars=+34 (bullish baski) ve bid_depth=82 vs ask_depth=60 ile bid agirliği devam etmektedir.",
-  "dom_observation": "bid_ask_ratio=1.36 (>1.0) guclu alis baskisi, ask_depth relative olarak hafif, order flow buy dominant.",
-  "htf_alignment": "15m/1h/4h BULL alignment mevcut (3/3 bullish), sadece 5m BEAR - net bullish uyum.",
-  "session_bias": "buy_sell_ratio=1.24 ve session delta=+282925 pozitif, fiyat VAL=64552 ustu tutunmus, bullish session karakteri.",
-  "reasoning": "CVD divergence (-2.45M negatif CVD vs bullish fiyat hareketi) kurumsal birikimi isaret ederken, delta_sum_5bars=+34 pozitif, DOM bid agir (1.36 orani), HTF bullish (15m/1h/4h), ve session buy dominant (1.24 ratio) - absorption sonrası tersine donus sinyali vermeketedir.",
+  "stop": 64620,
+  "absorption": "Mevcut bar minimal volume (1) ile absorption yapılıyor, son 5 barın delta toplamı +2 (pozitif). Negatif CVD (-2455774) ile yükselen fiyat arasında kurumsal çıkış sinyali var fakat VAL (64552) üzerinde güçlü bid derinliği (72) ve 1.23 bid/ask oranı alis baskısını teyit ediyor.",
+  "dom_observation": "Bid depth (72) > Ask depth (59), bid/ask ratio 1.23 = alis baskisi dominan. DOM alici lehine, support seviyeleri buyuyor.",
+  "htf_alignment": "5m BEAR, 15m BULL, 1h BULL, 4h BULL = 3/4 BULLISH, HTF uyum kuvvetli. Kisa vadeli (5m) sapmadan uzun vadeler taşıyor.",
+  "session_bias": "Session delta +279880, buy/sell ratio 1.23 (1.3 altı ama alis baskili), session buy_volume > sell_volume. Gun boyunca net alis dominansi.",
+  "reasoning": "VAL üstünde bid absorption + HTF bullish uyum (3/4) + DOM bid agir + session buy dominant + delta_sum_5bars pozitif = erken buyout sinyali, CVD divergence riskine karsi VAL support seviyesinde giris.",
   "should_trade": "EVET",
-  "timestamp": "04:34:29"
+  "timestamp": "04:35:10"
 }
