@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "62718",
-    "VAL": "61002",
-    "VAH": "64900"
+    "vPOC": 62718,
+    "VAL": 61002,
+    "VAH": 64900
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62792",
-  "tp1": "62500",
-  "tp2": "61500",
-  "stop": "63100",
-  "absorption": "Son 10 bardaki analiz: Bar 8-9'da +791 ve -2682 delta gosterip fiyat 63786'ya yukselip geri 62792'ye dustu - ASK absorption belgesi. Mevcut bar -152 delta ile kapandi. Bid vol (596) > Ask vol (444) gobek dengede degil.",
-  "dom_observation": "bid_ask_ratio 0.6 (<0.7) = SATIS BASKISI. Ask depth (77) > Bid depth (46) = satis ust. DOM satis pozisyonunda.",
-  "htf_alignment": "5m BULL / 15m BEAR / 1h BEAR = 2 BEAR uyum sagliyor. HTF SELL kriteri saglandi.",
-  "session_bias": "buy_sell_ratio 0.81 (<0.8) + session_delta -127315 = GUN BOYUNCA SATIS BASKISI HAKIM. Fiyat VAH (64900) alti seviyede = BEARISH momentum onayli.",
-  "reasoning": "CVD divergence=true + negative session delta + DOM ask agir + HTF 2x BEAR + possible_absorption false degil (bar 8-9 ASK absorption net) = kurumsal satis baskisi net SHORT sinyali.",
+  "confidence_score": 72,
+  "entry": 62782,
+  "tp1": 62500,
+  "tp2": 61500,
+  "stop": 63100,
+  "absorption": "Bar 8'de (62580 close) yuksek delta pozitif (791) ve sonrasinda bar 9'da devasa negatif delta (-2682) ile fiyat dustu; kurumsal satiscilar yukaridan emri yuttular ve immediat short baslattilar.",
+  "dom_observation": "DOM bid/ask ratio 0.71 (<0.7 THRESHOLD) - ask agir, satis baskisi kuvvetli, emir defterinde saticilar havalelasi net.",
+  "htf_alignment": "15m BEAR + 1h BEAR (2/3 uyum saglanmis), 5m BULL uyumsuzlugu ancak dusuk zaman dilimi override olmamaktadir.",
+  "session_bias": "Session delta -161624 (devasa negatif), buy_sell_ratio 0.8 (satiscilar dominant), gun boyunca makro satisci kontrolu net. VAL 61002 astarinda fiyat kalmasi bullish olmayacaktir.",
+  "reasoning": "CVD divergence + negatif CVD (-146369) + bar 8-9 kurumsal absorption (yuksek delta sonrasi reversal) + ask-agir DOM (0.71) + bearish HTF consensus + session sell dominance = kuvvetli SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "01:22:06"
+  "timestamp": "01:22:26"
 }
