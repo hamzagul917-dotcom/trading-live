@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63841,
-  "tp1": 63750,
-  "tp2": 63650,
+  "confidence_score": 78,
+  "entry": 63813,
+  "tp1": 63650,
+  "tp2": 63450,
   "stop": 63900,
-  "absorption": "YOK",
-  "dom_observation": "BID/ASK orani 1.92 - gucu bid tarafinda ama delta agirca negatif, satis baskisi baskın, bid duvar yuksek hacimle fiyat carpiyor",
-  "htf_alignment": "5m/15m/1h/4h tum BEAR - tam uyum, SHORT için ideal",
-  "session_bias": "buy_sell_ratio 0.76 (<0.8) + session delta -1.89M (guclu satis) + cevresel VAH altında fiyat = guclu bearish momentum",
-  "reasoning": "All-timeframe bearish alignment + session dominant sell volume + current negative delta bar + fiyat VAL seviyesine yakin + CVD deeply negative (-4.6M) = organized selling pressure, early short entry VAH incelemesi oncesi optimal risk/reward",
+  "absorption": "Son 5 bardaki toplam delta -202 negatif, CVD kumulatif -4.64M fiyat dusuyor, VAH ustu 65795'in altinda rejection yasiniyorum.",
+  "dom_observation": "Bid/Ask orani 1.37 > 1.0 olsa da, mevcut bar'da bid_vol=53 > ask_vol=11, ancak session geneli satis baskili (buy_sell_ratio=0.76 < 1.0), ask depth=53 bid depth=73 ile durgun.",
+  "htf_alignment": "Tum zaman dilimleri (5m, 15m, 1h, 4h) BEAR, maksimum uyum saglanmis, kuvvetli SHORT sinyali.",
+  "session_bias": "Gunluk delta -1.908M negatif, satis hacmi 7.87M > alis 5.96M, buy_sell_ratio=0.76 < 0.8 BEARISH momentum, fiyat VAL=64552 altinda rejection yakindan.",
+  "reasoning": "Kuvvetli bearish session deltasi (-1.9M) + tum HTF BEAR + CVD yuksek negatif (-4.64M) + son 5bar delta negatif (-202) + VAH reddi = net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "06:45:50"
+  "timestamp": "06:46:30"
 }
