@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "63900",
-    "VAL": "62841",
-    "VAH": "64737"
+    "vPOC": 63900,
+    "VAL": 62841,
+    "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62784",
-  "tp1": "62733",
-  "tp2": "62711",
-  "stop": "62813",
-  "absorption": "Son 10 bardaki guclu ASK absorption: bar 9-10'da delta negatif (-42, -77) ama fiyat VAH'a yakin kalmis, kurumsal satis baski absorbe edildi, tersine donus sinyali.",
-  "dom_observation": "Bid/ask ratio 1.13 (nötr), ancak son barlar ask dominas gösteriyor (112 bid vs 35 ask = reversal pattern), satış baskısı belirginleşiyor.",
-  "htf_alignment": "ZAYIF: 5m BULL, 15m BEAR, 1h BEAR, 4h BULL - çelişkili sinyaller, ancak 1h+15m bearish ağırlık short için destek veriyor.",
-  "session_bias": "BEARISH MOMENTUM: Session CVD -397803, buy/sell ratio 0.52 (agir satis), sell_volume dominans (837K vs 439K), kurumsal satis net.",
-  "reasoning": "VAH yakınında ask absorption (delta pozitif ama fiyat haraket etmiyor), session delta agir negatif, CVD divergence yok ama kurumsal satis net, son barlar satis egemenliği gösteriyor - SHORT setup kurulu.",
+  "confidence_score": 72,
+  "entry": 62776,
+  "tp1": 62733,
+  "tp2": 62711,
+  "stop": 62800,
+  "absorption": "Son 10 bardaki delta analizi: bar-10 strong -77 delta (ask 35, bid 112 = ciddi satis baskisi), bar-9 -42 delta satis dominasyonu, bar-6 +51 delta sonrası bar-5 -13 delta ile tersine dönüş. Mevcut bar -7 delta küçük ama VAL (62841) altında fiyat tutunmuyor, absorption karakteri yok.",
+  "dom_observation": "DOM ratio 0.53 (< 0.7 kritik): Ask derinliği 77, bid derinliği 41 - açık satis baskisi, büyük saticilar emir defterini kontrol ediyor.",
+  "htf_alignment": "Uyumsuz: 5m BULL fakat 15m-1h BEAR dominant (2/3 bearish). HTF uyumsuzlugu confidence azaltiyor ama intrabar strong sell sinyali egemen.",
+  "session_bias": "Session delta -399696 (bearish), buy_sell_ratio 0.52 (< 0.8) - gün boyunca satis agir baskı var, fiyat VAL altında = bearish momentum onay.",
+  "reasoning": "Sessional sell baskısı (-399696 CVD, 0.52 buy/sell ratio), DOM ask dominasyonu (0.53 ratio), son barların negatif deltası ve VAL altında fiyat tutunmaması, eski en yüksek hacim seviyesinde rejection - net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:40:15"
+  "timestamp": "00:40:56"
 }
