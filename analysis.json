@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 63900,
     "VAL": 62841,
     "VAH": 64737
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62810,
-  "tp1": 62841,
-  "tp2": 63900,
-  "stop": 62750,
-  "absorption": "Son 5 bardaki pozitif delta baskisi (delta_sum_5bars=54) + mevcut bardaki yuksek ask_vol (20) ile fiyat direncte (VAL'in uzerinde) tutunuyor - kurumsal alis baskisi net gozleniyor",
-  "dom_observation": "bid_ask_ratio=0.48 (<0.7) satis baskisi isaretlemesine ragmen, delta_sum_5bars pozitif ve ask_vol'un bid_vol'u 10x asmasi absorption isaret ediyor",
-  "htf_alignment": "5m BULL + 15m BULL + 4h BULL = 3/4 timeframe bullish, sadece 1h BEAR - kuvvetli HTF uyumu",
-  "session_bias": "buy_sell_ratio=0.55 satis dominant (bearish gorunumlu) fakat CVD=-383273 gunluk sell baskisina ragmen, mevcut delta_sum_5bars pozitif = kurumsal buyback hareketi",
-  "reasoning": "VAL seviyesinde (62841) pozitif delta absorption + HTF bullish alignment + son 5 bar pozitif delta baskisi = erken long setup, fiyat henuz VAL'i kirmadi ve kurumsal alis baskisi net.",
+  "entry": 62813,
+  "tp1": 62756,
+  "tp2": 62700,
+  "stop": 62850,
+  "absorption": "ASK absorption VAL seviyesinde - delta pozitif (delta_sum_5bars:47, delta_last_bar:2) ama fiyat VAL altinda yapilasmiyor, kurumsal satis baskisi gizli, possible_absorption:true.",
+  "dom_observation": "bid_ask_ratio 1.13 (alis baskisi gorunse de) session buy_sell_ratio 0.56 ile extreme satis baskisini dogruluyor - ask depth relative dusuk (55), satis kontrolu net.",
+  "htf_alignment": "5m+15m BULL ancak 1h BEAR - 1 BULL, 1 BEAR = MIXED. SELL sinyali icin 2 BEAR gerekli, alignment zaif.",
+  "session_bias": "buy_sell_ratio 0.56 (<<0.8) + CVD -378375 (massive negatif) + session sell_volume 851693 >> buy_volume 473317 = BEARISH momentum, session satis baskisinda net.",
+  "reasoning": "VAL altinda fiyat yapilasmiyor (rejection), delta pozitif ama fiyat asken, session extreme satis baskisi (-378k CVD) ile absorption pattern, 1h timeframe bearish - kurumsal satis kontrolu net.",
   "should_trade": "EVET",
-  "timestamp": "00:48:21"
+  "timestamp": "00:49:16"
 }
