@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65796"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65796
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63900",
-  "tp1": "63821",
-  "tp2": "63700",
-  "stop": "63965",
-  "absorption": "VAL altında bid absorption tespit edildi: fiyat 63900 seviyesinde sabitken bid volume 8>ask volume 3, cumulative -4.86M CVD ile kurumsal satis baskisi devam ediyor. Son 10 barda -52 delta ile guclu satis emri yutuluyor (bar 8).",
-  "dom_observation": "DOM bid_ask_ratio 0.5 (<0.7) - ask agir satis baskisi, emir defterinde 118 ask vs 59 bid = guclu satis intenti",
-  "htf_alignment": "5m/15m/4h BEAR (3/3 bearish) ama 1h BULL - Mixed sinyalinde 1h direnc hareketine karsi 3 lower timeframe bearish setup uyum sagliyor",
-  "session_bias": "Session delta -2.126M negatif, buy_sell_ratio 0.78 (<0.8) = net satis dominansi. Gunun 56.4% satis hacmi, fiyat VAL (64552) altinda - BEARISH momentum onaylandi",
-  "reasoning": "VAL altında kurumsal bid absorption + session satis dominansi + DOM ask agir + 5m/15m/4h bearish uyumu = erken short sinyali, -5 delta sonrasi tekrar negatife donus + CVD divergence yok ama CVD strongly negatif.",
+  "confidence_score": 72,
+  "entry": 63893,
+  "tp1": 63821,
+  "tp2": 63750,
+  "stop": 63950,
+  "absorption": "Son 10 barda -52 delta ile 113 hacimli buyuk satis baskisi gozlendi; Mevcut bar 51 pozitif delta ile teknik toparlanma gozlense de, -4.85M CVD ve session 0.78 buy/sell ratio ile kurumsal satis egemen.",
+  "dom_observation": "DOM ratio 0.94 (<1.0), ask depth hafif ust, satis baskisi devam ediyor.",
+  "htf_alignment": "5m BEAR + 4h BEAR; HTF 2/3 bearish, SHORT sinyaliyle uyumlu.",
+  "session_bias": "Session delta -2.1M negatif, buy_sell_ratio 0.78 (<0.8), gunelik satis dominant momentum.",
+  "reasoning": "CVD divergence + session satis baskisi + HTF bearish uyum + VAH ustu rejection + son bar -52 delta absorption = kurumsal kisa pozisyon acmasi sinyali.",
   "should_trade": "EVET",
-  "timestamp": "07:45:36"
+  "timestamp": "07:46:16"
 }
