@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63885,
-  "tp1": 63750,
-  "tp2": 63600,
-  "stop": 63950,
-  "absorption": "Ask absorption VAH altinda tespit edildi: Pozitif delta (67) fiyat direnci asiyorken yuksek ask volume (108) tarafindan emildi, kurumsal satis baskisi isaretliyor.",
-  "dom_observation": "DOM dengesi nispeten esit (ratio: 0.94) ancak ask depth (64) bid depth'i (60) ustun tutuyor - satis baski inisiyatifi gosteriyor.",
-  "htf_alignment": "5m, 15m, 1h ve 4h hepsi BEAR - tam HTF uyum mevcut, SHORT sinyali guclu onay aliyor.",
-  "session_bias": "Buy/sell ratio 0.76 (<0.8) + session delta -1.818M (guclu satis baskisi) + sell_volume buy_volume'u onemli oranda astı (7.7M vs 5.8M) - gunu BEARISH momentum hakim.",
-  "reasoning": "CVD divergence + possible absorption + tum HTF BEAR + session sell dominant + ask agir DOM = kurumsal short setup; mevcut 63885 ask absorption noktasından VAL (64552) altına donus beklenmektedir.",
+  "confidence_score": "72",
+  "entry": "63899",
+  "tp1": "63852",
+  "tp2": "63800",
+  "stop": "63950",
+  "absorption": "Mevcut bar ask absorption göstergesi: ask_depth(73) > bid_depth(42) ile bid_ask_ratio(0.58) çok düşük, fiyat 63899'da direniyor ve satış baskısı artıyor",
+  "dom_observation": "DOM analizi satis baskisini dogruluyor: bid_ask_ratio 0.58 < 0.7 threshold, ask derinligi bid derinliginin 1.73 katı, klasik satis absorpsiyonu",
+  "htf_alignment": "Kusursuz: 5m/15m/1h/4h tum timeframeler BEAR yonunde, 4 fark 4 BEAR = maksimum alisveris baskisi",
+  "session_bias": "Gigun basindan guclu BEARISH: session delta -1822093, buy_sell_ratio 0.76 < 0.8 threshold, sell_volume 7.7M > buy_volume 5.9M, mevcut fiyat VAL altinda degil ama satis kontrolu net",
+  "reasoning": "Session sell dominasyonu + tum HTF BEAR + DOM ask agir (0.58) + negative CVD (-4.5M) + mevcut bar negative delta(-14) ask absorption pattern icinde = satis absorpsiyonu sonrasi tekrar dususu bekle",
   "should_trade": "EVET",
-  "timestamp": "06:40:39"
+  "timestamp": "06:42:01"
 }
