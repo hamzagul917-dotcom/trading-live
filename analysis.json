@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63804,
-  "tp1": 63650,
-  "tp2": 63450,
-  "stop": 63900,
-  "absorption": "CVD divergence present: fiyat 63804'te iken CVD -4.6M seviyesinde derin negatif, kurumsal satis baskisi DEVAM ediyor, fiyat yukselemeye mukavemmet gösteriyor.",
-  "dom_observation": "BID/ASK ratio 2.44 (yuksek bid) PERO son 5 bardaki delta pattern +68'den gelen cikis, ask_vol 22>bid_vol 10 - satis baski acilmasi baslamis.",
-  "htf_alignment": "Kusursuz SHORT setup: 5m/15m/1h/4h TUMU BEAR, 4 tarafin 4'u bearish = maximum confluence.",
-  "session_bias": "Session delta -1.895M + buy_sell_ratio 0.76 (satis baskisi) + sell_volume 7.9M > buy_volume 6.0M = BEARISH HAKIM.",
-  "reasoning": "CVD divergence + VAH ustu rejection + ALL timeframes BEAR + Session sell dominant + DOM bid yuksek ama delta negative trend = kurumsal kirilim yonune satis yapiyordu, VAL (64552) hedef alinabilir.",
+  "confidence_score": "72",
+  "entry": "63849",
+  "tp1": "63820",
+  "tp2": "63802",
+  "stop": "63885",
+  "absorption": "Son 10 bardaki pozitif delta (63,23,22,18,3) fiyat ilerleme yapamıyor - Ask absorption VAH altında tespit edildi. Fiyat 63849-63865 aralığında sıkışırken DOM'da ask_depth 114 vs bid_depth 42 ile satis baskısı (0.37 ratio) belirgin.",
+  "dom_observation": "DOM ratio 0.37 (kritik satis baskisi), ask_depth 114 >> bid_depth 42, emir deftesinde satıcılar kontrol halinde.",
+  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR hakimiyeti - HTF uyumsuzluğu var fakat short için 15m/1h/4h alignment yeterli.",
+  "session_bias": "Session delta -1888301 (güçlü bearish), buy_sell_ratio 0.76 (<0.8 SELL sinyali), CVD -4623954 (toplam kurumsal satis baskisi), 5bar delta_sum 128 (son bar negatif reversal öncü).",
+  "reasoning": "Ask absorption + session sell dominansi + HTF bearish uyumu + DOM satis agiri + CVD dususu, VAH altinda fiyat rejection olusturuyor, satis setup'i guncel.",
   "should_trade": "EVET",
-  "timestamp": "06:50:33"
+  "timestamp": "06:52:14"
 }
