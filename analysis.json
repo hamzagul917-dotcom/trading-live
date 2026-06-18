@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 63900,
     "VAL": 62841,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62813,
-  "tp1": 62756,
-  "tp2": 62700,
-  "stop": 62850,
-  "absorption": "ASK absorption VAL seviyesinde - delta pozitif (delta_sum_5bars:47, delta_last_bar:2) ama fiyat VAL altinda yapilasmiyor, kurumsal satis baskisi gizli, possible_absorption:true.",
-  "dom_observation": "bid_ask_ratio 1.13 (alis baskisi gorunse de) session buy_sell_ratio 0.56 ile extreme satis baskisini dogruluyor - ask depth relative dusuk (55), satis kontrolu net.",
-  "htf_alignment": "5m+15m BULL ancak 1h BEAR - 1 BULL, 1 BEAR = MIXED. SELL sinyali icin 2 BEAR gerekli, alignment zaif.",
-  "session_bias": "buy_sell_ratio 0.56 (<<0.8) + CVD -378375 (massive negatif) + session sell_volume 851693 >> buy_volume 473317 = BEARISH momentum, session satis baskisinda net.",
-  "reasoning": "VAL altinda fiyat yapilasmiyor (rejection), delta pozitif ama fiyat asken, session extreme satis baskisi (-378k CVD) ile absorption pattern, 1h timeframe bearish - kurumsal satis kontrolu net.",
+  "entry": 62843,
+  "tp1": 62800,
+  "tp2": 62750,
+  "stop": 62870,
+  "absorption": "Session boyunca buyuk satis baskisi: buy_sell_ratio=0.57 (1.3 altinda), 871K sell vs 494K buy, CVD -376K guclu negatif. Son 5 bardan 3ü negatif delta (bar 2: -3, bar 3: -9), fiyat VAL seviyesinde (62841) hacim daralması ile absorption belirtileri.",
+  "dom_observation": "bid_ask_ratio=0.68 (<0.7 threshold), ask depth (67) bid depth (45) ustu = satis baskisi hakimiyeti, ask agir taraf dominant.",
+  "htf_alignment": "5m+15m BULL ama 1h BEAR: mixed signal. 1h bearish yonden cikis sinyali destekliyor, confidence hafif dusmus ama primary trend BEAR.",
+  "session_bias": "buy_sell_ratio=0.57 + fiyat VAL ustunde anchored = BEARISH momentum net. Session delta -376K kurumsal satis baski acik.",
+  "reasoning": "Guclu negatif CVD (-376K), dom ask agir (0.68), session satis dominant (0.57 ratio), 1h BEAR, fiyat VAL seviyesinde rejection pattern olusturma - klassik Axia SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:49:16"
+  "timestamp": "00:53:32"
 }
