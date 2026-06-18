@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62841,
-    "VAH": 64737
+    "vPOC": "63900",
+    "VAL": "62841",
+    "VAH": "64737"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 62723,
-  "tp1": 62650,
-  "tp2": 62550,
-  "stop": 62780,
-  "absorption": "Session delta -427630 ile buyuk satis baskisi (-0.47 buy/sell ratio), fiyat VAL altinda tutunuyor, satis absorption devam etmekte.",
-  "dom_observation": "DOM bid/ask ratio 0.71 < 0.7, ask depth (73) bid depth (52)'yi net overkill ediyorum, satis baskisi artiyor.",
-  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR, perfect HTF alignment shorta.",
-  "session_bias": "Buy/sell ratio 0.47 (cok dusuk), gunun 81% satisi kontrol ediyor, CVD -427630 guclu kurumsal satisi ortaya koyuyor.",
-  "reasoning": "BEARISH rejection + guclu session sell dominasyonu + DOM ask agir + VAL alti fiyat tutunusu + perfect HTF alignment, tum Axia shortları sinyali veriyor.",
+  "confidence_score": "72",
+  "entry": "62722",
+  "tp1": "62650",
+  "tp2": "62580",
+  "stop": "62780",
+  "absorption": "Son 5 bar delta toplamı -130 (güçlü satis baskisi), session delta -429748 ile uzun süredir kurumsal satis agirligı sürüyor, fiyat VAL (62841) altinda yapili.",
+  "dom_observation": "Bid/Ask orani 1.02 (nötral fakat ask derinligi 59 vs bid 61 dengesiz), mevcut bar'da ask 17 vs bid 33 = satis tarafinda tıkanma başlangıcı.",
+  "htf_alignment": "5m/15m/1h/4h tamamı BEAR - maksimum HTF uyumu sağlandı, SHORT setup için ideal.",
+  "session_bias": "Buy/Sell orani 0.47 (güçlü satis hakimiyeti), session volume 1.19M ile 816K satis vs 386K alis - gunluk kurumsal satis net -429748.",
+  "reasoning": "Son 10 bar'da persistent negatif delta (-16,-42,-77,-50), VAL altinda fiyat, 4 zaman diliminde BEAR trend, session satis baskisi dominan - Axia SELL setup gerçekleşti.",
   "should_trade": "EVET",
-  "timestamp": "00:34:20"
+  "timestamp": "00:34:41"
 }
