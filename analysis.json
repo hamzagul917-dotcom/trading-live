@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63849",
-  "tp1": "63820",
-  "tp2": "63802",
-  "stop": "63885",
-  "absorption": "Son 10 bardaki pozitif delta (63,23,22,18,3) fiyat ilerleme yapamıyor - Ask absorption VAH altında tespit edildi. Fiyat 63849-63865 aralığında sıkışırken DOM'da ask_depth 114 vs bid_depth 42 ile satis baskısı (0.37 ratio) belirgin.",
-  "dom_observation": "DOM ratio 0.37 (kritik satis baskisi), ask_depth 114 >> bid_depth 42, emir deftesinde satıcılar kontrol halinde.",
-  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR hakimiyeti - HTF uyumsuzluğu var fakat short için 15m/1h/4h alignment yeterli.",
-  "session_bias": "Session delta -1888301 (güçlü bearish), buy_sell_ratio 0.76 (<0.8 SELL sinyali), CVD -4623954 (toplam kurumsal satis baskisi), 5bar delta_sum 128 (son bar negatif reversal öncü).",
-  "reasoning": "Ask absorption + session sell dominansi + HTF bearish uyumu + DOM satis agiri + CVD dususu, VAH altinda fiyat rejection olusturuyor, satis setup'i guncel.",
+  "confidence_score": 72,
+  "entry": 63823,
+  "tp1": 63650,
+  "tp2": 63520,
+  "stop": 63885,
+  "absorption": "Mevcut bar'da bid volume (27) ask volume'u (12) 2.25x asta cikti, fiyat VAH altina kapandi = bearish absorption",
+  "dom_observation": "Bid/ask ratio 2.51 (alis baskisi gosterse de) - son 3 bardaki ask volume'de satis baskisi belirtileri (bar 9'da 40 ask, bar 10'da 21 ask zayif), CVD -4.6M negatif extremede",
+  "htf_alignment": "5m/15m/1h/4h TUM BEAR - perfect uyum, short yapilabilir",
+  "session_bias": "Buy/sell ratio 0.76 (<0.8), sell dominasyonu net, session delta -1.89M = guclu satis baskisi, fiyat VAL ustu ancak oturma yasanmamis",
+  "reasoning": "Tum HTF bearish + session sell dominasyonu (0.76 ratio) + CVD divergence (fiyat yansal hareket ederken CVD dusuyor) + son 5 bar delta pozitif (45) ancak mevcut bar sharp negatif (-15) = bearish kirilim sinyali, VAL altina dogru test bekleniyor",
   "should_trade": "EVET",
-  "timestamp": "06:52:14"
+  "timestamp": "06:53:54"
 }
