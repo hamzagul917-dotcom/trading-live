@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64546,
-  "tp1": 64520,
-  "tp2": 64471,
-  "stop": 64577,
-  "absorption": "Mevcut bar buyuk bid yoğunlugu (93 bid vs 4 ask) ve -89 delta ile fiyat VAL seviyesinde rejection gosteriyor, satislar emri yutuyor.",
-  "dom_observation": "Bid/ask ratio 1.3 (alis baskisi), ancak son bar ask activity zayif (4 vs 93 bid), satislar emri absorbe ediyor.",
-  "htf_alignment": "5m BEAR + 15m BEAR (2/3 uyum), 1h ve 4h BULL uyumsuzluk yaratiyor ancak short-term bearish baskisi net.",
-  "session_bias": "Session buy_sell_ratio 1.4 (alis dominant) fakat CVD -2.59M (kurumsal satis baskisi), guncelleme cvd_divergence = false ama CVD seviyesi cok negatif, session sonu degerlendiriliyor.",
-  "reasoning": "Mevcut bar VAL seviyesinde -89 delta ile ask absorption gosteriyor, HTF 5m/15m BEAR, session buy dominance rağmen CVD extreme bearish ve fiyat VAL altinda reject edilip bar kapanıyor.",
+  "confidence_score": "72",
+  "entry": "64439",
+  "tp1": "64380",
+  "tp2": "64320",
+  "stop": "64480",
+  "absorption": "Son 10 bardaki tutucu negatif delta (-42, -36, -25, -15, -9, -11, -78, -5, -7) ile birlikte fiyat 64586'dan 64439'a dusmesi ve DOM'da bid/ask ratio 0.89 (ask agir) satis baskisini gosterir. Kurumsal satici emri VAH'a yakin seviyelerde absorbed oluyorken fiyat dusmektedir.",
+  "dom_observation": "Bid/Ask ratio 0.89 - ask agir baskisi, satis emri hacmi alisini ustun tutmaktadir. Ask depth 67 vs Bid depth 59, satis likididesinin daha yuksek oldugunu isaret eder.",
+  "htf_alignment": "Kuvvetli BEAR alignment - 5m, 15m, 1h tum timeframe'ler BEAR, 4h BULL uyumsuzlugu dusuk timeframe'lerdeki satis baskisini destekler.",
+  "session_bias": "Buy/Sell ratio 1.25 ve session delta +104057 pozitif goruntuse de, son bardaki -42 delta, 5 bar delta sum -125 ve CVD -2631597 guclu gunumuz satis baski yonelmesini net gosterir.",
+  "reasoning": "Kucuk hacim (71) ile birlikte tutucu negatif delta, ask agir DOM, 3 timeframe'de bearish bias ve dusmekte olan CVD, VAL seviyesine yakin sharp descent, kurumsal satis absorption sinyali vererek satis pozisyonunu desteklemektedir.",
   "should_trade": "EVET",
-  "timestamp": "02:50:59"
+  "timestamp": "02:57:29"
 }
