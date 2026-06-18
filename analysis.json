@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63970,
-  "tp1": 63850,
-  "tp2": 63700,
-  "stop": 64050,
-  "absorption": "Mevcut barında ask volumü düşük (134) bid yüksek (583) olmasına rağmen fiyat VAL altında kapandı - satış absorption göstergesi. CVD -3.7M ile güçlü satış baskısı devam ediyor.",
-  "dom_observation": "DOM ratio 0.59 (<0.7) - ask agir, satış baskısı kuvvetli. Bid depth 47 vs ask depth 79 = net satış agırlığı.",
-  "htf_alignment": "5m/15m/1h/4h tüm timeframelar BEAR - mükemmel HTF uyumu. SHORT için ideal setup.",
-  "session_bias": "Buy/sell ratio 0.73 (<0.8) + session delta -1.020M = gün boyunca dominant bearish momentum. Satış hacimleri (3.72M) alışları (2.70M) açık şekilde geçmiş.",
-  "reasoning": "Tüm timeframelar BEAR, DOM ask agir (0.59), session bearish dominant (0.73), CVD -3.7M, delta_sum_5bars negatif (-767), fiyat VAL altında rejection gösteriyor - güçlü SHORT sinyali.",
+  "confidence_score": "72",
+  "entry": "64000",
+  "tp1": "63800",
+  "tp2": "63500",
+  "stop": "64150",
+  "absorption": "ASK absorption gozlenmedi ancak delta_sum_5bars=-647 ile keskin satis baskisi, fiyat 64035'te satis gucunun erken kontrol ettigi isaretleri gosteriyor.",
+  "dom_observation": "bid_ask_ratio=0.47 (<0.7) - islemci ask'lar dominante, satis baskisi net sekilde artmis durumda.",
+  "htf_alignment": "5m/15m/1h/4h tamamen BEAR - HTF uyumu mükemmel SHORT icin.",
+  "session_bias": "buy_sell_ratio=0.71 (<0.8) + session delta -1144123 = gunu tum gun satis baskisi tasinmis, fiyat VAL (64552) altinda hareket edecek setup.",
+  "reasoning": "Gün genelinde kurumsal satis (session delta -1.1M, sell_vol 3.9M>buy_vol 2.8M), mevcut bar ASK ağır (bid=52 vs ask=156), CVD'de -3.8M ile derinde negatif, tüm HTF'ler BEAR - net SHORT sinyali VAL altında.",
   "should_trade": "EVET",
-  "timestamp": "06:10:52"
+  "timestamp": "06:11:32"
 }
