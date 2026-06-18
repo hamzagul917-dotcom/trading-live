@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63802",
-  "tp1": "63650",
-  "tp2": "63500",
-  "stop": "63920",
-  "absorption": "Ask absorption tespit edildi - delta_sum_5bars negatif (-185) fakat son bar delta pozitif (17) = satici gücünün durması, kurumsal buy absorption possible. Fiyat VAL altında ve session buy_sell_ratio 0.76 (< 0.8) = kuvvetli satıcı baskısı.",
-  "dom_observation": "bid_ask_ratio 1.87 (>1.5) görünümde alis baskısı var gibi görünse de, ask_depth 46 vs bid_depth 86 = derin bid alma sadece fiyat desteginde. Session sell dominantlığı (7.9M vs 5.9M) gerçek baskıyı gösterir.",
-  "htf_alignment": "4 timeframe de BEAR (5m/15m/1h/4h) - maksimum HTF uyum, SHORT confidence yüksek",
-  "session_bias": "Session delta -1.92M ve buy_sell_ratio 0.76 - kuvvetli satıcı baskısı. Fiyat 63815 VAL (64552) altında acceptance gösteriyor, BEARISH momentum",
-  "reasoning": "HTF tüm timeframelerde BEAR + session kuvvetli sell dominant + CVD negatif (-4.6M) + fiyat VAL altında = yüksek confidence short setup, absorption ile fiyat 63900 ustu'nda yükselmekte zorlanıyor.",
+  "confidence_score": 72,
+  "entry": 63827,
+  "tp1": 63750,
+  "tp2": 63650,
+  "stop": 63880,
+  "absorption": "Ask agirliginda (ask_vol:15, bid_vol:2) fiyat 63827-63837 arasinda hapsolmasi + mevcut bar delta pozitif (+13) ama volumetrik acceptance yoktur = kirli buy absorption, satislar kontrol ediyor",
+  "dom_observation": "DOM bid_ask_ratio 0.75 (<0.7 esigine yakın) = satis baskisi guclu, ask_depth (67) bid_depth (51) uzerinde = bearish positioning",
+  "htf_alignment": "5m/15m/1h/4h TUM TIMEFRAMELERDE BEAR = kuvvetli downtrend uyumu, SELL icin ideal HTF setup",
+  "session_bias": "buy_sell_ratio 0.76 (<0.8 esiginde) + session delta -1925245 + sell_volume (7.9M) > buy_volume (6.0M) = gun boyunca kurumsal satis baskisi dominan, VAH (65795) ustu fiyat rejection zone",
+  "reasoning": "Gunluk BEAR trend icerisinde negatif CVD (-4.66M) + DOM ask agirliginda absorption + session sell dominansi + VAL (64552) ustu tutunma basarisizsiz = kiyas shortlarina hazir satis setupu.",
   "should_trade": "EVET",
-  "timestamp": "06:47:12"
+  "timestamp": "06:48:23"
 }
