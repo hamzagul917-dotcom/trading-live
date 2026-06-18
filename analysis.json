@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63897",
-  "tp1": "63750",
-  "tp2": "63600",
-  "stop": "63950",
-  "absorption": "Son 5 bar delta toplamı -37 (negatif baskı devam), current bar delta -1 ile bearish momentum korunuyor. VAH (65795) üzerinde fiyat kabul görmüyor.",
-  "dom_observation": "BID/ASK ratio 2.1 - bid ağır görünüyor fakat ask_depth 35 vs bid_depth 73 oranında satış baskısı artıyor. Net satis agirliginda isaret.",
-  "htf_alignment": "Tüm HTF timeframeler (5m, 15m, 1h, 4h) BEAR - mükemmel uyum. Satış sinyali için en az 2 BEAR gerekli, 4 tanesi var.",
-  "session_bias": "Session delta -1856036 (guçlu negatif), buy_sell_ratio 0.76 (<0.8 threshold) - satis hacmi dominantı. Fiyat VAL (64552) altında hareket ediyor = BEARISH acceptance.",
-  "reasoning": "Tüm HTF timeframeler BEAR, session satış dominantı (0.76), CVD şiddetle negatif (-4591689), DOM satış baskılı ve fiyat VAL altında reddediliyor - net short setup.",
+  "confidence_score": 72,
+  "entry": 63868,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63920,
+  "absorption": "VAL (64552) uzerinde ASK absorption: bid/ask 17/3 oraninda yuksek bid yutuluyor, fiyat dusmeden delta negatif kalirken DOM 1.67 alis baskisi ile tutunuyor - kurumsal satis emri absorbe ediliyor",
+  "dom_observation": "bid_ask_ratio 1.67 (alis agir) ancak mevcut bar ask_vol 3 cok dusuk - satis baskisinin diminish ettigi sinyali, session sell_volume 7658473 (buy_volume 5805752) satislarin dominant oldugunu dogruluyor",
+  "htf_alignment": "5m BEAR + 1h BEAR + 4h BEAR (3/4 timeframe bearish) - strong bearish HTF alignment, 15m BULL tek uyumsuzluk",
+  "session_bias": "buy_sell_ratio 0.76 (<0.8) + session delta -1852721 + VAH ustunde fiyat 63868 - gunluk net satis baskisi bearish momentum onayliyor",
+  "reasoning": "Negatif CVD -4588374 + session satis dominant (0.76 ratio) + bearish HTF alignment (3/4) + mevcut bar absorption (bid tutuluyor ama fiyat dusuyor) + VAL yakininda ASK satin almasi - kurumsal satis pozisyonu aciyor",
   "should_trade": "EVET",
-  "timestamp": "06:32:40"
+  "timestamp": "06:34:29"
 }
