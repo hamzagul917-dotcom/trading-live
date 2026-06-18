@@ -10,13 +10,13 @@
   "confidence_score": 72,
   "entry": 62734,
   "tp1": 62650,
-  "tp2": 62580,
-  "stop": 62780,
-  "absorption": "VAL alt seviyesinde - satis baskisi artiyor, delta negatif (-425023 CVD), DOM ask agir (0.46 ratio), 5 barin net deltasi -127 (satis egilimi)",
-  "dom_observation": "Ask depth (93) bid depth'ten (43) cok yuksek - satis baskisi net 2.16x, ask agir hakim",
-  "htf_alignment": "5m/15m/1h/4h tamamen BEAR - maksimum HTF uyum, short icin ideal",
-  "session_bias": "buy_sell_ratio 0.47 (<0.8) + session delta -425023 + sell_volume (801022) >> buy_volume (375998) = kuvvetli satis baskisi, VAL alti Acceptance bildiriyor",
-  "reasoning": "Satis dominasyonlu session (0.47 B/S), tum HTF BEAR, DOM ask agir (0.46), CVD derin negatif, fiyat VAL alti tutunuyor - kirilima destek yok, Axia short setup net.",
+  "tp2": 62550,
+  "stop": 62850,
+  "absorption": "Negatif CVD (-422277) ile fiyat destekte (62733-62762) durmus, ask absorption belirtisi; son 5 bar delta_sum -123 ile satis baskisi devam etmektedir.",
+  "dom_observation": "DOM bid/ask ratio 0.49 (<0.7) - ask agir, satis baskisi artiyor. Ask depth (86) bid depth (42) nin 2x uzerinde, guclu satis istegi.",
+  "htf_alignment": "Tum zaman dilimleri (5m, 15m, 1h, 4h) BEAR - mükemmel uyum, SHORT icin ideal.",
+  "session_bias": "Buy/sell ratio 0.47 (<0.8), gun boyunca satis volumu (803644) alis (381367) nin 2.1x uzerinde, keskin bearish momentum.",
+  "reasoning": "Session satiş baskısı (-422277 CVD), dom ask agirliği (0.49 ratio), tüm HTF bearish, ve vPOC altında fiyat - kısa pozisyon için net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:33:23"
+  "timestamp": "00:34:01"
 }
