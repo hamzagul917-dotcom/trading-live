@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64584,
-  "tp1": 64650,
-  "tp2": 64750,
-  "stop": 64540,
-  "absorption": "VAL (64552) seviyesinde BID absorption tespit edildi - son 5 barda delta toplamı +28 pozitif, bid_vol agir (13 vs 5), buy_sell_ratio 1.63 (alis baskisi), mevcut bar kapanıs fiyatı 64597 VAL ustunde stabilitesi goruldu",
-  "dom_observation": "DOM ratio 0.65 (ask agir gorunuyor) ancak session genelinde buy dominansi (1.63) ve mevcut barda ask_vol daha agir - mini satis baskisi varsa da alis hacmi genel dominansi degistirmiyor",
-  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BULL - 3 timeframe BULLISH, alignment kuvvetli olsa da 15m divergensi risk olusturuyor",
-  "session_bias": "Session delta +174755 (buy dominant), buy_sell_ratio 1.63 gunun genelinde alis yonunu destekliyor, CVD -2560898 negatif ancak son 5 bar +28 delta ile iyilestigi gozleniyor",
-  "reasoning": "VAL seviyesinde BID absorption + pozitif delta sum (5bars=+28) + buy_sell_ratio 1.63 + HTF mostly bullish yapisi, negatif CVD-e ragmen son barlar pozitif delta ile tersine donus sinyali veriyor",
+  "entry": 64565,
+  "tp1": 64552,
+  "tp2": 64524,
+  "stop": 64595,
+  "absorption": "Son 2 bardaki negatif delta (-2, -7) VAL seviyesi yakininda alis absorption gostermektedir; fiyat VAL alti tutunmaya baslamistir.",
+  "dom_observation": "Bid/ask orani 1.08 ile orta seviyede ancak mevcut bar'da ask dominansi (1 bid vs 3 ask) ve son barlar'da satis baskisi artmaktadir.",
+  "htf_alignment": "5m ve 15m BEAR trend'de, ancak 1h ve 4h BULL olmasi confidence'i azaltmaktadir; kisa vadede satis baskilari baskindır.",
+  "session_bias": "Session delta +175155 ve buy_sell_ratio 1.62 gunun alisina isaretse de, CVD -2.56M ile buyuk satis baskisi ve cvd_divergence=true mevcut fiyat seviyesinde kurumsal cekilisi gosterir.",
+  "reasoning": "CVD divergence + negatif delta absorption VAL'da + 5m/15m BEAR trend + session sonu satis baskisi = VAL altina krilim beklentisi ile SHORT pozisyonu net setup vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "02:34:34"
+  "timestamp": "02:35:14"
 }
