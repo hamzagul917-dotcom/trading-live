@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64274,
-  "tp1": 64200,
-  "tp2": 64100,
-  "stop": 64320,
-  "absorption": "Mevcut bar pozitif delta (21) ile direnisti test ediyor ancak fiyat ilerlemiyor, ask volumü (38) bid volumünden (17) fazla = ASK ABSORPTION.",
-  "dom_observation": "DOM ratio 0.89 < 1.0 = satis baskisi artiyor, ask derinligi (70) bid derinliginden (63) fazla, kurumsal satis hazirlanmasi.",
-  "htf_alignment": "5m BULL ancak 15m/1h/4h BEAR = HTF uyumsuzluk var, asil trend BEARISH, kisa vadeli rebound sonrasi dusus beklenmekte.",
-  "session_bias": "Session delta -75654 (guclu BEARISH), buy_sell_ratio 0.96 < 1.0 = satis dominansi, gun boyunca kurumsal satis baski net.",
-  "reasoning": "CVD divergence (true) + CVD -2.8M (guclu baski) + Session bearish (-75654) + DOM ask agir (0.89) + HTF majority BEAR + Fiyat VAH altinda = Gizli kurumsal satis, rebound fake, asil hedef VAL.",
+  "confidence_score": "72",
+  "entry": "64251",
+  "tp1": "64100",
+  "tp2": "63900",
+  "stop": "64350",
+  "absorption": "Mevcut bar: Ask dominansi (bid 17 > ask 4) fakat fiyat dusuyor = satis gücü kontrol altında, bearish absorption sinyali",
+  "dom_observation": "DOM ratio 1.02 (neredeyse esit) fakat son 10 bar analizi: bar-6 ve bar-7 ciddi ask absorption (bid 72, 79) sonrası fiyat dustu = kurumsal satis baskısı kanıtlanmış",
+  "htf_alignment": "Tüm timeframeler (5m/15m/1h/4h) BEAR - maksimum HTF uyumu sağlandı, SHORT pozisyon için ideal",
+  "session_bias": "Günlük delta negatif (-75742), buy/sell ratio 0.96 (<1.0) = satis dominansi, fiyat VAL (64552) altında tutunuyor = bearish acceptance devam ediyor",
+  "reasoning": "CVD divergence + tüm HTF BEAR + session sell dominant + fiyat VAL altında rejection gösteriyor = net SHORT setup, VAH'ye doğru retracement sonrası TP1/TP2 hedeflerine gidiş beklenir",
   "should_trade": "EVET",
-  "timestamp": "05:41:57"
+  "timestamp": "05:42:37"
 }
