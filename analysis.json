@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64135",
-  "tp1": "64050",
-  "tp2": "63950",
-  "stop": "64200",
-  "absorption": "ASK absorption yok, fiyat VAL altinda degil; ancak delta_sum_5bars negatif (-247) ve last_bar delta -104 = satis baskisi devam ediyor",
-  "dom_observation": "bid_ask_ratio=0.99 esit dengede, ancak bid_depth (74) vs ask_depth (75) neredeyse esit - satis baskisi hafif",
-  "htf_alignment": "Tum zaman dilimleri BEAR (5m/15m/1h/4h) - MÜKEMMEL UYUM, guvenlik maksimum",
-  "session_bias": "buy_sell_ratio=0.93 (<1.0) + session_delta=-176868 (guerte satis baskisi) + sell_volume (2677439) > buy_volume (2500571) = BEARISH momentum",
-  "reasoning": "Tum HTF'ler BEAR, gunluk delta negatif, son 5 bar negative delta, fiyat VAL altinda (64142 < 64552) - kurumsal satis baskisi net ve confirmation'lar ayni yonde.",
+  "confidence_score": 72,
+  "entry": 64096,
+  "tp1": 64052,
+  "tp2": 64000,
+  "stop": 64120,
+  "absorption": "Mevcut bar: Düşük volume (35) + bid_vol baskısı (27 bid vs 8 ask) fakat fiyat hareket etmiyor (64088-64105 range) = ASK absorption. Satıcılar fiyatı düşürmekte direnç gösteriyor, kurumsal satış emri yutuluyor.",
+  "dom_observation": "DOM bid/ask ratio: 2.03 (bid agır görünüyor ANCAK mutlak ask_depth=50 vs bid_depth=101 olmasına rağmen order flow ASK baskısı gösteriyor - kurumsal satış emri maskeleniyor)",
+  "htf_alignment": "Tüm HTF (5m/15m/1h/4h) BEAR, SHORT için optimal alignment var",
+  "session_bias": "Buy/sell ratio 0.91 (<1) + session delta -236641 (güçlü satis baskisi) + sell_volume>buy_volume (2.75M vs 2.51M) = BEARISH momentum",
+  "reasoning": "Güçlü BEARISH HTF uyumu + session satis baskisi + VAH ustu fiyat Rejection + ASK absorption bar + CVD -2.9M (kurumsal shorting) + delta_sum_5bars -172 = Satici kontrol net, ASK absorption baskisina SHORT girisi",
   "should_trade": "EVET",
-  "timestamp": "06:08:31"
+  "timestamp": "06:09:12"
 }
