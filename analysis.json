@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64195",
-  "tp1": "64100",
-  "tp2": "63950",
-  "stop": "64280",
-  "absorption": "Mevcut bar -105 delta (guclu satis) + dusuk ask volume (24) + yuksek bid volume (130) = satis baskisinin bid tarafinda emri yuttugu absorption islemi.",
-  "dom_observation": "bid_ask_ratio=2.16 (bid agir) fakat delta negatif = satis emrinin bid tarafinda absorbe edilmesi, gerçek alis baskisi yok.",
-  "htf_alignment": "5m/15m/1h/4h tümü BEAR - maksimum HTF uyum, SHORT icin ideal.",
-  "session_bias": "Gunluk delta -63699 (guclu satis), buy_sell_ratio=0.97 (<1.0) = satis baskisi dominante, CVD -2799352 (aşağı yonde derin).",
-  "reasoning": "HTF tamamı BEAR + Session satis dominante + Mevcut bar guclu satis deltas (-105) + Ask volume minimal (24) + VAL (64552) henüz kirılmamış = net SHORT setup, VAL altı breakout icin short girmek uygun.",
+  "confidence_score": 72,
+  "entry": 64177,
+  "tp1": 64100,
+  "tp2": 63950,
+  "stop": 64250,
+  "absorption": "Mevcut bar: Düşük hacimde (43) fiyat 64177'de sabitlenmiş, bid:ask oranı 36:7 (5.14) ile BID absorption gösteriyor ancak bu SAT yönünde (delta -28). 2. bar'da -164 delta ile güçlü satış baskısı var ama fiyat 64178-64240 arası konsolidasyon yapıyor = kurumsal satış emri yutuluyor.",
+  "dom_observation": "DOM bid_ask_ratio 1.61 (>1.5) gösteriyor ama bu yanıltıcı: bid depth 102 vs ask depth 63 görünürken, mevcut bar bid:ask 36:7 ile önemli asimetri var. Son 5 bar analizi: bar 2'de (237 vol, -164 delta) ve bar 5'te (90 vol, -48 delta) tutarlı satış baskısı gözleniyor.",
+  "htf_alignment": "5m/15m/1h/4h TÜM BEAR - mükemmel uyum. HTF güçlü satış trendini doğruluyor.",
+  "session_bias": "Session delta -121093 (negatif), buy_sell_ratio 0.95 (<1.0) = gün boyunca satış dominasyon. Fiyat VAL (64552) ALTI konumda hareket ediyor = BEARISH acceptance.",
+  "reasoning": "Tüm HTF bearish + session sell dominant + VAL altında absorption + negatif CVD (-2856747) + DOM bid tutma = kurumsal satış emri yerleşmesi, kırılım yönünde SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "06:04:42"
+  "timestamp": "06:05:24"
 }
