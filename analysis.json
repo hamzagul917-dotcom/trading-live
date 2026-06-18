@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64612,
-  "tp1": 64552,
-  "tp2": 64480,
-  "stop": 64710,
-  "absorption": "Mevcut bar minimal hacimle (2) fiyat sabitlenmis, son 10 bardaki negatif delta baskisi (-22,-15,-28,-12,-21) ve ask absorption (2 ask volume vs 0 bid) satis baskisini gostermektedir.",
-  "dom_observation": "Bid/Ask orani 1.11 esitken, emir defterine satis baski basladi (ask_depth 66 vs bid_depth 73 ancak bid_vol 0). Son 5 bar toplamında delta negatif (-4) ve son barlar satin fiyat dagiliyor.",
-  "htf_alignment": "5m ve 15m BEAR harita dusus hizlandirir ancak 1h+4h BULL olmasina ragmen; 2/4 kriter saglanmamis, alignment zayif. Kisa vadede bearish yapı baskinci.",
-  "session_bias": "Session delta +269296 bullish görünse de buy_sell_ratio 1.21 (bolum 1.3 altı) ve fiyat VAH altında 65795 icinde kalıyor. Session icinde satin edilenlerin emildigi gorulmuyor.",
-  "reasoning": "Mevcut bar en minimal hacimle price fixed kalmis, son 10 bardaki negatif delta kasintisi ve ask absorption VAL seviyesine yakin pozisyonda bir SHORT setup olusturmakta; kisa vadeli HTF bearish ve CVD -2.4M kurumsal satis baskisini teyit ediyor.",
+  "entry": 64537,
+  "tp1": 64480,
+  "tp2": 64420,
+  "stop": 64600,
+  "absorption": "Fiyat VAL (64552) seviyesine yakin, negatif CVD (-2479963) ile birlikte ask baskisi gozlenmekte, ancak possible_absorption=false oldugu icin kurumsal emrin yutulusmadigi gorulmektedir.",
+  "dom_observation": "bid_ask_ratio=0.64 (<0.7) satis baskisini guclu sekilde gosteriyorsa da, bid_depth=55 vs ask_depth=87 ile ask agirliginin belirgin oldugunu kanitlamaktadir.",
+  "htf_alignment": "5m/15m/1h BEAR uyumu tam olup, 4h BULL ile ters gorunum gozlenmekte. Kisa vadeli trend acikca bearish, ancum HTF buyuklugu uyumu tam degil (-1 puan).",
+  "session_bias": "Session delta=+255691 (pozitif) ve buy_sell_ratio=1.2 teknik olarak bullish gosteriyorsa da, current bar ve son 5 bar delta seriside net negatif (-72 toplam) ve baslangic fiyatindan (64585) asagidaki mevcut kapat (64537) bearish reaksiyon verir.",
+  "reasoning": "Negatif CVD, ask baskili DOM, kisa vadeli (5m+15m+1h) bearish HTF ve VAL seviyesindeki fiyat pozisyonu icinde son 5 bardaki -72 delta rejection senaryosu sunuyorsa, short seti risk/reward oranina uygun gozukmektedir.",
   "should_trade": "EVET",
-  "timestamp": "05:01:12"
+  "timestamp": "05:02:23"
 }
