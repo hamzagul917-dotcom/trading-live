@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63851,
-  "tp1": 63700,
-  "tp2": 63500,
-  "stop": 63950,
-  "absorption": "Session delta -2230502 ile guclu satis baskisi var; ask_depth=71 bid_depth=30 ile satis hakimi, CVD -4966155 ile kurumsal satislar net harita cikiyor.",
-  "dom_observation": "Bid/Ask orani 0.43 - ask dominate, satici baskisi net, emir kitabi satislara agir.",
-  "htf_alignment": "5m/15m/1h/4h tumu BEAR - maksimum HTF uyumu, aski yonu cok guclu.",
-  "session_bias": "buy_sell_ratio=0.66 (<0.8), gunluk satis hacmi 6.5M vs alis 4.3M - kurumsal satislar devam ediyor.",
-  "reasoning": "Tum zaman dilimlerinde bearish trend, session delta net satici baskili, ask defteri dominate, CVD negatif ve derinlestigi icin erken short sinyali guclu.",
+  "confidence_score": 78,
+  "entry": 63990,
+  "tp1": 63828,
+  "tp2": 63700,
+  "stop": 64150,
+  "absorption": "Mevcut bar 136 positive delta ile kapanmasina ragmen VAL altinda (63990 < 64552) fiyat istikrarlasamamis, kurumsal satis baskisi hakimiyeti devam etmektedir.",
+  "dom_observation": "Bid/Ask orani 0.85 - satis baskisi net. Ask depth (53) > Bid depth (45), ask agirliginin arttigi gorulmektedir.",
+  "htf_alignment": "5m/15m/1h/4h TUM BEAR - maximum uyum. Dusus trendine tam uyum.",
+  "session_bias": "Session delta -2.12M negatif, buy_sell_ratio 0.69 (< 0.8) - guclu satis dominant. CVD -4.85M dusus trendinde.",
+  "reasoning": "4 zaman diliminde BEAR trend, VAL altinda Rejection, session satis baskisi, negatif CVD ve ask-heavy DOM yapisi - SHORT setup klasik Axia satisi.",
   "should_trade": "EVET",
-  "timestamp": "06:12:12"
+  "timestamp": "06:12:51"
 }
