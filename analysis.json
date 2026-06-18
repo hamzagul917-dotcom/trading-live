@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 78,
-  "entry": 62779,
+  "entry": 62788,
   "tp1": 62741,
   "tp2": 62680,
   "stop": 62820,
-  "absorption": "ASK absorption yok, bid agir fakat CVD buyuk negatif (-392146) ve session sell dominant (buy_sell_ratio=0.48), fiyat VAL alti = bearish acceptance",
-  "dom_observation": "Bid/Ask ratio 1.97 - bid agir gorunuyor ancak current bar'da ask_vol:28 bid_vol:102 oraninda satis hizlanmasi yok, ama CVD ve session datasi guclü satis baskisini ispatliyor",
-  "htf_alignment": "5m BEAR, 15m BEAR, 1h BEAR, 4h BEAR - tam uyum, SHORT icin ideal",
-  "session_bias": "Buy_sell_ratio 0.48 (<0.8), session delta -392146 (guclü satis baskisi), fiyat VAL alti - BEARISH momentum confirmed",
-  "reasoning": "Tum zaman dilimlerinde BEAR, -392146 CVD ile guclü satis baskisi, buy_sell_ratio 0.48 ile session sell dominant, fiyat VAL altinda denklige girmis - SHORT setup net kurumsal satis islemi",
+  "absorption": "Cari barda (144 vol, -77 delta) ask volumunun bid'e gore dusuk kalmasi (34/111) ve fiyatin VAL (62841) alti seviyesinde tutunmasi kurumsal satis baskisinin devam ettigini gosterir.",
+  "dom_observation": "Bid/Ask orani 1.08 - hafif bid agir gorunse de, session genelinde ask dominansi net (buy_sell_ratio 0.47). Gunluk satan hacim aticilarin iki katina yakindir.",
+  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR - maksimum HTF uyumu saglanmis, kisa satislara destek veriyor.",
+  "session_bias": "Session delta -402008 ve buy_sell_ratio 0.47 - guclu satis baskisi. Fiyat VAL alti seviyede hareket ederken satis dominansi devam ediyor, BEARISH momentum tirim.",
+  "reasoning": "Tum HTF BEAR, CVD -402k agir negatif, son 10 barda 10 bardan 6si negatif delta, fiyat VAL alti seviyede stability kazanamadi - kumsal satis absorption net, kisa satisa hazir setup.",
   "should_trade": "EVET",
-  "timestamp": "00:31:22"
+  "timestamp": "00:31:43"
 }
