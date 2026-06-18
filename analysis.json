@@ -1,22 +1,22 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64560",
-  "tp1": "64620",
-  "tp2": "64680",
-  "stop": "64535",
-  "absorption": "Son 5 bardaki delta -20 iken fiyat VAL seviyesinde support bulmus, negative delta absorption + CVD divergence kurumsal alinma isareti",
-  "dom_observation": "Bid/Ask ratio 1.02 dengeli ancak session buy_sell_ratio 1.69 (1.3+ bullish threshold) ve toplam session delta +173904 pozitif, kumu alis baskisi dominantligi gosteriyor",
-  "htf_alignment": "5m BULL + 1h BULL + 4h BULL (3/4 bullish), 15m BEAR carpitsa da majority bullish uyumlu, KURAL 5 saglanmis",
-  "session_bias": "Session buy_sell_ratio 1.69 (>1.3 bullish), buy_volume 425770 > sell_volume 251865, fiyat VAL ustu acceptance bolgesinde = KURAL 6 bullish momentum onaylanmis",
-  "reasoning": "CVD divergence + negative delta absorption at VAL + bullish HTF majority + session buy dominance (1.69 ratio) = kurumsal para giris noktasinda toplu alim yaparak fiyati VAL'a cekerek support olusturmus, VAH'a dogru kacis beklenir.",
+  "confidence_score": 72,
+  "entry": 64640,
+  "tp1": 64700,
+  "tp2": 64800,
+  "stop": 64580,
+  "absorption": "Negatif CVD (-2.5M) ve negatif session delta rağmen fiyat VAL üstünde stabilize oldu, kurumsal bid absorption tespit edildi (bid_depth 74 vs ask_depth 54)",
+  "dom_observation": "Bid/Ask oranı 1.36 - güçlü alış baskısı. Emir defterinde 20 contract fark bid lehinedir, satıcıların kaçışı göstergesi",
+  "htf_alignment": "Tüm timeframeler BULLISH (5m, 15m, 1h, 4h) - mükemmel üst trend uyumu",
+  "session_bias": "Buy/Sell oranı 1.68 (441K vs 262K) - gün içinde 67% alış dominansı, kurumsal akinlar yumuşak satıyor",
+  "reasoning": "CVD divergence + session buy dominant (1.68) + VAL üzeri absorption + HTF all-bull + bid depth heavy = erken institutional long setup, düşüş tuzağı risk düşük",
   "should_trade": "EVET",
-  "timestamp": "02:30:51"
+  "timestamp": "02:32:46"
 }
