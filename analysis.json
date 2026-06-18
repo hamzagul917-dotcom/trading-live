@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 64718,
-  "tp1": 64932,
-  "tp2": 65150,
-  "stop": 64650,
-  "absorption": "Son 5 bardaki delta_sum=+30 (pozitif) + possible_absorption=true + bid hacmi ask hacmini yutuyor = kurumsal alici gucu VAL seviyesi yakininda tutunuyor, tersine donus sinyali",
-  "dom_observation": "bid_ask_ratio=0.98 (neredeyse esit) ancak son 3 bardaki bid dominansi (ask:19,28,19 vs bid:3,20,10) alis baskisini gosteriyor",
-  "htf_alignment": "5m+15m+1h+4h tamamı BULL - maksimum HTF uyumu saglanmis",
-  "session_bias": "buy_sell_ratio=1.24 (alis baskili) + session delta=+287855 + fiyat VAL (64552) ustunde = gunluk alis dominansi cok acik",
-  "reasoning": "VAL ustunde kurumsal bid absorpsiyonu + 5 bardaki kumulatif pozitif delta + tum HTF bullish + session buy baskisi = net long sinyali, dusus tutunma noktasinda guclu destek var",
+  "confidence_score": "72",
+  "entry": "64725",
+  "tp1": "64932",
+  "tp2": "65150",
+  "stop": "64670",
+  "absorption": "Mevcut bar: delta=+11 (ask baskili 14 vs bid 3), fiyat 64725 VAL uzerinde, ancak hafif hacim (17) absorption sinyali vermekte. Son 5 bar cumulative delta=+47 (net bullish), fiyat direncte hafif tutunuyor.",
+  "dom_observation": "Bid/Ask ratio=1.74 (bid agir), 100 bid vs 57 ask = guclü alis baskisi, kurumsal buying support",
+  "htf_alignment": "Tum timeframeler BULL (5m/15m/1h/4h), perfect uyum, BUY setup icin ideal ortam",
+  "session_bias": "Session delta=291283 (net bullish), buy_sell_ratio=1.24 (alis baskili), CVD=-2444370 (istatistiksel negatif ama daily delta strongly pozitif = kurumsal short squeeze potansiyeli)",
+  "reasoning": "Guclü HTF bullish uyum + DOM bid agir (1.74 ratio) + session buy dominant + mevcut bar ask baskili delta = VAL uzerinde kurumsal alis absorption, retracement sonrasi yeniden yukselse bullish kirilim beklentisi.",
   "should_trade": "EVET",
-  "timestamp": "04:40:37"
+  "timestamp": "04:41:54"
 }
