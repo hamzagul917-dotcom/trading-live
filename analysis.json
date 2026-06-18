@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63927,
-  "tp1": 64552,
-  "tp2": 64932,
-  "stop": 63892,
-  "absorption": "Mevcut bar minimal volume (1) ile fiyat VAL seviyesine yakin, bid agir (2:0), son 5 bar delta pozitif (+1) - BID ABSORPTION algosu aktif, guclu support emilimi",
-  "dom_observation": "bid_ask_ratio 1.3 (alis baskisi), bid_depth 62 >> ask_depth 48, DOM'de net alis hakimiyeti gozleniyor",
-  "htf_alignment": "5m+15m+1h BULL (3/3 bullish), 4h BEAR ile minor carpismasi var ancak LTF uyumu guclü, BUY onaylanir",
-  "session_bias": "buy_sell_ratio 0.78 (satis baskili gorunse de), session delta -2093613 negatif ANCAK son 5 bar delta +1 tersine donuse isaret ediyor, kurumsal emilim sinyali",
-  "reasoning": "VAL seviyesinde minimal hacim ile BID absorption + DOM alis agir + LTF BULL + delta tersine donus = Axia LONG kurulum net, VAL'dan VAH'a itilim beklenebilir",
+  "entry": 63888,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63950,
+  "absorption": "Son 5 bardaki yuksek negatif delta (-39) ve gunluk -2.09M session delta ile satis baskisi hakimdir; fiyat VAL altinda guclu satis kusumlastirmasi devam etmektedir.",
+  "dom_observation": "Bid/Ask ratio 1.06 ile hafif alis baskili olsa da, session buy_sell_ratio 0.78 (satis baskisi) ve ask derinligi 49 vs bid 52 ile dengelidir. Makro satis dominansi kusumlastirma sinyali verir.",
+  "htf_alignment": "5m, 15m ve 4h BEAR konumundadir (3/4 timeframe bearish). 1h FLAT olsa da, guc buyuk zaman dilimlerinde bearish momentum net olarak satis yon uyumsuzlugunu desteklemektedir.",
+  "session_bias": "Gunluk delta -2.09M, buy_sell_ratio 0.78 (<0.8 threshold) ile kuvvetli BEARISH momentum. Satis hacmi (9.6M) alis hacmini (7.5M) anlamli oranda asmakta, VAL altinda konum kirilim acisidan negatiftir.",
+  "reasoning": "Gunluk satis dominansi (-2.09M delta, 0.78 ratio), 5 bar negatif delta kusumlastirmasi (-39), HTF 3/4 bearish uyumu ve fiyat VAL altinda tutunmasi net SHORT sinyali olusturmakta; absorption yok ancak order flow satis baskilasini desteklemektedir.",
   "should_trade": "EVET",
-  "timestamp": "07:29:11"
+  "timestamp": "07:33:24"
 }
