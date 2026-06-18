@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 65698,
     "VAL": 64316,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62747,
+  "entry": 62724,
   "tp1": 62650,
-  "tp2": 62500,
-  "stop": 62850,
-  "absorption": "Session delta -300072, buy_sell_ratio 0.67 (satis baskisi dominant), DOM ask_depth 71 > bid_depth 41 (ask agir), CVD -299183 (kuvvetli kurumsal satis), delta_sum_5bars -116 (tutarli negatif delta).",
-  "dom_observation": "DOM bid_ask_ratio 0.58 (<0.7) - ask agir, satis baskisi artiyor. 2 ardisik negative bar (-44 delta, -147 delta) satis motivasyonunu gosteriyor.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 4h BEAR (3/3 bearish) = guclu bearish uyum. 1h BULL tek kaldi, overridden.",
-  "session_bias": "buy_sell_ratio 0.67 (<0.8), sell_volume 899504 >> buy_volume 599432 - session boyunca kuvvetli satis baskisi. Fiyat VAL (64316) uzakta, VAH (66916) uzakta, ancak momentum aşağı yonde.",
-  "reasoning": "Guclu kurumsal satis (CVD -299k), tutarli negatif delta (-116 son 5bar), ask agir DOM (ratio 0.58), 3/3 HTF bearish alignment, session sell dominant (ratio 0.67) - tetiklenmiş aşağı yönlü setup.",
+  "tp2": 62550,
+  "stop": 62800,
+  "absorption": "Mevcut bar'da minimal volume (2) ile fiyat 62724'te tutuluyor - BID absorption gozlemleniyor. Ancak session'da guclu satış baskisi (sell_vol 932924 vs buy_vol 618462, ratio 0.66) ve CVD -313572 ile gunu kapaliyor. Son 10 bar'da delta_sum_5bars -147 = net satis baskisi.",
+  "dom_observation": "BID/ASK ratio 1.23 - hafif alis baskisi gorulmuyor. Ask depth 56 vs bid depth 69 - ancak session'da satis agir baski devam ediyor. Dom hafif alis yonlu ama order flow satis dominantı.",
+  "htf_alignment": "BEARISH UYUM ZAYIF - Tum 5m, 15m, 1h, 4h BEAR. SHORT icin ideal 2+ BEAR gerekli, 4/4 var = KUSURSUZ alignment.",
+  "session_bias": "buy_sell_ratio 0.66 (<0.8) + session delta -314462 + fiyat VAH (66916) alti = BEARISH momentum aktif. Gunu saticilar kontrolunda kapattı.",
+  "reasoning": "Session'da guclu bearish delta (-314462) + tum HTF BEAR aligned + DOM hafif bid yonlu ama order flow satis baskili + current bar absorption (minimal vol, fiyat tutuluyor) + fiyat VAH altinda = SHORT hazir, kırılıma doğru drift bekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "01:14:48"
+  "timestamp": "01:15:10"
 }
