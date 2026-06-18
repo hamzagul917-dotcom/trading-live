@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64567",
-  "tp1": "64650",
-  "tp2": "64750",
-  "stop": "64520",
-  "absorption": "Son 5 bardan (bar 3-7) delta_sum=111 pozitif, fiyat VAL seviyesi (64552) etrafinda dalgalaniyorsa bid absorption gorulmektedir; mevcut bar delta=4 zayif olmakla birlikte bid/ask ratio=1.25 (bid agir) ve session buy_sell_ratio=2.03 (2x alis baskisi) kurumsal aliş talebini desteklemektedir.",
-  "dom_observation": "Bid depth 65 vs Ask depth 52 ile bid_ask_ratio=1.25 - alis baskisi net, ask tarafinin zayif olmasi yukarıya hareket icin yer acmaktadir.",
-  "htf_alignment": "5m/15m/1h/4h hepsi BULL - maksimum HTF uyum, guclu bullish ortam kurulu.",
-  "session_bias": "Session delta=107013 (kuvvetli pozitif) + buy_sell_ratio=2.03 - gun boyunca 2x daha fazla alis hacmi, fiyat VAL ustunde = BULLISH momentum onaylandi.",
-  "reasoning": "Guclu HTF uyum (4x BULL), pozitif session delta, bid absorption DOM, buy dominant session ve CVD negatif (-2.6M) ancak fiyat VAL ustunde kalmasiyla erken LONG sinyali aktif - Risk/Reward uygunlugu iyi.",
+  "confidence_score": 72,
+  "entry": 64546,
+  "tp1": 64596,
+  "tp2": 65795,
+  "stop": 64520,
+  "absorption": "Son 5 bardaki delta_sum (69) pozitif ve HTF buyuk zaman dilimlerinde BULL; fiyat VAL ustu (64546>64552 yakininda) kabul alaninda hareket ediyor",
+  "dom_observation": "BID/ASK ratio 1.19 (>1.0) alis baskisi gosterirken; bid_depth 68 > ask_depth 57 ile kurumsal alim ilgisi belirgin",
+  "htf_alignment": "15m BULL + 1h BULL + 4h BULL = 3/3 buyuk dilim bullish; 5m BEAR tek degil, toplam uyum %85 oranında yukarı yonlu",
+  "session_bias": "Buy/sell ratio 1.98 (>1.3) gunluk buyuk alis dominansi; session delta +106518 kuvvetli bullish; fiyat VAL ustunde Acceptance hareketi",
+  "reasoning": "Guncель bardaki minimal delta(1) rağmen session buyuk alis baskisı (1.98 ratio), DOM bid ağır (1.19), HTF 3/4 bullish ve fiyat VAL ustunde Acceptance hacmi ile orta-uzun LONG setup destekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "02:08:33"
+  "timestamp": "02:09:13"
 }
