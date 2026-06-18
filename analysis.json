@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64533",
-  "tp1": "64650",
-  "tp2": "65100",
-  "stop": "64480",
-  "absorption": "Son 5 bardaki pozitif delta akumulasyonu (146 net delta) + bid depth (63) ask depth (58)den fazla, fiyat VAL üstünde konumlanmış, kurumsal alış baskısı net görünüyor",
-  "dom_observation": "Bid/Ask oranı 1.08 - hafif alış baskısı, bid derinliği ask derinliğinden 5 birim fazla, emir defterinde ılımlı ama saptanabilir alış dominasyonu",
-  "htf_alignment": "5m/15m/1h/4h tümü BULL - mükemmel HTF uyumu, tüm zaman dilimlerinde bullish momentum",
-  "session_bias": "Buy/sell oranı 2.06 - güçlü oras alis baskisi, session delta 52817 pozitif, VAL üstünde işlem gören fiyat bullish acceptance sinyali veriyor",
-  "reasoning": "Bullish HTF uyumu + pozitif session delta + VAL acceptance + DOM bid ağırlığı + son 5 bar net delta 146 kombinasyonu güçlü long setup oluşturuyor.",
+  "confidence_score": 78,
+  "entry": 64560,
+  "tp1": 64600,
+  "tp2": 64680,
+  "stop": 64520,
+  "absorption": "YOK - possible_absorption=false, normal flow",
+  "dom_observation": "BID agirlik (1.22 ratio) - alis baskisi dominan, bid depth 70 vs ask depth 58",
+  "htf_alignment": "Kusursuz - 5m/15m/1h/4h TUMU BULL, en yuksek uyum",
+  "session_bias": "Guclü bullish momentum - buy_sell_ratio 2.03 (>1.3 threshold), buy_volume 106271 >> sell_volume 52342, session delta +53929 pozitif",
+  "reasoning": "Fiyat VAL (64552) ustu ve VAH yonunde hareket ediyor, delta_sum_5bars +163 pozitif ilis, DOM bid agir, session 2:1 alis baskili ve tum HTF BULL alignment - teknik setup LONG icin ideal.",
   "should_trade": "EVET",
-  "timestamp": "02:03:55"
+  "timestamp": "02:04:34"
 }
