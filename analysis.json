@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 63900,
     "VAL": 62841,
     "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62819,
-  "tp1": 62757,
-  "tp2": 62700,
-  "stop": 62850,
-  "absorption": "Mevcut bar: 2 volume + 2 ask delta ile minimal hareket. Son 10 bar analizi: Bar 2-3 güçlü satış baskısı (-50 delta) fiyat dirence yaslı. Kurumsal absorption VAH yakınında tespit edildi - ASK absorption pattern (delta pozitif ama fiyat ilerleyemiyor).",
-  "dom_observation": "DOM ratio 0.87 (ask ağır - satis baskisi). Ask depth 63 > Bid depth 55 = belirgin satis dominansi.",
-  "htf_alignment": "ZAYIF: 5m BULL ancak 15m ve 1h BEAR. 2/3 timeframe bearish - kisa vadede satış baskisi dominante.",
-  "session_bias": "BEARISH MOMENTUM: buy_sell_ratio 0.51 (<0.8 threshold), sell_volume 689745 >> buy_volume 349548. Session delta -340197 = gün boyunca kurumsal satış baskısı devam ediyor.",
-  "reasoning": "CVD divergence + ASK absorption VAH seviyesinde + session satış dominansi + DOM ask ağır + HTF bearish yapı; kurumsal para VAH direncinde satış emri yutarken gizli short pozisyon kuruyor.",
+  "confidence_score": 78,
+  "entry": 62779,
+  "tp1": 62741,
+  "tp2": 62680,
+  "stop": 62820,
+  "absorption": "ASK absorption yok, bid agir fakat CVD buyuk negatif (-392146) ve session sell dominant (buy_sell_ratio=0.48), fiyat VAL alti = bearish acceptance",
+  "dom_observation": "Bid/Ask ratio 1.97 - bid agir gorunuyor ancak current bar'da ask_vol:28 bid_vol:102 oraninda satis hizlanmasi yok, ama CVD ve session datasi guclü satis baskisini ispatliyor",
+  "htf_alignment": "5m BEAR, 15m BEAR, 1h BEAR, 4h BEAR - tam uyum, SHORT icin ideal",
+  "session_bias": "Buy_sell_ratio 0.48 (<0.8), session delta -392146 (guclü satis baskisi), fiyat VAL alti - BEARISH momentum confirmed",
+  "reasoning": "Tum zaman dilimlerinde BEAR, -392146 CVD ile guclü satis baskisi, buy_sell_ratio 0.48 ile session sell dominant, fiyat VAL altinda denklige girmis - SHORT setup net kurumsal satis islemi",
   "should_trade": "EVET",
-  "timestamp": "00:30:12"
+  "timestamp": "00:31:22"
 }
