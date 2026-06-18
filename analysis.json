@@ -10,13 +10,13 @@
   "confidence_score": 72,
   "entry": 62724,
   "tp1": 62650,
-  "tp2": 62550,
-  "stop": 62800,
-  "absorption": "Mevcut bar'da minimal volume (2) ile fiyat 62724'te tutuluyor - BID absorption gozlemleniyor. Ancak session'da guclu satış baskisi (sell_vol 932924 vs buy_vol 618462, ratio 0.66) ve CVD -313572 ile gunu kapaliyor. Son 10 bar'da delta_sum_5bars -147 = net satis baskisi.",
-  "dom_observation": "BID/ASK ratio 1.23 - hafif alis baskisi gorulmuyor. Ask depth 56 vs bid depth 69 - ancak session'da satis agir baski devam ediyor. Dom hafif alis yonlu ama order flow satis dominantı.",
-  "htf_alignment": "BEARISH UYUM ZAYIF - Tum 5m, 15m, 1h, 4h BEAR. SHORT icin ideal 2+ BEAR gerekli, 4/4 var = KUSURSUZ alignment.",
-  "session_bias": "buy_sell_ratio 0.66 (<0.8) + session delta -314462 + fiyat VAH (66916) alti = BEARISH momentum aktif. Gunu saticilar kontrolunda kapattı.",
-  "reasoning": "Session'da guclu bearish delta (-314462) + tum HTF BEAR aligned + DOM hafif bid yonlu ama order flow satis baskili + current bar absorption (minimal vol, fiyat tutuluyor) + fiyat VAH altinda = SHORT hazir, kırılıma doğru drift bekleniyor.",
+  "tp2": 62580,
+  "stop": 62760,
+  "absorption": "Son 2 bardaki düşük delta (-11, -55) ile beraber bid agir (16:5, 128:74) absorption gozlendi - satis baskisi absorbe ediliyor ve fiyat destek seviyesine yaklas, inversiyonal kirilim sinyal verir.",
+  "dom_observation": "DOM bid_ask_ratio=0.52 (<0.7) satis baskisi guclu, ask_depth=69 bid_depth=36 ile 2x daha agir - net satis baskisi devam ediyor.",
+  "htf_alignment": "5m/15m/1h/4h tum timeframe'ler BEAR trend gösteriyor - HTF alignment mükemmel, SELL sinyali destekli.",
+  "session_bias": "Session delta negatif (-315344), buy_sell_ratio=0.66 (<0.8) guclu satis dominant, fiyat VAL seviyesinin (64316) ucunda - BEARISH momentum sabit.",
+  "reasoning": "Tum timeframe'lerde BEAR trend, session satis dominant (0.66), DOM ask agir (0.52), delta son 5 bardaki net -156 ve possible_absorption=true kombinasyonu - VAL seviyesine yaklas veren ask absorption SHORT setup kurtar.",
   "should_trade": "EVET",
-  "timestamp": "01:15:10"
+  "timestamp": "01:15:33"
 }
