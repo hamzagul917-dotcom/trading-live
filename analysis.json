@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 62718,
-    "VAL": 61002,
-    "VAH": 64900
+    "vPOC": "62718",
+    "VAL": "61002",
+    "VAH": "64900"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62796,
-  "tp1": 62550,
-  "tp2": 62200,
-  "stop": 63100,
-  "absorption": "Ask agir dominans (ask_depth 81 vs bid_depth 42, ratio 0.52) + CVD -245447 strongly negative + delta_sum_5bars -106 (satis baskisi) + session buy_sell_ratio 0.79 (<0.8 BEARISH) = Institutional sellers tutuyorlar fiyat VAH alti kaliyor.",
-  "dom_observation": "DOM bid_ask_ratio 0.52 (<0.7) = Satis baskisi dominans, ask volumu bid volumunun 2x+ fazla, emir defteri askiya agir baski gosteriyor.",
-  "htf_alignment": "HTF uyum zaif: 5m BULL olsa da 15m+1h BEAR, net 2-1 BEAR lehine, acik SHORT sinyali icin yeterli",
-  "session_bias": "buy_sell_ratio 0.79 (<0.8) = Gun boyunca satis hacmi baskili, sell_volume 1.26M > buy_volume 0.97M, session bearish momentum gosteren net delta -260702",
-  "reasoning": "Institutional satis baskisi (CVD divergence + ask agir DOM + session bearish ratio) fiyat VAH altinda rejection yaratarak SHORT setupi olusturdu; negatif delta sonrasi pozitif donusun olmayisi + BEAR HTF uzummasi short sinyal destekliyor.",
+  "confidence_score": "72",
+  "entry": "62798",
+  "tp1": "62550",
+  "tp2": "61800",
+  "stop": "63100",
+  "absorption": "Bar 8-9 arasinda 40637 hacim ile massive negative delta (-2682) gerceklesmis, fiyat VAH seviyesine ulastiktan sonra rejection gorulmustür - kurumsal satis baskisi net.",
+  "dom_observation": "Bid/Ask orani 0.45 (kritik dusukluk) - Ask agir baskisi, satis dominasyonu onemli.",
+  "htf_alignment": "5m BULL ama 15m+1h BEAR - HTF uyumsuzluk var, 2/3 BEAR = satis sinyalini destekliyor.",
+  "session_bias": "Session delta -298049 + buy_sell_ratio 0.79 (<0.8) = gunluk satis baskisi, VAH ustu retestinde rejection yapiliyor.",
+  "reasoning": "CVD divergence acik (negatif CVD fiyat henuz yuksek seviyede), VAH seviyesinde Ask absorption gorulmuste, DOM ask agir, session satici dominant - Axia Kural 2,4,6 konfirmeli SHORT senali.",
   "should_trade": "EVET",
-  "timestamp": "01:24:50"
+  "timestamp": "01:25:30"
 }
