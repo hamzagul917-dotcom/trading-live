@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64700,
+  "entry": 64658,
   "tp1": 64750,
-  "tp2": 64800,
-  "stop": 64650,
-  "absorption": "Gunluk session delta 330176 (BULLISH) + bid/ask ratio 1.78 (alis baskisi) + buy_sell_ratio 1.45 (kurumsal alis dominant) ile fiyat VAL seviyesinde (64552) destek almistir. Son 5 bar delta_sum 5 (pozitif) ve CVD divergence kurumsal emrin gizli acilmasini isaret etmektedir.",
-  "dom_observation": "Bid derinligi 85 vs Ask derinligi 48 ile bid/ask ratio 1.78 > 1.5 - guclu alis baskisi ve absorption sinyali.",
-  "htf_alignment": "5m BEAR ancak 15m/1h/4h BULL - 3 zaman diliminin 3'u bullish, kuvvetli HTF uyumu saglanmistir.",
-  "session_bias": "Buy_sell_ratio 1.45 (1.3 ustu) + gunluk delta 330176 (pozitif) + fiyat VAL 64552 ustu - kuvvetli bullish session momentum.",
-  "reasoning": "VAL desteginde BID absorption + gunluk buy_dominant session + 3 timeframe bullish + CVD divergence kurumsal buyuk acilis sinyali veriyorken, 5m bearish noise tekrar 15m/1h/4h ana trendine uymamaktadir.",
+  "tp2": 64850,
+  "stop": 64600,
+  "absorption": "VAL (64552) ustu konumlanmis, negatif delta (-20) ile hafif pullback gerceklestigi halde fiyat destekte tutunuyor, alici baskisi guclu (bid_vol 26 vs ask_vol 6)",
+  "dom_observation": "Bid/Ask orani 1.74 ile net alis baskisi dominasyonu, emir defterinde alici taraf ciddi derinlik (97 bid vs 56 ask)",
+  "htf_alignment": "5m BEAR olsa da 15m/1h/4h BULL; 4 timeframe'in 3'u BULLISH, BUY kriteri saglanmis",
+  "session_bias": "Session buy_sell_ratio 1.44 (>1.3) + toplam session delta 327065 POZITIF = guclу gunluk alis momentumu, fiyat VAL ustu acceptance halinde",
+  "reasoning": "Son 10 bardaki pozitif delta akislari (110, 62, 50, 40) ve DOM'daki 1.74 bid-ask rasyosu guclu kurumsal alis baskisini, session delta ve buy_sell_ratio oranı bullish momentumu, VAL ustu accept edilen fiyat seviyesi ise reverse confirmation sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "03:15:34"
+  "timestamp": "03:16:34"
 }
