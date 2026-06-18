@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "62718",
-    "VAL": "61002",
-    "VAH": "64900"
+    "vPOC": 62718,
+    "VAL": 61002,
+    "VAH": 64900
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62798",
-  "tp1": "62550",
-  "tp2": "61800",
-  "stop": "63100",
-  "absorption": "Bar 8-9 arasinda 40637 hacim ile massive negative delta (-2682) gerceklesmis, fiyat VAH seviyesine ulastiktan sonra rejection gorulmustür - kurumsal satis baskisi net.",
-  "dom_observation": "Bid/Ask orani 0.45 (kritik dusukluk) - Ask agir baskisi, satis dominasyonu onemli.",
-  "htf_alignment": "5m BULL ama 15m+1h BEAR - HTF uyumsuzluk var, 2/3 BEAR = satis sinyalini destekliyor.",
-  "session_bias": "Session delta -298049 + buy_sell_ratio 0.79 (<0.8) = gunluk satis baskisi, VAH ustu retestinde rejection yapiliyor.",
-  "reasoning": "CVD divergence acik (negatif CVD fiyat henuz yuksek seviyede), VAH seviyesinde Ask absorption gorulmuste, DOM ask agir, session satici dominant - Axia Kural 2,4,6 konfirmeli SHORT senali.",
+  "confidence_score": 72,
+  "entry": 62798,
+  "tp1": 62550,
+  "tp2": 62200,
+  "stop": 63100,
+  "absorption": "Pozitif delta (bar 7-8: +1757) sonrasi negatif delta donusu (-151 current bar) - satis baskisi artis, ASK absorption mevcut",
+  "dom_observation": "DOM ratio 0.57 (<0.7) - ask taraf agir, satis baskisi dominante, emir defterinde 72 ask vs 41 bid",
+  "htf_alignment": "5m BULL (minor), 15m BEAR, 1h BEAR - 2/3 timeframe BEARISH, HTF uyumu satis lehine",
+  "session_bias": "Session delta -301214 (negative), buy_sell_ratio 0.79 (<0.8) = BEARISH momentum, satis dominasyonu net",
+  "reasoning": "CVD divergence aktif (-285959), session satis baskili (0.79), DOM ask agir (0.57), HTF 2/3 BEAR, pozitif delta sonrasi negatif reversal = kurumsal satis baglamasi sinyali, VAH altinda rejection yapisi.",
   "should_trade": "EVET",
-  "timestamp": "01:25:30"
+  "timestamp": "01:25:50"
 }
