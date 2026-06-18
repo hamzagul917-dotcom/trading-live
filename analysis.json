@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62768,
+  "entry": 62779,
   "tp1": 62733,
   "tp2": 62711,
-  "stop": 62789,
-  "absorption": "Ask absorption tespit edildi: Son 10 bar içinde yüksek ask volume (112 bid vs 35 ask bar 6'da, 114 bid vs 64 ask bar 9'da) karşısında fiyat düşüş gösteremiyor, kurumsal satış baskısı absorbe ediliyorsa tersine dönüş beklenir.",
-  "dom_observation": "DOM ratio 0.97 (dengeli), ancak session buy/sell ratio 0.51 (güçlü satış baskısı) ve CVD -407335 (negatif divergence) aşırı satış gösteriyor.",
-  "htf_alignment": "HTF uyum zayıf: 5m BEAR, 15m BULL, 1h BEAR, 4h BEAR - 3/4 BEAR, ancak 15m karşı sinyal nedeniyle confidence düşük. BEAR çoğunlukta olsa da immediate bullish cross riskli.",
-  "session_bias": "Gün geneli satış dominansı (830935 sell vs 423600 buy), buy/sell ratio 0.51 BEARISH. Fiyat VAL (62841) altında dolanıyor, kabul belirlenmemiş.",
-  "reasoning": "CVD divergence + possible absorption + session sell dominansı + 3/4 HTF BEAR uyumu SHORT setupı gösteriyor; absorption pattern sayesinde ASK satış baskısının fiyat tutması potansiyel absorpsyon, tersine dönüş öncesi kısa pozisyonlandırma zamanı.",
+  "stop": 62820,
+  "absorption": "Session delta -407129 ile guclü satis baskisi, VAL (62841) yakininda fiyat (62779), ask_vol agir (6>1 bid), son 10 barda -50 delta ile satis tarafinda tutunma, DOM ask_depth (81) bid_depth (44) ile satis agi net",
+  "dom_observation": "bid_ask_ratio 0.55 (<0.7) - ask agir, satis baskisi artiyorsa isaret",
+  "htf_alignment": "5m BULL ama 15m+1h BEAR (2/3 bear dominant) - kisa vadede satis sinyali uyumlu",
+  "session_bias": "buy_sell_ratio 0.51 (<0.8) + fiyat VAL (62841) altinda (62779) = BEARISH momentum tamamlandi, satis ust uste",
+  "reasoning": "Kumsal satis emri yutma (absorption) + CVD -407129 negatif + DOM ask agir + son 5 bar delta 62 ama fiyat dusmek istiyor, HTF bearish hakimiyeti = erken SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:37:05"
+  "timestamp": "00:37:25"
 }
