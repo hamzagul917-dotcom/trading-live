@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64626,
-  "tp1": 64700,
-  "tp2": 64800,
-  "stop": 64552,
-  "absorption": "Son 5 barın delta toplamı +26 ile pozitif, VAL (64552) üzerinde fiyat tutunuyor ve bid absorption yapılıyor.",
-  "dom_observation": "Bid/Ask oranı 0.54 ile satis baskisi gösterse de, session buy/sell oranı 1.27 ile alis hakimiyeti ve delta_sum_5bars +26 pozitif momentum gösteriyor.",
-  "htf_alignment": "5m BULL + 15m BULL + 4h BULL = 3/4 zaman dilimi bullish (1h BEAR minor direnç), HTF alignment GÜÇLÜ pozitif.",
-  "session_bias": "Session delta +270415 (buy dominant), buy_sell_ratio 1.27 > 1.3 eşik yakını, fiyat VAL üzerinde konumlu = BULLISH session momentum.",
-  "reasoning": "Pozitif delta accumulation (+26 son 5 bar) + VAL support üzerinde fiyat tutunması + HTF 3/4 bullish uyum + session buy dominansi, erken long opportunite sinyali veriyor.",
+  "entry": 64522,
+  "tp1": 64480,
+  "tp2": 64420,
+  "stop": 64560,
+  "absorption": "Mevcut bar: Minimum volume (1 contract) ile fiyat 64522'de sabitlenmiş, satış baskısı (bid_vol=1, ask_vol=0) devam ediyor. Son 5 bar delta toplamı -40 (strong bearish), son 2 bar delta toplamı +27 ama 5 bar ortalamasında net negative. VAL (64552) seviyesine yakın position, ASK absorption sinyali mevcut.",
+  "dom_observation": "Bid/Ask ratio 0.64 (<0.7) - satis baskisi dominan, ask depth (89) bid depth'ten (57) %.56 daha agir, satis tarafinda onemli baski kumesi mevcut.",
+  "htf_alignment": "5m/1h BEAR, 15m/4h BULL - Mixed sinyal ancak intraday (5m) ve medium-term (1h) BEAR dominant, immediate trend SHORT icin destekleyici, confidence azaliyor.",
+  "session_bias": "Buy/Sell ratio 1.26 (alis baskili görünse de) CVD -2.47M (massif satış biriktirmesi), session delta +264K ama bu erken saat verisi, cumulative satış baskisi cok guclü.",
+  "reasoning": "Absorption + DOM ask agir + CVD deep negative + intraday BEAR, fakat mixed HTF ve session buy ratio yüksek olması confidence azaltır; 64522 aktuel seviye VAL yakını, satış tarafında risk/reward uygun.",
   "should_trade": "EVET",
-  "timestamp": "04:07:24"
+  "timestamp": "04:12:19"
 }
