@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63900,
-  "tp1": 63950,
-  "tp2": 64020,
+  "entry": 63964,
+  "tp1": 64552,
+  "tp2": 64932,
   "stop": 63850,
-  "absorption": "Mevcut bar pozitif delta (10) ile kapanmis, son 5 bar toplam delta pozitif (33), ask agirlik (15 vs 5) fakat fiyat dirence yakın seviyelerde tutunuyor - erken bullish absorption sinyali",
-  "dom_observation": "DOM bid_ask_ratio 0.62 (ask agir) ancak son bar ask volume 15, bid volume 5 - satis baskisi var fakat limitledi, dengeleme trendinde",
-  "htf_alignment": "5m/15m/1h BULL (3/3 uyumlu), 4h BEAR - kisa vadeli bullish dominas, uzun vadede dikkat gerekli",
-  "session_bias": "Gunluk delta -2091102 (bearish) ancak buy_sell_ratio 0.79 satis baskili, fiyat VAL (64552) uzerinde bullish acceptance gorulmekte - session geneli satis agir ama mevcut momentum bullish",
-  "reasoning": "Kisa timeframelerde bullish confluence (delta pozitif, HTF 3/3 BULL, fiyat VAL uzerinde acceptance), ask absorption tespit edilmis, CVD divergence ve possible absorption negatif olmakla beraber delta_sum_5bars +33 ve son 2 barın pozitif deltası net bullish momentum işaret ediyor.",
+  "absorption": "Son 5 bardaki delta_sum_5bars=75 (pozitif) + possible_absorption=true, fiyat 63957-63964 arasında konsensüs oluşturarak kurumsal alış emrini yutuyor. Bid/Ask oranı 1.08 (alis baskisi) ile absorption destekleniyor.",
+  "dom_observation": "Bid/Ask ratio 1.08 - hafif alis baskisi mevcut, bid depth (57) > ask depth (53), emir defterinde buyerlar daha dominant pozisyonda.",
+  "htf_alignment": "5m/15m/1h BULL (3/3 uyum) vs 4h BEAR - kısa vadeli bullish trend güçlü, ancak 4h direnci risk faktörü. Çoğunluk kuralı sağlanıyor.",
+  "session_bias": "Buy/sell ratio 0.79 (satış baskısı) ancak -4.8M CVD rağmen last 5 bars delta_sum pozitif (75), bu gizli kurumsal alış momentum göstergesi. Session düşüş trendinde ama lokal bottom yapılıyor.",
+  "reasoning": "Negatif CVD ortamında pozitif delta_sum_5bars + possible_absorption + bid dominansi + 3/3 HTF bullish uyum, VAL (64552) üzerinde fiyat konsolide olması Axia Kural 1 (Passive Absorption) ve Kural 5 (HTF Uyumu) tetikliyor.",
   "should_trade": "EVET",
-  "timestamp": "07:54:58"
+  "timestamp": "07:59:18"
 }
