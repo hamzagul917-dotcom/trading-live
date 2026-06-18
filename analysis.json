@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "64610",
-  "tp1": "64750",
-  "tp2": "64900",
-  "stop": "64570",
-  "absorption": "Mevcut bar ve son 5 barlar negatif delta (-33) gostermesine ragmen fiyat VAL seviyesinin uzerinde (64610 vs 64552) stabilite saglaniyor - BID tarafinda kuvvetli absorption gerceklesyor (bid_vol=8, ask_vol=2 oranı 4:1)",
-  "dom_observation": "DOM bid_ask_ratio=1.87 (>1.5) - kuvvetli alis baskisi, emir defterinde 77 bid vs 41 ask - alis dominasyonu net",
-  "htf_alignment": "5m BEAR ancak 15m/1h/4h BULLISH - 3 zaman diliminin 2'si (15m, 1h, 4h) BULL, kural saglaniyor",
-  "session_bias": "buy_sell_ratio=2.05 (>1.3) + session delta=203675 pozitif - gunluk kuvvetli alis dominasyonu, bullish momentum teyidi",
-  "reasoning": "Negatif lokal delta (-5,-2,-18) sonrasi VAL destek seviyesinde BID absorption + HTF uyum (15m/1h/4h bullish) + DOM orani 1.87 (alis baskisi) + session ratio 2.05 (bullish) - klasik Axia erken long setupi.",
+  "order_flow_signal": "SELL",
+  "confidence_score": 72,
+  "entry": 64565,
+  "tp1": 64552,
+  "tp2": 64500,
+  "stop": 64610,
+  "absorption": "Son 5 bardaki kumulatif delta -51 ile consistently negatif, ask/bid ratio 1:8 oranında ağır bid tarafında olmasına rağmen fiyat düşmüş = sellers emir defterindeki alıcıları yutuyor, satis baskısı dominan.",
+  "dom_observation": "Bid/Ask ratio 1.14 (bid agir) ancak son 5 bardaki ortalama ask vol (14) bid vol'e (41.4) kiyasla dusuk, satis baskisina isaret ediyor.",
+  "htf_alignment": "5m BEAR + 15m BEAR (2/3 uyum saglanmis), 1h/4h BULL ama STF bearish baskisi dominan.",
+  "session_bias": "Gunluk session delta +199492 bullish görünse de, son 10 bardaki delte baskisi net negatif (-20,-15,-2,-18,-11,0,48,48,-4) ve mevcut fiyat VAL'in (64552) cok uzak degil (64565), session basından uyum yok.",
+  "reasoning": "Persistent negatif delta, DOM ask absorption, HTF 5m/15m bearish uyum ve fiyat VAH altında rejection göstergesi net SHORT sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "02:24:39"
+  "timestamp": "02:25:19"
 }
