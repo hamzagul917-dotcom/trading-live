@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64498,
-  "tp1": 64433,
-  "tp2": 64380,
-  "stop": 64530,
-  "absorption": "Son 5 bar negatif delta (-29) + CVD divergence mevcut, fiyat VAL altinda, kurumsal satış baskısı net",
-  "dom_observation": "Bid/Ask ratio 1.12 (hafif bid ağırlıklı ancak yeterli değil), Ask derinliği 69 küçük, Bid derinliği 78 - dengeli ancak session sell dominant",
-  "htf_alignment": "5m BULL ancak 15m ve 1h BEAR - çoğunluk bearish, alım sinyalı için uyum zayıf",
-  "session_bias": "Buy/Sell ratio 1.22 bullish görünse de, session delta +100983 ile çelişkili; CVD -2634671 negatif = kurumsal satış hâkimiyeti",
-  "reasoning": "CVD divergence + negatif delta_sum_5bars + VAL altında fiyat + session CVD güçlü satış + 15m/1h bearish = net short setup, VAL support'ı test ediliyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "64552",
+  "tp1": "64932",
+  "tp2": "65795",
+  "stop": "64430",
+  "absorption": "Last 5 bars negatif delta (-25, -36, -41, -2, -25) trendi sonrasi current bar pozitif delta (+2) ile tersine donus; possible_absorption=true + fiyat VAL'e donmus = BID absorption setup. Kurumsal katilimci alt seviyede emri yutuyor.",
+  "dom_observation": "bid_ask_ratio=0.77 (<0.7 degil ama zayif); ask_depth(78) > bid_depth(60) = hafif satis baskisi ancak session buy_sell_ratio=1.28 kompenzasyon yapiyor.",
+  "htf_alignment": "Tum timeframeler BULL (5m/15m/1h/4h) = YUKSEK HTF UYUMU, BUY icin ideal.",
+  "session_bias": "buy_sell_ratio=1.28 + session_delta=134098 (POZITIF) + buy_volume > sell_volume = GUCLÜ ALIS BASKISI gunun genelinde.",
+  "reasoning": "VAL seviyesinde BID absorption (negatif delta serisi sonrasi pozitife donus) + tüm HTF bullish + session buy dominant + delta_sum_5bars=88 pozitif = Axia Kural 1,3,5,6 tüm kriterleri karşılayan net LONG setup.",
   "should_trade": "EVET",
-  "timestamp": "03:01:31"
+  "timestamp": "03:04:11"
 }
