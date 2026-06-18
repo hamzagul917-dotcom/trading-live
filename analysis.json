@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64530,
+  "entry": 64549,
   "tp1": 64650,
-  "tp2": 65100,
-  "stop": 64450,
-  "absorption": "Son 5 bardaki delta_sum 109 (pozitif) ile fiyat VAL ustu (64552) tutunuyor, satis baskisina karsi alis emri absorpsiyonu gerceklesiyor.",
-  "dom_observation": "bid_ask_ratio 0.63 (<0.7) satis baskisi belirtse de, session buy_sell_ratio 2.23 ile cumulative alis dominansı net. Mevcut bar delta pozitif (17), ask_vol (35) > bid_vol (18) ancak session seviyesinde buy hakimiyeti.",
-  "htf_alignment": "5m/15m/1h/4h BULL - 4 uzerinden 4 zaman diliminde bullish uyum var, en kuvvetli HTF alignment yapısı.",
-  "session_bias": "buy_sell_ratio 2.23 (>1.3) + fiyat VAL (64552) ustu = guçlu BULLISH momentum. Session delta +35072, 91085 toplam volume ile gun boyu alis baskisi dominant.",
-  "reasoning": "HTF 4/4 bullish alignment + session buy ratio 2.23 + fiyat VAL ustunde acceptance + son 5 bar pozitif delta cumulative = Axia Kural 3-5-6 kombinasyonu net bullish setup olusturmekte.",
+  "tp2": 64750,
+  "stop": 64480,
+  "absorption": "Mevcut bar minimal hacimsiz (7), delta pozitif (3) ama fiyat VAL seviyesinde sabit kalmis - BID absorption gozlemi. Son 2 barin delta_sum=145 guclu alis baskisi olusturuyor.",
+  "dom_observation": "BID/ASK ratio 0.78 (ask agir gorunse de) ancak session buy_volume 97194 vs sell_volume 44764 ile buy_sell_ratio 2.17 cetin alis dominansi. DOM ask derinligi 77 yuksek ancak ask agirligina ragmen fiyat VAL desteginde tutunuyor = gizli kurumsal alis.",
+  "htf_alignment": "Tum HTF timeframe (5m/15m/1h/4h) BULL, ideal BUY uyumu saglanmis.",
+  "session_bias": "Session delta +52430 ile gun net bullish. Buy_sell_ratio 2.17 ve buy_volume 2.17x oraninda satis hacmini geciyor - session momentum yuzde alis tarafinda.",
+  "reasoning": "VAL seviyesinde fiyat sabit kalirken pozitif delta ve session yuksek buy_ratio ile guclu BID absorption + HTF tam bullish uyumu + CVD negatif ancak potential_absorption=true ile kurumsal alis sinyali vermektedir.",
   "should_trade": "EVET",
-  "timestamp": "02:02:35"
+  "timestamp": "02:03:16"
 }
