@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63944,
-  "tp1": 63890,
-  "tp2": 63850,
-  "stop": 63965,
-  "absorption": "Fiyat 63935-63944 aralığında küçük hacimle (3 lot) ilerleyememektedir. Son 5 bardaki delta toplamı +3 (zayıf) olup, session delta -1.846M ile güçlü satış baskısı mevcuttur. Kurumsal absorpsiyon VAL seviyesi altında satıştır.",
-  "dom_observation": "Bid/Ask oranı 0.99 (neredeyse eşit) ancak session buy_sell_ratio 0.76 ile satış baskısı dominant. Ask derinliği (47) Bid derinliğine (46) çok yakındır, siyah mum başlangıcı.",
-  "htf_alignment": "15m/1h/4h BEAR trend karşısında 5m BULL zayıf. Üç zaman diliminde BEAR baskısı, BUY için HTF uyumu yeterli değil; SELL için ideal.",
-  "session_bias": "Buy/Sell oranı 0.76 (satış baskılı) + toplam session delta -1.846M = güçlü bearish momentum. Satılan hacim (7.68M) alınan hacmi (5.84M) net 2.84M fazla ile devam ediyor.",
-  "reasoning": "VAL altında possible_absorption=true + session satış baskısı (0.76) + 3 bardan itibaren negatif delta sıklığı + HTF bearish çoğunluk, kurumsal satış absorption sinyali vermiştir.",
+  "confidence_score": 78,
+  "entry": 63892,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63950,
+  "absorption": "Son 10 bardaki pattern: pozitif delta (bar 9: +16, vol:120) sonrasi ani negatife donus (bar 10: -5, vol:139) + ask agirlanma = ASK absorption, satiş baskisi guclu",
+  "dom_observation": "DOM ratio 1.73 (bid agir gorunmesine ragmen) ask_depth 39 vs bid_depth 67 oraninda dusus trendinde; bid/ask 5 bar ortalamasinda degradasyon: alis baskisi zayifliyor, satis baskisi artis egilimi",
+  "htf_alignment": "5m/15m/1h/4h TAMAMININ BEAR - muthis kuvvetli HTF uyumu SHORT icin",
+  "session_bias": "buy_sell_ratio 0.76 (<0.8 threshold) + session delta -1846274 + sell_volume dominasyon (7.6M vs 5.8M) = gunun tumunde bearish momentum, VAH ustunde fiyat yok (bullish acceptance yok)",
+  "reasoning": "Guclu BEAR HTF + negatif session delta + ASK absorption patterni + DOM zayiflamasi + CVD -4.5M = kurumsal satis baskisi acik, destekte kapanma sinyali icin SHORT setup ideal",
   "should_trade": "EVET",
-  "timestamp": "06:39:18"
+  "timestamp": "06:39:59"
 }
