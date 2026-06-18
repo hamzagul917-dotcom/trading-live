@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64684,
-  "tp1": 64750,
-  "tp2": 64850,
-  "stop": 64650,
-  "absorption": "Negatif delta (-18) ile bid hacmi (25) oransal yuksek fakat fiyat VAL uzerinde durmus, kurumsal alis absorption gozlemi.",
-  "dom_observation": "Bid/ask orani 1.3 (agir alis baskisi), bid depth 80 vs ask depth 61, satis baskisi zayif.",
-  "htf_alignment": "5m BULL, 15m BEAR, 1h BULL, 4h BULL - 3 timeframeden 3u bullish, guclu uyum.",
-  "session_bias": "Session delta +283551, buy/sell ratio 1.23, alin baskisi kontrol etmekte, fiyat VAL uzerinde pozisyon almus.",
-  "reasoning": "CVD divergence (kurumsal saat) + negatif delta ile bid absorption VAL seviyesinde + HTF strong bullish alignment + DOM alis agir = Axia early long setup.",
+  "entry": 64679,
+  "tp1": 64652,
+  "tp2": 64620,
+  "stop": 64695,
+  "absorption": "Ask absorption tespit edildi - mevcut bar delta +18 (pozitif) fakat fiyat 64679 seviyesinde tutunamadi, ask volumu (20) bid volumunu (2) ezdi, son 5 barin net deltasi -17 ile negatif kapanmakta, kurumsal satis baskisi gizli.",
+  "dom_observation": "Bid/Ask orani 0.63 - ask siddetle agir (satis baskisi), emir defterinde 83 ask vs 52 bid, satis hicbigi belirgin.",
+  "htf_alignment": "5m BEAR + 15m BEAR = short icin 2/3 uyum, 1h ve 4h BULL ancak 15 dakika altinda satis kontrolu net.",
+  "session_bias": "Session deltasi +272067 (bullish gorunse de), buy_sell_ratio 1.21 (moderate), fiyat VAH alti (65795) ve vPOC (64932) ustunde ancak absorption tarafindan baskılanıyor.",
+  "reasoning": "Mevcut bar pozitif delta (+18) ile yukselemeyen fiyat, ask absorption belirtisi; 5-15m satis baskisi (BEAR), CVD kritik negatif (-2463587), dom ask agir (0.63) - bu kombinasyon kisa pozisyon Setup'ı olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "04:52:45"
+  "timestamp": "04:57:34"
 }
