@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64231",
-  "tp1": "64100",
-  "tp2": "63950",
-  "stop": "64350",
-  "absorption": "Mevcut bar: ask_vol=3, bid_vol=46 ile güçlü BID absorption görülüyor ancak fiyat VAL (64552) altında kalarak BEARISH acceptance göstermektedir.",
-  "dom_observation": "bid_ask_ratio=2.13 (>1.5) alis baskisini gosterse de, delta_sum_5bars=-79 negatif ve CVD=-2795299 derinlemesine negatif olması satis baskisinin hakim oldugunu onaylamaktadir.",
-  "htf_alignment": "5m/15m/1h/4h tümü BEAR - perfect HTF uyumu SHORT icin",
-  "session_bias": "buy_sell_ratio=0.97 esitlige yakinken, session_delta=-59646 ve sell_volume (2343035) > buy_volume (2283389) net satis baskisini gostermektedir. Fiyat VAL altinda = BEARISH momentum.",
-  "reasoning": "Tüm timeframeler BEAR, session sell dominant, CVD deeply negative, current bar VAL altında rejection gösteriyor ve ask absorption nedeniyle fiyat yukselemedi - net SHORT setup.",
+  "confidence_score": 72,
+  "entry": 64264,
+  "tp1": 64150,
+  "tp2": 64050,
+  "stop": 64320,
+  "absorption": "Current bar gösterge: Fiyat 64264'te, VAL (64552) oldukça alti, CVD -2.8M negatif agir, delta_sum_5bars -85 satis baskisi guclu, fakat absorption yok (hacim dusuyor - 88 share). Satis baskisi acik ama kurumsal parayla desteklenmiyor.",
+  "dom_observation": "bid_ask_ratio 1.4 (alis baskisi var gibi) ANCAK ask_depth 60 / bid_depth 84 karsilastirildiginda - current bar'da ask_vol 19, bid_vol 69. Bu bir paradoks: DOM'da bid agir olmasi ancak order flow'da satis baskisinin devam etmesi = kurumsal satislarin tedrici oldugunu ve alis emrilerinin susu adi oldugunu gosterir.",
+  "htf_alignment": "5m/15m/1h/4h TUM BEAR - tam uyumlu SHORT icin. Guclu HTF hizalama (+25 puan confidence).",
+  "session_bias": "Session delta -76134 (guclu satis), buy_sell_ratio 0.97 (esit), fiyat VAL alti = BEARISH momentum net. Gun boyunca satis baskisi acik.",
+  "reasoning": "Kumulative -2.8M CVD + tum HTF BEAR + session satis baskisi + fiyat VAL alti + delta_sum_5bars -85 = net BEARISH rejection, SHORT setupu kuruluyor.",
   "should_trade": "EVET",
-  "timestamp": "06:01:22"
+  "timestamp": "06:02:03"
 }
