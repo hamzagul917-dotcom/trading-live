@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64625,
-  "tp1": 64552,
-  "tp2": 64480,
-  "stop": 64700,
-  "absorption": "Son 10 bardaki cumulative negatif delta (-33 delta/5bar) fiyatı düşürmediği, DOM'da bid_ask_ratio 0.73 (satis baskisi) ve mevcut bar'da ask hacmi dominan olması ASK ABSORPTION sinyali vermektedir.",
-  "dom_observation": "Bid/Ask ratio 0.73 - satis baskisi basladi, ask_depth 83 > bid_depth 60, kurumsal satislar emirleri yakaliyor.",
-  "htf_alignment": "5m BEAR + 1h BEAR (2/3 BEAR uyumu), 15m BULL zayif sinyal. SHORT icin yeterli uyum var.",
-  "session_bias": "Session delta +313091 (BULLISH gorunse de), buy_sell_ratio 1.4 yuksek olmasina ragmen fiyat VAL altina dogru ilerledi = kurumsal distribution (satis) baslamis.",
-  "reasoning": "Negatif order flow absorpsiyonu + satis baskisina donen DOM + HTF bearish uyumu + fiyat VAL seviyesine yaklasmasi SELL setup olusturmaktadir.",
+  "entry": 64618,
+  "tp1": 64750,
+  "tp2": 65100,
+  "stop": 64580,
+  "absorption": "Son 10 bardaki negatif delta (-29 sum) sonrasi mevcut bardaki pozitif delta (+5) ile tersine donus sinyali; VAL (64552) uzerinde fiyat tutunmasi bullish absorption gostermektedir.",
+  "dom_observation": "Bid/Ask orani 2.2 ile yuksek alis baskisi; bid depth (96) ask depth (44) oraninda 2x buyukluk avantaji alicilar tarafinda.",
+  "htf_alignment": "5m BEAR olmasina ragmen 15m/1h/4h BULL alignment mevcut; 3/4 timeframe bullish = kuvvetli HTF uyumu saglanmis.",
+  "session_bias": "Buy/Sell ratio 1.41 ile session boyunca baskili alis hacmi; session delta +315942 guclu pozitif kurumsal baski gosteri.",
+  "reasoning": "VAL uzerinde negatif delta sonrasi pozitif tersine donus, dominant alis hacmi, yuksek bid absorpsiyonu ve 3/4 bullish HTF ile Axia long setup tamamlandi.",
   "should_trade": "EVET",
-  "timestamp": "03:21:14"
+  "timestamp": "03:21:54"
 }
