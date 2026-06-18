@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62844,
+  "entry": 62823,
   "tp1": 62757,
   "tp2": 62700,
-  "stop": 62870,
-  "absorption": "Son 2 bardaki ask agirlikli satislar (ask:51+20 bid:241+176) fiyati 62844 seviyesinde tutamadi, guclu satici baskisi var",
-  "dom_observation": "bid_ask_ratio 0.99 esit olmakla beraber, son 10 bardaki ask volumu (bid:241+176+39 vs ask:51+20+10) katlanmis durumda, ask agir taraf baskili",
-  "htf_alignment": "5m BULL ama 15m/1h/4h BEAR = HTF uyumsuz, SELL icin olumsuz, confidence azdirildi",
-  "session_bias": "buy_sell_ratio 0.47 (cok dusum), session delta -278251 (agir satis), gunun tamaminda satici dominasyonu net, fiyat VAL (62841) altinda kapandi",
-  "reasoning": "CVD -278251 agir satici baskisi, son 2 bar buyuk ask absorption, VAL alti fiyat kapanisi ve session delta negatif butun bu faktorler SELL sinyali veriyor fakat HTF uyumsuzluk (5m bull) confidence'i 72'ye indiriyor.",
+  "stop": 62850,
+  "absorption": "Session delta -279878 ile güçlü satış baskısı, mevcut bar'da -29 delta ve 47 bid vs 19 ask asimetrisinde satıcı dominasyonu gözlendi.",
+  "dom_observation": "Bid/Ask oranı 1.03 (neredeyse dengeli) ancak mevcut bar'da ask_vol (19) << bid_vol (47), satış enerji birikintisi gösteriyor.",
+  "htf_alignment": "5m BULL izole görünüm, ancak 15m/1h/4h üçü de BEAR - majör HTF bearish bias kuvvetli, SELL için uyumlu.",
+  "session_bias": "Buy/Sell ratio 0.52 (<0.8), session sell-dominant; toplam volume 889120'de sadece 307809 buy (34.6%) vs 587687 sell (65.4%) - güçlü bearish momentum.",
+  "reasoning": "CVD divergence aktif (-279878), VAL (62841) altında fiyat, session masif sell baskısında, HTF 3/4 bearish - erken SHORT setup, satıcıların kontrol ettiği zayıf VAH-altı zone'da.",
   "should_trade": "EVET",
-  "timestamp": "00:23:15"
+  "timestamp": "00:28:34"
 }
