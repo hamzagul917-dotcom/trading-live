@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64439",
-  "tp1": "64380",
-  "tp2": "64320",
-  "stop": "64480",
-  "absorption": "Son 10 bardaki tutucu negatif delta (-42, -36, -25, -15, -9, -11, -78, -5, -7) ile birlikte fiyat 64586'dan 64439'a dusmesi ve DOM'da bid/ask ratio 0.89 (ask agir) satis baskisini gosterir. Kurumsal satici emri VAH'a yakin seviyelerde absorbed oluyorken fiyat dusmektedir.",
-  "dom_observation": "Bid/Ask ratio 0.89 - ask agir baskisi, satis emri hacmi alisini ustun tutmaktadir. Ask depth 67 vs Bid depth 59, satis likididesinin daha yuksek oldugunu isaret eder.",
-  "htf_alignment": "Kuvvetli BEAR alignment - 5m, 15m, 1h tum timeframe'ler BEAR, 4h BULL uyumsuzlugu dusuk timeframe'lerdeki satis baskisini destekler.",
-  "session_bias": "Buy/Sell ratio 1.25 ve session delta +104057 pozitif goruntuse de, son bardaki -42 delta, 5 bar delta sum -125 ve CVD -2631597 guclu gunumuz satis baski yonelmesini net gosterir.",
-  "reasoning": "Kucuk hacim (71) ile birlikte tutucu negatif delta, ask agir DOM, 3 timeframe'de bearish bias ve dusmekte olan CVD, VAL seviyesine yakin sharp descent, kurumsal satis absorption sinyali vererek satis pozisyonunu desteklemektedir.",
+  "confidence_score": 72,
+  "entry": 64498,
+  "tp1": 64433,
+  "tp2": 64380,
+  "stop": 64530,
+  "absorption": "Son 5 bar negatif delta (-29) + CVD divergence mevcut, fiyat VAL altinda, kurumsal satış baskısı net",
+  "dom_observation": "Bid/Ask ratio 1.12 (hafif bid ağırlıklı ancak yeterli değil), Ask derinliği 69 küçük, Bid derinliği 78 - dengeli ancak session sell dominant",
+  "htf_alignment": "5m BULL ancak 15m ve 1h BEAR - çoğunluk bearish, alım sinyalı için uyum zayıf",
+  "session_bias": "Buy/Sell ratio 1.22 bullish görünse de, session delta +100983 ile çelişkili; CVD -2634671 negatif = kurumsal satış hâkimiyeti",
+  "reasoning": "CVD divergence + negatif delta_sum_5bars + VAL altında fiyat + session CVD güçlü satış + 15m/1h bearish = net short setup, VAL support'ı test ediliyor.",
   "should_trade": "EVET",
-  "timestamp": "02:57:29"
+  "timestamp": "03:01:31"
 }
