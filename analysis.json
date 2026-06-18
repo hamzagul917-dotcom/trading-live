@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64529,
-  "tp1": 64502,
-  "tp2": 64470,
-  "stop": 64560,
-  "absorption": "Kuvvetli ask absorption VAL seviyesine yakin - fiyat 64529'da yapısıyla yükselmemiş, ask volumü giderek artıyor (son 3 bar ask: 4, 8, 10) ancak fiyat düşüş eğiliminde.",
-  "dom_observation": "BID/ASK ratio 1.23 (alis baskisi) ama mevcut mum: ask 4 vs bid 25 - ASK hacminde nispi düşüş, delta -21 negatif, satis baskisi net görülüyor.",
-  "htf_alignment": "5m/15m/1h BEAR dominant (3/3 BEAR) - HTF perfect alignment SHORT için. 4h BULL ama lower timeframes kesin bearish.",
-  "session_bias": "Session delta +222605 (bullish) fakat buy_sell_ratio 1.16 ve CVD -2513048 (düşüş trend) - fiyat VAL (64552) altında işlem görmedi, acceptance BEARISH destekli.",
-  "reasoning": "Kumulatif negatif delta (-2.5M CVD) + HTF 3/3 BEAR + VAL seviyesine yakın ask absorption + son 5 bar delta -51 (net satis baskisi) = Bearish rejection, kısa pozisyon hazır.",
+  "entry": 64493,
+  "tp1": 64420,
+  "tp2": 64320,
+  "stop": 64550,
+  "absorption": "Son 10 bardaki kumulatif delta -135 (gucu azalan negatif delta) ile fiyat 64488-64596 aralığında hareket etmiyor, kurumsal satış absorption'u gösteriyor.",
+  "dom_observation": "BID/ASK ratio 1.18 alis baskisi veriyor fakat son 3 bardaki ASK hacimleri (10,8,10) BID'den (30,36,30) aşağıda - satis baskısı zayıflıyor, satıcılar emri yutuyor.",
+  "htf_alignment": "5m/15m/1h BEAR trend ile uyumlu, 4h BULL uyumsuzluğu minor risk. Kısa vadede bearish dominant.",
+  "session_bias": "Session delta +201667 (bullish) ancak CVD -2533987 (derinbaşlı bearish divergence) - kurumsal para aşağı yönlü, session buy/sell ratio 1.14 zayıf bullish okunuyor.",
+  "reasoning": "Fiyat VAL (64552) yakınında zayıflayan delta ile absorption gösterirken, CVD divergence ve kumulatif delta -74 (5bar) bear presyonu doğruluyor; HTF uyumu bearish olup SHORT setup geçerli.",
   "should_trade": "EVET",
-  "timestamp": "05:09:55"
+  "timestamp": "05:14:30"
 }
