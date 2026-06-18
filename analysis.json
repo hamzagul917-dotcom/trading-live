@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64661,
+  "entry": 64700,
   "tp1": 64750,
-  "tp2": 64850,
-  "stop": 64580,
-  "absorption": "Mevcut bar minimal volume (1) ile fiyat 64662'de sabitlenmiş, ask_vol dominansi (2:0) ile bid absorption tespit edildi; son 5 bar delta toplamı +47 pozitif, session buy/sell ratio 1.3 ile bullish momentum devam ediyor.",
-  "dom_observation": "Bid/ask ratio 1.69 (>1.5) ile güçlü alış baskısı; bid depth 101 vs ask depth 60 ile piyasa alıcı tarafından kontrol ediliyor.",
-  "htf_alignment": "5m/15m/1h/4h tümü BULL - mükemmel HTF uyumu, bullish setup için maksimum güç.",
-  "session_bias": "Session delta +152890 ve buy_sell_ratio 1.3 ile fiyat VAL (64552) üzerinde - session boyunca kurumsal alış hakimiyeti devam ediyor.",
-  "reasoning": "VAL üzerinde fiyat, bid absorption, pozitif delta_sum_5bars, DOM bid ağırlıklı ve tüm HTF'ler bullish - Axia Kural 1,4,5,6 uyumlu net LONG setupu.",
+  "tp2": 64800,
+  "stop": 64650,
+  "absorption": "Fiyat VAL üstünde, session boyunca 1.41 buy/sell ratio ile güçlü bid baskısı ve delta_sum_5bars +177 pozitif momentum gösteriyor; mevcut bar düşük delta (9) ama fiyat support'ta stabil.",
+  "dom_observation": "bid_ask_ratio 0.75 - ask baskısı var ancak session cumulative verisi buy dominant; DOM dinamiği satis baskısı sinyali veriyor.",
+  "htf_alignment": "5m, 15m, 1h, 4h tüm timeframe'ler BULL - mükemmel HTF uyumu, confidence artıyor.",
+  "session_bias": "buy_sell_ratio 1.41 + fiyat VAL (64552) üstünde (64700) = BULLISH momentum confirmed, session deltası +233305 kurumsal alis baskisini gösteriyor.",
+  "reasoning": "HTF tüm bullish, session strong buy ratio, fiyat VAL üstünde stabil, cvd negatif olmasına rağmen delta_sum_5bars pozitif ve son bar positive delta - dibe yakın kurumsal absorption sinyali.",
   "should_trade": "EVET",
-  "timestamp": "03:08:08"
+  "timestamp": "03:09:17"
 }
