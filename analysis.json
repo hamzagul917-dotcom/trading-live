@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63957,
-  "tp1": 63909,
-  "tp2": 63785,
-  "stop": 64036,
-  "absorption": "Son 10 bardaki buyuk hacim mumler (bar 9: delta -433 vol 1420, bar 10: delta -433 vol 772) fiyati asagi cekemedi - Bearish Absorption. Mevcut bar'da delta -15 vol 33 ile absorption devam ediyor (possible_absorption=true). Ask volume (24 bid) dominansli.",
-  "dom_observation": "bid_ask_ratio 0.48 (ask agir) - satis baskisi artiyor. Ask depth (71) > Bid depth (34) ile clear satis baskisi sinyali.",
-  "htf_alignment": "HTF coklu bearish: 15m BEAR, 1h BEAR, 4h BEAR. 5m BULL uyumsuzluk yaratsa da 3 bearish dilim dominansli. Kural 5'e gore SELL onay.",
-  "session_bias": "Session delta -2030984 (guclu satis), buy_sell_ratio 0.72 (<0.8 kirilimi) + mevcut fiyat 63957 VAL (64552) altinda = Bearish momentum confirmed.",
-  "reasoning": "Fiyat VAL'in altinda, CVD derinlemesine negatif (-4766637), session satisa baskinsa, DOM ask agir, HTF 3/4 bearish ve son barlar absorption ile fiyat koruma altinda - SHORT setup kurumsal satis tuzagi.",
+  "entry": 63877,
+  "tp1": 63750,
+  "tp2": 63600,
+  "stop": 63974,
+  "absorption": "Last 2 bars (-87, -11 delta) shows selling pressure with increasing bid volume (129, 66) but price rejection at upper range - ask absorption pattern at VAH vicinity indicates institutional selling rejection.",
+  "dom_observation": "Bid/Ask ratio 0.66 (<0.7) = strong ask dominance, emir defterinde ask agir, satis baskisi artiyor",
+  "htf_alignment": "Tum zaman dilimleri BEAR (5m/15m/1h/4h) - maximum HTF uyum SHORT icin",
+  "session_bias": "Session delta -2.077M ile strongly negative, buy_sell_ratio 0.72 (<0.8), sell volume dominasi (7.3M vs 5.2M) - gunluk satis baskisi acik",
+  "reasoning": "CVD divergence true + session sell dominant (0.72 ratio) + all HTF bearish + DOM ask heavy (0.66) + current bar -87 delta + VAH redline rejection = net SHORT setup with institutional selling confirmation.",
   "should_trade": "EVET",
-  "timestamp": "06:19:24"
+  "timestamp": "06:20:03"
 }
