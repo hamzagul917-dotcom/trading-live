@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64349,
+  "entry": 64338,
   "tp1": 64281,
   "tp2": 64200,
-  "stop": 64380,
-  "absorption": "Negatif CVD (-2.7M) fiyat yuksek seviyede tutunurken, kurumsal satis baskisi devam ediyor; son 5 bar delta toplamı -81 ile satis dominasyonu net.",
-  "dom_observation": "DOM bid/ask orani 0.82 - satis baskisi artiyor, ask derinligi (77) bid derinligini (63) geciyor, satis hızlanması sinyali.",
-  "htf_alignment": "5m BULL/15m BEAR/1h BEAR/4h BEAR - HTF uyumsuzluk var; ancak 3/4 timeframe bearish, satis sinyalini destekliyor.",
-  "session_bias": "Buy/sell ratio 0.99 (neredeyse esit) fakat session delta -27109 (net satis), VAL (64552) ustu fiyat hareket etmesi gereken direncte (64349) stok yapıyor.",
-  "reasoning": "CVD divergence teyidi + DOM satis baskisi + HTF bearish konsensus (3/4 timeframe) + session net satis delta, fiyat VAL ustu direncte reddediliyor.",
+  "stop": 64360,
+  "absorption": "Fiyat 64338-64345 arasında tuzaklanmış, 7 bid vs 1 ask ile güçlü alıcı emri yutulmuş ama fiyat dusmuyor = Bearish absorption, satıcılar kontrol ediyor.",
+  "dom_observation": "Bid/Ask oranı 0.82 = satış baskısı artiyor, ask derinliği (77) bid derinliğinden (63) yüksek, yapısal satış dominansı.",
+  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR = 3'e 1 bear uyumu. HTF uyum zayıf olsa da short bias net.",
+  "session_bias": "Session delta -26218 (bearish), buy_sell_ratio 0.99 = nötr-zayıf alıcı, CVD -2761871 ve delta_sum_5bars +25 = long baskısı sonrası reversal habercisi.",
+  "reasoning": "Son 10 bar analizi: bar 10'da -94 delta (%ASK 12%), bar 9'da -29 delta, bar 7'de -81 delta = konsistent satış baskısı; fiyat VAL (64552) altında tutunuyor; mevcut bar -6 delta + bid absorption = satıcılar alıcıları tuzaklamış, bearish reversal senaryosu.",
   "should_trade": "EVET",
-  "timestamp": "05:32:00"
+  "timestamp": "05:33:11"
 }
