@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64287,
-  "tp1": 64200,
-  "tp2": 64100,
-  "stop": 64350,
-  "absorption": "Bid absorption VAL seviyesine yakin - delta negatif (-29 current, -168 5bar sum) ama fiyat dusmuyor, kurumsal saticilar buyuk emri yutuyor, tersine donus sinyali",
-  "dom_observation": "Bid/Ask ratio 0.67 (<0.7) - Ask agir, satis baskisi artarak devam ediyor, emir defterinde satis ustunlugu",
-  "htf_alignment": "Kusursuz BEAR hizalama - tum zaman dilimleri (5m, 15m, 1h, 4h) BEAR, short icin ideal ortam",
-  "session_bias": "Buy/Sell ratio 0.97 esit dengede ama session delta -50696 guclu BEARISH, gun boyunca net satis baskisi",
-  "reasoning": "Guclu kurumsal bid absorption VAL'de + tum HTF BEAR + ask agir DOM + negatif CVD + session bearish delta, erken short hazirliginda ideal setup",
+  "confidence_score": "78",
+  "entry": "64281",
+  "tp1": "64150",
+  "tp2": "63950",
+  "stop": "64450",
+  "absorption": "Son 5 bardaki kumulatif negatif delta (-115) ve mevcut bar'da ask agirligina ragmen (50 ask vs 14 bid) fiyat direncte tutunamamasi = Satici absorption VAH yakininda",
+  "dom_observation": "bid_ask_ratio 0.73 (<0.7 CRITICAL) = Emir defteri ask agir, satici baskisi guclu, 86 ask vs 63 bid derinligi net satis dominasyonunu gosteriyor",
+  "htf_alignment": "Tum HTF (5m/15m/1h/4h) BEAR - maksimum uyum, short entry icin ideal setup",
+  "session_bias": "Session delta -48824 (negatif) + buy_sell_ratio 0.97 (<1.0) = Gun boyunca net satici baskisi, VAH (65795) ustu fiyat rejection ile uyumlu",
+  "reasoning": "CVD -2.78M negatif, HTF tum BEAR, DOM ask agir (0.73), session sell dominant, fiyat VAH direncinde ask absorption yaparak reddediliyor - Kuveyli SHORT oportunite.",
   "should_trade": "EVET",
-  "timestamp": "05:29:57"
+  "timestamp": "05:30:37"
 }
