@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63912,
-  "tp1": 63840,
-  "tp2": 63750,
-  "stop": 63980,
-  "absorption": "Session delta -1845057 ile guclu satis baskisi, dom bid_ask_ratio 2.08 ancak current bar delta=0 ile momentum kaybetmis, fiyat VAL alti baskida kalip VAH'dan uzak",
-  "dom_observation": "Bid depth 78 vs ask depth 37 (2.08 orani) yuksek gorunse de, son 5 bar delta_sum 87 (az) + cvd -4580710 dusustu = satis baskisi dominan",
-  "htf_alignment": "Tum 5m/15m/1h/4h BEAR, short setup icin ideal uyum",
-  "session_bias": "buy_sell_ratio 0.76 (<0.8) + session delta -1845057 (bearish) + sell_volume 7.5M > buy_volume 5.7M, guclu satis dominant",
-  "reasoning": "CVD divergence true + session satis dominansi + 4 saat BEAR bias + fiyat VAL altinda rejection + current bar momentum kaybetmesi (delta=0) = net SHORT setup, VAL desteyi kiracak satis beklenebilir.",
+  "confidence_score": 78,
+  "entry": 63897,
+  "tp1": 63800,
+  "tp2": 63700,
+  "stop": 63950,
+  "absorption": "Son 2 bardaki pozitif delta (113, 106) fiyat düşüşüne yol açtı - Ask absorption gerçekleşti, satıcı baskısı devam ediyor.",
+  "dom_observation": "Bid/Ask oranı 2.71 - Alıcı derinliği 94 vs Satıcı derinliği 35. Ancak mevcut barın ask_vol (16) > bid_vol (32) ile satış baskısı net görülüyor, DOM rakamları eski snapshot olabilir.",
+  "htf_alignment": "Tüm timeframe'ler BEAR (5m/15m/1h/4h) - Güçlü bearish uyum mevcut, SHORT işleminde yüksek alignment.",
+  "session_bias": "Buy/Sell oranı 0.75 (satış dominant), Session delta -1.87M (güçlü satış baskısı), 13.2M hacimde 7.5M satış vs 5.7M alış - Net bearish session.",
+  "reasoning": "Tüm HTF'ler bearish, session net satış dominant, CVD -4.6M düşüş trendinde, son barlar ask absorpsiyonu gösteriyor, fiyat VAL (64552) altında rejection yapıyor.",
   "should_trade": "EVET",
-  "timestamp": "06:27:58"
+  "timestamp": "06:29:42"
 }
