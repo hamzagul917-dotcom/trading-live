@@ -9,14 +9,14 @@
   "order_flow_signal": "SELL",
   "confidence_score": 72,
   "entry": 62788,
-  "tp1": 62724,
-  "tp2": 62650,
-  "stop": 62820,
-  "absorption": "Ask absorption baslamis durumda - pozitif delta (20) ile fiyat 62788'de direnise carpip geri cekiliyordu (son 5 bar delta_sum=-125), kurumsal satis baskisi gucleniyor.",
-  "dom_observation": "Bid/Ask ratio 0.64 (<0.7) - ask taraf agir, satis baskisi belirgin. Ask depth (63) > bid depth (40), satis limitlerinde birikim artarken alis derinligi dusuk.",
-  "htf_alignment": "Tum zaman dilimleri BEAR (5m/15m/1h/4h) - maksimum downtrend uyumu, SHORT icin ideal ortam.",
-  "session_bias": "Gunluk buy/sell ratio 0.68 (<0.8) + cumulative delta -311353 + session delta -312242 - guclu BEARISH momentum. Satis hacmi (984087) alis hacmini (671845) net supere ediyor.",
-  "reasoning": "Guclu satis baskisi (CVD -311k, session ratio 0.68, ask absorption) tum HTF'lerin BEAR align'i ile kombine edilmis durumda; fiyat VAH altinda rejection gostarip delta dusuyor = net SHORT setup.",
+  "tp1": 62650,
+  "tp2": 62550,
+  "stop": 62850,
+  "absorption": "VAH direncinde ask absorpsiyonu: son 3 barında pozitif delta (21, -55 sonrası negatif trend) fakat fiyat VAH altında takılmıştır. Kurumsal satış baskısı açık.",
+  "dom_observation": "bid_ask_ratio 0.69 (<0.7) = güçlü satış baskısı. Ask depth (68) bid depth (47)'yi belirgin oranda geçmiş, satıcılar kontrol altında.",
+  "htf_alignment": "Tüm HTF seviyeleri (5m/15m/1h/4h) BEAR; SHORT için ideal uyum sağlanmış.",
+  "session_bias": "Günlük buy_sell_ratio 0.68 (<0.8), session delta -311309 (güçlü satış), sell_volume (986141) >> buy_volume (674832); gün boyunca kurumsal satış dominantı.",
+  "reasoning": "CVD -310419 (bearish), tüm HTF bearish uyumlu, DOM ask heavy (0.69), session sell dominant, VAH direncinde red candle + delta_sum_5bars -124 = kurumsal short setup klasik Axia SHORT sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:18:44"
+  "timestamp": "01:19:05"
 }
