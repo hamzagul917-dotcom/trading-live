@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62841,
-    "VAH": 64737
+    "vPOC": 62716,
+    "VAL": 61002,
+    "VAH": 64902
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62843,
-  "tp1": 62800,
-  "tp2": 62750,
-  "stop": 62870,
-  "absorption": "Session boyunca buyuk satis baskisi: buy_sell_ratio=0.57 (1.3 altinda), 871K sell vs 494K buy, CVD -376K guclu negatif. Son 5 bardan 3ü negatif delta (bar 2: -3, bar 3: -9), fiyat VAL seviyesinde (62841) hacim daralması ile absorption belirtileri.",
-  "dom_observation": "bid_ask_ratio=0.68 (<0.7 threshold), ask depth (67) bid depth (45) ustu = satis baskisi hakimiyeti, ask agir taraf dominant.",
-  "htf_alignment": "5m+15m BULL ama 1h BEAR: mixed signal. 1h bearish yonden cikis sinyali destekliyor, confidence hafif dusmus ama primary trend BEAR.",
-  "session_bias": "buy_sell_ratio=0.57 + fiyat VAL ustunde anchored = BEARISH momentum net. Session delta -376K kurumsal satis baski acik.",
-  "reasoning": "Guclu negatif CVD (-376K), dom ask agir (0.68), session satis dominant (0.57 ratio), 1h BEAR, fiyat VAL seviyesinde rejection pattern olusturma - klassik Axia SHORT setup.",
+  "entry": 62844,
+  "tp1": 62716,
+  "tp2": 61500,
+  "stop": 63100,
+  "absorption": "Negatif CVD divergence: Fiyat 62844 seviyesinde ancak CVD -17075 dustu, kurumsal satislar fiyat uptrendinden uzaklas, rejection sinyali",
+  "dom_observation": "Ask depth (84) bid depth (33)den 2.5x daha yuksek, bid_ask_ratio 0.39 - kuvvetli satis baskisi, likidite bid tarafinda tukeniyor",
+  "htf_alignment": "HTF uyumsuzluk: 5m BULL ancak 15m+1h BEAR - buyuk trendle kucuk timeframe uyumsuz, ayniyonde SELL trade riskli",
+  "session_bias": "Session delta -32330, buy_sell_ratio 0.88 (<1.0) - gunluk satis baskisi dominant, fiyat VAH alti degil ancak CVD dusuyor",
+  "reasoning": "CVD divergence + DOM ask dominasyonu + session sell bias + fiyat VAH altinda rejection gozleme carpiyor, ancak HTF 5m bullish uyumsuzluk confidence dusuruyor",
   "should_trade": "EVET",
-  "timestamp": "00:53:32"
+  "timestamp": "00:55:48"
 }
