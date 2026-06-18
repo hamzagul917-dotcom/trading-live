@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62744,
+  "entry": 62780,
   "tp1": 62650,
-  "tp2": 62520,
+  "tp2": 62500,
   "stop": 62850,
-  "absorption": "Son 5 bardaki delta toplamı -135, mevcut bar +9 delta ile zayıf bir recovery gösteriyor ancak VAH altında fiyat, ask derinliği bid derinliğini önemli ölçüde aşıyor (74>43).",
-  "dom_observation": "DOM bid/ask oranı 0.59 - güçlü satış baskısı. Ask derinliği (74) bid derinliğini (43) belirgin şekilde aşıyor, satıcı dominasyonunu gösteriyor.",
-  "htf_alignment": "Mükemmel uyum: 5m/15m/1h/4h tümü BEAR, short sinyali için maksimum HTF desteği sağlıyor.",
-  "session_bias": "Günlük buy/sell oranı 0.67 - belirgin satış baskısı. CVD -317398 ve session delta -318287 ile güçlü bearish momentum. Satış hacmi (967337) alış hacmını (649049) %49 oranında aşıyor.",
-  "reasoning": "VAH altında bearish fiyat hareketi + tüm HTF timeframelerde BEAR bias + DOM ask baskısı + session satış dominansı + -317k CVD = kurumsal satış baskısı net şekilde görülüyor, short setup oluşmuş durumda.",
+  "absorption": "Son 5 bardan -128 delta ve mevcut bar +17 delta ile negatif dominasyon devam ediyor; satis baskisi VAH uzerinden rejection yapiyor.",
+  "dom_observation": "DOM bid/ask ratio 1.46 - alis baskisi var ancak session buy_sell_ratio 0.68 ile satis hacmi baskili; ask_vol (59) vs bid_vol (42) dengesiz.",
+  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR - HTF alignment KUSURSUZ SHORT icin.",
+  "session_bias": "Session delta -314867 ve buy_sell_ratio 0.68 ile guncun buyuk kismini satis volumesi baskilamis; bearish momentum olusmus.",
+  "reasoning": "CVD -313977 (yuksek negatif), 4 saatlik BEAR trend, session satis dominasyonu ve current bar close VAH altinda - Axia KURAL 6 ve SHORT kriterleri saglanmis kurumsal short setup.",
   "should_trade": "EVET",
-  "timestamp": "01:17:41"
+  "timestamp": "01:18:20"
 }
