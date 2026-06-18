@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63964,
+  "entry": 63912,
   "tp1": 63840,
   "tp2": 63750,
-  "stop": 64020,
-  "absorption": "Mevcut bar: delta +27 (pozitif) ancak fiyat 63964'te sıkışmış, ASK absorption belirtisi. Son 5 bar delta toplamı +299 (bullish görünüm) ama CVD kümülatif -4,596,949 ile MASIF negatif kurumsal baski, fiyat henüz düşüş yapamamış = gizli SHORT hazırlanması.",
-  "dom_observation": "BID/ASK oranı 1.13 (hafif bid agır) ama session buy_sell_ratio 0.75 ile net SELL dominasyonu; ask_depth 45 vs bid_depth 51 dengesiz yapı",
-  "htf_alignment": "HTF UYUMSUZLUK: 5m BULL ama 15m/1h/4h BEAR; 3-1 BEAR ağırlığı SHORT senaryosunu destekliyor",
-  "session_bias": "Session delta -1,861,296 (kuvvetli BEARISH), buy_sell_ratio 0.75 (<0.8 threshold) + sell_volume (7.5M) >> buy_volume (5.6M) = NET SATIŞ BASKISI",
-  "reasoning": "Pozitif barlar ve delta toplamına rağmen, CVD divergence (fiyat stabil, CVD düşük) + session net bearish delta + ASK absorption + HTF 3-1 BEAR uyumu = kurumsal SHORT pozisyon hazırlanması, kırılımdan kaçın.",
+  "stop": 63980,
+  "absorption": "Session delta -1845057 ile guclu satis baskisi, dom bid_ask_ratio 2.08 ancak current bar delta=0 ile momentum kaybetmis, fiyat VAL alti baskida kalip VAH'dan uzak",
+  "dom_observation": "Bid depth 78 vs ask depth 37 (2.08 orani) yuksek gorunse de, son 5 bar delta_sum 87 (az) + cvd -4580710 dusustu = satis baskisi dominan",
+  "htf_alignment": "Tum 5m/15m/1h/4h BEAR, short setup icin ideal uyum",
+  "session_bias": "buy_sell_ratio 0.76 (<0.8) + session delta -1845057 (bearish) + sell_volume 7.5M > buy_volume 5.7M, guclu satis dominant",
+  "reasoning": "CVD divergence true + session satis dominansi + 4 saat BEAR bias + fiyat VAL altinda rejection + current bar momentum kaybetmesi (delta=0) = net SHORT setup, VAL desteyi kiracak satis beklenebilir.",
   "should_trade": "EVET",
-  "timestamp": "06:25:36"
+  "timestamp": "06:27:58"
 }
