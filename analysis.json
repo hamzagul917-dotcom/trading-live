@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62841,
-    "VAH": 64737
+    "vPOC": "63900",
+    "VAL": "62841",
+    "VAH": "64737"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62787,
-  "tp1": 62733,
-  "tp2": 62680,
-  "stop": 62820,
-  "absorption": "Mevcut bar ask agirlikli (ask_vol:4, bid_vol:0), delta pozitif (3) fakat fiyat VAL altinda hapsolmus - ask absorption gozlenmektedir, satici baskisinin emri tuttugunu gosterir.",
-  "dom_observation": "DOM ratio 0.67 (<0.7) - ask derinligi (74) bid derinligini (50) onemli oranda asstigi icin satis baskisi gucludur.",
-  "htf_alignment": "15m ve 1h BEAR bias ile uyum saglamakta, 5m BULL ise minor divergence olusturmaktadir; net BEARISH yon 2/3 TTF ile desteklenmektedir.",
-  "session_bias": "Session delta -397855 (guclu BEARISH), buy_sell_ratio 0.52 (<0.8) - gundeki satis hacmi (836835) alis hacmini (438979) dogal olarak bastirmakta, negatif moment devam etmektedir.",
-  "reasoning": "VAL (62841) altinda fiyat, ask absorption + dom ask baskisi + guclu negative session delta + HTF 2/3 bearish - net short setup kurumsal satici emri absorpsiyonu ile desteklenmektedir.",
+  "confidence_score": "72",
+  "entry": "62784",
+  "tp1": "62733",
+  "tp2": "62711",
+  "stop": "62813",
+  "absorption": "Son 10 bardaki guclu ASK absorption: bar 9-10'da delta negatif (-42, -77) ama fiyat VAH'a yakin kalmis, kurumsal satis baski absorbe edildi, tersine donus sinyali.",
+  "dom_observation": "Bid/ask ratio 1.13 (nötr), ancak son barlar ask dominas gösteriyor (112 bid vs 35 ask = reversal pattern), satış baskısı belirginleşiyor.",
+  "htf_alignment": "ZAYIF: 5m BULL, 15m BEAR, 1h BEAR, 4h BULL - çelişkili sinyaller, ancak 1h+15m bearish ağırlık short için destek veriyor.",
+  "session_bias": "BEARISH MOMENTUM: Session CVD -397803, buy/sell ratio 0.52 (agir satis), sell_volume dominans (837K vs 439K), kurumsal satis net.",
+  "reasoning": "VAH yakınında ask absorption (delta pozitif ama fiyat haraket etmiyor), session delta agir negatif, CVD divergence yok ama kurumsal satis net, son barlar satis egemenliği gösteriyor - SHORT setup kurulu.",
   "should_trade": "EVET",
-  "timestamp": "00:39:18"
+  "timestamp": "00:40:15"
 }
