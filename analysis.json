@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63827,
+  "entry": 63828,
   "tp1": 63750,
   "tp2": 63650,
-  "stop": 63880,
-  "absorption": "Ask agirliginda (ask_vol:15, bid_vol:2) fiyat 63827-63837 arasinda hapsolmasi + mevcut bar delta pozitif (+13) ama volumetrik acceptance yoktur = kirli buy absorption, satislar kontrol ediyor",
-  "dom_observation": "DOM bid_ask_ratio 0.75 (<0.7 esigine yakın) = satis baskisi guclu, ask_depth (67) bid_depth (51) uzerinde = bearish positioning",
-  "htf_alignment": "5m/15m/1h/4h TUM TIMEFRAMELERDE BEAR = kuvvetli downtrend uyumu, SELL icin ideal HTF setup",
-  "session_bias": "buy_sell_ratio 0.76 (<0.8 esiginde) + session delta -1925245 + sell_volume (7.9M) > buy_volume (6.0M) = gun boyunca kurumsal satis baskisi dominan, VAH (65795) ustu fiyat rejection zone",
-  "reasoning": "Gunluk BEAR trend icerisinde negatif CVD (-4.66M) + DOM ask agirliginda absorption + session sell dominansi + VAL (64552) ustu tutunma basarisizsiz = kiyas shortlarina hazir satis setupu.",
+  "stop": 63900,
+  "absorption": "Son 10 bardaki negatif delta baskisi (-36, -65, -83 bar sequence) VAH bolgesinde ask agirligina donusmus, fiyat yukselememesi kurumsal satis baskisini gosteriyor.",
+  "dom_observation": "Bid/Ask orani 2.07 ile alis baskisi goruntuse de, mevcut bar ask volume dominansı (68 ask vs 17 bid) ve cumulative session buy_sell_ratio 0.76 (<0.8) satis dominansini kesin onayliyor.",
+  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR trend gosteriyor - SHORT icin ideal HTF uyumu saglanmis.",
+  "session_bias": "Session delta -1,912,793 ve buy_sell_ratio 0.76 ile gunus basinden net satis baskisi var, fiyat VAL altinda kalarak bearish acceptance baslamis.",
+  "reasoning": "BEAR trendde VAH direnc altinda kumlanan negatif delta, ask absorption ve session satis baskisi, satis sinyalini net olarak onaylıyor.",
   "should_trade": "EVET",
-  "timestamp": "06:48:23"
+  "timestamp": "06:49:03"
 }
