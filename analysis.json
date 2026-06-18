@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63921,
-  "tp1": 63850,
-  "tp2": 63780,
-  "stop": 63965,
-  "absorption": "Session delta -2079045 (bearish), buy_sell_ratio 0.79 (satis baskisi), DOM ask_depth 72 > bid_depth 50 (satis agir), current bar negatif delta (-2) fiyat dusmemis = ASK absorption VAL seviyesinde, CVD -4814699 negative trend devam ediyor",
-  "dom_observation": "bid_ask_ratio 0.7 (<0.7 esiginde) satis baskisi artiyor, ask_depth 72 bid_depth 50 ustu, emir defterinde satis hakimiyeti",
-  "htf_alignment": "5m BEAR + 4h BEAR ama 15m+1h BULL = karisimlı HTF, BUT session delta ve DOM satis bastigi destekliyor",
-  "session_bias": "buy_sell_ratio 0.79 < 0.8 BEARISH threshold, sell_volume 9862761 > buy_volume 7783716, gunluk net satis baskisi acik",
-  "reasoning": "CVD divergence (ASK absorption) + Session sell dominance (0.79 ratio) + DOM ask heavy (0.7 ratio) + VAL seviyesinde negatif delta fiyat duraksama = Kurumsal satis emri yutuyor, downside kirilim bekleniyor",
+  "entry": 63881,
+  "tp1": 63750,
+  "tp2": 63600,
+  "stop": 63950,
+  "absorption": "Son 5 bardaki -139 toplam delta + -2062830 session delta ile guclu satis baskisi gorulurken, mevcut bar -22 delta icinde fiyat direnc bolgesinde rejection gosteriyorsa absorption semantigine uygundur",
+  "dom_observation": "bid_ask_ratio 0.56 ile ask agir dominansi, satis baskisi guclu, emir defterinde ask derinligi (82) bid derinliginin (46) 1.78 kat uzeri",
+  "htf_alignment": "5m/15m/4h BEAR trend, 1h BULL uyumsuzlugu varsa da 3/4 timeframe bearish, kural icinde SELL uygunlugu mevcuttur",
+  "session_bias": "buy_sell_ratio 0.79 (<0.8) ile guncuk icerisinde satis hacmi dominansi, -2062830 session delta ile net bearish momentum, fiyat VAH altinda kalarak bearish acceptance gosterir",
+  "reasoning": "CVD -4798483 seviyesinde guclu negatif, -139 5-bar delta + 0.56 DOM ratio + 0.79 buy/sell ratio, HTF 3/4 bearish uyum icinde VAH altinda rejection pattern formasyon, erken short positioning optimal.",
   "should_trade": "EVET",
-  "timestamp": "08:01:09"
+  "timestamp": "08:09:32"
 }
