@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 63900,
     "VAL": 62841,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62889,
-  "tp1": 62841,
-  "tp2": 62800,
-  "stop": 62920,
-  "absorption": "Mevcut bardaki delta +17 (ask agir) fiyat hareketsiz (62889), possible_absorption=true. Emir defteri analizi bid_ask_ratio=4.39 (yuksek bid baskisi) ancak fiyat dusmuyor - kurumsal alis absorption yapip dusuyu hazirliyor.",
-  "dom_observation": "Bid/Ask ratio 4.39 - cok yuksek alis baskisi var ancak ask_vol/bid_vol oraninda 23/6 ile son bardaki ask volumun bid'i bastirmasi + session delta -2212 (guclu satis baskisi) = absorption tuzagi.",
-  "htf_alignment": "5m FLAT, 15m BEAR, 1h BEAR - alt zaman dilimleri bear yon gosteriyor. 4h bull ama HTF buyuksun kuvveti kucuk TF yer alimi desteklemiyor.",
-  "session_bias": "Session delta -2212 (guclü satis), buy_sell_ratio 0.98 (<1.0) = satis agir. Fiyat VAL (62841) uzerinde ancak aşamasal olarak VAL'a donuş hazirlanıyor.",
-  "reasoning": "Mevcut bar ASK absorption (positive delta + fiyat sabit) + session satis baskisi (-2212 delta, sell volume > buy) + HTF bearish (15m/1h) + fiyat VAL seviyesine yaklasma = guclu SHORT setup.",
+  "entry": 62805,
+  "tp1": 62741,
+  "tp2": 62680,
+  "stop": 62870,
+  "absorption": "Ask dominansi (ask_depth 75 vs bid_depth 43, ratio 0.57) + guclu satis baskisi (delta -190, delta_sum_5bars -343) + session sell dominansi (buy_sell_ratio 0.32, cvd -277717)",
+  "dom_observation": "DOM ratio 0.57 < 0.7 kritik seviyesi - keskin satis baskisi, ask derinligi bid derinliginin 1.74x fazlasi",
+  "htf_alignment": "5m/15m/1h BEAR uyumu tam, 4h BULL ile minor uyumsuzluk yasamasi confidence -8 puan indirim sebebi",
+  "session_bias": "Buy/sell orani 0.32 (alt limit), session delta -277717 guclu satis baskisi, fiyat VAL (62841) uzerinde ancak vPOC (63900) altinda - bearish acceptance devam ediyor",
+  "reasoning": "Guclu kurumsal satis baskisi (ask absorption + negatif delta + session sell dominant) 4h BULL direncine ragmen 5m/15m/1h BEAR kalibi ile net short setup olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "00:12:53"
+  "timestamp": "00:18:05"
 }
