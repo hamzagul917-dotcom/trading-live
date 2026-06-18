@@ -1,22 +1,22 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 64562,
-  "tp1": 64620,
-  "tp2": 64700,
-  "stop": 64520,
-  "absorption": "VAL seviyesi (64552) altinda bid absorption tespit edilmistir - son 5 bar negatif delta (-20) icinde fiyat destek seviyesini kirmamis, bid derinligi (86) ask derinliginin (43) 2x katindir. Kurumsal buyuculer VAL altinda emri yutuyor.",
-  "dom_observation": "Bid/Ask orani 2.01 = guclü alis baskisi, bid derinligi ask derinligini net ustunde tutmakta, DOM yapisinda net buyucu kontrolu.",
-  "htf_alignment": "5m BULL + 1h BULL + 4h BULL = 3/4 timeframe bullish uyum saglanmis. 15m BEAR ise micro profit alma seviyesi olarak degerlendirilebilir.",
-  "session_bias": "Session buy_sell_ratio 1.7 (bullish threshold 1.3 ustu) + session delta +173116 = guclü gunluk alis baskisi. Buy volume (419979) sell volume (246863) net ustunde.",
-  "reasoning": "VAL destek seviyesinde negatif delta absorption + DOM bid agirliginda (2.01) + session buy dominant (1.7 ratio) + HTF 3/4 bullish uyum = Axia long setup tamamlanmis, CVD divergence buyucu gizli pozisyon biriktirmesi isareti.",
+  "confidence_score": "72",
+  "entry": "64560",
+  "tp1": "64620",
+  "tp2": "64680",
+  "stop": "64535",
+  "absorption": "Son 5 bardaki delta -20 iken fiyat VAL seviyesinde support bulmus, negative delta absorption + CVD divergence kurumsal alinma isareti",
+  "dom_observation": "Bid/Ask ratio 1.02 dengeli ancak session buy_sell_ratio 1.69 (1.3+ bullish threshold) ve toplam session delta +173904 pozitif, kumu alis baskisi dominantligi gosteriyor",
+  "htf_alignment": "5m BULL + 1h BULL + 4h BULL (3/4 bullish), 15m BEAR carpitsa da majority bullish uyumlu, KURAL 5 saglanmis",
+  "session_bias": "Session buy_sell_ratio 1.69 (>1.3 bullish), buy_volume 425770 > sell_volume 251865, fiyat VAL ustu acceptance bolgesinde = KURAL 6 bullish momentum onaylanmis",
+  "reasoning": "CVD divergence + negative delta absorption at VAL + bullish HTF majority + session buy dominance (1.69 ratio) = kurumsal para giris noktasinda toplu alim yaparak fiyati VAL'a cekerek support olusturmus, VAH'a dogru kacis beklenir.",
   "should_trade": "EVET",
-  "timestamp": "02:30:12"
+  "timestamp": "02:30:51"
 }
