@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64545,
-  "tp1": 64500,
-  "tp2": 64450,
-  "stop": 64580,
-  "absorption": "Son barlar negatif delta ile kapandı, bid hacmi ask'i bastırıyor (45 bid vs 5 ask), fiyat VAL yakınında rejection gösteriyor.",
-  "dom_observation": "Bid/Ask ratio 0.99 (nötr görünse de), mevcut bar'da bid hacmi ask'i 9x aştı (45 vs 5). Bu lokal satis baskisi yerine alici absorpsyonu işareti vermektedir.",
-  "htf_alignment": "5m/15m/1h BEAR trend (3/3 bearish), 4h BULL uyumsuzluğu var. Kısa term HTF tam bearish alignment sağlanmış.",
-  "session_bias": "Session delta +266068 bullish görünse de (buy_sell_ratio 1.29), CVD -2469585 açık negatif ve delta_sum_5bars sadece -4. Gün içinde hacim buy bazlı ama order flow sell tarafında.",
-  "reasoning": "Cumulative negatif CVD (-2.4M), HTF 3/3 BEAR, current bar negatif delta+bid absorption, VAL etrafında rejection - kurumsal satis baskısı net görülüyor.",
+  "entry": 64461,
+  "tp1": 64380,
+  "tp2": 64290,
+  "stop": 64520,
+  "absorption": "Mevcut bar ve son 5 bardaki cumulatif delta -10, dusuk hacim (11) ile fiyat VAL seviyesine yakin, bid agir (bid_vol:10, ask_vol:1) - satis absorption sinyali. Ask depth (82) > bid depth (74), bid_ask_ratio 0.9 satis baskisi gosteriyor.",
+  "dom_observation": "Bid/ask orani 0.9 (<1) satis baskisini isaret ediyor. Ask derinligi bid derinliginden fazla, emirler ask tarafinda toplanmis.",
+  "htf_alignment": "5m, 15m, 1h BEAR bias - 3/3 kisa donem BEARISH uyum guclu. 4h BULL ama 1 saat icinde satis baskisi egemen.",
+  "session_bias": "Session delta +262725 (bullish gorunse de), buy_sell_ratio 1.28 - moderatif. Ancak CVD -2472928 (cok negatif) kurumsal satis baskisini net gosteriyor, fiyat VAL altinda.",
+  "reasoning": "Negatif CVD, ask absorption VAL seviyesinde, 5m-1h BEAR uyumu ve satis egemen DOM yapisi; Axia Kural 1 & 5'e gore kirilim alaninda SHORT sinyali net.",
   "should_trade": "EVET",
-  "timestamp": "03:46:01"
+  "timestamp": "03:51:21"
 }
