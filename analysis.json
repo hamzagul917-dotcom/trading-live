@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64670,
-  "tp1": 64750,
-  "tp2": 64850,
-  "stop": 64620,
-  "absorption": "Mevcut bar: Düşük volume (8) ile negatif delta (-6) fakat fiyat VAL seviyesinin üzerinde sabitlenmiş = BID absorption. Son 5 barın toplu deltası -43 (negatif baski) ama fiyat 64670'de tutuluyor = kurumsal alim absorpsiyonu.",
-  "dom_observation": "DOM ratio 0.76 (satis agir gorulse de) bid depth 63 vs ask depth 83; fakat session buy_sell_ratio 1.43 ile güclu alis baskisi var, mevcut bar'da bid/ask 7/1 ile net alis baskisi.",
-  "htf_alignment": "5m BEAR ama 15m/1h/4h BULL -> 3/4 zaman dilimi BULL, HTF uyumu pozitif, long setupine ideal.",
-  "session_bias": "Session delta +324892 (pozitif), buy_sell_ratio 1.43 (1.3 üstü), buy_volume 1082579 > sell_volume 757687 = güclu BULLISH momentum, fiyat VAL üstünde -> Kural 6 kriteri karşılandi.",
-  "reasoning": "VAL support'unda BID absorption (negative delta yok sayma, fiyat düşmüyor) + HTF 3/4 BULL + session buy dominant 1.43 ratio = net LONG setup, erken pozisyon almak için ideal entry point.",
+  "entry": 64625,
+  "tp1": 64552,
+  "tp2": 64480,
+  "stop": 64700,
+  "absorption": "Son 10 bardaki cumulative negatif delta (-33 delta/5bar) fiyatı düşürmediği, DOM'da bid_ask_ratio 0.73 (satis baskisi) ve mevcut bar'da ask hacmi dominan olması ASK ABSORPTION sinyali vermektedir.",
+  "dom_observation": "Bid/Ask ratio 0.73 - satis baskisi basladi, ask_depth 83 > bid_depth 60, kurumsal satislar emirleri yakaliyor.",
+  "htf_alignment": "5m BEAR + 1h BEAR (2/3 BEAR uyumu), 15m BULL zayif sinyal. SHORT icin yeterli uyum var.",
+  "session_bias": "Session delta +313091 (BULLISH gorunse de), buy_sell_ratio 1.4 yuksek olmasina ragmen fiyat VAL altina dogru ilerledi = kurumsal distribution (satis) baslamis.",
+  "reasoning": "Negatif order flow absorpsiyonu + satis baskisina donen DOM + HTF bearish uyumu + fiyat VAL seviyesine yaklasmasi SELL setup olusturmaktadir.",
   "should_trade": "EVET",
-  "timestamp": "03:18:18"
+  "timestamp": "03:21:14"
 }
