@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64679,
-  "tp1": 64652,
-  "tp2": 64620,
-  "stop": 64695,
-  "absorption": "Ask absorption tespit edildi - mevcut bar delta +18 (pozitif) fakat fiyat 64679 seviyesinde tutunamadi, ask volumu (20) bid volumunu (2) ezdi, son 5 barin net deltasi -17 ile negatif kapanmakta, kurumsal satis baskisi gizli.",
-  "dom_observation": "Bid/Ask orani 0.63 - ask siddetle agir (satis baskisi), emir defterinde 83 ask vs 52 bid, satis hicbigi belirgin.",
-  "htf_alignment": "5m BEAR + 15m BEAR = short icin 2/3 uyum, 1h ve 4h BULL ancak 15 dakika altinda satis kontrolu net.",
-  "session_bias": "Session deltasi +272067 (bullish gorunse de), buy_sell_ratio 1.21 (moderate), fiyat VAH alti (65795) ve vPOC (64932) ustunde ancak absorption tarafindan baskılanıyor.",
-  "reasoning": "Mevcut bar pozitif delta (+18) ile yukselemeyen fiyat, ask absorption belirtisi; 5-15m satis baskisi (BEAR), CVD kritik negatif (-2463587), dom ask agir (0.63) - bu kombinasyon kisa pozisyon Setup'ı olusturuyor.",
+  "entry": 64653,
+  "tp1": 64552,
+  "tp2": 64480,
+  "stop": 64710,
+  "absorption": "Son 10 bardaki degisim: 5m+15m BEAR, ancak 1h+4h BULL bias + session delta +273866 (gunun net alis baskisi). CVD -2461787 (guclu satis baskisi) fakat fiyat henuz yukselmedi = gizli kurumsal SHORT setup. ASK depth 73 > BID depth 61 (bid_ask_ratio 0.84 < 1.0) = satis baskisi artiyor. Delta last bar -13 + delta_sum_5bars +24 = son bardaki negatif delta + 5bar pozitif sonra ters donus = SHORT absorption sinyali.",
+  "dom_observation": "Bid/Ask ratio 0.84 (<1.0) satis baskisi gosterir, Ask depth 73 BID depth 61'den yuksek, defteride satis emniyeti daha buyuk",
+  "htf_alignment": "5m BEAR + 15m BEAR (2/3 BEAR) SHORT icin uygun, 1h BULL + 4h BULL ile minor uyumsuzluk var ancak short-term bearish kontrol gosteriyor",
+  "session_bias": "Session delta +273866 (gunun net alisi guclu) ancak son 5 bardaki delta +24, CVD -2461787 ile cakisma = kurumsal satislar gizli, long pozisyonlar tuzak",
+  "reasoning": "CVD divergence (fiyat sabit ama CVD dusuyor) + DOM ask agir + 5m/15m BEAR + negatif delta absorption VAL sevisinde = erken SHORT pozisyonu VAL destek seviyesinden giris icin optimal setup",
   "should_trade": "EVET",
-  "timestamp": "04:57:34"
+  "timestamp": "04:59:59"
 }
