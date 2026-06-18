@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64709,
-  "tp1": 64932,
-  "tp2": 65795,
-  "stop": 64552,
-  "absorption": "Mevcut bar: delta -18 (satis baskisi) fakat fiyat 64709'da tutunuyor ve dusmuyor = BID absorption. Son 5 bar delta toplamı +69 (kuvvetli alis baskisi). Kurumsal para VAL (64552) ustu seviyesinde alis emri yutuyor.",
-  "dom_observation": "Bid/Ask ratio 0.91 - neredeyse dengeli ancak last bar'da bid_vol=20 vs ask_vol=1 ile kuvvetli alis ilgisi görülüyor. Derin order book dengeli (bid_depth=65, ask_depth=72).",
-  "htf_alignment": "5m/15m/1h/4h tüm timeframe'lar BULLISH - mükemmel uyum. BUY sinyali için 2+ bullish gerekli, 4/4 bulunmakta.",
-  "session_bias": "Session buy_sell_ratio 1.24 (alis agir), session delta +281425 (gunluk net alis baskisi). Fiyat VAL (64552) ve vPOC (64932) arasında = acceptance bölgesinde.",
-  "reasoning": "VAL üstünde bid absorption (delta negatif ama fiyat sabit), session alis dominant, HTF 4/4 bullish ve delta_sum_5bars pozitif = Axia long setup kurumsal emri yutma sinyali veriyor.",
+  "entry": 64684,
+  "tp1": 64750,
+  "tp2": 64820,
+  "stop": 64650,
+  "absorption": "Son 10 bar incelemesinde (bar 9-10) yüksek pozitif delta (35+47=82) ile fiyat VAL üstünde istikrarlı tutunuyor, kurumsal alış absorpsiyonu gösteriyor.",
+  "dom_observation": "Bid/ask oranı 0.55 (ask ağır) ancak son barlar ask dominasyonunu (51 ask, 62 ask) offset etmiş, buy_sell_ratio 1.24 (alis baskisi) session boyunca devam etmiştir.",
+  "htf_alignment": "5m BULL + 15m BULL + 4h BULL = 3/3 bullish uyum, 1h FLAT ancak dominant trend bullish onaylanmış.",
+  "session_bias": "Session delta +281487 güçlü pozitif, buy_sell_ratio 1.24 alis dominant, fiyat VAL (64552) üstünde kabul görmüş, kurumsal satın alma baskısı net.",
+  "reasoning": "Son 5 bar delta (+34) pozitif, session buy dominant (1.24 ratio), HTF 3/3 bullish, CVD -2.4M ancak fiyat VAL üstünde istikrarlı tutunması kurumsal accumulation gösteriyor; VAL support güçlü, VAH'a doğru acceptance devam ediyor.",
   "should_trade": "EVET",
-  "timestamp": "04:27:21"
+  "timestamp": "04:33:49"
 }
