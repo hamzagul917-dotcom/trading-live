@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63888,
-  "tp1": 63800,
-  "tp2": 63700,
-  "stop": 63950,
-  "absorption": "Son 5 bardaki yuksek negatif delta (-39) ve gunluk -2.09M session delta ile satis baskisi hakimdir; fiyat VAL altinda guclu satis kusumlastirmasi devam etmektedir.",
-  "dom_observation": "Bid/Ask ratio 1.06 ile hafif alis baskili olsa da, session buy_sell_ratio 0.78 (satis baskisi) ve ask derinligi 49 vs bid 52 ile dengelidir. Makro satis dominansi kusumlastirma sinyali verir.",
-  "htf_alignment": "5m, 15m ve 4h BEAR konumundadir (3/4 timeframe bearish). 1h FLAT olsa da, guc buyuk zaman dilimlerinde bearish momentum net olarak satis yon uyumsuzlugunu desteklemektedir.",
-  "session_bias": "Gunluk delta -2.09M, buy_sell_ratio 0.78 (<0.8 threshold) ile kuvvetli BEARISH momentum. Satis hacmi (9.6M) alis hacmini (7.5M) anlamli oranda asmakta, VAL altinda konum kirilim acisidan negatiftir.",
-  "reasoning": "Gunluk satis dominansi (-2.09M delta, 0.78 ratio), 5 bar negatif delta kusumlastirmasi (-39), HTF 3/4 bearish uyumu ve fiyat VAL altinda tutunmasi net SHORT sinyali olusturmakta; absorption yok ancak order flow satis baskilasini desteklemektedir.",
+  "entry": 63972,
+  "tp1": 64100,
+  "tp2": 64200,
+  "stop": 63890,
+  "absorption": "Son 5 bardaki toplam delta -4 (nötr) ancak mevcut bar +16 delta ile pozitife dönerken, DOM bid/ask ratio 0.58 (satis baskili) olmakla beraber, 5m-15m-1h BULL triplexi ve CVD divergence true ile kurumsal absorpsiyon sinyali aktif.",
+  "dom_observation": "Ask depth (78) bid depth (45) üstündedir - satis baskisi görülüyor ancak fiyat destek seviyesi (VAL 64552) yakınında stabil kalıyor, küçük bid absorpsiyon işareti.",
+  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = Güçlü bullish uyum sağlanmış, 4h BEAR uyumsuzluğu risk oluşturuyor.",
+  "session_bias": "Buy/sell ratio 0.78 (satis ağır - 0.78<1.0) günlük bazda bearish, ancak CVD divergence ile kurumsal alıcılar gizli pozisyon alıyor.",
+  "reasoning": "Mevcut bar pozitif delta (+16) + CVD divergence + HTF triple bull + VAL seviyesi yakını = Axia erken long sinyali; kurumsal para CVD düştüğü halde fiyatı VAL'de tutarak gizli absorpsiyon yapıyor.",
   "should_trade": "EVET",
-  "timestamp": "07:33:24"
+  "timestamp": "07:36:04"
 }
