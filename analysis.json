@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64720,
+  "entry": 64745,
   "tp1": 64850,
   "tp2": 65100,
   "stop": 64650,
-  "absorption": "Mevcut bar pozitif delta (64) ile fiyat VAL ustu, bid absorption baslamis durumda; ask_vol > bid_vol oraninda ask agirligina ragmen fiyat direnc gostermiyor.",
-  "dom_observation": "bid_ask_ratio 0.65 (satis baskisi isaretliyken) son 5 bar delta_sum 198 pozitif = kurumsal alis emri absorpsiyonu devam ediyor.",
-  "htf_alignment": "5m/15m/1h/4h tum timeframeler BULL - maximal HTF uyum saglanmis, guclu bullish bias.",
-  "session_bias": "buy_sell_ratio 1.49 (>1.3 threshold) + session delta 313740 pozitif + fiyat VAL ustu acceptance fase - gunluk alis baskisi dominant.",
-  "reasoning": "Pozitif delta absorpsiyonu + VAL ustu + all-bullish HTF + ask agirligina ragmen fiyat direncsizligi, kurumsal alis emrinin erken evresini isaret ediyor.",
+  "absorption": "Son 5 bardaki kumulatif pozitif delta (219) + bid depth agir (1.14 orani) = VAL'den yukari alis baskisi devam ediyor, kurumsal destek net.",
+  "dom_observation": "Bid/Ask orani 1.14 = alis agir, emir defterinde bid derinligi (66) ask'ten (58) yuksek, alis baskisi artiyor.",
+  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BULL, tam uyum var, yuksek confidence.",
+  "session_bias": "Session buy_sell_ratio 1.51 (1.3 ustu) + session delta 328738 (pozitif) + fiyat VAL (64552) ustunde = gucu alis dominans, bullish momentum acik.",
+  "reasoning": "Fiyat VAL ustunde tutunuyor, session boyunca gucu alis baskisi, DOM bid agir, son 5 bar net pozitif delta, HTF tam bullish align - Axia LONG setup klasik kurumsal destek senaryosu.",
   "should_trade": "EVET",
-  "timestamp": "03:11:05"
+  "timestamp": "03:11:45"
 }
