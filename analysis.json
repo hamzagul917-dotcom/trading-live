@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63877,
-  "tp1": 63750,
-  "tp2": 63600,
-  "stop": 63974,
-  "absorption": "Last 2 bars (-87, -11 delta) shows selling pressure with increasing bid volume (129, 66) but price rejection at upper range - ask absorption pattern at VAH vicinity indicates institutional selling rejection.",
-  "dom_observation": "Bid/Ask ratio 0.66 (<0.7) = strong ask dominance, emir defterinde ask agir, satis baskisi artiyor",
-  "htf_alignment": "Tum zaman dilimleri BEAR (5m/15m/1h/4h) - maximum HTF uyum SHORT icin",
-  "session_bias": "Session delta -2.077M ile strongly negative, buy_sell_ratio 0.72 (<0.8), sell volume dominasi (7.3M vs 5.2M) - gunluk satis baskisi acik",
-  "reasoning": "CVD divergence true + session sell dominant (0.72 ratio) + all HTF bearish + DOM ask heavy (0.66) + current bar -87 delta + VAH redline rejection = net SHORT setup with institutional selling confirmation.",
+  "entry": 63840,
+  "tp1": 63700,
+  "tp2": 63500,
+  "stop": 63920,
+  "absorption": "Mevcut barda 21 hacim ile ask (15) bid (6) oraninda baskisi varken fiyat 63840-63872 araligi tutmaktadir. Son 5 barin delta toplamı -78 ile negatif olup, session delta -2076400 ile gunluk baskisi tamamen satis tarafındadır (buy_sell_ratio 0.72 = satis dominasyonu). Fiyat VAH (65795) ustu reddedilmis, VAL (64552) altında orientation vardir.",
+  "dom_observation": "bid_ask_ratio 0.87 (0.87 < 1.0) - ask derinligi (54) bid derinliginden (47) fazla, satis baskisi net gorulmektedir. DOM satis agirligini teyit etmektedir.",
+  "htf_alignment": "5m BEAR, 15m BEAR, 1h BEAR, 4h BEAR - tum zaman dilimleri BEARISH, SHORT icin mukemmel HTF uyum saglanmistir.",
+  "session_bias": "Gunluk delta -2076400 ile strongly negative, buy_sell_ratio 0.72 (<0.8) tamamlayici BEARISH momentum. Session satis dominasyonu net.",
+  "reasoning": "Strong bearish acceptance zone (VAL alti), session satis baskisi (0.72 ratio), DOM ask agir (0.87), CVD deeply negative (-4812053), son 5 bar delta negative (-78), HTF tum timeframelerde BEAR - kisa pozisyon icin tekil kurumsal setup.",
   "should_trade": "EVET",
-  "timestamp": "06:20:03"
+  "timestamp": "06:21:14"
 }
