@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "63900",
-    "VAL": "62841",
-    "VAH": "64737"
+    "vPOC": 63900,
+    "VAL": 62841,
+    "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "62780",
-  "tp1": "62733",
-  "tp2": "62711",
-  "stop": "62813",
-  "absorption": "Son 10 barda +51 delta (bar 4) sonrasi guclu negatif deltalar (-77, -42, -13, -9, -4) gozlenmis, fiyat 62780'de sabitlenirken ask volume hala yuksek (24) - kurumsal satis absorption'u net gorunuyor.",
-  "dom_observation": "bid_ask_ratio 0.73 (<0.7 seviyesine yakin) - ask derinligi (65) bid derinliginden (48) belirgin fazla, satis baskisi artiyor.",
-  "htf_alignment": "5m BULL ama 15m+1h BEAR (2/3 bearish) - HTF uyum zayif, ancak intraday satis setup'i destekliyor.",
-  "session_bias": "buy_sell_ratio 0.52 (hawayiz), session delta -398881 (guclu satis baskisi), sell_volume (836k) buy_volume'nin (437k) 1.9x ustu - gun boyunca kurumsal satis dominasyonu.",
-  "reasoning": "Fiyat VAL (62841) altinda, negatif CVD (-398881), ask absorption, dom satis agir ve session sell dominant - SHORT kurumsalca desteklenmiş bearish setupdir.",
+  "confidence_score": 72,
+  "entry": 62787,
+  "tp1": 62733,
+  "tp2": 62680,
+  "stop": 62820,
+  "absorption": "Mevcut bar ask agirlikli (ask_vol:4, bid_vol:0), delta pozitif (3) fakat fiyat VAL altinda hapsolmus - ask absorption gozlenmektedir, satici baskisinin emri tuttugunu gosterir.",
+  "dom_observation": "DOM ratio 0.67 (<0.7) - ask derinligi (74) bid derinligini (50) onemli oranda asstigi icin satis baskisi gucludur.",
+  "htf_alignment": "15m ve 1h BEAR bias ile uyum saglamakta, 5m BULL ise minor divergence olusturmaktadir; net BEARISH yon 2/3 TTF ile desteklenmektedir.",
+  "session_bias": "Session delta -397855 (guclu BEARISH), buy_sell_ratio 0.52 (<0.8) - gundeki satis hacmi (836835) alis hacmini (438979) dogal olarak bastirmakta, negatif moment devam etmektedir.",
+  "reasoning": "VAL (62841) altinda fiyat, ask absorption + dom ask baskisi + guclu negative session delta + HTF 2/3 bearish - net short setup kurumsal satici emri absorpsiyonu ile desteklenmektedir.",
   "should_trade": "EVET",
-  "timestamp": "00:38:47"
+  "timestamp": "00:39:18"
 }
