@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62779,
+  "entry": 62780,
   "tp1": 62733,
   "tp2": 62711,
-  "stop": 62820,
-  "absorption": "Session delta -407129 ile guclü satis baskisi, VAL (62841) yakininda fiyat (62779), ask_vol agir (6>1 bid), son 10 barda -50 delta ile satis tarafinda tutunma, DOM ask_depth (81) bid_depth (44) ile satis agi net",
-  "dom_observation": "bid_ask_ratio 0.55 (<0.7) - ask agir, satis baskisi artiyorsa isaret",
-  "htf_alignment": "5m BULL ama 15m+1h BEAR (2/3 bear dominant) - kisa vadede satis sinyali uyumlu",
-  "session_bias": "buy_sell_ratio 0.51 (<0.8) + fiyat VAL (62841) altinda (62779) = BEARISH momentum tamamlandi, satis ust uste",
-  "reasoning": "Kumsal satis emri yutma (absorption) + CVD -407129 negatif + DOM ask agir + son 5 bar delta 62 ama fiyat dusmek istiyor, HTF bearish hakimiyeti = erken SHORT setup.",
+  "stop": 62810,
+  "absorption": "Son 5 bardaki strong negative delta (-77, -42 bardalar) ile rağmen fiyat 62780-62793 arasında tutuluyor = Ask absorption sinyali. Kurumsal satış baskısı fiyatı baskılamaya çalışıyor.",
+  "dom_observation": "DOM bid_ask_ratio=0.97 (<1.0) satis baskisi basliyor, ask depth (54) bid depth (53)' e esittir, dengeleme asamasi.",
+  "htf_alignment": "15m BEAR + 1h BEAR + 5m BULL = 2/3 bearish, HTF short icin uygun ancak partial conflict.",
+  "session_bias": "Session delta -399396 ve buy_sell_ratio 0.52 = guclu satis baskisi. Gun boyunca saticilar kontrol sahibi.",
+  "reasoning": "Kurumsal absorption (yuksek volume + fiyat hareketsiz) + negative cumulative delta + session sell dominant + VAL seviyesine yakin fiyat = erken short setup.",
   "should_trade": "EVET",
-  "timestamp": "00:37:25"
+  "timestamp": "00:38:27"
 }
