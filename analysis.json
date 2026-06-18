@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63972,
-  "tp1": 64100,
-  "tp2": 64200,
-  "stop": 63890,
-  "absorption": "Son 5 bardaki toplam delta -4 (nötr) ancak mevcut bar +16 delta ile pozitife dönerken, DOM bid/ask ratio 0.58 (satis baskili) olmakla beraber, 5m-15m-1h BULL triplexi ve CVD divergence true ile kurumsal absorpsiyon sinyali aktif.",
-  "dom_observation": "Ask depth (78) bid depth (45) üstündedir - satis baskisi görülüyor ancak fiyat destek seviyesi (VAL 64552) yakınında stabil kalıyor, küçük bid absorpsiyon işareti.",
-  "htf_alignment": "5m BULL + 15m BULL + 1h BULL = Güçlü bullish uyum sağlanmış, 4h BEAR uyumsuzluğu risk oluşturuyor.",
-  "session_bias": "Buy/sell ratio 0.78 (satis ağır - 0.78<1.0) günlük bazda bearish, ancak CVD divergence ile kurumsal alıcılar gizli pozisyon alıyor.",
-  "reasoning": "Mevcut bar pozitif delta (+16) + CVD divergence + HTF triple bull + VAL seviyesi yakını = Axia erken long sinyali; kurumsal para CVD düştüğü halde fiyatı VAL'de tutarak gizli absorpsiyon yapıyor.",
+  "entry": 63983,
+  "tp1": 63924,
+  "tp2": 63895,
+  "stop": 64010,
+  "absorption": "Son 5 bardaki delta_sum negatif (-7) ve CVD divergence=true: kurumsal satış baskısı ilerlerken fiyat yükselmede başarısız, rejection yapısı oluşmuş.",
+  "dom_observation": "bid_ask_ratio=0.5 (<0.7): ask derinliği (108) bid derinliğinin (54) 2 katı, satış baskısı dominant.",
+  "htf_alignment": "5m/15m/1h BULL ancak 4h BEAR - HTF uyum zayıf. Daha yüksek timeframe'de bearish yapı mevcut.",
+  "session_bias": "buy_sell_ratio=0.78 (<1.0) + session delta=-2097603: günlük net satış baskısı, sell_volume buy_volume'dan %27 daha yüksek.",
+  "reasoning": "CVD divergence + ASK agirlik + negatif session delta + 4h BEAR bias + son 5 bar negatif delta = kurumsal shorting sinyali, VAH rejection seviyesinden short girilmeli.",
   "should_trade": "EVET",
-  "timestamp": "07:36:04"
+  "timestamp": "07:36:44"
 }
