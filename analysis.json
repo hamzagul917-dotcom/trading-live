@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64293,
+  "entry": 64302,
   "tp1": 64235,
   "tp2": 64150,
   "stop": 64350,
-  "absorption": "Mevcut bar'da bid absorption islari var (bid_vol:80, ask_vol:19), ancak fiyat 64293'te kapalı ve VAL (64552) altında rejection olusturuyor.",
-  "dom_observation": "DOM bid/ask ratio 0.61 < 0.7 = guclu satis baskisi, ask depth (121) bid depth'i (74) oldukca fazla asiyor.",
-  "htf_alignment": "5m BULL fakat 15m/1h/4h BEAR = HTF consensus BEARISH, short icin uygun.",
-  "session_bias": "Session delta -152146 negatif, buy_sell_ratio 0.93 < 1.0 = satis baskisi dominat, fiyat VAL altinda = BEARISH momentum.",
-  "reasoning": "CVD divergence + Session sell dominant + DOM ask agir (0.61) + HTF 3x BEAR + Fiyat VAL altinda rejection = guclu SHORT setup, delta_sum_5bars -142 negatif momentum onayi.",
+  "absorption": "Mevcut bar: ask_vol 35, bid_vol 1 ile ask dominansi ve ask absorption görülüyor. Son 5 bar delta_sum -126 negatif iken, fiyat VAL (64552) altında kalmaya devam ediyor. Kurumsal satış baskısı absorption içinde gizleniyor.",
+  "dom_observation": "bid_ask_ratio 0.86 (<1.0) = satış baskısı NET, ask_depth (111) > bid_depth (96), emir defterinde ask agır yığılmış durumda",
+  "htf_alignment": "5m/15m BULL ama 1h/4h BEAR = zıtlık var. HTF uyumsuzluğu confidence düşürüyor ancak 1h/4h bear consensus güçlü",
+  "session_bias": "buy_sell_ratio 0.93 (<1.0) + session delta -157971 negatif = BEARISH momentum. Günlük satış hacmi (2.27M) alış hacminden (2.11M) yüksek",
+  "reasoning": "CVD divergence + possible absorption TRUE, ask dominansi + negative session delta + HTF 4h BEAR = kurumsal satış setup, VAL altında fiyat tutunuyor absorption ile gizlenmiş short opportunity",
   "should_trade": "EVET",
-  "timestamp": "05:47:38"
+  "timestamp": "05:48:18"
 }
