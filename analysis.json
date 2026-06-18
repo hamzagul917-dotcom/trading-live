@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64546,
-  "tp1": 64596,
-  "tp2": 65795,
-  "stop": 64520,
-  "absorption": "Son 5 bardaki delta_sum (69) pozitif ve HTF buyuk zaman dilimlerinde BULL; fiyat VAL ustu (64546>64552 yakininda) kabul alaninda hareket ediyor",
-  "dom_observation": "BID/ASK ratio 1.19 (>1.0) alis baskisi gosterirken; bid_depth 68 > ask_depth 57 ile kurumsal alim ilgisi belirgin",
-  "htf_alignment": "15m BULL + 1h BULL + 4h BULL = 3/3 buyuk dilim bullish; 5m BEAR tek degil, toplam uyum %85 oranında yukarı yonlu",
-  "session_bias": "Buy/sell ratio 1.98 (>1.3) gunluk buyuk alis dominansi; session delta +106518 kuvvetli bullish; fiyat VAL ustunde Acceptance hareketi",
-  "reasoning": "Guncель bardaki minimal delta(1) rağmen session buyuk alis baskisı (1.98 ratio), DOM bid ağır (1.19), HTF 3/4 bullish ve fiyat VAL ustunde Acceptance hacmi ile orta-uzun LONG setup destekleniyor.",
+  "entry": 64552,
+  "tp1": 64650,
+  "tp2": 64750,
+  "stop": 64480,
+  "absorption": "VAL (64552) seviyesinde BID absorption tespit edildi - pozitif delta (7) ve delta_sum_5bars (74) ile fiyat destek seviyesinde tutuluyor, kurumsal alis baskisi gozleniyor.",
+  "dom_observation": "BID/ASK orani 1.18 ile orta seviyede alis baskisi var, bid_depth (66) > ask_depth (56) - alis tarafinda daha fazla likidite birikiyor.",
+  "htf_alignment": "15m/1h/4h BULL (3/3 bullish) - yuksek HTF uyumu, sadece 5m BEAR ancak longer timeframes dominante bullish.",
+  "session_bias": "Session buy_sell_ratio 1.97 ile guclu alis baskisi, toplam session delta +106898 bullish momentum, buy_volume (216983) sell_volume (110085) yi 2x asiyor.",
+  "reasoning": "VAL seviyesinde pozitif delta absorption + bullish HTF consensus (1h/4h/15m) + guclu session buy momentum + CVD divergence ile kurumsal para giris yapiyorsa, VAL desteginden uzun pozisyon acilabilir.",
   "should_trade": "EVET",
-  "timestamp": "02:09:13"
+  "timestamp": "02:09:53"
 }
