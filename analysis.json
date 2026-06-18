@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63935,
-  "tp1": 63892,
-  "tp2": 63850,
-  "stop": 63973,
-  "absorption": "Guclu CVD divergence: CVD -4.8M iken fiyat VAL altinda yapili, ask agir (4 vs 28 bid), session sell baskisi (0.78 ratio) ile uyumlu kurumsal satış absorpsiyonu tespit edildi.",
-  "dom_observation": "Bid/ask ratio 1.05 sag tarafta, fakat current bar ask vol minimal (4) vs bid heavy (28) = satis baskisi zayiflamasi ancak CVD negatifligi devam ediyor.",
-  "htf_alignment": "Partial conflict: 5m/15m/1h BULL ama 4h BEAR - HTF uyum zayif, buyuk trend bearish itme var.",
-  "session_bias": "Buy/sell ratio 0.78 + session delta -2.09M = guclü satis baskisi, VAL (64552) alti fiyat acceptance gösteriyor.",
-  "reasoning": "CVD divergence + session sell dominant + 4h BEAR bias + negative delta_last_bar + fiyat VAL altinda - kirilim alaninda kurumsal satış absorpsiyonu net SHORT setup.",
+  "entry": 63927,
+  "tp1": 64552,
+  "tp2": 64932,
+  "stop": 63892,
+  "absorption": "Mevcut bar minimal volume (1) ile fiyat VAL seviyesine yakin, bid agir (2:0), son 5 bar delta pozitif (+1) - BID ABSORPTION algosu aktif, guclu support emilimi",
+  "dom_observation": "bid_ask_ratio 1.3 (alis baskisi), bid_depth 62 >> ask_depth 48, DOM'de net alis hakimiyeti gozleniyor",
+  "htf_alignment": "5m+15m+1h BULL (3/3 bullish), 4h BEAR ile minor carpismasi var ancak LTF uyumu guclü, BUY onaylanir",
+  "session_bias": "buy_sell_ratio 0.78 (satis baskili gorunse de), session delta -2093613 negatif ANCAK son 5 bar delta +1 tersine donuse isaret ediyor, kurumsal emilim sinyali",
+  "reasoning": "VAL seviyesinde minimal hacim ile BID absorption + DOM alis agir + LTF BULL + delta tersine donus = Axia LONG kurulum net, VAL'dan VAH'a itilim beklenebilir",
   "should_trade": "EVET",
-  "timestamp": "07:28:31"
+  "timestamp": "07:29:11"
 }
