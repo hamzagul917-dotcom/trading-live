@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65796
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63934,
-  "tp1": 63821,
-  "tp2": 63750,
-  "stop": 63950,
-  "absorption": "Mevcut bar minimal hacim (1) ile kapanmis, bid_vol egemen, strong bearish absorption yapisi gosteriliyor. Son 5 bar delta toplamı -63 (kumulatif satis baskisi), fiyat VAL altinda konumlanmis.",
-  "dom_observation": "Bid/Ask orani 1.46 (bid agir) fakat ask_depth 42 vs bid_depth 62 ile ask buyup gozleniyor. Absorption sinyali net.",
-  "htf_alignment": "5m BULL + 15m BEAR + 1h BULL + 4h BEAR = Uyumsuzluk var, ancak 15m ve 4h BEARISH yon destekliyor. Confidence kismada azalma.",
-  "session_bias": "Session delta -2,120,169 (kuvvetli satis) + buy_sell_ratio 0.78 (<0.8) = Ogun boyunca dominant SELL baskisi. VAL altinda fiyat = BEARISH acceptance.",
-  "reasoning": "CVD divergence TRUE + possible absorption TRUE + delta_sum_5bars -63 + session sell dominant (0.78 ratio) + VAL altında fiyat + bearish session delta = kurumsal satis baskisinin VAL seviyesinde absorption yaptigi net SHORT setup.",
+  "entry": 63956,
+  "tp1": 64100,
+  "tp2": 64200,
+  "stop": 63900,
+  "absorption": "Son 5 bardaki negatif delta (-53) sum'a ragmen fiyat 63956'da stabilize olmus, bid absorption gorulmuyor ancak CVD divergence + possible_absorption kombinasyonu kurumsal alim ilgisini isaret ediyor.",
+  "dom_observation": "DOM ratio 0.82 - hafif satis baskisi var fakat ask_depth (66) > bid_depth (54) yapisi kırılmaya hazır piyasayı, guclu reaksiyon icin yeterli bid sozu yok.",
+  "htf_alignment": "5m/15m/1h BULL - 4h BEAR; 3 zaman diliminden 3'u bullish, HTF uyum GUCLÜ. 4h bear uyarısı dikkat edilmesi gereken risk.",
+  "session_bias": "Session delta -2118765 ve buy_sell_ratio 0.78 - gun boyunca satis baskinligi hakim ANCAK son barlar pozitif delta baslamis, tersine donus habercisi.",
+  "reasoning": "Negatif cumulative delta sonrasi pozitif deltalı bar + HTF multi-timeframe bullish alignment + CVD divergence = kurumsal alim absorbsiyonu ve erken bullish setup, VAL'in ustunde acceptance ile destekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "07:42:14"
+  "timestamp": "07:42:55"
 }
