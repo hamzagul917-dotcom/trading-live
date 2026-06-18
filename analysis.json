@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63865,
-  "tp1": 63800,
-  "tp2": 63700,
-  "stop": 63920,
-  "absorption": "Mevcut bar: ask_vol (15) << bid_vol (48), delta negatif (-33), fiyat VAH altında kalıyor - satıcı baskısı hakimdir.",
-  "dom_observation": "bid_ask_ratio 1.59 (bid ağır görünüyor fakat ask_depth düşük=43, bid_depth yüksek=69 ama pozisyon alıcılara karşı satıcılar baskılı durumda)",
-  "htf_alignment": "Mükemmel uyum: 5m/15m/1h/4h TÜM BEAR - yüksek güvenilirlik",
-  "session_bias": "buy_sell_ratio 0.76 (<<1.0), session delta -1.8M net satış, sell_volume (7.8M) >> buy_volume (5.9M) - güçlü günlük satış baskısı",
-  "reasoning": "CVD -4.6M negatif trend, delta_sum_5bars -70 tutarlı satış, session'da buy_sell_ratio 0.76, HTF tüm timeframe'lerde BEAR - Axia Kural 5 ve 6 tam uyumlu SHORT setup.",
+  "confidence_score": 72,
+  "entry": 63841,
+  "tp1": 63750,
+  "tp2": 63650,
+  "stop": 63900,
+  "absorption": "YOK",
+  "dom_observation": "BID/ASK orani 1.92 - gucu bid tarafinda ama delta agirca negatif, satis baskisi baskın, bid duvar yuksek hacimle fiyat carpiyor",
+  "htf_alignment": "5m/15m/1h/4h tum BEAR - tam uyum, SHORT için ideal",
+  "session_bias": "buy_sell_ratio 0.76 (<0.8) + session delta -1.89M (guclu satis) + cevresel VAH altında fiyat = guclu bearish momentum",
+  "reasoning": "All-timeframe bearish alignment + session dominant sell volume + current negative delta bar + fiyat VAL seviyesine yakin + CVD deeply negative (-4.6M) = organized selling pressure, early short entry VAH incelemesi oncesi optimal risk/reward",
   "should_trade": "EVET",
-  "timestamp": "06:44:41"
+  "timestamp": "06:45:50"
 }
