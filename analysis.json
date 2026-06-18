@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64485,
-  "tp1": 64420,
-  "tp2": 64350,
-  "stop": 64530,
-  "absorption": "Son 5 bardaki toplam delta +3 ile cok zayif; son 10 bardaki kumulatif delta negatif (-137), fiyat 64592'den 64471'e dusmesine ragmen CVD -2.5M seviyesinde kalarak kurumsal satis baskisi devam ediyor.",
-  "dom_observation": "DOM bid/ask ratio 0.51 ile ask agir, emir defterinde satis baskisi belirgin (ask_depth 97 vs bid_depth 49), satis artiyor.",
-  "htf_alignment": "5m ve 15m BEAR ile bearish uyum var; 1h ve 4h BULL olsa da short-term BEAR uyumu dominant, kisa vadede satisa uygun.",
-  "session_bias": "Buy/sell ratio 1.15 ile hafif alis baskili gorunse de, fiyat VAL (64552) altinda hareket ediyor ve CVD divergence bearish rejection sinyali veriyor.",
-  "reasoning": "CVD divergence + negatif son 10 bar delta + ask agir DOM + 5m/15m bearish trend + VAL altinda fiyat, kurumsal satisinin erken sinyalini veriyor.",
+  "entry": 64493,
+  "tp1": 64470,
+  "tp2": 64450,
+  "stop": 64510,
+  "absorption": "Son 10 bardaki 8 bardan 5'inde negatif delta rağmen fiyat yüksek seviyelerde tutunuyor. Bar 7-8-10'da -17, -55, -26 deltayla satis baskisina ragmen fiyat VAH'a yakin kaliyor. Bu, ask absorption + kurumsal satis baskilarinin fiyatla uyumsuzlugu.",
+  "dom_observation": "Bid/Ask ratio 1.02 - esit, ancak son 5 bardaki ask hacmi (26+7+25+10) < bid hacmi (43+62+29+36), net ask baskisi detektlendi",
+  "htf_alignment": "5m BULL, 15m BEAR, 1h BEAR - 15m ve 1h bearish, alis cabukluguna ragmen HTF downtrend onaylıyor. SELL icin uygun.",
+  "session_bias": "Buy/sell ratio 1.15 (alis baskili gibi gorunse de) fiyat VAH'dan 1302 puan uzakta ve CVD -2.5M (yoğun kurumsal satis). Session 'de alis hacmi fazla ama fiyat degil - gizli satis.",
+  "reasoning": "Negatif delta akumulasyonu + fiyat yükselemeyen ask absorption + session'da yoğun negatif CVD + HTF 15m-1h bearish yapı = erken satis oyu. Fiyat VAL'a donuse kadar short pozisyonu risk/reward'a uygun.",
   "should_trade": "EVET",
-  "timestamp": "05:17:30"
+  "timestamp": "05:18:49"
 }
