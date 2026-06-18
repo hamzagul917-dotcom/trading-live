@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64502,
-  "tp1": 64420,
-  "tp2": 64320,
-  "stop": 64585,
-  "absorption": "Mevcut bar'da bid absorption gözlenmektedir - 121 bid vs 26 ask, düşük volume (147), delta -94. Fiyat VAL altında (64502 < 64552) ilerledikten sonra alıcılar emri yutmuş ancak fiyat yukarı çıkamamıştır.",
-  "dom_observation": "Bid/Ask ratio 1.68 (>1.5) = alis baskisi var görünse de, son 5 bardaki delta_sum -130 ve CVD -2.5M negatiftir. DOM'daki bid yoğunluğu tuzak olabilir.",
-  "htf_alignment": "5m/15m/1h BEAR, 4h BULL = Kısa vadede güçlü short bias, ancak daha uzun vadede bullish. Intraday short setup destekleniyor.",
-  "session_bias": "Session delta +224K (bullish görünüm) ancak buy/sell ratio 1.17 (1.3 altında) ve fiyat VAL altında = bearish momentum zayıf, tersine dönüş sinyali.",
-  "reasoning": "Negatif delta akümülasyonu (-2.5M CVD, -130 delta son 5 bar) + fiyat VAL altında rejection + 5m/15m/1h BEAR + mevcut bar'da bid absorption = kurumsal satış baskısı net, VAL altı kırılım short fırsatı sunar.",
+  "entry": 64584,
+  "tp1": 64650,
+  "tp2": 64750,
+  "stop": 64520,
+  "absorption": "Son 5 bar delta sum +18 pozitif, mevcut bar delta +3 ask baskıyla kapandı, VAL üstünde fiyat acceptance gösteriyor.",
+  "dom_observation": "BID/ASK ratio 1.57 - güçlü alış baskısı, bid derinliği 87 vs ask 56, kurumsal alış ilgisi belirgin.",
+  "htf_alignment": "5m BULL + 1h BULL + 4h BULL = 3/4 bullish uyum mükemmel. 15m BEAR uyum eksikliği yaratsa da çoğunluk bullish.",
+  "session_bias": "Buy/Sell ratio 1.17 + toplam delta +227,870 = seansın net bullish yapısı, alış hacmi satışı basıyor.",
+  "reasoning": "VAL seviyesinde (64552) positive delta absorption + DOM bid ağır + HTF 3/4 bullish align + session buy dominant = Axia klasik early long setupu, kurumsal alış başlangıcı.",
   "should_trade": "EVET",
-  "timestamp": "05:03:05"
+  "timestamp": "05:08:08"
 }
