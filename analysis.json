@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64177,
-  "tp1": 64100,
-  "tp2": 63950,
-  "stop": 64250,
-  "absorption": "Mevcut bar: Düşük hacimde (43) fiyat 64177'de sabitlenmiş, bid:ask oranı 36:7 (5.14) ile BID absorption gösteriyor ancak bu SAT yönünde (delta -28). 2. bar'da -164 delta ile güçlü satış baskısı var ama fiyat 64178-64240 arası konsolidasyon yapıyor = kurumsal satış emri yutuluyor.",
-  "dom_observation": "DOM bid_ask_ratio 1.61 (>1.5) gösteriyor ama bu yanıltıcı: bid depth 102 vs ask depth 63 görünürken, mevcut bar bid:ask 36:7 ile önemli asimetri var. Son 5 bar analizi: bar 2'de (237 vol, -164 delta) ve bar 5'te (90 vol, -48 delta) tutarlı satış baskısı gözleniyor.",
-  "htf_alignment": "5m/15m/1h/4h TÜM BEAR - mükemmel uyum. HTF güçlü satış trendini doğruluyor.",
-  "session_bias": "Session delta -121093 (negatif), buy_sell_ratio 0.95 (<1.0) = gün boyunca satış dominasyon. Fiyat VAL (64552) ALTI konumda hareket ediyor = BEARISH acceptance.",
-  "reasoning": "Tüm HTF bearish + session sell dominant + VAL altında absorption + negatif CVD (-2856747) + DOM bid tutma = kurumsal satış emri yerleşmesi, kırılım yönünde SHORT setup.",
+  "entry": 64185,
+  "tp1": 64052,
+  "tp2": 63900,
+  "stop": 64280,
+  "absorption": "Session delta -136092 ile guclu satis baskisi, bid/ask orani 2.84 ama son bar delta negatif - VAL seviyesinin altında fiyat tutunmuyor.",
+  "dom_observation": "Bid depth 111 > Ask depth 39 (2.84 orani) ancak fiyat yukarı çıkamıyor - ask absorption göstergesi, satıcılar bid'i yiyiyor.",
+  "htf_alignment": "5m/15m/1h/4h tüm BEAR - HTF mükemmel uyum, short için güçlü sinyal.",
+  "session_bias": "Buy/sell ratio 0.95 (<1.0) + session delta -136092 + sell volume 2.628M > buy volume 2.492M = güclü bearish session bias.",
+  "reasoning": "Tüm timeframeler BEAR, CVD -2.87M aşağı, session satis hakimiyeti, bid agirligina ragmen fiyat VAL altında duruyor, delta sum -14 negatif - net short setup kurumsal satış absorpsiyonu.",
   "should_trade": "EVET",
-  "timestamp": "06:05:24"
+  "timestamp": "06:07:05"
 }
