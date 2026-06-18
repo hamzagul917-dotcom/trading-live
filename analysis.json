@@ -1,22 +1,22 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 64549,
-  "tp1": 64650,
-  "tp2": 64750,
-  "stop": 64480,
-  "absorption": "Mevcut bar minimal hacimsiz (7), delta pozitif (3) ama fiyat VAL seviyesinde sabit kalmis - BID absorption gozlemi. Son 2 barin delta_sum=145 guclu alis baskisi olusturuyor.",
-  "dom_observation": "BID/ASK ratio 0.78 (ask agir gorunse de) ancak session buy_volume 97194 vs sell_volume 44764 ile buy_sell_ratio 2.17 cetin alis dominansi. DOM ask derinligi 77 yuksek ancak ask agirligina ragmen fiyat VAL desteginde tutunuyor = gizli kurumsal alis.",
-  "htf_alignment": "Tum HTF timeframe (5m/15m/1h/4h) BULL, ideal BUY uyumu saglanmis.",
-  "session_bias": "Session delta +52430 ile gun net bullish. Buy_sell_ratio 2.17 ve buy_volume 2.17x oraninda satis hacmini geciyor - session momentum yuzde alis tarafinda.",
-  "reasoning": "VAL seviyesinde fiyat sabit kalirken pozitif delta ve session yuksek buy_ratio ile guclu BID absorption + HTF tam bullish uyumu + CVD negatif ancak potential_absorption=true ile kurumsal alis sinyali vermektedir.",
+  "confidence_score": "72",
+  "entry": "64533",
+  "tp1": "64650",
+  "tp2": "65100",
+  "stop": "64480",
+  "absorption": "Son 5 bardaki pozitif delta akumulasyonu (146 net delta) + bid depth (63) ask depth (58)den fazla, fiyat VAL üstünde konumlanmış, kurumsal alış baskısı net görünüyor",
+  "dom_observation": "Bid/Ask oranı 1.08 - hafif alış baskısı, bid derinliği ask derinliğinden 5 birim fazla, emir defterinde ılımlı ama saptanabilir alış dominasyonu",
+  "htf_alignment": "5m/15m/1h/4h tümü BULL - mükemmel HTF uyumu, tüm zaman dilimlerinde bullish momentum",
+  "session_bias": "Buy/sell oranı 2.06 - güçlü oras alis baskisi, session delta 52817 pozitif, VAL üstünde işlem gören fiyat bullish acceptance sinyali veriyor",
+  "reasoning": "Bullish HTF uyumu + pozitif session delta + VAL acceptance + DOM bid ağırlığı + son 5 bar net delta 146 kombinasyonu güçlü long setup oluşturuyor.",
   "should_trade": "EVET",
-  "timestamp": "02:03:16"
+  "timestamp": "02:03:55"
 }
