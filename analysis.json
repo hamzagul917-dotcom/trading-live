@@ -12,11 +12,11 @@
   "tp1": 64850,
   "tp2": 65100,
   "stop": 64650,
-  "absorption": "Son 5 barın delta toplamı +165 ile pozitif, mevcut bar +31 delta ile açılış üzerinde kapanmış; VAL (64552) üzerinde fiyat konumlanmış = BULLISH acceptance.",
-  "dom_observation": "DOM bid/ask oranı 1.74 ile bid agır, ask_depth (61) bid_depth (106) den düşük = güçlü satın alma baskısı mevcut.",
-  "htf_alignment": "5m, 15m, 1h, 4h tümü BULLISH = tam HTF uyumu, BUY konfidansını güçlendirir.",
-  "session_bias": "Session buy_sell_ratio 1.39 (>1.3) + fiyat VAL üstünde = bullish momentum dominansı.",
-  "reasoning": "Güçlü HTF bullish uyumu, DOM bid agır (1.74), session buy dominant (1.39), delta_sum_5bars +165 pozitif, VAL üzerinde fiyat acceptance = net bullish Axia setup.",
+  "absorption": "Mevcut bar pozitif delta (64) ile fiyat VAL ustu, bid absorption baslamis durumda; ask_vol > bid_vol oraninda ask agirligina ragmen fiyat direnc gostermiyor.",
+  "dom_observation": "bid_ask_ratio 0.65 (satis baskisi isaretliyken) son 5 bar delta_sum 198 pozitif = kurumsal alis emri absorpsiyonu devam ediyor.",
+  "htf_alignment": "5m/15m/1h/4h tum timeframeler BULL - maximal HTF uyum saglanmis, guclu bullish bias.",
+  "session_bias": "buy_sell_ratio 1.49 (>1.3 threshold) + session delta 313740 pozitif + fiyat VAL ustu acceptance fase - gunluk alis baskisi dominant.",
+  "reasoning": "Pozitif delta absorpsiyonu + VAL ustu + all-bullish HTF + ask agirligina ragmen fiyat direncsizligi, kurumsal alis emrinin erken evresini isaret ediyor.",
   "should_trade": "EVET",
-  "timestamp": "03:10:26"
+  "timestamp": "03:11:05"
 }
