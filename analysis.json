@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
+  "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65795
+    "vPOC": "64932",
+    "VAL": "64552",
+    "VAH": "65795"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 64472,
-  "tp1": 64380,
-  "tp2": 64300,
-  "stop": 64520,
-  "absorption": "Fiyat 64472-64483 arasinda minimal hareket ederken delta son 5 barrada -12 (satis baskisi) ve mevcut bar -4 ile devam etmesi, bid absorption formasyon gosteriyor. Satis emri tutulma islemi devam ediyor.",
-  "dom_observation": "Bid depth 86 vs ask depth 55 ile bid_ask_ratio 1.56 alis baskisi gosterse de, son 3 bardaki ask hacimleri (20, 19, 19) ile bid hacimlerinin dengesi (27, 19, 19) bozulup satislarin etkinlestigini isaret ediyor.",
-  "htf_alignment": "5m ve 15m BEAR bias, 1h ve 4h BULL bias ile cift zit sinyal veriliyor. Ancak anlık 5m+15m bearish olması kisa vadeli short için destekleyici.",
-  "session_bias": "Session delta 154851 pozitif ve buy_sell_ratio 1.47 bullish gorunse de, fiyat VAL (64552) uzerinde hareket etmiyor ve absorption devam ettiği için kurumsal satis baskisinin gizli oldugu sinyali veriyor.",
-  "reasoning": "Negatif delta (-2.58M CVD, -12 delta 5bar) + possible_absorption + fiyat VAL'de tutunus + DOM bid agirligina ragmen ask varligi, satislarin emri agilastirdigi SHORT setup olusturuyor.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "64520",
+  "tp1": "64600",
+  "tp2": "64700",
+  "stop": "64480",
+  "absorption": "Negatif delta (-27, -10, -9) periodu sonrasi pozitif delta (+7) ile tersine donus ve fiyatin VAL (64552) uzerinde stabilizasyonu. ASK absorption degil, BID absorption pattern gozlenmektedir - satis baskisinin kurumsalca emilmesi.",
+  "dom_observation": "DOM bid/ask ratio 1.68 - guclu alis baskisi. Bid depth (97) ask depth (58) oraninda 1.67x fazlalık. Mevcut bar ask_vol (13) < bid_vol (6) oraninda degil ancak toplam order flow net bullish.",
+  "htf_alignment": "5m BULL, 1h BULL, 4h BULL (3/4 timeframe bullish). 15m BEAR tek anomali. Genel uyum bullish yonde guclu.",
+  "session_bias": "Session buy_sell_ratio 1.45 > 1.3 (BULLISH), toplam session delta +154215 guclu pozitif. Buy volume (493656) sell volume (339441) oraninda dominant alis baskisi.",
+  "reasoning": "CVD divergence + session delta positive + DOM bid agir + last 5 bars net delta -1 ama fiyat VAL ustu tutusu + HTF 3/4 bullish = BID absorption (satis emilmesi) ve erken bullish momentum setup.",
   "should_trade": "EVET",
-  "timestamp": "02:41:16"
+  "timestamp": "02:43:50"
 }
