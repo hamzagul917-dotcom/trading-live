@@ -7,16 +7,16 @@
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 63828,
-  "tp1": 63750,
-  "tp2": 63650,
+  "confidence_score": 78,
+  "entry": 63804,
+  "tp1": 63650,
+  "tp2": 63450,
   "stop": 63900,
-  "absorption": "Son 10 bardaki negatif delta baskisi (-36, -65, -83 bar sequence) VAH bolgesinde ask agirligina donusmus, fiyat yukselememesi kurumsal satis baskisini gosteriyor.",
-  "dom_observation": "Bid/Ask orani 2.07 ile alis baskisi goruntuse de, mevcut bar ask volume dominansı (68 ask vs 17 bid) ve cumulative session buy_sell_ratio 0.76 (<0.8) satis dominansini kesin onayliyor.",
-  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR trend gosteriyor - SHORT icin ideal HTF uyumu saglanmis.",
-  "session_bias": "Session delta -1,912,793 ve buy_sell_ratio 0.76 ile gunus basinden net satis baskisi var, fiyat VAL altinda kalarak bearish acceptance baslamis.",
-  "reasoning": "BEAR trendde VAH direnc altinda kumlanan negatif delta, ask absorption ve session satis baskisi, satis sinyalini net olarak onaylıyor.",
+  "absorption": "CVD divergence present: fiyat 63804'te iken CVD -4.6M seviyesinde derin negatif, kurumsal satis baskisi DEVAM ediyor, fiyat yukselemeye mukavemmet gösteriyor.",
+  "dom_observation": "BID/ASK ratio 2.44 (yuksek bid) PERO son 5 bardaki delta pattern +68'den gelen cikis, ask_vol 22>bid_vol 10 - satis baski acilmasi baslamis.",
+  "htf_alignment": "Kusursuz SHORT setup: 5m/15m/1h/4h TUMU BEAR, 4 tarafin 4'u bearish = maximum confluence.",
+  "session_bias": "Session delta -1.895M + buy_sell_ratio 0.76 (satis baskisi) + sell_volume 7.9M > buy_volume 6.0M = BEARISH HAKIM.",
+  "reasoning": "CVD divergence + VAH ustu rejection + ALL timeframes BEAR + Session sell dominant + DOM bid yuksek ama delta negative trend = kurumsal kirilim yonune satis yapiyordu, VAL (64552) hedef alinabilir.",
   "should_trade": "EVET",
-  "timestamp": "06:49:03"
+  "timestamp": "06:50:33"
 }
