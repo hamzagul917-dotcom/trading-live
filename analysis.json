@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "78",
-  "entry": "64281",
-  "tp1": "64150",
-  "tp2": "63950",
-  "stop": "64450",
-  "absorption": "Son 5 bardaki kumulatif negatif delta (-115) ve mevcut bar'da ask agirligina ragmen (50 ask vs 14 bid) fiyat direncte tutunamamasi = Satici absorption VAH yakininda",
-  "dom_observation": "bid_ask_ratio 0.73 (<0.7 CRITICAL) = Emir defteri ask agir, satici baskisi guclu, 86 ask vs 63 bid derinligi net satis dominasyonunu gosteriyor",
-  "htf_alignment": "Tum HTF (5m/15m/1h/4h) BEAR - maksimum uyum, short entry icin ideal setup",
-  "session_bias": "Session delta -48824 (negatif) + buy_sell_ratio 0.97 (<1.0) = Gun boyunca net satici baskisi, VAH (65795) ustu fiyat rejection ile uyumlu",
-  "reasoning": "CVD -2.78M negatif, HTF tum BEAR, DOM ask agir (0.73), session sell dominant, fiyat VAH direncinde ask absorption yaparak reddediliyor - Kuveyli SHORT oportunite.",
+  "confidence_score": 72,
+  "entry": 64348,
+  "tp1": 64281,
+  "tp2": 64200,
+  "stop": 64400,
+  "absorption": "ASK absorption gozlendi: Son 10 bardaki buyuk fiyat ilerlemelerine (64444->64468) ragmen son 5 bardaki delta toplami -77 negatif kalmis, kurumsal satis baskisi devam ediyor.",
+  "dom_observation": "bid_ask_ratio 1.23 (alis baskisi gosteriyorsa da) fakat ask_depth 61 vs bid_depth 75 'nin yuksekligi yanilsız. Delta negatif salis dominasyonu DOM'da gizli.",
+  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR. HTF uyumsuzluk var fakat 3/4 timeframe bearish olması SHORT sinyalini destekliyor.",
+  "session_bias": "buy_sell_ratio 0.98 (<1.0) = hafif satis baskisi. Session delta -31358 = gunluk net satis. Fiyat VAL (64552) yakininda hareket ediyor = bearish acceptance bölgesi.",
+  "reasoning": "CVD divergence aktif (-2767011 CVD negatif, fiyat 64348 VAL alti rejection bölgesinde), delta_sum_5bars -77 (satis dominasyonu), DOM bid agir olmasi yanilsamasi ancak last_10_bars analizi son 5 bardan yana ask agir gosteriyor, HTF 3/4 BEAR, session satis baskili = kalitateli SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "05:30:37"
+  "timestamp": "05:31:19"
 }
