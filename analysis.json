@@ -7,16 +7,16 @@
     "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
+  "confidence_score": 72,
   "entry": 62788,
   "tp1": 62741,
   "tp2": 62680,
   "stop": 62820,
-  "absorption": "Cari barda (144 vol, -77 delta) ask volumunun bid'e gore dusuk kalmasi (34/111) ve fiyatin VAL (62841) alti seviyesinde tutunmasi kurumsal satis baskisinin devam ettigini gosterir.",
-  "dom_observation": "Bid/Ask orani 1.08 - hafif bid agir gorunse de, session genelinde ask dominansi net (buy_sell_ratio 0.47). Gunluk satan hacim aticilarin iki katina yakindir.",
-  "htf_alignment": "5m/15m/1h/4h tum zaman dilimleri BEAR - maksimum HTF uyumu saglanmis, kisa satislara destek veriyor.",
-  "session_bias": "Session delta -402008 ve buy_sell_ratio 0.47 - guclu satis baskisi. Fiyat VAL alti seviyede hareket ederken satis dominansi devam ediyor, BEARISH momentum tirim.",
-  "reasoning": "Tum HTF BEAR, CVD -402k agir negatif, son 10 barda 10 bardan 6si negatif delta, fiyat VAL alti seviyede stability kazanamadi - kumsal satis absorption net, kisa satisa hazir setup.",
+  "absorption": "Son 10 bardaki delta analizi: Bar 10'da +83 delta ile yukselis basladı fakat fiyat 62816'da kapandı. Mevcut bar -77 delta ile satis baskisi gosteriyor ve fiyat VAL (62841) altina indi. ASK absorption gozlenmektedir - pozitif delta sonrasi negatife donus.",
+  "dom_observation": "Bid/Ask ratio 1.02 - esit olmakla beraber, mevcut bardaki bid_vol (112) > ask_vol (35) oranı degismistir. Session genelinde ask_depth (57) ≈ bid_depth (58) dengeli ancak satis dominasyonu devam ediyor.",
+  "htf_alignment": "Tum HTF timeframeler (5m, 15m, 1h, 4h) BEAR olarak isaret edilmis. Perfect HTF uyumu SHORT pozisyonu desteklemektedir.",
+  "session_bias": "Session delta -405157 (buyuk negatif), buy_sell_ratio 0.47 (0.8 alti), sell_volume (766083) >> buy_volume (360926). Guclu BEARISH momentum acik sekilde gozlenmektedir.",
+  "reasoning": "Guclu gunluk satis baskisi (-405157 CVD), tum HTF'ler BEAR uyumlu, pozitif deltadan negatif deltaya geçis, VAL altinda fiyat ve ask absorption kombinasyonu - net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:31:43"
+  "timestamp": "00:32:04"
 }
