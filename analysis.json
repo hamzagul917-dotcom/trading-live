@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64932,
-    "VAL": 64552,
-    "VAH": 65796
+    "vPOC": 63900,
+    "VAL": 62838,
+    "VAH": 64737
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 63959,
-  "tp1": 63890,
-  "tp2": 63852,
-  "stop": 63975,
-  "absorption": "Son 10 bardaki -48, -22, -12 delta baskıları ile bid tarafında yoğun emri yutma görülüyor; fiyat VAL (64552) altında seyrediyor ve satis dominasyonu devam ediyor.",
-  "dom_observation": "DOM ratio 0.52 (bid/ask) - Kuvvetli satis baskisi, ask depth 87 ile bid depth 45'i önemli ölçüde aşıyor.",
-  "htf_alignment": "5m/15m/1h BULL olmasina ragmen 4h BEAR; ancak gunluk session delta -2093971 ve buy_sell_ratio 0.79 ile satis baskisi net.",
-  "session_bias": "Buy_sell_ratio 0.79 (<0.8) + fiyat VAL altında + session delta -2093971 = BEARISH momentum gunun tamaminda.",
-  "reasoning": "CVD divergence + DOM ask ağır + session sell dominant + son 5 bar delta -50 + VAL altında fiyat = kuvvetli short sinyali.",
+  "entry": 62895,
+  "tp1": 62838,
+  "tp2": 62780,
+  "stop": 62945,
+  "absorption": "Mevcut bar negatif delta (-17) ile kapanış yapıyor, son 5 bar toplamı -39 delta gösteriyor, fiyat düşme baskısı devam ediyor.",
+  "dom_observation": "Bid depth (162) ask depth (52) ile kıyaslandığında, bid_ask_ratio 3.12 ama bu ask tarafının zayıflığını gösteriyor; satis baskisi artıyor.",
+  "htf_alignment": "5m/15m/1h tamamı BEAR, 4h BULL uyumsuzluğu var ancak kısa zaman dilimleri net bearish sinyal veriyor.",
+  "session_bias": "Buy/sell ratio 1.01 (nötr) ancak CVD +1730 ve session delta pozitif olmasına rağmen mevcut bar negatif delta ile kapanıyor = divergence.",
+  "reasoning": "Son 5 bar toplamı -39 delta ile bearish pressure devam ediyor, fiyat VAL seviyesi (62838) altına düşmeye hazırlanıyor, HTF 5m/15m/1h tamamı BEAR, DOM ask zayıf, rejection pattern belli.",
   "should_trade": "EVET",
-  "timestamp": "08:16:04"
+  "timestamp": "00:03:30"
 }
