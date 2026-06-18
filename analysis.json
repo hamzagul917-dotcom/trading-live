@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 62777,
+  "entry": 62810,
   "tp1": 62841,
   "tp2": 63900,
   "stop": 62750,
-  "absorption": "Mevcut bar ve son 5 bar pozitif delta (46) ile fiyat VAL seviyesinde support alıyor; possible_absorption=true ile kurumsal bid emri absorbe ediliyor",
-  "dom_observation": "DOM ratio 0.6 (ask agir) ancak son 10 bardaki delta_sum_5bars +46 ve mevcut barda ask_vol/bid_vol orani pozitif; emir defteri dengesiz ama lokomotif bid pressure",
-  "htf_alignment": "5m BULL + 15m BULL + 4h BULL (3/3 alignment), sadece 1h BEAR - kuvvetli bullish HTF uyumu",
-  "session_bias": "CVD -388408 (negatif) ancak gunluk buy_sell_ratio 0.54 ve session delta negatif FAKAT son 5 bar delta +46 ile kurumsal kapialis geri donuyor; erken long setup",
-  "reasoning": "VAL seviyesinde possible_absorption + delta_sum_5bars pozitif donuş + HTF 3/3 bullish + mevcut bardaki +9 delta = BID tarafinda kurumsal emri absorbe ediliyor, geri tepme için hazır",
+  "absorption": "Son 5 bardaki pozitif delta baskisi (delta_sum_5bars=54) + mevcut bardaki yuksek ask_vol (20) ile fiyat direncte (VAL'in uzerinde) tutunuyor - kurumsal alis baskisi net gozleniyor",
+  "dom_observation": "bid_ask_ratio=0.48 (<0.7) satis baskisi isaretlemesine ragmen, delta_sum_5bars pozitif ve ask_vol'un bid_vol'u 10x asmasi absorption isaret ediyor",
+  "htf_alignment": "5m BULL + 15m BULL + 4h BULL = 3/4 timeframe bullish, sadece 1h BEAR - kuvvetli HTF uyumu",
+  "session_bias": "buy_sell_ratio=0.55 satis dominant (bearish gorunumlu) fakat CVD=-383273 gunluk sell baskisina ragmen, mevcut delta_sum_5bars pozitif = kurumsal buyback hareketi",
+  "reasoning": "VAL seviyesinde (62841) pozitif delta absorption + HTF bullish alignment + son 5 bar pozitif delta baskisi = erken long setup, fiyat henuz VAL'i kirmadi ve kurumsal alis baskisi net.",
   "should_trade": "EVET",
-  "timestamp": "00:47:09"
+  "timestamp": "00:48:21"
 }
