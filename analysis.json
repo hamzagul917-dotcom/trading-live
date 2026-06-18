@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 78,
-  "entry": 63971,
-  "tp1": 63830,
-  "tp2": 63700,
-  "stop": 64050,
-  "absorption": "Pozitif delta (17) mevcut bardaki minimal hacimde (131) gerceklesmis, fakat son 5 bardaki kumulatif delta -414 ile guclu satis baskisina isaret ediyor.",
-  "dom_observation": "DOM ratio 0.54 (<0.7) - ask depth (67) bid depth (36) den cok daha yuksek, satis baskisinin hızla arttigini gosterir.",
-  "htf_alignment": "5m/15m/1h/4h tumu BEAR trend - tam HTF uyum, SHORT senaryosunu guclendirir.",
-  "session_bias": "Buy/sell ratio 0.7 (<0.8) + session delta -2,097,158 + sell volume dominans (7,095,678) - guclu BEARISH momentum, fiyat VAL altinda (63,971 < 64,552).",
-  "reasoning": "Guclu BEARISH DOM (0.54), negatif session delta, tum HTF BEAR alignment ve pozitif deltanin minimal hacimde gerçekleşmesi - kurumsal satıcılar öncü hareketler yapıyor, short setup nettir.",
+  "confidence_score": 72,
+  "entry": 63957,
+  "tp1": 63909,
+  "tp2": 63785,
+  "stop": 64036,
+  "absorption": "Son 10 bardaki buyuk hacim mumler (bar 9: delta -433 vol 1420, bar 10: delta -433 vol 772) fiyati asagi cekemedi - Bearish Absorption. Mevcut bar'da delta -15 vol 33 ile absorption devam ediyor (possible_absorption=true). Ask volume (24 bid) dominansli.",
+  "dom_observation": "bid_ask_ratio 0.48 (ask agir) - satis baskisi artiyor. Ask depth (71) > Bid depth (34) ile clear satis baskisi sinyali.",
+  "htf_alignment": "HTF coklu bearish: 15m BEAR, 1h BEAR, 4h BEAR. 5m BULL uyumsuzluk yaratsa da 3 bearish dilim dominansli. Kural 5'e gore SELL onay.",
+  "session_bias": "Session delta -2030984 (guclu satis), buy_sell_ratio 0.72 (<0.8 kirilimi) + mevcut fiyat 63957 VAL (64552) altinda = Bearish momentum confirmed.",
+  "reasoning": "Fiyat VAL'in altinda, CVD derinlemesine negatif (-4766637), session satisa baskinsa, DOM ask agir, HTF 3/4 bearish ve son barlar absorption ile fiyat koruma altinda - SHORT setup kurumsal satis tuzagi.",
   "should_trade": "EVET",
-  "timestamp": "06:15:43"
+  "timestamp": "06:19:24"
 }
