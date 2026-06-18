@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "64932",
-    "VAL": "64552",
-    "VAH": "65795"
+    "vPOC": 64932,
+    "VAL": 64552,
+    "VAH": 65795
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "64305",
-  "tp1": "64200",
-  "tp2": "64050",
-  "stop": "64380",
-  "absorption": "CVD divergence aktif: -2.88M CVD'ye ragmen fiyat 64305'te direnisti goruluyor, kurumsal satis baskisi gizlenmiş, varl Delta_sum_5bars -160 negatif baskı yonunde",
-  "dom_observation": "DOM ratio 0.58 - ask 102 bid 59, kuvvetli satis baskisi (ask_vol 25 vs bid_vol 2 current bar'da)",
-  "htf_alignment": "HTF uyumsuzluk: 5m BULL vs 15m/1h/4h BEAR - BEAR dominant, kisa vadede satis sinyal gucu",
-  "session_bias": "Session buy_sell_ratio 0.93 (esit yakin) + session delta -152486 (kuvvetli satis) + sell_volume 2.24M > buy_volume 2.08M = gunluk satis kontrolu",
-  "reasoning": "CVD divergence (fiyat direniste iken kuvvetli negatif CVD), DOM ask dominasyonu (0.58), session satis kontrolu ve HTF bearish alignment (3/4 timeframe BEAR), varl delta_sum negatif trend - clear SHORT setup VAH rejectioni kutusunda.",
+  "confidence_score": 72,
+  "entry": 64280,
+  "tp1": 64150,
+  "tp2": 64000,
+  "stop": 64380,
+  "absorption": "Ask absorption tespit edildi: Mevcut bar delta +85 (pozitif) ancak fiyat VAL altinda sabitlenmis, ASK volumunun BID volumune karsi baskinligi (92:8) kurumsal satis baskisini isaret ediyor.",
+  "dom_observation": "DOM ratio 0.55 (<0.7) - ask derinligi (126) bid derinliginden (69) cok fazla, satis baskisi net sekilde artiyor.",
+  "htf_alignment": "HTF uyum zayif: 5m BULL ama 15m/1h/4h BEAR. 3 dilimde BEAR hakim, SELL sinyalini destekliyor.",
+  "session_bias": "Buy/Sell ratio 0.94 (<1.0) + session delta -140348 (negatif) = gunun tamaminda satis baskisi. CVD -2.87M'ye dustu, 5-bar delta -99 ile destekleniyor.",
+  "reasoning": "CVD divergence + Ask absorption (delta +85 ama fiyat VAL altinda) + Ask depth baskisi + Session sell dominant + HTF 3/4 BEAR = net SELL setup.",
   "should_trade": "EVET",
-  "timestamp": "05:46:18"
+  "timestamp": "05:46:59"
 }
