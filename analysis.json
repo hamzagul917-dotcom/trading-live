@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 64520,
-  "tp1": 64552,
-  "tp2": 64600,
-  "stop": 64445,
-  "absorption": "VAL seviyesine yakin fiyat (-1 delta, 1 hacim) = BID absorption gozlendi, kurumsal alis baskisi tespit edildi",
-  "dom_observation": "BID/ASK orani 1.16 (alis agir), bid derinligi 81>ask 70, alis baskisi net",
-  "htf_alignment": "5m BULL + 1h BULL + 4h BULL (3/3 uyum), 15m BEAR ragmen buyuk timeframe consensus BULLISH",
-  "session_bias": "Session delta +254907 (guclü pozitif), buy_sell_ratio 1.26 (alis baskisi), buy_volume 1.26M > sell_volume 0.97M",
-  "reasoning": "VAL seviyesinde negatif delta ile BID absorption + session delta guclü pozitif + DOM alis agir + HTF 3/3 bullish uyum = net long setup, VAL desteginden yukselis icin hazir",
+  "entry": 64528,
+  "tp1": 64650,
+  "tp2": 64750,
+  "stop": 64480,
+  "absorption": "Son 5 bardaki delta_sum pozitif (8) fiyat VAL üstünde stabilize olmuş, kurumsal alis baskisi devam ediyor",
+  "dom_observation": "Bid/Ask orani 0.71 satis baskisi gösterse de, session buy_sell_ratio 1.26 ile net alis dominant, ask depth artisi henüz consolidasyon aşamasında",
+  "htf_alignment": "5m BULL + 1h BULL + 4h BULL = 3/3 bullish, 15m BEAR uyum sorunsa da çoğunluk bullish, confidence yüksek",
+  "session_bias": "Session delta +254829 ve buy_sell_ratio 1.26, buy volume (1230559) > sell volume (975730), net kurumsal alis yönü güçlü",
+  "reasoning": "CVD negatif ama fiyat VAL üstünde tutunuyor, delta_sum_5bars pozitif, HTF 3/3 bullish, session buy dominant = erken bullish absorption, VAL seviyesi güçlü support olarak işlem yap",
   "should_trade": "EVET",
-  "timestamp": "03:57:18"
+  "timestamp": "03:58:27"
 }
