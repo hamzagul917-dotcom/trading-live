@@ -1,22 +1,22 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 63900,
-    "VAL": 62838,
+    "VAL": 62841,
     "VAH": 64737
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62895,
-  "tp1": 62838,
-  "tp2": 62780,
-  "stop": 62945,
-  "absorption": "Mevcut bar negatif delta (-17) ile kapanış yapıyor, son 5 bar toplamı -39 delta gösteriyor, fiyat düşme baskısı devam ediyor.",
-  "dom_observation": "Bid depth (162) ask depth (52) ile kıyaslandığında, bid_ask_ratio 3.12 ama bu ask tarafının zayıflığını gösteriyor; satis baskisi artıyor.",
-  "htf_alignment": "5m/15m/1h tamamı BEAR, 4h BULL uyumsuzluğu var ancak kısa zaman dilimleri net bearish sinyal veriyor.",
-  "session_bias": "Buy/sell ratio 1.01 (nötr) ancak CVD +1730 ve session delta pozitif olmasına rağmen mevcut bar negatif delta ile kapanıyor = divergence.",
-  "reasoning": "Son 5 bar toplamı -39 delta ile bearish pressure devam ediyor, fiyat VAL seviyesi (62838) altına düşmeye hazırlanıyor, HTF 5m/15m/1h tamamı BEAR, DOM ask zayıf, rejection pattern belli.",
+  "entry": 62889,
+  "tp1": 62841,
+  "tp2": 62800,
+  "stop": 62920,
+  "absorption": "Mevcut bardaki delta +17 (ask agir) fiyat hareketsiz (62889), possible_absorption=true. Emir defteri analizi bid_ask_ratio=4.39 (yuksek bid baskisi) ancak fiyat dusmuyor - kurumsal alis absorption yapip dusuyu hazirliyor.",
+  "dom_observation": "Bid/Ask ratio 4.39 - cok yuksek alis baskisi var ancak ask_vol/bid_vol oraninda 23/6 ile son bardaki ask volumun bid'i bastirmasi + session delta -2212 (guclu satis baskisi) = absorption tuzagi.",
+  "htf_alignment": "5m FLAT, 15m BEAR, 1h BEAR - alt zaman dilimleri bear yon gosteriyor. 4h bull ama HTF buyuksun kuvveti kucuk TF yer alimi desteklemiyor.",
+  "session_bias": "Session delta -2212 (guclü satis), buy_sell_ratio 0.98 (<1.0) = satis agir. Fiyat VAL (62841) uzerinde ancak aşamasal olarak VAL'a donuş hazirlanıyor.",
+  "reasoning": "Mevcut bar ASK absorption (positive delta + fiyat sabit) + session satis baskisi (-2212 delta, sell volume > buy) + HTF bearish (15m/1h) + fiyat VAL seviyesine yaklasma = guclu SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:03:30"
+  "timestamp": "00:12:53"
 }
