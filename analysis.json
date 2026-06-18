@@ -7,16 +7,16 @@
     "VAH": 64737
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62765,
-  "tp1": 62720,
-  "tp2": 62650,
-  "stop": 62810,
-  "absorption": "Son 10 barda negatif delta hakimiyeti (-411542 CVD) ve ask agir DOM (0.72 ratio) ile satış baskısı absorpsiyonu gözlenmektedir.",
-  "dom_observation": "Bid/Ask oranı 0.72 - ask depth 60 bid depth 43: açık satış baskısı, satıcılar kontrol halinde.",
-  "htf_alignment": "5m/15m/1h BEAR trend, 4h BULL fakat kısa vadeli bearish konsensüs ağır basmaktadır. 3/4 timeframe bearish = kuvvetli short alignment.",
-  "session_bias": "Buy/Sell ratio 0.47 (0.8 altında) + session delta -411542 (deep bearish) = gün boyunca satış dominant momentum açık.",
-  "reasoning": "VAL (62841) altında fiyat, negatif CVD, weak bid/ask oranı ve 3-timeframe bearish uyumu net short setupu işaret etmektedir.",
+  "confidence_score": 78,
+  "entry": 62727,
+  "tp1": 62650,
+  "tp2": 62550,
+  "stop": 62850,
+  "absorption": "Negatif CVD (-419749) + negatif session delta (-419749) + düşük buy/sell ratio (0.47) = güçlü satış baskısı; fiyat VAL seviyesinin altında absorption gösteriyor",
+  "dom_observation": "Bid/Ask ratio 1.56 ancak ask volümü (51) son bardaki bid volümü (51) ile eşit - satış baskısı yoğunlaşıyor",
+  "htf_alignment": "Mükemmel HTF uyumu: 5m/15m/1h/4h tümü BEAR - kısa vadede güçlü satış sinyali",
+  "session_bias": "Buy/sell ratio 0.47 (<0.8) + VAL altında fiyat = net BEARISH momentum, kurumsal satış dominantı",
+  "reasoning": "Tüm timeframelerde BEAR bias + negatif delta 5 bardır devam ediyor + CVD seviyesinde kurumsal satış pressure + VAL altında fiyat Rejection gösteriyor = net SHORT setup.",
   "should_trade": "EVET",
-  "timestamp": "00:32:23"
+  "timestamp": "00:32:47"
 }
