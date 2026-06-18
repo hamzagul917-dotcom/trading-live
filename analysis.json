@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64348,
+  "entry": 64349,
   "tp1": 64281,
   "tp2": 64200,
-  "stop": 64400,
-  "absorption": "ASK absorption gozlendi: Son 10 bardaki buyuk fiyat ilerlemelerine (64444->64468) ragmen son 5 bardaki delta toplami -77 negatif kalmis, kurumsal satis baskisi devam ediyor.",
-  "dom_observation": "bid_ask_ratio 1.23 (alis baskisi gosteriyorsa da) fakat ask_depth 61 vs bid_depth 75 'nin yuksekligi yanilsız. Delta negatif salis dominasyonu DOM'da gizli.",
-  "htf_alignment": "5m BULL izole, 15m/1h/4h BEAR. HTF uyumsuzluk var fakat 3/4 timeframe bearish olması SHORT sinyalini destekliyor.",
-  "session_bias": "buy_sell_ratio 0.98 (<1.0) = hafif satis baskisi. Session delta -31358 = gunluk net satis. Fiyat VAL (64552) yakininda hareket ediyor = bearish acceptance bölgesi.",
-  "reasoning": "CVD divergence aktif (-2767011 CVD negatif, fiyat 64348 VAL alti rejection bölgesinde), delta_sum_5bars -77 (satis dominasyonu), DOM bid agir olmasi yanilsamasi ancak last_10_bars analizi son 5 bardan yana ask agir gosteriyor, HTF 3/4 BEAR, session satis baskili = kalitateli SHORT setup.",
+  "stop": 64380,
+  "absorption": "Negatif CVD (-2.7M) fiyat yuksek seviyede tutunurken, kurumsal satis baskisi devam ediyor; son 5 bar delta toplamı -81 ile satis dominasyonu net.",
+  "dom_observation": "DOM bid/ask orani 0.82 - satis baskisi artiyor, ask derinligi (77) bid derinligini (63) geciyor, satis hızlanması sinyali.",
+  "htf_alignment": "5m BULL/15m BEAR/1h BEAR/4h BEAR - HTF uyumsuzluk var; ancak 3/4 timeframe bearish, satis sinyalini destekliyor.",
+  "session_bias": "Buy/sell ratio 0.99 (neredeyse esit) fakat session delta -27109 (net satis), VAL (64552) ustu fiyat hareket etmesi gereken direncte (64349) stok yapıyor.",
+  "reasoning": "CVD divergence teyidi + DOM satis baskisi + HTF bearish konsensus (3/4 timeframe) + session net satis delta, fiyat VAL ustu direncte reddediliyor.",
   "should_trade": "EVET",
-  "timestamp": "05:31:19"
+  "timestamp": "05:32:00"
 }
