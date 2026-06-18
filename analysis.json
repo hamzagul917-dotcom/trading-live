@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
     "VAH": 65795
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64618,
-  "tp1": 64750,
-  "tp2": 65100,
-  "stop": 64580,
-  "absorption": "Son 10 bardaki negatif delta (-29 sum) sonrasi mevcut bardaki pozitif delta (+5) ile tersine donus sinyali; VAL (64552) uzerinde fiyat tutunmasi bullish absorption gostermektedir.",
-  "dom_observation": "Bid/Ask orani 2.2 ile yuksek alis baskisi; bid depth (96) ask depth (44) oraninda 2x buyukluk avantaji alicilar tarafinda.",
-  "htf_alignment": "5m BEAR olmasina ragmen 15m/1h/4h BULL alignment mevcut; 3/4 timeframe bullish = kuvvetli HTF uyumu saglanmis.",
-  "session_bias": "Buy/Sell ratio 1.41 ile session boyunca baskili alis hacmi; session delta +315942 guclu pozitif kurumsal baski gosteri.",
-  "reasoning": "VAL uzerinde negatif delta sonrasi pozitif tersine donus, dominant alis hacmi, yuksek bid absorpsiyonu ve 3/4 bullish HTF ile Axia long setup tamamlandi.",
+  "entry": 64616,
+  "tp1": 64552,
+  "tp2": 64480,
+  "stop": 64650,
+  "absorption": "Mevcut bar'da -75 delta ile bearish baski görülüyor, bid agir (91 vs 17) ancak fiyat VAH'dan ciddili uzaklaşmış durumda; negatif CVD (-2456513) ve delta_sum_5bars (-85) tutarlı bearish sinyali veriyor.",
+  "dom_observation": "BID/ASK ratio 1.67 (bid agir) ancak absolute bid depth (86) ask depth (51) karşısında yeterli; session buy_sell_ratio 1.34 olmasına rağmen DOM'da alis baskisi dominan değil.",
+  "htf_alignment": "5m BEAR + 15m BEAR (2/3 kriteru sağlanıyor); 1h ve 4h BULL olmasına rağmen kısa vadeli trend bearish baskıda, confluence zayıf.",
+  "session_bias": "Session delta pozitif (279141) ve buy_sell_ratio 1.34 BULLISH görünse de; CVD negatif divergence + son 5 bar net delta (-85) + mevcut bar delta (-75) kurumsal satin alma yokluğunu gösteriyor; sell dominasyon artan.",
+  "reasoning": "Negatif CVD persistensi, last_5_bar delta net negatif, current bar -75 delta (bid agir masküyle), VAH uzak + HTF 5m/15m BEAR alignment, session buy baskısına rağmen kurumsal para satış yönü gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "03:21:54"
+  "timestamp": "03:25:53"
 }
