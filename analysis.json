@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64312,
-  "tp1": 64240,
-  "tp2": 64180,
+  "entry": 64287,
+  "tp1": 64200,
+  "tp2": 64100,
   "stop": 64350,
-  "absorption": "Son 5 bardaki delta_sum=-213 ile tutarli negatif kurumsal baski; ask absorption gorulmese de, CVD -2765740 ve session delta -30087 ile guclu satis hakimiyeti; fiyat VAL (64552) altinda calisip VAH'den uzak.",
-  "dom_observation": "bid_ask_ratio=1.66 (alis baskisi gorulse de) ask_depth=61 ve son bar ask=11 ile ask tarafinda zayiflik; negatif order flow ile uyumsuz - potansiyel fake bid.",
-  "htf_alignment": "5m/15m/1h/4h tumu BEAR - maksimum HTF uyum saglanmis.",
-  "session_bias": "buy_sell_ratio=0.98 (1.0'e yakin esit) ancak session_delta=-30087 ile guclu satis dominansi; fiyat VAL altinda kalarak bearish acceptance gosteriyor.",
-  "reasoning": "Tum zaman dilimleri BEAR, CVD dusuyor, session delta negatif, son 5 bar delta toplam negatif ve fiyat VAL altinda - Axia SHORT kriterleri tam uyum sagliyor.",
+  "absorption": "Bid absorption VAL seviyesine yakin - delta negatif (-29 current, -168 5bar sum) ama fiyat dusmuyor, kurumsal saticilar buyuk emri yutuyor, tersine donus sinyali",
+  "dom_observation": "Bid/Ask ratio 0.67 (<0.7) - Ask agir, satis baskisi artarak devam ediyor, emir defterinde satis ustunlugu",
+  "htf_alignment": "Kusursuz BEAR hizalama - tum zaman dilimleri (5m, 15m, 1h, 4h) BEAR, short icin ideal ortam",
+  "session_bias": "Buy/Sell ratio 0.97 esit dengede ama session delta -50696 guclu BEARISH, gun boyunca net satis baskisi",
+  "reasoning": "Guclu kurumsal bid absorption VAL'de + tum HTF BEAR + ask agir DOM + negatif CVD + session bearish delta, erken short hazirliginda ideal setup",
   "should_trade": "EVET",
-  "timestamp": "05:28:17"
+  "timestamp": "05:29:57"
 }
