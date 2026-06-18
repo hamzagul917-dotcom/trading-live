@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64491,
+  "entry": 64480,
   "tp1": 64445,
-  "tp2": 64400,
-  "stop": 64520,
-  "absorption": "Son 3 bardaki negatif delta (-40, -17, -44) fiyati 64586'dan 64491'e çektirdi; ask agirligina ragmen downtrend devam ediyor = satis absorpsiyonu",
-  "dom_observation": "bid_ask_ratio 0.7 = satis baskisi dominan, ask_depth(88) > bid_depth(61), ask volume artiyor",
-  "htf_alignment": "5m/15m/1h BEAR alignment mükemmel, 4h BULL ama LTF consensus BEARISH = SHORT icin yeterli",
-  "session_bias": "Session delta +255718 ve buy_sell_ratio 1.26 bullish gorunse de; CVD kumulatif -2479935 (çok negatif), delta_sum_5bars -34 = kurumsal satis baskisi dominan",
-  "reasoning": "VAL(64552) seviyesinde fiyat reddetildi, negatif CVD + HTF bearish consensus + DOM satis agir + son 5 bar net negatif delta = güçlü SHORT setup",
+  "tp2": 64410,
+  "stop": 64510,
+  "absorption": "Son 5 bardaki delta -29 ve cvd -2479690, fiyat VAL (64552) altinda absorption yapıyor - kurumsal satis baskisi gizleniyor",
+  "dom_observation": "bid_ask_ratio 0.93 (satis baskisi artiyor), ask_depth (80) > bid_depth (75) - sorulu piyasa olusuyor",
+  "htf_alignment": "UYUMSUZ: 5m BULL, 15m BEAR, 1h BULL, 4h BULL - 15m bearish sinyali, confidence dusurur",
+  "session_bias": "Session delta +255963 bullish ancak mevcut bar fiyat VAL altinda kalıp enerji kaybediyor, buy_sell_ratio 1.26 ama fiyat absorption yapiyor",
+  "reasoning": "CVD divergence (fiyat stabil ama CVD dusuyor) + possible_absorption aktif + dom ask agirlesme + fiyat VAL altinda yapisiz = kurumsal para asagisini test ediyor, erken short setup",
   "should_trade": "EVET",
-  "timestamp": "03:54:00"
+  "timestamp": "03:55:10"
 }
