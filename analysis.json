@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 63900,
-    "VAL": 62837,
-    "VAH": 64737
+    "vPOC": 65698,
+    "VAL": 64316,
+    "VAH": 66916
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62823,
-  "tp1": 62805,
-  "tp2": 62770,
-  "stop": 62870,
-  "absorption": "VAH ustu reddetme: fiyat 62823'te VAL seviyesine yakinken, session delta -172843 (guerte satis baskisi baskin), cvd_divergence=true kurumsal para satis yapiyor ancak mum kapanmasi yukarida kalmak istiyor - absorption sinyali.",
-  "dom_observation": "bid_ask_ratio=0.41 (<0.7) - ask depth 94 vs bid depth 39 = satis baskisi net baskin, satis emri defteri cilalanmiyor.",
-  "htf_alignment": "5m/15m/1h BEAR (3/3 uyum) + 4h BULL = HTF uyumsuzluk var ancak short-term 100% bearish consensus.",
-  "session_bias": "buy_sell_ratio=0.7 (<0.8) + session delta -172843 + sell_volume 568k > buy_volume 395k = gun boyunca agir satis baskisi, fiyat VAL altinda.",
-  "reasoning": "Guerte dominan satis baskisi (cvd -172843, ratio 0.7), ask depth ates halinde (94 vs 39), HTF 5m/15m/1h tam BEAR, delta_sum_5bars pozitif ama son bar -4 negatife donus + VAL seviyesinde rejection = erken short setup.",
+  "entry": 62765,
+  "tp1": 62650,
+  "tp2": 62500,
+  "stop": 62850,
+  "absorption": "Current bar (delta -61, bid 84) gösteriyor ki alıcılar emri yutmuyor, satis baskisi artıyor ancak fiyat düşmüyor = SHORT absorption sinyali",
+  "dom_observation": "bid_ask_ratio 1.4 ile alis baskili gorunse de, ask_vol son bardaki 23 vs onceki barların 150+ ile karsilastirildiginda ask tarafında gevşeme var, satis itkisi zayifliyor",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BULL uyumsuz, ancak 4h BEAR ile 3-1 BEAR dominant, SHORT lehine",
+  "session_bias": "buy_sell_ratio 1.09 (1.0'a yakin), session delta +32059 pozitif ama CVD divergence TRUE = kurumsal para satis yapiyorken fiyat yukselmis, sapma tehlikeli, mean reversion SHORT'a isaret ediyor",
+  "reasoning": "CVD divergence + delta negatiflesme + short absorption + session buy_sell ratio 1.09 da kurumsal satis aktivitesi + HTF 3 bearish + vPOC 65698 uzaktan SHORT setup",
   "should_trade": "EVET",
-  "timestamp": "01:06:28"
+  "timestamp": "01:07:39"
 }
