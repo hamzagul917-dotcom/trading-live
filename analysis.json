@@ -1,6 +1,6 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": 64932,
     "VAL": 64552,
@@ -12,11 +12,11 @@
   "tp1": 64200,
   "tp2": 64100,
   "stop": 64320,
-  "absorption": "Son 10 bardan bar-8'de 55 hacimde -15 delta (reject), bar-9'de 307 hacimde +187 delta ile yukselis denemesi sonra bar-10'da 48 hacimde -1 delta ile kapanış - kurumsal strong bidler yukarıyı reddetmiş, fiyat VAL (64552) altına hızlı düşüş yapması bekleniyor.",
-  "dom_observation": "Bid depth 89 vs Ask depth 58 (ratio: 1.52 - bid agir GÖRÜNÜYOR) ancak CURRENT_BAR'da ask_vol=0, bid_vol=6 ile bid hakimiyetinin sliplik olduğu gösterilmektedir. Dom'un statik okuma olması riskli.",
-  "htf_alignment": "5m BEAR, 15m BULL, 1h BEAR, 4h BEAR - çoğunluk bearish fakat 15m bull karşıtlık yaratıyor. Yine de 3/4 timeframe BEAR yönü destekliyor.",
-  "session_bias": "Session delta -44871 (negatif) + buy_sell_ratio 0.98 (1.0'a yakın eşit) = gün boyunca hafif satış baskısı, CVD -2780525 (çok negatif) kurumsal satış basıncını kanıtlıyor.",
-  "reasoning": "CVD divergence true + session delta strongly negatif + VAL altında fiyat + HTF 3/4 BEAR + son 9 barın strong absorption sonrası rejected move = kurumsal satıcılar VAH'ı test ettikten sonra pozisyon açmaya hazırlanmış, VAL kırılımı SHORT sinyali.",
+  "absorption": "Mevcut bar minimal hacim (11) ile negatif delta (-11) gosteriyor, ask/bid 1:11 orani ile baskiya direnc var; 5 bar toplam delta -46 ile satici agriliği sürekli",
+  "dom_observation": "Bid/ask ratio 1.14 ile hafif bid ağır görünse de, session buy_sell_ratio 0.98 (satıcı eşitliği) ve son barların bid dominasyonunun zayıf olması satış baskısını doğruluyor",
+  "htf_alignment": "4 zaman dilimi (5m, 15m, 1h, 4h) tamamı BEAR - mükemmel kısa pozisyon uyumu",
+  "session_bias": "Session delta -50953 (güçlü satış netti), fiyat VAL (64552) altında hareket ediyor - bearish acceptance sembolü",
+  "reasoning": "Devam eden negatif CVD (-2786607), tüm HTF BEAR, VAL kırılması ve absorption formasyonu (düşük hacimde fiyat tutunmuyor) net kısa sinyali verir; mevcut bar minimal hacim ile satıcı kontrolü gösteriyor.",
   "should_trade": "EVET",
-  "timestamp": "05:58:15"
+  "timestamp": "06:00:12"
 }
