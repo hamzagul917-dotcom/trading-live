@@ -8,15 +8,15 @@
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64589,
+  "entry": 64585,
   "tp1": 64552,
   "tp2": 64480,
-  "stop": 64610,
-  "absorption": "Son 10 bardaki serisel negatif deltalar (-32, -18, -4, -5) ve mevcut bar pozitif deltası (13) ile birlikte possible_absorption=true, fiyat VAL seviyesine yakın ve ASK absorption işareti gösteriyor. Kurumsal satıcılar yüksek fiyatlarda emri yutuyor.",
-  "dom_observation": "bid_ask_ratio=0.98 (yakin denge) ancak last_10_bars'da bar 7'de bid baskısı (52 vs 20 ask) ve bar 3'de (29 bid vs 5 ask) net satis baskisi gozleniyor. Mevcut bardaki 22 ask vs 9 bid satis egilimini destekliyor.",
-  "htf_alignment": "5m+15m BEAR (2/3 bearish) - BUY icin yetersiz uyum. SHORT icin 5m+15m uyumlu. 1h+4h BULL uyumsuzlugu risk olusturuyor ancak lower timeframe dominans.",
-  "session_bias": "buy_sell_ratio=1.3 (alis baskisi) ancak session delta pozitif (272763) eski veriyi yansitabilir. Canlı mum ve son barlar satis baskisi goruntuluyorken, CVD deep negatif (-2462890) kurumsal satis egilimine isaret ediyor.",
-  "reasoning": "CVD divergence (negatif CVD ama fiyat yuksekte) + Absorption (satis emri yutuluyor) + 5m/15m BEAR + VAL yakinligi + delta sequence negatife donus -> Kiri asagi kirilim tespit sinyali.",
+  "stop": 64615,
+  "absorption": "Fiyat 64585'te duruyor ancak CVD -2.46M'ye dustu - buyuk satis baskisi emri yutuyor, fiyat mukavemeti VAL'a yakin absorption.",
+  "dom_observation": "BID/ASK ratio 1.44 (alis baskisina ragmen), bid depth yuksek (101) ama ask depth dusuk (70) - satis emri yutulmasi senaryosu.",
+  "htf_alignment": "5m ve 15m BEAR, 1h ve 4h BULL - kisa vadeli bearish bias acik ama 4h bullish bozulmamis, MIXED SIGNAL.",
+  "session_bias": "Session delta +274K (buyuk alis) fakat buy/sell ratio 1.3 - gunu basindaki alis baskisina ragmen mevcut bar'da -8 delta ile satis agir baskisina dondu.",
+  "reasoning": "CVD divergence (dusen CVD) + possible absorption (bid agir ama fiyat dusmuyor) + 5m/15m BEAR + VAL yakin = tersine donus SHORT setup, kisa vadeli satis emri yutuluyor.",
   "should_trade": "EVET",
-  "timestamp": "03:43:32"
+  "timestamp": "03:44:42"
 }
