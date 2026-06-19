@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 62500,
-    "VAL": 62386,
-    "VAH": 62817
+    "vPOC": 65750,
+    "VAL": 63763,
+    "VAH": 66521
   },
-  "order_flow_signal": "BUY",
+  "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62486,
-  "tp1": 62586,
-  "tp2": 62686,
-  "stop": 62386,
-  "absorption": "VAL seviyesinin (62386) altında baskı olmadığı, bid/ask ratio 2.09 ile güçlü alış baskısı ve session buy_sell_ratio 1.02 ile ulus kurumsal likidite emilimi görülüyor",
-  "dom_observation": "Bid depth 65 vs ask depth 31 = 2.09 ratio, güçlü alış baskısı sinyali, emrin defterinde alıcılar kontrol ediyor",
-  "htf_alignment": "5m BEAR ama 15m+1h BULL = 2/3 bullish, yeterli uyum var; 4h BEAR ise uzun vadede dikkat gerekli",
-  "session_bias": "Buy volume 30010 vs sell 29514, ratio 1.02 ile hafif alış üstünlüğü; fiyat VAL-vPOC arası (62386-62500) acceptance bölgesinde",
-  "reasoning": "CVD +496 pozitif, delta_sum_5bars +166 güçlü, bid_ask_ratio 2.09 alış dominant, VAL üstünde fiyat, HTF 15m+1h bullish alignment ve kurumsal absorption VAL'de gözlenmiyor = long setup geçerli",
+  "entry": 62399,
+  "tp1": 62299,
+  "tp2": 62199,
+  "stop": 62499,
+  "absorption": "Ask agir (ask_vol 75 vs bid_vol 26) + positive delta 48 ama fiyat VAH altinda ve dusuyor = ASK ABSORPTION at resistance. CVD divergence ve tum HTF BEAR.",
+  "dom_observation": "bid_ask_ratio 0.9 = satis baskisi basliyor, ask depth 64 > bid depth 57.",
+  "htf_alignment": "Tum HTF BEAR (5m/15m/1h/4h) = SHORT icin KUSURSUZ uyum.",
+  "session_bias": "buy_sell_ratio 1.42 bullish gorunse de, fiyat VAH altinda ve CVD divergence var = kurumsal satiysa, session numarası aldatici.",
+  "reasoning": "Pozitif delta + ask absorption + CVD divergence + tum HTF BEAR + fiyat direnisten dusus = erken SHORT setup, absorption degistirecegi asker.",
   "should_trade": "EVET",
-  "timestamp": "12:14:58"
+  "timestamp": "12:46:25"
 }
