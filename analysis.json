@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 30448.75,
-    "VAL": 30309.0,
-    "VAH": 30737.75
+    "vPOC": "30448.75",
+    "VAL": "30309.0",
+    "VAH": "30737.75"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 30427.5,
-  "tp1": 30327.5,
-  "tp2": 30227.5,
-  "stop": 30527.0,
-  "absorption": "VAH'nin altinda fiyat, negatif delta hakimiyeti devam, ASK hacmi BID hacmini bastigiyor (22885 vs 26111 cift yonde), kurumsal satis baskisi net.",
-  "dom_observation": "BID/ASK orani 1.3 (bid agir gorunse de), ask_vol guclu ve yukselen; bid_depth 871 > ask_depth 672 ancak akiskan satis akmasi var.",
-  "htf_alignment": "5m/15m/1h BEAR, 4h belirsiz - 3/4 BEARISH uyum yuksek, kisa zamanli trend net aşağı.",
-  "session_bias": "Gunluk delta -103M, buy_sell_ratio 0.9 (satis baskisi); fiyat VAL'in 118 puan uzerinde hareket ediyor, Rejection scenariosu gerceklestiriliyor.",
-  "reasoning": "Negatif CVD (-103M) + bearish HTF 5m/15m/1h + session satis hakimiyeti (0.9 ratio) + VAH altinda fiyat + delta_sum_5bars -8086 = kuvvetli SHORT sinyali, VAL support'una dogru inme beklentisi.",
+  "confidence_score": "72",
+  "entry": "30412.0",
+  "tp1": "30312.0",
+  "tp2": "30212.0",
+  "stop": "30512.0",
+  "absorption": "Son 10 barda buyuk hacim (184405) sonrasi delta pozitiften negatife dondu (-128), kurumsal satisci absorption gosterimi; VAH'nin altina geri cekilme AC (Acceptance of Decline) setup'i.",
+  "dom_observation": "DOM 1:1 oraninda (bid_ask_ratio=1.0) dengeli ancak bid/ask vol farkı ciddi: bid 5762 vs ask 5634, satis baskisi baslangicinda.",
+  "htf_alignment": "5m/15m/1h tumu BEAR, 4h belirsiz - HTF tam uyumlu SELL icin.",
+  "session_bias": "Gun tabaninda delta -108.7M (ciddi satis baskisi), buy_sell_ratio 0.9 (satis hizli), piyasa VAH'nin ustunde ama kabul etmedi - BEARISH momentum.",
+  "reasoning": "Guclu negatif CVD (-108M), HTF tam bearish, son bar absorption (buyuk hacim+negatif delta), VAH reddedilmesi ve buy_sell_ratio <1.0 = Axia SELL kriteri tam saglandi.",
   "should_trade": "EVET",
-  "timestamp": "06:57:29"
+  "timestamp": "07:16:36"
 }
