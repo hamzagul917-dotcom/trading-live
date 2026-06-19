@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "30448.75",
-    "VAL": "30309.0",
-    "VAH": "30737.75"
+    "vPOC": 30448.75,
+    "VAL": 30309.0,
+    "VAH": 30737.75
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "30426.0",
-  "tp1": "30326.0",
-  "tp2": "30226.0",
-  "stop": "30526.0",
-  "absorption": "Negatif delta (-3089) ile beraber fiyat VAH altinda dusmus, ask agir DOM yapisi (1.0 ratio, ask_depth esit) satis baskisini dogruluyorsa absorption islaret ediyor.",
-  "dom_observation": "Bid/Ask ratio 1.0 - dengeli ancak mevcut bardan itibaren -3089 negative delta sonrası ask volümü hafif yüksek (21725 vs 24814 bid). Denge bozulmaya basliyor.",
-  "htf_alignment": "5m/15m/1h BEAR - HTF tam uyumlu. 4h belirsiz ama kisa zaman dilimlerinde bearish koalisyon güçlü.",
-  "session_bias": "Session delta -98841169 ve buy_sell_ratio 0.91 (<1.0) - gunun net satis baskili. Fiyat VAH altinda (30737.75 vs 30442.75 current) acceptance bearish.",
-  "reasoning": "Güclu bearish HTF uyumu + negative CVD (-98838030) + session satis dominant + VAH rejection kombinas net SHORT sinyali veriyor, fiyat VAL'e dogru 100+ puan asagida destek bulabilir.",
+  "confidence_score": 72,
+  "entry": 30422.75,
+  "tp1": 30322.75,
+  "tp2": 30222.75,
+  "stop": 30522.75,
+  "absorption": "ASK absorption VAH seviyesine yakin - delta negatif (-3313), fiyat direncte tutunemiyor, ask vol = bid vol (22650/25963 - neredeyse esit), son 5 bar cumulative delta = -8173 (guclu satis baskisi)",
+  "dom_observation": "Bid/Ask ratio = 1.78 (alis baskisi var ancak fiyat yukselemiyor = absorption), bid depth yuksek (1081) ama direncte basarisiz, satis baskisi ASK bolumune tasiniyor",
+  "htf_alignment": "5m/15m/1h BEAR trend uyumu tam - 3/3 BEAR (perfect alignment), 4h belirsiz olsa da HTF alignment guclendiriyor",
+  "session_bias": "Buy/Sell ratio 0.9 (satis baskisi dominans), session delta -102.5M (guclu kurumsal SHORT), fiyat VAH ustu kabul edilmedigi icin BEARISH momentum onayli",
+  "reasoning": "Guclu negative order flow (-102.5M CVD, -8173 delta_5bars) + VAH'da ask absorption + BEAR HTF alignment + satis baskisi dominans = net SHORT setup, SL 100 puan uzakta kurallarina uygun.",
   "should_trade": "EVET",
-  "timestamp": "06:55:42"
+  "timestamp": "06:56:48"
 }
