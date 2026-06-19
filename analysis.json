@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 30509.0,
-    "VAL": 30399.75,
-    "VAH": 30645.75
+    "vPOC": 62500,
+    "VAL": 62386,
+    "VAH": 62817
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 30609.25,
-  "tp1": 30709.25,
-  "tp2": 30809.25,
-  "stop": 30509.0,
-  "absorption": "Son 5 bardaki net delta 369 (pozitif) + session buy_sell_ratio 1.17 > 1.0 + fiyat VAL (30399.75) üzerinde ve VAH (30645.75) altında kalarak acceptance gösteriyor. Mevcut bar 145 delta ile güçlü alış baskısı taşıyor.",
-  "dom_observation": "bid_ask_ratio 0.83 < 1.0 olup satış baskısı hafif görülse de, ask_vol (206) bid_vol (61) farkı ve session buy dominant yapısı net alış tarafını destekliyor.",
-  "htf_alignment": "5m, 15m, 1h ve 4h tüm timeframelar BULL - maksimum HTF uyumu sağlanmış, setup güçlendirilmiş.",
-  "session_bias": "buy_sell_ratio 1.17 ile gün boyunca net alış baskısı hakimdir. Session delta 354260 pozitif, kurumsal alış yapıları dominant.",
-  "reasoning": "Bullish HTF alignment + pozitif session delta + 5 bar net delta +369 + fiyat acceptance bölgesinde (VAL-VAH arası) + mevcut bar 145 delta alış baskısı net BUY setupı oluşturuyor; SL 100 puan altında kalmayarak risk/reward 1:1+ sağlanmıştır.",
+  "entry": 62486,
+  "tp1": 62586,
+  "tp2": 62686,
+  "stop": 62386,
+  "absorption": "VAL seviyesinin (62386) altında baskı olmadığı, bid/ask ratio 2.09 ile güçlü alış baskısı ve session buy_sell_ratio 1.02 ile ulus kurumsal likidite emilimi görülüyor",
+  "dom_observation": "Bid depth 65 vs ask depth 31 = 2.09 ratio, güçlü alış baskısı sinyali, emrin defterinde alıcılar kontrol ediyor",
+  "htf_alignment": "5m BEAR ama 15m+1h BULL = 2/3 bullish, yeterli uyum var; 4h BEAR ise uzun vadede dikkat gerekli",
+  "session_bias": "Buy volume 30010 vs sell 29514, ratio 1.02 ile hafif alış üstünlüğü; fiyat VAL-vPOC arası (62386-62500) acceptance bölgesinde",
+  "reasoning": "CVD +496 pozitif, delta_sum_5bars +166 güçlü, bid_ask_ratio 2.09 alış dominant, VAL üstünde fiyat, HTF 15m+1h bullish alignment ve kurumsal absorption VAL'de gözlenmiyor = long setup geçerli",
   "should_trade": "EVET",
-  "timestamp": "09:30:08"
+  "timestamp": "12:14:58"
 }
