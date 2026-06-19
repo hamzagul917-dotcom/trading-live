@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 62500,
-    "VAL": 62344,
-    "VAH": 62730
+    "vPOC": "62500",
+    "VAL": "62344",
+    "VAH": "62730"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 78,
-  "entry": 62616,
-  "tp1": 62716,
-  "tp2": 62816,
-  "stop": 62516,
-  "absorption": "Mevcut bar 133 delta ile güçlü bid absorption gösteriyor; fiyat VAL üstünde acceptance bulunuyor.",
-  "dom_observation": "Bid/Ask oranı 1.0 dengeli; ancak current bar'da ask_vol (203) >> bid_vol (71) ile ask dominant, session buy_sell_ratio 1.35 ise alis baskisini dogruluyor.",
-  "htf_alignment": "4h BULL - UYUMLU. 5m/15m/1h tümü BULL, HTF hiyerarşisi tam alignment.",
-  "session_bias": "Session delta 127774 (yüksek), buy_sell_ratio 1.35 > 1.3 threshold, fiyat VAL (62344) üstünde - NET BULLISH momentum.",
-  "reasoning": "Tüm timeframe bullish, CVD yüksek, current bar güçlü positive delta ile VAL acceptance gösteriyor, session buy dominant, 100+ puan SL mesafesi kurala uygundur.",
+  "confidence_score": "78",
+  "entry": "62500",
+  "tp1": "62600",
+  "tp2": "62730",
+  "stop": "62380",
+  "absorption": "Mevcut bar'da yuksek ask volume (433) ile satis baskisina ragmen fiyat VAH'ye (62730) yukselmis, kurumsal bid absorption işareti gösteriyor.",
+  "dom_observation": "Bid/Ask ratio 1.92 (>1.5) - güçlü alış baskısı, emir defterinde bid derinliği (120) ask derinliğini (63) çok aşıyor.",
+  "htf_alignment": "4H BULL trend - zorunlu HTF filter geçildi. 5M/15M/1H tüm timeframeler BULL, trend uyumu maksimal.",
+  "session_bias": "Buy/Sell ratio 1.95 (>1.3) + fiyat VAL üstü (62741 > 62344) - seansın tamamında alış dominasyonu, BULLISH momentum.",
+  "reasoning": "4H bullish trend + VAL üstünde kapanış + session buy ratio 1.95 + dom 1.92 bid-ask + current bar ask absorption + delta_sum_5bars 366 pozitif = net long setup, VAH'ye doğru acceptance hareketi bekleniyor.",
   "should_trade": "EVET",
-  "timestamp": "14:51:32"
+  "timestamp": "14:51:54"
 }
