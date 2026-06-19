@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "62500",
-    "VAL": "62344",
-    "VAH": "62730"
+    "vPOC": 62500,
+    "VAL": 62344,
+    "VAH": 62731
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "78",
-  "entry": "62500",
-  "tp1": "62600",
-  "tp2": "62730",
-  "stop": "62380",
-  "absorption": "Mevcut bar'da yuksek ask volume (433) ile satis baskisina ragmen fiyat VAH'ye (62730) yukselmis, kurumsal bid absorption işareti gösteriyor.",
-  "dom_observation": "Bid/Ask ratio 1.92 (>1.5) - güçlü alış baskısı, emir defterinde bid derinliği (120) ask derinliğini (63) çok aşıyor.",
-  "htf_alignment": "4H BULL trend - zorunlu HTF filter geçildi. 5M/15M/1H tüm timeframeler BULL, trend uyumu maksimal.",
-  "session_bias": "Buy/Sell ratio 1.95 (>1.3) + fiyat VAL üstü (62741 > 62344) - seansın tamamında alış dominasyonu, BULLISH momentum.",
-  "reasoning": "4H bullish trend + VAL üstünde kapanış + session buy ratio 1.95 + dom 1.92 bid-ask + current bar ask absorption + delta_sum_5bars 366 pozitif = net long setup, VAH'ye doğru acceptance hareketi bekleniyor.",
+  "confidence_score": 78,
+  "entry": 62797,
+  "tp1": 62897,
+  "tp2": 62997,
+  "stop": 62697,
+  "absorption": "Son 10 bardaki 9. bar'da 1093 hacimle +319 delta ile güçlü kurumsal alis baskisi gözlendi, ardından fiyat VAH üzerine çıkarak Acceptance formasyonu oluşturdu.",
+  "dom_observation": "DOM bid/ask ratio 0.68 (satis baskisi gösterse de) session buy_sell_ratio 1.38 ile alis dominant; 5 bardaki delta sum 325 (pozitif) ve mevcut bar delta +85 ile momentum devam ediyor.",
+  "htf_alignment": "4H BULL (ZORUNLU şart SAĞ), 1H/15m/5m tümü BULL - tam uyum. HTF filtren geçti.",
+  "session_bias": "Buy_sell_ratio 1.38 (>1.3) + fiyat VAH üstünde (62797 > 62731 VAH) = güçlü BULLISH session momentum.",
+  "reasoning": "HTF 4H bullish uyumlu, session buy dominant (1.38 ratio), son barlar pozitif delta ve kurumsal alis baskisı gösteriyor, fiyat VAH üzerine acceptance yapmış, DOM ask agır olsa da CVD ve session delta net bullish sinyali veriyor.",
   "should_trade": "EVET",
-  "timestamp": "14:51:54"
+  "timestamp": "14:59:40"
 }
