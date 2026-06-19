@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 30448.75,
-    "VAL": 30309.0,
-    "VAH": 30737.75
+    "vPOC": "30448.75",
+    "VAL": "30309.0",
+    "VAH": "30737.75"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 30435.0,
-  "tp1": 30335.0,
-  "tp2": 30235.0,
-  "stop": 30535.0,
-  "absorption": "ASK absorption yaklasik VAH seviyelerinde (30737.75 yakini): son 10 bardaki pozitif delta (+2227) fiyatin yukselmesine ragmen hemen sonrasi negative delta (-618) ile fiyat reddedildi. Kurumsal satis baskisi vardi ama fiyat ilerlemiyor - absorption belgesi.",
-  "dom_observation": "DOM bid/ask ratio 0.86 = ask baskilı, satis baskisi güçlüdür. Ask depth (840) > bid depth (720) = short pozisyon için uygun.",
-  "htf_alignment": "5m BEAR + 15m BEAR + 1h BEAR = 3/3 perfect bearish alignment. HTF uyumu mükemmel SHORT için.",
-  "session_bias": "Session delta -111419418 (çok negatif) + buy_sell_ratio 0.91 < 1.0 = satis dominantı. Fiyat VAH altında kalmış, bearish momentum onaylanmış.",
-  "reasoning": "Kuvvetli bearish CVD (-111M+), ask absorption VAH yakini, 5m/15m/1h tamamı BEAR, session satis baskilı, DOM ask agir = tekrarli bearish setup SHORT için optimal setup.",
+  "confidence_score": "72",
+  "entry": "30420.0",
+  "tp1": "30320.0",
+  "tp2": "30220.0",
+  "stop": "30520.0",
+  "absorption": "Fiyat VAH yakininda (30737→30435) yuksek reject ile iniyorken, son 5 bar delta toplamı -8360 (guclu satis baskisi), ask depth (898) bid depth (715) uzerinde - satis baskisi dominant absorption gosterge.",
+  "dom_observation": "DOM ratio 0.8 (<0.7'ye yakin) - satis baskisi artiyor, ask depth agir.",
+  "htf_alignment": "5m/15m/1h TUM BEAR - HTF uyum kusursuz SHORT sinyali.",
+  "session_bias": "Session delta -121353474, buy_sell_ratio 0.91 (<1.0) = guclu satis baskisi. Fiyat VAH altinda rejection ediyor.",
+  "reasoning": "VAH rejection + persistent negative delta + ask depth dominasyonu + 3 TF BEAR alignment + session sell baskisi = net SHORT setup VAL teste kadar.",
   "should_trade": "EVET",
-  "timestamp": "07:31:29"
+  "timestamp": "07:50:21"
 }
