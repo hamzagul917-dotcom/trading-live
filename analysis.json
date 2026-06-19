@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "30448.75",
-    "VAL": "30309.0",
-    "VAH": "30737.75"
+    "vPOC": 30448.75,
+    "VAL": 30309.0,
+    "VAH": 30737.75
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "30403.5",
-  "tp1": "30303.5",
-  "tp2": "30203.5",
-  "stop": "30503.5",
-  "absorption": "VAH bolgesinde (30737.75) negatif delta accumulation (-7659 son 5 bar) ile fiyat ilerleyemedi, kurumsal para yukariya eslik etmiyor - ASK absorption gosterimi.",
-  "dom_observation": "DOM bid/ask ratio 0.82 (<1.0) = satis baskisi dominantliği, ask depth (859) bid depth (704) ustu = short yaratici ortam.",
-  "htf_alignment": "5m/15m/1h tumu BEAR, 4h belirsiz - 3/4 timeframe bearish, guclu HTF uyum SELL icin ideal.",
-  "session_bias": "Session delta -111370068 (strong negative), buy_sell_ratio 0.91 (<1.0) = gununun tamaminda satis dominasyonu, fiyat VAH'nin 94 puan altinda = bearish acceptance devam.",
-  "reasoning": "Negative delta accumulation (-7659 bars) + VAH rejection + bearish HTF alignment (5m/15m/1h) + ask-heavy DOM + negative session delta = institutional sellers kontrolde, short setup guclu.",
+  "confidence_score": 72,
+  "entry": 30435.0,
+  "tp1": 30335.0,
+  "tp2": 30235.0,
+  "stop": 30535.0,
+  "absorption": "ASK absorption yaklasik VAH seviyelerinde (30737.75 yakini): son 10 bardaki pozitif delta (+2227) fiyatin yukselmesine ragmen hemen sonrasi negative delta (-618) ile fiyat reddedildi. Kurumsal satis baskisi vardi ama fiyat ilerlemiyor - absorption belgesi.",
+  "dom_observation": "DOM bid/ask ratio 0.86 = ask baskilı, satis baskisi güçlüdür. Ask depth (840) > bid depth (720) = short pozisyon için uygun.",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BEAR = 3/3 perfect bearish alignment. HTF uyumu mükemmel SHORT için.",
+  "session_bias": "Session delta -111419418 (çok negatif) + buy_sell_ratio 0.91 < 1.0 = satis dominantı. Fiyat VAH altında kalmış, bearish momentum onaylanmış.",
+  "reasoning": "Kuvvetli bearish CVD (-111M+), ask absorption VAH yakini, 5m/15m/1h tamamı BEAR, session satis baskilı, DOM ask agir = tekrarli bearish setup SHORT için optimal setup.",
   "should_trade": "EVET",
-  "timestamp": "07:31:10"
+  "timestamp": "07:31:29"
 }
