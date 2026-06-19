@@ -2,21 +2,21 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": 65750,
-    "VAL": 63763,
-    "VAH": 66521
+    "vPOC": 62500,
+    "VAL": 62344,
+    "VAH": 62730
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 62628,
-  "tp1": 62728,
-  "tp2": 62828,
-  "stop": 62528,
-  "absorption": "Son 5 bardaki delta toplamı +100 ile güçlü alış baskısı, DOM bid/ask oranı 1.78 ile bid agır, session buy_sell_ratio 1.54 ile alış dominant - kurumsal absorption sinyali",
-  "dom_observation": "Bid derinliği 76 vs Ask derinliği 42, bid_ask_ratio 1.78 - güçlü alış baskısı, talep yoğun",
-  "htf_alignment": "5m BULL + 15m BULL = 2 timeframe bullish uyum sağlıyor (1h ve 4h BEAR olmasına rağmen), kısa vadede güçlü",
-  "session_bias": "Buy/sell ratio 1.54 (>1.3) + fiyat VAL üstünde = bullish momentum, alış hacmi satışı net şekilde geçiyor",
-  "reasoning": "Delta sum 5 bars +100 pozitif, DOM bid ağır (1.78 ratio), session buy dominant (1.54 ratio), HTF 5m-15m bullish, fiyat VAL üstünde acceptance gösteriyor - kurumsal alış baskısı net",
+  "confidence_score": 78,
+  "entry": 62616,
+  "tp1": 62716,
+  "tp2": 62816,
+  "stop": 62516,
+  "absorption": "Mevcut bar 133 delta ile güçlü bid absorption gösteriyor; fiyat VAL üstünde acceptance bulunuyor.",
+  "dom_observation": "Bid/Ask oranı 1.0 dengeli; ancak current bar'da ask_vol (203) >> bid_vol (71) ile ask dominant, session buy_sell_ratio 1.35 ise alis baskisini dogruluyor.",
+  "htf_alignment": "4h BULL - UYUMLU. 5m/15m/1h tümü BULL, HTF hiyerarşisi tam alignment.",
+  "session_bias": "Session delta 127774 (yüksek), buy_sell_ratio 1.35 > 1.3 threshold, fiyat VAL (62344) üstünde - NET BULLISH momentum.",
+  "reasoning": "Tüm timeframe bullish, CVD yüksek, current bar güçlü positive delta ile VAL acceptance gösteriyor, session buy dominant, 100+ puan SL mesafesi kurala uygundur.",
   "should_trade": "EVET",
-  "timestamp": "13:45:46"
+  "timestamp": "14:51:32"
 }
