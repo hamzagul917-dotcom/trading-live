@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "30448.75",
-    "VAL": "30309.0",
-    "VAH": "30737.75"
+    "vPOC": 30448.75,
+    "VAL": 30309.0,
+    "VAH": 30737.75
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "30420.0",
-  "tp1": "30320.0",
-  "tp2": "30220.0",
-  "stop": "30520.0",
-  "absorption": "Son 10 barin analizi: 9. bar pozitif delta (+2227) ile yuksek hacim (184405) ve fiyat yukselisi gosterdi, 10. bar ise negatif delta (-44) ile fiyat dusmesine baslamis - pozitif deltadan negatife donusun klasik SHORT signali; current bar vPOC altinda (30440 < 30448.75) ve VAL'a yaklasarak rejection gosteriyordu.",
-  "dom_observation": "DOM bid_ask_ratio: 0.83 (ask agir/satis baskisi), ask_depth (801) > bid_depth (663) - satis baskinligini dogruluyor.",
-  "htf_alignment": "5m/15m/1h tum BEAR - tam HTF uyumu ile SHORT icin ideal setup.",
-  "session_bias": "Session delta: -108739223 (kuvvetli negatif), buy_sell_ratio: 0.9 (<1.0) - gun boyunca satis baskisi dominant, bearish momentum devam ediyor.",
-  "reasoning": "Pozitif deltadan negatife donusun (bar 9->10->current) korunmasi, tum HTF BEAR, DOM ask agir, session satis dominant, fiyat VAL testinde - Axia SHORT kriteri tam.",
+  "confidence_score": 72,
+  "entry": 30413.5,
+  "tp1": 30313.5,
+  "tp2": 30213.5,
+  "stop": 30513.5,
+  "absorption": "VAH (30737.75) seviyesi yakınında ask absorption gözlendi - fiyat yükselemeyen alanlar kurumsal satış baskısını gösteriyor.",
+  "dom_observation": "bid_ask_ratio 1.68 (bid ağır) fakat son 5 bar deltası kümülatif -7816 ile tutarsız; ask hacmi giderek yükselen barlarda (bar 2-6) kurumsal satış baskısı net.",
+  "htf_alignment": "5m, 15m, 1h TÜM BEAR - güçlü HTF uyum, 4h belirsiz ama trend açık.",
+  "session_bias": "Session delta -109.4M (negatif), buy_sell_ratio 0.91 (<1.0) = net satış baskısı, fiyat VAH altında dönüşüm yapıyor.",
+  "reasoning": "Negatif CVD (-109M), 5-bar delta -7816, VAH direncinde ask absorption, TÜM HTF bearish + session satış dominant = net kurumsal short setup.",
   "should_trade": "EVET",
-  "timestamp": "07:19:30"
+  "timestamp": "07:20:52"
 }
