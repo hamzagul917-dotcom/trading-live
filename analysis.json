@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 62718,
-    "VAL": 61002,
-    "VAH": 64900
+    "vPOC": 30677.25,
+    "VAL": 30660.25,
+    "VAH": 30693.0
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 62798,
-  "tp1": 62550,
-  "tp2": 62200,
-  "stop": 63050,
-  "absorption": "ASK absorption gorulmemektedir, ancak CVD divergence guclu satis baskisini isaret etmektedir (-292742 CVD, -307997 session delta)",
-  "dom_observation": "bid_ask_ratio 0.58 = ask agir, satis baskisi artiyor, saticilar emir defterinde dominan",
-  "htf_alignment": "15m ve 1h BEAR bias, 5m BULL fakat azinliktadir. 2 timeframe BEAR = SELL uyumlu, confidence yuksek",
-  "session_bias": "buy_sell_ratio 0.79 (<0.8) + fiyat VAH 64900 altinda = BEARISH momentum onayli. Gunluk session -307997 net delta satis baskisini guclu gosterir",
-  "reasoning": "Negatif CVD divergence, ASK agir DOM, gunluk satis dominansi ve HTF BEAR uyumu ile short setup, VAH altinda rejection pattern gormektedir.",
+  "entry": 30654.0,
+  "tp1": 30554.0,
+  "tp2": 30454.0,
+  "stop": 30754.0,
+  "absorption": "Mevcut bar: ASK agir (487 vs 767 BID) negatif delta (-280) ile birlikte fiyat VAL seviyesinin altinda kapatildi - satis baskisi absorption sinyali",
+  "dom_observation": "BID/ASK ratio 1.69 (bid agir) ancak mevcut bar ask volumun yuksek olmasi ve cumulative satis baskisi (sell_volume 349218 vs buy 289600) satis hakim durumunu gosterir",
+  "htf_alignment": "5m BEAR + 15m BEAR + 1h BEAR = 3/3 HTF uyum PERFECT SHORT sinyali, 4h belirsiz",
+  "session_bias": "buy_sell_ratio 0.83 (< 0.8 yakini) + session delta -59618 (guclü satis) + fiyat VAL altinda = BEARISH momentum net",
+  "reasoning": "Gunluk -59521 CVD ile VAL seviyesi altinda negatif delta absorpsiyonu, 3 TimeFrame BEAR alignment ve satis baskili session kombinasyonu net SHORT setupi olusturuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:26:09"
+  "timestamp": "02:12:02"
 }
