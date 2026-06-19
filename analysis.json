@@ -7,16 +7,16 @@
     "VAH": 62731
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 72,
-  "entry": 62726,
-  "tp1": 62826,
-  "tp2": 62926,
-  "stop": 62620,
-  "absorption": "Son 5 barda delta toplamı +25 (bullish), mevcut bar +14 delta ile ask absorption gozlenmis, fiyat VAH yakininda (62731) acceptance yaratmis.",
-  "dom_observation": "Bid/Ask oranı 0.63 (satis baskisi) ancak session bazında buy_sell_ratio 1.37 ile gün boyunca net alis baskisi dominant, CVD 2.18M ile kuvvetli yukselis taraftarlığı.",
-  "htf_alignment": "4H BULL (KURAL 5 SAĞLANDI) - 1H BULL, 5M BULL ile uyum tam. 15M BEAR ise sadece noise, 4H ana trend filtresi sağlanmış.",
-  "session_bias": "Buy_sell_ratio 1.37 > 1.3 + fiyat VAH yakınında = BULLISH momentum açık, session içinde net kurumsal alis baskısı.",
-  "reasoning": "HTF 4H bullish uyum + session buy dominant (1.37) + delta_sum_5bars +25 + CVD yukseliş + current bar ask absorption + fiyat VAH acceptance = net long setup.",
+  "confidence_score": 78,
+  "entry": 62834,
+  "tp1": 62934,
+  "tp2": 63034,
+  "stop": 62700,
+  "absorption": "Son 5 bar delta toplamı (19) pozitif, mevcut bar 27 delta ile yüksek alis baskisi gösteriyor; fiyat VAH üzerinde seyrediyor ve acceptance gözleniyor.",
+  "dom_observation": "Bid/Ask ratio 0.98 = dengeli fakat mevcut bar 28 ask vs 1 bid ile net alis agirligina isaret ediyor; derinlik simetrik.",
+  "htf_alignment": "4h BULL (ZORUNLU KURAL ✓), 1h BULL, 15m BULL, 5m BULL - tam uyum sağlaniyor.",
+  "session_bias": "Buy/Sell ratio 1.37 (>1.3) + fiyat VAH ustu = BULLISH momentum onaylandi; gunluk delta +2.2M ile net kurumsal alis baskisi.",
+  "reasoning": "4h bullish trend içinde VAH üzerinde fiyat, pozitif delta akış (27 last bar, +19 5bar sum), 1.37 buy dominansı ve DOM alis isareti net LONG setup oluşturuyor.",
   "should_trade": "EVET",
-  "timestamp": "15:26:00"
+  "timestamp": "15:37:21"
 }
