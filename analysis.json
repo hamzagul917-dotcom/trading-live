@@ -1,22 +1,23 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 62500,
-    "VAL": 62344,
-    "VAH": 62731
+    "vPOC": 62698,
+    "VAL": 62234,
+    "VAH": 65772
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": 78,
-  "entry": 63231,
-  "tp1": 63331,
-  "tp2": 63431,
-  "stop": 63131,
-  "absorption": "Son 5 bardaki delta_sum 1564 (pozitif yuksek), CVD 21945375 (gunluk agir alis baskisi), fiyat VAH ustu acceptance gosteriyor, absorption detect edilmedi ancak DOM bid agir (1.79 orani) kurumsal alis baskisini destekliyor.",
-  "dom_observation": "DOM bid/ask ratio 1.79 - alislar agir bastiriyor, ask depth (42) bid depth (75) den dusuk, satis baskisi zayif.",
-  "htf_alignment": "4H BULL - zorunlu kriter saglanmis. 5m/15m/1h tumu BULL, HTF uyumu muthemmel.",
-  "session_bias": "Buy/sell ratio 2.69 (kritik bullish), buy_volume 34.9M vs sell_volume 13M, session delta 21945375 agir alis baskisi, gunluk delta momentum BULL.",
-  "reasoning": "Fiyat VAH (62731) ustunde acceptance gosteriyor, session buy dominant (2.69 ratio), DOM bid agir (1.79), 5-bar delta sum yuksek (1564), 4H BULL trend, VP seviyeleri uzakta kaldirildi - kurumsal alis baskisi NET ve HTF uyumlu.",
+  "order_flow_signal": "SELL",
+  "confidence_score": 72,
+  "entry": 62916,
+  "tp1": 62698,
+  "tp2": 62234,
+  "stop": 65787,
+  "sl_basis": "VAH (65772) + 15 puan = 65787. SL'nin entry'den uzakliği: 65787 - 62916 = 2871 puan (kosul saglanir, >50).",
+  "tp_basis": "TP1 = vPOC (62698) direk hedef. TP2 = VAL (62234) session alt siniri. Her iki seviye entry'nin altindadir, downside pozisyon icin valid.",
+  "absorption": "Mevcut bar (466 vol, delta -141) rendah, fakat son 5 barın toplamı pozitif (delta_sum_5bars: 1914). Ancak session seviyesinde güçlü satış baskısı görülüyor (buy_sell_ratio: 0.61 << 1.0, session delta: -126857).",
+  "dom_observation": "Bid/Ask ratio 1.13 - alıcılar hafif önde, fakat session seviyesinde satış dominansı net. Ask depth (50) < Bid depth (57) - durumun hassas olduğunu gösterir.",
+  "session_bias": "Session deltası -126857, buy_sell_ratio 0.61 (0.61x) - kurumsal satış baskısı açık. CVD -108461 ile düşüş trendi onaylanıyor. HTF: 1H ve 15m BEAR, 5m BULL (çelişki var ama ağırlık aşağıda).",
+  "reasoning": "Fiyat (62916) VAL (62234) ve vPOC (62698) altındadır, session deltası ve CVD güçlü negatiftir, buy_sell_ratio < 1.0 ve DOM bid dominansı SELL sinyalini destekler; fakat delta_sum_5bars pozitif (+1914) olup KURAL 1'in tam uyuşmazlığı vardır - bu da confidence'ı düşürür.",
   "should_trade": "EVET",
-  "timestamp": "15:48:52"
+  "timestamp": "19:03:58"
 }
