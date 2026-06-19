@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 30677.25,
-    "VAL": 30660.25,
-    "VAH": 30693.0
+    "vPOC": 30448.75,
+    "VAL": 30309.0,
+    "VAH": 30737.75
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 30636.0,
-  "tp1": 30536.0,
-  "tp2": 30436.0,
-  "stop": 30751.0,
-  "absorption": "Gunluk -585186 CVD + session sell_volume orani 1368388 (buy 783105) guclu satis baskisi gosteriyorken, fiyat VAH'in altinda rejection yapti. Son 5 bar -600 delta birleserek downtrend hizlandirir.",
-  "dom_observation": "bid_ask_ratio 1.21 (bid lehine) ancak mevcut bar +1372 bid vs -829 ask ile guclu satis baskisini maske ediyor. Current bar satis baskisi dominansdir (-543 delta).",
-  "htf_alignment": "5m/15m/1h tumu BEAR - kusursuz HTF alignment, 4h belirsiz ancak session structure bearish.",
-  "session_bias": "buy_sell_ratio 0.57 (<0.8 kritik) + session delta -585283 + cumulative satis hacmi 1368388 guclu BEARISH momentum ve dusus baskisini dogruluyor.",
-  "reasoning": "VAH reddi (30693 ustu reddedildi) + dominant satis delta + HTF %100 bearish + session ratio 0.57 + current bar -543 delta = clear SHORT setup; SL 115 puan uzakta risk/reward 1:2 saglanir.",
+  "entry": 30462.25,
+  "tp1": 30362.25,
+  "tp2": 30262.25,
+  "stop": 30562.25,
+  "absorption": "VAH ustu bolgesinde (30737.75) fiyat reddedildi; son 5 bardaki delta -7015 (kuvvetli satis baskisi); CVD -76.6M (gun boyu net satis hakimiyeti); 9. bardaki 2227 delta'li yuksek hacim mumunden sonra 10. bar dengelenmis (delta +63), simdi negatif delta ile kapanis = saticilar hakimiyeti devam ediyor.",
+  "dom_observation": "BID/ASK orani 1.42 (alis baskisi var), ancak bid_vol/ask_vol = 16298/14143 ile asimetri ve mevcut bar -2155 delta ile satislarin ust uste geldigini gosterir.",
+  "htf_alignment": "5m+15m+1h tamamen BEAR (3/3 alignment) = kuvvetli downtrend uyumu; 4h belirsiz ama trend net aşağı.",
+  "session_bias": "Buy/Sell orani 0.91 (<1.0) = satis hacmi aşiri; session delta -76.6M = kuvvetli bearish momentum; fiyat VAH bolgesinde reddedildi.",
+  "reasoning": "VAH rejeksiyonu + kuvvetli negative delta + tum HTF BEAR + session satis baskisi + 9-10 bar yuksek hacim absorption'dan sonra negatif delta kapanisi = short setupi net kurumsal satış sinyali.",
   "should_trade": "EVET",
-  "timestamp": "02:13:03"
+  "timestamp": "06:35:45"
 }
