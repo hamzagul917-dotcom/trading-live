@@ -1,22 +1,22 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": 65750,
     "VAL": 63763,
     "VAH": 66521
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 62399,
-  "tp1": 62299,
-  "tp2": 62199,
-  "stop": 62499,
-  "absorption": "Ask agir (ask_vol 75 vs bid_vol 26) + positive delta 48 ama fiyat VAH altinda ve dusuyor = ASK ABSORPTION at resistance. CVD divergence ve tum HTF BEAR.",
-  "dom_observation": "bid_ask_ratio 0.9 = satis baskisi basliyor, ask depth 64 > bid depth 57.",
-  "htf_alignment": "Tum HTF BEAR (5m/15m/1h/4h) = SHORT icin KUSURSUZ uyum.",
-  "session_bias": "buy_sell_ratio 1.42 bullish gorunse de, fiyat VAH altinda ve CVD divergence var = kurumsal satiysa, session numarası aldatici.",
-  "reasoning": "Pozitif delta + ask absorption + CVD divergence + tum HTF BEAR + fiyat direnisten dusus = erken SHORT setup, absorption degistirecegi asker.",
+  "entry": 62539,
+  "tp1": 62650,
+  "tp2": 62750,
+  "stop": 62430,
+  "absorption": "YOK - Pozitif delta (99) + ask vol ağırlığı (263 vs 164) fiyat kabul görmesini destekliyor, absorption yok",
+  "dom_observation": "Ask depth (188) bid depth (51) ağır - bid/ask ratio 0.27 satış baskısı gösteriyor ancak mevcut bar delta pozitif ve cvd güçlü",
+  "htf_alignment": "5m+15m BULL uyum var ama 1h+4h BEAR uyum zayıf - kısa vadede bullish momentum var fakat gün içi trend düşüş eğilimi",
+  "session_bias": "Buy/sell ratio 1.61 (>1.3) + session delta 725650 güçlü alis baskisi + fiyat 62539 VAL (63763) altında değil - gün boyunca net alis hakimiyeti",
+  "reasoning": "Son 5 bar delta toplamı 268 pozitif + cvd 720630 yukarı yönlü + session buy baskisi 1.61 + mevcut bar delta 99 = bullish momentum, ancak DOM bid zayıf ve HTF 4h bearish olması riskli, kısa vadeli long setup için yeterli sinyal.",
   "should_trade": "EVET",
-  "timestamp": "12:46:25"
+  "timestamp": "12:58:23"
 }
