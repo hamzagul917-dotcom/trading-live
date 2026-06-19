@@ -2,21 +2,21 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 30448.75,
-    "VAL": 30309.0,
-    "VAH": 30737.75
+    "vPOC": "30448.75",
+    "VAL": "30309.0",
+    "VAH": "30737.75"
   },
   "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 30442.0,
-  "tp1": 30342.0,
-  "tp2": 30242.0,
-  "stop": 30542.0,
-  "absorption": "Session delta -95034225 ile kuvvetli satis baskisi, buy_sell_ratio 0.91 < 1.0, fiyat VAH'dan (30737.75) geri cekildi. Last 10 bars'ta 8 bar negatif delta dominantligi gozlendi. Mevcut bar -2923 delta ile satis agirlikli.",
-  "dom_observation": "bid_ask_ratio 1.26 alis tarafinda ama son 2 barda ask_vol yukselmekte (20710 ve 18185), satis motivasyonu artiyorsa dogrulaniyor.",
-  "htf_alignment": "5m/15m/1h tumu BEAR, 4h belirsiz. HTF alignment mükemmel bearish setup için.",
-  "session_bias": "Gunluk satis dominantligi net (sell_vol 1.011T vs buy_vol 916M), fiyat VAL/vPOC'ten uzakta, continuation bearish setup.",
-  "reasoning": "Cumulative -95M CVD + 3 timeframe bearish bias + session satis dominantligi + fiyat VAH'dan reddi = kuvvetli SHORT setup, 30442 entry'den 100+ puan SL ile risk kontrollü.",
+  "confidence_score": "72",
+  "entry": "30426.0",
+  "tp1": "30326.0",
+  "tp2": "30226.0",
+  "stop": "30526.0",
+  "absorption": "Negatif delta (-3089) ile beraber fiyat VAH altinda dusmus, ask agir DOM yapisi (1.0 ratio, ask_depth esit) satis baskisini dogruluyorsa absorption islaret ediyor.",
+  "dom_observation": "Bid/Ask ratio 1.0 - dengeli ancak mevcut bardan itibaren -3089 negative delta sonrası ask volümü hafif yüksek (21725 vs 24814 bid). Denge bozulmaya basliyor.",
+  "htf_alignment": "5m/15m/1h BEAR - HTF tam uyumlu. 4h belirsiz ama kisa zaman dilimlerinde bearish koalisyon güçlü.",
+  "session_bias": "Session delta -98841169 ve buy_sell_ratio 0.91 (<1.0) - gunun net satis baskili. Fiyat VAH altinda (30737.75 vs 30442.75 current) acceptance bearish.",
+  "reasoning": "Güclu bearish HTF uyumu + negative CVD (-98838030) + session satis dominant + VAH rejection kombinas net SHORT sinyali veriyor, fiyat VAL'e dogru 100+ puan asagida destek bulabilir.",
   "should_trade": "EVET",
-  "timestamp": "06:54:14"
+  "timestamp": "06:55:42"
 }
