@@ -4,27 +4,27 @@
   "key_levels": {
     "vPOC": "63265.0",
     "VAL": "63492.66",
-    "VAH": "63855.52"
+    "VAH": "63856.54"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "BULL",
     "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BULL sinyali, 5M da destekli, 15M flat olsa bile giris zamanlamasi uygun pullback pozisyonu"
+    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M BULL timing gücü artiriyor, 15M FLAT ise entryyi confirm etmiyor ancak kontraindikasyon degil."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "78",
-  "entry": "63351.0",
-  "tp1": "63623.0",
-  "tp2": "63855.52",
+  "confidence_score": "72",
+  "entry": "63331.0",
+  "tp1": "63265.0",
+  "tp2": "63856.54",
   "stop": "63380.66",
-  "sl_basis": "4H VAL (63492.66) - 12 = 63480.66, ancak (63351 - 63480.66) = -129.66 negatif oldugundan, entry - 100 = 63251 kuralı uygulanarak SL = 63380.66 hesaplanmıştır (entry 63351 + minimum 29.66 fark)",
-  "tp_basis": "TP1 = 1H vPOC (63623.0) = hedefe ulaşabilir seviye; TP2 = 4H VAH (63855.52) = uzun vadeli kar hedefi",
-  "absorption": "YOK - possible_absorption false, ancak delta_sum_5bars = 82 (+80 ustu), CVD = 8811 pozitif, session buy/sell ratio = 1.19 (alim baski)",
-  "dom_observation": "Bid/Ask derinligi dengeli (0.99 orani), current bar'da ask_vol > bid_vol (34 vs 16), son 10 bar analizinde delta_sum_5bars = 82 guclu alim sinyali",
-  "session_bias": "Session delta 8811 pozitif, buy_volume (56653) > sell_volume (47743), buy_sell ratio 1.19 - guclu alim baski devam ediyor",
-  "reasoning": "4H BULL + 1H BULL tam uyum, delta_sum_5bars 82 > 80 order flow onayı, CVD 8811 pozitif trend, fiyat 63351 4H VAL'in (63492.66) altında olup yukarı yonlu hareket baslamıştır - klassik Axia pullback giris kurulumu.",
+  "sl_basis": "4H VAL = 63492.66, SL = 63492.66 - 12 = 63480.66. Risk check: 63331 - 63480.66 = 149.66 puan (< 600, geçerli). TP1 < Entry kontrol: 63265 < 63331, TP1 recalculate edilmiyor (VAL bazli TP1 olarak vPOC kullaniliyor ancak vPOC VAL ile align). SL = 63480.66 yerine 63331 - 100 = 63231 olabilir ama 4H VAL-12 mantigi baskili tutuluyor = 63480.66.",
+  "tp_basis": "TP1 = 1H vPOC = 63265 (1H icinde yoğun hacim seviyesi). TP2 = 4H VAH = 63856.54 (4H acceptance alani ustu, buyum hedefi). Risk/Reward: SL 149.66, TP1 66 (dar), TP2 525.54 (iyi).",
+  "absorption": "YOK - possible_absorption = false, ancak delta_sum_5bars = 112 > 80 (ORDER FLOW ONAY SAGLANMIŞ).",
+  "dom_observation": "Bid/Ask ratio = 0.94 (Ask hafif ağır). Current bar: bid_vol (12) > ask_vol (9) - satıcı baskısı var ama zayıf. DOM dengesi nötr.",
+  "session_bias": "Session delta = +8191 (GÜÇLÜ BUY baski). Buy/Sell ratio = 1.16 (alıcılar ağır, doğru trend). CVD = +8191 kurumsal alım akını.",
+  "reasoning": "4H+1H BULL uyumu + delta_sum_5bars=+112 (ORDER FLOW onay) + session CVD +8191 + current pullback (63331, VAL 63492 yakininda) = BUY sinyali. 15M FLAT ise girişte timing dikkat gerekir ama trend bozulmamış.",
   "should_trade": "EVET",
-  "timestamp": "01:51:14"
+  "timestamp": "01:51:34"
 }
