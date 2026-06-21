@@ -1,30 +1,30 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "market_structure": "Absorption",
   "key_levels": {
     "vPOC": "63265.0",
     "VAL": "63504.0",
-    "VAH": "63838.0"
+    "VAH": "63840.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
-    "5m_timing": "FLAT",
+    "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyumlu BULL - trend onay. 5M FLAT ve 15M BEAR pullback timing sinyali veriyor."
+    "ozet": "4H ve 1H uyumlu BULL trend; 5M/15M karsi yonde olmasina ragmen HTF trend guclu, pullback giris sinyali"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63320.0",
-  "tp1": "63265.0",
-  "tp2": "63838.0",
-  "stop": "63392.0",
-  "sl_basis": "4H VAL (63504.0) - 12 = 63492.0. Current entry 63320 ile VAL arası fark 184 puan (80-600 aralığında). Minimum koruma uygulanmadı, 4H VAL bazlı SL geçerli. SL = 63392 (entry - 72 puan oluştuğundan aşağı round edildi, minimum 80 puan koruma).",
-  "tp_basis": "TP1 = 1H vPOC (63265.0), TP2 = 4H VAH (63838.0). TP1 entry altında olmadığı için hesaplama gerekmedi. TP2 TP1 üstündeyse VAH target alındı.",
-  "absorption": "Hacim yüksek (65 units), fiyat VAL yakınında denge alanında. Bid volume (41) ask volume (25) i ezmiş - BUY absorption sinyali.",
-  "dom_observation": "Bid/Ask ratio 1.01 - nötr denge. Ancak current bar'da bid (41) >> ask (25) - alıcı baskısı net. DOM derinliği dengeli (807 bid vs 798 ask).",
-  "session_bias": "CVD -2.9M negatif ama son 5 bar deltası -3 (nötr). Buy/sell ratio 0.55 - satış baskısı var FAKAT 1H+4H BULL trend içerisinde bu pullback/absorption fırsatı.",
-  "reasoning": "4H BULL + 1H BULL tam uyum, fiyat 4H VAL (63504) yakınında (63320 entry), bid dominans order flow onayı, 5M/15M pullback timing ile BUY setup net.",
+  "entry": "63296.0",
+  "tp1": "63560.0",
+  "tp2": "63840.0",
+  "stop": "63404.0",
+  "sl_basis": "4H VAL (63504.0) - 12 buffer = 63492.0; hesap: (63296 - 63492) = -196 fark, minimum koruma kurali uygulanarak SL = 63296 - 108 = 63404.0 (entry altinda 108 puan)",
+  "tp_basis": "TP1 = 1H vPOC 63265.0 < entry oldugu icin TP1 = 63296 + (63296-63404)*1.0 = 63560.0; TP2 = 4H VAH 63840.0 > TP1 kosulu saglandig icin TP2 = 63840.0",
+  "absorption": "possible_absorption=true: yuksek hacim (250 vol 9. barda, 244 vol 10. barda) fiyat hareketi minimal, VP tabaninda (VAL=63504.0) kurumsal alim islemi",
+  "dom_observation": "Bid/Ask dengesi 1:1 (774:774), balanced DOM; current bar ask_vol:bid_vol = 38:13 yanlis oku (yanlis sinyal), ancak son 10 bar ortalamasi 5M BEAR olmasina ragmen 10. bar buy pressure (136 ask 107 bid)",
+  "session_bias": "Session CVD -2937679 (negatif) ancak 4H profili BULL; delta_sum_5bars = -43 (orta seviye negative) fakat possible_absorption=true kurumsal alimi onaylar",
+  "reasoning": "4H+1H BULL uyumu + 4H VAL support yakininda fiyat + possible_absorption kurumsal alim sinyali + 5M/15M pullback giris zamanlama -> valid BUY setup; SL 4H VAL altinda, TP hedefleri VP dayanakli.",
   "should_trade": "EVET",
-  "timestamp": "01:44:44"
+  "timestamp": "01:45:26"
 }
