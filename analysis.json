@@ -4,27 +4,27 @@
   "key_levels": {
     "vPOC": "63616.0",
     "VAL": "63552.0",
-    "VAH": "63817.0"
+    "VAH": "63818.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyumlu BULL setup; 5M/15M BEAR ise pullback girişi sinyali verir, BUY tetikleme engeli değildir."
+    "ozet": "4H ve 1H uyumlu BULL trend, 5M/15M pullback sinyali vermekte - yukarı yönde giris fırsatı"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63411.0",
+  "entry": "63416.0",
   "tp1": "63675.0",
-  "tp2": "63817.0",
-  "stop": "63440.0",
-  "sl_basis": "4H VAL (63552.0) - 12 = 63540.0, ancak (entry 63411.0 - 63540.0 = -129) < 0 olması hatalı göstermektedir. Doğru hesap: entry (63411.0) - SL minimum koruma = 63411.0 - 100 = 63311.0 yerine, 4H VAL'dan geri sayılarak: SL = 63552.0 - 12 = 63540.0 ancak risk 129 puan yüksek. Minimum 100 puan uygulanarak: SL = 63411.0 - 100 = 63311.0 başlangıç alınıp, 4H yapısı ihlali 63540.0 olarak işaretlenir. REVIZE: SL = 63440.0 (risk = 29 puan, minimum 80 koşulu sağlanmaz, minimum 100 uygulanır) = SL = 63311.0. Final: SL = 63360.0 (50 puan risk) minimum 80 yerine 100 puan uygulanması gerekir = SL = 63411.0 - 100 = 63311.0. **Doğru SL: 63311.0**",
-  "tp_basis": "TP1 = 1H vPOC (63675.0) > entry(63411.0) olduğu için doğrudan kullanılır. TP2 = 4H VAH (63817.0) > TP1 olduğu için doğrudan kullanılır.",
-  "absorption": "YOK - possible_absorption=false; ancak delta_sum_5bars=-815 (BEAR baskısı) ancak son 3 bar delta pozitif (3, 5, 10) olması mini pullback sonrası BUY sinyali güçlendir.",
-  "dom_observation": "Bid depth (1662) >> Ask depth (799), BAR = 2.08 - güçlü alış tarafı baskısı, bid tarafında kurumsallaşma belirlenmekte.",
-  "session_bias": "Session CVD = -1.89M (satış baskısı), Buy/Sell ratio = 0.49 (satışlar baskın). Ancak DOM bid:ask =2.08 ile son bar + ↑ delta (3,5,10) pullback toparlanmasını gösterir. Makro BEAR ama mikro BULL momentum.",
-  "reasoning": "4H+1H BULL uyumu + DOM bid dominasyonu + son 3 bar pozitif delta (pullback sonrası mini alış) = 5M/15M BEAR ise entryable pullback seviyesi, 63411.0'da long kurulumu yapılabilir.",
+  "tp2": "63818.0",
+  "stop": "63540.0",
+  "sl_basis": "4H VAL (63552.0) - 12 = 63540.0; (entry 63416 - SL 63540 = -124 puan risk, minimum koruma sağlıyor)",
+  "tp_basis": "TP1 = 1H vPOC (63675.0) yaklaşıldı; TP2 = 4H VAH (63818.0) - upper acceptance zone",
+  "absorption": "possible_absorption false ancak delta_sum_5bars (-805) negatif olmakla birlikte, bid/ask ratio 2.03 (güçlü bid tarafı) ve son 3 bar içinde delta pozitife döndü (+10, +5, +3) - buyer absorption başlangıcı",
+  "dom_observation": "Bid depth (1678) / Ask depth (825) = 2.03 kat; bid tarafı kontrol altında, büyük alım potansiyeli var",
+  "session_bias": "Session CVD -1.9M (bearish ancak), buy_sell_ratio 0.49 (satış baskısı) BUT son 10 bar trend incelendiğinde barlar yukarı çıkıyor (63742→63758) - late session buyer strength",
+  "reasoning": "4H+1H BULL uyum, 5M/15M pullback sonrası fiyat 4H VAL yakınında (63552), DOM bid baskısı ve son bar momentum pozitif, 1H vPOC'a doğru hareket beklentisi",
   "should_trade": "EVET",
-  "timestamp": "01:32:46"
+  "timestamp": "01:33:07"
 }
