@@ -2,29 +2,29 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "63616.0",
-    "VAL": "63543.0",
-    "VAH": "63830.0"
+    "vPOC": "63334.0",
+    "VAL": "63540.0",
+    "VAH": "63832.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M/15M BEAR ancak bu pullback girişi için ideal koşul oluşturuyor - düşük zaman dilimi karşıtlığı BUY sinyalini iptal etmez."
+    "ozet": "4H ve 1H tam uyumlu BULL, 5M/15M karsi yonde (BEAR) -> pullback giris firsati, BUY sinyali gecerli."
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63416.0",
+  "entry": "63351.0",
   "tp1": "63675.0",
-  "tp2": "63830.0",
-  "stop": "63531.0",
-  "sl_basis": "4H VAL (63543.0) - 12 = 63531.0. Risk: 63416 - 63531 = 115 puan (80+ koşul sağlanmış, minimum koruma seviyesinde)",
-  "tp_basis": "TP1 = 1H vPOC (63675.0), TP2 = 4H VAH (63830.0). İkisi de entry üstünde ve sıralı, formül uygulanmayacak.",
-  "absorption": "possible_absorption: false ancak delta_sum_5bars -775 (SELL tarafında). Fakat CVD -2836862 (devam eden satış basıncı) ve bid_ask_ratio 1.82 (alış derinliği yüksek) kontrol ediliyor. 5 bar deltası negatif olmasına rağmen, DOM'da bid derinliği (2263) ask derinliğinden (1241) belirgin yüksek, alıcı absorpsiyonu gösteriyor.",
-  "dom_observation": "Bid/Ask ratio 1.82 - alış tarafı belirgin güçlü. Alıcılar 2263 seviyesinde destekleyici konumdadır. Satış basıncı (ask_depth 1241) daha zayıf. Bu, BULL pullback girişi için destek sağlıyor.",
-  "session_bias": "Session CVD -2836862 ve buy/sell ratio 0.49 güçlü satış basıncı gösterse de, 4H VAL (63543) altında fiyat kalırken ve 1H vPOC (63675) yukarıda iken mevcut pullback fırsat olarak görülüyor.",
-  "reasoning": "4H+1H BULL uyumu, 5M/15M BEAR pullback, 63416 entry'de 4H VAL üstü risk koşulu sağlanmış, DOM bid derinliği 1.82 ratio ile alıcı gücü gösteriyor, TP1/TP2 clear seviyeler sunuyor.",
+  "tp2": "63832.0",
+  "stop": "63528.0",
+  "sl_basis": "4H VAL (63540.0) - 12 = 63528.0; (entry 63351 - SL 63528) = 177 puan > 80, sabit minimum koruma uygulanmadi, 4H VAL bazli SL gecerli.",
+  "tp_basis": "TP1 = 1H vPOC (63675.0), TP2 = 4H VAH (63832.0); her iki hedef entry uzerinde, risk:reward uygun.",
+  "absorption": "possible_absorption false ancak delta_sum_5bars = -614 (guclü negative); DOM bid_ask_ratio 1.81 (alim baskisi). Son 5 bar cumulative delta -614 -> kurum satisi ancak fiyat yukselis trendinde (4H/1H BULL) -> divergence absorption sinyali.",
+  "dom_observation": "Bid depth 2355 > Ask depth 1301, bid_ask_ratio 1.81 yuksek alim baskisi. Tarafli piyasa.",
+  "session_bias": "Session delta -2892798 (guclü satisi), buy_sell_ratio 0.50 -> net satim egemen; ancak 4H/1H BULL trend devam, pullback absorpsiyonu beklenen.",
+  "reasoning": "4H + 1H BULL uyumu, 5M/15M BEAR karsi yonde pullback giris kurulumu, -614 delta 5bar + DOM alim baskisi (1.81) order flow onaylama sagladi, 4H VAL bazli SL ile risk kontrol altinda, TP1/TP2 profil hedefleri net.",
   "should_trade": "EVET",
-  "timestamp": "01:34:08"
+  "timestamp": "01:34:58"
 }
