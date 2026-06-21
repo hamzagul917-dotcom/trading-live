@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BULL",
     "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BULL trend, 5M/15M FLAT karsi yondeki potansiyel pullback firsati olusturuyor"
+    "ozet": "4H ve 1H tam uyumlu BULL sinyali, 5M da destekli, 15M flat olsa bile giris zamanlamasi uygun pullback pozisyonu"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "78",
-  "entry": "63319.0",
-  "tp1": "63265.0",
+  "entry": "63351.0",
+  "tp1": "63623.0",
   "tp2": "63855.52",
   "stop": "63380.66",
-  "sl_basis": "4H VAL (63492.66) - 12 = 63480.66 => Risk kontrol icin entry-100 uygulanarak SL=63380.66 (minimum koruma aktif, 4H VAL uzaklik kontrolu)",
-  "tp_basis": "TP1: 1H vPOC (63265.0) | TP2: 4H VAH (63855.52) - trend tesisine gore hiz kazanma hedefleri",
-  "absorption": "Hacim profil VAL/VAH bandinde dengeli yogunluk, 4H trend icinde fiyat acceptance bolgesinde konumlu",
-  "dom_observation": "DOM dengesi yakin (bid:673 vs ask:679, ratio 0.99), ask dominansi minimal - guvenli giris bolgesinde",
-  "session_bias": "Session delta pozitif +6290, buy_volume (51753) > sell_volume (45362), ratio 1.14 - alim baskisi net",
-  "reasoning": "4H+1H BULL uyumu + delta_sum_5bars=81 (>80 threshold) + session pozitif CVD, fiyat 4H VAL yakini (entry 63319 vs VAL 63492), risk/reward optimize: (63319-63380)=-61 SL vs (63855-63319)=+536 TP2 = 1:8.8 ratio",
+  "sl_basis": "4H VAL (63492.66) - 12 = 63480.66, ancak (63351 - 63480.66) = -129.66 negatif oldugundan, entry - 100 = 63251 kuralı uygulanarak SL = 63380.66 hesaplanmıştır (entry 63351 + minimum 29.66 fark)",
+  "tp_basis": "TP1 = 1H vPOC (63623.0) = hedefe ulaşabilir seviye; TP2 = 4H VAH (63855.52) = uzun vadeli kar hedefi",
+  "absorption": "YOK - possible_absorption false, ancak delta_sum_5bars = 82 (+80 ustu), CVD = 8811 pozitif, session buy/sell ratio = 1.19 (alim baski)",
+  "dom_observation": "Bid/Ask derinligi dengeli (0.99 orani), current bar'da ask_vol > bid_vol (34 vs 16), son 10 bar analizinde delta_sum_5bars = 82 guclu alim sinyali",
+  "session_bias": "Session delta 8811 pozitif, buy_volume (56653) > sell_volume (47743), buy_sell ratio 1.19 - guclu alim baski devam ediyor",
+  "reasoning": "4H BULL + 1H BULL tam uyum, delta_sum_5bars 82 > 80 order flow onayı, CVD 8811 pozitif trend, fiyat 63351 4H VAL'in (63492.66) altında olup yukarı yonlu hareket baslamıştır - klassik Axia pullback giris kurulumu.",
   "should_trade": "EVET",
-  "timestamp": "01:50:48"
+  "timestamp": "01:51:14"
 }
