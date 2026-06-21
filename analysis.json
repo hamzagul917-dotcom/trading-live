@@ -1,30 +1,30 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "63334.0",
-    "VAL": "63295.0",
-    "VAH": "63832.0"
+    "vPOC": "63265.0",
+    "VAL": "63524.0",
+    "VAH": "63833.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H+1H tam uyumlu BULL. 5M/15M BEAR pullback firsat sinyali vermektedir - dusus sonrasi tekrar yukselis baslamasi beklenmektedir."
+    "ozet": "4H BULL + 1H BULL uyumlu, 5M/15M BEAR pullback timing için uygun, NO_TRADE koşulu yok"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63383.0",
-  "tp1": "63675.0",
-  "tp2": "63832.0",
-  "stop": "63283.0",
-  "sl_basis": "4H VAL (63539.0) - 12 = 63527.0 teorik, ancak (63383-63527)=-144 minimum koruma tetiklenmis: SL = entry - 100 = 63283.0 uygulanmistir.",
-  "tp_basis": "TP1 = 1H vPOC (63675.0) direkt hedef. TP2 = 4H VAH (63832.0) yuksek hacim reziztansi.",
-  "absorption": "possible_absorption=true, son 10 barda strong bid depth (2356 vs 1316 ask), son 5 bar delta -504 (ama current bar +16 positive), fiyat VAL yakininda absorption goruntusudedir.",
-  "dom_observation": "Bid/Ask orani 1.79 - bid tarafinda buyuk hacim biriklenmesi, ask kolayca itilmesi mumkun. Kurumsal buying baskindir.",
-  "session_bias": "Session delta cok negatif (-2896136 CVD), fakat son barlar positive delta vermektedir. Seans sonu satici baskinsa da, bu barlar pullback sonrasi alinma sinyalidir.",
-  "reasoning": "4H BULL + 1H BULL tam uyumlu trend, 5M/15M BEAR pullback girisi olusturmakta, order flow absorption onaylamakta, VAL yakininda entry noktasi ve strong bid depth bulunmaktadir.",
+  "entry": "63265.0",
+  "tp1": "63265.0",
+  "tp2": "63833.0",
+  "stop": "63512.0",
+  "sl_basis": "4H VAL (63524.0) - 12 = 63512.0, Risk = 247 puan (80-600 aralığında geçerli)",
+  "tp_basis": "TP1: 1H vPOC (63265.0) = Entry seviyesi, TP2: 4H VAH (63833.0) = 2.0x Risk-Reward oranı",
+  "absorption": "Bid depth 2616 vs Ask depth 1575 (bid_ask_ratio 1.66) - Alıcı tarafı baskın, absorption başlangıcı tespit edilmemiş ancak DOM güçlü satın alma gösteriyor",
+  "dom_observation": "Bid/Ask oranı 1.66 alıcı avantajı gösteriyor, 5 bar delta toplamı -218 (satıcı baskısı) ancak DOM koridor alıcıyı destekliyor - divergence işareti",
+  "session_bias": "CVD -2.9M (güçlü satıcı baskısı) ancak 4H trend BULL, fiyat 4H VAL (63524) ile alıcı desteği alanında - trend reversal setup potansiyeli",
+  "reasoning": "4H+1H BULL uyum ile 5M/15M BEAR pullback, DOM alıcı baskısı, fiyat 4H VAL yakınında - düşükten buy setup kurulmuş, delta toplamı negatif olsa da yapısal alıcı desteği görülüyor.",
   "should_trade": "EVET",
-  "timestamp": "01:35:17"
+  "timestamp": "01:37:51"
 }
