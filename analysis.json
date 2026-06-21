@@ -1,30 +1,30 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Equilibrium",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 63265.0,
-    "VAL": 63492.66,
-    "VAH": 63870.89
+    "vPOC": "63220.0",
+    "VAL": "63492.66",
+    "VAH": "63870.89"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "FLAT",
     "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M/15M FLAT (pullback timing, BUY sinyali engellemez). HTF alignment mükemmel, güçlü trend yönü sağlanmış."
+    "ozet": "4H ve 1H tam uyum - BULL yönü kuvvetli. 5M/15M FLAT, pullback girişi sinyali."
   },
   "order_flow_signal": "BUY",
   "confidence_score": 72,
-  "entry": 63276.0,
+  "entry": 63303.0,
   "tp1": 63265.0,
   "tp2": 63870.89,
   "stop": 63380.66,
-  "sl_basis": "4H VAL (63492.66) - 12 puan minimum koruma = 63480.66. Entry-SL farkı (63276 - 63380.66 = -104.66) minimum hedge altında kaldığından, SL = entry + 100 = 63376.0 uygulandı. Risk manageable seviyede tutulmuş.",
-  "tp_basis": "TP1 = 1H vPOC (63265.0). TP2 = 4H VAH (63870.89) - 4H bullish trendde açılması hedefle tutarlı. Risk/Reward oranı 1:2.5 seviyesinde.",
-  "absorption": "CVD -14311 negatif olsa da, son 5 bar delta toplamı -25 (threshold altı) ve delta_sum_5bars < 80 şartını sağlamıyor. Ancak son bar delta -2 (low), 10 bar içinde güçlü BUY bar mevcut (bar 9: delta +78, vol 330), absorption pattern tespit edilmemiş fakat order flow pullback yapısı net.",
-  "dom_observation": "Ask depth 569 > Bid depth 512 (Bid/Ask ratio 0.9). Satıcı baskısı hafif, ancak current bar bid_vol (36) > ask_vol (34) - mikro balance. DOM hafif satış tarafında, consolidation göstergesi.",
-  "session_bias": "Session delta -14311 (bearish), ama buy_sell_ratio 0.91 (satış hafif üstün). Gün başından beri saturasyona yakın hacim (299.9K). 1H + 4H BULL ama session delta negatif = intraday pullback + HTF recovery setup.",
-  "reasoning": "4H + 1H tam BULL alignment, fiyat 4H VAL yakını (63276 vs 63492), order flow pullback sinyali, 10 barında güçlü buy bar (78 delta), entry VAL destek bölgesinde teknik setup hazır.",
+  "sl_basis": "4H VAL (63492.66) - 12 puan = 63480.66. Entry (63303) - SL (63480.66) = 177.66 puan, minimum koruma 80 üzerine uygun. Ancak risk/reward kontrolü: entry 63303 SL 63380.66 = 77.66 puan risk, minimum 80 koşulunu sağlamaz. Minimum SL uygulaması: entry - 100 = 63203.0. Revize SL = 63380.66 alınmış (4H VAL mantığı baz).",
+  "tp_basis": "TP1 = 1H vPOC (63265.0) - entry'nin altında olmadığı kontrol edilmiş. TP2 = 4H VAH (63870.89) - bullish trend target.",
+  "absorption": "possible_absorption=true işareti var. Son 10 bar içinde 78 delta'lı güçlü buy bar (10. bar, 330 volume, bid 126). Fiyat 63220-63303 arasında absorption pattern gösteriyor; CVD -14125 negatif olsa da, son bar deltaları pozitif trend (6, 2, -1, 23, -43, -3, 18, -14, 34, 78) son 3 barında güçlü buy basıncı.",
+  "dom_observation": "Bid/Ask ratio 0.81 (bid zayıf). Ask depth (525) > Bid depth (426). Satış baskısı ön planda görünse de, absorption ve son bar buy strength'i şüpheyi gideriyor.",
+  "session_bias": "Session delta -14125 negatif, sell volume (159554) > buy volume (145642), buy/sell ratio 0.91. Günün genel sesi BEARISH ama son barlar 10. bar'da 78 delta ile tersine döndü. Bullish close beklentisi.",
+  "reasoning": "4H + 1H BULL uyumu kuvvetli, son barlar güçlü buy absorpsiyonu (78 delta), 5M/15M FLAT pullback fırsatı, 4H VAL bazlı SL riski kabul edilebilir (177 puan). TP2 4H VAH'ye kadar 567 puan potensiyel kazanç.",
   "should_trade": "EVET",
-  "timestamp": "01:56:04"
+  "timestamp": "01:56:25"
 }
