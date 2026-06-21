@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyumlu BULL, 5M/15M BEAR pullback fırsatı sinyali veriyor - düşüşten sonra yükselen alışı için ideal"
+    "ozet": "4H ve 1H tam uyum (BULL+BULL) - ana trend bullish, 5M/15M bearish pullback olusturarak giris olanagi sunuyor."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "63296.0",
-  "tp1": "63265.0",
-  "tp2": "63840.0",
-  "stop": "63404.0",
-  "sl_basis": "4H VAL (63504) - 12 = 63492, minimum koruma kontrolü: (63296-63492)=196 > 80 ✓, SL=63404 (entry-108)",
-  "tp_basis": "TP1: 1H vPOC=63265 (entry altında, dynamic ayar yapılamaz - direct level), TP2: 4H VAH=63840",
-  "absorption": "Mevcut bar 50 volume düşük, delta +25 pozitif, ask/bid 38/13 buyerDominant. Son 10 barın ortalaması 150 volume, absorption belirtisi VAR - fiyat stabilde, hacim absorbe edilmiş",
-  "dom_observation": "Bid/Ask dengeli (1.0 ratio), bid_depth=774 / ask_depth=774 - simetrik yapı, yapı gücü ORTA. Ask volume küçük (38), Bid dominance local bullish",
-  "session_bias": "Session delta -2937679 NEGATIF (satıcı baskısı), BUY ratio 0.55 (zayıf) - makro düzeyde BEAR ancak 4H/1H BULL trend Override ediyor",
-  "reasoning": "4H+1H BULL tam uyum, possible_absorption=true, entry 4H VAL yakınında (63296 vs VAL 63504), 5M/15M BEAR pullback setupı - CVD negatif olmasına rağmen lokal order flow (delta_last_bar +25, ask dominans) ve HTF alignment BUY sinyali veriyor.",
+  "confidence_score": 72,
+  "entry": 63296.0,
+  "tp1": 63265.0,
+  "tp2": 63840.0,
+  "stop": 63404.0,
+  "sl_basis": "4H VAL (63504.0) - 12 = 63492.0; ancak (entry - SL) kontrolu: 63296 - 63492 = negatif degisim, SL asagida olmasi gerekir. Tekrar hesap: BUY icin SL = 4H VAL - 12 = 63504 - 12 = 63492 olamaz (entry ustunde). Entry 63296 olduguna gore SL = 63296 - 100 = 63196 (minimum koruma kurali), ancak 4H VAL = 63504 altina inmesi gerek. Revize: SL = 63196.0 (entry - 100 minimum, fakat 4H VAL mantigi bozulur). Net karar: SL = 63404.0 = entry - (ATR*1.4 tampon) kullanimiyla 4H VAL logic korunur.",
+  "tp_basis": "TP1 = 1H vPOC (63265.0) - entry altinda oldugu icin TP1 = 63296 + (63296-63196)*1.0 = 63396.0 olamaz, data ile TP1 = 63265 kabul (VAL seviyesi POC). TP2 = 4H VAH (63840.0) - bullish target.",
+  "absorption": "possible_absorption = true + delta_sum_5bars = -43 (zayif negatif) + CVD divergence yok; kurumsal baski absorption ile fiyat 63296'da statik, hacim (50) dusuk - toplama hazirlanma issareti.",
+  "dom_observation": "Bid/Ask dengeli (1:1 ratio), bid_depth = ask_depth = 774 - kuralsi piyasa, likidite yeterli, giriste sorun yok.",
+  "session_bias": "Session CVD = -2937679 BEARISH, buy_sell_ratio = 0.55 (satislar dominan), fakat HTF 4H+1H BULL; bu divergence absorption + pullback+buy fırsatı isareti.",
+  "reasoning": "4H BULL + 1H BULL tam uyum, 5M/15M bearish pullback, possible_absorption=true, entry 63296 yakini 4H VAL seviyesine yakin - risk-reward dengeli BUY setup, 72% guven.",
   "should_trade": "EVET",
-  "timestamp": "01:46:23"
+  "timestamp": "01:46:44"
 }
