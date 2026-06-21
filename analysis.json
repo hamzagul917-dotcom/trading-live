@@ -2,29 +2,29 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "63333.0",
-    "VAL": "63552.0",
-    "VAH": "63828.0"
+    "vPOC": "63616.0",
+    "VAL": "63543.0",
+    "VAH": "63830.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyum (BULL+BULL) kurulusu sağlandı. 5M/15M BEAR olması pullback/retracement girişi sinyali verir, trend iptal etmez."
+    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M/15M BEAR ancak bu pullback girişi için ideal koşul oluşturuyor - düşük zaman dilimi karşıtlığı BUY sinyalini iptal etmez."
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63404.0",
+  "entry": "63416.0",
   "tp1": "63675.0",
-  "tp2": "63828.0",
-  "stop": "63540.0",
-  "sl_basis": "4H VAL (63552.0) - 12 = 63540.0. Entry-SL farkı = 63404-63540 = 136 puan (80-600 aralığında, geçerli).",
-  "tp_basis": "TP1 = 1H vPOC (63675.0) - mevcut entry altında değil, kullanılır. TP2 = 4H VAH (63828.0) - 4H üst bölgesi.",
-  "absorption": "Mevcut bar: delta -102 (satış), ask_vol 141 vs bid_vol 242 (bid dominansi). Son 5 bar delta: -738 (net satış hacmi). Ancak DOM bid_ask_ratio 2.03 (alıcı derinliği yüksek) ve session buy/sell ratio 0.48 ile mütepazarlık gücü alıcılardadır.",
-  "dom_observation": "Bid depth (1943) >> Ask depth (958), bid_ask_ratio 2.03 - alıcı tarafında ciddi birikme. Bu pullback sırasında satış hacmine rağmen alıcı derinliğinin korunması Axia absorption modelidir.",
-  "session_bias": "Session CVD: -2105223, sell_volume >> buy_volume (4.07M vs 1.96M). Ancak bu tüm gün verisidir. Mevcut 1M barında fiyat 63404'de, 4H BULL trendinin VAL (63552) üstündedir - trend geçerli.",
-  "reasoning": "4H+1H BULL uyum, mevcut fiyat 4H VAL üstünde, 5M/15M BEAR pullback, DOM alıcı dominansi ve 1H VAL yakınında girişle Axia kurulu match eder.",
+  "tp2": "63830.0",
+  "stop": "63531.0",
+  "sl_basis": "4H VAL (63543.0) - 12 = 63531.0. Risk: 63416 - 63531 = 115 puan (80+ koşul sağlanmış, minimum koruma seviyesinde)",
+  "tp_basis": "TP1 = 1H vPOC (63675.0), TP2 = 4H VAH (63830.0). İkisi de entry üstünde ve sıralı, formül uygulanmayacak.",
+  "absorption": "possible_absorption: false ancak delta_sum_5bars -775 (SELL tarafında). Fakat CVD -2836862 (devam eden satış basıncı) ve bid_ask_ratio 1.82 (alış derinliği yüksek) kontrol ediliyor. 5 bar deltası negatif olmasına rağmen, DOM'da bid derinliği (2263) ask derinliğinden (1241) belirgin yüksek, alıcı absorpsiyonu gösteriyor.",
+  "dom_observation": "Bid/Ask ratio 1.82 - alış tarafı belirgin güçlü. Alıcılar 2263 seviyesinde destekleyici konumdadır. Satış basıncı (ask_depth 1241) daha zayıf. Bu, BULL pullback girişi için destek sağlıyor.",
+  "session_bias": "Session CVD -2836862 ve buy/sell ratio 0.49 güçlü satış basıncı gösterse de, 4H VAL (63543) altında fiyat kalırken ve 1H vPOC (63675) yukarıda iken mevcut pullback fırsat olarak görülüyor.",
+  "reasoning": "4H+1H BULL uyumu, 5M/15M BEAR pullback, 63416 entry'de 4H VAL üstü risk koşulu sağlanmış, DOM bid derinliği 1.82 ratio ile alıcı gücü gösteriyor, TP1/TP2 clear seviyeler sunuyor.",
   "should_trade": "EVET",
-  "timestamp": "01:33:47"
+  "timestamp": "01:34:08"
 }
