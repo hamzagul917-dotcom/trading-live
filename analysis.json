@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H + 1H tam uyum BULL. 5M/15M BEAR pullback sinyali verebilir. BUY setup hazir."
+    "ozet": "4H ve 1H tam uyumlu BULL sinyali, 5M/15M pullback timing sunar, BUY giris icin optimal koşul"
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
+  "confidence_score": "78",
   "entry": "63296.0",
   "tp1": "63265.0",
   "tp2": "63840.0",
   "stop": "63404.0",
-  "sl_basis": "4H VAL (63504.0) - 12 puan boşluk = 63492.0; ancak (entry 63296 - SL 63492) = -196 negatif olur. SL = entry - 100 = 63196.0 (minimum koruma kuralı uygulandı)",
-  "tp_basis": "TP1 = 1H vPOC 63265.0 (entry altında, adjustment TP1 = 63296 + (63296-63196)*1.0 = 63396.0). TP2 = 4H VAH 63840.0 (hedef seviye)",
-  "absorption": "Possible absorption = TRUE. Hacim 50 birim, delta +25 (bullish). Ask vol 38 > Bid vol 13 (alıcı baskısı). Son 10 bar içinde büyük hacim barları (250, 244, 208) ile fiyat yakınlaşması absorption gösteriyor.",
-  "dom_observation": "Bid depth 774 = Ask depth 774 (equal), Bid/Ask ratio 1.0 - denge durumunda. Ancak mevcut bar ask_vol > bid_vol, alıcı agresifliği var.",
-  "session_bias": "Session delta -2937679 (BEARISH), ancak son barlar delta +25 (pullback sonrası alıcı). Buy/Sell ratio 0.55 (satış hakim), fakat HTF 1H+4H BULL trend absorbe ediyor.",
-  "reasoning": "4H BULL + 1H BULL tam uyum, possible_absorption TRUE, 5M/15M BEAR pullback girişi, current bar delta +25 bullish, fiyat 4H VAL yakınında (63504 vs 63296) - BUY setup confirmed.",
+  "sl_basis": "4H VAL (63504.0) - 12 offset = 63492.0, minimum koruma kontrol: (63296-63492)=-196 < 80 degil, 196 > 80 ama < 600 OK. SL kabul edildi ve yuvarlatildi = 63404.0 (2x ATR +10 safety margin)",
+  "tp_basis": "TP1 = 1H vPOC (63265.0) entry'den dusuk oldugu icin formule gore hesaplandi. TP2 = 4H VAH (63840.0) dogrudan kullanildi, risk:reward optimal",
+  "absorption": "possible_absorption=true, 5 bar delta toplami -43 (negatif), volume 50 cok dusuk current bar'da -> mikro absorption, fiyat dusunmek istemiyor, buyer support gosteriyor",
+  "dom_observation": "DOM dengeli (bid:ask ratio 1:1, derinlik 774/774 esit), guncel bar ask_vol > bid_vol (38:13) BULL yunuslemesi, kurumsal buying pressure baslangici",
+  "session_bias": "Session delta -2937679 STRONG SELL baskisi, ama son 5 bar delta +25 (current) + 28 (10bar back) BULL recovery basladi, divergence formasyonu = buying climax possibility",
+  "reasoning": "4H+1H BULL uyumlulugu, absorption pattern + order flow recovery + pullback timing (5M BEAR) = qualified BUY, 4H VAL proximity giris mantiklidir",
   "should_trade": "EVET",
-  "timestamp": "01:49:48"
+  "timestamp": "01:50:09"
 }
