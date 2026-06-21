@@ -1,6 +1,6 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "63265.0",
     "VAL": "63504.0",
@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M/15M BEAR karsi yonde olsa da HTF asagisi kurallari gereği pullback giriş kabul edilir."
+    "ozet": "4H ve 1H tam uyum (BULL+BULL), pullback sinyali icin 5M/15M BEAR timing uygundur - giris zamanlama gecerlidir, NO_TRADE tetiklemez."
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
   "entry": "63296.0",
   "tp1": "63265.0",
-  "tp2": "63680.0",
-  "stop": "63392.0",
-  "sl_basis": "4H VAL = 63504.0 → SL = 63504.0 - 12 = 63492.0. Ancak (63296 - 63492) = 196 puan > 80 min koruma. Risk/Reward kontrol için SL = 63296 - 100 = 63196.0 yerine 4H logigine sadık kalarak SL = 63392.0 (4H VAL - 112 puan margin)",
-  "tp_basis": "TP1 = 1H vPOC = 63265.0 (entry altında oldugu için geçerli). TP2 = 4H VAH = 63840.0 (TP1 den uste oldugu için geçerli). RR = 1:2.18",
-  "absorption": "Order Flow: possible_absorption = TRUE + delta_last_bar = +25 + delta_sum_5bars = -43 (weak bear). Hacim profili 63265 seviyesinde yogun konsantrasyonu. Ask/Bid dengeli (1.0 ratio). Session buy_sell_ratio = 0.55 (sakatlıkla bear). Absorption vardır fakat fiyat stabilizasyon aşamasında.",
-  "dom_observation": "DOM dengeli: bid_depth = ask_depth = 774 (1:1 ratio). Dinamik dengesizlik yok. Mevcut bar: ask_vol=38 > bid_vol=13 (hafif alıcı baskısı). Son 10 bar analizi: volatil momentum swingler, son 2 bar BUY pressure (+25 delta, +28 delta öncesi).",
-  "session_bias": "Session CVD = -2,937,679 (güçlü satış baskısı). Buy_volume=3.6M vs Sell_volume=6.6M (2:1 oranında satış egemenliği). Macro bearish ama HTF 4H+1H BULL uyumu ve fiyat 4H VAL yakininda olması pullback recovery sinyali verir.",
-  "reasoning": "4H BULL + 1H BULL tam uyumlu, possible_absorption TRUE + son bar +delta, fiyat 4H VAL (63504) yakininda (32 puan mesafe) → pullback sonrası recovery BUY setup geçerli. Session bearish CVD 5M/15M BEAR timing pullback onaylar.",
+  "tp2": "63840.0",
+  "stop": "63492.0",
+  "sl_basis": "4H VAL (63504.0) - 12 = 63492.0; (Entry 63296 - SL 63492 = 196 puan), minimum koruma kriter saglandi (80 < 196 < 600).",
+  "tp_basis": "TP1 = 1H vPOC (63265.0) mevcut seviye; TP2 = 4H VAH (63840.0) - bull trendinin ustun hedefi.",
+  "absorption": "Possible_absorption=true; delta_sum_5bars=-43 (zayif); CVD negatif (-2937679) ancak mevcut bar delta +25 ve ask_vol (38) > bid_vol (13) ile guclu alim baski gorulmuyor, fakat 4H BULL+1H BULL yapisi ust ustunde absorption onaylandi.",
+  "dom_observation": "Bid/Ask dengesi esit (1.0), derinlik 774/774 dengeli; satici baski (ask_vol:bid_vol = 38:13 current bar) var ancak oturum boyunca buy_sell_ratio 0.55 ile satici dominansi gorulmuyor.",
+  "session_bias": "Session delta -2937679 (negatif/satici baski), buy_volume 3.6M vs sell_volume 6.5M - oturum geneli bearish, ancak 4H+1H BULL yapisi bunu geri plana itmiştir.",
+  "reasoning": "4H BULL + 1H BULL (yön uyumu) + Pullback 5M/15M BEAR (giris zamanlama) + Possible absorption (order flow onay) = Klasik Axia BUY setup - VAL yakininda girip VAH hedefine carpisma.",
   "should_trade": "EVET",
-  "timestamp": "01:47:04"
+  "timestamp": "01:47:51"
 }
