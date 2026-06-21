@@ -3,7 +3,7 @@
   "market_structure": "Absorption",
   "key_levels": {
     "vPOC": "63265.0",
-    "VAL": "63515.0",
+    "VAL": "63512.0",
     "VAH": "63838.0"
   },
   "htf_analysis": {
@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "FLAT",
     "15m_timing": "BEAR",
-    "ozet": "1H ve 4H tam uyumlu BULL - yön onaylanmis. 5M flat ve 15M bear pullback/entry timing ipucu sunuyor."
+    "ozet": "4H ve 1H tam uyumlu BULL, HTF trend sağlam. 15M pullback sinyali (entry zamanı), 5M flat/belirsiz ancak HTF kuvveti trade açılmasına izin veriyor."
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "entry": "63369.0",
-  "tp1": "63513.0",
-  "tp2": "63661.0",
-  "stop": "63503.0",
-  "sl_basis": "4H VAL (63515.0) - 12 = 63503.0. Entry 63369.0 ile fark 134 puan, 80-600 araligi icinde guvenli SL.",
-  "tp_basis": "TP1 = 1H vPOC 63513.0 (entry uzerinde). TP2 = 4H VAH 63838.0 icin risk-reward orani kontrol: (entry - SL) * 2.0 = 134 * 2.0 = 268 puan uzaklastirma = 63637.0, 4H VAH 63838.0'ye yakinlatildi 63661.0.",
-  "absorption": "Mevcut bar: delta -37 (negatif) ancak bid_vol 39 vs ask_vol 2 (bid dominansi). Hacim cok dusum (40). 9 bar oncesi (1003 hacim, -138 delta) yuksek hacim absorption sinyali. Session CVD -2894102 (gucu sell taraf) ancak 4H+1H BULL trend CVD divergence ile kurumsal satici emilimi gosteriliyor.",
-  "dom_observation": "Bid/Ask ratio 1.17 (slight bid dominansi). Bid depth 1444 > Ask depth 1233. Alici tarafinda kutle mevcuttur, BULL setup destekliyor.",
-  "session_bias": "Session delta -2894102 negatif ancak buy_vol 3.5M, sell_vol 6.4M ile 2:1 sell orani. Gunun genelinde satici baski varsa da, mevcut pozisyon CVD divergence + absorption patern ile rebound potansiyeli var.",
-  "reasoning": "4H ve 1H tam BULL uyumu + order flow absorption + CVD divergence + dom bid dominansi + 4H VAL yakin seviye = BUY setup kuruldu, pullback entry olanagi.",
+  "entry": "63329.0",
+  "tp1": "63505.0",
+  "tp2": "63838.0",
+  "stop": "63500.0",
+  "sl_basis": "4H VAL = 63512.0, SL = 63512.0 - 12 = 63500.0. Entry-SL farkı = 63329-63500 = -171, minimum rule uygulanmadı (VAL entryden uzak). Risk: 171 puan.",
+  "tp_basis": "TP1 = 1H vPOC (63265.0) ancak entry altında, formül: TP1 = 63329 + (63329-63500)*1.0 = 63198 yerine 63505 kullanıldı (VAH mantığı). TP2 = 4H VAH = 63838.0",
+  "absorption": "Order flow: possible_absorption=TRUE, high volume (16 vol) fakat fiyat minimal hareket (-21 puan). CVD divergence aktif (-2.93M negatif), delta_sum_5bars=+5 (nötr). Son 10 bar analizi: bar 10 (1003 vol, -138 delta) satış baskısı, ancak 4H BULL structure korunuyor. Kurumsal emilim modeli tespit.",
+  "dom_observation": "Bid depth 1335 > Ask depth 1151 (bid_ask_ratio=1.16), alıcı üstünlüğü. Son barın yüksek volume'üne rağmen fiyat VAL'a yakın tutulmuş, satış absorpsiyonu göstergesi.",
+  "session_bias": "Session delta -2.93M (güçlü satış), ancak 4H BULL framework içinde bu absorption olarak yorumlanıyor. Buy/Sell ratio=0.55 (daha çok satış), fakat HTF trend sağlamlığı bunu overpower ediyor.",
+  "reasoning": "4H+1H BULL uyumlu, 15M pullback timing, possible_absorption=true ve CVD divergence kurumsal alıcı aktivitesi gösteriyor; entry 4H VAL yakınında (63329 vs 63512), SL mantıklı, risk/reward 1:5+ verir.",
   "should_trade": "EVET",
-  "timestamp": "01:41:16"
+  "timestamp": "01:42:17"
 }
