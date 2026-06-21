@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BEAR",
     "15m_timing": "BEAR",
-    "ozet": "4H ve 1H uyumlu BULL trend; 5M/15M karsi yonde olmasina ragmen HTF trend guclu, pullback giris sinyali"
+    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M/15M BEAR yonde olsa da HTF uyum kuvvetli, pullback girisi sinyali olabilir."
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
   "entry": "63296.0",
-  "tp1": "63560.0",
+  "tp1": "63265.0",
   "tp2": "63840.0",
   "stop": "63404.0",
-  "sl_basis": "4H VAL (63504.0) - 12 buffer = 63492.0; hesap: (63296 - 63492) = -196 fark, minimum koruma kurali uygulanarak SL = 63296 - 108 = 63404.0 (entry altinda 108 puan)",
-  "tp_basis": "TP1 = 1H vPOC 63265.0 < entry oldugu icin TP1 = 63296 + (63296-63404)*1.0 = 63560.0; TP2 = 4H VAH 63840.0 > TP1 kosulu saglandig icin TP2 = 63840.0",
-  "absorption": "possible_absorption=true: yuksek hacim (250 vol 9. barda, 244 vol 10. barda) fiyat hareketi minimal, VP tabaninda (VAL=63504.0) kurumsal alim islemi",
-  "dom_observation": "Bid/Ask dengesi 1:1 (774:774), balanced DOM; current bar ask_vol:bid_vol = 38:13 yanlis oku (yanlis sinyal), ancak son 10 bar ortalamasi 5M BEAR olmasina ragmen 10. bar buy pressure (136 ask 107 bid)",
-  "session_bias": "Session CVD -2937679 (negatif) ancak 4H profili BULL; delta_sum_5bars = -43 (orta seviye negative) fakat possible_absorption=true kurumsal alimi onaylar",
-  "reasoning": "4H+1H BULL uyumu + 4H VAL support yakininda fiyat + possible_absorption kurumsal alim sinyali + 5M/15M pullback giris zamanlama -> valid BUY setup; SL 4H VAL altinda, TP hedefleri VP dayanakli.",
+  "sl_basis": "4H VAL (63504) - 12 = 63492 BUT (entry-SL)=196 < 600 OK. Risk 108 puan kullanıldığında SL=63404 (entry-100 minimum koruma uygulandı çünkü 196 puan yeterince geniş)",
+  "tp_basis": "TP1=1H vPOC(63265) entry altında olduğu için TP1=entry+(entry-SL)*1.0=63296+108=63404 olmalı FAKAT vPOC(63265) <entry(63296) kesin olduğu için: TP1=63265.0 al. TP2=4H VAH(63840).",
+  "absorption": "possible_absorption=true: Yüksek hacim (50 vol current bar) fiyat hareketi yok (63296 flat), kurumsal alış emilimi gösteriyor.",
+  "dom_observation": "DOM dengeli (bid_depth=774, ask_depth=774, ratio=1.0), ancak current bar ask_vol(38)>bid_vol(13) satın alma baskısı var. Last 10 bars'da net alış tarafı gücü.",
+  "session_bias": "Session negatif delta (-2937679) ancak son barlar pozitif deltayla kapanıyor (+25,-46,-43,+56 vs). Absorption + son bar delta pozitif = alış tarafının kontrol aldığı göstergesi.",
+  "reasoning": "4H+1H BULL uyumu + possible_absorption=true + entry 4H VAL yakınında (63296 vs 63504) + son 5bar delta negatif (-43) ancak absorption ile destekli pullback girişi = BUY sinyali.",
   "should_trade": "EVET",
-  "timestamp": "01:45:26"
+  "timestamp": "01:45:44"
 }
