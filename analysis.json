@@ -11,20 +11,20 @@
     "4h": "BULL",
     "5m_timing": "BULL",
     "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BULL sinyali. 5M BULL (timing onayi), 15M FLAT (sessiz). Giris icin optimal koşullar."
+    "ozet": "4H ve 1H tam uyumlu BULL trend, 5M/15M FLAT karsi yondeki potansiyel pullback firsati olusturuyor"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "78",
-  "entry": "63350.0",
-  "tp1": "63559.28",
+  "entry": "63319.0",
+  "tp1": "63265.0",
   "tp2": "63855.52",
-  "stop": "63480.66",
-  "sl_basis": "4H VAL (63492.66) - 12 = 63480.66. Entry 63350.0 ile aradaki fark 130.66 puan (80-600 aralığında safe). SL korunması yeterli.",
-  "tp_basis": "TP1: 1H vPOC 63559.28 (entry uzerinde, kullanılacak). TP2: 4H VAH 63855.52 (ikincil hedef, 2x risk/reward oranı saglar).",
-  "absorption": "Hacim absorpsiyonu yok fakat delta_sum_5bars=73 (80'e yakin, bullish enerji). Last bar delta +9 (ask dominasyonu 13 vs 4). 4 bar orice delta +78 (strong buyers).",
-  "dom_observation": "Bid/Ask dengeli (1.0 ratio), derinlik esit (668 bid, 666 ask). Istikrarlı pazar. Micro scans'te ask buy dominasyonu var (son bar 12 ask, 3 bid).",
-  "session_bias": "Session delta -718 (negatif) ANCAK buyukelci buy_vol 42060 ≈ sell_vol 42711 (0.98 ratio). Session balanced, ancak son 5 bar delta +73 (bullish momentum). Yapısal satış basınci zayiflamis.",
-  "reasoning": "4H+1H BULL uyumu + son 5 bar pozitif delta (73) + current bar ask dominasyonu (13 ask vs 4 bid) + fiyat 4H VAL uzak, VAH'e yukselmek için alan var. Order flow onay yeterli. Pullback tamamlandi, alici taraf kontrol alıyor.",
+  "stop": "63380.66",
+  "sl_basis": "4H VAL (63492.66) - 12 = 63480.66 => Risk kontrol icin entry-100 uygulanarak SL=63380.66 (minimum koruma aktif, 4H VAL uzaklik kontrolu)",
+  "tp_basis": "TP1: 1H vPOC (63265.0) | TP2: 4H VAH (63855.52) - trend tesisine gore hiz kazanma hedefleri",
+  "absorption": "Hacim profil VAL/VAH bandinde dengeli yogunluk, 4H trend icinde fiyat acceptance bolgesinde konumlu",
+  "dom_observation": "DOM dengesi yakin (bid:673 vs ask:679, ratio 0.99), ask dominansi minimal - guvenli giris bolgesinde",
+  "session_bias": "Session delta pozitif +6290, buy_volume (51753) > sell_volume (45362), ratio 1.14 - alim baskisi net",
+  "reasoning": "4H+1H BULL uyumu + delta_sum_5bars=81 (>80 threshold) + session pozitif CVD, fiyat 4H VAL yakini (entry 63319 vs VAL 63492), risk/reward optimize: (63319-63380)=-61 SL vs (63855-63319)=+536 TP2 = 1:8.8 ratio",
   "should_trade": "EVET",
-  "timestamp": "01:50:29"
+  "timestamp": "01:50:48"
 }
