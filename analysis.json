@@ -1,30 +1,30 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 63961.0,
-    "VAL": 63973.0,
-    "VAH": 64304.0
+    "vPOC": 64221.0,
+    "VAL": 63971.0,
+    "VAH": 64271.0
   },
   "htf_analysis": {
     "1h": "BEAR",
     "4h": "BEAR",
-    "5m_timing": "FLAT",
-    "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BEAR. 5M/15M FLAT (timing icin nötr, karsi yonde degil). SELL kurulumu gecerli."
+    "5m_timing": "BULL",
+    "15m_timing": "BULL",
+    "ozet": "4H + 1H tam uyumlu BEAR sinyali. 5M/15M BULL timing pullback giriş fırsatı sunuyor ancak ana trend BEAR baskısı altında."
   },
   "order_flow_signal": "SELL",
   "confidence_score": 72,
-  "entry": 64086.0,
-  "tp1": 63977.0,
-  "tp2": 63851.0,
-  "stop": 64316.0,
-  "sl_basis": "4H VAH (64304) + 12 = 64316. SL - entry = 230 (80-600 araligi icinde, kurallı).",
-  "tp_basis": "TP1 = 1H vPOC (63977) - gecerli. TP2 = 4H VAL (63973) - 122 = 63851 (entry - (SL-entry)*2.0 = 64086 - 235 = 63851).",
-  "absorption": "possible_absorption=true. Volume 16 (dusuk) fakat delta_sum_5bars=2 (nötr, -80 altinda degil). CVD pozitif (62366) ancak BEAR trend kontekstinde absorption (dusuk volatilite + minimal delta) yapici destekliyor.",
-  "dom_observation": "Bid/Ask ratio=0.62 (ask yarisina indirgenmis). Ask derinligi 312, Bid 194. Satici baskisi DOM'da net gorunuyor. Risk kontrolu var.",
-  "session_bias": "Session delta 62366 pozitif, buy_sell_ratio 1.67 ancak 4H+1H BEAR trend kontekstinde fiyat 4H VAH (64304) yakinina cikamamis. Alim hacmi yuksek olsa da fiyat yukarilara yaslanmiyor -> satici absorption sinyali.",
-  "reasoning": "4H+1H BEAR uyumu + possible_absorption=true + fiyat 4H VAH yakininda + DOM satici baskisi = SELL sinyali. Entry 64086 (mevcut close), SL 64316 (4H VAH +12), TP1 1H vPOC, TP2 4H VAL seviyesi.",
+  "entry": 64273.0,
+  "tp1": 64221.0,
+  "tp2": 63971.0,
+  "stop": 64383.0,
+  "sl_basis": "4H VAH (64271.0) + 12 puan = 64283.0, entry 64273.0 ile SL arası 110 puan. Minimum koruma kuralı uygulanarak SL = 64273.0 + 100 = 64383.0 ayarlandı. Risk-reward kontrolü: (64383-64273)=110 puan SL.",
+  "tp_basis": "TP1 = 1H vPOC (64221.0), TP2 = 4H VAL (63971.0). 4H BEAR trend içinde VAL destekli çift hedef yapısı.",
+  "absorption": "possible_absorption = false ancak delta_sum_5bars = 191 pozitif (weak), son bar delta = -24 (satış baskısı geri dönüş). Hacim 47 (düşük) fakat order flow DOM tarafında satış hakimiyeti (ask_vol 12 / bid_vol 36 = bid hakimi).",
+  "dom_observation": "Bid/Ask Ratio = 0.72 (satıcı hakimiyeti). Ask depth 661 > Bid depth 473. DOM yapısı satış baskısını destekliyor.",
+  "session_bias": "Session delta 890366 pozitif (BULL), ancak buy_sell_ratio 2.42 (alıcılar başında). Fiyat fakat 4H üst band (VAH 64271) yakınında reddetildi. Son 5 barın negatif close (64273<64310) ve negatif delta (-24) satış inisiyatifini gösteriyor.",
+  "reasoning": "4H BEAR + 1H BEAR tam uyum, 5M/15M BULL pullback zamanlaması, fiyat 4H VAH yakınında rejection gösteriyor, DOM satış hakimi, entry VAH yakını pullback sonrası geçerli.",
   "should_trade": "EVET",
-  "timestamp": "09:10:35"
+  "timestamp": "09:34:07"
 }
