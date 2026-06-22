@@ -1,30 +1,30 @@
 {
   "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "63539.56",
-    "VAL": "63411.85",
-    "VAH": "63731.14"
+    "vPOC": 63961.0,
+    "VAL": 63973.0,
+    "VAH": 64304.0
   },
   "htf_analysis": {
     "1h": "BEAR",
     "4h": "BEAR",
-    "5m_timing": "BULL",
+    "5m_timing": "FLAT",
     "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyum (BEAR+BEAR). 5M BULL pullback girisi ipucu verir ancak ana trend karsidir. HTF senkronizasyonu SELL sinyalini kuvvetlendirir."
+    "ozet": "4H ve 1H tam uyumlu BEAR. 5M/15M FLAT (timing icin nötr, karsi yonde degil). SELL kurulumu gecerli."
   },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63750",
-  "tp1": "63539.56",
-  "tp2": "63411.85",
-  "stop": "63843.14",
-  "sl_basis": "4H VAH (63731.14) + 12 puan = 63743.14, yuvarlanmis 63843.14. SELL'de risk = 63843.14 - 63750 = 93.14 puan, minimum 100 puan kurali altinda oldugundan SL = entry + 100 = 63850 olacakti. Ancak 4H VAH bazinda tutularak 63843.14 kullanildi.",
-  "tp_basis": "TP1 = 1H vPOC (63539.56). TP2 = 4H VAL (63411.85). SELL icin fiyat enuste kirilacak, her iki hedef VAL/vPOC altinda konumlanmistir.",
-  "absorption": "possible_absorption=false, ancak last_10_bars icinde bar-8 (delta 56, vol 121) buyuk buy hacmini absorbe etmiş, fiyat 63681→63608 dustugu icin satici hakim kontrolu gostermektedir.",
-  "dom_observation": "bid_depth (507) < ask_depth (705), bid_ask_ratio = 0.72. Satici baskisi belirgin. DOM satislar aleyhine ağır.",
-  "session_bias": "Session CVD = +246893 (buyuk), buy_volume > sell_volume (1.85 oran). Ancak HTF 4H+1H BEAR yonde oldugu icin bu divergence satici absorpsiyonu gostermektedir - dusus icin sinyal guclendirici.",
-  "reasoning": "4H BEAR + 1H BEAR tam uyum, current bar -58 delta (satici), 5M BULL pullback ipucu pullback-satisi onaylar, order_flow delta_sum_5bars=66 pozitif oldugu halde fiyat 63795→63744 dustugu icin CVD divergence satici kontrolu gostermektedir, entry 4H VAH yakininda, risk-reward 1:2+ oraninda karsilanir.",
+  "confidence_score": 72,
+  "entry": 64086.0,
+  "tp1": 63977.0,
+  "tp2": 63851.0,
+  "stop": 64316.0,
+  "sl_basis": "4H VAH (64304) + 12 = 64316. SL - entry = 230 (80-600 araligi icinde, kurallı).",
+  "tp_basis": "TP1 = 1H vPOC (63977) - gecerli. TP2 = 4H VAL (63973) - 122 = 63851 (entry - (SL-entry)*2.0 = 64086 - 235 = 63851).",
+  "absorption": "possible_absorption=true. Volume 16 (dusuk) fakat delta_sum_5bars=2 (nötr, -80 altinda degil). CVD pozitif (62366) ancak BEAR trend kontekstinde absorption (dusuk volatilite + minimal delta) yapici destekliyor.",
+  "dom_observation": "Bid/Ask ratio=0.62 (ask yarisina indirgenmis). Ask derinligi 312, Bid 194. Satici baskisi DOM'da net gorunuyor. Risk kontrolu var.",
+  "session_bias": "Session delta 62366 pozitif, buy_sell_ratio 1.67 ancak 4H+1H BEAR trend kontekstinde fiyat 4H VAH (64304) yakinina cikamamis. Alim hacmi yuksek olsa da fiyat yukarilara yaslanmiyor -> satici absorption sinyali.",
+  "reasoning": "4H+1H BEAR uyumu + possible_absorption=true + fiyat 4H VAH yakininda + DOM satici baskisi = SELL sinyali. Entry 64086 (mevcut close), SL 64316 (4H VAH +12), TP1 1H vPOC, TP2 4H VAL seviyesi.",
   "should_trade": "EVET",
-  "timestamp": "02:33:58"
+  "timestamp": "09:10:35"
 }
