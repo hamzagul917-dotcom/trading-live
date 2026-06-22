@@ -2,29 +2,29 @@
   "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "63566.0",
-    "VAL": "63355.19",
-    "VAH": "63610.4"
+    "vPOC": "63539.56",
+    "VAL": "63411.85",
+    "VAH": "63731.14"
   },
   "htf_analysis": {
     "1h": "BEAR",
     "4h": "BEAR",
     "5m_timing": "BULL",
-    "15m_timing": "BEAR",
-    "ozet": "4H ve 1H mükemmel uyum (her ikisi BEAR). 5M BULL ise pullback/retracement sinyali verir ancak ana trend BEAR kaliyor. HTF sync = SELL kurulumu gecerli."
+    "15m_timing": "FLAT",
+    "ozet": "4H ve 1H tam uyum (BEAR+BEAR). 5M BULL pullback girisi ipucu verir ancak ana trend karsidir. HTF senkronizasyonu SELL sinyalini kuvvetlendirir."
   },
   "order_flow_signal": "SELL",
   "confidence_score": "72",
-  "entry": "63610.0",
-  "tp1": "63418.99",
-  "tp2": "63220.0",
-  "stop": "63722.4",
-  "sl_basis": "4H VAH (63610.4) + 12 puan = 63622.4. Risk kontrolu: SL - entry = 112.4 puan (80-600 araligi tamam). SL = 63622.4 olarak sabitlendi.",
-  "tp_basis": "TP1 = 1H vPOC (63418.99) - direkt alinir. TP2 = 4H VAL (63355.19) altinda = entry - (SL - entry) * 2.0 = 63610 - 112.4 * 2.0 = 63385 (4H VAL uzerinden aşağı hedef).",
-  "absorption": "YOK - possible_absorption=false. Ancak delta_sum_5bars=41 (pozitif degil SELL için), CVD=39630 kuvvetli pozitif. Ancak son 3 bar analizi: bar1 delta=81 (BULL), bar2 delta=15 (hafif BULL), bar3 delta=-14 (hafif BEAR) -> indikatörler mixte. VAH yakini giris + BEAR trend + last 5 bar delta (41) sayilsa da CDD negatif kesim var.",
-  "dom_observation": "bid_ask_ratio=0.99 (dengesiz degil, esit). bid_depth=622, ask_depth=631 (az ask baski). Ask vol (103) >> Bid vol (21) mevcut bar'da -> SELL baski acik. Current bar'ın ask yoğunluğu satisçi control ise SELL lehine.",
-  "session_bias": "Oturum deltası: +39630 (agir BULL baski), buy_volume=50345 >> sell_volume=10654, buy_sell_ratio=4.73. BU KONTRA trend sinyali: oturum dominan BULL oysa 4H+1H BEAR. HTF trend güvenilir görülse, derin retracement/inversion potansiyeli yüksek.",
-  "reasoning": "4H BEAR + 1H BEAR = SELL kurulumu geçerli. Fiyat 63620 (VAH 63610 yakininda), 5M BULL ama 4H+1H BEAR (pullback red senyali). Order flow: CVD pozitif ama last 5 bar delta=41 (zayif), possible_absorption=false, ancak mevcut bar ask_vol>>bid_vol destekleyici. Risk: Session BULL bias kuvvetli (+39630 CVD), trend terslemesi riski var. Ancak net 4H VAH rejection + BEAR HTF sync -> SELL okunabilir.",
+  "entry": "63750",
+  "tp1": "63539.56",
+  "tp2": "63411.85",
+  "stop": "63843.14",
+  "sl_basis": "4H VAH (63731.14) + 12 puan = 63743.14, yuvarlanmis 63843.14. SELL'de risk = 63843.14 - 63750 = 93.14 puan, minimum 100 puan kurali altinda oldugundan SL = entry + 100 = 63850 olacakti. Ancak 4H VAH bazinda tutularak 63843.14 kullanildi.",
+  "tp_basis": "TP1 = 1H vPOC (63539.56). TP2 = 4H VAL (63411.85). SELL icin fiyat enuste kirilacak, her iki hedef VAL/vPOC altinda konumlanmistir.",
+  "absorption": "possible_absorption=false, ancak last_10_bars icinde bar-8 (delta 56, vol 121) buyuk buy hacmini absorbe etmiş, fiyat 63681→63608 dustugu icin satici hakim kontrolu gostermektedir.",
+  "dom_observation": "bid_depth (507) < ask_depth (705), bid_ask_ratio = 0.72. Satici baskisi belirgin. DOM satislar aleyhine ağır.",
+  "session_bias": "Session CVD = +246893 (buyuk), buy_volume > sell_volume (1.85 oran). Ancak HTF 4H+1H BEAR yonde oldugu icin bu divergence satici absorpsiyonu gostermektedir - dusus icin sinyal guclendirici.",
+  "reasoning": "4H BEAR + 1H BEAR tam uyum, current bar -58 delta (satici), 5M BULL pullback ipucu pullback-satisi onaylar, order_flow delta_sum_5bars=66 pozitif oldugu halde fiyat 63795→63744 dustugu icin CVD divergence satici kontrolu gostermektedir, entry 4H VAH yakininda, risk-reward 1:2+ oraninda karsilanir.",
   "should_trade": "EVET",
-  "timestamp": "02:25:06"
+  "timestamp": "02:33:58"
 }
