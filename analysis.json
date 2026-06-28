@@ -3,8 +3,8 @@
   "confidence_score": 75,
   "entry": 59800.0,
   "tp1": 59350.0,
-  "stop": 60100.0,
-  "reasoning": "DOM'da ask_depth > bid_depth (1028 vs 786), CVD negatif (-0.3387), fiyat VAH yakınında (59820). 1m grafik downtrend gösteriyor, 5m da kırmızı mum dominant. Agresif short pozisyon.",
-  "timestamp": "00:14:21",
+  "stop": 60150.0,
+  "reasoning": "DOM'da ask_depth > bid_depth belirgin şekilde güçlü. CVD negatif trend içinde. Fiyat VAH yakınında (59800-60200 bölgesi). 1m grafik düşüş trendi gösteriyor. Order flow SELL baskısı net. ATR bazlı SL: 350pt, TP1: 450pt.",
+  "timestamp": "00:14:57",
   "sembol": "BTCUSDT"
 }
