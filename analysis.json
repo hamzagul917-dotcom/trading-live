@@ -4,7 +4,7 @@
   "entry": 59440.0,
   "tp1": 59190.0,
   "stop": 59690.0,
-  "reasoning": "DOM'da ask_depth > bid_depth belirgin şekilde gözleniyor. CVD negatif trend gösteriyor. Fiyat VAH (59530) yakınında ve üzerinde dirençle karşılaşıyor. 1m ve 5m grafiklerde downtrend sinyalleri var. Order flow satış baskısı net görülüyor.",
-  "timestamp": "00:38:50",
+  "reasoning": "DOM'da ask_depth > bid_depth (güçlü satış baskısı). Fiyat VAH (59440) seviyesinde ve CVD negatif trend gösteriyor. 1m grafik aşağı yönlü momentum ile red candle sıralanması. Order flow agresif satış tarafında yoğunlaşmış.",
+  "timestamp": "00:44:32",
   "sembol": "BTCUSDT"
 }
