@@ -1,27 +1,10 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
-  "key_levels": {
-    "vPOC": "59660.0",
-    "VAL": "59390.0",
-    "VAH": "59720.0"
-  },
-  "htf_analysis": {
-    "1h": "FLAT",
-    "4h": "BEAR",
-    "ozet": "4H BEAR dominant, 1H FLAT uyumsuzluk mevcuttur ancak 5m/15m/4h tüm BEAR - güçlü bear bias"
-  },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "59370.0",
-  "tp1": "59630.0",
-  "tp2": "59460.0",
-  "stop": "59732.0",
-  "sl_basis": "4H_VAH(59720)+12pt = 59732 | Risk=362pt (kabul edilebilir <600pt)",
-  "tp_basis": "TP1=1H_vPOC(59630) | TP2=4H_VAL(59460-SELL için)",
-  "candle_pattern": "Last_bar_massive_delta_spike(-590 delta) + inverted_hammer + bid_dominance (864 bid vs 274 ask) → Satış absorpsiyonu",
-  "delta_obs": "CVD severely negative (-1572716 session) | Delta_sum_5bars=-59 | Last_bar delta spike (-590) = Order Flow rejection at VAH zone | Buy:Sell ratio 0.39 extreme sell bias",
-  "reasoning": "4H BEAR + massive sell delta spike at VAH(59720) + negative CVD trend + bid dominance (1.73 ratio) + VAL support(59460) = güçlü SHORT sinyali; 1H FLAT uyumsuzluğu yüksek TF bear momentum tarafından etkisiz hale getirilmiş",
-  "should_trade": "EVET",
-  "timestamp": "23:55:40"
+  "confidence_score": 75,
+  "entry": 59540.0,
+  "tp1": 59390.0,
+  "stop": 59640.0,
+  "reasoning": "DOM'da ask_depth > bid_depth belirgin şekilde üstün. CVD negatif trend gösteriyor. 1m grafik aşağı yönlü momentum taşıyor. Fiyat direnç bölgesine (59540-59600) yakın. Order flow satış baskısını net gösteriyor.",
+  "timestamp": "23:58:01",
+  "sembol": "BTCUSDT"
 }
