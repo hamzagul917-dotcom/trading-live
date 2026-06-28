@@ -1,30 +1,27 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
+  "trend_direction": "BEARISH",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": 64546.0,
-    "VAL": 64199.0,
-    "VAH": 64811.0
+    "vPOC": "59660.0",
+    "VAL": "59390.0",
+    "VAH": "59720.0"
   },
   "htf_analysis": {
-    "1h": "BULL",
-    "4h": "BULL",
-    "5m_timing": "BULL",
-    "15m_timing": "BULL",
-    "ozet": "4H ve 1H tam uyum - BULL yonu baskındır, tüm timeframe'ler bullish alignment göstermektedir."
+    "1h": "FLAT",
+    "4h": "BEAR",
+    "ozet": "4H BEAR dominant, 1H FLAT uyumsuzluk mevcuttur ancak 5m/15m/4h tüm BEAR - güçlü bear bias"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "78",
-  "entry": 64758.0,
-  "tp1": 64546.0,
-  "tp2": 64811.0,
-  "stop": 64187.0,
-  "sl_basis": "4H VAL (64199.0) - 12 = 64187.0; entry-SL farkı 571 puan (acceptable range içinde, 600'den az)",
-  "tp_basis": "TP1 = 1H vPOC (64546.0) - current bar içinde pullback hedefi; TP2 = 4H VAH (64811.0) - trend extension target",
-  "absorption": "Mevcut bar (close 64758.0) 4H high (64810.0) yakınında, bid_ask_ratio=0.65 (seller pressure var) fakat delta=+615 güçlü alış baskısı gösteriyor. Possible_absorption false ama delta_sum_5bars=+687 ORDER FLOW ONAY sağlıyor.",
-  "dom_observation": "Ask depth (1484) > Bid depth (963), klassik bull rally setup'ı. Ask_vol dominans (1077>462) mevcut barın kapanış kuvvetini gösterir.",
-  "session_bias": "Session delta +5.6M, buy_volume (12.6M) / sell_volume (6.9M) = 1.82 ratio. Gün başından beri agresif kurumsal alış baskısı açık.",
-  "reasoning": "4H+1H BULL uyumlu, order flow delta (+687 5bar) kurumsal alış onayı, fiyat 4H VAH yakınında acceptance bölgesinde, SL-TP oranı 1:1.4 risk-reward optimal.",
+  "order_flow_signal": "SELL",
+  "confidence_score": "72",
+  "entry": "59370.0",
+  "tp1": "59630.0",
+  "tp2": "59460.0",
+  "stop": "59732.0",
+  "sl_basis": "4H_VAH(59720)+12pt = 59732 | Risk=362pt (kabul edilebilir <600pt)",
+  "tp_basis": "TP1=1H_vPOC(59630) | TP2=4H_VAL(59460-SELL için)",
+  "candle_pattern": "Last_bar_massive_delta_spike(-590 delta) + inverted_hammer + bid_dominance (864 bid vs 274 ask) → Satış absorpsiyonu",
+  "delta_obs": "CVD severely negative (-1572716 session) | Delta_sum_5bars=-59 | Last_bar delta spike (-590) = Order Flow rejection at VAH zone | Buy:Sell ratio 0.39 extreme sell bias",
+  "reasoning": "4H BEAR + massive sell delta spike at VAH(59720) + negative CVD trend + bid dominance (1.73 ratio) + VAL support(59460) = güçlü SHORT sinyali; 1H FLAT uyumsuzluğu yüksek TF bear momentum tarafından etkisiz hale getirilmiş",
   "should_trade": "EVET",
-  "timestamp": "14:01:49"
+  "timestamp": "23:55:40"
 }
