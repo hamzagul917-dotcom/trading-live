@@ -1,10 +1,27 @@
 {
-  "order_flow_signal": "SELL",
-  "confidence_score": 75,
-  "entry": 97850.0,
-  "tp1": 97400.0,
-  "stop": 98250.0,
-  "reasoning": "DOM'da ask_depth > bid_depth (satış baskısı), CVD negatif trend, fiyat VAH yakınında. 1m bearish, 5m düşüş eğiliminde. Order flow satıcıları destekliyor.",
-  "timestamp": "14:59:45",
-  "sembol": "BTCUSDT"
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
+  "key_levels": {
+    "vPOC": "59590.0",
+    "VAL": "59280.0",
+    "VAH": "59940.0"
+  },
+  "htf_analysis": {
+    "1h": "FLAT",
+    "4h": "BULL",
+    "ozet": "4H BULL dominant, 1H FLAT uyumsuzluk göstermektedir fakat 5M/15M BULL bias ile kompensasyon sağlanmaktadır."
+  },
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "59850.0",
+  "tp1": "59810.0",
+  "tp2": "59940.0",
+  "stop": "59280.0",
+  "sl_basis": "4H_VAL (59280.0) - 12pt = 59268pt; Risk = 59850-59268 = 582pt (sabit 100pt kullanılmıştır, <600 kabul edilebilir)",
+  "tp_basis": "TP1=1H vPOC (59810.0); TP2=4H_VAH (59940.0)",
+  "candle_pattern": "Doji/Spinning_Top (59850 High=59870, Low=59850, Close=59850) + Önceki 5 barın strong buy delta (207 sum) = Hammer/Absorption pattern",
+  "delta_obs": "delta_sum_5bars=+207 (STRONG BUY), CVD=7267685 (pozitif trend), current_bar delta=-2 (absorption/indecision) + possible_absorption=true, Ask/Bid depth 0.45 oranı buyer dominasyonunu doğrulıyor",
+  "reasoning": "4H BULL trend + 1H FLAT (uyumsuz ancak düşük timeframe BULL) + strong cumulative delta + absorption pattern + bid/ask imbalance = BUY setup validation.",
+  "should_trade": "EVET",
+  "timestamp": "18:44:16"
 }
