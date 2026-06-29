@@ -1,10 +1,10 @@
 {
   "order_flow_signal": "SELL",
-  "confidence_score": 75,
-  "entry": 102530.0,
-  "tp1": 102380.0,
-  "stop": 102680.0,
-  "reasoning": "DOM'da ask_depth > bid_depth (güçlü satış baskısı), CVD negatif trend, fiyat VAH yakınında (102600 civarı), 1m ve 5m grafikler aşağı yönlü. Order flow satıcıları tercih ediyor.",
-  "timestamp": "14:55:57",
+  "confidence_score": 72,
+  "entry": 43150.0,
+  "tp1": 42900.0,
+  "stop": 43400.0,
+  "reasoning": "DOM'da ask_depth > bid_depth belirgin şekilde görülüyor. CVD negatif trend gösteriyor. Fiyat VAH bölgesine yakın konumda. 1m grafikte düşüş momentumu var. Satış baskısı dominan.",
+  "timestamp": "14:56:31",
   "sembol": "BTCUSDT"
 }
