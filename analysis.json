@@ -1,10 +1,10 @@
 {
-  "order_flow_signal": "SELL",
-  "confidence_score": 75,
-  "entry": 101800.0,
-  "tp1": 101350.0,
-  "stop": 102250.0,
-  "reasoning": "DOM'da ask_depth > bid_depth (güçlü satış baskısı), fiyat VAH yakınında (101900 civarı), CVD negatif trend, 1m ve 5m grafiklerde downtrend formatı. Multiple confluence ile satış sinyali güçlü.",
-  "timestamp": "14:46:48",
+  "order_flow_signal": "BUY",
+  "confidence_score": 72,
+  "entry": 42850.0,
+  "tp1": 43000.0,
+  "stop": 42700.0,
+  "reasoning": "DOM'da bid_depth > ask_depth (güçlü alış baskısı), CVD pozitif trend, 1m grafikte yeşil mumlar, fiyat VAL yakınında ve destek bölgesinde. Agresif long pozisyon açılabilir.",
+  "timestamp": "14:54:38",
   "sembol": "BTCUSDT"
 }
