@@ -1,27 +1,27 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "60420.0",
-    "VAL": "59090.0",
-    "VAH": "60320.0"
+    "vPOC": "60450.0",
+    "VAL": "60210.0",
+    "VAH": "60630.0"
   },
   "htf_analysis": {
-    "1h": "BEAR",
-    "4h": "BEAR",
-    "ozet": "Tüm timeframeler (5m, 15m, 1h, 4h) bearish yönlendirilmiş, 4H VAL 59090 çok altında, fiyat üst rejection bölgesinde"
+    "1h": "BULL",
+    "4h": "BULL",
+    "özet": "Tüm timeframe'ler uyumlu bullish yönlü, 4H VAH=60630 dirençi, VAL=60210 desteği ile açık bir range içinde"
   },
-  "order_flow_signal": "SELL",
+  "order_flow_signal": "BUY",
   "confidence_score": "78",
-  "entry": "60240.0",
-  "tp1": "60490.0",
-  "tp2": "59090.0",
-  "stop": "60332.0",
-  "sl_basis": "4H_VAH(60320.0) + 12pt = 60332.0, risk=92pt (sabit 100pt kuralı uygulandı)",
-  "tp_basis": "TP1=1H vPOC(60490.0), TP2=4H_VAL(59090.0)",
-  "candle_pattern": "Doji/Tweezer yapısı, düşük hacim bar, fiyat VAH rejection bölgesinde yapışmış",
-  "delta_obs": "Son bar delta +70 ama delta_sum_5bars -340 (güçlü satış baskısı), bid/ask oranı 1.81 (satış dominansı), CVD divergence yok ama possible_absorption=true",
-  "reasoning": "4H+1H BEAR uyumlu, fiyat 4H VAH rejection seviyesinde, 5bar delta toplamı -340 gösteriyor satıcı kontrolü, bid derinliği ask'ten 1.81x fazla, SL riski 92pt kabul aralığında.",
+  "entry": "60510.0",
+  "tp1": "60450.0",
+  "tp2": "60630.0",
+  "stop": "60198.0",
+  "sl_basis": "4H_VAL(60210) - 12pt = 60198, risk=312pt (80-600pt aralığında geçerli)",
+  "tp_basis": "TP1=1H vPOC(60450), TP2=4H_VAH(60630)",
+  "candle_pattern": "Doji-like micro consolidation, askı ince, gövde minimal, 5-bar delta ortalaması +64",
+  "delta_obs": "CVD=470213 güçlü pozitif akım, delta_sum_5bars=320 (spike yok ama sürekli buy pressure), ask_vol>bid_vol sistematik olarak, bid/ask ratio=0.59 (sell tarafı zayıf)",
+  "reasoning": "4H+1H bull uyumu, pozitif CVD trendi, buy/sell ratio 1.51, vPOC acceptance zonu, ask depth zayıflığı alıcı baskısını doğruluyor.",
   "should_trade": "EVET",
-  "timestamp": "20:29:16"
+  "timestamp": "22:03:33"
 }
