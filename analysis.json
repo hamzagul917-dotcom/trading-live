@@ -2,9 +2,9 @@
   "order_flow_signal": "SELL",
   "confidence_score": 75,
   "entry": 60650.0,
-  "tp1": 60400.0,
-  "stop": 60950.0,
-  "reasoning": "DOM'da ask_depth > bid_depth (güçlü satış baskısı), fiyat VAH (60660) yakınında, CVD negatif trend gösteriyor. 1m grafik düşüş momentumu ile uyumlu. Agresif short setup.",
-  "timestamp": "03:03:20",
+  "tp1": 60450.0,
+  "stop": 60850.0,
+  "reasoning": "DOM'da ask_depth > bid_depth (satış baskısı güçlü). CVD negatif trend gösteriyor. Fiyat VAH (60660) yakınında ve dirençte. 1m grafikte red candle şekilleniyor. Agresif short position ile SAT sinyali.",
+  "timestamp": "03:12:57",
   "sembol": "BTCUSDT"
 }
