@@ -1,27 +1,27 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 62570.0,
-    "VAL": 62540.0,
-    "VAH": 62630.0
+    "vPOC": "62730.0",
+    "VAL": "62640.0",
+    "VAH": "62810.0"
   },
   "htf_analysis": {
-    "1h": "BEAR",
-    "4h": "BEAR",
-    "ozet": "4H+1H uyumlu BEAR sinyali. 4H VAL:62520 altında fiyat hala 62550 seviyesinde. VAH:62880'e uzun mesafe. Düşüş trendi güçlü."
+    "1h": "BULL",
+    "4h": "BULL",
+    "ozet": "4H+1H uyumlu BULL sinyali, 4H_vPOC=63010 üst rejimde, 1H_vPOC=62730 support olarak fonksiyon görüyor"
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": 72,
-  "entry": 62550.0,
-  "tp1": 62570.0,
-  "tp2": 62520.0,
-  "stop": 62652.0,
-  "sl_basis": "4H_VAH(62880) + 12pt koşulu yerine TP2 seviyesi (4H_VAL:62520) kullanıldı. Risk=102pt (80pt-600pt aralığında)",
-  "tp_basis": "TP1=1H vPOC(62570) | TP2=4H_VAL(62520) - SELL için standart hedef",
-  "candle_pattern": "Son 30 barsa bakıldığında bearish tweezer ve rejection. 22:31'de -173 delta ile güçlü satış, son 10 barın net deltası -67 (sıfır yakın denge yok)",
-  "delta_obs": "Session CVD: -175889 (güçlü satış baskısı). Delta_sum_5bars: -30. Son bar delta: +3 (zayıf). Last_10_bars net: -67. Bid/Ask oranı 1.69 (alıcı derinlik fazla ama CVD'ye karşı çıkmıyor)",
-  "reasoning": "4H+1H BEAR uyumu + negatif CVD trend + 62570 vPOC'dan rejection + bid derinliğine rağmen satış baskısı sürmesi SELL sinyali verir.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "entry": "62760.0",
+  "tp1": "62730.0",
+  "tp2": "62810.0",
+  "stop": "62628.0",
+  "sl_basis": "4H_VAL(62640) - 12pt = 62628; Risk=132pt (sabit 100pt dönüşüm aralığında)",
+  "tp_basis": "TP1=1H_vPOC(62730), TP2=4H_VAH(62810) BULL senaryosu",
+  "candle_pattern": "Hammer+Tweezer: 02:33-02:37 arası 5 barı incelendiğinde küçük gövde, wick tutuş, Bid/Ask imbalansı (5,6,14,6 bid | 31,16,20,15 ask)",
+  "delta_obs": "Last_10_bars +89 delta cumulative, CVD=-1.7M negatif ancak local +26 (5bar), possible_absorption=TRUE, delta_spike at 02:33(+26), stacked_buy rejection yok ama bid accumulation var",
+  "reasoning": "4H BULL + 1H BULL uyumlu, 02:15 spike down (-183 delta) absorbe edildi, 62640 VAL support tuttu, şu anki zone (62750) 1H_vPOC altında konumlandı; absorption + micro delta recovery + bid depth defisiti(0.53 ratio) belirtileri mevcut.",
   "should_trade": "EVET",
-  "timestamp": "01:02:09"
+  "timestamp": "04:38:39"
 }
