@@ -2,26 +2,29 @@
   "trend_direction": "BULLISH",
   "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": "62730.0",
-    "VAL": "62640.0",
-    "VAH": "62810.0"
+    "vPOC": 63630.0,
+    "VAL": 63470.0,
+    "VAH": 63710.0
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
-    "ozet": "4H+1H uyumlu BULL sinyali, 4H_vPOC=63010 üst rejimde, 1H_vPOC=62730 support olarak fonksiyon görüyor"
+    "5m_timing": "BULL",
+    "15m_timing": "BEAR",
+    "ozet": "4H+1H tam uyum BULL. 15M BEAR pullback fırsatı sağlıyor, 5M BULL giris noktası teyit ediyor."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "entry": "62760.0",
-  "tp1": "62730.0",
-  "tp2": "62810.0",
-  "stop": "62628.0",
-  "sl_basis": "4H_VAL(62640) - 12pt = 62628; Risk=132pt (sabit 100pt dönüşüm aralığında)",
-  "tp_basis": "TP1=1H_vPOC(62730), TP2=4H_VAH(62810) BULL senaryosu",
-  "candle_pattern": "Hammer+Tweezer: 02:33-02:37 arası 5 barı incelendiğinde küçük gövde, wick tutuş, Bid/Ask imbalansı (5,6,14,6 bid | 31,16,20,15 ask)",
-  "delta_obs": "Last_10_bars +89 delta cumulative, CVD=-1.7M negatif ancak local +26 (5bar), possible_absorption=TRUE, delta_spike at 02:33(+26), stacked_buy rejection yok ama bid accumulation var",
-  "reasoning": "4H BULL + 1H BULL uyumlu, 02:15 spike down (-183 delta) absorbe edildi, 62640 VAL support tuttu, şu anki zone (62750) 1H_vPOC altında konumlandı; absorption + micro delta recovery + bid depth defisiti(0.53 ratio) belirtileri mevcut.",
+  "confidence_score": 72,
+  "entry": 63480.0,
+  "tp1": 63630.0,
+  "tp2": 63950.0,
+  "stop": 63370.0,
+  "sl_basis": "4H VAL (63470) - 12 = 63458, ancak minimum koruma kuralı uygulanır. Entry (63480) - SL = 122 puan > 80 minimum. SL = 63370 (entry - 110 puan, optimize edilmiş risk yönetimi).",
+  "tp_basis": "TP1 = 1H vPOC (63630), TP2 = 4H VAH (63710 > TP1 olduğu için korunur). Risk/Reward = 110/180 = 1.64 ratio.",
+  "absorption": "00:21 bar'da 525 volume ile +402 delta (extreme ask volume 464) gösterir kurumsal BUY absorption. Ardından 00:29-00:30 bar'larda -90 delta re-test ve 00:36 bar'da +97 delta ile strength recovery teyit ediyor.",
+  "dom_observation": "Ask depth (677) > Bid depth (652), bid/ask ratio 0.96 - seller aggression hafif, ancak last 2 bar'da ask volume dominans (126 vs 29) strong BUY sinyali.",
+  "session_bias": "Session delta +20863 (BULL), buy/sell ratio 1.02 - gün net pozitif enerji içinde. CVD continuation pozitif yönde.",
+  "reasoning": "4H+1H tam BULL alignment + 00:36 bar'da +97 delta strong pullup + 4H VAL yakınında fiyat (63480) + order flow absorption teyidi → pullback sonrası BUY setup hazır.",
   "should_trade": "EVET",
-  "timestamp": "04:38:39"
+  "timestamp": "02:37:20"
 }
