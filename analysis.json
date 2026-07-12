@@ -1,30 +1,10 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
-  "key_levels": {
-    "vPOC": "63300.0",
-    "VAL": "63240.0",
-    "VAH": "63330.0"
-  },
-  "htf_analysis": {
-    "1h": "BEAR",
-    "4h": "BEAR",
-    "5m_timing": "BEAR",
-    "15m_timing": "FLAT",
-    "ozet": "4H ve 1H tam uyumlu BEAR sinyali. 5M de BEAR. SELL kurulumu geçerli."
-  },
   "order_flow_signal": "SELL",
-  "confidence_score": "72",
-  "entry": "63230.0",
-  "tp1": "63290.0",
-  "tp2": "63140.0",
-  "stop": "63392.0",
-  "sl_basis": "4H VAH (63580) + 12 = 63592 aslında, ancak son 10 bar içinde 63241-63370 aralığında işlem gördüğünden, SL = 63392 (entry 63230 + 162 risk) kullanılmıştır.",
-  "tp_basis": "TP1 = 1H vPOC (63290) hedefine düşüş beklentisi. TP2 = 4H VAL (63140) altına doğru uzantı hedefi.",
-  "absorption": "Mevcut bar (04:59): Vol=18, Delta=-15. Son 2 bar güçlü satış baskısı: 04:58 bar delta -30 (41 vol), 04:57 bar delta -26 (36 vol). CVD negatif trend devam ediyor. Absorption yok ama satış hacmi dominantlığı açık.",
-  "dom_observation": "Bid/Ask oranı 2.31 (134 bid / 58 ask). Satıcı tarafında ağırlık var. Ask depth düşük (58), bid depth yüksek (134) - satış baskısı açık işareti.",
-  "session_bias": "Session delta: -75088 (negatif). Buy volume 6949104 vs Sell volume 7024732. Sell dominantlığı net. Buy/Sell ratio 0.99 - satıcılar öncü konumdadır.",
-  "reasoning": "4H BEAR + 1H BEAR tam uyum + son 5 bar delta -67 (Kural 4 SELL koşulu -80'e yakın) + session negatif bias + DOM satıcı baskısı + fiyat 63230'de 4H VAL (63140) ve 1H VAL (63250) yakınında pullback reddi gösteriyor.",
-  "should_trade": "EVET",
-  "timestamp": "06:59:22"
+  "confidence_score": 72,
+  "entry": 63788.0,
+  "tp1": 63688.0,
+  "stop": 63819.04,
+  "reasoning": "Fiyat VAH (64060) yakınında ve CVD negatif trend içinde. DOM'da ask_depth baskın görülüyor. 1m grafikte kırmızı mum ve aşağı momentum net. Reaksiyonu satmak için ideal konum.",
+  "timestamp": "01:06:08",
+  "sembol": "BTCUSDT"
 }
