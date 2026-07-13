@@ -1,9 +1,9 @@
 {
   "order_flow_signal": "SELL",
   "confidence_score": 75,
-  "entry": 62679.0,
+  "entry": 62645.0,
   "tp1": 62435.0,
-  "stop": 62746.4,
+  "stop": 62747.49,
   "reasoning": "DOM'da ask_depth > bid_depth (güçlü satış baskısı), 1m grafik düşüş trendinde, CVD negatif, fiyat VAH yakınında. Multiple confirmations for downside. Agresif SELL setup.",
   "timestamp": "07:23:46",
   "sembol": "BTCUSDT"
