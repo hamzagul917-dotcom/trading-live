@@ -1,31 +1,27 @@
 {
   "trend_direction": "BULLISH",
-  "market_structure": "Absorption",
+  "market_structure": "Rejection",
   "key_levels": {
-    "vPOC_30m": 63859.0,
-    "VAL_30m": 63833.0,
-    "VAH_30m": 63956.0,
-    "vPOC_4h": 64122.0,
-    "VAL_4h": 64038.0,
-    "VAH_4h": 64239.0
+    "vPOC": "63988.0",
+    "VAL": "63910.0",
+    "VAH": "64193.0",
+    "4h_vPOC": "64122.0"
   },
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
-    "ozet": "4H+1H BULL alignment güçlü; fakat 15m BEAR sinyali mikro seviyede uyumsuzluk gösteriyor. 4H POC (64122) yukarıda, 1H POC (63859) güçlü destek."
+    "ozet": "4H ve 1H uyumlu bullish trend, ancak fiyat 30M VAL (63910) altında işlem gördüğü için güç kaybı işareti mevcut."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 68,
-  "candle_pattern": "Absorption + Recovery Bar (12:46 bar: 63833 low'dan 63941 high'a spike, +56 delta); akışkan rebound pattern",
-  "delta_obs": "Son 5 bar delta: +57 (pozitif akümülasyon). CVD session negatif (-1.64M) ancak son 10 barın net deltas: +56 (sağlık geri kazanışı). Bid/Ask ratio 1.28 (bid favorisi).",
-  "reasoning": "4H BULL + 1H BULL, VAL (63833) test ve rebound, absorption maddesi (bid_depth > ask_depth, possible_absorption=true), delta recovery ile BUY konfirmasyonu; fakat büyük session CVD negatifliği ve 15m BEAR düşük güveni kırıyor.",
+  "confidence_score": "62",
+  "candle_pattern": "Doji-like mum (close: 63980 range: 44) - belirsizlik paterni, ancak son bardan önceki güçlü bullish momentum (12:52-12:53) onay niteliğinde.",
+  "delta_obs": "Son 5 bar delta: +61 (pozitif), son bar -2 (nötr). CVD negatif (-1,591,239) ancak intraday momentum son 10 barında net bullish (toplam: +184 delta). Session buy/sell ratio: 0.65 (satış baskısı belirgin).",
+  "reasoning": "4H+1H BULL uyumu geçerli, ancak CVD trend negatif ve fiyat 30M VAL'in altında kalması risk oluşturmakta; son barların delta toplamı ve 12:52-12:53 spike'ı kısıtlı bir BUY sinyali verebilir.",
   "should_trade": "EVET",
-  "timestamp": "14:52:18",
-  "additional_notes": {
-    "entry_logic": "63930 (current) > VAL 63833 ve VAH 63956 arasında; SL Python tarafından VAL'e; TP VAH/vPOC üzerinde.",
-    "risk_warning": "CVD gün negatif; pullback riski yüksek. Bid dominasyonu (336 bid vs 186 ask at 12:45) absorpsiyon gösteriyor ama volatilite düşük (14 vol)."
-  },
-  "entry": 63930.0,
-  "tp1": 63956.0,
-  "stop": 63826.75
+  "market_bias": "BULLISH_BUT_CAUTIOUS",
+  "risk_level": "YUKSEK",
+  "timestamp": "14:55:57",
+  "entry": 63963.0,
+  "tp1": 63964.0,
+  "stop": 63826.97
 }
