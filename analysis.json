@@ -1,26 +1,24 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Acceptance",
   "key_levels": {
     "vPOC": "64557.0",
     "VAL": "64285.0",
-    "VAH": "64720.0",
-    "htf_30m_vPOC": "64718.0"
+    "VAH": "64720.0"
   },
   "htf_analysis": {
-    "1h": "BEAR",
-    "4h": "BEAR",
-    "ozet": "4H ve 1H BEAR uyumu güçlü, fakat 15M FLAT ile kısmi uyumsuzluk mevcut. Fiyat 4H high (64875) test etmesine rağmen 30M VAH (64720) üzerinde kapanış başarısız."
+    "1h": "BULL",
+    "4h": "BULL",
+    "ozet": "4H+1H uyumlu BULL sinyali, 64875 H4 high seviyesine dokunmus ve 64793.64 4H VAH uzerinde kapanmis."
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "68",
-  "candle_pattern": "Thrusting Pattern - 15:25 (64875 spike) → 15:45'te pullback (64733). Fake breakout sonrası rejection.",
-  "delta_obs": "14:55 barında massive -538 delta spike (2102 vol, bid_vol 1320) → strong selling absorption. Son 5 bar delta toplamı -87 (satış baskısı). Current bar +63 delta ancak düşük volume (233) = zayıf rebound.",
-  "reasoning": "4H+1H BEAR doğrulama + Order Flow (spike rejection + negative delta sum) + Fiyat 30M VAH reddi = satış baskısı devamı beklentisi.",
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "candle_pattern": "Inverse Hammer (64430 open, 64498 close, 64425 low) - recovery after pullback",
+  "delta_obs": "Son 10 bardaki delta sirkasi: -435 (net bearish) ANCAK son bar +19 delta ile recovery; CVD: 6.96M (strong cumulative bullish); 5-bar sum negatif ama current bar buyerleri gosteriyor (47 ask vs 28 bid)",
+  "reasoning": "4H+1H BULL alignment + 30M vPOC (64553) ve VAH (64587) uzerinde kapanmis, son bar delta spike (+19) ile buy absorption gosteriyor, DOM bid/ask 1.38 orani bullish derinligi isaret ediyor.",
   "should_trade": "EVET",
-  "signal_type": "SELL",
-  "timestamp": "17:51:48",
-  "entry": 64732.0,
-  "tp1": 64670.0,
-  "stop": 64829.61
+  "timestamp": "18:26:11",
+  "entry": 64498.0,
+  "tp1": 64587.0,
+  "stop": 64411.85
 }
