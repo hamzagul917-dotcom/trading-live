@@ -2,23 +2,23 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC": "64176.0",
-    "VAL": "64161.0",
-    "VAH": "64237.0"
+    "vPOC": 64176.0,
+    "VAL": 64161.0,
+    "VAH": 64237.0
   },
   "htf_analysis": {
     "1h": "FLAT",
     "4h": "BULL",
-    "ozet": "4H BULL dominant; 1H FLAT yapısı düşüş riskini azaltıyor. Fiyat 4H vPOC (64188) üzerinde konumlanmış."
+    "ozet": "4H BULL trend aktif, 1H consolidation içinde - 5M de BULL momentum var, uyumlu sinyal"
   },
   "order_flow_signal": "BUY",
   "confidence_score": "72",
-  "candle_pattern": "Bullish absorption + delta spike",
-  "delta_obs": "Son bar (19:50) +29 delta ile güçlü buy absorption; Last 10 bars net +42 delta; Session CVD +9838 (buy dominansı). 19:37 bar +30 delta spike, 19:39 bar -30 sell rejection → Bullish divergence.",
-  "reasoning": "4H BULL + 1H FLAT uyumlu yön; mevcut fiyat (64179) 30M VAL (64161) üzerinde; güçlü order flow ile satıcı reddedilmesi ve alıcı absorpsiyonu tespit edildi.",
+  "candle_pattern": "Bullish impulse + High volume breakout (19:50 bar: 85vol, +31delta)",
+  "delta_obs": "Son 10 mum: Negatif delta (-15) sonra güçlü pozitif spike (+31 at 19:50). CVD: +21807 (session buy dominance +19%). Delta_sum_5bars: +60 = bullish momentumu doğrulanıyor.",
+  "reasoning": "4H BULL + 5M BULL align, 19:50 bar'da high-volume acceptance (+85vol, +31delta) VAH'ın altında 64199'de gerçekleşti, current bar '19:51' düşük volüm (+21vol) ile consolidation yapıyor, kırılmaya hazır bullish setup.",
   "should_trade": "EVET",
-  "timestamp": "21:50:50",
-  "entry": 64179.0,
-  "tp1": 64207.0,
-  "stop": 64151.28
+  "timestamp": "21:52:04",
+  "entry": 64216.0,
+  "tp1": 64251.0,
+  "stop": 64150.98
 }
