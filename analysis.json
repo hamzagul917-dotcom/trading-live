@@ -9,16 +9,17 @@
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
-    "ozet": "4H+1H uyumlu BULL sinyali, 64875 H4 high seviyesine dokunmus ve 64793.64 4H VAH uzerinde kapanmis."
+    "ozet": "4H ve 1H alignment BULL, HTF profilinde VAH:64808-VAL:64519 range içinde bullish acceptance gözlemleniyor. 1H vPOC:64718 üzerinde yapı kırılması yok."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "candle_pattern": "Inverse Hammer (64430 open, 64498 close, 64425 low) - recovery after pullback",
-  "delta_obs": "Son 10 bardaki delta sirkasi: -435 (net bearish) ANCAK son bar +19 delta ile recovery; CVD: 6.96M (strong cumulative bullish); 5-bar sum negatif ama current bar buyerleri gosteriyor (47 ask vs 28 bid)",
-  "reasoning": "4H+1H BULL alignment + 30M vPOC (64553) ve VAH (64587) uzerinde kapanmis, son bar delta spike (+19) ile buy absorption gosteriyor, DOM bid/ask 1.38 orani bullish derinligi isaret ediyor.",
-  "should_trade": "EVET",
-  "timestamp": "18:26:11",
-  "entry": 64498.0,
-  "tp1": 64587.0,
-  "stop": 64411.85
+  "confidence_score": "68",
+  "candle_pattern": "Doji/Low Volume Bar - 64490 close, delta +17 (weak), volume 64 (critical weakness)",
+  "delta_obs": "Last 10 bars delta sum: -437 (bearish divergence). Current bar delta +17 minimal. Session CVD pozitif (6.9M) fakat son 5 barlar -437 delta ile PULLBACK sinyali veriyor. 30m vPOC:64553 defense seviyesi aktif.",
+  "reasoning": "4H+1H BULL alignment ile HTF bias uyumlu olmasına rağmen, son 5 bar -437 delta ile pullback içindeyiz. vPOC:64557 defense ve 30m VAL:64425 support kontrol edilirse, yeniden BUY daha güvenilir.",
+  "should_trade": "KOŞULLU",
+  "timestamp": "18:26:14",
+  "notes": "ÖNEMLİ: Mevcut bar çok düşük volüm (64) ve zayıf delta (+17). 30M VAL (64425) test edilirse veya vPOC (64557) tekrar kırılırsa SHORT risk artar. Şu anki setup SABIRLİ BUY bekleme pozisyonudur - volüm onayı gerekli.",
+  "entry": 64490.0,
+  "tp1": 64553.0,
+  "stop": 64406.94
 }
