@@ -4,7 +4,7 @@
   "key_levels": {
     "vPOC_30m": 64136.0,
     "VAL_30m": 64136.0,
-    "VAH_30m": 64242.0,
+    "VAH_30m": 64244.0,
     "vPOC_4h": 64479.0,
     "VAL_4h": 64180.0,
     "VAH_4h": 64876.0
@@ -12,23 +12,28 @@
   "htf_analysis": {
     "1h": "FLAT",
     "4h": "BULL",
-    "ozet": "4H BULL trend devam etmekte, 1H FLAT konsolidasyonda; fiyat 30M VAH (64242) altında kabul görmüş durumda"
+    "ozet": "4H BULL yönü dominant, 1H FLAT konsolidasyon gösteriyor; 4H VAL (64180) altında hareket eden fiyat, yeniden kabul alanına doğru ilerliyor"
   },
   "order_flow_signal": "BUY",
   "confidence_score": 62,
-  "candle_pattern": "Çekiç formasyonu + Pozitif Delta Spike",
-  "delta_obs": "Son 5 bar delta toplamı +25 (bullish), CVD divergence positive, current bar delta +8 (iki taraflı yaklaşım); 18:40 barında -298 delta absorbsiyonu tespit edildi",
-  "reasoning": "4H BULL + 1H FLAT uyumlu, son 10 bardan 6 tanesinde pozitif delta ve fiyat 64136-64242 aralığında (30M POC-VAH) konsolidasyonu gösteren satın alma tuzağından çıkış sinyali.",
+  "candle_pattern": "Higher Low Formation - Son 5 mumda volatilik azalış + Pozitif Delta Akümülasyonu (18,7,8,83,7 deltas)",
+  "delta_obs": "Son 5 mumda +143 net delta / CVD diverjans YOK ancak CVD yüksek (767247) - Bid/Ask oranı 1.34 (Alıcı baskısı)",
+  "reasoning": "4H BULL trend onayı + 30m vPOC/VAL kütlesi altında konsolidasyonu kıran +delta spikeleri + DOM bid dominansı (1.34 ratio) = Düşük-orta güvenli long sinyali",
   "should_trade": "EVET",
-  "timestamp": "21:32:39",
-  "notes": {
-    "key_observation": "DOM bid/ask oranı 1.34 (güçlü buyer pressure), son 3 bar green body + positive delta",
-    "risk_factor": "1H FLAT durumu volatilite azaltıyor, 4H VAL (64180) destek olarak işlev görüyor",
-    "entry_zone": "64200-64220",
-    "sl_reference": "30M VAL: 64136",
-    "tp_reference": "30M VAH: 64242"
+  "trade_setup": {
+    "direction": "LONG",
+    "entry_zone": "64218-64238",
+    "sl_level": "64136 (30m VAL)",
+    "tp_level": "64244 (30m VAH)",
+    "risk_reward": "1:1.4"
   },
-  "entry": 64209.0,
-  "tp1": 64245.0,
+  "cautions": [
+    "1H FLAT - Yönün kesin olmaması, 4H büyük timeframe'den destek almış",
+    "Volume Profile vPOC (64557) uzak - fiyat daha yüksek seviyelere ihtiyaç duyabilir",
+    "Düşük mum volumes (73,115,53 vol) - Likidite zayıf, slip riski var"
+  ],
+  "timestamp": "21:33:56",
+  "entry": 64207.0,
+  "tp1": 64244.0,
   "stop": 64123.22
 }
