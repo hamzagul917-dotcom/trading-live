@@ -1,24 +1,10 @@
 {
-  "trend_direction": "BULLISH",
-  "market_structure": "Acceptance",
-  "key_levels": {
-    "vPOC": 64176.0,
-    "VAL": 64161.0,
-    "VAH": 64237.0
-  },
-  "htf_analysis": {
-    "1h": "FLAT",
-    "4h": "BULL",
-    "ozet": "4H BULL trend aktif, 1H consolidation içinde - 5M de BULL momentum var, uyumlu sinyal"
-  },
-  "order_flow_signal": "BUY",
-  "confidence_score": "72",
-  "candle_pattern": "Bullish impulse + High volume breakout (19:50 bar: 85vol, +31delta)",
-  "delta_obs": "Son 10 mum: Negatif delta (-15) sonra güçlü pozitif spike (+31 at 19:50). CVD: +21807 (session buy dominance +19%). Delta_sum_5bars: +60 = bullish momentumu doğrulanıyor.",
-  "reasoning": "4H BULL + 5M BULL align, 19:50 bar'da high-volume acceptance (+85vol, +31delta) VAH'ın altında 64199'de gerçekleşti, current bar '19:51' düşük volüm (+21vol) ile consolidation yapıyor, kırılmaya hazır bullish setup.",
-  "should_trade": "EVET",
-  "timestamp": "21:52:04",
-  "entry": 64216.0,
-  "tp1": 64251.0,
-  "stop": 64150.98
+  "order_flow_signal": "SELL",
+  "confidence_score": 72,
+  "entry": 63811.0,
+  "tp1": 63750.0,
+  "stop": 63828.96,
+  "reasoning": "DOM'da ask_depth > bid_depth gözlemleniyor. CVD negatif trend gösteriyor. Fiyat VAH (63845) yakınında ve üzerinde rejection oluşuyor. 1m grafik aşağı yönlü momentum gösteriyor. Agresif short pozisyonu için uygun setup.",
+  "timestamp": "01:49:27",
+  "sembol": "BTCUSDT"
 }
