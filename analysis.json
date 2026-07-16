@@ -9,17 +9,16 @@
   "htf_analysis": {
     "1h": "BULL",
     "4h": "BULL",
-    "ozet": "4H ve 1H alignment BULL, HTF profilinde VAH:64808-VAL:64519 range içinde bullish acceptance gözlemleniyor. 1H vPOC:64718 üzerinde yapı kırılması yok."
+    "ozet": "Her iki HTF de BULL yönü dominant; 4H vPOC=64636.14, VAH=64785.3 ile yukarı yönlü momentum açık."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": "68",
-  "candle_pattern": "Doji/Low Volume Bar - 64490 close, delta +17 (weak), volume 64 (critical weakness)",
-  "delta_obs": "Last 10 bars delta sum: -437 (bearish divergence). Current bar delta +17 minimal. Session CVD pozitif (6.9M) fakat son 5 barlar -437 delta ile PULLBACK sinyali veriyor. 30m vPOC:64553 defense seviyesi aktif.",
-  "reasoning": "4H+1H BULL alignment ile HTF bias uyumlu olmasına rağmen, son 5 bar -437 delta ile pullback içindeyiz. vPOC:64557 defense ve 30m VAL:64425 support kontrol edilirse, yeniden BUY daha güvenilir.",
-  "should_trade": "KOŞULLU",
-  "timestamp": "18:26:14",
-  "notes": "ÖNEMLİ: Mevcut bar çok düşük volüm (64) ve zayıf delta (+17). 30M VAL (64425) test edilirse veya vPOC (64557) tekrar kırılırsa SHORT risk artar. Şu anki setup SABIRLİ BUY bekleme pozisyonudur - volüm onayı gerekli.",
-  "entry": 64490.0,
-  "tp1": 64553.0,
-  "stop": 64406.94
+  "confidence_score": 72,
+  "candle_pattern": "Bullish Recovery Bar - 14:05 barı +282pips delta spike (359) ile impulse başlattı; 15:25 barı +456 delta ile reaccelerasyon gösterdi.",
+  "delta_obs": "Son 5 barın delta toplamı -374 (compression) ancak mevcut bar delta=+80 pozitif kapanış; CVD=7073826 yüksek bullish trend; 14:55 barı -538 delta ile satış tarafı absorption gösterdi ve 15:25 buyback ile yanıt verildi.",
+  "reasoning": "4H+1H BULL uyumu + 15:25 barında VAH seviyesine acceptance + Order flow absorption paterni (14:55/-538 delta) ardından 15:25 spike → Bullish invalidation reddedildi, alıcılar kontrol devam ediyor.",
+  "should_trade": "EVET",
+  "timestamp": "18:27:24",
+  "entry": 64544.0,
+  "tp1": 64574.0,
+  "stop": 64406.24
 }
