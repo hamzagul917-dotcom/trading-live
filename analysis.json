@@ -1,28 +1,24 @@
 {
-  "trend_direction": "BEARISH",
-  "market_structure": "Rejection",
+  "trend_direction": "BULLISH",
+  "market_structure": "Absorption",
   "key_levels": {
-    "vPOC": 64001.0,
-    "VAL": 64001.0,
-    "VAH": 64078.0
+    "vPOC": 64062.0,
+    "VAL": 64062.0,
+    "VAH": 64218.0
   },
   "htf_analysis": {
-    "1h": "FLAT",
-    "4h": "BEAR",
-    "ozet": "4H bearish bias dominantken 1H flat kalmasi uyumsuzluk yaratiyorsa da 5M/15M bear sinyalleriyle aligmali"
+    "1h": "BULL",
+    "4h": "BULL",
+    "ozet": "4H+1H uyumlu BULL sinyali, VAL 64062'de müşteri tarafından absorpsiyon gösteriliyor."
   },
-  "order_flow_signal": "SELL",
-  "confidence_score": "62",
-  "candle_pattern": "09:53'te keskin dump (-146 delta, 189 vol) sonrasi recovery attempt ile absorption pattern",
-  "delta_obs": "Session CVD -90,775 (guclü satici baskinligi). Son 5 bar delta: -97. 09:53 barinada buyuk satici imbalance (-146 delta, 167 bid/21 ask) absorption işareti. Son bar volume sifir = dagitim durus",
-  "reasoning": "4H BEAR + CVD negatif trend + 09:53 delta spike absorption + vPOC'da (64001) tutunma = satici kontrol açik ama 1H FLAT ise SINIRLI GUVEN.",
-  "should_trade": "SINIRLICA",
-  "timestamp": "11:57:17",
-  "ek_notlar": {
-    "dikkat": "1H ve 4H uyumsuzlugu (4H BEAR, 1H FLAT) RİSK FAKTÖRÜ. Volume kurulusu ve son bar hareketsizligi giris zamanlamasinda ihtiyat gerekmektedir.",
-    "beklenen_senaryo": "VAL 64001 seviyesi tutarsa downtrend devam, VAH 64078 ustu kirisa kadar satici baskinligi devam etmeli."
-  },
-  "entry": 64061.0,
-  "tp1": 64001.0,
-  "stop": 64075.28
+  "order_flow_signal": "BUY",
+  "confidence_score": "72",
+  "candle_pattern": "Lower Low + Absorption | 11:49 kütleli satış (-136 delta, 332 vol) VAL'de durduruldu, 11:58 güçlü alış baruyla (+148 delta, 295 vol) recovery.",
+  "delta_obs": "CVD -114165 negatif ANCAK son barlar delta spike (+148 @ 11:58) ve possible_absorption:true -> Alıcı tarafından absorpsiyon, mini fiyat düşüşü alıcıları çekti.",
+  "reasoning": "Çok zaman dilimleri (4H/1H) BULL, VAL 64062'de absorption teyidi, 11:49 spike'dan sonra kuvvetli recovery ve delta reversal -> LTF pullback BUY setup hazır.",
+  "should_trade": "EVET",
+  "timestamp": "14:07:16",
+  "entry": 64125.0,
+  "tp1": 64213.0,
+  "stop": 64058.76
 }
