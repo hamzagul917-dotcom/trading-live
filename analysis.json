@@ -2,38 +2,23 @@
   "trend_direction": "BULLISH",
   "market_structure": "Acceptance",
   "key_levels": {
-    "vPOC_30m": 64136.0,
-    "VAL_30m": 64136.0,
-    "VAH_30m": 64244.0,
-    "vPOC_4h": 64479.0,
-    "VAL_4h": 64180.0,
-    "VAH_4h": 64876.0
+    "vPOC": "64176.0",
+    "VAL": "64161.0",
+    "VAH": "64237.0"
   },
   "htf_analysis": {
     "1h": "FLAT",
     "4h": "BULL",
-    "ozet": "4H BULL yönü dominant, 1H FLAT konsolidasyon gösteriyor; 4H VAL (64180) altında hareket eden fiyat, yeniden kabul alanına doğru ilerliyor"
+    "ozet": "4H BULL dominant; 1H FLAT yapısı düşüş riskini azaltıyor. Fiyat 4H vPOC (64188) üzerinde konumlanmış."
   },
   "order_flow_signal": "BUY",
-  "confidence_score": 62,
-  "candle_pattern": "Higher Low Formation - Son 5 mumda volatilik azalış + Pozitif Delta Akümülasyonu (18,7,8,83,7 deltas)",
-  "delta_obs": "Son 5 mumda +143 net delta / CVD diverjans YOK ancak CVD yüksek (767247) - Bid/Ask oranı 1.34 (Alıcı baskısı)",
-  "reasoning": "4H BULL trend onayı + 30m vPOC/VAL kütlesi altında konsolidasyonu kıran +delta spikeleri + DOM bid dominansı (1.34 ratio) = Düşük-orta güvenli long sinyali",
+  "confidence_score": "72",
+  "candle_pattern": "Bullish absorption + delta spike",
+  "delta_obs": "Son bar (19:50) +29 delta ile güçlü buy absorption; Last 10 bars net +42 delta; Session CVD +9838 (buy dominansı). 19:37 bar +30 delta spike, 19:39 bar -30 sell rejection → Bullish divergence.",
+  "reasoning": "4H BULL + 1H FLAT uyumlu yön; mevcut fiyat (64179) 30M VAL (64161) üzerinde; güçlü order flow ile satıcı reddedilmesi ve alıcı absorpsiyonu tespit edildi.",
   "should_trade": "EVET",
-  "trade_setup": {
-    "direction": "LONG",
-    "entry_zone": "64218-64238",
-    "sl_level": "64136 (30m VAL)",
-    "tp_level": "64244 (30m VAH)",
-    "risk_reward": "1:1.4"
-  },
-  "cautions": [
-    "1H FLAT - Yönün kesin olmaması, 4H büyük timeframe'den destek almış",
-    "Volume Profile vPOC (64557) uzak - fiyat daha yüksek seviyelere ihtiyaç duyabilir",
-    "Düşük mum volumes (73,115,53 vol) - Likidite zayıf, slip riski var"
-  ],
-  "timestamp": "21:33:56",
-  "entry": 64207.0,
-  "tp1": 64244.0,
-  "stop": 64123.22
+  "timestamp": "21:50:50",
+  "entry": 64179.0,
+  "tp1": 64207.0,
+  "stop": 64151.28
 }
