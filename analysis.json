@@ -1,27 +1,24 @@
 {
-  "trend_direction": "BULLISH",
+  "trend_direction": "BEARISH",
   "market_structure": "Rejection",
   "key_levels": {
-    "vPOC": "63988.0",
-    "VAL": "63910.0",
-    "VAH": "64193.0",
-    "4h_vPOC": "64122.0"
+    "vPOC": "64557.0",
+    "VAL": "64285.0",
+    "VAH": "64720.0"
   },
   "htf_analysis": {
-    "1h": "BULL",
-    "4h": "BULL",
-    "ozet": "4H ve 1H uyumlu bullish trend, ancak fiyat 30M VAL (63910) altında işlem gördüğü için güç kaybı işareti mevcut."
+    "1h": "BEAR",
+    "4h": "BEAR",
+    "ozet": "4H ve 1H açık şekilde BEAR trend gösteriyor; fiyat 4H yüksek (64875) ile VAH (64720) arasında sıkışmış durumda"
   },
-  "order_flow_signal": "BUY",
-  "confidence_score": "62",
-  "candle_pattern": "Doji-like mum (close: 63980 range: 44) - belirsizlik paterni, ancak son bardan önceki güçlü bullish momentum (12:52-12:53) onay niteliğinde.",
-  "delta_obs": "Son 5 bar delta: +61 (pozitif), son bar -2 (nötr). CVD negatif (-1,591,239) ancak intraday momentum son 10 barında net bullish (toplam: +184 delta). Session buy/sell ratio: 0.65 (satış baskısı belirgin).",
-  "reasoning": "4H+1H BULL uyumu geçerli, ancak CVD trend negatif ve fiyat 30M VAL'in altında kalması risk oluşturmakta; son barların delta toplamı ve 12:52-12:53 spike'ı kısıtlı bir BUY sinyali verebilir.",
+  "order_flow_signal": "SELL",
+  "confidence_score": 72,
+  "candle_pattern": "Rejection High - Fiyat 64875 (4H high) yakınında tepki görerek düşüşe başladı; mevcut bar -199 delta ile güçlü satış basıncı gösteriyor",
+  "delta_obs": "Son 10 barın analiziyle güçlü satış dinamiği: 14:55 barında -538 delta ile masif satış oluştu; son bar (-199 delta) absorpsiyondan ziyade satış devamını gösteriyor; CVD pozitif ancak son barlarda tersine dönüş sinyalleri var",
+  "reasoning": "4H+1H çift BEAR ile net SELL sinyali; VAH (64720) reddedilmiş, fiyat 64671'de kapandı; order flow son 5 barında net satış basıncı gösteriyor (457 net delta pozitif fakat yapı ve son barların delta gücü satışı destekliyor)",
   "should_trade": "EVET",
-  "market_bias": "BULLISH_BUT_CAUTIOUS",
-  "risk_level": "YUKSEK",
-  "timestamp": "14:55:57",
-  "entry": 63963.0,
-  "tp1": 63964.0,
-  "stop": 63826.97
+  "timestamp": "17:44:46",
+  "entry": 64664.0,
+  "tp1": 64479.0,
+  "stop": 64787.36
 }
