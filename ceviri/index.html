@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Canlı Çeviri → Português</title>
+<style>
+/* Tek ekran: üstte kontrol çubuğu, ortada büyük Portekizce altyazı, altında orijinal metin */
+:root{
+  --bg:#f3f6f4; --panel:#ffffff; --fg:#14211b; --muted:#5b6b63;
+  --accent:#00843d; --accent2:#ffcc29; --danger:#c62828; --line:#d7e0db;
+  --big: clamp(28px, 4.6vw, 64px);
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0e1612; --panel:#16211b; --fg:#eef4f0; --muted:#9db1a6; --line:#26352d; color-scheme:dark }
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);display:flex;flex-direction:column}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:12px 16px;background:var(--panel);border-bottom:1px solid var(--line)}
+h1{font-size:18px;margin:0 auto 0 0;font-weight:700}
+h1 span{color:var(--accent)}
+label{font-size:14px;color:var(--muted);display:flex;gap:8px;align-items:center}
+select,button{font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+button{cursor:pointer;font-weight:700}
+#btn{background:var(--accent);color:#fff;border-color:var(--accent);min-width:150px}
+#btn.on{background:var(--danger);border-color:var(--danger)}
+button:focus-visible,select:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+main{flex:1;display:flex;flex-direction:column;min-height:0;padding:16px;gap:12px}
+#live{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:18px;padding:8px 4px}
+.item .pt{font-size:var(--big);line-height:1.2;font-weight:600}
+.item .src{font-size:16px;color:var(--muted);margin-top:4px}
+.item.old .pt{font-size:calc(var(--big)*.55);opacity:.75}
+#interim{font-size:20px;color:var(--muted);min-height:28px;font-style:italic}
+#status{font-size:14px;color:var(--muted)}
+#status.err{color:var(--danger);font-weight:600}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:middle}
+.dot.on{background:var(--danger);animation:p 1s infinite}
+@keyframes p{50%{opacity:.3}}
+@media (prefers-reduced-motion: reduce){.dot.on{animation:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Canlı Çeviri → <span>Português (Brasil)</span></h1>
+  <label for="src">Konuşulan dil
+    <select id="src">
+      <option value="sv-SE|sv" selected>Svenska</option>
+      <option value="tr-TR|tr">Türkçe</option>
+      <option value="en-US|en">English</option>
+      <option value="it-IT|it">Italiano</option>
+      <option value="es-ES|es">Español</option>
+      <option value="ar-SA|ar">العربية</option>
+    </select>
+  </label>
+  <button id="clear" type="button">Temizle</button>
+  <button id="btn" type="button">🎤 Başlat</button>
+</header>
+<main>
+  <div id="status"><span class="dot" id="dot"></span><span id="stxt">Hazır. Dili seç ve “Başlat”a bas.</span></div>
+  <div id="live" aria-live="polite"></div>
+  <div id="interim"></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const live=$('live'), interim=$('interim'), btn=$('btn'), srcSel=$('src'), stxt=$('stxt'), dot=$('dot'), statusEl=$('status');
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let rec=null, running=false, translator=null, translatorLang=null;
+
+try{ const s=localStorage.getItem('ceviri_src'); if(s) srcSel.value=s; }catch(e){}
+srcSel.addEventListener('change',()=>{ try{localStorage.setItem('ceviri_src',srcSel.value)}catch(e){} if(running){stop();start();} });
+
+function setStatus(t,err){ stxt.textContent=t; statusEl.classList.toggle('err',!!err); }
+
+if(window.top!==window.self){ setStatus('Bu sayfa önizleme penceresinde açılmış; mikrofon burada çalışmaz. Dosyayı indirip Chrome ile aç.',true); }
+else if(location.protocol==='file:'){ setStatus('Hazır (dosyadan açıldı). Başlat\'a bas; mikrofon izni sorarsa İzin ver.'); }
+if(!SR){ setStatus('Bu tarayıcı konuşma tanımayı desteklemiyor. Lütfen Google Chrome ile aç.',true); btn.disabled=true; }
+
+// --- Çeviri: 1) Chrome'un yerleşik çevirmeni, 2) Google, 3) MyMemory ---
+async function getTranslator(lang){
+  if(!('Translator' in self)) return null;
+  if(translator && translatorLang===lang) return translator;
+  try{
+    const av = await Translator.availability({sourceLanguage:lang,targetLanguage:'pt'});
+    if(av==='unavailable') return null;
+    translator = await Translator.create({sourceLanguage:lang,targetLanguage:'pt',
+      monitor(m){ m.addEventListener('downloadprogress',e=>setStatus('Çeviri modeli indiriliyor… %'+Math.round(e.loaded*100))); }});
+    translatorLang=lang; return translator;
+  }catch(e){ return null; }
+}
+async function viaGoogle(text,lang){
+  const u='https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl='+lang+'&tl=pt&q='+encodeURIComponent(text);
+  const r=await fetch(u); if(!r.ok) throw new Error('g'+r.status);
+  const j=await r.json(); return j[0].map(x=>x[0]).join('');
+}
+async function viaMyMemory(text,lang){
+  const u='https://api.mymemory.translated.net/get?langpair='+lang+'|pt-BR&q='+encodeURIComponent(text);
+  const r=await fetch(u); if(!r.ok) throw new Error('m'+r.status);
+  const j=await r.json(); return j.responseData.translatedText;
+}
+async function translate(text){
+  const lang=srcSel.value.split('|')[1];
+  const t=await getTranslator(lang);
+  if(t){ try{ return await t.translate(text); }catch(e){} }
+  try{ return await viaGoogle(text,lang); }catch(e){}
+  return await viaMyMemory(text,lang);
+}
+
+function addItem(src){
+  [...live.children].forEach(c=>c.classList.add('old'));
+  const d=document.createElement('div'); d.className='item';
+  const pt=document.createElement('div'); pt.className='pt'; pt.textContent='…';
+  const s=document.createElement('div'); s.className='src'; s.textContent=src;
+  d.append(pt,s); live.append(d);
+  while(live.children.length>30) live.firstChild.remove();
+  live.scrollTop=live.scrollHeight;
+  translate(src).then(x=>{pt.textContent=x; live.scrollTop=live.scrollHeight;})
+    .catch(()=>{pt.textContent='(çeviri yapılamadı — internet bağlantısını kontrol et)';});
+}
+
+function start(){
+  if(!SR) return;
+  rec=new SR(); rec.lang=srcSel.value.split('|')[0]; rec.continuous=true; rec.interimResults=true;
+  rec.onresult=e=>{
+    let tmp='';
+    for(let i=e.resultIndex;i<e.results.length;i++){
+      const r=e.results[i];
+      if(r.isFinal){ const t=r[0].transcript.trim(); if(t) addItem(t); }
+      else tmp+=r[0].transcript;
+    }
+    interim.textContent=tmp;
+  };
+  rec.onerror=e=>{
+    if(e.error==='not-allowed'||e.error==='service-not-allowed'){ setStatus('Mikrofon izni yok. Adres çubuğundaki kilit/mikrofon simgesinden izin ver.',true); running=false; ui(); }
+    else if(e.error==='network'){ setStatus('Konuşma tanıma için internet gerekiyor.',true); }
+  };
+  rec.onend=()=>{ if(running){ try{rec.start()}catch(e){} } }; // Chrome kendiliğinden durur, yeniden başlat
+  try{ rec.start(); running=true; setStatus('Dinliyor… konuş.'); }catch(e){ setStatus('Başlatılamadı: '+e.message,true); }
+  ui();
+  getTranslator(srcSel.value.split('|')[1]); // modeli önceden hazırla
+}
+function stop(){ running=false; try{rec&&rec.stop()}catch(e){} interim.textContent=''; setStatus('Durduruldu.'); ui(); }
+function ui(){ btn.classList.toggle('on',running); btn.textContent=running?'⏹ Durdur':'🎤 Başlat'; dot.classList.toggle('on',running); }
+
+btn.addEventListener('click',()=> running?stop():start());
+$('clear').addEventListener('click',()=>{ live.innerHTML=''; interim.textContent=''; });
+</script>
+</body>
+</html>
