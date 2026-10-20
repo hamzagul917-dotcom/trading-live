@@ -54,6 +54,12 @@ main{flex:1;display:flex;flex-direction:column;min-height:0;padding:16px;gap:12p
       <option value="ar-SA|ar">العربية</option>
     </select>
   </label>
+  <label for="mode">Ses kaynağı
+    <select id="mode">
+      <option value="mic">🎤 Mikrofon (oda)</option>
+      <option value="pc">🔊 Bilgisayar sesi</option>
+    </select>
+  </label>
   <button id="clear" type="button">Temizle</button>
   <button id="btn" type="button">🎤 Başlat</button>
 </header>
@@ -119,8 +125,38 @@ function addItem(src){
     .catch(()=>{pt.textContent='(çeviri yapılamadı — internet bağlantısını kontrol et)';});
 }
 
-function start(){
+let pcStream=null, pcTrack=null;
+const modeSel=$('mode');
+try{ const m=localStorage.getItem('ceviri_mode'); if(m) modeSel.value=m; }catch(e){}
+modeSel.addEventListener('change',()=>{ try{localStorage.setItem('ceviri_mode',modeSel.value)}catch(e){} if(running){stop();start();} });
+
+async function getPcAudio(){
+  if(pcTrack && pcTrack.readyState==='live') return pcTrack;
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia) throw new Error('nosupport');
+  pcStream = await navigator.mediaDevices.getDisplayMedia({video:true, audio:true, systemAudio:'include', selfBrowserSurface:'exclude'});
+  const a = pcStream.getAudioTracks()[0];
+  if(!a){ pcStream.getTracks().forEach(t=>t.stop()); pcStream=null; throw new Error('noaudio'); }
+  pcTrack=a;
+  a.addEventListener('ended',()=>{ if(running && modeSel.value==='pc') stop(); });
+  return a;
+}
+function releasePc(){ if(pcStream){ pcStream.getTracks().forEach(t=>t.stop()); } pcStream=null; pcTrack=null; }
+
+function recStart(){
+  if(modeSel.value==='pc') rec.start(pcTrack); else rec.start();
+}
+
+async function start(){
   if(!SR) return;
+  if(modeSel.value==='pc'){
+    try{ await getPcAudio(); }
+    catch(e){
+      if(e.message==='noaudio') setStatus('Ses alınamadı. Paylaşırken “Tüm ekran”ı seç ve alttaki “Sistem sesini de paylaş” kutusunu işaretle.',true);
+      else if(e.message==='nosupport') setStatus('Bu tarayıcı bilgisayar sesini alamıyor. Güncel Google Chrome kullan.',true);
+      else setStatus('Paylaşım iptal edildi. Tekrar Başlat\'a bas.',true);
+      return;
+    }
+  } else { releasePc(); }
   rec=new SR(); rec.lang=srcSel.value.split('|')[0]; rec.continuous=true; rec.interimResults=true;
   rec.onresult=e=>{
     let tmp='';
@@ -135,12 +171,18 @@ function start(){
     if(e.error==='not-allowed'||e.error==='service-not-allowed'){ setStatus('Mikrofon izni yok. Adres çubuğundaki kilit/mikrofon simgesinden izin ver.',true); running=false; ui(); }
     else if(e.error==='network'){ setStatus('Konuşma tanıma için internet gerekiyor.',true); }
   };
-  rec.onend=()=>{ if(running){ try{rec.start()}catch(e){} } }; // Chrome kendiliğinden durur, yeniden başlat
-  try{ rec.start(); running=true; setStatus('Dinliyor… konuş.'); }catch(e){ setStatus('Başlatılamadı: '+e.message,true); }
+  rec.onend=()=>{ if(running){ try{recStart()}catch(e){} } }; // Chrome kendiliğinden durur, yeniden başlat
+  try{
+    recStart(); running=true;
+    setStatus(modeSel.value==='pc' ? 'Bilgisayar sesi dinleniyor… bir video ya da arama aç.' : 'Dinliyor… konuş.');
+  }catch(e){
+    if(modeSel.value==='pc'){ releasePc(); setStatus('Chrome sürümün bilgisayar sesini çeviriye veremiyor. Chrome\'u güncelle (⋮ → Yardım → Google Chrome Hakkında) ve tekrar dene.',true); }
+    else setStatus('Başlatılamadı: '+e.message,true);
+  }
   ui();
   getTranslator(srcSel.value.split('|')[1]); // modeli önceden hazırla
 }
-function stop(){ running=false; try{rec&&rec.stop()}catch(e){} interim.textContent=''; setStatus('Durduruldu.'); ui(); }
+function stop(){ running=false; try{rec&&rec.stop()}catch(e){} releasePc(); interim.textContent=''; setStatus('Durduruldu.'); ui(); }
 function ui(){ btn.classList.toggle('on',running); btn.textContent=running?'⏹ Durdur':'🎤 Başlat'; dot.classList.toggle('on',running); }
 
 btn.addEventListener('click',()=> running?stop():start());
