@@ -80,7 +80,7 @@ srcSel.addEventListener('change',()=>{ try{localStorage.setItem('ceviri_src',src
 function setStatus(t,err){ stxt.textContent=t; statusEl.classList.toggle('err',!!err); }
 
 if(window.top!==window.self){ setStatus('Bu sayfa önizleme penceresinde açılmış; mikrofon burada çalışmaz. Dosyayı indirip Chrome ile aç.',true); }
-else if(location.protocol==='file:'){ setStatus('Hazır (dosyadan açıldı). Başlat\'a bas; mikrofon izni sorarsa İzin ver.'); }
+else if(location.protocol==='file:'){ setStatus('Bu sayfa bilgisayardaki dosyadan açılmış; Chrome burada mikrofonu sürekli sorar. Şu adresi kullan: hamzagul917-dotcom.github.io/trading-live/ceviri/',true); }
 if(!SR){ setStatus('Bu tarayıcı konuşma tanımayı desteklemiyor. Lütfen Google Chrome ile aç.',true); btn.disabled=true; }
 
 // --- Çeviri: 1) Chrome'un yerleşik çevirmeni, 2) Google, 3) MyMemory ---
@@ -125,7 +125,8 @@ function addItem(src){
     .catch(()=>{pt.textContent='(çeviri yapılamadı — internet bağlantısını kontrol et)';});
 }
 
-let pcStream=null, pcTrack=null;
+let pcStream=null, pcTrack=null, micStream=null;
+function releaseMic(){ if(micStream){ micStream.getTracks().forEach(t=>t.stop()); } micStream=null; }
 const modeSel=$('mode');
 try{ const m=localStorage.getItem('ceviri_mode'); if(m) modeSel.value=m; }catch(e){}
 modeSel.addEventListener('change',()=>{ try{localStorage.setItem('ceviri_mode',modeSel.value)}catch(e){} if(running){stop();start();} });
@@ -156,7 +157,14 @@ async function start(){
       else setStatus('Paylaşım iptal edildi. Tekrar Başlat\'a bas.',true);
       return;
     }
-  } else { releasePc(); }
+  } else {
+    releasePc();
+    // Mikrofonu açık tut: Chrome izni her yeniden başlatmada tekrar sormasın
+    if(!micStream || !micStream.active){
+      try{ micStream = await navigator.mediaDevices.getUserMedia({audio:true}); }
+      catch(e){ setStatus('Mikrofon izni verilmedi. Adres çubuğundaki kilit simgesi → Mikrofon → İzin ver.',true); return; }
+    }
+  }
   rec=new SR(); rec.lang=srcSel.value.split('|')[0]; rec.continuous=true; rec.interimResults=true;
   rec.onresult=e=>{
     let tmp='';
@@ -171,7 +179,7 @@ async function start(){
     if(e.error==='not-allowed'||e.error==='service-not-allowed'){ setStatus('Mikrofon izni yok. Adres çubuğundaki kilit/mikrofon simgesinden izin ver.',true); running=false; ui(); }
     else if(e.error==='network'){ setStatus('Konuşma tanıma için internet gerekiyor.',true); }
   };
-  rec.onend=()=>{ if(running){ try{recStart()}catch(e){} } }; // Chrome kendiliğinden durur, yeniden başlat
+  rec.onend=()=>{ if(running){ setTimeout(()=>{ if(running){ try{recStart()}catch(e){} } },250); } }; // Chrome kendiliğinden durur, yeniden başlat
   try{
     recStart(); running=true;
     setStatus(modeSel.value==='pc' ? 'Bilgisayar sesi dinleniyor… bir video ya da arama aç.' : 'Dinliyor… konuş.');
@@ -182,7 +190,7 @@ async function start(){
   ui();
   getTranslator(srcSel.value.split('|')[1]); // modeli önceden hazırla
 }
-function stop(){ running=false; try{rec&&rec.stop()}catch(e){} releasePc(); interim.textContent=''; setStatus('Durduruldu.'); ui(); }
+function stop(){ running=false; try{rec&&rec.stop()}catch(e){} releasePc(); releaseMic(); interim.textContent=''; setStatus('Durduruldu.'); ui(); }
 function ui(){ btn.classList.toggle('on',running); btn.textContent=running?'⏹ Durdur':'🎤 Başlat'; dot.classList.toggle('on',running); }
 
 btn.addEventListener('click',()=> running?stop():start());
